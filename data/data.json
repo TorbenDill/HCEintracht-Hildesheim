@@ -1,0 +1,27 @@
+{
+  "players": [
+    { "id": 1, "name": "Jan Wesemann", "number": 76, "position": "Torwart", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Jan-Wesemann-768x1365.png" },
+    { "id": 2, "name": "Leon Krka", "number": 99, "position": "Torwart", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Leon-Krka-768x1365.png" },
+    { "id": 3, "name": "Piet Möller", "number": 5, "position": "Rückraum Links", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Piet-Moeller-768x1365.png" },
+    { "id": 4, "name": "Philipp Wäger", "number": 17, "position": "Rückraum Mitte", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Philipp-Waeger-576x1024.png" },
+    { "id": 5, "name": "Jakub Tonar", "number": 19, "position": "Rückraum Mitte", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Jakub-Tonar-768x1365.png" },
+    { "id": 6, "name": "Matteo Ehlers", "number": 66, "position": "Rückraum Rechts", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Matteo-Ehlers-768x1365.png" },
+    { "id": 7, "name": "Florian Billepp", "number": 91, "position": "Rückraum Rechts", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Florian-Billepp-768x1365.png" },
+    { "id": 8, "name": "Petar Juric", "number": 11, "position": "Rückraum", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Petar-Juric-768x1365.png" },
+    { "id": 9, "name": "Luca Hopfmann", "number": 6, "position": "Rückraum Links", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Luca-Hopfmann-768x1365.png" },
+    { "id": 10, "name": "Jorit Reshöft", "number": 7, "position": "Rückraum", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Jorit-Reshoeft-768x1365.png" },
+    { "id": 11, "name": "Tjark Jonas", "number": 29, "position": "Außen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Tjark-Jonas-768x1365.png" },
+    { "id": 12, "name": "Henning Stoehr", "number": 18, "position": "Rechtsaußen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Henning-Stoehr-768x1365.png" },
+    { "id": 13, "name": "Peter Szmetan", "number": 10, "position": "Linksaußen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Peter-Szmetan-768x1365.png" },
+    { "id": 14, "name": "Lukas Quedenbaum", "number": 28, "position": "Außen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Lukas-Quedenbaum-768x1365.png" },
+    { "id": 15, "name": "Robin Müller", "number": 9, "position": "Kreisläufer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Robin-Mueller-768x1365.png" },
+    { "id": 16, "name": "Hendrik Hanemann", "number": 21, "position": "Kreisläufer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Henrik-Hanemann-768x1365.png" },
+    { "id": 17, "name": "Luis Rodriguez", "number": 44, "position": "Kreisläufer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Rodriguez-768x1365.png" }
+  ],
+  "staff": [
+    { "id": 101, "name": "Daniel Deutsch", "role": "Cheftrainer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_5982-768x1152.png" },
+    { "id": 102, "name": "Chris Meiser", "role": "Co-Trainer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_5562-768x1152.png" },
+    { "id": 103, "name": "Christof Klocke", "role": "Torwart-Coach", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_5683-1-768x1152.png" },
+    { "id": 104, "name": "Martin Kahl", "role": "Teammanager", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_6049-768x1152.png" }
+  ]
+}
