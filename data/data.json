@@ -1,27 +1,897 @@
-{
-  "players": [
-    { "id": 1, "name": "Jan Wesemann", "number": 76, "position": "Torwart", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Jan-Wesemann-768x1365.png" },
-    { "id": 2, "name": "Leon Krka", "number": 99, "position": "Torwart", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Leon-Krka-768x1365.png" },
-    { "id": 3, "name": "Piet Möller", "number": 5, "position": "Rückraum Links", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Piet-Moeller-768x1365.png" },
-    { "id": 4, "name": "Philipp Wäger", "number": 17, "position": "Rückraum Mitte", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Philipp-Waeger-576x1024.png" },
-    { "id": 5, "name": "Jakub Tonar", "number": 19, "position": "Rückraum Mitte", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Jakub-Tonar-768x1365.png" },
-    { "id": 6, "name": "Matteo Ehlers", "number": 66, "position": "Rückraum Rechts", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Matteo-Ehlers-768x1365.png" },
-    { "id": 7, "name": "Florian Billepp", "number": 91, "position": "Rückraum Rechts", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Florian-Billepp-768x1365.png" },
-    { "id": 8, "name": "Petar Juric", "number": 11, "position": "Rückraum", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Petar-Juric-768x1365.png" },
-    { "id": 9, "name": "Luca Hopfmann", "number": 6, "position": "Rückraum Links", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Luca-Hopfmann-768x1365.png" },
-    { "id": 10, "name": "Jorit Reshöft", "number": 7, "position": "Rückraum", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Jorit-Reshoeft-768x1365.png" },
-    { "id": 11, "name": "Tjark Jonas", "number": 29, "position": "Außen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Tjark-Jonas-768x1365.png" },
-    { "id": 12, "name": "Henning Stoehr", "number": 18, "position": "Rechtsaußen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Henning-Stoehr-768x1365.png" },
-    { "id": 13, "name": "Peter Szmetan", "number": 10, "position": "Linksaußen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Peter-Szmetan-768x1365.png" },
-    { "id": 14, "name": "Lukas Quedenbaum", "number": 28, "position": "Außen", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Lukas-Quedenbaum-768x1365.png" },
-    { "id": 15, "name": "Robin Müller", "number": 9, "position": "Kreisläufer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Robin-Mueller-768x1365.png" },
-    { "id": 16, "name": "Hendrik Hanemann", "number": 21, "position": "Kreisläufer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Henrik-Hanemann-768x1365.png" },
-    { "id": 17, "name": "Luis Rodriguez", "number": 44, "position": "Kreisläufer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2025/10/Rodriguez-768x1365.png" }
-  ],
-  "staff": [
-    { "id": 101, "name": "Daniel Deutsch", "role": "Cheftrainer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_5982-768x1152.png" },
-    { "id": 102, "name": "Chris Meiser", "role": "Co-Trainer", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_5562-768x1152.png" },
-    { "id": 103, "name": "Christof Klocke", "role": "Torwart-Coach", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_5683-1-768x1152.png" },
-    { "id": 104, "name": "Martin Kahl", "role": "Teammanager", "image": "https://www.hceintracht-hildesheim.de/wp-content/uploads/2024/08/11_6049-768x1152.png" }
-  ]
-}
+[
+  {
+    "name": "Fernando Mendoza",
+    "position": "QB",
+    "college": "Indiana",
+    "height": "1.94 m",
+    "weight": "107 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 3,
+    "forstner_statement": "Die Shanahan- oder McVay-Offense würde ihm gut zu Gesicht stehen.",
+    "piktogramme": [
+      "Spielintelligenz",
+      "Armstärke",
+      "Selbstvertrauen"
+    ],
+    "scouting_report_de": "Fernando Mendoza wirkt wie ein Quarterback, der den Wurf nicht zufällig findet, sondern ihn kontrolliert. Er liefert Ball Placement und Touch vor allem dann konstant, wenn das Play nicht perfekt aussieht. Bei leichtem Druck, engeren Fenstern oder wenn die Protection nur solide ist, funktioniert er trotzdem. In der Pocket bleibt er ruhig im Oberkörper, arbeitet mit kleinen, effizienten Schritten und hält dabei die Augen oben. Das hilft ihm bei seiner Vision und Antizipation. Er wartet nicht auf offene Optionen, sondern wirft in Räume, die gleich aufgehen. Dazu kommt eine Entscheidungsfindung, die eher prozessorientiert ist als impulsiv. Er nimmt den Checkdown, wenn er ihn nehmen muss, aber er ist nicht ängstlich. Das ist eher kontrollierte Aggressivität, gestützt durch Confidence und ein solides Gefühl für Risiko. Sein Armtalent ist ausreichend, um NFL-Würfe zu machen, aber nicht der zentrale Selling Point. Er gewinnt nicht über Wow-Momente, sondern über Timing, Rhythmus und saubere Mechanics.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Ty Simpson",
+    "position": "QB",
+    "college": "Alabama",
+    "height": "1.86 m",
+    "weight": "96 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 23,
+    "forstner_statement": "Simpson braucht klare Vorgaben und Zeit zur Entwicklung.",
+    "piktogramme": [
+      "Genauigkeit",
+      "Körperbeherrschung"
+    ],
+    "scouting_report_de": "Ty Simpson ist ein Quarterback von Alabama, der bei 1,88 m und 94 kg ein eher klassisches Profil als rhythmusorientierter Passer mit funktionaler Mobilität mitbringt. 2025 startete er alle 15 Spiele für die Crimson Tide und legte mit 3.567 Passing Yards, 28 Touchdowns und nur fünf Interceptions eine sehr saubere Saison hin.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Garrett Nussmeier",
+    "position": "QB",
+    "college": "LSU",
+    "height": "1.88 m",
+    "weight": "92 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 51,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Garrett Nussmeier (LSU) ist ein Quarterback, der über Armtalent, Aggressivität und Antizipation kommt. Er greift Fenster an, traut sich Würfe gegen enge Coverage zu und kann das Feld vertikal stressen.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Carson Beck",
+    "position": "QB",
+    "college": "Miami (FL)",
+    "height": "1.94 m",
+    "weight": "106 kg",
+    "ranking_pos": 4,
+    "ranking_overall": 92,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Carson Beck (Miami/FL) ist ein klassischer Pocket-Passer mit prototypischen Körpermaßen für die NFL und einem Spiel, das über Timing, Rhythmus und saubere Mechanics kommt.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Cade Klubnik",
+    "position": "QB",
+    "college": "Clemson",
+    "height": "1.88 m",
+    "weight": "94 kg",
+    "ranking_pos": 5,
+    "ranking_overall": 93,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Cade Klubnik ist ein erfahrener Quarterback von Clemson, der bei 1,88 m und 95 kg ein modernes Profil als rhythmischer Passer mit funktionaler Mobilität mitbringt.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Drew Allar",
+    "position": "QB",
+    "college": "Penn State",
+    "height": "1.97 m",
+    "weight": "103 kg",
+    "ranking_pos": 6,
+    "ranking_overall": 94,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Drew Allar (Penn State) ist ein prototypischer QB mit allen Anlagen und idealen Körpermaßen für die NFL.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Sawyer Robertson",
+    "position": "QB",
+    "college": "Baylor",
+    "height": "1.92 m",
+    "weight": "98 kg",
+    "ranking_pos": 7,
+    "ranking_overall": null,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Sawyer Robertson (Baylor) ist ein klassischer Pocket-Passer mit NFL-Körpermaßen.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Taylen Green",
+    "position": "QB",
+    "college": "Arkansas",
+    "height": "1.97 m",
+    "weight": "103 kg",
+    "ranking_pos": 8,
+    "ranking_overall": null,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Taylen Green (Arkansas) ist ein massiver Dual-Threat-Quarterback mit sehr guten athletischen Anlagen.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Cole Payton",
+    "position": "QB",
+    "college": "North Dakota State",
+    "height": "1.89 m",
+    "weight": "105 kg",
+    "ranking_pos": 9,
+    "ranking_overall": null,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Cole Payton ist ein dynamischer Quarterback von North Dakota State.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Derek Robertson",
+    "position": "QB",
+    "college": "Monmouth",
+    "height": "1.88 m",
+    "weight": "91 kg",
+    "ranking_pos": 10,
+    "ranking_overall": null,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Derek Robertson ist ein produktiver Quarterback von Monmouth.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Shedeur Sanders",
+    "position": "QB",
+    "college": "Colorado",
+    "height": "1.88 m",
+    "weight": "98 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 4,
+    "forstner_statement": "Der präziseste Passer dieser Klasse – eiskalt unter Druck.",
+    "piktogramme": [
+      "Genauigkeit",
+      "IQ",
+      "Leadership"
+    ],
+    "scouting_report_de": "Shedeur Sanders ist der beste Quarterback in diesem Draft und besticht vor allem durch seine unglaubliche Genauigkeit und seine Ruhe unter Druck.",
+    "best_case_nfl": "Joe Burrow (Stil)",
+    "worst_case_nfl": "Geno Smith"
+  },
+  {
+    "name": "Cam Ward",
+    "position": "QB",
+    "college": "Miami",
+    "height": "1.88 m",
+    "weight": "101 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 7,
+    "forstner_statement": "Ein kreativer Playmaker mit einem außergewöhnlichen Wurfarm.",
+    "piktogramme": [
+      "Arm Talent",
+      "Kreativität",
+      "Mobilität"
+    ],
+    "scouting_report_de": "Cam Ward ist einer der aufregendsten Spieler im Draft. Er besticht durch sein außergewöhnliches Arm Talent und seine Fähigkeit, Spielzüge zu verlängern und aus dem Nichts Big Plays zu kreieren.",
+    "best_case_nfl": "Patrick Mahomes (Stil)",
+    "worst_case_nfl": "Jordan Love (Stil)"
+  },
+  {
+    "name": "Jalen Milroe",
+    "position": "QB",
+    "college": "Alabama",
+    "height": "1.88 m",
+    "weight": "102 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 18,
+    "forstner_statement": "Ein physisches Kraftpaket mit elitärem Deep Ball.",
+    "piktogramme": [
+      "Deep Ball",
+      "Mobilität",
+      "Power"
+    ],
+    "scouting_report_de": "Jalen Milroe ist ein physisch beeindruckender Quarterback, der durch seinen elitären Deep Ball und seine enorme Mobilität besticht.",
+    "best_case_nfl": "Lamar Jackson (Stil)",
+    "worst_case_nfl": "Anthony Richardson"
+  },
+  {
+    "name": "Travis Hunter",
+    "position": "WR/CB",
+    "college": "Colorado",
+    "height": "1.85 m",
+    "weight": "84 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 1,
+    "forstner_statement": "Das größte Ausnahmetalent seit Jahrzehnten – egal auf welcher Position.",
+    "piktogramme": [
+      "Athletik",
+      "Ball Skills",
+      "Instinkte"
+    ],
+    "scouting_report_de": "Travis Hunter ist ein Einhorn. Die Tatsache, dass er auf beiden Seiten des Balls auf Elite-Niveau spielt, ist beispiellos. Als Receiver besticht er durch seine flüssigen Routen und seine unglaublichen Ball Skills.",
+    "best_case_nfl": "Charles Woodson (Hybrid)",
+    "worst_case_nfl": "Garrett Wilson"
+  },
+  {
+    "name": "Tetairoa McMillan",
+    "position": "WR",
+    "college": "Arizona",
+    "height": "1.96 m",
+    "weight": "95 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 3,
+    "forstner_statement": "Ein Catch-Radius, der physikalische Gesetze infrage stellt.",
+    "piktogramme": [
+      "Größe",
+      "Ball Skills",
+      "Catch Radius"
+    ],
+    "scouting_report_de": "Tetairoa McMillan ist ein physisches Phänomen. Mit 1,96 m ist er ein massives Ziel für jeden Quarterback. Seine größte Stärke ist seine Fähigkeit, Bälle am höchsten Punkt zu fangen.",
+    "best_case_nfl": "Mike Evans",
+    "worst_case_nfl": "Drake London"
+  },
+  {
+    "name": "Luther Burden III",
+    "position": "WR",
+    "college": "Missouri",
+    "height": "1.80 m",
+    "weight": "94 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 5,
+    "forstner_statement": "Nach dem Catch ist er ein Runningback im Körper eines Receivers.",
+    "piktogramme": [
+      "YAC",
+      "Explosivität",
+      "Härte"
+    ],
+    "scouting_report_de": "Luther Burden III ist eine dynamische Waffe. Seine größte Stärke ist das Spiel nach dem Catch (YAC).",
+    "best_case_nfl": "Deebo Samuel",
+    "worst_case_nfl": "DJ Moore"
+  },
+  {
+    "name": "Isaiah Bond",
+    "position": "WR",
+    "college": "Texas",
+    "height": "1.80 m",
+    "weight": "83 kg",
+    "ranking_pos": 4,
+    "ranking_overall": 18,
+    "forstner_statement": "Pure Geschwindigkeit, die jede Defense vertikal streckt.",
+    "piktogramme": [
+      "Speed",
+      "Deep Threat",
+      "Release"
+    ],
+    "scouting_report_de": "Isaiah Bond ist einer der schnellsten Spieler im Draft.",
+    "best_case_nfl": "Jaylen Waddle",
+    "worst_case_nfl": "Marquise Brown"
+  },
+  {
+    "name": "Emeka Egbuka",
+    "position": "WR",
+    "college": "Ohio State",
+    "height": "1.85 m",
+    "weight": "93 kg",
+    "ranking_pos": 5,
+    "ranking_overall": 22,
+    "forstner_statement": "Der technisch versierteste Receiver dieser Klasse.",
+    "piktogramme": [
+      "Route Running",
+      "Hände",
+      "IQ"
+    ],
+    "scouting_report_de": "Emeka Egbuka ist ein hochintelligenter und technisch nahezu perfekter Receiver.",
+    "best_case_nfl": "Keenan Allen",
+    "worst_case_nfl": "Jaxon Smith-Njigba"
+  },
+  {
+    "name": "Tre Harris",
+    "position": "WR",
+    "college": "Ole Miss",
+    "height": "1.88 m",
+    "weight": "95 kg",
+    "ranking_pos": 6,
+    "ranking_overall": 32,
+    "forstner_statement": "Ein physischer Receiver, der den 50/50-Ball liebt.",
+    "piktogramme": [
+      "Physis",
+      "Contested Catch",
+      "Stärke"
+    ],
+    "scouting_report_de": "Tre Harris ist ein klassischer X-Receiver mit beeindruckender Physis.",
+    "best_case_nfl": "Courtland Sutton",
+    "worst_case_nfl": "Michael Pittman Jr."
+  },
+  {
+    "name": "Elic Ayomanor",
+    "position": "WR",
+    "college": "Stanford",
+    "height": "1.88 m",
+    "weight": "95 kg",
+    "ranking_pos": 7,
+    "ranking_overall": 45,
+    "forstner_statement": "Ein intelligenter Receiver mit exzellenter Körperbeherrschung.",
+    "piktogramme": [
+      "Körperbeherrschung",
+      "Hände",
+      "Route Running"
+    ],
+    "scouting_report_de": "Elic Ayomanor ist ein technisch versierter Receiver.",
+    "best_case_nfl": "Amon-Ra St. Brown (Stil)",
+    "worst_case_nfl": "Jakobi Meyers"
+  },
+  {
+    "name": "Tai Felton",
+    "position": "WR",
+    "college": "Maryland",
+    "height": "1.88 m",
+    "weight": "84 kg",
+    "ranking_pos": 8,
+    "ranking_overall": 52,
+    "forstner_statement": "Ein explosiver Playmaker mit enormem Upside.",
+    "piktogramme": [
+      "Explosivität",
+      "Speed",
+      "YAC"
+    ],
+    "scouting_report_de": "Tai Felton ist ein hochveranlagter Receiver, der durch seine Explosivität und seine Schnelligkeit besticht.",
+    "best_case_nfl": "Chris Olave",
+    "worst_case_nfl": "Jahan Dotson"
+  },
+  {
+    "name": "Kyren Lacy",
+    "position": "WR",
+    "college": "LSU",
+    "height": "1.88 m",
+    "weight": "96 kg",
+    "ranking_pos": 9,
+    "ranking_overall": 58,
+    "forstner_statement": "Der nächste große Receiver aus der LSU-Schmiede.",
+    "piktogramme": [
+      "Physis",
+      "Hände",
+      "Route Running"
+    ],
+    "scouting_report_de": "Kyren Lacy setzt die Tradition starker LSU-Receiver fort.",
+    "best_case_nfl": "Brandon Aiyuk",
+    "worst_case_nfl": "Josh Palmer"
+  },
+  {
+    "name": "Tez Johnson",
+    "position": "WR",
+    "college": "Oregon",
+    "height": "1.78 m",
+    "weight": "73 kg",
+    "ranking_pos": 10,
+    "ranking_overall": 65,
+    "forstner_statement": "Ein flinker Slot-Receiver, der kaum zu greifen ist.",
+    "piktogramme": [
+      "Agilität",
+      "Quickness",
+      "Slot-Expertise"
+    ],
+    "scouting_report_de": "Tez Johnson ist ein klassischer Slot-Receiver mit herausragender Quickness und Agilität.",
+    "best_case_nfl": "Tank Dell",
+    "worst_case_nfl": "Wan Dale Robinson"
+  },
+  {
+    "name": "Jeremiyah Love",
+    "position": "RB",
+    "college": "Notre Dame",
+    "height": "1.83 m",
+    "weight": "96 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 2,
+    "forstner_statement": "Der größte Playmaker dieser Draftklasse",
+    "piktogramme": [
+      "Quickness",
+      "Körperbeherrschung",
+      "Geschwindigkeit"
+    ],
+    "scouting_report_de": "Jeremiyah Love ist ein Runningback von Notre Dame, der bei 1,83 m und 96 kg jedes Down spielen kann. 21 Total Touchdowns sind Schulrekord.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Jadarian Price",
+    "position": "RB",
+    "college": "Notre Dame",
+    "height": "1.79 m",
+    "weight": "92 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 28,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Jadarian Price ist ein dynamischer Runningback von Notre Dame, der vor allem mit Explosivität, Beschleunigung und Big-Play-Fähigkeit auffällt.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "Emmett Johnson",
+    "position": "RB",
+    "college": "Nebraska",
+    "height": "1.78 m",
+    "weight": "92 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 53,
+    "forstner_statement": null,
+    "piktogramme": [],
+    "scouting_report_de": "Emmett Johnson ist ein kompletter Runningback von Nebraska.",
+    "best_case_nfl": null,
+    "worst_case_nfl": null
+  },
+  {
+    "name": "TreVeyon Henderson",
+    "position": "RB",
+    "college": "Ohio State",
+    "height": "1.78 m",
+    "weight": "94 kg",
+    "ranking_pos": 6,
+    "ranking_overall": 82,
+    "forstner_statement": "Henderson ist der Prototyp des modernen Home-Run-Hitters.",
+    "piktogramme": [
+      "Geschwindigkeit",
+      "Explosivität",
+      "Vision"
+    ],
+    "scouting_report_de": "TreVeyon Henderson ist ein explosiver Runningback von Ohio State.",
+    "best_case_nfl": "Dalvin Cook",
+    "worst_case_nfl": "Raheem Mostert"
+  },
+  {
+    "name": "Quinshon Judkins",
+    "position": "RB",
+    "college": "Ohio State",
+    "height": "1.83 m",
+    "weight": "99 kg",
+    "ranking_pos": 7,
+    "ranking_overall": 85,
+    "forstner_statement": "Seine Kontaktbalance ist auf einem Level mit den Besten der letzten 5 Jahre.",
+    "piktogramme": [
+      "Kontaktbalance",
+      "Physis",
+      "Quickness"
+    ],
+    "scouting_report_de": "Quinshon Judkins ist ein physisch dominanter Runningback.",
+    "best_case_nfl": "Josh Jacobs",
+    "worst_case_nfl": "Chris Carson"
+  },
+  {
+    "name": "Omarion Hampton",
+    "position": "RB",
+    "college": "North Carolina",
+    "height": "1.83 m",
+    "weight": "100 kg",
+    "ranking_pos": 8,
+    "ranking_overall": 88,
+    "forstner_statement": "Ein Dampfhammer mit dem nötigen Feingefühl für die Lücke.",
+    "piktogramme": [
+      "Power",
+      "Ausdauer",
+      "One-Cut"
+    ],
+    "scouting_report_de": "Omarion Hampton ist ein kraftvoller Runner.",
+    "best_case_nfl": "Nick Chubb",
+    "worst_case_nfl": "Jordan Howard"
+  },
+  {
+    "name": "Colston Loveland",
+    "position": "TE",
+    "college": "Michigan",
+    "height": "1.96 m",
+    "weight": "111 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 15,
+    "forstner_statement": "Der modernste Tight End dieser Klasse – ein echtes Mismatch.",
+    "piktogramme": [
+      "Route Running",
+      "Hände",
+      "Athletik"
+    ],
+    "scouting_report_de": "Colston Loveland ist der Inbegriff eines modernen Tight Ends.",
+    "best_case_nfl": "Travis Kelce (Stil)",
+    "worst_case_nfl": "Mike Gesicki"
+  },
+  {
+    "name": "Tyler Warren",
+    "position": "TE",
+    "college": "Penn State",
+    "height": "1.98 m",
+    "weight": "117 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 25,
+    "forstner_statement": "Ein physisches Kraftpaket mit exzellenten Blocking-Qualitäten.",
+    "piktogramme": [
+      "Physis",
+      "Blocking",
+      "Hände"
+    ],
+    "scouting_report_de": "Tyler Warren ist ein klassischer Tight End mit beeindruckender Physis.",
+    "best_case_nfl": "T.J. Hockenson",
+    "worst_case_nfl": "Hunter Henry"
+  },
+  {
+    "name": "Mason Taylor",
+    "position": "TE",
+    "college": "LSU",
+    "height": "1.96 m",
+    "weight": "116 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 42,
+    "forstner_statement": "Ein zuverlässiger Tight End mit gutem Spielverständnis.",
+    "piktogramme": [
+      "Zuverlässigkeit",
+      "IQ",
+      "Hände"
+    ],
+    "scouting_report_de": "Mason Taylor ist ein verlässlicher Tight End.",
+    "best_case_nfl": "Dalton Schultz",
+    "worst_case_nfl": "Tyler Conklin"
+  },
+  {
+    "name": "Will Campbell",
+    "position": "OT",
+    "college": "LSU",
+    "height": "1.98 m",
+    "weight": "145 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 4,
+    "forstner_statement": "Der technisch versierteste Offensive Tackle dieser Klasse.",
+    "piktogramme": [
+      "Technik",
+      "Fußarbeit",
+      "IQ"
+    ],
+    "scouting_report_de": "Will Campbell ist ein hochintelligenter und technisch nahezu perfekter Offensive Tackle.",
+    "best_case_nfl": "Joe Thomas",
+    "worst_case_nfl": "Jonah Williams"
+  },
+  {
+    "name": "Kelvin Banks Jr.",
+    "position": "OT",
+    "college": "Texas",
+    "height": "1.93 m",
+    "weight": "147 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 6,
+    "forstner_statement": "Ein physisches Kraftpaket mit elitärem Potenzial.",
+    "piktogramme": [
+      "Physis",
+      "Stärke",
+      "Athletik"
+    ],
+    "scouting_report_de": "Kelvin Banks Jr. ist ein physisch dominanter Offensive Tackle.",
+    "best_case_nfl": "Trent Williams (Stil)",
+    "worst_case_nfl": "Ereck Flowers"
+  },
+  {
+    "name": "Aireontae Ersery",
+    "position": "OT",
+    "college": "Minnesota",
+    "height": "1.98 m",
+    "weight": "150 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 12,
+    "forstner_statement": "Ein massiver Tackle mit überraschender Beweglichkeit.",
+    "piktogramme": [
+      "Größe",
+      "Beweglichkeit",
+      "Power"
+    ],
+    "scouting_report_de": "Aireontae Ersery ist ein massiver Offensive Tackle.",
+    "best_case_nfl": "Jordan Mailata",
+    "worst_case_nfl": "Daniel Faalele"
+  },
+  {
+    "name": "Tyler Booker",
+    "position": "IOL",
+    "college": "Alabama",
+    "height": "1.96 m",
+    "weight": "159 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 32,
+    "forstner_statement": "Ein dominanter Guard mit elitärem Kraftpotenzial.",
+    "piktogramme": [
+      "Power",
+      "Physis",
+      "Härte"
+    ],
+    "scouting_report_de": "Tyler Booker ist ein physisch dominanter Guard.",
+    "best_case_nfl": "Quenton Nelson (Stil)",
+    "worst_case_nfl": "Ben Cleveland"
+  },
+  {
+    "name": "Donovan Jackson",
+    "position": "IOL",
+    "college": "Ohio State",
+    "height": "1.93 m",
+    "weight": "145 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 45,
+    "forstner_statement": "Ein athletischer Guard mit exzellenter Technik.",
+    "piktogramme": [
+      "Athletik",
+      "Technik",
+      "Fußarbeit"
+    ],
+    "scouting_report_de": "Donovan Jackson ist ein athletischer Guard.",
+    "best_case_nfl": "Wyatt Teller",
+    "worst_case_nfl": "Joshua Ezeudu"
+  },
+  {
+    "name": "Abdul Carter",
+    "position": "EDGE",
+    "college": "Penn State",
+    "height": "1.91 m",
+    "weight": "113 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 5,
+    "forstner_statement": "Ein explosiver Pass-Rusher mit elitärem Speed.",
+    "piktogramme": [
+      "Explosivität",
+      "Speed",
+      "Bending"
+    ],
+    "scouting_report_de": "Abdul Carter ist einer der aufregendsten Pass-Rusher in diesem Draft.",
+    "best_case_nfl": "Micah Parsons (Stil)",
+    "worst_case_nfl": "Vic Beasley"
+  },
+  {
+    "name": "Nic Scourton",
+    "position": "EDGE",
+    "college": "Texas A&M",
+    "height": "1.93 m",
+    "weight": "127 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 10,
+    "forstner_statement": "Ein physisches Kraftpaket mit beeindruckender Technik.",
+    "piktogramme": [
+      "Power",
+      "Technik",
+      "Physis"
+    ],
+    "scouting_report_de": "Nic Scourton ist ein physisch dominanter Edge-Rusher.",
+    "best_case_nfl": "Cameron Jordan",
+    "worst_case_nfl": "A.J. Epenesa"
+  },
+  {
+    "name": "James Pearce Jr.",
+    "position": "EDGE",
+    "college": "Tennessee",
+    "height": "1.96 m",
+    "weight": "110 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 18,
+    "forstner_statement": "Ein athletischer Freak mit unbegrenztem Potenzial.",
+    "piktogramme": [
+      "Athletik",
+      "Länge",
+      "Speed"
+    ],
+    "scouting_report_de": "James Pearce Jr. ist ein hochveranlagter Edge-Rusher.",
+    "best_case_nfl": "Brian Burns",
+    "worst_case_nfl": "K Lavon Chaisson"
+  },
+  {
+    "name": "Mason Graham",
+    "position": "DT",
+    "college": "Michigan",
+    "height": "1.91 m",
+    "weight": "144 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 3,
+    "forstner_statement": "Der dominanteste Interior Defensive Lineman dieser Klasse.",
+    "piktogramme": [
+      "Power",
+      "Technik",
+      "IQ"
+    ],
+    "scouting_report_de": "Mason Graham ist ein physisches Phänomen und der Inbegriff eines dominanten Defensive Tackles.",
+    "best_case_nfl": "Aaron Donald (Stil)",
+    "worst_case_nfl": "Ed Oliver"
+  },
+  {
+    "name": "Deone Walker",
+    "position": "DT",
+    "college": "Kentucky",
+    "height": "1.98 m",
+    "weight": "158 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 12,
+    "forstner_statement": "Ein massiver Gigant mit überraschender Beweglichkeit.",
+    "piktogramme": [
+      "Größe",
+      "Beweglichkeit",
+      "Power"
+    ],
+    "scouting_report_de": "Deone Walker ist ein massiver Defensive Tackle.",
+    "best_case_nfl": "Dexter Lawrence",
+    "worst_case_nfl": "Jordan Davis"
+  },
+  {
+    "name": "Kenneth Grant",
+    "position": "DT",
+    "college": "Michigan",
+    "height": "1.91 m",
+    "weight": "154 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 25,
+    "forstner_statement": "Ein physisches Kraftpaket mit elitärem Run-Stopping.",
+    "piktogramme": [
+      "Power",
+      "Blocking",
+      "Physis"
+    ],
+    "scouting_report_de": "Kenneth Grant ist ein physisch dominanter Defensive Tackle.",
+    "best_case_nfl": "Vita Vea",
+    "worst_case_nfl": "Danny Shelton"
+  },
+  {
+    "name": "Jihaad Campbell",
+    "position": "LB",
+    "college": "Alabama",
+    "height": "1.91 m",
+    "weight": "111 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 20,
+    "forstner_statement": "Der modernste Linebacker dieser Klasse – ein echter Allrounder.",
+    "piktogramme": [
+      "Athletik",
+      "Coverage",
+      "IQ"
+    ],
+    "scouting_report_de": "Jihaad Campbell ist der Inbegriff eines modernen Linebackers.",
+    "best_case_nfl": "Fred Warner (Stil)",
+    "worst_case_nfl": "Isaiah Simmons"
+  },
+  {
+    "name": "Jalon Walker",
+    "position": "LB",
+    "college": "Georgia",
+    "height": "1.88 m",
+    "weight": "111 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 30,
+    "forstner_statement": "Ein vielseitiger Playmaker mit exzellentem Pass-Rush.",
+    "piktogramme": [
+      "Vielseitigkeit",
+      "Pass Rush",
+      "Athletik"
+    ],
+    "scouting_report_de": "Jalon Walker ist ein extrem vielseitiger Linebacker.",
+    "best_case_nfl": "Micah Parsons (Stil)",
+    "worst_case_nfl": "Zaven Collins"
+  },
+  {
+    "name": "Will Johnson",
+    "position": "CB",
+    "college": "Michigan",
+    "height": "1.88 m",
+    "weight": "92 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 1,
+    "forstner_statement": "Der Prototyp eines Shutdown-Cornerbacks – technisch perfekt.",
+    "piktogramme": [
+      "Technik",
+      "Größe",
+      "IQ"
+    ],
+    "scouting_report_de": "Will Johnson ist der beste Cornerback in diesem Draft und ein echtes Ausnahmetalent.",
+    "best_case_nfl": "Patrick Surtain II",
+    "worst_case_nfl": "Jaycee Horn"
+  },
+  {
+    "name": "Benjamin Morrison",
+    "position": "CB",
+    "college": "Notre Dame",
+    "height": "1.83 m",
+    "weight": "86 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 8,
+    "forstner_statement": "Ein technisch versierter Cornerback mit exzellenten Instinkten.",
+    "piktogramme": [
+      "Instinkt",
+      "Technik",
+      "Ball Skills"
+    ],
+    "scouting_report_de": "Benjamin Morrison ist ein hochintelligenter Cornerback.",
+    "best_case_nfl": "Jaire Alexander",
+    "worst_case_nfl": "Denzel Ward (Stil)"
+  },
+  {
+    "name": "Shavon Revel Jr.",
+    "position": "CB",
+    "college": "East Carolina",
+    "height": "1.91 m",
+    "weight": "88 kg",
+    "ranking_pos": 4,
+    "ranking_overall": 15,
+    "forstner_statement": "Ein langer und athletischer Cornerback mit viel Potenzial.",
+    "piktogramme": [
+      "Länge",
+      "Athletik",
+      "Speed"
+    ],
+    "scouting_report_de": "Shavon Revel Jr. ist ein beeindruckend großer Cornerback.",
+    "best_case_nfl": "Tariq Woolen",
+    "worst_case_nfl": "Ahkello Witherspoon"
+  },
+  {
+    "name": "Tacario Davis",
+    "position": "CB",
+    "college": "Arizona",
+    "height": "1.93 m",
+    "weight": "88 kg",
+    "ranking_pos": 5,
+    "ranking_overall": 28,
+    "forstner_statement": "Ein massiver Cornerback mit beeindruckender Reichweite.",
+    "piktogramme": [
+      "Größe",
+      "Reichweite",
+      "Ball Skills"
+    ],
+    "scouting_report_de": "Tacario Davis ist einer der größten Cornerbacks im Draft.",
+    "best_case_nfl": "Richard Sherman (Stil)",
+    "worst_case_nfl": "Kevin King"
+  },
+  {
+    "name": "Malaki Starks",
+    "position": "S",
+    "college": "Georgia",
+    "height": "1.85 m",
+    "weight": "93 kg",
+    "ranking_pos": 1,
+    "ranking_overall": 10,
+    "forstner_statement": "Der Prototyp eines modernen Safetys – athletisch und smart.",
+    "piktogramme": [
+      "Athletik",
+      "IQ",
+      "Ball Skills"
+    ],
+    "scouting_report_de": "Malaki Starks ist der beste Safety in diesem Draft und ein echtes Ausnahmetalent.",
+    "best_case_nfl": "Derwin James (Stil)",
+    "worst_case_nfl": "Kyle Hamilton (Stil)"
+  },
+  {
+    "name": "Kevin Winston Jr.",
+    "position": "S",
+    "college": "Penn State",
+    "height": "1.88 m",
+    "weight": "93 kg",
+    "ranking_pos": 2,
+    "ranking_overall": 32,
+    "forstner_statement": "Ein physischer Safety mit exzellentem Tackling.",
+    "piktogramme": [
+      "Tackling",
+      "Physis",
+      "IQ"
+    ],
+    "scouting_report_de": "Kevin Winston Jr. ist ein physisch starker Safety.",
+    "best_case_nfl": "Harrison Smith (Stil)",
+    "worst_case_nfl": "Justin Evans"
+  },
+  {
+    "name": "Xavier Watts",
+    "position": "S",
+    "college": "Notre Dame",
+    "height": "1.83 m",
+    "weight": "92 kg",
+    "ranking_pos": 3,
+    "ranking_overall": 48,
+    "forstner_statement": "Ein Ball-Hawk mit exzellenten Instinkten.",
+    "piktogramme": [
+      "Ball Skills",
+      "Instinkt",
+      "Speed"
+    ],
+    "scouting_report_de": "Xavier Watts ist ein echter Ball-Hawk.",
+    "best_case_nfl": "Eddie Jackson (Stil)",
+    "worst_case_nfl": "Juan Thornhill"
+  }
+]

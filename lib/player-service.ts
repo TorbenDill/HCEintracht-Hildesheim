@@ -1,26 +1,34 @@
 import data from "@/data/data.json";
 
 export type Player = {
-  id: number;
   name: string;
-  number: number;
   position: string;
-  image: string;
+  college: string;
+  height: string;
+  weight: string;
+  ranking_pos: number;
+  ranking_overall: number | null;
+  forstner_statement: string | null;
+  piktogramme: string[];
+  scouting_report_de: string;
+  best_case_nfl: string | null;
+  worst_case_nfl: string | null;
 };
 
-export type StaffMember = {
-  id: number;
-  name: string;
-  role: string;
-  image: string;
-};
+const players: Player[] = data as Player[];
 
 export function getPlayers(): Player[] {
-  return data.players;
+  return players;
 }
 
-export function getStaff(): StaffMember[] {
-  return data.staff;
+export function getPlayerBySlug(slug: string): Player | undefined {
+  return players.find(
+    (p) => p.name.toLowerCase().replace(/\s+/g, "-").replace(/[.']/g, "") === slug
+  );
+}
+
+export function getPlayerSlug(name: string): string {
+  return name.toLowerCase().replace(/\s+/g, "-").replace(/[.']/g, "");
 }
 
 export function getPlayerImage(playerName: string): string {
@@ -29,11 +37,33 @@ export function getPlayerImage(playerName: string): string {
 }
 
 export function getPlayersByPosition(position: string): Player[] {
-  return data.players.filter(
-    (p) => p.position.toLowerCase() === position.toLowerCase()
-  );
+  return players
+    .filter((p) => p.position.toLowerCase() === position.toLowerCase())
+    .sort((a, b) => a.ranking_pos - b.ranking_pos);
 }
 
 export function getTop100(): Player[] {
-  return data.players.slice(0, 100);
+  return players
+    .filter((p) => p.ranking_overall !== null)
+    .sort((a, b) => (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999))
+    .slice(0, 100);
+}
+
+export function getAllPositions(): string[] {
+  const positions = new Set(players.map((p) => p.position));
+  return Array.from(positions);
+}
+
+export function searchPlayers(query: string): Player[] {
+  const q = query.toLowerCase();
+  return players.filter(
+    (p) =>
+      p.name.toLowerCase().includes(q) ||
+      p.college.toLowerCase().includes(q) ||
+      p.position.toLowerCase().includes(q)
+  );
+}
+
+export function getFeaturedProspect(): Player {
+  return players.find((p) => p.ranking_overall === 1) ?? players[0];
 }

@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "HCE Intracht Hildesheim",
-  description: "NFL Draft Buzz Style Dashboard",
+  title: "NFL Draft Board – Forstner Scouting",
+  description: "NFL Draft Buzz Style Dashboard powered by Forstner Scouting",
 };
 
 export default function RootLayout({
@@ -23,10 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="de"
-      className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
-    >
+    <html lang="de" className="h-full antialiased">
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
