@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #020617;
+  --color-foreground: #e2e8f0;
+  --color-muted: #94a3b8;
+
+  --color-primary: #00f2ff;
+  --color-primary-dark: #00c4cc;
+  --color-primary-glow: rgba(0, 242, 255, 0.15);
+
+  --color-accent: #39ff14;
+  --color-accent-dark: #2ecc10;
+  --color-accent-glow: rgba(57, 255, 20, 0.15);
+
+  --color-surface: #0f172a;
+  --color-surface-light: #1e293b;
+  --color-border: #1e293b;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Neon glow utilities */
+.glow-primary {
+  box-shadow: 0 0 12px rgba(0, 242, 255, 0.4), 0 0 32px rgba(0, 242, 255, 0.15);
+}
+
+.glow-accent {
+  box-shadow: 0 0 12px rgba(57, 255, 20, 0.4), 0 0 32px rgba(57, 255, 20, 0.15);
+}
+
+.text-glow-primary {
+  text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
+}
+
+.text-glow-accent {
+  text-shadow: 0 0 8px rgba(57, 255, 20, 0.6);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-light);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
