@@ -13,9 +13,17 @@ import {
 } from "@/lib/player-service";
 import { cn } from "@/lib/utils";
 
+const POSITION_ORDER = [
+  "QB", "RB", "WR", "TE", "OT", "G", "C", "IOL", "EDGE", "DT", "LB", "CB", "S", "K", "P", "LS",
+];
+
 export default function VerticalBoard() {
   const [selectedPosition, setSelectedPosition] = useState<string>("ALL");
-  const positions = getAllPositions();
+  const allPositions = getAllPositions();
+  const positions = [
+    ...POSITION_ORDER.filter((p) => allPositions.includes(p)),
+    ...allPositions.filter((p) => !POSITION_ORDER.includes(p)),
+  ];
 
   const players: Player[] =
     selectedPosition === "ALL"
@@ -65,7 +73,7 @@ export default function VerticalBoard() {
 
       {/* Player Rows */}
       <div className="flex flex-col gap-1">
-        {players.map((player, i) => {
+        {players.map((player) => {
           const rank =
             selectedPosition === "ALL"
               ? player.ranking_overall

@@ -12,7 +12,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const POSITION_ORDER = [
-  "QB", "RB", "WR", "WR/CB", "TE", "OT", "IOL", "EDGE", "DT", "LB", "CB", "CB/WR", "S",
+  "QB", "RB", "WR", "TE", "OT", "G", "C", "IOL", "EDGE", "DT", "LB", "CB", "S", "K", "P", "LS",
 ];
 
 export default function HorizontalBoard() {
