@@ -1,11 +1,48 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { SITE_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
+const description =
+  "NFL Draft 2027 Scouting-Dashboard auf Deutsch: Big Board, Positionsrankings, Spielerprofile und Mock Draft – powered by Forstner Scouting.";
+
 export const metadata: Metadata = {
-  title: "NFL Draft Board 2027 – Forstner Scouting",
-  description:
-    "NFL Draft 2027 Scouting Dashboard – Big Board, Positionsrankings und Mock Draft powered by Forstner Scouting",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: SITE_NAME,
+    template: "%s | NFL Draft Board 2027",
+  },
+  description,
+  applicationName: SITE_NAME,
+  keywords: [
+    "NFL Draft 2027",
+    "Big Board",
+    "Mock Draft",
+    "Scouting",
+    "NFL Prospects",
+    "Draftboard",
+    "College Football",
+    "deutsch",
+  ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: SITE_NAME,
+    description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
 };
 
 export default function RootLayout({

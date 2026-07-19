@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +9,7 @@ import {
   getPlayerSlug,
   getBoardMeta,
 } from "@/lib/player-service";
+import { absoluteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
 
@@ -96,6 +98,48 @@ export async function generateStaticParams() {
   return players.map((p) => ({ slug: getPlayerSlug(p.name) }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const player = getPlayerBySlug(slug);
+  const meta = getBoardMeta();
+
+  if (!player) {
+    return { title: "Spieler nicht gefunden" };
+  }
+
+  const rankPart =
+    player.ranking_overall != null ? `#${player.ranking_overall} · ` : "";
+  const title = `${player.name} – ${player.position}, ${player.college}`;
+  const description =
+    `NFL Draft ${meta.draftYear} Scouting-Profil: ${player.name} (${rankPart}` +
+    `${player.position}, ${player.college}). Steckbrief, Stärken/Schwächen, ` +
+    `Best- & Worst-Case-Vergleiche und deutsches Scouting-Fazit.`;
+  const path = `/player/${getPlayerSlug(player.name)}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: "profile",
+      title,
+      description,
+      url: absoluteUrl(path),
+      images: [{ url: getPlayerImage(player.name), alt: player.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [getPlayerImage(player.name)],
+    },
+  };
+}
+
 export default async function PlayerPage({
   params,
 }: {
@@ -109,8 +153,26 @@ export default async function PlayerPage({
     notFound();
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: player.name,
+    url: absoluteUrl(`/player/${getPlayerSlug(player.name)}`),
+    image: getPlayerImage(player.name),
+    jobTitle: `${player.position} – NFL Draft ${meta.draftYear} Prospect`,
+    affiliation: {
+      "@type": "CollegeOrUniversity",
+      name: player.college,
+    },
+    description: player.scouting_report_de.slice(0, 300),
+  };
+
   return (
     <main className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Back Navigation */}
       <div className="border-b border-border bg-surface">
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-6 py-3">
