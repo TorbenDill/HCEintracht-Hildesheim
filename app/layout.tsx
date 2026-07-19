@@ -56,7 +56,29 @@ export default function RootLayout({
   return (
     <html lang="de" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
-        {children}
+        <div className="flex-1">{children}</div>
+        <footer className="border-t border-border bg-surface">
+          <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-6 py-5 text-xs text-muted">
+            <span>
+              © {new Date().getFullYear()} Marketingberatung Dill · NFL Draft
+              Board 2027
+            </span>
+            <nav className="flex flex-wrap gap-4">
+              <a href="/" className="hover:text-primary">
+                Board
+              </a>
+              <a href="/mock-draft" className="hover:text-primary">
+                Mock Draft
+              </a>
+              <a href="/simulator" className="hover:text-primary">
+                Simulator
+              </a>
+              <a href="/impressum" className="hover:text-primary">
+                Impressum
+              </a>
+            </nav>
+          </div>
+        </footer>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3725697242603398"
