@@ -1,11 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import {
-  getMockDraft,
-  getBoardMeta,
-  getPlayerSlug,
-  getPlayerImage,
-} from "@/lib/player-service";
+import { getMockDraft, getBoardMeta, getPlayerSlug } from "@/lib/player-service";
+import PlayerAvatar from "@/components/PlayerAvatar";
 import AdSense from "@/components/AdSense";
 
 export const metadata = {
@@ -69,13 +65,7 @@ export default function MockDraftPage() {
 
               {/* Player Image */}
               <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-surface-light">
-                <Image
-                  src={getPlayerImage(pick.player)}
-                  alt={pick.player}
-                  fill
-                  className="object-cover"
-                  unoptimized
-                />
+                <PlayerAvatar name={pick.player} size="sm" />
               </div>
 
               {/* Team + Player */}

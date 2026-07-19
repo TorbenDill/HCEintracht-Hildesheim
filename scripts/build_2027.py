@@ -304,9 +304,11 @@ def main():
             "weight": p.get("weight") or "",
             "ranking_pos": pos_rank,
             "ranking_overall": p.get("overall_rank"),
-            "forstner_statement": build_forstner(p),
+            # Bevorzugt individuell geschriebene Texte; nur wenn keine
+            # vorhanden sind, greift der generische Fallback-Generator.
+            "forstner_statement": p.get("forstner") or build_forstner(p),
             "piktogramme": list(pikt),
-            "scouting_report_de": build_report(p),
+            "scouting_report_de": p.get("report_de") or build_report(p),
             "best_case_nfl": best,
             "worst_case_nfl": worst,
             "class_year": p.get("class_year"),
