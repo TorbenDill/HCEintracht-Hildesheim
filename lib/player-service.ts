@@ -1,4 +1,6 @@
 import data from "@/data/data.json";
+import boardMeta from "@/data/board-meta.json";
+import mockdraft from "@/data/mockdraft.json";
 
 export type Player = {
   name: string;
@@ -13,12 +15,42 @@ export type Player = {
   scouting_report_de: string;
   best_case_nfl: string | null;
   worst_case_nfl: string | null;
+  // Steckbrief (2027)
+  class_year?: string | null;
+  projection?: string | null;
+  sources?: string[];
+};
+
+export type BoardMeta = {
+  draftYear: number;
+  updated: string;
+  updateCycle: string;
+  sources: { name: string; url: string }[];
+  imageSource: { name: string; url: string };
+};
+
+export type MockPick = {
+  pick: number;
+  team: string;
+  teamAbbr: string;
+  player: string;
+  position: string;
+  college: string;
+  reason_de: string;
 };
 
 const players: Player[] = data as Player[];
 
 export function getPlayers(): Player[] {
   return players;
+}
+
+export function getBoardMeta(): BoardMeta {
+  return boardMeta as BoardMeta;
+}
+
+export function getMockDraft(): MockPick[] {
+  return mockdraft as MockPick[];
 }
 
 export function getPlayerBySlug(slug: string): Player | undefined {

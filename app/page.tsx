@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
+  getBoardMeta,
   getFeaturedProspect,
   getPlayerImage,
   getPlayerSlug,
@@ -12,6 +13,7 @@ import {
 import { cn } from "@/lib/utils";
 import VerticalBoard from "@/components/VerticalBoard";
 import HorizontalBoard from "@/components/HorizontalBoard";
+import AdSense from "@/components/AdSense";
 
 type BoardView = "vertical" | "horizontal";
 
@@ -19,6 +21,7 @@ export default function Home() {
   const [board, setBoard] = useState<BoardView>("vertical");
   const [query, setQuery] = useState("");
   const featured = getFeaturedProspect();
+  const meta = getBoardMeta();
   const results = query.length >= 2 ? searchPlayers(query) : [];
 
   return (
@@ -29,12 +32,19 @@ export default function Home() {
           <div>
             <h1 className="text-lg font-black uppercase tracking-widest text-foreground">
               NFL Draft
-              <span className="text-primary"> Board</span>
+              <span className="text-primary"> Board {meta.draftYear}</span>
             </h1>
             <p className="text-[10px] uppercase tracking-[0.4em] text-muted">
-              Powered by Forstner Scouting
+              Powered by Forstner Scouting · Stand {meta.updated}
             </p>
           </div>
+
+          <Link
+            href="/mock-draft"
+            className="rounded border border-primary/40 bg-primary-glow px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background"
+          >
+            Mock Draft {meta.draftYear}
+          </Link>
 
           {/* Search */}
           <div className="relative w-72">
@@ -196,6 +206,36 @@ export default function Home() {
         <section>
           {board === "vertical" ? <VerticalBoard /> : <HorizontalBoard />}
         </section>
+
+        {/* ── ANZEIGE ── */}
+        <section className="mt-10">
+          <AdSense slot="5635468031" />
+        </section>
+
+        {/* ── QUELLEN / FOOTER ── */}
+        <footer className="mt-12 rounded border border-border bg-surface p-5">
+          <h2 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+            Quellen &amp; Aktualisierung
+          </h2>
+          <ul className="mb-3 flex flex-col gap-1">
+            {meta.sources.map((s) => (
+              <li key={s.url}>
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"
+                >
+                  {s.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="text-[10px] text-muted/60">
+            Bildquelle Spielerportraits: {meta.imageSource.name} (
+            {meta.imageSource.url}) · Stand: {meta.updated} · {meta.updateCycle}
+          </p>
+        </footer>
       </div>
     </main>
   );
