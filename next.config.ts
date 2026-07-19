@@ -1,36 +1,32 @@
 import type { NextConfig } from "next";
 
-// Kanonischer Host. Alle anderen verbundenen Domains werden per 301 hierher
-// weitergeleitet (SEO: vermeidet Duplicate Content über mehrere TLDs).
-const CANONICAL_HOST = "nfldraft-scouting.de";
+// Kanonischer Host = www.nfldraft-scouting.de (passt zur Vercel-Einstellung:
+// apex -> www -> Production). Die anderen TLDs werden per 301 hierher
+// weitergeleitet (SEO: eine einzige kanonische Adresse).
+const CANONICAL = "https://www.nfldraft-scouting.de";
 
 const nextConfig: NextConfig = {
   async redirects() {
     return [
-      // www -> apex (kanonisch, ohne www)
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.nfldraft-scouting.de" }],
-        destination: `https://${CANONICAL_HOST}/:path*`,
-        permanent: true,
-      },
-      // Zusatz-Domains -> kanonische .de-Domain
+      // Zusatz-Domains (apex + www) -> kanonische www.de-Domain.
+      // .de selbst wird von Vercel (apex -> www) gehandhabt, daher hier NICHT
+      // aufgeführt, um eine Redirect-Schleife zu vermeiden.
       {
         source: "/:path*",
         has: [{ type: "host", value: "(www\\.)?nfldraft-scouting\\.com" }],
-        destination: `https://${CANONICAL_HOST}/:path*`,
+        destination: `${CANONICAL}/:path*`,
         permanent: true,
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "(www\\.)?nfldraft-scouting\\.store" }],
-        destination: `https://${CANONICAL_HOST}/:path*`,
+        destination: `${CANONICAL}/:path*`,
         permanent: true,
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "(www\\.)?nfldraft-scouting\\.global" }],
-        destination: `https://${CANONICAL_HOST}/:path*`,
+        destination: `${CANONICAL}/:path*`,
         permanent: true,
       },
     ];
