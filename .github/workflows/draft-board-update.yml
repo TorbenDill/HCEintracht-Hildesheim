@@ -1,0 +1,37 @@
+name: Draft Board 14-Tage-Update
+
+on:
+  schedule:
+    # Am 1. und 15. jedes Monats um 08:47 UTC (~alle 14 Tage)
+    - cron: "47 8 1,15 * *"
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+
+jobs:
+  create-update-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update-Issue erstellen
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Draft Board Update ${today} – NFL Draft 2027`,
+              labels: ["draft-update"],
+              body: [
+                "@claude Bitte führe das planmäßige 14-Tage-Update des NFL-Draft-2027-Boards durch:",
+                "",
+                "1. **Recherche**: Aktuelle Consensus-Rankings prüfen (nflmockdraftdatabase.com Consensus Big Board 2027, tankathon.com, ESPN, PFF, The Athletic, walterfootball.com, prodraftscouting.com, nfldraftbuzz.com – viele Seiten blocken direkte Fetches, dann Web-Suche über deren Inhalte nutzen).",
+                "2. **`data/research2027.json` aktualisieren**: Ranks/Projektionen verschieben, Riser/Faller einarbeiten, neue Namen ergänzen, Spieler entfernen, die nicht mehr draft-eligible sind. Deutsche `report_core_de`-Texte für neue/veränderte Spieler schreiben. Mock-Draft (32 Picks) an aktuelle Draft-Order-Projektionen und Team-Needs anpassen.",
+                "3. **`updated`-Datum** in `data/board-meta.json` auf heute setzen.",
+                "4. **Neu bauen**: `python3 scripts/build_2027.py` ausführen (erzeugt `data/data.json` + `data/mockdraft.json`), dann `npm install && npx next build` zur Verifikation.",
+                "5. **Deploy**: Änderungen committen und auf `main` pushen (Vercel deployt automatisch).",
+                "",
+                "Ziel: Das Board soll sich sichtbar mit der aktuellen Nachrichtenlage verschieben (Saisonleistungen, Verletzungen, Transfers, Declare-Entscheidungen)."
+              ].join("\n")
+            });
