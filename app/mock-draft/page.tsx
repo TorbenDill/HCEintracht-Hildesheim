@@ -9,8 +9,17 @@ import {
 import AdSense from "@/components/AdSense";
 
 export const metadata = {
-  title: "Mock Draft 2027 – Forstner Scouting",
-  description: "NFL Mock Draft 2027 – Runde 1 Projektion von Forstner Scouting",
+  title: "Mock Draft 2027 – Runde 1",
+  description:
+    "NFL Mock Draft 2027: komplette Runde 1 mit projizierter Draft-Reihenfolge, Team-Needs und deutscher Begründung zu jedem Pick.",
+  alternates: { canonical: "/mock-draft" },
+  openGraph: {
+    type: "article",
+    title: "NFL Mock Draft 2027 – Runde 1",
+    description:
+      "Alle 32 Erstrunden-Picks des NFL Draft 2027 mit deutscher Begründung.",
+    url: "/mock-draft",
+  },
 };
 
 export default function MockDraftPage() {
