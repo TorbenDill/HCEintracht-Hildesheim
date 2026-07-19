@@ -6,8 +6,10 @@ import {
   getPlayerImage,
   getPlayers,
   getPlayerSlug,
+  getBoardMeta,
 } from "@/lib/player-service";
 import { cn } from "@/lib/utils";
+import AdSense from "@/components/AdSense";
 
 const PIKTOGRAMM_ICONS: Record<string, string> = {
   Spielintelligenz: "🧠",
@@ -101,6 +103,7 @@ export default async function PlayerPage({
 }) {
   const { slug } = await params;
   const player = getPlayerBySlug(slug);
+  const meta = getBoardMeta();
 
   if (!player) {
     notFound();
@@ -148,6 +151,17 @@ export default async function PlayerPage({
             <div className="absolute bottom-3 right-3 rounded bg-primary px-3 py-1 text-sm font-black uppercase text-background">
               {player.position}
             </div>
+            {/* Image Attribution */}
+            <div className="absolute bottom-0 left-0 rounded-tr bg-background/80 px-2 py-0.5 backdrop-blur-sm">
+              <a
+                href={meta.imageSource.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[8px] uppercase tracking-wider text-muted/80 hover:text-primary"
+              >
+                Bild: {meta.imageSource.name}
+              </a>
+            </div>
           </div>
 
           {/* Player Info + Stats */}
@@ -159,14 +173,24 @@ export default async function PlayerPage({
               {player.name}
             </h1>
 
-            {/* Stat Boxes */}
+            {/* Steckbrief */}
             <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
-              <StatBox label="Größe" value={player.height} />
-              <StatBox label="Gewicht" value={player.weight} />
+              <StatBox label="Größe" value={player.height || "–"} />
+              <StatBox label="Gewicht" value={player.weight || "–"} />
               <StatBox
                 label="Pos. Rank"
                 value={`#${player.ranking_pos}`}
                 accent
+              />
+              {player.class_year && (
+                <StatBox label="College-Jahr" value={player.class_year} />
+              )}
+              {player.projection && (
+                <StatBox label="Projektion" value={player.projection} accent />
+              )}
+              <StatBox
+                label="Draft"
+                value={`${meta.draftYear}`}
               />
             </div>
 
@@ -246,6 +270,11 @@ export default async function PlayerPage({
           </section>
         )}
 
+        {/* ── ANZEIGE ── */}
+        <section className="mb-10">
+          <AdSense slot="6888694163" layout="in-article" />
+        </section>
+
         {/* ── SCOUTING REPORT ── */}
         <section className="mb-10">
           <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
@@ -254,6 +283,39 @@ export default async function PlayerPage({
           <div className="rounded-lg border border-border bg-surface p-6">
             <p className="whitespace-pre-line text-sm leading-relaxed text-foreground/85">
               {player.scouting_report_de}
+            </p>
+          </div>
+        </section>
+
+        {/* ── QUELLEN ── */}
+        <section className="mb-10">
+          <div className="rounded border border-border bg-surface p-5">
+            <h2 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+              Quellen
+            </h2>
+            {player.sources && player.sources.length > 0 && (
+              <p className="mb-2 text-xs text-muted">
+                Spielerinfos u.&nbsp;a. aus: {player.sources.join(", ")}
+              </p>
+            )}
+            <ul className="flex flex-col gap-1">
+              {meta.sources.map((s) => (
+                <li key={s.url}>
+                  <a
+                    href={s.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"
+                  >
+                    {s.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-3 text-[10px] text-muted/60">
+              Bildquelle Spielerportraits: {meta.imageSource.name} (
+              {meta.imageSource.url}) · Stand: {meta.updated} ·{" "}
+              {meta.updateCycle}
             </p>
           </div>
         </section>

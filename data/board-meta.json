@@ -1,0 +1,15 @@
+{
+  "draftYear": 2027,
+  "updated": "2026-07-19",
+  "updateCycle": "Aktualisierung alle 14 Tage",
+  "sources": [
+    { "name": "NFL Mock Draft Database – Consensus Big Board 2027", "url": "https://www.nflmockdraftdatabase.com/big-boards/2027/consensus-big-board-2027" },
+    { "name": "Tankathon – NFL Draft Order", "url": "https://www.tankathon.com/nfl/full-draft" },
+    { "name": "Pro Draft Scouting 2027", "url": "https://www.prodraftscouting.com/2027" },
+    { "name": "NFL Draft Buzz 2027", "url": "https://www.nfldraftbuzz.com/positions/ALL/1/2027" },
+    { "name": "WalterFootball 2027 Draft", "url": "https://walterfootball.com/draft2027charlie.php" },
+    { "name": "ESPN – 2027 Top Five Every Position", "url": "https://www.espn.com/nfl/draft2027/story/_/id/49001685/nfl-draft-2027-top-five-every-position-players-watch" },
+    { "name": "The Athletic – 2027 Underclassmen Prospects", "url": "https://www.nytimes.com/athletic/7443644/2026/07/15/nfl-draft-2027-underclassmen-prospects-carr-smith/" }
+  ],
+  "imageSource": { "name": "nfldraftbuzz.com", "url": "https://www.nfldraftbuzz.com" }
+}
