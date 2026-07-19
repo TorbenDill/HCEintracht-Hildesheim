@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
+import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
 const description =
@@ -76,15 +76,13 @@ export default function RootLayout({
               <a href="/impressum" className="hover:text-primary">
                 Impressum
               </a>
+              <a href="/datenschutz" className="hover:text-primary">
+                Datenschutz
+              </a>
             </nav>
           </div>
         </footer>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3725697242603398"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <CookieConsent />
       </body>
     </html>
   );
