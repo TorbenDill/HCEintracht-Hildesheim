@@ -8,7 +8,7 @@ import boardMeta from "@/data/board-meta.json";
 export const SITE_URL: string = (
   process.env.NEXT_PUBLIC_SITE_URL ||
   boardMeta.siteUrl ||
-  "https://nfldraft-scouting.de"
+  "https://www.nfldraft-scouting.de"
 ).replace(/\/$/, "");
 
 export const SITE_NAME: string =
