@@ -29,6 +29,27 @@ const ALL_POS = [
   "S",
 ];
 
+const SPEED_OPTIONS: { label: string; ms: number }[] = [
+  { label: "Langsam", ms: 1500 },
+  { label: "Normal", ms: 600 },
+  { label: "Schnell", ms: 200 },
+  { label: "Sofort", ms: 0 },
+];
+
+const CLOCK_OPTIONS: { label: string; s: number }[] = [
+  { label: "10:00 (Original)", s: 600 },
+  { label: "2:00", s: 120 },
+  { label: "1:00", s: 60 },
+  { label: "0:30", s: 30 },
+  { label: "Aus", s: 0 },
+];
+
+function fmtClock(sec: number): string {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m}:${String(s).padStart(2, "0")}`;
+}
+
 export default function MockSimulator() {
   const teams = useMemo(() => getDraftTeams(), []);
   const pool = useMemo(
@@ -48,6 +69,9 @@ export default function MockSimulator() {
   const [onClock, setOnClock] = useState(0);
   const [filter, setFilter] = useState("ALL");
   const [query, setQuery] = useState("");
+  const [cpuMs, setCpuMs] = useState(600); // CPU-Tempo (Team-Modus)
+  const [clockLen, setClockLen] = useState(120); // Pick-Uhr in Sek. (GM-Modus)
+  const [timeLeft, setTimeLeft] = useState(120);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const pickedNames = useMemo(
@@ -83,9 +107,28 @@ export default function MockSimulator() {
     const t = setTimeout(() => {
       const choice = cpuPick(team.needs, available);
       if (choice) makePick(choice);
-    }, 350);
+    }, cpuMs);
     return () => clearTimeout(t);
-  }, [finished, mode, onClock, yourTeam, teams, available, makePick]);
+  }, [finished, mode, onClock, yourTeam, teams, available, makePick, cpuMs]);
+
+  // Pick-Uhr (GM-Modus): bei jedem neuen Pick zurücksetzen.
+  useEffect(() => {
+    setTimeLeft(clockLen);
+  }, [onClock, clockLen]);
+
+  // Countdown herunterzählen, solange der Nutzer am Zug ist.
+  useEffect(() => {
+    if (finished || mode !== "gm" || clockLen === 0) return;
+    if (timeLeft <= 0) return;
+    const t = setTimeout(() => setTimeLeft((s) => s - 1), 1000);
+    return () => clearTimeout(t);
+  }, [finished, mode, clockLen, timeLeft]);
+
+  // Zeit abgelaufen -> automatisch den besten verfügbaren Spieler picken.
+  useEffect(() => {
+    if (finished || mode !== "gm" || clockLen === 0 || timeLeft > 0) return;
+    if (available.length > 0) makePick(available[0]);
+  }, [finished, mode, clockLen, timeLeft, available, makePick]);
 
   function reset(toMode: Mode | null) {
     setMode(toMode);
@@ -94,6 +137,7 @@ export default function MockSimulator() {
     setOnClock(0);
     setFilter("ALL");
     setQuery("");
+    setTimeLeft(clockLen);
   }
 
   const visibleAvailable = available.filter((p) => {
@@ -324,13 +368,89 @@ export default function MockSimulator() {
             </p>
           )}
         </div>
-        <button
-          onClick={() => reset(mode)}
-          className="rounded border border-border bg-surface px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted hover:border-primary hover:text-primary"
-        >
-          Neu starten
-        </button>
+
+        <div className="flex items-center gap-3">
+          {/* GM-Modus: Pick-Uhr */}
+          {mode === "gm" && !finished && clockLen > 0 && (
+            <div
+              className={cn(
+                "rounded border px-4 py-2 text-center font-mono",
+                timeLeft <= 10
+                  ? "animate-pulse border-red-500 bg-red-500/15 text-red-400"
+                  : timeLeft <= 30
+                    ? "border-accent/50 bg-accent-glow text-accent"
+                    : "border-border bg-surface text-foreground"
+              )}
+            >
+              <span className="block text-[9px] uppercase tracking-widest text-muted">
+                On the Clock
+              </span>
+              <span className="text-2xl font-black tabular-nums">
+                {fmtClock(timeLeft)}
+              </span>
+            </div>
+          )}
+          <button
+            onClick={() => reset(mode)}
+            className="rounded border border-border bg-surface px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted hover:border-primary hover:text-primary"
+          >
+            Neu starten
+          </button>
+        </div>
       </div>
+
+      {/* Einstellungen: CPU-Tempo (Team) / Pick-Uhr (GM) */}
+      {!finished && (
+        <div className="mb-5 flex flex-wrap items-center gap-2 rounded border border-border bg-surface/60 px-4 py-2.5">
+          {mode === "team" ? (
+            <>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-muted">
+                CPU-Tempo:
+              </span>
+              {SPEED_OPTIONS.map((o) => (
+                <button
+                  key={o.label}
+                  onClick={() => setCpuMs(o.ms)}
+                  className={cn(
+                    "rounded px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider",
+                    cpuMs === o.ms
+                      ? "bg-primary text-background"
+                      : "border border-border bg-surface text-muted hover:text-primary"
+                  )}
+                >
+                  {o.label}
+                </button>
+              ))}
+            </>
+          ) : (
+            <>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-muted">
+                Pick-Uhr:
+              </span>
+              {CLOCK_OPTIONS.map((o) => (
+                <button
+                  key={o.label}
+                  onClick={() => {
+                    setClockLen(o.s);
+                    setTimeLeft(o.s);
+                  }}
+                  className={cn(
+                    "rounded px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider",
+                    clockLen === o.s
+                      ? "bg-primary text-background"
+                      : "border border-border bg-surface text-muted hover:text-primary"
+                  )}
+                >
+                  {o.label}
+                </button>
+              ))}
+              <span className="ml-1 text-[10px] text-muted/70">
+                Läuft die Uhr ab, pickt automatisch der beste verfügbare Spieler.
+              </span>
+            </>
+          )}
+        </div>
+      )}
 
       {/* Download-Leiste bei Fertigstellung */}
       {finished && (
