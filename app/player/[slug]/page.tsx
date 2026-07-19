@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import {
   getPlayerBySlug,
@@ -12,6 +11,7 @@ import {
 import { absoluteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
+import PlayerAvatar from "@/components/PlayerAvatar";
 
 const PIKTOGRAMM_ICONS: Record<string, string> = {
   Spielintelligenz: "🧠",
@@ -194,13 +194,7 @@ export default async function PlayerPage({
         <section className="mb-10 grid gap-8 lg:grid-cols-[300px_1fr]">
           {/* Player Image */}
           <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-border bg-surface">
-            <Image
-              src={getPlayerImage(player.name)}
-              alt={player.name}
-              fill
-              className="object-cover"
-              unoptimized
-            />
+            <PlayerAvatar name={player.name} size="lg" />
             {/* Rank Overlay */}
             {player.ranking_overall && (
               <div className="absolute left-3 top-3 rounded bg-background/90 px-3 py-1.5 backdrop-blur-sm">

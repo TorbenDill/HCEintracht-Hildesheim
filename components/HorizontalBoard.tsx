@@ -2,13 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import {
   getAllPositions,
   getPlayersByPosition,
-  getPlayerImage,
   getPlayerSlug,
 } from "@/lib/player-service";
+import PlayerAvatar from "@/components/PlayerAvatar";
 import { cn } from "@/lib/utils";
 
 const POSITION_ORDER = [
@@ -106,13 +105,7 @@ export default function HorizontalBoard() {
 
                         {/* Image */}
                         <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border">
-                          <Image
-                            src={getPlayerImage(player.name)}
-                            alt={player.name}
-                            fill
-                            className="object-cover"
-                            unoptimized
-                          />
+                          <PlayerAvatar name={player.name} size="sm" />
                         </div>
 
                         {/* Overall Rank */}

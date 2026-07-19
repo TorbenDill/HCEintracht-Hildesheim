@@ -2,17 +2,16 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import {
   getBoardMeta,
   getFeaturedProspect,
-  getPlayerImage,
   getPlayerSlug,
   searchPlayers,
 } from "@/lib/player-service";
 import { cn } from "@/lib/utils";
 import VerticalBoard from "@/components/VerticalBoard";
 import HorizontalBoard from "@/components/HorizontalBoard";
+import PlayerAvatar from "@/components/PlayerAvatar";
 import AdSense from "@/components/AdSense";
 
 type BoardView = "vertical" | "horizontal";
@@ -39,12 +38,20 @@ export default function Home() {
             </p>
           </div>
 
-          <Link
-            href="/mock-draft"
-            className="rounded border border-primary/40 bg-primary-glow px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background"
-          >
-            Mock Draft {meta.draftYear}
-          </Link>
+          <div className="flex gap-2">
+            <Link
+              href="/mock-draft"
+              className="rounded border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary"
+            >
+              Mock Draft
+            </Link>
+            <Link
+              href="/simulator"
+              className="rounded border border-primary/40 bg-primary-glow px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background"
+            >
+              Simulator
+            </Link>
+          </div>
 
           {/* Search */}
           <div className="relative w-72">
@@ -77,13 +84,7 @@ export default function Home() {
                     className="flex items-center gap-3 border-b border-border px-4 py-2.5 transition-colors hover:bg-surface-light"
                   >
                     <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border">
-                      <Image
-                        src={getPlayerImage(p.name)}
-                        alt={p.name}
-                        fill
-                        className="object-cover"
-                        unoptimized
-                      />
+                      <PlayerAvatar name={p.name} size="sm" />
                     </div>
                     <div className="min-w-0 flex-1">
                       <p className="truncate text-sm font-bold text-foreground">
@@ -107,6 +108,37 @@ export default function Home() {
       </header>
 
       <div className="mx-auto max-w-7xl px-6 py-8">
+        {/* ── HERO ── */}
+        <section className="mb-10 overflow-hidden rounded-xl border border-border bg-surface/60 px-6 py-10 sm:px-10">
+          <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.5em] text-primary">
+            Consensus Big Board
+          </p>
+          <h2 className="text-4xl font-black uppercase leading-none tracking-tight text-foreground sm:text-6xl">
+            NFL Draft <span className="text-primary text-glow-primary">2027</span>
+          </h2>
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+            Big Board, Positionsrankings und Mock Draft für die Klasse 2027 –
+            mit deutschem Scouting-Profil zu jedem Prospect. {meta.updateCycle}.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href="/simulator"
+              className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background transition-all glow-primary hover:brightness-110"
+            >
+              Simulator starten →
+            </Link>
+            <Link
+              href="/mock-draft"
+              className="rounded border border-primary/40 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary-glow"
+            >
+              Mock Draft ansehen
+            </Link>
+            <span className="rounded border border-border bg-surface px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-muted">
+              Stand {meta.updated}
+            </span>
+          </div>
+        </section>
+
         {/* ── FEATURED PROSPECT ── */}
         <section className="mb-10">
           <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.4em] text-primary">
@@ -118,13 +150,7 @@ export default function Home() {
           >
             {/* Image */}
             <div className="relative h-64 md:h-auto">
-              <Image
-                src={getPlayerImage(featured.name)}
-                alt={featured.name}
-                fill
-                className="object-cover"
-                unoptimized
-              />
+              <PlayerAvatar name={featured.name} size="lg" />
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-surface md:bg-gradient-to-r" />
             </div>
 

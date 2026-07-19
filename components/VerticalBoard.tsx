@@ -2,15 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import {
   getTop100,
   getAllPositions,
   getPlayersByPosition,
-  getPlayerImage,
   getPlayerSlug,
   type Player,
 } from "@/lib/player-service";
+import PlayerAvatar from "@/components/PlayerAvatar";
 import { cn } from "@/lib/utils";
 
 const POSITION_ORDER = [
@@ -100,13 +99,7 @@ export default function VerticalBoard() {
 
               {/* Player Image */}
               <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-surface-light">
-                <Image
-                  src={getPlayerImage(player.name)}
-                  alt={player.name}
-                  fill
-                  className="object-cover"
-                  unoptimized
-                />
+                <PlayerAvatar name={player.name} size="sm" />
               </div>
 
               {/* Name & Piktogramme */}
