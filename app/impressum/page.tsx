@@ -54,12 +54,47 @@ export default function ImpressumPage() {
               Kontakt
             </h2>
             <p>
+              Telefon:{" "}
+              <a
+                href="tel:+491724522519"
+                className="text-primary hover:underline"
+              >
+                0172 4522519
+              </a>
+              <br />
               E-Mail:{" "}
               <a
                 href="mailto:info@marketingberatung-dill.de"
                 className="text-primary hover:underline"
               >
                 info@marketingberatung-dill.de
+              </a>
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Berufsbezeichnung
+            </h2>
+            <p>Freiberuflich tätig (Marketingberatung).</p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Social Media und andere Onlinepräsenzen
+            </h2>
+            <p>
+              Dieses Impressum gilt auch für die folgenden Social-Media-
+              Präsenzen und Onlineprofile:
+              <br />
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/torben-dill-6094251b8/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                linkedin.com/in/torben-dill-6094251b8
               </a>
             </p>
           </section>
