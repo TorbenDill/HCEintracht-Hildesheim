@@ -7,13 +7,15 @@ on:
     types: [opened]
   pull_request_review_comment:
     types: [created]
+  workflow_dispatch: {}
 
 jobs:
   claude:
     if: |
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude')) ||
-      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude'))
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude') && github.actor != 'claude[bot]') ||
+      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude') && github.actor != 'claude[bot]') ||
+      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude') && github.actor != 'claude[bot]')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,3 +33,4 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: ${{ github.event_name == 'workflow_dispatch' && 'Öffne das neueste offene Issue mit dem Label draft-update in diesem Repository und setze die dort beschriebene Aufgabe vollständig um (Recherche, data/research2027.json aktualisieren, scripts/build_2027.py ausführen, next build verifizieren, committen und auf main pushen).' || '' }}
