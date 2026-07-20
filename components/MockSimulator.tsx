@@ -12,7 +12,7 @@ import {
 import { SITE_URL } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
-type Mode = "team" | "gm";
+type Mode = "team" | "gm" | "party";
 
 const ALL_POS = [
   "ALL",
@@ -69,7 +69,10 @@ export default function MockSimulator() {
   const [onClock, setOnClock] = useState(0);
   const [filter, setFilter] = useState("ALL");
   const [query, setQuery] = useState("");
-  const [cpuMs, setCpuMs] = useState(600); // CPU-Tempo (Team-Modus)
+  const [cpuMs, setCpuMs] = useState(600); // CPU-Tempo (Team/Party)
+  const [humanCount, setHumanCount] = useState(2); // Party: Anzahl Personen
+  const [assignments, setAssignments] = useState<Record<number, number>>({}); // Team-Index -> Spieler-Nr
+  const [setupPlayer, setSetupPlayer] = useState(1);
   const [clockLen, setClockLen] = useState(120); // Pick-Uhr in Sek. (GM-Modus)
   const [timeLeft, setTimeLeft] = useState(120);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -84,8 +87,13 @@ export default function MockSimulator() {
   );
 
   const finished = onClock >= teams.length;
+  const partyReady =
+    mode !== "party" || Object.keys(assignments).length >= humanCount;
   const isUserPick =
-    !finished && (mode === "gm" || (mode === "team" && onClock === yourTeam));
+    !finished &&
+    (mode === "gm" ||
+      (mode === "team" && onClock === yourTeam) ||
+      (mode === "party" && partyReady && assignments[onClock] !== undefined));
 
   const makePick = useCallback(
     (player: Player) => {
@@ -101,7 +109,9 @@ export default function MockSimulator() {
 
   // CPU rückt automatisch vor, wenn im Team-Modus ein fremdes Team dran ist.
   useEffect(() => {
-    if (finished || mode !== "team" || yourTeam === null || onClock === yourTeam)
+    if (finished || mode === null || mode === "gm") return;
+    if (mode === "team" && (yourTeam === null || onClock === yourTeam)) return;
+    if (mode === "party" && (!partyReady || assignments[onClock] !== undefined))
       return;
     const team = teams[onClock];
     const t = setTimeout(() => {
@@ -109,7 +119,7 @@ export default function MockSimulator() {
       if (choice) makePick(choice);
     }, cpuMs);
     return () => clearTimeout(t);
-  }, [finished, mode, onClock, yourTeam, teams, available, makePick, cpuMs]);
+  }, [finished, mode, onClock, yourTeam, teams, available, makePick, cpuMs, partyReady, assignments]);
 
   // Pick-Uhr (GM-Modus): bei jedem neuen Pick zurücksetzen.
   useEffect(() => {
@@ -118,17 +128,19 @@ export default function MockSimulator() {
 
   // Countdown herunterzählen, solange der Nutzer am Zug ist.
   useEffect(() => {
-    if (finished || mode !== "gm" || clockLen === 0) return;
+    const clockActive = mode === "gm" || (mode === "party" && isUserPick);
+    if (finished || !clockActive || clockLen === 0) return;
     if (timeLeft <= 0) return;
     const t = setTimeout(() => setTimeLeft((s) => s - 1), 1000);
     return () => clearTimeout(t);
-  }, [finished, mode, clockLen, timeLeft]);
+  }, [finished, mode, clockLen, timeLeft, isUserPick]);
 
   // Zeit abgelaufen -> automatisch den besten verfügbaren Spieler picken.
   useEffect(() => {
-    if (finished || mode !== "gm" || clockLen === 0 || timeLeft > 0) return;
+    const clockActive = mode === "gm" || (mode === "party" && isUserPick);
+    if (finished || !clockActive || clockLen === 0 || timeLeft > 0) return;
     if (available.length > 0) makePick(available[0]);
-  }, [finished, mode, clockLen, timeLeft, available, makePick]);
+  }, [finished, mode, clockLen, timeLeft, available, makePick, isUserPick]);
 
   function reset(toMode: Mode | null) {
     setMode(toMode);
@@ -137,6 +149,8 @@ export default function MockSimulator() {
     setOnClock(0);
     setFilter("ALL");
     setQuery("");
+    setAssignments({});
+    setSetupPlayer(1);
     setTimeLeft(clockLen);
   }
 
@@ -184,7 +198,9 @@ export default function MockSimulator() {
       const subtitle =
         mode === "team" && yourTeam != null
           ? `${teams[yourTeam].team} · GM-Edition`
-          : "Runde 1 · GM-Modus";
+          : mode === "party"
+            ? `${humanCount} Personen · Community Mock`
+            : "Runde 1 · GM-Modus";
       ctx.fillText(subtitle, pad, 214);
 
       // Rows
@@ -197,7 +213,9 @@ export default function MockSimulator() {
       for (let i = 0; i < n; i++) {
         const p = picks[i];
         const y = headerH + i * rowH;
-        const mine = mode === "team" && i === yourTeam;
+        const mine =
+          (mode === "team" && i === yourTeam) ||
+          (mode === "party" && assignments[i] !== undefined);
 
         if (mine) {
           ctx.fillStyle = "rgba(238,112,20,0.10)";
@@ -268,13 +286,13 @@ export default function MockSimulator() {
         URL.revokeObjectURL(url);
       }, "image/png");
     },
-    [picks, teams, mode, yourTeam]
+    [picks, teams, mode, yourTeam, assignments, humanCount]
   );
 
   // ---------- RENDER ----------
   if (mode === null) {
     return (
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-3">
         <button
           onClick={() => reset("team")}
           className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
@@ -299,6 +317,96 @@ export default function MockSimulator() {
             Ergebnis als Social-Media-Bild (4:5 & 9:16) herunter.
           </p>
         </button>
+        <button
+          onClick={() => reset("party")}
+          className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
+        >
+          <h3 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
+            Party-Modus · 2-6 Personen
+          </h3>
+          <p className="text-sm text-muted">
+            Jede Person übernimmt eine Franchise, die CPU draftet den Rest.
+            Perfekt für Podcasts und Livestreams.
+          </p>
+        </button>
+      </div>
+    );
+  }
+
+  if (mode === "party" && !partyReady) {
+    return (
+      <div>
+        <div className="mb-4 flex items-center justify-between">
+          <h3 className="text-sm font-bold uppercase tracking-widest text-primary">
+            Party-Setup
+          </h3>
+          <button
+            onClick={() => reset(null)}
+            className="text-xs uppercase tracking-wider text-muted hover:text-primary"
+          >
+            &larr; Zurück
+          </button>
+        </div>
+        <div className="mb-5 flex flex-wrap items-center gap-2">
+          <span className="text-[10px] font-bold uppercase tracking-widest text-muted">
+            Personen:
+          </span>
+          {[2, 3, 4, 5, 6].map((n) => (
+            <button
+              key={n}
+              onClick={() => {
+                setHumanCount(n);
+                setAssignments({});
+                setSetupPlayer(1);
+              }}
+              className={cn(
+                "rounded-full px-3.5 py-1.5 text-xs font-bold",
+                humanCount === n
+                  ? "bg-primary text-background"
+                  : "border border-border bg-surface text-muted hover:text-primary"
+              )}
+            >
+              {n}
+            </button>
+          ))}
+        </div>
+        <p className="mb-3 text-sm font-bold text-foreground">
+          Spieler {setupPlayer} von {humanCount}: Franchise wählen
+        </p>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+          {teams.map((t, i) => {
+            const taken = assignments[i];
+            return (
+              <button
+                key={t.teamAbbr}
+                disabled={taken !== undefined}
+                onClick={() => {
+                  setAssignments((prev) => ({ ...prev, [i]: setupPlayer }));
+                  setSetupPlayer((n) => n + 1);
+                }}
+                className={cn(
+                  "rounded border px-3 py-3 text-left",
+                  taken !== undefined
+                    ? "border-primary/40 bg-primary-glow opacity-80"
+                    : "card-lift border-border bg-surface hover:border-primary/50"
+                )}
+              >
+                <p className="text-[10px] font-mono text-muted">
+                  Pick {t.pick}
+                  {taken !== undefined && (
+                    <span className="ml-1 font-bold text-primary">
+                      P{taken}
+                    </span>
+                  )}
+                </p>
+                <p className="text-sm font-bold text-foreground">{t.team}</p>
+                <p className="mt-1 truncate text-[10px] text-muted">
+                  Bedarf: {t.needs.join(", ")}
+                </p>
+              </button>
+            );
+          })}
+        </div>
       </div>
     );
   }
@@ -344,15 +452,19 @@ export default function MockSimulator() {
           <p className="text-xs uppercase tracking-widest text-muted">
             {mode === "team"
               ? `Deine Franchise: ${teams[yourTeam!].team}`
-              : "GM-Modus – alle Picks"}
+              : mode === "party"
+                ? `Party-Modus: ${humanCount} Personen, Rest CPU`
+                : "GM-Modus: alle Picks"}
           </p>
           {!finished ? (
             <p className="text-lg font-black uppercase tracking-tight text-foreground">
               Pick {onClock + 1} ·{" "}
               <span className="text-primary">{teams[onClock].team}</span>
               {isUserPick ? (
-                <span className="ml-2 rounded bg-primary px-2 py-0.5 text-[10px] text-background">
-                  DU BIST DRAN
+                <span className="ml-2 rounded-full bg-primary px-2.5 py-0.5 text-[10px] text-background">
+                  {mode === "party"
+                    ? `SPIELER ${assignments[onClock]} IST DRAN`
+                    : "DU BIST DRAN"}
                 </span>
               ) : (
                 <span className="ml-2 animate-pulse text-xs text-muted">
@@ -369,7 +481,9 @@ export default function MockSimulator() {
 
         <div className="flex items-center gap-3">
           {/* GM-Modus: Pick-Uhr */}
-          {mode === "gm" && !finished && clockLen > 0 && (
+          {(mode === "gm" || (mode === "party" && isUserPick)) &&
+            !finished &&
+            clockLen > 0 && (
             <div
               className={cn(
                 "rounded border px-4 py-2 text-center font-mono",
@@ -400,7 +514,7 @@ export default function MockSimulator() {
       {/* Einstellungen: CPU-Tempo (Team) / Pick-Uhr (GM) */}
       {!finished && (
         <div className="mb-5 flex flex-wrap items-center gap-2 rounded border border-border bg-surface/60 px-4 py-2.5">
-          {mode === "team" ? (
+          {mode !== "gm" && (
             <>
               <span className="text-[10px] font-bold uppercase tracking-widest text-muted">
                 CPU-Tempo:
@@ -420,7 +534,8 @@ export default function MockSimulator() {
                 </button>
               ))}
             </>
-          ) : (
+          )}
+          {mode !== "team" && (
             <>
               <span className="text-[10px] font-bold uppercase tracking-widest text-muted">
                 Pick-Uhr:
@@ -483,7 +598,9 @@ export default function MockSimulator() {
             {teams.map((t, i) => {
               const p = picks[i];
               const current = i === onClock && !finished;
-              const mine = mode === "team" && i === yourTeam;
+              const mine =
+          (mode === "team" && i === yourTeam) ||
+          (mode === "party" && assignments[i] !== undefined);
               return (
                 <div
                   key={t.teamAbbr}
