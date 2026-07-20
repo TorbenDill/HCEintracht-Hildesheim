@@ -53,51 +53,24 @@ export default function MockDraftPage() {
 
         <Reveal>
         <div className="flex flex-col gap-2">
-          {picks.map((pick) => (
-            <Link
-              key={pick.pick}
-              href={`/player/${getPlayerSlug(pick.player)}`}
-              className="group grid grid-cols-[52px_44px_1fr] items-center gap-4 rounded-xl border border-border bg-surface px-4 py-3 transition-all hover:border-primary/40 hover:bg-surface-light sm:grid-cols-[52px_44px_1fr_220px]"
-            >
-              {/* Pick number */}
-              <span className="font-mono text-2xl font-black text-primary text-glow-primary">
-                {pick.pick}
-              </span>
-
-              {/* Player Image */}
-              <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-surface-light">
-                <PlayerAvatar name={pick.player} size="sm" />
-              </div>
-
-              {/* Team + Player */}
-              <div className="min-w-0">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-muted">
-                  {pick.team}
-                </p>
-                <p className="truncate text-sm font-black uppercase tracking-wide text-foreground group-hover:text-primary">
-                  {pick.player}
-                  <span className="ml-2 text-xs font-bold text-primary">
-                    {pick.position}
-                  </span>
-                  <span className="ml-2 text-xs font-medium normal-case text-muted">
-                    {pick.college}
-                  </span>
-                </p>
-              </div>
-
-              {/* Reason */}
-              <p className="hidden text-[11px] leading-snug text-muted sm:block">
-                {pick.reason_de}
-              </p>
-            </Link>
+          {picks.slice(0, 16).map((pick) => (
+            <PickRow key={pick.pick} pick={pick} />
           ))}
         </div>
         </Reveal>
 
-        {/* Anzeige */}
-        <div className="mt-10">
+        {/* Anzeige zwischen Top-16 und Picks 17-32 */}
+        <div className="my-8">
           <AdSense slot="6888694163" layout="in-article" />
         </div>
+
+        <Reveal>
+        <div className="flex flex-col gap-2">
+          {picks.slice(16).map((pick) => (
+            <PickRow key={pick.pick} pick={pick} />
+          ))}
+        </div>
+        </Reveal>
 
         {/* Sources */}
         <div className="mt-10 rounded border border-border bg-surface p-5">
@@ -124,5 +97,40 @@ export default function MockDraftPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+type Pick = ReturnType<typeof getMockDraft>[number];
+
+function PickRow({ pick }: { pick: Pick }) {
+  return (
+    <Link
+      href={`/player/${getPlayerSlug(pick.player)}`}
+      className="group grid grid-cols-[52px_44px_1fr] items-center gap-4 rounded-xl border border-border bg-surface px-4 py-3 transition-all hover:border-primary/40 hover:bg-surface-light sm:grid-cols-[52px_44px_1fr_220px]"
+    >
+      <span className="font-mono text-2xl font-black text-primary">
+        {pick.pick}
+      </span>
+      <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-surface-light">
+        <PlayerAvatar name={pick.player} size="sm" />
+      </div>
+      <div className="min-w-0">
+        <p className="text-[10px] font-bold uppercase tracking-widest text-muted">
+          {pick.team}
+        </p>
+        <p className="truncate text-sm font-black uppercase tracking-wide text-foreground group-hover:text-primary">
+          {pick.player}
+          <span className="ml-2 text-xs font-bold text-primary">
+            {pick.position}
+          </span>
+          <span className="ml-2 text-xs font-medium normal-case text-muted">
+            {pick.college}
+          </span>
+        </p>
+      </div>
+      <p className="hidden text-[11px] leading-snug text-muted sm:block">
+        {pick.reason_de}
+      </p>
+    </Link>
   );
 }
