@@ -38,7 +38,7 @@ export default function HorizontalBoard() {
         <button
           onClick={() => setFilter("ALL")}
           className={cn(
-            "rounded px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+            "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
             filter === "ALL"
               ? "bg-primary text-background glow-primary"
               : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -51,7 +51,7 @@ export default function HorizontalBoard() {
             key={pos}
             onClick={() => setFilter(pos)}
             className={cn(
-              "rounded px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+              "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
               filter === pos
                 ? "bg-primary text-background glow-primary"
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -88,7 +88,7 @@ export default function HorizontalBoard() {
                     <Link
                       key={`${player.name}-${player.position}`}
                       href={`/player/${getPlayerSlug(player.name)}`}
-                      className="group rounded border border-border bg-surface p-3 transition-all hover:border-primary/40 hover:bg-surface-light"
+                      className="group rounded-xl border border-border bg-surface p-3 transition-all hover:border-primary/40 hover:bg-surface-light"
                     >
                       <div className="mb-2 flex items-center gap-2">
                         {/* Rank Badge */}

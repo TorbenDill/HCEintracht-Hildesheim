@@ -23,7 +23,7 @@ export default function SimulatorPage() {
   return (
     <main className="min-h-screen bg-background">
       {/* Back Navigation */}
-      <div className="border-b border-border bg-surface">
+      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-6 py-3">
           <Link
             href="/"

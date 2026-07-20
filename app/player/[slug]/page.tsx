@@ -10,6 +10,7 @@ import {
 import { absoluteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
+import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 
 export async function generateStaticParams() {
@@ -90,7 +91,7 @@ export default async function PlayerPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* Back Navigation */}
-      <div className="border-b border-border bg-surface">
+      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-6 py-3">
           <Link
             href="/"
@@ -211,8 +212,8 @@ export default async function PlayerPage({
 
         {/* ── FORSTNER'S TAKE ── */}
         {player.forstner_statement && (
-          <section className="mb-10">
-            <div className="rounded-lg border border-primary/30 bg-gradient-to-r from-primary-glow to-surface p-6">
+          <Reveal className="mb-10">
+            <div className="rounded-2xl border border-primary/30 bg-gradient-to-r from-primary-glow to-surface p-6">
               <div className="mb-3 flex items-center gap-3">
                 <span className="rounded bg-primary px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-background">
                   Experte
@@ -225,7 +226,7 @@ export default async function PlayerPage({
                 &ldquo;{player.forstner_statement}&rdquo;
               </blockquote>
             </div>
-          </section>
+          </Reveal>
         )}
 
         {/* ── ANZEIGE ── */}
@@ -234,16 +235,16 @@ export default async function PlayerPage({
         </section>
 
         {/* ── SCOUTING REPORT ── */}
-        <section className="mb-10">
+        <Reveal className="mb-10">
           <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
             Scouting Report
           </h2>
-          <div className="rounded-lg border border-border bg-surface p-6">
+          <div className="rounded-2xl border border-border bg-surface p-6">
             <p className="whitespace-pre-line text-sm leading-relaxed text-foreground/85">
               {player.scouting_report_de}
             </p>
           </div>
-        </section>
+        </Reveal>
 
         {/* ── QUELLEN ── */}
         <section className="mb-10">

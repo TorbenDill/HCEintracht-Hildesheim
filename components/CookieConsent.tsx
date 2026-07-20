@@ -65,7 +65,7 @@ export default function CookieConsent() {
         <div className="flex flex-shrink-0 gap-2">
           <button
             onClick={() => decide("rejected")}
-            className="rounded border border-border bg-surface px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted hover:border-primary hover:text-primary"
+            className="rounded-full border border-border bg-surface px-5 py-2 text-xs font-bold uppercase tracking-wider text-muted hover:border-primary hover:text-primary"
           >
             Nur notwendige
           </button>

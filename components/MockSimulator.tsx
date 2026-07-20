@@ -390,7 +390,7 @@ export default function MockSimulator() {
           )}
           <button
             onClick={() => reset(mode)}
-            className="rounded border border-border bg-surface px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted hover:border-primary hover:text-primary"
+            className="rounded-full border border-border bg-surface px-5 py-2 text-xs font-bold uppercase tracking-wider text-muted hover:border-primary hover:text-primary"
           >
             Neu starten
           </button>
@@ -410,7 +410,7 @@ export default function MockSimulator() {
                   key={o.label}
                   onClick={() => setCpuMs(o.ms)}
                   className={cn(
-                    "rounded px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider",
+                    "rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wider",
                     cpuMs === o.ms
                       ? "bg-primary text-background"
                       : "border border-border bg-surface text-muted hover:text-primary"
@@ -433,7 +433,7 @@ export default function MockSimulator() {
                     setTimeLeft(o.s);
                   }}
                   className={cn(
-                    "rounded px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider",
+                    "rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wider",
                     clockLen === o.s
                       ? "bg-primary text-background"
                       : "border border-border bg-surface text-muted hover:text-primary"
@@ -459,13 +459,13 @@ export default function MockSimulator() {
           <div className="flex flex-wrap gap-3">
             <button
               onClick={() => drawAndDownload("4:5")}
-              className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
+              className="rounded-full bg-primary px-6 py-3 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
             >
               PNG 4:5 (Feed)
             </button>
             <button
               onClick={() => drawAndDownload("9:16")}
-              className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
+              className="rounded-full bg-primary px-6 py-3 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
             >
               PNG 9:16 (Story)
             </button>
@@ -546,7 +546,7 @@ export default function MockSimulator() {
                 key={pos}
                 onClick={() => setFilter(pos)}
                 className={cn(
-                  "rounded px-2 py-1 text-[10px] font-bold uppercase tracking-wider",
+                  "rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider",
                   filter === pos
                     ? "bg-primary text-background"
                     : "border border-border bg-surface text-muted hover:text-primary"

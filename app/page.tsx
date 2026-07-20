@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { motion, useReducedMotion } from "motion/react";
+import Reveal from "@/components/Reveal";
 import {
   getBoardMeta,
   getFeaturedProspect,
@@ -21,6 +23,7 @@ type BoardView = "vertical" | "horizontal";
 export default function Home() {
   const [board, setBoard] = useState<BoardView>("vertical");
   const [query, setQuery] = useState("");
+  const reduce = useReducedMotion();
   const featured = getFeaturedProspect();
   const meta = getBoardMeta();
   const results = query.length >= 2 ? searchPlayers(query) : [];
@@ -87,7 +90,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* ── HEADER BAR ── */}
-      <header className="border-b border-border bg-surface">
+      <header className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
           <div className="min-w-0">
             <h1 className="text-base font-black uppercase tracking-widest text-foreground sm:text-lg">
@@ -102,13 +105,13 @@ export default function Home() {
           <div className="flex gap-2">
             <Link
               href="/mock-draft"
-              className="rounded border border-border px-3 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
+              className="rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
             >
               Mock Draft
             </Link>
             <Link
               href="/simulator"
-              className="rounded border border-primary/40 bg-primary-glow px-3 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background sm:px-4"
+              className="rounded-full border border-primary/40 bg-primary-glow px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background sm:px-4"
             >
               Simulator
             </Link>
@@ -121,7 +124,7 @@ export default function Home() {
               placeholder="Spieler suchen..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              className="w-full rounded border border-border bg-background px-4 py-2 pl-9 text-sm text-foreground placeholder-muted/50 outline-none transition-colors focus:border-primary"
+              className="w-full rounded-full border border-border bg-background px-4 py-2 pl-9 text-sm text-foreground placeholder-muted/50 outline-none transition-colors focus:border-primary"
             />
             <svg
               className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
@@ -170,38 +173,56 @@ export default function Home() {
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         {/* ── HERO ── */}
-        <section className="mb-10 overflow-hidden rounded-xl border border-border bg-surface/60 px-6 py-10 sm:px-10">
-          <h2 className="text-4xl font-black uppercase leading-none tracking-tight text-foreground sm:text-6xl">
-            NFL Draft <span className="text-primary">2027</span>
-          </h2>
-          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
-            Big Board, Positionsrankings und Mock Draft für die Klasse 2027,
-            mit deutschem Scouting-Profil zu jedem Prospect.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-3">
+        <section className="pb-16 pt-14 sm:pb-24 sm:pt-20">
+          <motion.h2
+            initial={reduce ? false : { opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="max-w-4xl text-5xl font-black leading-[0.95] tracking-tight text-foreground sm:text-7xl lg:text-8xl"
+          >
+            Der Draft beginnt{" "}
+            <span className="bg-gradient-to-r from-primary to-amber-400 bg-clip-text text-transparent">
+              jetzt.
+            </span>
+          </motion.h2>
+          <motion.p
+            initial={reduce ? false : { opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.12, ease: [0.16, 1, 0.3, 1] }}
+            className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg"
+          >
+            Big Board, Positionsrankings und Mock Draft zur Klasse 2027, mit
+            deutschem Scouting-Profil zu jedem Prospect.
+          </motion.p>
+          <motion.div
+            initial={reduce ? false : { opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.22, ease: [0.16, 1, 0.3, 1] }}
+            className="mt-8 flex flex-wrap gap-3"
+          >
             <Link
               href="/simulator"
-              className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background transition-all glow-primary hover:brightness-110"
+              className="rounded-full bg-primary px-7 py-3.5 text-sm font-bold text-background transition-all hover:scale-[1.03] hover:brightness-110 active:scale-[0.98]"
             >
               Simulator starten
             </Link>
             <Link
               href="/mock-draft"
-              className="rounded border border-primary/40 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary-glow"
+              className="rounded-full border border-border bg-surface px-7 py-3.5 text-sm font-bold text-foreground transition-all hover:scale-[1.03] hover:border-primary/50 active:scale-[0.98]"
             >
               Mock Draft ansehen
             </Link>
-          </div>
+          </motion.div>
         </section>
 
         {/* ── FEATURED PROSPECT ── */}
-        <section className="mb-10">
-          <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.4em] text-primary">
+        <Reveal className="mb-20">
+          <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.4em] text-primary">
             Featured Prospect
           </p>
           <Link
             href={`/player/${getPlayerSlug(featured.name)}`}
-            className="group relative grid overflow-hidden rounded-lg border border-border bg-surface transition-all hover:border-primary/40 md:grid-cols-[250px_1fr]"
+            className="group relative grid overflow-hidden rounded-3xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_24px_60px_rgba(0,0,0,0.45)] md:grid-cols-[280px_1fr]"
           >
             {/* Image */}
             <div className="relative h-64 md:h-auto">
@@ -249,14 +270,14 @@ export default function Home() {
               )}
             </div>
           </Link>
-        </section>
+        </Reveal>
 
         {/* ── BOARD TOGGLE ── */}
         <section className="mb-8 flex flex-wrap items-center gap-2 sm:gap-4">
           <button
             onClick={() => setBoard("vertical")}
             className={cn(
-              "flex items-center gap-2 rounded-lg px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
+              "flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
               board === "vertical"
                 ? "bg-primary text-background glow-primary"
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -270,7 +291,7 @@ export default function Home() {
           <button
             onClick={() => setBoard("horizontal")}
             className={cn(
-              "flex items-center gap-2 rounded-lg px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
+              "flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
               board === "horizontal"
                 ? "bg-primary text-background glow-primary"
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -289,8 +310,8 @@ export default function Home() {
         </section>
 
         {/* ── SEO/GEO: INFO & FAQ ── */}
-        <section className="mt-12 grid gap-6 lg:grid-cols-[1fr_1fr]">
-          <div className="rounded-lg border border-border bg-surface p-6">
+        <Reveal className="mt-24 grid gap-6 lg:grid-cols-[1fr_1fr]">
+          <div className="rounded-2xl border border-border bg-surface p-7">
             <h2 className="mb-3 text-lg font-black tracking-tight text-foreground">
               Das Wichtigste zum NFL Draft {meta.draftYear}
             </h2>
@@ -307,7 +328,7 @@ export default function Home() {
               Draft-Nacht.
             </p>
           </div>
-          <div className="rounded-lg border border-border bg-surface p-6">
+          <div className="rounded-2xl border border-border bg-surface p-7">
             <h2 className="mb-3 text-lg font-black tracking-tight text-foreground">
               Häufige Fragen
             </h2>
@@ -327,15 +348,16 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </Reveal>
 
         {/* ── ANZEIGE ── */}
-        <section className="mt-10">
+        <section className="mt-16">
           <AdSense slot="5635468031" />
         </section>
 
         {/* ── QUELLEN / FOOTER ── */}
-        <footer className="mt-12 rounded border border-border bg-surface p-5">
+        <Reveal className="mt-16">
+        <footer className="rounded-2xl border border-border bg-surface p-6">
           <h2 className="mb-3 text-sm font-bold text-foreground">
             Quellen &amp; Aktualisierung
           </h2>
@@ -358,6 +380,7 @@ export default function Home() {
             · {meta.updateCycle}
           </p>
         </footer>
+        </Reveal>
       </div>
     </main>
   );

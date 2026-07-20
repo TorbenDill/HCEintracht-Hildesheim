@@ -36,7 +36,7 @@ export default function VerticalBoard() {
         <button
           onClick={() => setSelectedPosition("ALL")}
           className={cn(
-            "rounded px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+            "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
             selectedPosition === "ALL"
               ? "bg-primary text-background glow-primary"
               : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -49,7 +49,7 @@ export default function VerticalBoard() {
             key={pos}
             onClick={() => setSelectedPosition(pos)}
             className={cn(
-              "rounded px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+              "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
               selectedPosition === pos
                 ? "bg-primary text-background glow-primary"
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -81,7 +81,7 @@ export default function VerticalBoard() {
             <Link
               key={`${player.name}-${player.position}`}
               href={`/player/${getPlayerSlug(player.name)}`}
-              className="group grid grid-cols-[44px_36px_1fr_44px] items-center gap-2 rounded border border-transparent bg-surface px-3 py-3 transition-all hover:border-primary/30 hover:bg-surface-light sm:grid-cols-[60px_44px_1fr_60px_110px] sm:gap-3 sm:px-4 md:grid-cols-[60px_44px_1fr_60px_110px_90px]"
+              className="group grid grid-cols-[44px_36px_1fr_44px] items-center gap-2 rounded-xl border border-transparent bg-surface px-3 py-3 transition-all hover:border-primary/30 hover:bg-surface-light sm:grid-cols-[60px_44px_1fr_60px_110px] sm:gap-3 sm:px-4 md:grid-cols-[60px_44px_1fr_60px_110px_90px]"
             >
               {/* Rank */}
               <span
