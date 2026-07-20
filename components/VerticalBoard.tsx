@@ -61,13 +61,13 @@ export default function VerticalBoard() {
       </div>
 
       {/* Table Header */}
-      <div className="mb-2 grid grid-cols-[60px_60px_1fr_80px_120px_100px] items-center gap-3 px-4 text-[10px] font-bold uppercase tracking-widest text-muted">
+      <div className="mb-2 grid grid-cols-[44px_36px_1fr_44px] items-center gap-2 px-3 text-[10px] font-bold uppercase tracking-widest text-muted sm:grid-cols-[60px_44px_1fr_60px_110px] sm:gap-3 sm:px-4 md:grid-cols-[60px_44px_1fr_60px_110px_90px]">
         <span>Rank</span>
         <span></span>
         <span>Spieler</span>
-        <span>Position</span>
-        <span>College</span>
-        <span className="text-right">Forstner</span>
+        <span>Pos</span>
+        <span className="hidden sm:block">College</span>
+        <span className="hidden text-right md:block">Forstner</span>
       </div>
 
       {/* Player Rows */}
@@ -81,12 +81,12 @@ export default function VerticalBoard() {
             <Link
               key={`${player.name}-${player.position}`}
               href={`/player/${getPlayerSlug(player.name)}`}
-              className="group grid grid-cols-[60px_60px_1fr_80px_120px_100px] items-center gap-3 rounded border border-transparent bg-surface px-4 py-3 transition-all hover:border-primary/30 hover:bg-surface-light"
+              className="group grid grid-cols-[44px_36px_1fr_44px] items-center gap-2 rounded border border-transparent bg-surface px-3 py-3 transition-all hover:border-primary/30 hover:bg-surface-light sm:grid-cols-[60px_44px_1fr_60px_110px] sm:gap-3 sm:px-4 md:grid-cols-[60px_44px_1fr_60px_110px_90px]"
             >
               {/* Rank */}
               <span
                 className={cn(
-                  "font-mono text-2xl font-black",
+                  "font-mono text-lg font-black sm:text-2xl",
                   rank && rank <= 5
                     ? "text-primary text-glow-primary"
                     : rank && rank <= 15
@@ -98,7 +98,7 @@ export default function VerticalBoard() {
               </span>
 
               {/* Player Image */}
-              <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-surface-light">
+              <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border bg-surface-light sm:h-10 sm:w-10">
                 <PlayerAvatar name={player.name} size="sm" />
               </div>
 
@@ -107,8 +107,11 @@ export default function VerticalBoard() {
                 <p className="truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
                   {player.name}
                 </p>
+                <p className="truncate text-[10px] text-muted sm:hidden">
+                  {player.college}
+                </p>
                 {player.piktogramme.length > 0 && (
-                  <div className="mt-0.5 flex gap-1">
+                  <div className="mt-0.5 hidden gap-1 sm:flex">
                     {player.piktogramme.slice(0, 3).map((p) => (
                       <span
                         key={p}
@@ -122,17 +125,17 @@ export default function VerticalBoard() {
               </div>
 
               {/* Position */}
-              <span className="rounded bg-surface-light px-2 py-1 text-center text-xs font-bold uppercase text-primary">
+              <span className="rounded bg-surface-light px-1.5 py-1 text-center text-[10px] font-bold uppercase text-primary sm:px-2 sm:text-xs">
                 {player.position}
               </span>
 
               {/* College */}
-              <span className="truncate text-xs text-muted">
+              <span className="hidden truncate text-xs text-muted sm:block">
                 {player.college}
               </span>
 
               {/* Forstner Rating */}
-              <div className="flex justify-end">
+              <div className="hidden justify-end md:flex">
                 {player.forstner_statement ? (
                   <span className="rounded bg-accent-glow px-2 py-1 text-[10px] font-bold text-accent">
                     SCOUTED

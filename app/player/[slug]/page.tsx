@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
   getPlayerBySlug,
-  getPlayerImage,
   getPlayers,
   getPlayerSlug,
   getBoardMeta,
@@ -129,13 +128,11 @@ export async function generateMetadata({
       title,
       description,
       url: absoluteUrl(path),
-      images: [{ url: getPlayerImage(player.name), alt: player.name }],
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title,
       description,
-      images: [getPlayerImage(player.name)],
     },
   };
 }
@@ -158,7 +155,6 @@ export default async function PlayerPage({
     "@type": "Person",
     name: player.name,
     url: absoluteUrl(`/player/${getPlayerSlug(player.name)}`),
-    image: getPlayerImage(player.name),
     jobTitle: `${player.position} – NFL Draft ${meta.draftYear} Prospect`,
     affiliation: {
       "@type": "CollegeOrUniversity",
@@ -189,7 +185,7 @@ export default async function PlayerPage({
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 py-8">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         {/* ── HEADER SECTION ── */}
         <section className="mb-10 grid gap-8 lg:grid-cols-[300px_1fr]">
           {/* Player Image */}
@@ -206,17 +202,6 @@ export default async function PlayerPage({
             {/* Position Badge */}
             <div className="absolute bottom-3 right-3 rounded bg-primary px-3 py-1 text-sm font-black uppercase text-background">
               {player.position}
-            </div>
-            {/* Image Attribution */}
-            <div className="absolute bottom-0 left-0 rounded-tr bg-background/80 px-2 py-0.5 backdrop-blur-sm">
-              <a
-                href={meta.imageSource.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[8px] uppercase tracking-wider text-muted/80 hover:text-primary"
-              >
-                Bild: {meta.imageSource.name}
-              </a>
             </div>
           </div>
 
@@ -369,9 +354,8 @@ export default async function PlayerPage({
               ))}
             </ul>
             <p className="mt-3 text-[10px] text-muted/60">
-              Bildquelle Spielerportraits: {meta.imageSource.name} (
-              {meta.imageSource.url}) · Stand: {meta.updated} ·{" "}
-              {meta.updateCycle}
+              Spielerdarstellung: {meta.imageSource.name} · Stand: {meta.updated}{" "}
+              · {meta.updateCycle}
             </p>
           </div>
         </section>

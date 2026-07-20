@@ -1,0 +1,35 @@
+# NFL Draft Board 2027 – Forstner Scouting
+
+> Deutschsprachiges Scouting-Dashboard zum NFL Draft 2027: Consensus Big Board,
+> Positionsrankings, individuelle deutsche Spielerprofile mit Best-/Worst-Case-
+> NFL-Vergleichen, Mock Draft (Runde 1) und interaktiver Mock-Draft-Simulator.
+> Aktualisierung alle 14 Tage auf Basis öffentlicher Consensus-Quellen.
+
+Betreiber: Marketingberatung Dill, Torben Dill, Hildesheim (Deutschland).
+Sprache: Deutsch. Fokus-Keywords: NFL Draft 2027, Big Board, Mock Draft,
+Draft-Prospects, Scouting-Reports auf Deutsch.
+
+## Hauptseiten
+
+- [Big Board 2027](https://www.nfldraft-scouting.de/): Top-Prospects des NFL
+  Draft 2027 mit Rankings nach Position und Overall-Rang.
+- [Mock Draft 2027](https://www.nfldraft-scouting.de/mock-draft): Alle 32
+  Erstrunden-Picks mit projizierter Draft-Reihenfolge und deutscher Begründung.
+- [Mock-Draft-Simulator](https://www.nfldraft-scouting.de/simulator): Selbst
+  draften – ein Team gegen die CPU oder alle 32 Picks im GM-Modus, Ergebnis als
+  Social-Media-Bild exportierbar.
+- [Sitemap](https://www.nfldraft-scouting.de/sitemap.xml): Alle Spielerprofile.
+
+## Spielerprofile
+
+Jedes Profil (z. B. /player/jeremiah-smith, /player/arch-manning) enthält:
+Steckbrief (Größe, Gewicht, College-Jahr, Runden-Projektion), individuellen
+deutschen Scouting-Report, Experten-Einschätzung, Best-Case- und
+Worst-Case-Vergleich mit aktiven NFL-Spielern sowie Quellenangaben.
+
+## Datenbasis
+
+Rankings basieren auf öffentlichen Consensus-Quellen, u. a. NFL Mock Draft
+Database, Tankathon, ESPN, The Athletic, PFF Big Board, The Draft Network,
+CBS Sports, BigBoardLab, WalterFootball. Bewertungen sind subjektive
+redaktionelle Einschätzungen. Stand und Update-Zyklus stehen auf jeder Seite.
