@@ -77,6 +77,9 @@ export default function RootLayout({
               <a href="/simulator" className="hover:text-primary">
                 Simulator
               </a>
+              <a href="/lexikon" className="hover:text-primary">
+                Lexikon
+              </a>
               <a href="/impressum" className="hover:text-primary">
                 Impressum
               </a>

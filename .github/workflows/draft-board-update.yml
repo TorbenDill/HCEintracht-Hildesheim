@@ -31,9 +31,10 @@ jobs:
                 "   - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027, drafttek.com",
                 "2. **`data/research2027.json` aktualisieren**: Ranks/Projektionen verschieben, Riser/Faller einarbeiten, Spieler entfernen, die nicht mehr draft-eligible sind (bereits gedraftet/NFL). Mock-Draft (32 Picks) an aktuelle Draft-Order-Projektionen und Team-Needs anpassen.",
                 "3. **Board wachsen lassen**: In JEDEM Zyklus mindestens 5–10 NEUE Spielerprofile ergänzen (weiter in die Tiefe der Positionsrankings, Day-2/Day-3-Prospects, Sleeper). Für jeden neuen Spieler alle Felder ausfüllen – individuelles `report_de` (5–8 Sätze, natürlich, nicht generisch), individuelles `forstner`-Zitat (variabler Tonfall) sowie vielseitige, spielerspezifische `best_case`/`worst_case`-NFL-Vergleiche (Vergleichsnamen NICHT wiederholen). Ziel: über die Saison von aktuell ~50 auf 150+ Profile wachsen.",
-                "4. **`updated`-Datum** in `data/board-meta.json` auf heute setzen.",
-                "5. **Neu bauen**: `python3 scripts/build_2027.py` (erzeugt `data/data.json` + `data/mockdraft.json`), dann `npm install && npx next build` zur Verifikation.",
-                "6. **Deploy**: Änderungen committen und auf `main` pushen (Vercel deployt automatisch).",
+                "4. **Lexikon erweitern**: In `data/lexikon.json` 1-2 neue Draft-/Scouting-Begriffe ergänzen (gleiche Struktur: slug, term, category, kurz, text mit 3 ausführlichen deutschen Absätzen, keine Gedankenstriche).",
+                "5. **`updated`-Datum** in `data/board-meta.json` auf heute setzen.",
+                "6. **Neu bauen**: `python3 scripts/build_2027.py` (erzeugt `data/data.json` + `data/mockdraft.json`), dann `npm install && npx next build` zur Verifikation.",
+                "7. **Deploy**: Änderungen committen und auf `main` pushen (Vercel deployt automatisch).",
                 "",
                 "Ziel: Das Board verschiebt sich sichtbar mit der Nachrichtenlage (Leistungen, Verletzungen, Transfers, Declares) UND wird mit jedem Zyklus umfangreicher."
               ].join("\n")

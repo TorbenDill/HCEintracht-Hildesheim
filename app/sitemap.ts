@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getPlayers, getPlayerSlug, getBoardMeta } from "@/lib/player-service";
+import lexikon from "@/data/lexikon.json";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -12,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly",
       priority: 1,
+    },
+    {
+      url: absoluteUrl("/simulator"),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     },
     {
       url: absoluteUrl("/mock-draft"),
@@ -28,5 +35,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...playerRoutes];
+  const lexikonRoutes: MetadataRoute.Sitemap = [
+    {
+      url: absoluteUrl("/lexikon"),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    ...(lexikon as { slug: string }[]).map((e) => ({
+      url: absoluteUrl(`/lexikon/${e.slug}`),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [...staticRoutes, ...playerRoutes, ...lexikonRoutes];
 }
