@@ -28,7 +28,7 @@ jobs:
                 "",
                 "1. **Recherche** über möglichst viele seriöse Quellen (viele blocken direkte Fetches – dann Web-Suche über deren Inhalte nutzen):",
                 "   - nflmockdraftdatabase.com (Consensus Big Board 2027), tankathon.com, ESPN, The Athletic, walterfootball.com, prodraftscouting.com, nfldraftbuzz.com",
-                "   - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027",
+                "   - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027, drafttek.com",
                 "2. **`data/research2027.json` aktualisieren**: Ranks/Projektionen verschieben, Riser/Faller einarbeiten, Spieler entfernen, die nicht mehr draft-eligible sind (bereits gedraftet/NFL). Mock-Draft (32 Picks) an aktuelle Draft-Order-Projektionen und Team-Needs anpassen.",
                 "3. **Board wachsen lassen**: In JEDEM Zyklus mindestens 5–10 NEUE Spielerprofile ergänzen (weiter in die Tiefe der Positionsrankings, Day-2/Day-3-Prospects, Sleeper). Für jeden neuen Spieler alle Felder ausfüllen – individuelles `report_de` (5–8 Sätze, natürlich, nicht generisch), individuelles `forstner`-Zitat (variabler Tonfall) sowie vielseitige, spielerspezifische `best_case`/`worst_case`-NFL-Vergleiche (Vergleichsnamen NICHT wiederholen). Ziel: über die Saison von aktuell ~50 auf 150+ Profile wachsen.",
                 "4. **`updated`-Datum** in `data/board-meta.json` auf heute setzen.",

@@ -31,5 +31,5 @@ Worst-Case-Vergleich mit aktiven NFL-Spielern sowie Quellenangaben.
 
 Rankings basieren auf öffentlichen Consensus-Quellen, u. a. NFL Mock Draft
 Database, Tankathon, ESPN, The Athletic, PFF Big Board, The Draft Network,
-CBS Sports, BigBoardLab, WalterFootball. Bewertungen sind subjektive
+CBS Sports, BigBoardLab, WalterFootball, DraftTek. Bewertungen sind subjektive
 redaktionelle Einschätzungen. Stand und Update-Zyklus stehen auf jeder Seite.

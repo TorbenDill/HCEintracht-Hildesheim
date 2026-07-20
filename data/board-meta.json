@@ -5,18 +5,61 @@
   "updated": "2026-07-19",
   "updateCycle": "Aktualisierung alle 14 Tage",
   "sources": [
-    { "name": "NFL Mock Draft Database – Consensus Big Board 2027", "url": "https://www.nflmockdraftdatabase.com/big-boards/2027/consensus-big-board-2027" },
-    { "name": "Tankathon – NFL Draft Order", "url": "https://www.tankathon.com/nfl/full-draft" },
-    { "name": "Pro Draft Scouting 2027", "url": "https://www.prodraftscouting.com/2027" },
-    { "name": "NFL Draft Buzz 2027", "url": "https://www.nfldraftbuzz.com/positions/ALL/1/2027" },
-    { "name": "WalterFootball 2027 Draft", "url": "https://walterfootball.com/draft2027charlie.php" },
-    { "name": "ESPN – 2027 Top Five Every Position", "url": "https://www.espn.com/nfl/draft2027/story/_/id/49001685/nfl-draft-2027-top-five-every-position-players-watch" },
-    { "name": "The Athletic – 2027 Underclassmen Prospects", "url": "https://www.nytimes.com/athletic/7443644/2026/07/15/nfl-draft-2027-underclassmen-prospects-carr-smith/" },
-    { "name": "BigBoardLab", "url": "https://bigboardlab.com/" },
-    { "name": "The Draft Network", "url": "https://www.thedraftnetwork.com/" },
-    { "name": "CBS Sports – NFL Mock Draft", "url": "https://www.cbssports.com/nfl/draft/mock-draft/" },
-    { "name": "Underdog Mock Draft", "url": "https://underdogmockdraft.com/" },
-    { "name": "PFF – Big Board 2027", "url": "https://www.pff.com/draft/big-board?season=2027" }
+    {
+      "name": "NFL Mock Draft Database – Consensus Big Board 2027",
+      "url": "https://www.nflmockdraftdatabase.com/big-boards/2027/consensus-big-board-2027"
+    },
+    {
+      "name": "Tankathon – NFL Draft Order",
+      "url": "https://www.tankathon.com/nfl/full-draft"
+    },
+    {
+      "name": "Pro Draft Scouting 2027",
+      "url": "https://www.prodraftscouting.com/2027"
+    },
+    {
+      "name": "NFL Draft Buzz 2027",
+      "url": "https://www.nfldraftbuzz.com/positions/ALL/1/2027"
+    },
+    {
+      "name": "WalterFootball 2027 Draft",
+      "url": "https://walterfootball.com/draft2027charlie.php"
+    },
+    {
+      "name": "ESPN – 2027 Top Five Every Position",
+      "url": "https://www.espn.com/nfl/draft2027/story/_/id/49001685/nfl-draft-2027-top-five-every-position-players-watch"
+    },
+    {
+      "name": "The Athletic – 2027 Underclassmen Prospects",
+      "url": "https://www.nytimes.com/athletic/7443644/2026/07/15/nfl-draft-2027-underclassmen-prospects-carr-smith/"
+    },
+    {
+      "name": "BigBoardLab",
+      "url": "https://bigboardlab.com/"
+    },
+    {
+      "name": "The Draft Network",
+      "url": "https://www.thedraftnetwork.com/"
+    },
+    {
+      "name": "CBS Sports – NFL Mock Draft",
+      "url": "https://www.cbssports.com/nfl/draft/mock-draft/"
+    },
+    {
+      "name": "Underdog Mock Draft",
+      "url": "https://underdogmockdraft.com/"
+    },
+    {
+      "name": "PFF – Big Board 2027",
+      "url": "https://www.pff.com/draft/big-board?season=2027"
+    },
+    {
+      "name": "DraftTek – 2027 Big Board",
+      "url": "https://www.drafttek.com/"
+    }
   ],
-  "imageSource": { "name": "eigene generierte Initialen-Avatare (keine Fotos)", "url": "https://www.nfldraft-scouting.de" }
+  "imageSource": {
+    "name": "eigene generierte Initialen-Avatare (keine Fotos)",
+    "url": "https://www.nfldraft-scouting.de"
+  }
 }
