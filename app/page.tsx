@@ -12,6 +12,7 @@ import {
   searchPlayers,
 } from "@/lib/player-service";
 import { SITE_URL, SITE_NAME, absoluteUrl } from "@/lib/site";
+import { getVisual } from "@/lib/visuals";
 import { cn } from "@/lib/utils";
 import VerticalBoard from "@/components/VerticalBoard";
 import HorizontalBoard from "@/components/HorizontalBoard";
@@ -24,6 +25,7 @@ export default function Home() {
   const [board, setBoard] = useState<BoardView>("vertical");
   const [query, setQuery] = useState("");
   const reduce = useReducedMotion();
+  const heroVisual = getVisual("hero");
   const featured = getFeaturedProspect();
   const meta = getBoardMeta();
   const results = query.length >= 2 ? searchPlayers(query) : [];
@@ -171,9 +173,22 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
-        {/* ── HERO ── */}
-        <section className="pb-16 pt-14 sm:pb-24 sm:pt-20">
+      {/* ── HERO (cineastisch, mit optionalem Stadion-Foto) ── */}
+      <section className="relative overflow-hidden">
+        {heroVisual && (
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={heroVisual.url}
+              alt={heroVisual.alt}
+              fetchPriority="high"
+              className="absolute inset-0 h-full w-full object-cover"
+              style={{ backgroundColor: heroVisual.avgColor }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/75 to-background/35" />
+          </>
+        )}
+        <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-16 sm:px-6 sm:pb-32 sm:pt-24">
           <motion.h2
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -213,8 +228,24 @@ export default function Home() {
               Mock Draft ansehen
             </Link>
           </motion.div>
-        </section>
+          {heroVisual && (
+            <p className="absolute bottom-3 right-4 text-[10px] text-muted/60">
+              Foto:{" "}
+              <a
+                href={heroVisual.photographerUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
+                {heroVisual.photographer}
+              </a>{" "}
+              / Pexels
+            </p>
+          )}
+        </div>
+      </section>
 
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         {/* ── FEATURED PROSPECT ── */}
         <Reveal className="mb-20">
           <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.4em] text-primary">

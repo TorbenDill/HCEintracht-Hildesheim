@@ -163,9 +163,13 @@ export default function DatenschutzPage() {
             <H2>7. Spielerdarstellungen</H2>
             <p>
               Zur Darstellung der Spieler werden ausschließlich lokal generierte
-              Initialen-Avatare verwendet. Es werden keine Spielerfotos von
-              Drittanbietern in Ihren Browser geladen; eine Datenübermittlung an
-              externe Bildanbieter findet insoweit nicht statt.
+              Initialen-Avatare verwendet; es werden keine Spielerfotos von
+              Drittanbietern geladen. Für atmosphärische Hintergrundbilder
+              (z. B. Stadionfotografie) können lizenzfreie Fotos vom Anbieter
+              Pexels (images.pexels.com, Pexels GmbH) eingebunden sein; beim
+              Laden dieser Bilder wird Ihre IP-Adresse an Pexels übermittelt.
+              Rechtsgrundlage ist unser berechtigtes Interesse an einer
+              ansprechenden Darstellung (Art. 6 Abs. 1 lit. f DSGVO).
             </p>
           </section>
 
