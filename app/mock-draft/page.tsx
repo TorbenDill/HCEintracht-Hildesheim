@@ -42,7 +42,7 @@ export default function MockDraftPage() {
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-8">
-          <h1 className="mb-2 text-3xl font-black uppercase tracking-tight text-foreground lg:text-4xl">
+          <h1 className="mb-2 font-display text-4xl font-semibold uppercase tracking-tight text-foreground lg:text-5xl">
             Mock Draft <span className="text-primary">{meta.draftYear}</span>
           </h1>
           <p className="text-sm text-muted">

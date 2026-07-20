@@ -10,14 +10,14 @@ function initials(name: string): string {
 // Deterministische Farbwahl pro Name – jeder Spieler bekommt immer
 // denselben Verlauf, ohne externe Bild-Requests (keine 404s/Fehlermeldungen).
 const GRADIENTS = [
-  "from-cyan-500/40 via-surface to-background",
-  "from-emerald-500/40 via-surface to-background",
-  "from-violet-500/40 via-surface to-background",
-  "from-amber-500/40 via-surface to-background",
-  "from-rose-500/40 via-surface to-background",
-  "from-sky-500/40 via-surface to-background",
-  "from-lime-500/40 via-surface to-background",
-  "from-fuchsia-500/40 via-surface to-background",
+  "from-cyan-600/25 via-surface to-background",
+  "from-emerald-600/25 via-surface to-background",
+  "from-violet-600/25 via-surface to-background",
+  "from-amber-600/25 via-surface to-background",
+  "from-rose-600/25 via-surface to-background",
+  "from-sky-600/25 via-surface to-background",
+  "from-lime-600/25 via-surface to-background",
+  "from-fuchsia-600/25 via-surface to-background",
 ];
 
 function hash(name: string): number {

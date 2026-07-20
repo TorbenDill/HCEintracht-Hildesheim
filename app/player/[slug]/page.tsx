@@ -131,7 +131,7 @@ export default async function PlayerPage({
             <p className="mb-1 text-xs font-bold uppercase tracking-[0.3em] text-primary">
               {player.college}
             </p>
-            <h1 className="mb-4 text-4xl font-black uppercase tracking-tight text-foreground lg:text-5xl">
+            <h1 className="mb-4 font-display text-5xl font-semibold uppercase tracking-tight text-foreground lg:text-6xl">
               {player.name}
             </h1>
 
@@ -195,8 +195,8 @@ export default async function PlayerPage({
                     </div>
                   )}
                   {player.worst_case_nfl && (
-                    <div className="rounded border border-red-500/30 bg-red-500/10 p-4">
-                      <p className="mb-1 text-[9px] font-bold uppercase tracking-widest text-red-400">
+                    <div className="rounded border border-red-700/30 bg-red-700/8 p-4">
+                      <p className="mb-1 text-[9px] font-bold uppercase tracking-widest text-red-700">
                         Worst Case
                       </p>
                       <p className="text-sm font-black uppercase text-foreground">
