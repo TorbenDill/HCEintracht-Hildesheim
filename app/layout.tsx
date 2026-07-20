@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
@@ -83,6 +84,13 @@ export default function RootLayout({
           </div>
         </footer>
         <CookieConsent />
+        <Script
+          id="adsbygoogle-js"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3725697242603398"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
