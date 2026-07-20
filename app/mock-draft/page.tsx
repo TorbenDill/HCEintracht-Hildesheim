@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { getMockDraft, getBoardMeta, getPlayerSlug } from "@/lib/player-service";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import AdSense from "@/components/AdSense";
@@ -40,7 +39,7 @@ export default function MockDraftPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-5xl px-6 py-8">
+      <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-8">
           <h1 className="mb-2 text-3xl font-black uppercase tracking-tight text-foreground lg:text-4xl">
             Mock Draft <span className="text-primary">{meta.draftYear}</span>
@@ -117,8 +116,7 @@ export default function MockDraftPage() {
             ))}
           </ul>
           <p className="mt-3 text-[10px] text-muted/60">
-            Bildquelle Spielerportraits: {meta.imageSource.name} (
-            {meta.imageSource.url})
+            Spielerdarstellung: {meta.imageSource.name}
           </p>
         </div>
       </div>

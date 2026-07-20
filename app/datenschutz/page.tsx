@@ -156,13 +156,12 @@ export default function DatenschutzPage() {
           </section>
 
           <section>
-            <H2>7. Externe Inhalte (Spielerbilder)</H2>
+            <H2>7. Spielerdarstellungen</H2>
             <p>
-              Zur Darstellung von Spielerportraits werden Bilder von
-              nfldraftbuzz.com direkt aus dem Browser geladen. Dabei kann Ihre
-              IP-Adresse an den jeweiligen Anbieter übermittelt werden. Ist ein
-              Bild nicht verfügbar, wird ersatzweise ein lokal generierter
-              Initialen-Platzhalter angezeigt.
+              Zur Darstellung der Spieler werden ausschließlich lokal generierte
+              Initialen-Avatare verwendet. Es werden keine Spielerfotos von
+              Drittanbietern in Ihren Browser geladen; eine Datenübermittlung an
+              externe Bildanbieter findet insoweit nicht statt.
             </p>
           </section>
 

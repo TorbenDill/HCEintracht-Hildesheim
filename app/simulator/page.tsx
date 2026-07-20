@@ -38,7 +38,7 @@ export default function SimulatorPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-6xl px-6 py-8">
+      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-8">
           <h1 className="mb-2 text-3xl font-black uppercase tracking-tight text-foreground lg:text-4xl">
             Mock Draft <span className="text-primary">Simulator</span>

@@ -6,8 +6,10 @@ import {
   getBoardMeta,
   getFeaturedProspect,
   getPlayerSlug,
+  getTop100,
   searchPlayers,
 } from "@/lib/player-service";
+import { SITE_URL, SITE_NAME, absoluteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import VerticalBoard from "@/components/VerticalBoard";
 import HorizontalBoard from "@/components/HorizontalBoard";
@@ -22,18 +24,77 @@ export default function Home() {
   const featured = getFeaturedProspect();
   const meta = getBoardMeta();
   const results = query.length >= 2 ? searchPlayers(query) : [];
+  const top10 = getTop100().slice(0, 10);
+
+  const faqs = [
+    {
+      q: `Wer ist der Top-Favorit auf Pick 1 im NFL Draft ${meta.draftYear}?`,
+      a: `Auf den meisten Boards führt WR Jeremiah Smith (Ohio State) als bester Spieler der Klasse, während QB Arch Manning (Texas) als Favorit auf Pick 1 gilt – Teams am Anfang der Draft-Reihenfolge brauchen in der Regel einen Quarterback.`,
+    },
+    {
+      q: `Wann findet der NFL Draft ${meta.draftYear} statt?`,
+      a: `Der NFL Draft ${meta.draftYear} findet traditionell Ende April statt. Die genaue Draft-Reihenfolge ergibt sich aus der NFL-Saison 2026; bis dahin basiert unsere Reihenfolge auf Projektionen.`,
+    },
+    {
+      q: "Wie oft wird dieses Draft Board aktualisiert?",
+      a: `Das Big Board, die Positionsrankings und der Mock Draft werden alle 14 Tage mit den aktuellen Consensus-Boards (u. a. NFL Mock Draft Database, ESPN, PFF, The Draft Network, CBS Sports) abgeglichen. Stand: ${meta.updated}.`,
+    },
+    {
+      q: "Was bedeuten Best Case und Worst Case in den Spielerprofilen?",
+      a: "Jedes Profil vergleicht den Prospect mit aktiven NFL-Spielern: Der Best Case beschreibt das realistische obere Entwicklungs-Szenario, der Worst Case das Enttäuschungs-Szenario – basierend auf Spielstil, Körperbau und Skillset.",
+    },
+    {
+      q: "Kann ich selbst einen Mock Draft erstellen?",
+      a: "Ja – im Mock-Draft-Simulator draftest du entweder für ein Team gegen die CPU oder übernimmst alle 32 Picks im GM-Modus mit Original-Pick-Uhr. Dein Ergebnis kannst du als Social-Media-Bild (4:5 und 9:16) herunterladen.",
+    },
+  ];
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        name: SITE_NAME,
+        url: SITE_URL,
+        inLanguage: "de",
+        description: `Deutschsprachiges Scouting-Dashboard zum NFL Draft ${meta.draftYear}: Big Board, Positionsrankings, Spielerprofile, Mock Draft und Simulator.`,
+      },
+      {
+        "@type": "ItemList",
+        name: `Top 10 Prospects – NFL Draft ${meta.draftYear}`,
+        itemListElement: top10.map((p, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: `${p.name} (${p.position}, ${p.college})`,
+          url: absoluteUrl(`/player/${getPlayerSlug(p.name)}`),
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+    ],
+  };
 
   return (
     <main className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ── HEADER BAR ── */}
       <header className="border-b border-border bg-surface">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div>
-            <h1 className="text-lg font-black uppercase tracking-widest text-foreground">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
+          <div className="min-w-0">
+            <h1 className="text-base font-black uppercase tracking-widest text-foreground sm:text-lg">
               NFL Draft
               <span className="text-primary"> Board {meta.draftYear}</span>
             </h1>
-            <p className="text-[10px] uppercase tracking-[0.4em] text-muted">
+            <p className="text-[9px] uppercase tracking-[0.3em] text-muted sm:text-[10px] sm:tracking-[0.4em]">
               Powered by Forstner Scouting · Stand {meta.updated}
             </p>
           </div>
@@ -41,20 +102,20 @@ export default function Home() {
           <div className="flex gap-2">
             <Link
               href="/mock-draft"
-              className="rounded border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary"
+              className="rounded border border-border px-3 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
             >
               Mock Draft
             </Link>
             <Link
               href="/simulator"
-              className="rounded border border-primary/40 bg-primary-glow px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background"
+              className="rounded border border-primary/40 bg-primary-glow px-3 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background sm:px-4"
             >
               Simulator
             </Link>
           </div>
 
           {/* Search */}
-          <div className="relative w-72">
+          <div className="relative w-full sm:w-72">
             <input
               type="text"
               placeholder="Spieler suchen..."
@@ -107,7 +168,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="mx-auto max-w-7xl px-6 py-8">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         {/* ── HERO ── */}
         <section className="mb-10 overflow-hidden rounded-xl border border-border bg-surface/60 px-6 py-10 sm:px-10">
           <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.5em] text-primary">
@@ -197,11 +258,11 @@ export default function Home() {
         </section>
 
         {/* ── BOARD TOGGLE ── */}
-        <section className="mb-8 flex items-center gap-4">
+        <section className="mb-8 flex flex-wrap items-center gap-2 sm:gap-4">
           <button
             onClick={() => setBoard("vertical")}
             className={cn(
-              "flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-bold uppercase tracking-wider transition-all",
+              "flex items-center gap-2 rounded-lg px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
               board === "vertical"
                 ? "bg-primary text-background glow-primary"
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -215,7 +276,7 @@ export default function Home() {
           <button
             onClick={() => setBoard("horizontal")}
             className={cn(
-              "flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-bold uppercase tracking-wider transition-all",
+              "flex items-center gap-2 rounded-lg px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
               board === "horizontal"
                 ? "bg-primary text-background glow-primary"
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
@@ -231,6 +292,47 @@ export default function Home() {
         {/* ── BOARD VIEW ── */}
         <section>
           {board === "vertical" ? <VerticalBoard /> : <HorizontalBoard />}
+        </section>
+
+        {/* ── SEO/GEO: INFO & FAQ ── */}
+        <section className="mt-12 grid gap-6 lg:grid-cols-[1fr_1fr]">
+          <div className="rounded-lg border border-border bg-surface p-6">
+            <h2 className="mb-3 text-sm font-black uppercase tracking-widest text-primary">
+              NFL Draft {meta.draftYear} – das Wichtigste
+            </h2>
+            <p className="text-sm leading-relaxed text-foreground/80">
+              Der NFL Draft {meta.draftYear} gilt als außergewöhnlich starker
+              Jahrgang: Mit WR Jeremiah Smith (Ohio State) und QB Arch Manning
+              (Texas) kämpfen zwei potenzielle Generational-Talente um Pick 1,
+              dahinter drängen Quarterbacks wie Dante Moore (Oregon) und Julian
+              Sayin (Ohio State) sowie Edge-Rusher Colin Simmons (Texas) in die
+              Top 5. Unser deutschsprachiges Big Board bündelt die großen
+              Consensus-Rankings, ergänzt jedes Profil um einen individuellen
+              Scouting-Report mit Best- und Worst-Case-NFL-Vergleich und wird
+              alle 14 Tage aktualisiert – von den Sommer-Boards bis zur
+              Draft-Nacht.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border bg-surface p-6">
+            <h2 className="mb-3 text-sm font-black uppercase tracking-widest text-primary">
+              Häufige Fragen
+            </h2>
+            <div className="flex flex-col gap-2">
+              {faqs.map((f) => (
+                <details
+                  key={f.q}
+                  className="group rounded border border-border bg-background/50 px-4 py-3"
+                >
+                  <summary className="cursor-pointer list-none text-sm font-bold text-foreground marker:hidden group-open:text-primary">
+                    {f.q}
+                  </summary>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    {f.a}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
         </section>
 
         {/* ── ANZEIGE ── */}
@@ -258,8 +360,8 @@ export default function Home() {
             ))}
           </ul>
           <p className="text-[10px] text-muted/60">
-            Bildquelle Spielerportraits: {meta.imageSource.name} (
-            {meta.imageSource.url}) · Stand: {meta.updated} · {meta.updateCycle}
+            Spielerdarstellung: {meta.imageSource.name} · Stand: {meta.updated}{" "}
+            · {meta.updateCycle}
           </p>
         </footer>
       </div>

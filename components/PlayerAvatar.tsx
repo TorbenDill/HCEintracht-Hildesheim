@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-import { getPlayerImage } from "@/lib/player-service";
 import { cn } from "@/lib/utils";
 
 function initials(name: string): string {
@@ -11,11 +7,28 @@ function initials(name: string): string {
   return (first + last).toUpperCase();
 }
 
+// Deterministische Farbwahl pro Name – jeder Spieler bekommt immer
+// denselben Verlauf, ohne externe Bild-Requests (keine 404s/Fehlermeldungen).
+const GRADIENTS = [
+  "from-cyan-500/40 via-surface to-background",
+  "from-emerald-500/40 via-surface to-background",
+  "from-violet-500/40 via-surface to-background",
+  "from-amber-500/40 via-surface to-background",
+  "from-rose-500/40 via-surface to-background",
+  "from-sky-500/40 via-surface to-background",
+  "from-lime-500/40 via-surface to-background",
+  "from-fuchsia-500/40 via-surface to-background",
+];
+
+function hash(name: string): number {
+  let h = 0;
+  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
+  return h;
+}
+
 /**
- * Spielerportrait mit Initialen-Fallback.
- * Füllt den (relativ positionierten) Eltern-Container. Schlägt das externe
- * Bild fehl, wird ein sauberer Initialen-Avatar gezeigt, statt ein kaputtes
- * Bild-Icon.
+ * Spieler-Avatar mit Initialen und deterministischem Farbverlauf.
+ * Füllt den (relativ positionierten) Eltern-Container.
  */
 export default function PlayerAvatar({
   name,
@@ -24,33 +37,21 @@ export default function PlayerAvatar({
   name: string;
   size?: "sm" | "md" | "lg";
 }) {
-  const [failed, setFailed] = useState(false);
-
   const textSize =
-    size === "lg" ? "text-5xl" : size === "sm" ? "text-[11px]" : "text-base";
-
-  if (failed) {
-    return (
-      <div
-        className={cn(
-          "absolute inset-0 flex items-center justify-center bg-gradient-to-br from-surface-light via-surface to-background font-black tracking-tight text-primary/80",
-          textSize
-        )}
-        aria-label={name}
-      >
-        {initials(name)}
-      </div>
-    );
-  }
+    size === "lg" ? "text-6xl" : size === "sm" ? "text-[11px]" : "text-base";
+  const gradient = GRADIENTS[hash(name) % GRADIENTS.length];
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={getPlayerImage(name)}
-      alt={name}
-      loading="lazy"
-      onError={() => setFailed(true)}
-      className="absolute inset-0 h-full w-full object-cover"
-    />
+    <div
+      className={cn(
+        "absolute inset-0 flex items-center justify-center bg-gradient-to-br font-black tracking-tight text-foreground/85",
+        gradient,
+        textSize
+      )}
+      role="img"
+      aria-label={name}
+    >
+      {initials(name)}
+    </div>
   );
 }

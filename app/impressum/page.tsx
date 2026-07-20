@@ -180,9 +180,10 @@ export default function ImpressumPage() {
               Dieses Angebot ist ein privates, redaktionelles Hobbyprojekt rund
               um den NFL Draft. Es steht in keiner Verbindung zur National
               Football League (NFL) oder zu den genannten Colleges und Teams.
-              Spielerbewertungen sind subjektive Einschätzungen. Verwendete
-              Spielerportraits stammen von nfldraftbuzz.com; Rankings und Daten
-              basieren auf den auf der Startseite genannten Quellen.
+              Spielerbewertungen sind subjektive Einschätzungen.
+              Spielerdarstellungen sind eigene, generierte Initialen-Avatare
+              (keine Fotos); Rankings und Daten basieren auf den auf der
+              Startseite genannten Quellen.
             </p>
           </section>
 
