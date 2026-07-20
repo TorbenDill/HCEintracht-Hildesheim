@@ -171,22 +171,19 @@ export default function Home() {
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         {/* ── HERO ── */}
         <section className="mb-10 overflow-hidden rounded-xl border border-border bg-surface/60 px-6 py-10 sm:px-10">
-          <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.5em] text-primary">
-            Consensus Big Board
-          </p>
           <h2 className="text-4xl font-black uppercase leading-none tracking-tight text-foreground sm:text-6xl">
-            NFL Draft <span className="text-primary text-glow-primary">2027</span>
+            NFL Draft <span className="text-primary">2027</span>
           </h2>
           <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
-            Big Board, Positionsrankings und Mock Draft für die Klasse 2027 –
-            mit deutschem Scouting-Profil zu jedem Prospect. {meta.updateCycle}.
+            Big Board, Positionsrankings und Mock Draft für die Klasse 2027,
+            mit deutschem Scouting-Profil zu jedem Prospect.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/simulator"
               className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background transition-all glow-primary hover:brightness-110"
             >
-              Simulator starten →
+              Simulator starten
             </Link>
             <Link
               href="/mock-draft"
@@ -194,9 +191,6 @@ export default function Home() {
             >
               Mock Draft ansehen
             </Link>
-            <span className="rounded border border-border bg-surface px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-muted">
-              Stand {meta.updated}
-            </span>
           </div>
         </section>
 
@@ -249,7 +243,7 @@ export default function Home() {
                 <blockquote className="border-l-2 border-primary pl-3 text-sm italic text-foreground/80">
                   &ldquo;{featured.forstner_statement}&rdquo;
                   <span className="ml-2 text-[10px] font-bold uppercase tracking-wider text-accent not-italic">
-                    — Forstner
+                    Forstner
                   </span>
                 </blockquote>
               )}
@@ -297,8 +291,8 @@ export default function Home() {
         {/* ── SEO/GEO: INFO & FAQ ── */}
         <section className="mt-12 grid gap-6 lg:grid-cols-[1fr_1fr]">
           <div className="rounded-lg border border-border bg-surface p-6">
-            <h2 className="mb-3 text-sm font-black uppercase tracking-widest text-primary">
-              NFL Draft {meta.draftYear} – das Wichtigste
+            <h2 className="mb-3 text-lg font-black tracking-tight text-foreground">
+              Das Wichtigste zum NFL Draft {meta.draftYear}
             </h2>
             <p className="text-sm leading-relaxed text-foreground/80">
               Der NFL Draft {meta.draftYear} gilt als außergewöhnlich starker
@@ -314,7 +308,7 @@ export default function Home() {
             </p>
           </div>
           <div className="rounded-lg border border-border bg-surface p-6">
-            <h2 className="mb-3 text-sm font-black uppercase tracking-widest text-primary">
+            <h2 className="mb-3 text-lg font-black tracking-tight text-foreground">
               Häufige Fragen
             </h2>
             <div className="flex flex-col gap-2">
@@ -342,7 +336,7 @@ export default function Home() {
 
         {/* ── QUELLEN / FOOTER ── */}
         <footer className="mt-12 rounded border border-border bg-surface p-5">
-          <h2 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+          <h2 className="mb-3 text-sm font-bold text-foreground">
             Quellen &amp; Aktualisierung
           </h2>
           <ul className="mb-3 flex flex-col gap-1">

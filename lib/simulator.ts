@@ -28,14 +28,14 @@ export function cpuPick(needs: string[], available: Player[]): Player | null {
 }
 
 export const POSITION_COLORS: Record<string, string> = {
-  QB: "#00f2ff",
-  RB: "#39ff14",
+  QB: "#38bdf8",
+  RB: "#4ade80",
   WR: "#ffb020",
   TE: "#ff7ac6",
   OT: "#a78bfa",
   IOL: "#a78bfa",
-  EDGE: "#ff5a5a",
-  DT: "#ff8a5a",
+  EDGE: "#f87171",
+  DT: "#fb923c",
   LB: "#5ad1ff",
   CB: "#7cf5b0",
   S: "#c0f060",

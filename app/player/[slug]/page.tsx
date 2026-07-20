@@ -12,86 +12,6 @@ import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
 import PlayerAvatar from "@/components/PlayerAvatar";
 
-const PIKTOGRAMM_ICONS: Record<string, string> = {
-  Spielintelligenz: "🧠",
-  Armstärke: "💪",
-  Selbstvertrauen: "🔥",
-  Genauigkeit: "🎯",
-  Körperbeherrschung: "🤸",
-  Athletik: "⚡",
-  "Ball Skills": "🏈",
-  Instinkte: "👁️",
-  Speed: "💨",
-  Geschwindigkeit: "💨",
-  Quickness: "⚡",
-  "Deep Threat": "🚀",
-  Release: "✨",
-  "Route Running": "🔀",
-  Hände: "🤲",
-  IQ: "🧠",
-  Physis: "💪",
-  Power: "💪",
-  Stärke: "💪",
-  Härte: "🛡️",
-  Größe: "📏",
-  "Catch Radius": "📡",
-  YAC: "🏃",
-  Explosivität: "💥",
-  Technik: "⚙️",
-  Fußarbeit: "👟",
-  Beweglichkeit: "🤸",
-  Blocking: "🧱",
-  Bending: "🌊",
-  Länge: "📏",
-  Coverage: "🛡️",
-  Tackling: "🤜",
-  Leadership: "👑",
-  Mobilität: "🏃",
-  "Deep Ball": "🚀",
-  "Arm Talent": "💪",
-  Kreativität: "🎨",
-  Vielseitigkeit: "🔄",
-  "Pass Rush": "⚡",
-  Instinkt: "👁️",
-  Reichweite: "📡",
-  "Contested Catch": "🏈",
-  Motor: "🔥",
-  Produktivität: "📈",
-  Zuverlässigkeit: "✅",
-  Erfahrung: "🎓",
-  Agilität: "⚡",
-  "Slot-Expertise": "🎯",
-  Eleganz: "✨",
-  Kontaktbalance: "⚖️",
-  Vision: "👁️",
-  Ausdauer: "♾️",
-  "One-Cut": "✂️",
-  Potential: "📈",
-  Allround: "🔄",
-  Toughness: "🛡️",
-  Finesse: "✨",
-  Receiving: "🤲",
-  Mismatch: "⚠️",
-  Masse: "⚓",
-  "Short-Yardage": "🎯",
-  Leverage: "⚖️",
-  Geduld: "⏳",
-  "Stride Length": "📏",
-  "Run Stopping": "🛑",
-  Hebelwirkung: "⚖️",
-  "Return Skills": "↩️",
-  Nervenstärke: "🧊",
-  Präzision: "🎯",
-  Beinkraft: "🦵",
-  Hangtime: "⏱️",
-  Spannweite: "📐",
-  Einsatz: "💯",
-  Energie: "⚡",
-  "Route Matching": "🔀",
-  Furchtlosigkeit: "🦁",
-  "Pocket Presence": "🧱",
-};
-
 export async function generateStaticParams() {
   const players = getPlayers();
   return players.map((p) => ({ slug: getPlayerSlug(p.name) }));
@@ -247,9 +167,6 @@ export default async function PlayerPage({
                       key={p}
                       className="flex items-center gap-1.5 rounded-full border border-primary/20 bg-primary-glow px-3 py-1.5"
                     >
-                      <span className="text-sm">
-                        {PIKTOGRAMM_ICONS[p] ?? "⭐"}
-                      </span>
                       <span className="text-xs font-bold text-primary">
                         {p}
                       </span>

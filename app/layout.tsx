@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import CookieConsent from "@/components/CookieConsent";
+import "@fontsource-variable/archivo";
+import "@fontsource-variable/jetbrains-mono";
 import "./globals.css";
 
 const description =
