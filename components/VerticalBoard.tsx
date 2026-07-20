@@ -94,7 +94,7 @@ export default function VerticalBoard() {
                       : "text-muted"
                 )}
               >
-                #{rank ?? "—"}
+                #{rank ?? "-"}
               </span>
 
               {/* Player Image */}
@@ -141,7 +141,7 @@ export default function VerticalBoard() {
                     SCOUTED
                   </span>
                 ) : (
-                  <span className="text-[10px] text-muted/50">—</span>
+                  <span className="text-[10px] text-muted/50">-</span>
                 )}
               </div>
             </Link>

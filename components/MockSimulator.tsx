@@ -162,25 +162,25 @@ export default function MockSimulator() {
       if (!ctx) return;
 
       // Hintergrund
-      ctx.fillStyle = "#020617";
+      ctx.fillStyle = "#0b0d10";
       ctx.fillRect(0, 0, W, H);
       const grad = ctx.createRadialGradient(120, 60, 40, 120, 60, 900);
-      grad.addColorStop(0, "rgba(0,242,255,0.16)");
-      grad.addColorStop(1, "rgba(2,6,23,0)");
+      grad.addColorStop(0, "rgba(238,112,20,0.14)");
+      grad.addColorStop(1, "rgba(11,13,16,0)");
       ctx.fillStyle = grad;
       ctx.fillRect(0, 0, W, H);
 
       const pad = 64;
       // Header
       ctx.textBaseline = "alphabetic";
-      ctx.fillStyle = "#00f2ff";
-      ctx.font = "700 26px Inter, sans-serif";
+      ctx.fillStyle = "#ee7014";
+      ctx.font = "700 26px Archivo, sans-serif";
       ctx.fillText("NFL MOCK DRAFT", pad, 92);
       ctx.fillStyle = "#e2e8f0";
-      ctx.font = "900 88px Inter, sans-serif";
+      ctx.font = "900 88px Archivo, sans-serif";
       ctx.fillText("2027", pad, 176);
       ctx.fillStyle = "#94a3b8";
-      ctx.font = "600 24px Inter, sans-serif";
+      ctx.font = "600 24px Archivo, sans-serif";
       const subtitle =
         mode === "team" && yourTeam != null
           ? `${teams[yourTeam].team} · GM-Edition`
@@ -200,22 +200,22 @@ export default function MockSimulator() {
         const mine = mode === "team" && i === yourTeam;
 
         if (mine) {
-          ctx.fillStyle = "rgba(0,242,255,0.10)";
+          ctx.fillStyle = "rgba(238,112,20,0.10)";
           ctx.fillRect(pad - 16, y, W - 2 * (pad - 16), rowH - 4);
-          ctx.fillStyle = "#00f2ff";
+          ctx.fillStyle = "#ee7014";
           ctx.fillRect(pad - 16, y, 5, rowH - 4);
         }
 
         const midY = y + rowH / 2;
         // Pick number
         ctx.fillStyle = "#475569";
-        ctx.font = "800 22px Inter, sans-serif";
+        ctx.font = "800 22px Archivo, sans-serif";
         ctx.textBaseline = "middle";
         ctx.fillText(String(i + 1).padStart(2, "0"), pad - 4, midY);
 
         // Team abbr
         ctx.fillStyle = "#64748b";
-        ctx.font = "800 20px Inter, sans-serif";
+        ctx.font = "800 20px Archivo, sans-serif";
         ctx.fillText(teams[i].teamAbbr, pad + 52, midY);
 
         if (p) {
@@ -226,26 +226,26 @@ export default function MockSimulator() {
           ctx.fill();
           // Name
           ctx.fillStyle = "#f8fafc";
-          ctx.font = `800 ${rowH >= 44 ? 28 : 22}px Inter, sans-serif`;
+          ctx.font = `800 ${rowH >= 44 ? 28 : 22}px Archivo, sans-serif`;
           ctx.fillText(p.name, pad + 158, midY);
           // Pos · College (rechts)
           ctx.fillStyle = "#94a3b8";
-          ctx.font = "600 20px Inter, sans-serif";
+          ctx.font = "600 20px Archivo, sans-serif";
           ctx.textAlign = "right";
           const right = showCollege ? `${p.position} · ${p.college}` : p.position;
           ctx.fillText(right, W - pad, midY);
           ctx.textAlign = "left";
         } else {
           ctx.fillStyle = "#334155";
-          ctx.font = "600 22px Inter, sans-serif";
-          ctx.fillText("—", pad + 158, midY);
+          ctx.font = "600 22px Archivo, sans-serif";
+          ctx.fillText("-", pad + 158, midY);
         }
         ctx.textBaseline = "alphabetic";
       }
 
       // Footer
       ctx.fillStyle = "#64748b";
-      ctx.font = "600 22px Inter, sans-serif";
+      ctx.font = "600 22px Archivo, sans-serif";
       ctx.textBaseline = "middle";
       ctx.fillText(
         SITE_URL.replace(/^https?:\/\//, ""),
@@ -253,7 +253,7 @@ export default function MockSimulator() {
         H - footerH / 2
       );
       ctx.textAlign = "right";
-      ctx.fillStyle = "#00f2ff";
+      ctx.fillStyle = "#ee7014";
       ctx.fillText("Forstner Scouting", W - pad, H - footerH / 2);
       ctx.textAlign = "left";
       ctx.textBaseline = "alphabetic";
@@ -279,7 +279,6 @@ export default function MockSimulator() {
           onClick={() => reset("team")}
           className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
         >
-          <div className="mb-3 text-3xl">🎯</div>
           <h3 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
             Ein Team draften
           </h3>
@@ -292,7 +291,6 @@ export default function MockSimulator() {
           onClick={() => reset("gm")}
           className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
         >
-          <div className="mb-3 text-3xl">🏈</div>
           <h3 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
             GM-Modus · Alle 32 Picks
           </h3>
@@ -364,7 +362,7 @@ export default function MockSimulator() {
             </p>
           ) : (
             <p className="text-lg font-black uppercase tracking-tight text-accent text-glow-accent">
-              Draft komplett ✓
+              Draft komplett
             </p>
           )}
         </div>
@@ -463,13 +461,13 @@ export default function MockSimulator() {
               onClick={() => drawAndDownload("4:5")}
               className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
             >
-              ⬇ PNG 4:5 (Feed)
+              PNG 4:5 (Feed)
             </button>
             <button
               onClick={() => drawAndDownload("9:16")}
               className="rounded bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
             >
-              ⬇ PNG 9:16 (Story)
+              PNG 9:16 (Story)
             </button>
           </div>
         </div>
@@ -518,7 +516,7 @@ export default function MockSimulator() {
                     </span>
                   ) : (
                     <span className="text-xs text-muted/50">
-                      {current ? "am Zug…" : "—"}
+                      {current ? "am Zug…" : "-"}
                     </span>
                   )}
                 </div>
