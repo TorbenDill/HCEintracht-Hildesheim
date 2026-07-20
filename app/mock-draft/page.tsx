@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getMockDraft, getBoardMeta, getPlayerSlug } from "@/lib/player-service";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import AdSense from "@/components/AdSense";
+import Reveal from "@/components/Reveal";
 
 export const metadata = {
   title: "Mock Draft 2027 – Runde 1",
@@ -24,7 +25,7 @@ export default function MockDraftPage() {
   return (
     <main className="min-h-screen bg-background">
       {/* Back Navigation */}
-      <div className="border-b border-border bg-surface">
+      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-6 py-3">
           <Link
             href="/"
@@ -50,12 +51,13 @@ export default function MockDraftPage() {
           </p>
         </div>
 
+        <Reveal>
         <div className="flex flex-col gap-2">
           {picks.map((pick) => (
             <Link
               key={pick.pick}
               href={`/player/${getPlayerSlug(pick.player)}`}
-              className="group grid grid-cols-[52px_44px_1fr] items-center gap-4 rounded border border-border bg-surface px-4 py-3 transition-all hover:border-primary/40 hover:bg-surface-light sm:grid-cols-[52px_44px_1fr_220px]"
+              className="group grid grid-cols-[52px_44px_1fr] items-center gap-4 rounded-xl border border-border bg-surface px-4 py-3 transition-all hover:border-primary/40 hover:bg-surface-light sm:grid-cols-[52px_44px_1fr_220px]"
             >
               {/* Pick number */}
               <span className="font-mono text-2xl font-black text-primary text-glow-primary">
@@ -90,6 +92,7 @@ export default function MockDraftPage() {
             </Link>
           ))}
         </div>
+        </Reveal>
 
         {/* Anzeige */}
         <div className="mt-10">
