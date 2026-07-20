@@ -374,7 +374,7 @@ export default function MockSimulator() {
               className={cn(
                 "rounded border px-4 py-2 text-center font-mono",
                 timeLeft <= 10
-                  ? "animate-pulse border-red-500 bg-red-500/15 text-red-400"
+                  ? "animate-pulse border-red-700 bg-red-700/10 text-red-700"
                   : timeLeft <= 30
                     ? "border-accent/50 bg-accent-glow text-accent"
                     : "border-border bg-surface text-foreground"

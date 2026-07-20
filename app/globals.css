@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Warmes Near-Black statt Blau-Slate: seriöser Sportjournalismus-Look */
-  --color-background: #0b0d10;
-  --color-foreground: #e9e7e4;
-  --color-muted: #9aa0a8;
+  /* Helles Editorial-Theme: Sportmagazin statt Dark-Dashboard */
+  --color-background: #f7f7f6;
+  --color-foreground: #17181a;
+  --color-muted: #5f646c;
 
-  /* Ein Akzent: Football-Leder-Orange */
-  --color-primary: #ee7014;
-  --color-primary-dark: #c2410c;
-  --color-primary-glow: rgba(238, 112, 20, 0.12);
+  /* Ein Akzent: verbranntes Football-Orange (kontraststark auf Hell) */
+  --color-primary: #c2410c;
+  --color-primary-dark: #9a3412;
+  --color-primary-glow: rgba(194, 65, 12, 0.08);
 
-  /* Semantisch positiv (SCOUTED, Best Case) – zurückhaltendes Emerald */
-  --color-accent: #34d399;
-  --color-accent-dark: #059669;
-  --color-accent-glow: rgba(52, 211, 153, 0.1);
+  /* Semantisch positiv (SCOUTED, Best Case) */
+  --color-accent: #047857;
+  --color-accent-dark: #065f46;
+  --color-accent-glow: rgba(4, 120, 87, 0.08);
 
-  --color-surface: #14171c;
-  --color-surface-light: #1e232a;
-  --color-border: #272d36;
+  --color-surface: #ffffff;
+  --color-surface-light: #ededec;
+  --color-border: #e2e1df;
 
   --font-sans: "Archivo Variable", ui-sans-serif, system-ui, -apple-system,
+    sans-serif;
+  --font-display: "Oswald Variable", "Archivo Variable", ui-sans-serif,
     sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
 }
@@ -29,30 +31,20 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
-  /* Sehr dezente Tiefe, kein Neon-Mesh */
-  background-image: radial-gradient(
-    70rem 50rem at 85% -10%,
-    rgba(238, 112, 20, 0.05),
-    transparent 60%
-  );
-  background-attachment: fixed;
 }
 
 ::selection {
-  background: rgba(238, 112, 20, 0.3);
-  color: #ffffff;
+  background: rgba(194, 65, 12, 0.18);
+  color: #17181a;
 }
 
-/* Ehemalige Neon-Utilities: bewusst entschärft, damit alle Verwendungen
-   zentral vom Glow zum ruhigen, physischen Look wechseln. */
+/* Ehemalige Glow-Utilities: physische, ruhige Schatten */
 .glow-primary {
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset,
-    0 4px 14px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1px 2px rgba(23, 24, 26, 0.12), 0 6px 20px rgba(23, 24, 26, 0.1);
 }
 
 .glow-accent {
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset,
-    0 4px 14px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(23, 24, 26, 0.1), 0 6px 20px rgba(23, 24, 26, 0.08);
 }
 
 .text-glow-primary {
@@ -95,11 +87,11 @@ input:focus-visible {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-surface);
+  background: var(--color-surface-light);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-surface-light);
+  background: #c9c8c5;
   border-radius: 3px;
 }
 

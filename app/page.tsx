@@ -95,7 +95,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
           <div className="min-w-0">
-            <h1 className="text-base font-black uppercase tracking-widest text-foreground sm:text-lg">
+            <h1 className="font-display text-lg font-semibold uppercase tracking-wide text-foreground sm:text-xl">
               NFL Draft
               <span className="text-primary"> Board {meta.draftYear}</span>
             </h1>
@@ -185,7 +185,7 @@ export default function Home() {
               className="absolute inset-0 h-full w-full object-cover"
               style={{ backgroundColor: heroVisual.avgColor }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/75 to-background/35" />
+            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/30" />
           </>
         )}
         <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-16 sm:px-6 sm:pb-32 sm:pt-24">
@@ -193,10 +193,10 @@ export default function Home() {
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="max-w-4xl text-5xl font-black leading-[0.95] tracking-tight text-foreground sm:text-7xl lg:text-8xl"
+            className="max-w-4xl font-display text-6xl font-bold uppercase leading-[0.92] tracking-tight text-foreground sm:text-8xl lg:text-9xl"
           >
             Der Draft beginnt{" "}
-            <span className="bg-gradient-to-r from-primary to-amber-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-amber-600 bg-clip-text text-transparent">
               jetzt.
             </span>
           </motion.h2>
@@ -253,7 +253,7 @@ export default function Home() {
           </p>
           <Link
             href={`/player/${getPlayerSlug(featured.name)}`}
-            className="group relative grid overflow-hidden rounded-3xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_24px_60px_rgba(0,0,0,0.45)] md:grid-cols-[280px_1fr]"
+            className="group relative grid overflow-hidden rounded-3xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_20px_50px_rgba(23,24,26,0.14)] md:grid-cols-[280px_1fr]"
           >
             {/* Image */}
             <div className="relative h-64 md:h-auto">
@@ -271,7 +271,7 @@ export default function Home() {
                   {featured.position}
                 </span>
               </div>
-              <h2 className="mb-1 text-3xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
+              <h2 className="mb-1 font-display text-4xl font-semibold uppercase tracking-tight text-foreground group-hover:text-primary">
                 {featured.name}
               </h2>
               <p className="mb-4 text-sm uppercase tracking-wider text-muted">
