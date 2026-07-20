@@ -124,9 +124,13 @@ export default function DatenschutzPage() {
           <section>
             <H2>6. Google AdSense</H2>
             <p>
-              Diese Website nutzt – nur mit Ihrer Einwilligung – Google AdSense,
-              einen Dienst der Google Ireland Limited, Gordon House, Barrow
-              Street, Dublin 4, Irland. Google AdSense verwendet Cookies und
+              Diese Website nutzt Google AdSense, einen Dienst der Google
+              Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+              Das AdSense-Basisskript wird beim Seitenaufruf technisch geladen
+              (u. a. zur Verifizierung der Website); Werbeanfragen und die
+              Anzeige von Werbung erfolgen jedoch erst, nachdem Sie über unser
+              Cookie-Banner eingewilligt haben – bis dahin sind Ad-Requests
+              pausiert. Google AdSense verwendet Cookies und
               vergleichbare Technologien, um Anzeigen auszuspielen und deren
               Auslieferung zu messen. Dabei können Nutzungsdaten (u. a.
               IP-Adresse, Geräte- und Browserinformationen) verarbeitet und an
