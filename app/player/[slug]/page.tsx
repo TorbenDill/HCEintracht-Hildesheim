@@ -277,6 +277,11 @@ export default async function PlayerPage({
             </p>
           </div>
         </section>
+
+        {/* Anzeige (Display, Seitenende) */}
+        <section className="mb-10">
+          <AdSense slot="5635468031" />
+        </section>
       </div>
     </main>
   );

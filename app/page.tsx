@@ -340,6 +340,11 @@ export default function Home() {
           {board === "vertical" ? <VerticalBoard /> : <HorizontalBoard />}
         </section>
 
+        {/* ── ANZEIGE (In-Article, nach dem Board) ── */}
+        <section className="mt-16">
+          <AdSense slot="6888694163" layout="in-article" />
+        </section>
+
         {/* ── SEO/GEO: INFO & FAQ ── */}
         <Reveal className="mt-24 grid gap-6 lg:grid-cols-[1fr_1fr]">
           <div className="rounded-2xl border border-border bg-surface p-7">
