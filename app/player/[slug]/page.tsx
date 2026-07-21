@@ -8,6 +8,7 @@ import {
   getBoardMeta,
 } from "@/lib/player-service";
 import { absoluteUrl } from "@/lib/site";
+import { getPlayerPhoto } from "@/lib/player-images";
 import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
@@ -71,6 +72,8 @@ export default async function PlayerPage({
     notFound();
   }
 
+  const photo = getPlayerPhoto(player.name);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -124,6 +127,16 @@ export default async function PlayerPage({
             <div className="absolute bottom-3 right-3 rounded bg-primary px-3 py-1 text-sm font-black uppercase text-background">
               {player.position}
             </div>
+            {photo && (
+              <a
+                href={photo.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-0 left-0 max-w-full truncate rounded-tr bg-background/85 px-2 py-0.5 text-[8px] text-muted backdrop-blur-sm hover:text-primary"
+              >
+                Foto: {photo.artist} · {photo.license} · Wikimedia
+              </a>
+            )}
           </div>
 
           {/* Player Info + Stats */}

@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+import { getPlayerPhoto } from "@/lib/player-images";
 import { cn } from "@/lib/utils";
 
 function initials(name: string): string {
@@ -7,8 +11,8 @@ function initials(name: string): string {
   return (first + last).toUpperCase();
 }
 
-// Deterministische Farbwahl pro Name – jeder Spieler bekommt immer
-// denselben Verlauf, ohne externe Bild-Requests (keine 404s/Fehlermeldungen).
+// Deterministische Farbwahl pro Name – jeder Spieler bekommt immer denselben
+// Verlauf, ohne externe Bild-Requests (keine 404s/Fehlermeldungen).
 const GRADIENTS = [
   "from-cyan-600/25 via-surface to-background",
   "from-emerald-600/25 via-surface to-background",
@@ -27,8 +31,9 @@ function hash(name: string): number {
 }
 
 /**
- * Spieler-Avatar mit Initialen und deterministischem Farbverlauf.
- * Füllt den (relativ positionierten) Eltern-Container.
+ * Spieler-Avatar: zeigt ein frei lizenziertes Wikimedia-Foto, sofern vorhanden,
+ * sonst einen Initialen-Avatar mit festem Farbverlauf. Bei Ladefehler des Fotos
+ * wird sauber auf den Avatar zurückgefallen. Füllt den (relativen) Container.
  */
 export default function PlayerAvatar({
   name,
@@ -37,6 +42,22 @@ export default function PlayerAvatar({
   name: string;
   size?: "sm" | "md" | "lg";
 }) {
+  const photo = getPlayerPhoto(name);
+  const [failed, setFailed] = useState(false);
+
+  if (photo && !failed) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={photo.url}
+        alt={name}
+        loading="lazy"
+        onError={() => setFailed(true)}
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+    );
+  }
+
   const textSize =
     size === "lg" ? "text-6xl" : size === "sm" ? "text-[11px]" : "text-base";
   const gradient = GRADIENTS[hash(name) % GRADIENTS.length];

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prebuild": "node scripts/fetch-visuals.mjs"
+    "prebuild": "node scripts/fetch-visuals.mjs && node scripts/fetch-player-images.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",
