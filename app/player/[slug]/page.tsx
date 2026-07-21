@@ -9,6 +9,7 @@ import {
 } from "@/lib/player-service";
 import { absoluteUrl } from "@/lib/site";
 import { getPlayerPhoto } from "@/lib/player-images";
+import { getCollegeLink } from "@/lib/colleges";
 import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
@@ -73,6 +74,7 @@ export default async function PlayerPage({
   }
 
   const photo = getPlayerPhoto(player.name);
+  const collegeLink = getCollegeLink(player.college);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -142,7 +144,16 @@ export default async function PlayerPage({
           {/* Player Info + Stats */}
           <div>
             <p className="mb-1 text-xs font-bold uppercase tracking-[0.3em] text-primary">
-              {player.college}
+              {collegeLink ? (
+                <Link
+                  href={`/college/${collegeLink}`}
+                  className="hover:underline"
+                >
+                  {player.college}
+                </Link>
+              ) : (
+                player.college
+              )}
             </p>
             <h1 className="mb-4 font-display text-5xl font-semibold uppercase tracking-tight text-foreground lg:text-6xl">
               {player.name}

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getPlayers, getPlayerSlug, getBoardMeta } from "@/lib/player-service";
 import lexikon from "@/data/lexikon.json";
 import { getAllPositionKeys } from "@/lib/positions";
+import { getColleges } from "@/lib/colleges";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -66,10 +67,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const collegeRoutes: MetadataRoute.Sitemap = [
+    {
+      url: absoluteUrl("/colleges"),
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+    ...getColleges().map((c) => ({
+      url: absoluteUrl(`/college/${c.slug}`),
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
+  ];
+
   return [
     ...staticRoutes,
     ...playerRoutes,
     ...lexikonRoutes,
     ...positionRoutes,
+    ...collegeRoutes,
   ];
 }

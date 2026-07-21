@@ -80,6 +80,9 @@ export default function RootLayout({
               <a href="/positionen" className="hover:text-primary">
                 Positionen
               </a>
+              <a href="/colleges" className="hover:text-primary">
+                Colleges
+              </a>
               <a href="/lexikon" className="hover:text-primary">
                 Lexikon
               </a>
