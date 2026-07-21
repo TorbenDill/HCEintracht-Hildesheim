@@ -41,6 +41,11 @@ export type MockPick = {
 
 const players: Player[] = data as Player[];
 
+/** Sortier-Comparator: nach Overall-Rank aufsteigend, ungerankt ans Ende. */
+export function byOverallRank(a: Player, b: Player): number {
+  return (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999);
+}
+
 export function getPlayers(): Player[] {
   return players;
 }
@@ -53,32 +58,42 @@ export function getMockDraft(): MockPick[] {
   return mockdraft as MockPick[];
 }
 
-export function getPlayerBySlug(slug: string): Player | undefined {
-  return players.find(
-    (p) => p.name.toLowerCase().replace(/\s+/g, "-").replace(/[.']/g, "") === slug
-  );
-}
-
+// Kanonischer Slug. WICHTIG: scripts/build_2027.py (slugify) und
+// scripts/fetch-player-images.mjs müssen dieselbe Regel verwenden, da
+// rank-history.json und player-images.json über diesen Slug gekeyt sind.
 export function getPlayerSlug(name: string): string {
-  return name.toLowerCase().replace(/\s+/g, "-").replace(/[.']/g, "");
+  return name.toLowerCase().replace(/\s+/g, "-").replace(/[.'’]/g, "");
 }
 
-export function getPlayerImage(playerName: string): string {
-  const slug = playerName.trim().split(/\s+/).join("-");
-  return `https://www.nfldraftbuzz.com/PlayerImages/${slug}.png`;
+const bySlug = new Map<string, Player>(
+  players.map((p) => [getPlayerSlug(p.name), p])
+);
+
+export function getPlayerBySlug(slug: string): Player | undefined {
+  return bySlug.get(slug);
+}
+
+// Positions-Buckets einmalig vorsortieren (statt Filter+Sort pro Aufruf).
+const byPosition = new Map<string, Player[]>();
+for (const p of players) {
+  const key = p.position.toUpperCase();
+  (byPosition.get(key) ?? byPosition.set(key, []).get(key)!).push(p);
+}
+for (const arr of byPosition.values()) {
+  arr.sort((a, b) => a.ranking_pos - b.ranking_pos);
 }
 
 export function getPlayersByPosition(position: string): Player[] {
-  return players
-    .filter((p) => p.position.toLowerCase() === position.toLowerCase())
-    .sort((a, b) => a.ranking_pos - b.ranking_pos);
+  return byPosition.get(position.toUpperCase()) ?? [];
 }
 
+const top100 = players
+  .filter((p) => p.ranking_overall !== null)
+  .sort(byOverallRank)
+  .slice(0, 100);
+
 export function getTop100(): Player[] {
-  return players
-    .filter((p) => p.ranking_overall !== null)
-    .sort((a, b) => (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999))
-    .slice(0, 100);
+  return top100;
 }
 
 export function getAllPositions(): string[] {

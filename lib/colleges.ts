@@ -1,4 +1,4 @@
-import { getPlayers, type Player } from "@/lib/player-service";
+import { getPlayers, byOverallRank, type Player } from "@/lib/player-service";
 
 const MIN_FOR_PAGE = 2; // eigene Seite erst ab 2 Prospects (Qualität > Dünn-Content)
 
@@ -13,40 +13,40 @@ export function collegeSlug(name: string): string {
 
 export type College = { name: string; slug: string; players: Player[] };
 
-function buildMap(): Map<string, Player[]> {
+// Einmalig gruppieren + sortieren (statt bei jedem Aufruf neu aufzubauen).
+const colleges: College[] = (() => {
   const m = new Map<string, Player[]>();
   for (const p of getPlayers()) {
     const c = (p.college || "").trim();
     if (!c) continue;
-    if (!m.has(c)) m.set(c, []);
-    m.get(c)!.push(p);
+    (m.get(c) ?? m.set(c, []).get(c)!).push(p);
   }
-  for (const arr of m.values()) {
-    arr.sort(
-      (a, b) => (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999)
-    );
-  }
-  return m;
-}
-
-/** Colleges mit eigener Seite (>= MIN_FOR_PAGE Prospects), stärkste zuerst. */
-export function getColleges(): College[] {
-  return [...buildMap().entries()]
+  return [...m.entries()]
     .filter(([, arr]) => arr.length >= MIN_FOR_PAGE)
-    .map(([name, players]) => ({ name, slug: collegeSlug(name), players }))
+    .map(([name, list]) => ({
+      name,
+      slug: collegeSlug(name),
+      players: [...list].sort(byOverallRank),
+    }))
     .sort(
       (a, b) =>
         b.players.length - a.players.length || a.name.localeCompare(b.name)
     );
+})();
+
+const bySlug = new Map(colleges.map((c) => [c.slug, c]));
+const byName = new Map(colleges.map((c) => [c.name, c]));
+
+/** Colleges mit eigener Seite (>= MIN_FOR_PAGE Prospects), stärkste zuerst. */
+export function getColleges(): College[] {
+  return colleges;
 }
 
 export function getCollegeBySlug(slug: string): College | null {
-  return getColleges().find((c) => c.slug === slug) ?? null;
+  return bySlug.get(slug) ?? null;
 }
 
 /** Slug der College-Seite, falls es eine gibt (für Cross-Links). */
 export function getCollegeLink(name: string): string | null {
-  const c = (name || "").trim();
-  const found = getColleges().find((x) => x.name === c);
-  return found ? found.slug : null;
+  return byName.get((name || "").trim())?.slug ?? null;
 }

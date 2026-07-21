@@ -1,4 +1,5 @@
 import images from "@/data/player-images.json";
+import { getPlayerSlug } from "@/lib/player-service";
 
 export type PlayerPhoto = {
   url: string;
@@ -11,7 +12,6 @@ const data = images as Record<string, PlayerPhoto>;
 
 /** Frei lizenziertes Foto zum Spieler (oder null -> Initialen-Avatar). */
 export function getPlayerPhoto(name: string): PlayerPhoto | null {
-  const key = name.toLowerCase().replace(/\s+/g, "-").replace(/[.'’]/g, "");
-  const p = data[key];
+  const p = data[getPlayerSlug(name)];
   return p && p.url ? p : null;
 }

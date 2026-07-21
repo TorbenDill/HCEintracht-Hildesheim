@@ -13,10 +13,13 @@ const AD_CLIENT = "ca-pub-3725697242603398";
 
 /**
  * AdSense-Anzeigenblock. Der `.ad-slot`-Wrapper wird per CSS komplett
- * ausgeblendet (inkl. Außenabstand), sobald Google die Anzeige als
- * "unfilled" markiert – so entsteht nie leerer Weißraum, wenn keine
- * Werbung ausgeliefert wird (fehlende Freigabe, kein Consent, kein Fill).
- * Das Außenabstand-Maß wird über `className` (z. B. "my-10") gesteuert.
+ * ausgeblendet (inkl. Außenabstand), sobald Google die Anzeige mit
+ * data-ad-status="unfilled" markiert – so entsteht kein leerer Weißraum,
+ * wenn AdSense geladen wurde, aber keine Werbung ausliefert (fehlende
+ * Freigabe oder kein Fill). Hinweis: Wird das Skript blockiert (Ad-Blocker)
+ * oder gar nicht initialisiert, setzt Google kein Status-Attribut; der leere,
+ * 0 Pixel hohe `ins` bleibt dann mitsamt Außenabstand stehen. Das
+ * Außenabstand-Maß wird über `className` (z. B. "my-10") gesteuert.
  */
 export default function AdSense({
   slot,

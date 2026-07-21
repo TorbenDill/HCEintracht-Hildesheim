@@ -1,12 +1,12 @@
 import { ImageResponse } from "next/og";
-import { getBoardMeta } from "@/lib/player-service";
+import boardMeta from "@/data/board-meta.json";
 
 export const runtime = "edge";
 
 const SIZE = { width: 1200, height: 630 };
 
 export async function GET() {
-  const meta = getBoardMeta();
+  const meta = boardMeta as { draftYear: number };
   return new ImageResponse(
     (
       <div

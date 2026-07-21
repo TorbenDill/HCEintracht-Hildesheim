@@ -1,17 +1,28 @@
 import { ImageResponse } from "next/og";
-import { getPlayerBySlug, getBoardMeta } from "@/lib/player-service";
+import playersMin from "@/data/players-min.json";
+import boardMeta from "@/data/board-meta.json";
 
 export const runtime = "edge";
 
 const SIZE = { width: 1200, height: 630 };
+
+type MinPlayer = {
+  name: string;
+  position: string;
+  college: string;
+  projection: string | null;
+  ranking_overall: number | null;
+};
+
+const players = playersMin as Record<string, MinPlayer>;
+const draftYear = (boardMeta as { draftYear: number }).draftYear;
 
 export async function GET(
   _req: Request,
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const player = getPlayerBySlug(slug);
-  const meta = getBoardMeta();
+  const player = players[slug];
 
   const shell = (children: React.ReactNode) => (
     <div
@@ -47,7 +58,7 @@ export async function GET(
     return new ImageResponse(
       shell(
         <div style={{ display: "flex", fontSize: 64, fontWeight: 800 }}>
-          NFL Draft {meta.draftYear}
+          NFL Draft {draftYear}
         </div>
       ),
       SIZE
@@ -66,12 +77,10 @@ export async function GET(
             fontWeight: 700,
           }}
         >
-          NFL DRAFT {meta.draftYear} · SCOUTING
+          NFL DRAFT {draftYear} · SCOUTING
         </div>
 
-        <div
-          style={{ display: "flex", alignItems: "flex-end", gap: 28 }}
-        >
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 28 }}>
           {player.ranking_overall != null && (
             <div
               style={{

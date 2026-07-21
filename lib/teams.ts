@@ -1,6 +1,10 @@
 import teamsData from "@/data/draft-teams.json";
 import mock from "@/data/mockdraft.json";
-import { getPlayersByPosition, type Player } from "@/lib/player-service";
+import {
+  getPlayersByPosition,
+  byOverallRank,
+  type Player,
+} from "@/lib/player-service";
 
 export type DraftTeam = {
   pick: number;
@@ -64,11 +68,8 @@ export function getFitsForNeeds(
   const used = new Set<string>();
   return needs.map((need) => {
     const positions = NEED_MAP[need] ?? [need];
-    const pool = positions
-      .flatMap((pos) => getPlayersByPosition(pos))
-      .sort(
-        (a, b) => (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999)
-      );
+    const pool = positions.flatMap((pos) => getPlayersByPosition(pos));
+    if (positions.length > 1) pool.sort(byOverallRank);
     const players: Player[] = [];
     for (const p of pool) {
       if (used.has(p.name)) continue;

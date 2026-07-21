@@ -321,27 +321,51 @@ def main():
         x["position"], x["ranking_pos"],
     ))
 
-    # Riser/Faller: die ALTEN Overall-Ranks (aus der bisherigen data.json)
-    # als "previous" sichern, bevor die neue geschrieben wird. So lassen sich
-    # Bewegungen seit dem letzten Update berechnen.
+    # Slug identisch zu getPlayerSlug (lib/player-service.ts): lower,
+    # Leerraum -> "-", dann . ' ’ entfernen. rank-history.json und
+    # players-min.json werden hierüber gekeyt.
     def slugify(name):
-        # identisch zu getPlayerSlug: lower, Leerraum -> "-", dann . und ' entfernen
         s = "-".join(name.lower().split())
-        return s.replace(".", "").replace("'", "")
+        return s.replace(".", "").replace("'", "").replace("’", "")
 
-    previous = {}
+    new_ranks = {
+        slugify(p["name"]): p["ranking_overall"]
+        for p in out
+        if p.get("ranking_overall") is not None
+    }
+    old_ranks = {}
     try:
         with open("data/data.json") as f:
             for p in json.load(f):
                 if p.get("ranking_overall") is not None:
-                    previous[slugify(p["name"])] = p["ranking_overall"]
+                    old_ranks[slugify(p["name"])] = p["ranking_overall"]
     except (FileNotFoundError, ValueError):
         pass
-    with open("data/rank-history.json", "w") as f:
-        json.dump({"previous": previous}, f, ensure_ascii=False, indent=2)
+
+    # Riser/Faller: die alten Ranks als "previous" sichern – aber NUR wenn sich
+    # das Board tatsächlich geändert hat. So löscht ein erneuter Build ohne
+    # Datenänderung die bestehenden Bewegungen nicht.
+    if new_ranks != old_ranks:
+        with open("data/rank-history.json", "w") as f:
+            json.dump({"previous": old_ranks}, f, ensure_ascii=False, indent=2)
 
     with open("data/data.json", "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+
+    # Schlanke Lookup-Datei nur mit den Feldern, die die OG-Bilder brauchen –
+    # damit die (Edge-)OG-Route nicht die komplette data.json bündeln muss.
+    players_min = {
+        slugify(p["name"]): {
+            "name": p["name"],
+            "position": p["position"],
+            "college": p["college"],
+            "projection": p.get("projection"),
+            "ranking_overall": p["ranking_overall"],
+        }
+        for p in out
+    }
+    with open("data/players-min.json", "w") as f:
+        json.dump(players_min, f, ensure_ascii=False, indent=2)
 
     with open("data/mockdraft.json", "w") as f:
         json.dump(research["mockdraft"], f, ensure_ascii=False, indent=2)
