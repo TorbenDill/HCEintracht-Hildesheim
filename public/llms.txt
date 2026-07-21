@@ -18,6 +18,8 @@ Draft-Prospects, Scouting-Reports auf Deutsch.
 - [Mock-Draft-Simulator](https://www.nfldraft-scouting.de/simulator): Selbst
   draften – ein Team gegen die CPU oder alle 32 Picks im GM-Modus, Ergebnis als
   Social-Media-Bild exportierbar.
+- [Positionsrankings](https://www.nfldraft-scouting.de/positionen): Beste Prospects je Position (QB, WR, EDGE, CB u.a.), jeweils mit Erklärtext und FAQ.
+- [Draft-Lexikon](https://www.nfldraft-scouting.de/lexikon): Scouting-Begriffe auf Deutsch erklärt (3-Technique, Cover 3, RAS, Senior Bowl u.v.m.).
 - [Sitemap](https://www.nfldraft-scouting.de/sitemap.xml): Alle Spielerprofile.
 
 ## Spielerprofile

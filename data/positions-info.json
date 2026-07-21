@@ -1,0 +1,106 @@
+{
+  "QB": {
+    "label": "Quarterbacks",
+    "singular": "Quarterback",
+    "lexikon": "nfl-draft-grades",
+    "intro": "Kein Pick verändert eine Franchise so sehr wie ein Quarterback. Entsprechend früh und entsprechend teuer werden die besten QBs der Klasse 2027 gehandelt.",
+    "longtext": "Bei der Quarterback-Bewertung zählt weit mehr als der Arm: NFL-Teams scouten Entscheidungsfindung unter Druck, das Tempo beim Durchgehen der Reads, Genauigkeit auf alle drei Ebenen, Pocket-Präsenz und die Fähigkeit, außerhalb der Struktur Plays zu retten. Weil das Risiko eines Fehlgriffs so hoch ist, verschieben sich QB-Rankings über die Saison, nach den All-Star-Games und dem Combine oft am stärksten. Unser Board bündelt den Konsens der wichtigsten Draft-Quellen und ordnet jeden Quarterback mit deutschem Scouting-Profil und NFL-Vergleich ein.",
+    "faq": [
+      { "q": "Wer ist der beste Quarterback im NFL Draft 2027?", "a": "Die Spitze der QB-Klasse 2027 wird von Namen wie Arch Manning (Texas) und Dante Moore (Oregon) angeführt. Die genaue Reihenfolge zeigt unser laufend aktualisiertes Ranking oben." },
+      { "q": "Wie viele Quarterbacks gehen in Runde 1?", "a": "Das hängt stark von der Saison 2026 ab. In starken QB-Jahrgängen gehen drei bis fünf Quarterbacks am ersten Draft-Tag, weil QB-bedürftige Teams bereit sind, nach oben zu traden." }
+    ]
+  },
+  "RB": {
+    "label": "Running Backs",
+    "singular": "Running Back",
+    "intro": "Nach Jahren der Abwertung sind explosive Running Backs wieder gefragt. Die besten der 2027er Klasse verbinden Vision, Contact Balance und Receiving-Wert.",
+    "longtext": "Moderne Running-Back-Bewertung dreht sich um den Three-Down-Wert: Kann der Back nicht nur zwischen den Tackles laufen, sondern auch aus dem Backfield fangen und in der Pass-Protection blocken? Scouts achten auf Vision hinter der Line, den einen entschlossenen Schnitt (One-Cut), Explosivität durch das Loch und die Fähigkeit, nach Kontakt auf den Beinen zu bleiben. Wichtig ist auch die Belastungshistorie am College, denn Kilometerstand und Verletzungen beeinflussen die Draft-Aktie spürbar.",
+    "faq": [
+      { "q": "Lohnt sich ein Running Back in Runde 1?", "a": "Teams draften Running Backs früh nur noch, wenn sie einen echten Three-Down-Unterschiedsspieler mit Receiving-Wert sehen. Reine Läufer rutschen tendenziell auf Day 2 oder 3." }
+    ]
+  },
+  "WR": {
+    "label": "Wide Receiver",
+    "singular": "Wide Receiver",
+    "intro": "Receiver sind die Wachstumsposition des modernen Drafts. Die 2027er Klasse hat mit Jeremiah Smith ein potenzielles Generationstalent an der Spitze.",
+    "longtext": "Bei Wide Receivern scouten Teams Route-Running-Präzision, Release gegen Press-Coverage, Separation an der Spitze der Route, Hände in umkämpften Situationen (Contested Catches) und Yards nach dem Fang. Größe und Speed sind Türöffner, aber die Details im Routenbaum trennen die Nummer-1-Optionen von Rollenspielern. Weil passlastige Offenses immer mehr Receiver benötigen, gehen jedes Jahr zahlreiche WR in den ersten beiden Runden vom Board.",
+    "faq": [
+      { "q": "Wer ist der beste Wide Receiver im NFL Draft 2027?", "a": "Jeremiah Smith (Ohio State) gilt auf praktisch jedem Board als bester Receiver und als einer der besten Spieler der gesamten Klasse. Die vollständige WR-Rangfolge steht oben." }
+    ]
+  },
+  "TE": {
+    "label": "Tight Ends",
+    "singular": "Tight End",
+    "intro": "Der moderne Tight End ist Matchup-Waffe und Blocker zugleich. Die Klasse 2027 bietet einige vielseitige Move-Tight-Ends.",
+    "longtext": "Tight Ends werden entlang eines Spektrums bewertet: von reinen In-Line-Blockern bis zu flexiblen Move-Tight-Ends, die wie große Receiver eingesetzt werden. Scouts achten auf Catch Radius, Athletik in der Mittelzone, Red-Zone-Wert und die Verlässlichkeit als Blocker gegen NFL-Defensive-Ends. Weil die Position spät reift, sind Tight Ends oft Day-2- und Day-3-Value mit hohem Entwicklungspotenzial.",
+    "faq": [
+      { "q": "Warum gehen Tight Ends selten in Runde 1?", "a": "Die Position reift meist später, und komplette Tight Ends (Receiving plus Blocking) sind selten. Deshalb bilden viele TE erst nach ein bis zwei NFL-Jahren ihren vollen Wert ab." }
+    ]
+  },
+  "OT": {
+    "label": "Offensive Tackles",
+    "singular": "Offensive Tackle",
+    "intro": "Wer den Quarterback beschützt, wird früh gedraftet. Offensive Tackle ist nach QB und Edge die am dritthöchsten bezahlte Premium-Position.",
+    "longtext": "Bei Offensive Tackles zählt vor allem der Pass-Schutz: Fußarbeit im Pass-Set, Länge und Timing im Punch, ein stabiler Anker gegen den Bull Rush und die Konstanz gegen lange, schnelle Edge-Rusher. Dazu kommt der Wert im Laufspiel, besonders in Zone-Schemes. Weil elitäre Blindside-Protektoren rar sind, gehen die besten Tackles fast jedes Jahr in den Top 15.",
+    "faq": [
+      { "q": "Was unterscheidet einen Left Tackle von einem Right Tackle?", "a": "Der Left Tackle schützt bei Rechtshänder-Quarterbacks die Blindside und braucht die besten Pass-Schutz-Fähigkeiten. Right Tackles dürfen etwas mehr im Laufspiel und weniger in der reinen Pass-Protection glänzen." }
+    ]
+  },
+  "IOL": {
+    "label": "Interior Offensive Line",
+    "singular": "Interior-O-Liner",
+    "intro": "Guards und Center sind das Fundament jeder Line. Die besten Interior-Blocker der Klasse 2027 verbinden Power, Technik und Football-IQ.",
+    "longtext": "Die Interior Offensive Line umfasst Guards und Center. Bei Guards zählen Power an der Line, sauberes Hand-Placement und Pulling-Athletik; bei Centern kommen Line-Calls, Snap-Accuracy und Leadership hinzu. Scouts prüfen die Pass-Protection gegen Interior-Pressure ebenso wie die Beweglichkeit im Second Level. Interior-Liner bieten oft den verlässlichsten Gegenwert im Draft, weil ihre Fehlerquote geringer ist als bei spektakuläreren Positionen.",
+    "faq": [
+      { "q": "Sind Center oder Guards wertvoller?", "a": "Beide sind wichtig, aber ein elitärer Center mit Line-Calls und Anker gegen 1-Techniques kann eine ganze Line dirigieren. Guards werden meist etwas höher bezahlt, weil der Markt größer ist." }
+    ]
+  },
+  "EDGE": {
+    "label": "Edge Rusher",
+    "singular": "Edge Rusher",
+    "lexikon": "edge",
+    "intro": "Wer den Quarterback jagt, wird überdraftet. Edge Rusher sind neben QB und Tackle die am höchsten gehandelte Premium-Position.",
+    "longtext": "Edge Rusher werden entlang einiger Kernkriterien bewertet: der erste Schritt (Get-off), die Fähigkeit, sich eng um die Kante zu beugen (Bend), ein Plan aus Pass-Rush-Moves samt Counter, Kraft im Bull Rush und die Disziplin gegen das Laufspiel als Edge-Setter. Weil Pass Rush in einer passlastigen Liga über Spiele entscheidet, gehen die besten Edge-Talente fast immer in den Top 10.",
+    "faq": [
+      { "q": "Was bedeutet EDGE als Position?", "a": "EDGE ist der Sammelbegriff für Pass Rusher am Rand der Line, egal ob 4-3 Defensive End oder 3-4 Outside Linebacker. Mehr dazu in unserem Lexikon-Eintrag zu EDGE." }
+    ]
+  },
+  "DT": {
+    "label": "Defensive Tackles",
+    "singular": "Defensive Tackle",
+    "lexikon": "3-technique",
+    "intro": "Interior-Pressure ist Gold wert. Die besten Defensive Tackles der Klasse 2027 kombinieren Explosivität mit Kraft im Zentrum.",
+    "longtext": "Defensive Tackles werden nach ihrer Rolle unterschieden: penetrierende 3-Techniques mit Interior-Pass-Rush gegenüber massigen Nose Tackles, die Double-Teams binden und den Lauf stoppen. Scouts achten auf Pad Level, Hand Fighting, den ersten Schritt in die Gap und die Fähigkeit, über 50 Snaps die Gap-Integrity zu halten. Ein disruptiver Interior-Rusher hebt den Wert der gesamten Front Seven.",
+    "faq": [
+      { "q": "Was ist ein 3-Technique?", "a": "Ein Defensive Tackle, der auf der Außenschulter des Guards ausgerichtet ist und primär als Pass Rusher durch die B-Gap angreift. Details im Lexikon-Eintrag zu 3-Technique." }
+    ]
+  },
+  "LB": {
+    "label": "Linebacker",
+    "singular": "Linebacker",
+    "intro": "Der moderne Off-Ball-Linebacker muss laufen, tacklen und in Coverage bestehen. Die Klasse 2027 hat einige echte Three-Down-Optionen.",
+    "longtext": "Off-Ball-Linebacker werden heute an ihrer Coverage-Fähigkeit gemessen, nicht nur an Tackles. Gefragt sind Sideline-to-Sideline-Range, Instinkte beim Lesen der Plays (Key & Read), sicheres Tackling im Open Field und die Physikalität, um im Stack gegen NFL-Guards zu bestehen. Reine Run-Stopper ohne Coverage-Wert verlieren in der passlastigen Liga an Draft-Kapital.",
+    "faq": [
+      { "q": "Warum sind Coverage-Fähigkeiten für Linebacker so wichtig?", "a": "Weil moderne Offenses Running Backs und Tight Ends gezielt in Matchups gegen Linebacker schicken. Wer nicht in Coverage bestehen kann, verlässt in Passing Downs das Feld und verliert damit Wert." }
+    ]
+  },
+  "CB": {
+    "label": "Cornerbacks",
+    "singular": "Cornerback",
+    "lexikon": "cover-3",
+    "intro": "In einer Passing League ist Cornerback eine der wertvollsten Verteidigungspositionen. Die 2027er Klasse ist an der Spitze prominent besetzt.",
+    "longtext": "Cornerbacks werden nach Scheme-Fit bewertet: Press-Man-Corner mit Speed und Hüftbeweglichkeit gegenüber Zone-Cornern mit Blick zum Quarterback (Zone Eyes) und Ball-Produktion. Wichtig sind die Recovery-Speed nach einem verlorenen Schritt, das Gefühl für den Ballpunkt und die Bereitschaft, im Run-Support zu tacklen. Weil elitäre Cover-Corner Matchups neutralisieren können, gehen die besten früh vom Board.",
+    "faq": [
+      { "q": "Was ist der Unterschied zwischen Man- und Zone-Cornern?", "a": "Man-Corner verfolgen einen zugeordneten Receiver und brauchen Press- und Recovery-Skills. Zone-Corner verteidigen einen Raum, lesen den Quarterback und produzieren mehr Interceptions. Mehr dazu im Lexikon-Eintrag zu Cover 3." }
+    ]
+  },
+  "S": {
+    "label": "Safeties",
+    "singular": "Safety",
+    "intro": "Der vielseitige Safety ist das Schweizer Taschenmesser moderner Defenses. Die besten der Klasse 2027 spielen tief, in der Box und im Slot.",
+    "longtext": "Safeties werden nach Vielseitigkeit bewertet: Range im Deep-Third als letzter Verteidiger, Physikalität und Tackling in der Box, Coverage-Fähigkeit gegen Slot-Receiver und Tight Ends sowie die Kommunikation als Dirigent der Secondary. Ein Safety, der zwischen mehreren Alignments wechseln kann, gibt Defensive Coordinators Flexibilität und steigert damit seinen Draft-Wert deutlich.",
+    "faq": [
+      { "q": "Was macht einen Safety wertvoll im modernen Draft?", "a": "Vielseitigkeit: Wer tief, in der Box und im Slot spielen kann, erlaubt der Defense, ihre Aufstellung zu verschleiern. Solche Hybrid-Safeties gehen deutlich früher als reine Deep-Safeties." }
+    ]
+  }
+}

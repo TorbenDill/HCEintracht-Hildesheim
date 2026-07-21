@@ -106,6 +106,12 @@ export default function Home() {
 
           <div className="flex gap-2">
             <Link
+              href="/positionen"
+              className="hidden rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:inline-block sm:px-4"
+            >
+              Positionen
+            </Link>
+            <Link
               href="/mock-draft"
               className="rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
             >
