@@ -51,11 +51,20 @@ export async function generateMetadata({
       title,
       description,
       url: absoluteUrl(path),
+      images: [
+        {
+          url: absoluteUrl(`/og/player/${getPlayerSlug(player.name)}`),
+          width: 1200,
+          height: 630,
+          alt: player.name,
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
       description,
+      images: [absoluteUrl(`/og/player/${getPlayerSlug(player.name)}`)],
     },
   };
 }

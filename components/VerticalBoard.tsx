@@ -10,6 +10,7 @@ import {
   type Player,
 } from "@/lib/player-service";
 import PlayerAvatar from "@/components/PlayerAvatar";
+import { getMover } from "@/lib/movers";
 import { cn } from "@/lib/utils";
 
 const POSITION_ORDER = [
@@ -104,8 +105,9 @@ export default function VerticalBoard() {
 
               {/* Name & Piktogramme */}
               <div className="min-w-0">
-                <p className="truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
-                  {player.name}
+                <p className="flex items-center gap-1.5 truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
+                  <span className="truncate">{player.name}</span>
+                  <MoverBadge name={player.name} />
                 </p>
                 <p className="truncate text-[10px] text-muted sm:hidden">
                   {player.college}
@@ -157,3 +159,29 @@ export default function VerticalBoard() {
     </div>
   );
 }
+
+function MoverBadge({ name }: { name: string }) {
+  const m = getMover(name);
+  if (!m) return null;
+  if (m.isNew) {
+    return (
+      <span className="flex-shrink-0 rounded bg-primary/15 px-1 py-0.5 text-[8px] font-bold text-primary">
+        NEU
+      </span>
+    );
+  }
+  if (m.delta === 0) return null;
+  const up = m.delta > 0;
+  return (
+    <span
+      className={cn(
+        "flex-shrink-0 font-mono text-[9px] font-bold",
+        up ? "text-accent" : "text-red-700"
+      )}
+    >
+      {up ? "\u25B2" : "\u25BC"}
+      {Math.abs(m.delta)}
+    </span>
+  );
+}
+

@@ -321,6 +321,25 @@ def main():
         x["position"], x["ranking_pos"],
     ))
 
+    # Riser/Faller: die ALTEN Overall-Ranks (aus der bisherigen data.json)
+    # als "previous" sichern, bevor die neue geschrieben wird. So lassen sich
+    # Bewegungen seit dem letzten Update berechnen.
+    def slugify(name):
+        # identisch zu getPlayerSlug: lower, Leerraum -> "-", dann . und ' entfernen
+        s = "-".join(name.lower().split())
+        return s.replace(".", "").replace("'", "")
+
+    previous = {}
+    try:
+        with open("data/data.json") as f:
+            for p in json.load(f):
+                if p.get("ranking_overall") is not None:
+                    previous[slugify(p["name"])] = p["ranking_overall"]
+    except (FileNotFoundError, ValueError):
+        pass
+    with open("data/rank-history.json", "w") as f:
+        json.dump({"previous": previous}, f, ensure_ascii=False, indent=2)
+
     with open("data/data.json", "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 

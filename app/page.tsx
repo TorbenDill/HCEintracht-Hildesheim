@@ -13,6 +13,7 @@ import {
 } from "@/lib/player-service";
 import { SITE_URL, SITE_NAME, absoluteUrl } from "@/lib/site";
 import { getVisual } from "@/lib/visuals";
+import { getRisers, getFallers, getNewcomers, hasMovement } from "@/lib/movers";
 import { cn } from "@/lib/utils";
 import VerticalBoard from "@/components/VerticalBoard";
 import HorizontalBoard from "@/components/HorizontalBoard";
@@ -30,6 +31,10 @@ export default function Home() {
   const meta = getBoardMeta();
   const results = query.length >= 2 ? searchPlayers(query) : [];
   const top10 = getTop100().slice(0, 10);
+  const risers = getRisers(5);
+  const fallers = getFallers(5);
+  const newcomers = getNewcomers(5);
+  const showMovers = hasMovement();
 
   const faqs = [
     {
@@ -309,6 +314,23 @@ export default function Home() {
           </Link>
         </Reveal>
 
+        {/* ── RISER & FALLER ── */}
+        {showMovers && (
+          <Reveal className="mb-16">
+            <h2 className="mb-4 text-lg font-black tracking-tight text-foreground">
+              Riser &amp; Faller
+              <span className="ml-2 text-xs font-medium text-muted">
+                seit dem letzten Update ({meta.updated})
+              </span>
+            </h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              <MoverCard title="Aufsteiger" tone="up" movers={risers} />
+              <MoverCard title="Absteiger" tone="down" movers={fallers} />
+              <MoverCard title="Neu im Board" tone="new" movers={newcomers} />
+            </div>
+          </Reveal>
+        )}
+
         {/* ── BOARD TOGGLE ── */}
         <section className="mb-8 flex flex-wrap items-center gap-2 sm:gap-4">
           <button
@@ -427,3 +449,59 @@ export default function Home() {
     </main>
   );
 }
+
+function MoverCard({
+  title,
+  tone,
+  movers,
+}: {
+  title: string;
+  tone: "up" | "down" | "new";
+  movers: import("@/lib/movers").Mover[];
+}) {
+  const color =
+    tone === "up"
+      ? "text-accent"
+      : tone === "down"
+        ? "text-red-700"
+        : "text-primary";
+  const arrow = tone === "up" ? "\u25B2" : tone === "down" ? "\u25BC" : "NEU";
+  return (
+    <div className="rounded-2xl border border-border bg-surface p-5">
+      <h3 className={cn("mb-3 text-xs font-black uppercase tracking-widest", color)}>
+        {title}
+      </h3>
+      {movers.length === 0 ? (
+        <p className="text-xs text-muted">Keine Bewegung in dieser Kategorie.</p>
+      ) : (
+        <div className="flex flex-col gap-2">
+          {movers.map((m) => (
+            <Link
+              key={m.player.name}
+              href={`/player/${getPlayerSlug(m.player.name)}`}
+              className="group flex items-center gap-3"
+            >
+              <span className="relative h-8 w-8 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">
+                <PlayerAvatar name={m.player.name} size="sm" />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-sm font-bold text-foreground group-hover:text-primary">
+                  {m.player.name}
+                </span>
+                <span className="block truncate text-[10px] text-muted">
+                  {m.player.position} · {m.player.college}
+                </span>
+              </span>
+              <span className={cn("flex-shrink-0 font-mono text-xs font-bold", color)}>
+                {tone === "new"
+                  ? arrow
+                  : `${arrow}\u00A0${Math.abs(m.delta)}`}
+              </span>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
