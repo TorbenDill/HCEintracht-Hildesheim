@@ -181,9 +181,7 @@ export default async function TeamPage({
           </div>
         </Reveal>
 
-        <div className="my-10">
-          <AdSense slot="6888694163" layout="in-article" />
-        </div>
+        <AdSense slot="6888694163" layout="in-article" className="my-10" />
 
         <div className="flex flex-wrap gap-3 text-xs">
           <Link

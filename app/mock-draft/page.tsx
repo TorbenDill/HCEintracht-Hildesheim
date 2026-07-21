@@ -60,9 +60,7 @@ export default function MockDraftPage() {
         </Reveal>
 
         {/* Anzeige zwischen Top-16 und Picks 17-32 */}
-        <div className="my-8">
-          <AdSense slot="6888694163" layout="in-article" />
-        </div>
+        <AdSense slot="6888694163" layout="in-article" className="my-8" />
 
         <Reveal>
         <div className="flex flex-col gap-2">

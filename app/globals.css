@@ -81,6 +81,19 @@ input:focus-visible {
   }
 }
 
+/* Anzeigen: zentriert, und komplett ausblenden (inkl. Rand), wenn Google
+   keine Anzeige ausliefert – verhindert leeren Weißraum. */
+.ad-slot {
+  text-align: center;
+}
+.ad-slot > ins.adsbygoogle {
+  display: block;
+  margin: 0 auto;
+}
+.ad-slot:has(> ins.adsbygoogle[data-ad-status="unfilled"]) {
+  display: none !important;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;

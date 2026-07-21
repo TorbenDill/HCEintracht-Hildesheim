@@ -263,9 +263,7 @@ export default async function PlayerPage({
         )}
 
         {/* ── ANZEIGE ── */}
-        <section className="mb-10">
-          <AdSense slot="6888694163" layout="in-article" />
-        </section>
+        <AdSense slot="6888694163" layout="in-article" className="mb-10" />
 
         {/* ── SCOUTING REPORT ── */}
         <Reveal className="mb-10">
@@ -312,9 +310,7 @@ export default async function PlayerPage({
         </section>
 
         {/* Anzeige (Display, Seitenende) */}
-        <section className="mb-10">
-          <AdSense slot="5635468031" />
-        </section>
+        <AdSense slot="5635468031" className="mb-10" />
       </div>
     </main>
   );

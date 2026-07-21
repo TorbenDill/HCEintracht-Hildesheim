@@ -105,9 +105,7 @@ export default async function LexikonEntryPage({
           ))}
         </div>
 
-        <div className="my-10">
-          <AdSense slot="6888694163" layout="in-article" />
-        </div>
+        <AdSense slot="6888694163" layout="in-article" className="my-10" />
 
         <section className="rounded-2xl border border-border bg-surface p-6">
           <h2 className="mb-4 text-sm font-black tracking-tight text-foreground">

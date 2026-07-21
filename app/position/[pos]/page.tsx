@@ -139,9 +139,7 @@ export default async function PositionPage({
           </div>
         </Reveal>
 
-        <div className="my-10">
-          <AdSense slot="6888694163" layout="in-article" />
-        </div>
+        <AdSense slot="6888694163" layout="in-article" className="my-10" />
 
         {/* FAQ */}
         <section className="mb-10">

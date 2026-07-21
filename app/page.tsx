@@ -369,9 +369,7 @@ export default function Home() {
         </section>
 
         {/* ── ANZEIGE (In-Article, nach dem Board) ── */}
-        <section className="mt-16">
-          <AdSense slot="6888694163" layout="in-article" />
-        </section>
+        <AdSense slot="6888694163" layout="in-article" className="mt-16" />
 
         {/* ── SEO/GEO: INFO & FAQ ── */}
         <Reveal className="mt-24 grid gap-6 lg:grid-cols-[1fr_1fr]">
@@ -415,9 +413,7 @@ export default function Home() {
         </Reveal>
 
         {/* ── ANZEIGE ── */}
-        <section className="mt-16">
-          <AdSense slot="5635468031" />
-        </section>
+        <AdSense slot="5635468031" className="mt-16" />
 
         {/* ── QUELLEN / FOOTER ── */}
         <Reveal className="mt-16">

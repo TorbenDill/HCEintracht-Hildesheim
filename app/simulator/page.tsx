@@ -52,9 +52,7 @@ export default function SimulatorPage() {
         <MockSimulator />
 
         {/* Anzeige */}
-        <div className="mt-10">
-          <AdSense slot="6888694163" layout="in-article" />
-        </div>
+        <AdSense slot="6888694163" layout="in-article" className="mt-10" />
       </div>
     </main>
   );

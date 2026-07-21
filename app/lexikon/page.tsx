@@ -77,9 +77,7 @@ export default function LexikonPage() {
           </Reveal>
         ))}
 
-        <div className="mt-12">
-          <AdSense slot="6888694163" layout="in-article" />
-        </div>
+        <AdSense slot="6888694163" layout="in-article" className="mt-12" />
       </div>
     </main>
   );
