@@ -3,6 +3,7 @@ import { getPlayers, getPlayerSlug, getBoardMeta } from "@/lib/player-service";
 import lexikon from "@/data/lexikon.json";
 import { getAllPositionKeys } from "@/lib/positions";
 import { getColleges } from "@/lib/colleges";
+import { getTeams, teamSlug } from "@/lib/teams";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -82,11 +83,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const teamRoutes: MetadataRoute.Sitemap = [
+    {
+      url: absoluteUrl("/teams"),
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+    ...getTeams().map((t) => ({
+      url: absoluteUrl(`/team/${teamSlug(t.teamAbbr)}`),
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
+  ];
+
   return [
     ...staticRoutes,
     ...playerRoutes,
     ...lexikonRoutes,
     ...positionRoutes,
     ...collegeRoutes,
+    ...teamRoutes,
   ];
 }

@@ -85,6 +85,9 @@ export default function RootLayout({
               <a href="/colleges" className="hover:text-primary">
                 Colleges
               </a>
+              <a href="/teams" className="hover:text-primary">
+                Teams
+              </a>
               <a href="/lexikon" className="hover:text-primary">
                 Lexikon
               </a>
