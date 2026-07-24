@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Script from "next/script";
-import { SITE_URL, SITE_NAME } from "@/lib/site";
+import { SITE_URL, SITE_NAME, CONSENT_KEY, ADSENSE_CLIENT } from "@/lib/site";
 import CookieConsent from "@/components/CookieConsent";
 import "@fontsource-variable/archivo";
 import "@fontsource-variable/oswald";
@@ -61,6 +60,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className="h-full antialiased">
+      <head>
+        {/*
+         * Werbeanfragen pausieren, bis eine Einwilligung vorliegt
+         * (Art. 6 Abs. 1 lit. a DSGVO). Muss synchron VOR dem Basisskript
+         * laufen – CookieConsent greift per useEffect zu spät, sobald das
+         * Skript im <head> hängt.
+         */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var w=window;w.adsbygoogle=w.adsbygoogle||[];var ok=false;try{ok=localStorage.getItem(${JSON.stringify(
+              CONSENT_KEY
+            )})==="accepted"}catch(e){}w.adsbygoogle.pauseAdRequests=ok?0:1})();`,
+          }}
+        />
+        {/*
+         * AdSense-Basisskript bewusst als rohes <script> im <head>:
+         * next/script hängt es mit data-nscript in den <body>, was Google
+         * bei der Site-Verifizierung ablehnt ("AdSense head tag doesn't
+         * support data-nscript attribute").
+         */}
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <div className="flex-1">{children}</div>
         <footer className="border-t border-border bg-surface">
@@ -101,13 +126,6 @@ export default function RootLayout({
           </div>
         </footer>
         <CookieConsent />
-        <Script
-          id="adsbygoogle-js"
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3725697242603398"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );

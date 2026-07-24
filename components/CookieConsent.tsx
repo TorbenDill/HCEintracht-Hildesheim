@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
-const KEY = "nfl-consent-v1";
+import { CONSENT_KEY as KEY } from "@/lib/site";
 
 type AdsQueue = unknown[] & { pauseAdRequests?: number };
 
