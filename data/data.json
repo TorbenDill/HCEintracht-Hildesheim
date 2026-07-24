@@ -720,7 +720,7 @@
   {
     "name": "Dylan Raiola",
     "position": "QB",
-    "college": "Nebraska",
+    "college": "Oregon",
     "height": "6'3\"",
     "weight": "220 lbs",
     "ranking_pos": 7,
@@ -731,7 +731,7 @@
       "Genauigkeit",
       "Entscheidungsfindung"
     ],
-    "scouting_report_de": "Kaum ein Quarterback dieser Klasse polarisiert so wie Dylan Raiola. Der frühere Fünf-Sterne-Recruit kam mit einem Mahomes-Vergleich nach Lincoln, und seine erste Starter-Saison lieferte beides: reihenweise NFL-reife Würfe aus der Kurz- und Mittelzone, aber eben auch Phasen, in denen er das Spiel mit Gewalt erzwingen wollte. Das Release ist blitzschnell, die Ballplatzierung auf Kurzrouten schon jetzt sauber, und sein Football-IQ wird von Trainern seit Jahren gelobt. Was fehlt, ist die Konstanz gegen Druck und die Geduld, den einfachen Wurf zu nehmen, statt jede Coverage im Alleingang aufreißen zu wollen. Nebraska hat die Offensive Line aufgerüstet, weshalb 2026 zum echten Härtetest für seine Draft-Aktie wird. Trifft er die richtige Balance aus Aggressivität und Disziplin, klettert er schnell zurück in die Erstrunden-Diskussion. Wenn nicht, bleibt er ein hochtalentierter, aber wackliger Day-2-Passer.",
+    "scouting_report_de": "Kaum ein Quarterback dieser Klasse polarisiert so wie Dylan Raiola. Der frühere Fünf-Sterne-Recruit kam mit einem Mahomes-Vergleich nach Lincoln, und seine beiden Starter-Jahre lieferten beides: reihenweise NFL-reife Würfe aus der Kurz- und Mittelzone, aber eben auch Phasen, in denen er das Spiel mit Gewalt erzwingen wollte. Nach zwei Jahren in Nebraska zog er in den Transfer-Portal und landete bei Oregon, einem Programm mit ausgewiesener Quarterback-Historie von Bo Nix bis Dante Moore. Das Release ist blitzschnell, die Ballplatzierung auf Kurzrouten schon jetzt sauber, und sein Football-IQ wird von Trainern seit Jahren gelobt. Was fehlt, ist die Konstanz gegen Druck und die Geduld, den einfachen Wurf zu nehmen, statt jede Coverage im Alleingang aufreißen zu wollen. In Eugene wartet zunächst der Kampf um die Snaps hinter Dante Moore, ehe er seine Draft-Aktie wieder nach oben treiben kann. Findet er unter Oregons Staff die richtige Balance aus Aggressivität und Disziplin, klettert er zurück in die frühe Runden-Diskussion. Wenn nicht, bleibt er ein hochtalentierter, aber wackliger Passer, dessen Zeitplan offen ist.",
     "best_case_nfl": "Matthew Stafford (Rams) – kompakter Rhythmus-Werfer mit schnellem Release und Mut zum tiefen Ball, der bei disziplinierten Reads eine ganze Offense trägt.",
     "worst_case_nfl": "Sam Howell (Vikings) – ein starker Arm und Highlight-Würfe, die von zu vielen erzwungenen Entscheidungen und Turnovers überschattet werden, bis nur eine Backup-Rolle bleibt.",
     "class_year": "Junior",
@@ -968,18 +968,18 @@
   {
     "name": "Damon Wilson II",
     "position": "EDGE",
-    "college": "Missouri",
+    "college": "Miami",
     "height": "6'4\"",
     "weight": "250 lbs",
     "ranking_pos": 5,
     "ranking_overall": 39,
-    "forstner_statement": "Wilson ist mein Riser-Tipp an der Edge - das Talent war in Georgia sichtbar, in Missouri kriegt er jetzt die Snaps. Wenn der Pass-Rush-Plan über den ersten Move hinaus wächst, redet 2026 keiner mehr über Runde zwei.",
+    "forstner_statement": "Wilson ist mein Riser-Tipp an der Edge - das Talent blitzte schon in Georgia auf, bei Missouri kam die Produktion, und in Miami bekommt er die Bühne. Wenn der Pass-Rush-Plan über den ersten Move hinaus wächst, redet 2026 keiner mehr über Runde zwei.",
     "piktogramme": [
       "Power Rush",
       "Länge",
       "Run Defense"
     ],
-    "scouting_report_de": "Ein Georgia-Transfer, der bei Missouri zu voller Blüte kam - Wilson hat sich zu einem der disruptivsten Edge-Rusher der SEC entwickelt. Analysten führen ihn als klassischen Riser, dessen 2026er-Tape ihn bis in Runde 1 schieben kann, wenn der Pass-Rush-Plan reift. Bei 6'4\" und 250 Pfund bringt er die Rahmengröße mit, die an der Kante Standard ist. Entscheidend wird sein, ob er über den ersten Move hinaus einen echten Counter-Plan entwickelt und die Flashes in konstante Produktion überführt. Das Rohmaterial und das SEC-Tape sind da - jetzt geht es um die Feinarbeit am Handwerk.",
+    "scouting_report_de": "Ein einstiger Georgia-Recruit, der bei Missouri zu voller Blüte kam - Wilson hat sich dort zu einem der disruptivsten Edge-Rusher der SEC entwickelt und wechselt für 2026 per Transfer nach Miami. Analysten führen ihn als klassischen Riser, dessen 2026er-Tape ihn bis in Runde 1 schieben kann, wenn der Pass-Rush-Plan reift. Bei 6'4\" und 250 Pfund bringt er die Rahmengröße mit, die an der Kante Standard ist. Entscheidend wird sein, ob er über den ersten Move hinaus einen echten Counter-Plan entwickelt und die Flashes in konstante Produktion überführt. Das Rohmaterial und das SEC-Tape sind da - in Miami geht es jetzt um die Feinarbeit am Handwerk.",
     "best_case_nfl": "Chop Robinson (Dolphins) – explosiver Riser an der Edge, dessen First Step und wachsender Rush-Plan ihn in Runde 1 katapultieren.",
     "worst_case_nfl": "Arnold Ebiketie (Falcons) – Flashes ohne konstanten Counter, die ihn als rotierenden Passdown-Rusher deckeln.",
     "class_year": "Senior",
@@ -1257,7 +1257,7 @@
   {
     "name": "DJ Lagway",
     "position": "QB",
-    "college": "Florida",
+    "college": "Baylor",
     "height": "6'3\"",
     "weight": "240 lbs",
     "ranking_pos": 10,
@@ -1268,7 +1268,7 @@
       "Genauigkeit",
       "Entscheidungsfindung"
     ],
-    "scouting_report_de": "Wenige QB-Talente dieser Klasse polarisieren so wie Lagway. Der frühere Fünf-Sterne-Recruit wurde in Florida bereits als Freshman ins kalte Wasser geworfen und zeigte sofort, warum ihn die Anwerber so umkämpft haben: ein Arm, der jeden Wurf auf dem Feld zulässt, und die Bereitschaft, das Risiko zu suchen. Genau darin liegt aber auch der Haken, denn die Entscheidungsfindung schwankt und kleinere Blessuren haben seine Entwicklung phasenweise ausgebremst. Bei kräftiger Statur bringt er die physischen Werkzeuge eines frühen Picks mit, doch das Tape ist noch ein Wechselbad aus Wow-Momenten und vermeidbaren Fehlern. Bleibt er 2026 gesund und trifft er sauberere Reads, ist der Sprung zurück in die Erstrunden-Diskussion schnell gemacht. Für den Moment ist er der klassische High-Ceiling-Wackelkandidat, den ein QB-bedürftiges Team am zweiten Tag als Projekt mit Starterperspektive einsammelt.",
+    "scouting_report_de": "Wenige QB-Talente dieser Klasse polarisieren so wie Lagway. Der frühere Fünf-Sterne-Recruit wurde in Florida bereits als Freshman ins kalte Wasser geworfen und zeigte sofort, warum ihn die Anwerber so umkämpft haben: ein Arm, der jeden Wurf auf dem Feld zulässt, und die Bereitschaft, das Risiko zu suchen. Genau darin liegt aber auch der Haken, denn die Entscheidungsfindung schwankt und kleinere Blessuren haben seine Entwicklung phasenweise ausgebremst. Nach dem Trainerwechsel bei den Gators zog er in den Portal und schloss sich Baylor an, wo er als klarer Franchise-Quarterback ein ganzes Programm anführen soll. Bei kräftiger Statur bringt er die physischen Werkzeuge eines frühen Picks mit, doch das Tape ist noch ein Wechselbad aus Wow-Momenten und vermeidbaren Fehlern. Bleibt er 2026 gesund und trifft er sauberere Reads, ist der Sprung zurück in die Erstrunden-Diskussion schnell gemacht. Für den Moment ist er der klassische High-Ceiling-Wackelkandidat, den ein QB-bedürftiges Team am zweiten Tag als Projekt mit Starterperspektive einsammelt.",
     "best_case_nfl": "Trevor Lawrence (Jaguars) – hochgehandeltes Arm-Talent mit Prototyp-Statur, das eine Franchise langfristig tragen kann, sobald die Reads sauberer werden.",
     "worst_case_nfl": "Will Levis (Titans) – großer Arm und Wow-Würfe, die von Turnover-Phasen und wackligen Entscheidungen zum Boom-or-Bust-Profil gedrückt werden.",
     "class_year": "Junior",
@@ -1357,7 +1357,7 @@
   {
     "name": "Williams Nwaneri",
     "position": "EDGE",
-    "college": "Missouri",
+    "college": "Nebraska",
     "height": "6'6\"",
     "weight": "250 lbs",
     "ranking_pos": 8,
@@ -1368,7 +1368,7 @@
       "Hands",
       "Drop Coverage"
     ],
-    "scouting_report_de": "Wenn man ein Edge-Profil am Reißbrett entwerfen wollte, käme etwas wie Nwaneri heraus. Der frühere Fünf-Sterne-Recruit bringt bei enormer Länge einen Antritt mit, der Offensive Tackles in Panik versetzt, und genau dieses Rohmaterial hat ihn zu einem der begehrtesten Front-Talente seiner Klasse gemacht. Noch ist er mehr Versprechen als fertiges Produkt: Das Pass-Rush-Repertoire beschränkt sich auf wenige Moves, der Counter-Plan muss wachsen. Aber die Flashes, in denen er die Kante im Alleingang aufreißt, deuten ein Ceiling an, das nur wenige in dieser Klasse erreichen. Missouri gibt ihm die Snaps, um aus Athletik Handwerk zu machen. Trifft die Entwicklungskurve, ist er ein klassischer Riser, der von Day 3 in Windeseile nach oben klettern kann.",
+    "scouting_report_de": "Wenn man ein Edge-Profil am Reißbrett entwerfen wollte, käme etwas wie Nwaneri heraus. Der frühere Fünf-Sterne-Recruit bringt bei enormer Länge einen Antritt mit, der Offensive Tackles in Panik versetzt, und genau dieses Rohmaterial hat ihn zu einem der begehrtesten Front-Talente seiner Klasse gemacht. Noch ist er mehr Versprechen als fertiges Produkt: Das Pass-Rush-Repertoire beschränkt sich auf wenige Moves, der Counter-Plan muss wachsen. Aber die Flashes, in denen er die Kante im Alleingang aufreißt, deuten ein Ceiling an, das nur wenige in dieser Klasse erreichen. Nach dem Transfer von Missouri gibt ihm Nebraska die Snaps, um aus Athletik Handwerk zu machen. Trifft die Entwicklungskurve, ist er ein klassischer Riser, der von Day 3 in Windeseile nach oben klettern kann.",
     "best_case_nfl": "Rashan Gary (Packers) – langer, explosiver Edge mit seltenem Athletik-Profil, der Tackles mit Speed-to-Power überfährt.",
     "worst_case_nfl": "Myles Murphy (Bengals) – toolsiger Edge mit hohem Draft-Pedigree, dessen dünnes Move-Set ihn zum rotierenden Passdown-Rusher deckelt.",
     "class_year": "Junior",
@@ -1382,7 +1382,7 @@
   {
     "name": "Peyton Woodyard",
     "position": "S",
-    "college": "Georgia",
+    "college": "Oregon",
     "height": "6'2\"",
     "weight": "195 lbs",
     "ranking_pos": 4,
@@ -1393,7 +1393,7 @@
       "Communication",
       "Special Teams"
     ],
-    "scouting_report_de": "Georgias Safety-Fabrik hat den nächsten Kandidaten hervorgebracht, und Woodyard passt exakt in die Schablone, nach der die NFL derzeit sucht. Bei guter Länge deckt er das tiefe Drittel ab, rückt aber ebenso in die Box und den Slot, ohne dass die Physis leidet. Sein größtes Pfund sind die Instinkte: Er liest Konzepte früh, triggert sauber nach vorn und bringt die Winkel mit, die im Open Field den Unterschied machen. Noch fehlt ihm die laute Ballproduktion, die einen Safety in die erste Runde hebt, doch das Coverage-Fundament steht. In Kirby Smarts System bekommt er die Aufgaben, an denen NFL-Scouts Vielseitigkeit ablesen. Ein solider früher Day-2-Name, dessen Aktie mit ein paar Interceptions schnell steigen kann.",
+    "scouting_report_de": "Ehemaliger Top-Recruit, der nach einem Zwischenstopp in Alabama in Oregons Secondary gelandet ist und exakt in die Schablone passt, nach der die NFL derzeit sucht. Bei guter Länge deckt er das tiefe Drittel ab, rückt aber ebenso in die Box und den Slot, ohne dass die Physis leidet. Sein größtes Pfund sind die Instinkte: Er liest Konzepte früh, triggert sauber nach vorn und bringt die Winkel mit, die im Open Field den Unterschied machen. Noch fehlt ihm die laute Ballproduktion, die einen Safety in die erste Runde hebt, doch das Coverage-Fundament steht. In Oregons Defense bekommt er in einer der tiefsten Safety-Rooms des Landes die Aufgaben, an denen NFL-Scouts Vielseitigkeit ablesen. Ein solider früher Day-2-Name, dessen Aktie mit ein paar Interceptions schnell steigen kann.",
     "best_case_nfl": "Antoine Winfield Jr. (Buccaneers) – positionsloser Safety, der Deep, Slot und Box abdeckt und mit Instinkt und Physis Splash-Plays produziert.",
     "worst_case_nfl": "Jaquan Brisker (Bears) – solider Box-Safety mit Physis, der aber nie zum ballproduzierenden Difference-Maker im tiefen Feld wird.",
     "class_year": "Junior",
@@ -1412,13 +1412,13 @@
     "weight": "175 lbs",
     "ranking_pos": 9,
     "ranking_overall": 57,
-    "forstner_statement": "Brown ist ein kleiner Wirbelwind, der aus dem Slot heraus jeden Nickel in Schwierigkeiten bringt, seine Beschleunigung ist ein echtes Pfund. Bei der Statur muss ich vorsichtig bleiben, aber mit Lagway als Werfer traue ich ihm eine laute Saison zu; ein Sleeper, den ich klar auf dem Zettel habe.",
+    "forstner_statement": "Brown ist ein kleiner Wirbelwind, der aus dem Slot heraus jeden Nickel in Schwierigkeiten bringt, seine Beschleunigung ist ein echtes Pfund. Bei der Statur muss ich vorsichtig bleiben, aber die Rolle ist glasklar definiert; ein Sleeper, den ich klar auf dem Zettel habe.",
     "piktogramme": [
       "Speed",
       "Release",
       "Contested Catches"
     ],
-    "scouting_report_de": "Nicht jeder Receiver-Prospect muss groß gewachsen sein, um Corner verrückt zu machen; Brown liefert den Gegenbeweis. Der kompakte Slot-Mann ist ein Beschleunigungswunder, das aus dem Stand in Topspeed schaltet und Verteidiger schon an der Line abschüttelt. In Floridas Offense wurde er früh zum verlässlichen Ziel und fängt nun die Bälle von DJ Lagway, was seiner Produktion 2026 einen Schub geben könnte. Nach dem Catch ist er auf engstem Raum brandgefährlich, weil ihn der erste Tackler selten erwischt. Das Fragezeichen bleibt die schmale Statur: Gegen physische NFL-Nickel-Corner muss er beweisen, dass er den Kontakt übersteht. Als Sleeper mit klar definierter Rolle ist er der Typ Slot-Waffe, den moderne Offenses am zweiten oder dritten Tag gern einsammeln.",
+    "scouting_report_de": "Nicht jeder Receiver-Prospect muss groß gewachsen sein, um Corner verrückt zu machen; Brown liefert den Gegenbeweis. Der kompakte Slot-Mann ist ein Beschleunigungswunder, das aus dem Stand in Topspeed schaltet und Verteidiger schon an der Line abschüttelt. In Floridas Offense wurde er früh zum verlässlichen Ziel und geht als etablierter Slot-Faktor in eine 2026er-Saison, die seiner Produktion einen Schub geben könnte. Nach dem Catch ist er auf engstem Raum brandgefährlich, weil ihn der erste Tackler selten erwischt. Das Fragezeichen bleibt die schmale Statur: Gegen physische NFL-Nickel-Corner muss er beweisen, dass er den Kontakt übersteht. Als Sleeper mit klar definierter Rolle ist er der Typ Slot-Waffe, den moderne Offenses am zweiten oder dritten Tag gern einsammeln.",
     "best_case_nfl": "Tank Dell (Texans) – untergroßer, blitzschneller Slot-Separator, der mit Instant-Acceleration und YAC eine Offense elektrisiert.",
     "worst_case_nfl": "Tutu Atwell (Rams) – reines Speed-Profil, dessen schmale Statur den Weg zu mehr als einer Nebenrolle im Slot versperrt.",
     "class_year": "Junior",
@@ -1427,32 +1427,6 @@
       "drafttek.com",
       "walterfootball.com",
       "247sports.com"
-    ]
-  },
-  {
-    "name": "Jermod McCoy",
-    "position": "CB",
-    "college": "Tennessee",
-    "height": "6'0\"",
-    "weight": "193 lbs",
-    "ranking_pos": 6,
-    "ranking_overall": 58,
-    "forstner_statement": "McCoy vor der Verletzung war ein Corner, den ich am liebsten sofort eingepackt hätte, so physisch und ballhungrig spielt der. Jetzt ist die große Frage medizinisch, nicht sportlich; kommt das Knie sauber zurück, ist er für mich ein Steal am zweiten Tag.",
-    "piktogramme": [
-      "Tackling",
-      "Route Recognition",
-      "Slot"
-    ],
-    "scouting_report_de": "Vor dem Kreuzbandriss war Jermod McCoy auf dem besten Weg, sich in die erste Corner-Diskussion der Klasse zu spielen. Nach seinem Wechsel von Oregon State explodierte er 2024 in Tennessee mit vier Interceptions und einer der stabilsten Coverage-Saisons der ganzen SEC. Auf dem Tape sieht man einen physischen Press-Corner, der an der Line Hand anlegt, die Hüfte sauber öffnet und den Ball am Catchpoint attackiert. Dann kam im Frühjahr 2025 die Verletzung, die alles offen lässt: Wie schnell kehrt die Explosivität zurück, wie sieht die Rückwärtsbewegung nach der Reha aus? Fällt die Antwort positiv aus, ist er ein sicherer Day-2-Corner mit Startergarantie. Verläuft die Genesung zäh, rutscht er tiefer, als es sein Talent verdient. Für ein Team mit Geduld ist genau das der Value-Hebel.",
-    "best_case_nfl": "Charvarius Ward (Colts) – physischer, langer Press-Corner, der Nr.-1-Receiver in Man-Coverage zustellt und am Catchpoint fightet.",
-    "worst_case_nfl": "Josh Jackson (a.D.) – ein produktiver College-Corner, dessen Übergang in die NFL nie gelingt und der über Rotations- und Special-Teams-Rollen nicht hinauskommt.",
-    "class_year": "Senior",
-    "projection": "Day 2",
-    "sources": [
-      "prodraftscouting.com",
-      "espn.com",
-      "247sports.com",
-      "nfldraftbuzz.com"
     ]
   },
   {
@@ -1477,56 +1451,6 @@
     "sources": [
       "espn.com",
       "tankathon.com",
-      "nfldraftbuzz.com"
-    ]
-  },
-  {
-    "name": "Olaivavega Ioane",
-    "position": "IOL",
-    "college": "Penn State",
-    "height": "6'4\"",
-    "weight": "335 lbs",
-    "ranking_pos": 2,
-    "ranking_overall": 60,
-    "forstner_statement": "Ioane blockt mit einer Wucht, die im Laufspiel einfach Spaß macht, den Mann willst du in einem Power-Scheme haben. In der Pass-Protection muss er die Füße noch sortieren, aber Guards mit dieser Power und Erfahrung wachsen nicht auf Bäumen; für mich ein solider Zweitrunden-Wert.",
-    "piktogramme": [
-      "Run Blocking",
-      "Zone Scheme",
-      "Technik"
-    ],
-    "scouting_report_de": "Wer die Penn-State-Line der letzten Jahre gesehen hat, kennt die Wucht, mit der Olaivavega Ioane die Löcher aufreißt. Der Guard ist ein klassischer Mauler: 335 Pfund geballte Kraft, ein brutaler Punch am Point of Attack und die Basis, einen Defensive Tackle im Doppel-Team schlicht wegzuschieben. Im Laufspiel ist er schon jetzt eine NFL-Waffe, gerade in Gap- und Power-Konzepten. Die Baustelle liegt in der Pass-Protection gegen quicke Interior-Rusher, wo die Füße und der zweite Kontakt schneller werden müssen. Als mehrjähriger Starter bringt er die Erfahrung und die Line-Calls mit, die Coaches an einem Interior-Blocker schätzen. Bleibt er gesund und poliert die Technik, ist er ein sicherer früher Day-2-Guard. In einer Klasse ohne viel Interior-Tiefe hebt ihn genau das hervor.",
-    "best_case_nfl": "Wyatt Teller (Browns) – wuchtiger Guard, der im Laufspiel überrollt und in der Pass-Protection einen stabilen Anker setzt.",
-    "worst_case_nfl": "Nate Herbig (a.D.) – ein kräftiger Run-Blocker, dessen Fußarbeit gegen NFL-Quickness limitiert bleibt und der zum Rotations- und Notnagel-Starter wird.",
-    "class_year": "Senior",
-    "projection": "Day 2",
-    "sources": [
-      "pff.com",
-      "nflmockdraftdatabase.com",
-      "prodraftscouting.com"
-    ]
-  },
-  {
-    "name": "Kenyon Sadiq",
-    "position": "TE",
-    "college": "Oregon",
-    "height": "6'3\"",
-    "weight": "245 lbs",
-    "ranking_pos": 3,
-    "ranking_overall": 61,
-    "forstner_statement": "Sadiq bewegt sich für einen Tight End so geschmeidig, dass ich ihn am liebsten in jeder Passroute sehen würde, das ist echtes Mismatch-Material. Beim Blocken muss noch Masse und Wille dazu, aber die Receiving-Anlagen kitzeln mich; mit einer lauten Saison ist das ein klarer Zweittages-Pick.",
-    "piktogramme": [
-      "Physikalität",
-      "In-Line",
-      "H-Back"
-    ],
-    "scouting_report_de": "Oregon hat in den letzten Jahren gezeigt, wie man Tight Ends als Waffen einsetzt, und Kenyon Sadiq ist der nächste in dieser Reihe. Er ist ein Move-TE im besten Sinne: mal in-line, mal im Slot, mal breit außen, immer mit der Athletik, Linebacker im Coverage-Mismatch alt aussehen zu lassen. Nach dem Catch bringt er Yards, weil er Tacklern ausweicht und den Kontakt sucht, und in der Red Zone ist sein Catch-Radius ein Faktor. Was ihn noch von der Elite trennt, ist das In-Line-Blocking: Dort fehlt Funktionsmasse und die Konstanz, sich gegen NFL-Ends festzubeißen. Die Anlagen als Receiver aber sind unübersehbar, und Oregons Passspiel gibt ihm die Bühne für einen Breakout 2026. Legt er statistisch nach, wandert er fest in die Day-2-Diskussion. Ein moderner Tight End, dessen Pfeil klar nach oben zeigt.",
-    "best_case_nfl": "Dallas Goedert (Eagles) – vielseitiger Move-TE, der aus jeder Formation heraus fängt, nach dem Catch Yards frisst und die Mittelzone öffnet.",
-    "worst_case_nfl": "Irv Smith Jr. (a.D.) – ein athletischer Receiving-TE, den Verletzungen und Blocking-Defizite auf eine unstete Rollenspieler-Karriere zurückwerfen.",
-    "class_year": "Junior",
-    "projection": "Day 2",
-    "sources": [
-      "espn.com",
-      "thedraftnetwork.com",
       "nfldraftbuzz.com"
     ]
   }

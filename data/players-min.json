@@ -198,7 +198,7 @@
   "dylan-raiola": {
     "name": "Dylan Raiola",
     "position": "QB",
-    "college": "Nebraska",
+    "college": "Oregon",
     "projection": "Runde 2",
     "ranking_overall": 29
   },
@@ -268,7 +268,7 @@
   "damon-wilson-ii": {
     "name": "Damon Wilson II",
     "position": "EDGE",
-    "college": "Missouri",
+    "college": "Miami",
     "projection": "Runde 2",
     "ranking_overall": 39
   },
@@ -352,7 +352,7 @@
   "dj-lagway": {
     "name": "DJ Lagway",
     "position": "QB",
-    "college": "Florida",
+    "college": "Baylor",
     "projection": "Runde 2",
     "ranking_overall": 51
   },
@@ -380,14 +380,14 @@
   "williams-nwaneri": {
     "name": "Williams Nwaneri",
     "position": "EDGE",
-    "college": "Missouri",
+    "college": "Nebraska",
     "projection": "Runde 3",
     "ranking_overall": 55
   },
   "peyton-woodyard": {
     "name": "Peyton Woodyard",
     "position": "S",
-    "college": "Georgia",
+    "college": "Oregon",
     "projection": "Runde 3",
     "ranking_overall": 56
   },
@@ -398,32 +398,11 @@
     "projection": "Runde 3",
     "ranking_overall": 57
   },
-  "jermod-mccoy": {
-    "name": "Jermod McCoy",
-    "position": "CB",
-    "college": "Tennessee",
-    "projection": "Day 2",
-    "ranking_overall": 58
-  },
   "nyckoles-harbor": {
     "name": "Nyckoles Harbor",
     "position": "WR",
     "college": "South Carolina",
     "projection": "Day 3",
     "ranking_overall": 59
-  },
-  "olaivavega-ioane": {
-    "name": "Olaivavega Ioane",
-    "position": "IOL",
-    "college": "Penn State",
-    "projection": "Day 2",
-    "ranking_overall": 60
-  },
-  "kenyon-sadiq": {
-    "name": "Kenyon Sadiq",
-    "position": "TE",
-    "college": "Oregon",
-    "projection": "Day 2",
-    "ranking_overall": 61
   }
 }
