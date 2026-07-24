@@ -11,11 +11,25 @@ on:
 
 jobs:
   claude:
+    # Sicherheit (öffentliches Repo): Build-/Web-Tools sind unten freigegeben,
+    # daher darf der Lauf nur von vertrauenswürdigen Auslösern starten:
+    #  - manueller Dispatch (nur Maintainer),
+    #  - vom geplanten Workflow erstellte Issues (Label "draft-update" – Labels
+    #    kann nur setzen, wer Schreibrechte hat),
+    #  - @claude-Kommentare von OWNER/MEMBER/COLLABORATOR.
     if: |
       github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude') && github.actor != 'claude[bot]') ||
-      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude') && github.actor != 'claude[bot]') ||
-      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude') && github.actor != 'claude[bot]')
+      (github.event_name == 'issues' &&
+        contains(github.event.issue.body, '@claude') &&
+        contains(github.event.issue.labels.*.name, 'draft-update')) ||
+      (github.event_name == 'issue_comment' &&
+        contains(github.event.comment.body, '@claude') &&
+        github.actor != 'claude[bot]' &&
+        contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)) ||
+      (github.event_name == 'pull_request_review_comment' &&
+        contains(github.event.comment.body, '@claude') &&
+        github.actor != 'claude[bot]' &&
+        contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association))
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -29,8 +43,18 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - name: Run Claude
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          prompt: ${{ github.event_name == 'workflow_dispatch' && 'Öffne das neueste offene Issue mit dem Label draft-update in diesem Repository und setze die dort beschriebene Aufgabe vollständig um (Recherche, data/research2027.json aktualisieren, scripts/build_2027.py ausführen, next build verifizieren, committen und auf main pushen).' || '' }}
+          # Build- und Recherche-Tools freigeben, damit der Lauf die Aufgabe
+          # vollständig erledigt (recherchieren, bauen, verifizieren, pushen).
+          claude_args: >-
+            --allowedTools
+            "Bash(python3:*),Bash(python:*),Bash(npm:*),Bash(npx:*),Bash(node:*),Bash(git:*),Edit,MultiEdit,Write,Read,Glob,Grep,WebSearch,WebFetch"
+          prompt: ${{ github.event_name == 'workflow_dispatch' && 'Öffne das neueste offene Issue mit dem Label draft-update in diesem Repository und setze die dort beschriebene Aufgabe vollständig um (Recherche, data/research2027.json aktualisieren, scripts/build_2027.py ausführen, npm install && npx next build verifizieren, committen und auf main pushen).' || '' }}
