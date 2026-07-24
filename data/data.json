@@ -24,7 +24,9 @@
       "espn.com",
       "bleacherreport.com",
       "pff.com"
-    ]
+    ],
+    "quellen_anzahl": 5,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Arch Manning",
@@ -50,7 +52,9 @@
       "tankathon.com",
       "walterfootball.com",
       "sports.yahoo.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Dante Moore",
@@ -76,7 +80,9 @@
       "si.com",
       "cbssports.com",
       "pff.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Colin Simmons",
@@ -102,7 +108,9 @@
       "on3.com",
       "tankathon.com",
       "profootballnetwork.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Julian Sayin",
@@ -128,7 +136,9 @@
       "tankathon.com",
       "nfldraftbuzz.com",
       "sports.yahoo.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Dylan Stewart",
@@ -154,7 +164,9 @@
       "espn.com",
       "on3.com",
       "footballscout365.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Leonard Moore",
@@ -180,7 +192,9 @@
       "nfldraftbuzz.com",
       "clutchpoints.com",
       "footballscout365.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Cam Coleman",
@@ -206,7 +220,9 @@
       "cbssports.com",
       "tankathon.com",
       "247sports.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Jordan Seaton",
@@ -232,7 +248,9 @@
       "cbssports.com",
       "pff.com",
       "tankathon.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Darian Mensah",
@@ -257,7 +275,9 @@
       "espn.com",
       "nfltraderumors.co",
       "bleacherreport.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Trevor Goosby",
@@ -282,7 +302,9 @@
       "tankathon.com",
       "pff.com",
       "sports.yahoo.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "CJ Carr",
@@ -307,7 +329,9 @@
       "espn.com",
       "nytimes.com/athletic",
       "sports.yahoo.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Sammy Brown",
@@ -333,7 +357,9 @@
       "bleacherreport.com",
       "sports.yahoo.com",
       "allaccessfootball.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "LaNorris Sellers",
@@ -359,7 +385,9 @@
       "walterfootball.com",
       "prodraftscouting.com",
       "bleacherreport.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Matayo Uiagalelei",
@@ -384,7 +412,9 @@
       "pff.com",
       "si.com",
       "profootballnetwork.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Koi Perich",
@@ -409,7 +439,9 @@
       "on3.com",
       "espn.com",
       "allaccessfootball.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Ellis Robinson IV",
@@ -434,7 +466,9 @@
       "on3.com",
       "espn.com",
       "sportsgrid.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "David Stone",
@@ -460,7 +494,9 @@
       "steelersdepot.com",
       "pff.com",
       "footballscout365.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Teitum Tuioti",
@@ -486,7 +522,9 @@
       "247sports.com",
       "lastwordonsports.com",
       "si.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Carter Smith",
@@ -511,7 +549,9 @@
       "pff.com",
       "nytimes.com/athletic",
       "lastwordonsports.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Kewan Lacy",
@@ -537,7 +577,9 @@
       "profootballnetwork.com",
       "footballscout365.com",
       "fantasylife.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Ryan Williams",
@@ -563,7 +605,9 @@
       "cbssports.com",
       "scoutinggrade.com",
       "walterfootball.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Jamari Johnson",
@@ -588,7 +632,9 @@
       "on3.com",
       "espn.com",
       "nfldraftbuzz.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "KJ Duff",
@@ -613,7 +659,9 @@
       "espn.com",
       "cbssports.com",
       "scoutinggrade.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Nick Marsh",
@@ -638,7 +686,9 @@
       "walterfootball.com",
       "247sports.com",
       "yardbarker.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Ahmad Hardy",
@@ -664,7 +714,9 @@
       "espn.com",
       "footballscout365.com",
       "fantasylife.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Charlie Becker",
@@ -690,7 +742,9 @@
       "cbssports.com",
       "espn.com",
       "profootballnetwork.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Brandon Baker",
@@ -715,7 +769,9 @@
       "pff.com",
       "sportsgamingrosters.com",
       "sports.yahoo.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Dylan Raiola",
@@ -741,7 +797,9 @@
       "espn.com",
       "on3.com",
       "tankathon.com"
-    ]
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft"
   },
   {
     "name": "KJ Bolden",
@@ -766,7 +824,9 @@
       "on3.com",
       "espn.com",
       "allaccessfootball.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Tae Johnson",
@@ -791,7 +851,9 @@
       "atozsports.com",
       "on3.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Drew Mestemaker",
@@ -816,7 +878,9 @@
       "espn.com",
       "cbssports.com",
       "on3.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Jayden Maiava",
@@ -840,7 +904,9 @@
     "sources": [
       "nfltraderumors.co",
       "bleacherreport.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Ahmad Moten Sr.",
@@ -865,7 +931,9 @@
       "on3.com",
       "steelersdepot.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Zabien Brown",
@@ -889,7 +957,9 @@
     "sources": [
       "on3.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Kelley Jones",
@@ -913,7 +983,9 @@
     "sources": [
       "on3.com",
       "sports.yahoo.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Trey'Dez Green",
@@ -938,7 +1010,9 @@
       "on3.com",
       "espn.com",
       "yardbarker.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Kyngstonn Viliamu-Asa",
@@ -963,7 +1037,9 @@
       "espn.com",
       "sports.yahoo.com",
       "atozsports.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Damon Wilson II",
@@ -987,7 +1063,9 @@
     "sources": [
       "profootballnetwork.com",
       "footballscout365.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Yhonzae Pierre",
@@ -1011,7 +1089,9 @@
     "sources": [
       "walterfootball.com",
       "profootballnetwork.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Quincy Rhodes Jr.",
@@ -1035,7 +1115,9 @@
     "sources": [
       "walterfootball.com",
       "nfldraftbuzz.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "A'Mauri Washington",
@@ -1059,7 +1141,9 @@
     "sources": [
       "pff.com",
       "steelersdepot.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Ryan Wingo",
@@ -1083,7 +1167,9 @@
     "sources": [
       "cbssports.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Jadan Baugh",
@@ -1108,7 +1194,9 @@
       "profootballnetwork.com",
       "footballscout365.com",
       "fantasylife.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Will Echoles",
@@ -1132,7 +1220,9 @@
     "sources": [
       "pff.com",
       "steelersdepot.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "A.J. Holmes Jr.",
@@ -1156,7 +1246,9 @@
     "sources": [
       "pff.com",
       "steelersdepot.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Iapani Laloulu",
@@ -1180,7 +1272,9 @@
     "sources": [
       "espn.com",
       "essentiallysports.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Ashton Hampton",
@@ -1204,7 +1298,9 @@
     "sources": [
       "on3.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Rasheem Biles",
@@ -1228,7 +1324,9 @@
     "sources": [
       "on3.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "Ben Roberts",
@@ -1252,7 +1350,9 @@
     "sources": [
       "on3.com",
       "espn.com"
-    ]
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt"
   },
   {
     "name": "DJ Lagway",
@@ -1277,7 +1377,9 @@
       "drafttek.com",
       "espn.com",
       "on3.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Kaliq Lockett",
@@ -1302,7 +1404,9 @@
       "drafttek.com",
       "pff.com",
       "247sports.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Justus Terry",
@@ -1327,7 +1431,9 @@
       "drafttek.com",
       "on3.com",
       "pff.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Nate Frazier",
@@ -1352,7 +1458,9 @@
       "drafttek.com",
       "espn.com",
       "footballscout365.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Williams Nwaneri",
@@ -1377,7 +1485,9 @@
       "drafttek.com",
       "on3.com",
       "profootballnetwork.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Peyton Woodyard",
@@ -1402,7 +1512,9 @@
       "drafttek.com",
       "espn.com",
       "on3.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Vernell Brown III",
@@ -1427,7 +1539,9 @@
       "drafttek.com",
       "walterfootball.com",
       "247sports.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   },
   {
     "name": "Nyckoles Harbor",
@@ -1452,6 +1566,8 @@
       "espn.com",
       "tankathon.com",
       "nfldraftbuzz.com"
-    ]
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft"
   }
 ]

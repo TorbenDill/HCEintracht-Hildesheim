@@ -19,6 +19,11 @@ export type Player = {
   class_year?: string | null;
   projection?: string | null;
   sources?: string[];
+  // Qualitaetsstufe (aus der Quellenzahl abgeleitet): "geprueft" (3+ Quellen),
+  // "belegt" (Mindeststandard 2 Quellen). Eintraege darunter erreichen das
+  // Board nicht (Quellen-Gate im Build).
+  quellen_anzahl?: number;
+  qualitaet?: "geprueft" | "belegt" | null;
 };
 
 export type BoardMeta = {

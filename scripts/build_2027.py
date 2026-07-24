@@ -280,13 +280,40 @@ def build_forstner(p):
         return f"{name} ist ein klassischer Day-2-Value – bei einem Fall in Runde 3 würde ich sofort zuschlagen."
     return None
 
+# Qualitaets-Gate: Ein Spieler wird NUR aufgenommen, wenn er belegt ist.
+# Grundsatz "immer nur mit Quellen einfuegen" -> Mindestzahl unabhaengiger
+# Quellen. Eintraege darunter fliegen aus dem Board (kommen nie live).
+MIN_SOURCES = 2
+
+
+def clean_sources(p):
+    """Nur nicht-leere String-Quellen zaehlen."""
+    return [s.strip() for s in p.get("sources", []) if isinstance(s, str) and s.strip()]
+
+
+def quality_tier(n_sources):
+    """Qualitaetsstufe pro Spieler, abgeleitet aus der Quellenzahl."""
+    if n_sources >= 3:
+        return "geprueft"   # 3+ unabhaengige Quellen
+    if n_sources >= MIN_SOURCES:
+        return "belegt"     # Mindeststandard erfuellt
+    return None             # unter Mindeststandard -> ausgeschlossen
+
+
 def main():
     with open(RESEARCH) as f:
         research = json.load(f)
 
     out = []
+    rejected = []
     pos_counters = {}
     for p in research["players"]:
+        # --- Qualitaets-Gate: Quellenpflicht ---
+        srcs = clean_sources(p)
+        if len(srcs) < MIN_SOURCES:
+            rejected.append((p.get("name", "?"), len(srcs)))
+            continue
+
         pos = p["position"]
         pos_counters[pos] = pos_counters.get(pos, 0) + 1
         pos_rank = p.get("pos_rank") or pos_counters[pos]
@@ -313,7 +340,10 @@ def main():
             "worst_case_nfl": worst,
             "class_year": p.get("class_year"),
             "projection": projection_de(p),
-            "sources": p.get("sources", []),
+            "sources": srcs,
+            # Qualitaetsstufe: aus der Quellenzahl abgeleitet.
+            "quellen_anzahl": len(srcs),
+            "qualitaet": quality_tier(len(srcs)),
         })
 
     out.sort(key=lambda x: (
@@ -375,6 +405,18 @@ def main():
     print("Positions:", sorted({p['position'] for p in out}))
     ranked = sum(1 for p in out if p["ranking_overall"] is not None)
     print(f"With overall rank: {ranked}")
+    # Qualitaets-Gate: Report der Quellenpruefung
+    tiers = {}
+    for p in out:
+        tiers[p["qualitaet"]] = tiers.get(p["qualitaet"], 0) + 1
+    print(f"Qualitaetsstufen (>= {MIN_SOURCES} Quellen Pflicht): {tiers}")
+    if rejected:
+        print(f"QUALITAETS-GATE: {len(rejected)} Spieler OHNE ausreichende "
+              f"Quellen ausgeschlossen (nicht live):")
+        for name, n in rejected:
+            print(f"  - {name} ({n} Quelle(n))")
+    else:
+        print("QUALITAETS-GATE: alle Spieler ausreichend belegt.")
     # sanity: mock draft players must exist in data
     names = {p["name"] for p in out}
     missing = [m["player"] for m in research["mockdraft"] if m["player"] not in names]

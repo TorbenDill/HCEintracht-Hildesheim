@@ -26,6 +26,12 @@ jobs:
               body: [
                 "@claude Bitte führe das wöchentliche Update des NFL-Draft-2027-Boards durch (Donnerstags-Update):",
                 "",
+                "## Qualitätsstufe (verbindlich – gilt für JEDE Aufnahme und Änderung)",
+                "- **Nur mit Quellen einfügen:** Kein Spieler und keine geänderte Angabe (Schule, Rank, Projektion) kommt ins Board ohne **mindestens 2 unabhängige, seriöse Quellen** im Feld `sources`. Der Build (`scripts/build_2027.py`) hat ein Quellen-Gate und wirft jeden Eintrag mit weniger als 2 Quellen automatisch raus – unbelegte Einträge sind also verlorene Arbeit.",
+                "- **Eligibility zwingend prüfen:** Vor JEDER Aufnahme gegen die **NFL-Draft-2026-Ergebnisse** und den aktuellen College-Roster gegenchecken. Wer 2026 gedraftet wurde, in der NFL ist oder für 2026 keine College-Eligibility mehr hat, ist NICHT aufnehmbar und – falls bereits im Board – zu entfernen. Quelle angeben (z. B. NFL.com Draft-Tracker, Schul-Roster 2026).",
+                "- **Schule/Team verifizieren:** Transfer-Portal-Wechsel beachten – die `school` muss das Team der **Saison 2026** sein, per aktueller Roster-/Transfer-Quelle belegt. Abhängige Reporttexte (z. B. genannter Quarterback eines Receivers) mitziehen.",
+                "- **Qualitätsstufe im Datensatz:** Der Build vergibt pro Spieler automatisch `qualitaet` (`geprueft` = 3+ Quellen, `belegt` = 2 Quellen). Ziel ist `geprueft`; strebe für neue Profile 3+ Quellen an.",
+                "",
                 "1. **Recherche** über möglichst viele seriöse Quellen (viele blocken direkte Fetches – dann Web-Suche über deren Inhalte nutzen):",
                 "   - nflmockdraftdatabase.com (Consensus Big Board 2027), tankathon.com, ESPN, The Athletic, walterfootball.com, prodraftscouting.com, nfldraftbuzz.com",
                 "   - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027, drafttek.com",
