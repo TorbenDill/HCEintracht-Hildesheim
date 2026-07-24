@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
+import StarButton from "@/components/StarButton";
 
 export async function generateStaticParams() {
   const players = getPlayers();
@@ -164,9 +165,12 @@ export default async function PlayerPage({
                 player.college
               )}
             </p>
-            <h1 className="mb-4 font-display text-5xl font-semibold uppercase tracking-tight text-foreground lg:text-6xl">
-              {player.name}
-            </h1>
+            <div className="mb-4 flex flex-wrap items-center gap-3">
+              <h1 className="font-display text-5xl font-semibold uppercase tracking-tight text-foreground lg:text-6xl">
+                {player.name}
+              </h1>
+              <StarButton slug={getPlayerSlug(player.name)} withLabel />
+            </div>
 
             {/* Steckbrief */}
             <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-3">

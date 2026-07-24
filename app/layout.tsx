@@ -113,6 +113,9 @@ export default function RootLayout({
               <a href="/teams" className="hover:text-primary">
                 Teams
               </a>
+              <a href="/merkliste" className="hover:text-primary">
+                Merkliste
+              </a>
               <a href="/lexikon" className="hover:text-primary">
                 Lexikon
               </a>
