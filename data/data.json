@@ -105,13 +105,39 @@
     ]
   },
   {
+    "name": "Julian Sayin",
+    "position": "QB",
+    "college": "Ohio State",
+    "height": "6'1\"",
+    "weight": "208 lbs",
+    "ranking_pos": 3,
+    "ranking_overall": 5,
+    "forstner_statement": "Accuracy hat Sayin im Überfluss, aber Accuracy allein hat Mac Jones auch nicht gerettet. Ich will 2026 sehen, dass er Defenses vor dem Snap liest und nicht erst nach dem Snap - dann wird das richtig gut.",
+    "piktogramme": [
+      "Spielintelligenz",
+      "Armstärke",
+      "Antizipation"
+    ],
+    "scouting_report_de": "Sauberes Tape verkauft sich in der Draft-Community leiser als Highlight-Bomben, ist aber oft wertvoller - und Sayins Aufnahmen sind ungewöhnlich sauber. Als Redshirt Freshman führte er mit 77 Prozent Completion-Rate die gesamte Nation an, dazu 3.610 Yards, 32 Touchdowns bei acht Interceptions. Die NFL Mock Draft Database führt ihn nach dem jüngsten Board-Update bereits unter den Top 5. Was Scouts 2026 noch sehen wollen: mehr Antizipation gegen Post-Snap-Rotationen und die Bereitschaft, seine Beine als Waffe zu nutzen. Die Statur ist durchschnittlich, das Release schnell, der Rhythmus stimmt. Ein präziser Distributor, dessen Deckenhöhe von der geistigen Weiterentwicklung abhängt.",
+    "best_case_nfl": "Tua Tagovailoa (Dolphins) – präziser Rhythmus-Passer mit blitzschnellem Release, der eine Timing-Offense nahezu fehlerfrei dirigiert.",
+    "worst_case_nfl": "Mac Jones (49ers) – Accuracy allein reicht nicht, wenn Antizipation gegen NFL-Rotationen und Arm-Talent fehlen; Ende: gehobener Backup.",
+    "class_year": "RS Sophomore",
+    "projection": "Top-10",
+    "sources": [
+      "nflmockdraftdatabase.com",
+      "tankathon.com",
+      "nfldraftbuzz.com",
+      "sports.yahoo.com"
+    ]
+  },
+  {
     "name": "Dylan Stewart",
     "position": "EDGE",
     "college": "South Carolina",
     "height": "6'5\"",
     "weight": "250 lbs",
     "ranking_pos": 2,
-    "ranking_overall": 5,
+    "ranking_overall": 6,
     "forstner_statement": "Stewart hat Tools, für die andere morden würden, aber ich will 2026 endlich die Sackzahl sehen, die dazu passt. Reine Athletik hat noch keinen Sonntag gewonnen - jetzt liegt der Ball bei ihm.",
     "piktogramme": [
       "Burst",
@@ -137,7 +163,7 @@
     "height": "6'2\"",
     "weight": "195 lbs",
     "ranking_pos": 1,
-    "ranking_overall": 6,
+    "ranking_overall": 7,
     "forstner_statement": "Was Moore 2025 in Coverage gespielt hat, gehört zum Besten der letzten zehn College-Jahre - ich bewerte ihn als Top-5-Talent, egal auf welcher Position. So einen Shutdown-Typ bekommst du nicht jedes Jahr.",
     "piktogramme": [
       "Press Coverage",
@@ -154,32 +180,6 @@
       "nfldraftbuzz.com",
       "clutchpoints.com",
       "footballscout365.com"
-    ]
-  },
-  {
-    "name": "Julian Sayin",
-    "position": "QB",
-    "college": "Ohio State",
-    "height": "6'1\"",
-    "weight": "208 lbs",
-    "ranking_pos": 3,
-    "ranking_overall": 7,
-    "forstner_statement": "Accuracy hat Sayin im Überfluss, aber Accuracy allein hat Mac Jones auch nicht gerettet. Ich will 2026 sehen, dass er Defenses vor dem Snap liest und nicht erst nach dem Snap - dann wird das richtig gut.",
-    "piktogramme": [
-      "Spielintelligenz",
-      "Armstärke",
-      "Antizipation"
-    ],
-    "scouting_report_de": "Sauberes Tape verkauft sich in der Draft-Community leiser als Highlight-Bomben, ist aber oft wertvoller - und Sayins Aufnahmen sind ungewöhnlich sauber. Als Redshirt Freshman führte er mit 77 Prozent Completion-Rate die gesamte Nation an, dazu 3.610 Yards, 32 Touchdowns bei acht Interceptions. Die NFL Mock Draft Database sortiert ihn auf Rang 7. Was Scouts 2026 noch sehen wollen: mehr Antizipation gegen Post-Snap-Rotationen und die Bereitschaft, seine Beine als Waffe zu nutzen. Die Statur ist durchschnittlich, das Release schnell, der Rhythmus stimmt. Ein präziser Distributor, dessen Deckenhöhe von der geistigen Weiterentwicklung abhängt.",
-    "best_case_nfl": "Tua Tagovailoa (Dolphins) – präziser Rhythmus-Passer mit blitzschnellem Release, der eine Timing-Offense nahezu fehlerfrei dirigiert.",
-    "worst_case_nfl": "Mac Jones (49ers) – Accuracy allein reicht nicht, wenn Antizipation gegen NFL-Rotationen und Arm-Talent fehlen; Ende: gehobener Backup.",
-    "class_year": "RS Sophomore",
-    "projection": "Top-10",
-    "sources": [
-      "nflmockdraftdatabase.com",
-      "tankathon.com",
-      "nfldraftbuzz.com",
-      "sports.yahoo.com"
     ]
   },
   {
@@ -387,38 +387,13 @@
     ]
   },
   {
-    "name": "Ellis Robinson IV",
-    "position": "CB",
-    "college": "Georgia",
-    "height": "6'1\"",
-    "weight": "190 lbs",
-    "ranking_pos": 2,
-    "ranking_overall": 16,
-    "forstner_statement": "Robinson hat den Fünf-Sterne-Hype nicht nur bestätigt, sondern eingelöst - das schaffen die wenigsten. Seine Man-Coverage ist so geschmeidig, dass ich ihn nicht lange als 'CB2 hinter Moore' herumsitzen sehe.",
-    "piktogramme": [
-      "Press Coverage",
-      "Speed",
-      "Ball Skills"
-    ],
-    "scouting_report_de": "Vom Nr.-1-CB-Recruit zum echten Erstrunden-Kandidaten - Robinson hat 2025 den Durchbruch geschafft und rangiert nun als Consensus-Top-2-Corner hinter Leonard Moore. In Jordan Reids frühem ESPN-Mock stand er sogar schon an Position 10. Seine Man-Coverage ist geschmeidig, die Hüfte dreht sauber, und mit Prototyp-Länge klebt er an Receivern wie ein Schatten. Er hat den Recruiting-Hype, der so vielen zum Verhängnis wird, in Produktion übersetzt - das ist der schwierigste Schritt. Bleibt die Kurve steil, ist ein Team wie Minnesota im mittleren Bereich der ersten Runde purer Value.",
-    "best_case_nfl": "Sauce Gardner (Jets) – langer, geschmeidiger Man-Coverage-Corner, der mit sauberer Hüftdrehung an Nr.-1-Receivern klebt.",
-    "worst_case_nfl": "Kaiir Elam (Cowboys) – hoch gedrafteter Recruit-Hype, der Länge nicht in konstante Coverage übersetzt und zum Rotationsspieler abrutscht.",
-    "class_year": "Junior",
-    "projection": "Runde 1",
-    "sources": [
-      "on3.com",
-      "espn.com",
-      "sportsgrid.com"
-    ]
-  },
-  {
     "name": "Koi Perich",
     "position": "S",
     "college": "Oregon",
     "height": "6'1\"",
     "weight": "196 lbs",
     "ranking_pos": 1,
-    "ranking_overall": 17,
+    "ranking_overall": 16,
     "forstner_statement": "Perich ist ein Ballhawk alter Schule, der lieber ein Play macht als abzuwarten - solche Instinkte liebe ich. Mit seiner Freelance-Ader muss man leben, aber die Turnovers, die er produziert, wiegen die Ausrutscher locker auf.",
     "piktogramme": [
       "Range",
@@ -434,6 +409,31 @@
       "on3.com",
       "espn.com",
       "allaccessfootball.com"
+    ]
+  },
+  {
+    "name": "Ellis Robinson IV",
+    "position": "CB",
+    "college": "Georgia",
+    "height": "6'1\"",
+    "weight": "190 lbs",
+    "ranking_pos": 2,
+    "ranking_overall": 17,
+    "forstner_statement": "Robinson hat den Fünf-Sterne-Hype nicht nur bestätigt, sondern eingelöst - das schaffen die wenigsten. Seine Man-Coverage ist so geschmeidig, dass ich ihn nicht lange als 'CB2 hinter Moore' herumsitzen sehe.",
+    "piktogramme": [
+      "Press Coverage",
+      "Speed",
+      "Ball Skills"
+    ],
+    "scouting_report_de": "Vom Nr.-1-CB-Recruit zum echten Erstrunden-Kandidaten - Robinson hat 2025 den Durchbruch geschafft und rangiert nun als Consensus-Top-2-Corner hinter Leonard Moore. In Jordan Reids frühem ESPN-Mock stand er sogar schon an Position 10. Seine Man-Coverage ist geschmeidig, die Hüfte dreht sauber, und mit Prototyp-Länge klebt er an Receivern wie ein Schatten. Er hat den Recruiting-Hype, der so vielen zum Verhängnis wird, in Produktion übersetzt - das ist der schwierigste Schritt. Bleibt die Kurve steil, ist ein Team wie Minnesota im mittleren Bereich der ersten Runde purer Value.",
+    "best_case_nfl": "Sauce Gardner (Jets) – langer, geschmeidiger Man-Coverage-Corner, der mit sauberer Hüftdrehung an Nr.-1-Receivern klebt.",
+    "worst_case_nfl": "Kaiir Elam (Cowboys) – hoch gedrafteter Recruit-Hype, der Länge nicht in konstante Coverage übersetzt und zum Rotationsspieler abrutscht.",
+    "class_year": "Junior",
+    "projection": "Runde 1",
+    "sources": [
+      "on3.com",
+      "espn.com",
+      "sportsgrid.com"
     ]
   },
   {
@@ -616,13 +616,38 @@
     ]
   },
   {
+    "name": "Nick Marsh",
+    "position": "WR",
+    "college": "Indiana",
+    "height": "6'3\"",
+    "weight": "209 lbs",
+    "ranking_pos": 5,
+    "ranking_overall": 25,
+    "forstner_statement": "Marsh nach dem Catch anzuschauen macht einfach Spaß - der Mann sucht Kontakt und rennt trotzdem davon. In Indianas Offense mit besseren Bällen könnte er dieses Jahr richtig laut werden, den habe ich auf der Riser-Liste.",
+    "piktogramme": [
+      "Route Running",
+      "Separation",
+      "Hände"
+    ],
+    "scouting_report_de": "WalterFootball wird bei Marsh geradezu poetisch - er 'läuft 4,3 und explodiert nach dem Catch'. Nach dem Wechsel von Michigan State steht er nun in Indianas hochgerüsteter Offense, und das Profil passt: ein vertikaler X-Receiver mit gemessenem 4,4er-Speed, großem Catch Radius und physischem YAC-Spiel. Er nimmt den Ball und macht aus einer kurzen Route ein langes Play. Bei 6'3\" und 209 Pfund bringt er die Größe mit, die das Deep-Game in der neuen Offense veredeln könnte. New England wird von ESPN als Ziel gehandelt - ein weiterer Deep-Threat für Drake Maye. Ein Prospect, der von der Schule und dem Scheme profitieren dürfte.",
+    "best_case_nfl": "DK Metcalf (Steelers) – vertikaler X-Receiver mit 4,4er-Speed, großem Catch Radius und physischem YAC-Spiel, das kurze Routen verlängert.",
+    "worst_case_nfl": "Denzel Mims (Jets) – Size-Speed-Profil ohne Route-Feinheiten, das nie in Produktion umschlägt und auf der Bank landet.",
+    "class_year": "Junior",
+    "projection": "Runde 1",
+    "sources": [
+      "walterfootball.com",
+      "247sports.com",
+      "yardbarker.com"
+    ]
+  },
+  {
     "name": "Ahmad Hardy",
     "position": "RB",
     "college": "Missouri",
     "height": "5'10\"",
     "weight": "210 lbs",
     "ranking_pos": 2,
-    "ranking_overall": 25,
+    "ranking_overall": 26,
     "forstner_statement": "Rein football-technisch ist Hardy der explosivste Back der Klasse, keine Frage - 25 Läufe über 15 Yards, das ist Wahnsinn. Aber ich lege die Hand nicht ins Feuer, bevor ich weiß, wie das Bein 2026 zurückkommt; medizinisch ist das die große Unbekannte.",
     "piktogramme": [
       "Explosivität",
@@ -639,31 +664,6 @@
       "espn.com",
       "footballscout365.com",
       "fantasylife.com"
-    ]
-  },
-  {
-    "name": "Nick Marsh",
-    "position": "WR",
-    "college": "Indiana",
-    "height": "6'3\"",
-    "weight": "209 lbs",
-    "ranking_pos": 5,
-    "ranking_overall": 26,
-    "forstner_statement": "Marsh nach dem Catch anzuschauen macht einfach Spaß - der Mann sucht Kontakt und rennt trotzdem davon. In Indianas Offense mit besseren Bällen könnte er dieses Jahr richtig laut werden, den habe ich auf der Riser-Liste.",
-    "piktogramme": [
-      "Route Running",
-      "Separation",
-      "Hände"
-    ],
-    "scouting_report_de": "WalterFootball wird bei Marsh geradezu poetisch - er 'läuft 4,3 und explodiert nach dem Catch'. Nach dem Wechsel von Michigan State steht er nun in Indianas hochgerüsteter Offense, und das Profil passt: ein vertikaler X-Receiver mit gemessenem 4,4er-Speed, großem Catch Radius und physischem YAC-Spiel. Er nimmt den Ball und macht aus einer kurzen Route ein langes Play. Bei 6'3\" und 209 Pfund bringt er die Größe mit, die das Deep-Game in der neuen Offense veredeln könnte. New England wird von ESPN als Ziel gehandelt - ein weiterer Deep-Threat für Drake Maye. Ein Prospect, der von der Schule und dem Scheme profitieren dürfte.",
-    "best_case_nfl": "DK Metcalf (Steelers) – vertikaler X-Receiver mit 4,4er-Speed, großem Catch Radius und physischem YAC-Spiel, das kurze Routen verlängert.",
-    "worst_case_nfl": "Denzel Mims (Jets) – Size-Speed-Profil ohne Route-Feinheiten, das nie in Produktion umschlägt und auf der Bank landet.",
-    "class_year": "Junior",
-    "projection": "Runde 1",
-    "sources": [
-      "walterfootball.com",
-      "247sports.com",
-      "yardbarker.com"
     ]
   },
   {
@@ -715,6 +715,32 @@
       "pff.com",
       "sportsgamingrosters.com",
       "sports.yahoo.com"
+    ]
+  },
+  {
+    "name": "Dylan Raiola",
+    "position": "QB",
+    "college": "Nebraska",
+    "height": "6'3\"",
+    "weight": "220 lbs",
+    "ranking_pos": 7,
+    "ranking_overall": 29,
+    "forstner_statement": "Beim Namen Raiola zucken alle zusammen, weil sofort Mahomes im Raum steht, aber genau da bremse ich. Die Tools sind echt, das Release gehört zu den schnellsten der Klasse, nur muss der Junge lernen, dass nicht jeder Snap ein Highlight werden muss. Zeigt er 2026 mehr Geduld, ziehe ich ihn ohne zu zögern am zweiten Tag.",
+    "piktogramme": [
+      "Pocket Presence",
+      "Genauigkeit",
+      "Entscheidungsfindung"
+    ],
+    "scouting_report_de": "Kaum ein Quarterback dieser Klasse polarisiert so wie Dylan Raiola. Der frühere Fünf-Sterne-Recruit kam mit einem Mahomes-Vergleich nach Lincoln, und seine erste Starter-Saison lieferte beides: reihenweise NFL-reife Würfe aus der Kurz- und Mittelzone, aber eben auch Phasen, in denen er das Spiel mit Gewalt erzwingen wollte. Das Release ist blitzschnell, die Ballplatzierung auf Kurzrouten schon jetzt sauber, und sein Football-IQ wird von Trainern seit Jahren gelobt. Was fehlt, ist die Konstanz gegen Druck und die Geduld, den einfachen Wurf zu nehmen, statt jede Coverage im Alleingang aufreißen zu wollen. Nebraska hat die Offensive Line aufgerüstet, weshalb 2026 zum echten Härtetest für seine Draft-Aktie wird. Trifft er die richtige Balance aus Aggressivität und Disziplin, klettert er schnell zurück in die Erstrunden-Diskussion. Wenn nicht, bleibt er ein hochtalentierter, aber wackliger Day-2-Passer.",
+    "best_case_nfl": "Matthew Stafford (Rams) – kompakter Rhythmus-Werfer mit schnellem Release und Mut zum tiefen Ball, der bei disziplinierten Reads eine ganze Offense trägt.",
+    "worst_case_nfl": "Sam Howell (Vikings) – ein starker Arm und Highlight-Würfe, die von zu vielen erzwungenen Entscheidungen und Turnovers überschattet werden, bis nur eine Backup-Rolle bleibt.",
+    "class_year": "Junior",
+    "projection": "Runde 2",
+    "sources": [
+      "nflmockdraftdatabase.com",
+      "espn.com",
+      "on3.com",
+      "tankathon.com"
     ]
   },
   {
@@ -773,7 +799,7 @@
     "college": "Oklahoma State",
     "height": "6'5\"",
     "weight": "",
-    "ranking_pos": 7,
+    "ranking_pos": 8,
     "ranking_overall": 32,
     "forstner_statement": "Die Zahlen bei North Texas sind irre, aber ich brauche den Test gegen Big-12-Speed, bevor ich Mestemaker glaube - Produktion in einer Turbo-Offense täuscht schnell. Die Größe und der Arm sind echt; jetzt muss die Konkurrenz mitspielen.",
     "piktogramme": [
@@ -798,7 +824,7 @@
     "college": "USC",
     "height": "6'4\"",
     "weight": "225 lbs",
-    "ranking_pos": 8,
+    "ranking_pos": 9,
     "ranking_overall": 33,
     "forstner_statement": "Maiavas Touch ist Kunst - der legt Bälle in Körbe, die andere gar nicht sehen. Nur die Turnover-Phasen machen mir Bauchschmerzen; räumt er die weg, redet keiner mehr über 'Runde 1 oder 2'.",
     "piktogramme": [
@@ -1234,7 +1260,7 @@
     "college": "Florida",
     "height": "6'3\"",
     "weight": "240 lbs",
-    "ranking_pos": 9,
+    "ranking_pos": 10,
     "ranking_overall": 51,
     "forstner_statement": "Lagways Arm gehört zum Besten in dieser Klasse, da beißt die Maus keinen Faden ab, nur muss der Kopf mit dem Arm mithalten. Ich mag Spieler, die den tiefen Ball suchen, aber die Turnover-Phasen und die kleinen Wehwehchen halten mich noch zurück; das ist eine Wette auf die Reife.",
     "piktogramme": [
@@ -1401,6 +1427,107 @@
       "drafttek.com",
       "walterfootball.com",
       "247sports.com"
+    ]
+  },
+  {
+    "name": "Jermod McCoy",
+    "position": "CB",
+    "college": "Tennessee",
+    "height": "6'0\"",
+    "weight": "193 lbs",
+    "ranking_pos": 6,
+    "ranking_overall": 58,
+    "forstner_statement": "McCoy vor der Verletzung war ein Corner, den ich am liebsten sofort eingepackt hätte, so physisch und ballhungrig spielt der. Jetzt ist die große Frage medizinisch, nicht sportlich; kommt das Knie sauber zurück, ist er für mich ein Steal am zweiten Tag.",
+    "piktogramme": [
+      "Tackling",
+      "Route Recognition",
+      "Slot"
+    ],
+    "scouting_report_de": "Vor dem Kreuzbandriss war Jermod McCoy auf dem besten Weg, sich in die erste Corner-Diskussion der Klasse zu spielen. Nach seinem Wechsel von Oregon State explodierte er 2024 in Tennessee mit vier Interceptions und einer der stabilsten Coverage-Saisons der ganzen SEC. Auf dem Tape sieht man einen physischen Press-Corner, der an der Line Hand anlegt, die Hüfte sauber öffnet und den Ball am Catchpoint attackiert. Dann kam im Frühjahr 2025 die Verletzung, die alles offen lässt: Wie schnell kehrt die Explosivität zurück, wie sieht die Rückwärtsbewegung nach der Reha aus? Fällt die Antwort positiv aus, ist er ein sicherer Day-2-Corner mit Startergarantie. Verläuft die Genesung zäh, rutscht er tiefer, als es sein Talent verdient. Für ein Team mit Geduld ist genau das der Value-Hebel.",
+    "best_case_nfl": "Charvarius Ward (Colts) – physischer, langer Press-Corner, der Nr.-1-Receiver in Man-Coverage zustellt und am Catchpoint fightet.",
+    "worst_case_nfl": "Josh Jackson (a.D.) – ein produktiver College-Corner, dessen Übergang in die NFL nie gelingt und der über Rotations- und Special-Teams-Rollen nicht hinauskommt.",
+    "class_year": "Senior",
+    "projection": "Day 2",
+    "sources": [
+      "prodraftscouting.com",
+      "espn.com",
+      "247sports.com",
+      "nfldraftbuzz.com"
+    ]
+  },
+  {
+    "name": "Nyckoles Harbor",
+    "position": "WR",
+    "college": "South Carolina",
+    "height": "6'5\"",
+    "weight": "235 lbs",
+    "ranking_pos": 10,
+    "ranking_overall": 59,
+    "forstner_statement": "Harbor ist der Spieler, bei dem ich als Scout ins Schwitzen komme, weil das Auge etwas sieht, das der Stat-Sheet noch nicht bestätigt. So ein Körper mit so einem Speed gehört auf jede Watchlist, aber ich kaufe hier eine Wette auf die Entwicklung, keinen fertigen Receiver. Für einen Day-3-Pick nehme ich dieses Ceiling trotzdem jederzeit mit.",
+    "piktogramme": [
+      "Slot-Profil",
+      "Blocking",
+      "Special Teams"
+    ],
+    "scouting_report_de": "Wenn Athletik allein Drafts entscheiden würde, stünde Nyckoles Harbor ganz oben. Bei 6'5\" und 235 Pfund läuft er die Sprintzeiten eines Weltklasse-Leichtathleten, ein Größen-Speed-Paket, das die Liga vielleicht einmal pro Jahrzehnt sieht. Nur ist Football eben nicht nur Physik: Sein Route-Baum ist grob, die Hände sind unbeständig, und die Produktion in South Carolina blieb bisher hinter dem Hype zurück. Er ist ein Rohdiamant, der einen geduldigen Receiver-Coach und viele Snaps braucht, um seine Werkzeuge zu ordnen. Sofort kann er über Gadget-Plays und Special Teams Wert stiften, während die Feinarbeit reift. Findet der Knoten die Lösung, redet die Liga über einen Matchup-Albtraum. Findet er sie nicht, bleibt er eine Trainingsgelände-Legende. Genau diese Spanne macht ihn zum spannendsten Sleeper des Boards.",
+    "best_case_nfl": "Kenny Golladay (Lions, Peak) – ein großgewachsener Speed-X, der über kleinere Corner steigt und in seiner besten Phase die tiefe Außenbahn dominiert.",
+    "worst_case_nfl": "Darrius Heyward-Bey (a.D.) – ein Athletik-Traum auf dem Papier, dessen Hände und Route-Baum nie NFL-Niveau erreichen und der als Projekt verpufft.",
+    "class_year": "Senior",
+    "projection": "Day 3",
+    "sources": [
+      "espn.com",
+      "tankathon.com",
+      "nfldraftbuzz.com"
+    ]
+  },
+  {
+    "name": "Olaivavega Ioane",
+    "position": "IOL",
+    "college": "Penn State",
+    "height": "6'4\"",
+    "weight": "335 lbs",
+    "ranking_pos": 2,
+    "ranking_overall": 60,
+    "forstner_statement": "Ioane blockt mit einer Wucht, die im Laufspiel einfach Spaß macht, den Mann willst du in einem Power-Scheme haben. In der Pass-Protection muss er die Füße noch sortieren, aber Guards mit dieser Power und Erfahrung wachsen nicht auf Bäumen; für mich ein solider Zweitrunden-Wert.",
+    "piktogramme": [
+      "Run Blocking",
+      "Zone Scheme",
+      "Technik"
+    ],
+    "scouting_report_de": "Wer die Penn-State-Line der letzten Jahre gesehen hat, kennt die Wucht, mit der Olaivavega Ioane die Löcher aufreißt. Der Guard ist ein klassischer Mauler: 335 Pfund geballte Kraft, ein brutaler Punch am Point of Attack und die Basis, einen Defensive Tackle im Doppel-Team schlicht wegzuschieben. Im Laufspiel ist er schon jetzt eine NFL-Waffe, gerade in Gap- und Power-Konzepten. Die Baustelle liegt in der Pass-Protection gegen quicke Interior-Rusher, wo die Füße und der zweite Kontakt schneller werden müssen. Als mehrjähriger Starter bringt er die Erfahrung und die Line-Calls mit, die Coaches an einem Interior-Blocker schätzen. Bleibt er gesund und poliert die Technik, ist er ein sicherer früher Day-2-Guard. In einer Klasse ohne viel Interior-Tiefe hebt ihn genau das hervor.",
+    "best_case_nfl": "Wyatt Teller (Browns) – wuchtiger Guard, der im Laufspiel überrollt und in der Pass-Protection einen stabilen Anker setzt.",
+    "worst_case_nfl": "Nate Herbig (a.D.) – ein kräftiger Run-Blocker, dessen Fußarbeit gegen NFL-Quickness limitiert bleibt und der zum Rotations- und Notnagel-Starter wird.",
+    "class_year": "Senior",
+    "projection": "Day 2",
+    "sources": [
+      "pff.com",
+      "nflmockdraftdatabase.com",
+      "prodraftscouting.com"
+    ]
+  },
+  {
+    "name": "Kenyon Sadiq",
+    "position": "TE",
+    "college": "Oregon",
+    "height": "6'3\"",
+    "weight": "245 lbs",
+    "ranking_pos": 3,
+    "ranking_overall": 61,
+    "forstner_statement": "Sadiq bewegt sich für einen Tight End so geschmeidig, dass ich ihn am liebsten in jeder Passroute sehen würde, das ist echtes Mismatch-Material. Beim Blocken muss noch Masse und Wille dazu, aber die Receiving-Anlagen kitzeln mich; mit einer lauten Saison ist das ein klarer Zweittages-Pick.",
+    "piktogramme": [
+      "Physikalität",
+      "In-Line",
+      "H-Back"
+    ],
+    "scouting_report_de": "Oregon hat in den letzten Jahren gezeigt, wie man Tight Ends als Waffen einsetzt, und Kenyon Sadiq ist der nächste in dieser Reihe. Er ist ein Move-TE im besten Sinne: mal in-line, mal im Slot, mal breit außen, immer mit der Athletik, Linebacker im Coverage-Mismatch alt aussehen zu lassen. Nach dem Catch bringt er Yards, weil er Tacklern ausweicht und den Kontakt sucht, und in der Red Zone ist sein Catch-Radius ein Faktor. Was ihn noch von der Elite trennt, ist das In-Line-Blocking: Dort fehlt Funktionsmasse und die Konstanz, sich gegen NFL-Ends festzubeißen. Die Anlagen als Receiver aber sind unübersehbar, und Oregons Passspiel gibt ihm die Bühne für einen Breakout 2026. Legt er statistisch nach, wandert er fest in die Day-2-Diskussion. Ein moderner Tight End, dessen Pfeil klar nach oben zeigt.",
+    "best_case_nfl": "Dallas Goedert (Eagles) – vielseitiger Move-TE, der aus jeder Formation heraus fängt, nach dem Catch Yards frisst und die Mittelzone öffnet.",
+    "worst_case_nfl": "Irv Smith Jr. (a.D.) – ein athletischer Receiving-TE, den Verletzungen und Blocking-Defizite auf eine unstete Rollenspieler-Karriere zurückwerfen.",
+    "class_year": "Junior",
+    "projection": "Day 2",
+    "sources": [
+      "espn.com",
+      "thedraftnetwork.com",
+      "nfldraftbuzz.com"
     ]
   }
 ]
