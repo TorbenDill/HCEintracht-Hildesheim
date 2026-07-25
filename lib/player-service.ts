@@ -120,6 +120,41 @@ export function getFeaturedProspect(): Player {
   return players.find((p) => p.ranking_overall === 1) ?? players[0];
 }
 
+const overallSorted = players
+  .filter((p) => p.ranking_overall !== null)
+  .sort(byOverallRank);
+
+const sameName = (a: Player, b: Player) =>
+  a.name === b.name && a.position === b.position;
+
+/** Spieler mit direkt benachbartem Overall-Rank (fürs interne Verlinken). */
+export function getRankNeighbors(player: Player, limit = 4): Player[] {
+  const idx = overallSorted.findIndex((p) => sameName(p, player));
+  if (idx === -1) return [];
+  const out: Player[] = [];
+  let lo = idx - 1;
+  let hi = idx + 1;
+  while (out.length < limit && (lo >= 0 || hi < overallSorted.length)) {
+    if (lo >= 0) out.push(overallSorted[lo--]);
+    if (out.length < limit && hi < overallSorted.length)
+      out.push(overallSorted[hi++]);
+  }
+  return out.sort(byOverallRank);
+}
+
+/** Andere Spieler derselben Position, am nächsten am Positions-Rank. */
+export function getPositionPeers(player: Player, limit = 5): Player[] {
+  const peers = getPlayersByPosition(player.position).filter(
+    (p) => !sameName(p, player)
+  );
+  peers.sort(
+    (a, b) =>
+      Math.abs(a.ranking_pos - player.ranking_pos) -
+      Math.abs(b.ranking_pos - player.ranking_pos)
+  );
+  return peers.slice(0, limit).sort((a, b) => a.ranking_pos - b.ranking_pos);
+}
+
 export type QualitySummary = {
   total: number;
   geprueft: number; // 3+ Quellen

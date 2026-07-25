@@ -6,6 +6,9 @@ import {
   getPlayers,
   getPlayerSlug,
   getBoardMeta,
+  getPositionPeers,
+  getRankNeighbors,
+  type Player,
 } from "@/lib/player-service";
 import { absoluteUrl } from "@/lib/site";
 import { getPlayerPhoto } from "@/lib/player-images";
@@ -85,6 +88,11 @@ export default async function PlayerPage({
 
   const photo = getPlayerPhoto(player.name);
   const collegeLink = getCollegeLink(player.college);
+  const positionPeers = getPositionPeers(player, 5);
+  const peerSlugs = new Set(positionPeers.map((p) => getPlayerSlug(p.name)));
+  const rankNeighbors = getRankNeighbors(player, 4).filter(
+    (p) => !peerSlugs.has(getPlayerSlug(p.name))
+  );
 
   const profileUrl = absoluteUrl(`/player/${getPlayerSlug(player.name)}`);
   const citations = (player.sources ?? []).map((s) => ({
@@ -301,6 +309,41 @@ export default async function PlayerPage({
           </div>
         </Reveal>
 
+        {/* ── WEITERE PROSPECTS (interne Verlinkung) ── */}
+        {(positionPeers.length > 0 || rankNeighbors.length > 0) && (
+          <Reveal className="mb-10">
+            <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Weitere Prospects
+            </h2>
+            <div className="grid gap-6 md:grid-cols-2">
+              {positionPeers.length > 0 && (
+                <div>
+                  <h3 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+                    Weitere {player.position} im Board
+                  </h3>
+                  <div className="flex flex-col gap-2">
+                    {positionPeers.map((p) => (
+                      <RelatedCard key={getPlayerSlug(p.name)} player={p} />
+                    ))}
+                  </div>
+                </div>
+              )}
+              {rankNeighbors.length > 0 && (
+                <div>
+                  <h3 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+                    Im Ranking benachbart
+                  </h3>
+                  <div className="flex flex-col gap-2">
+                    {rankNeighbors.map((p) => (
+                      <RelatedCard key={getPlayerSlug(p.name)} player={p} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </Reveal>
+        )}
+
         {/* ── QUELLEN & QUALITÄT ── */}
         <section className="mb-10">
           <div className="rounded border border-border bg-surface p-5">
@@ -373,6 +416,33 @@ export default async function PlayerPage({
         <AdSense slot="5635468031" className="mb-10" />
       </div>
     </main>
+  );
+}
+
+/** Kompakte Karte für die interne Verlinkung zu verwandten Spielern. */
+function RelatedCard({ player }: { player: Player }) {
+  return (
+    <Link
+      href={`/player/${getPlayerSlug(player.name)}`}
+      className="group flex items-center gap-3 rounded border border-border bg-surface px-3 py-2 transition-all hover:border-primary/40 hover:bg-surface-light"
+    >
+      <span className="relative h-9 w-9 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">
+        <PlayerAvatar name={player.name} size="sm" />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block truncate text-sm font-bold text-foreground group-hover:text-primary">
+          {player.name}
+        </span>
+        <span className="block truncate text-[10px] uppercase tracking-wider text-muted">
+          {player.position} · {player.college}
+        </span>
+      </span>
+      {player.ranking_overall != null && (
+        <span className="flex-shrink-0 font-mono text-xs font-bold text-primary">
+          #{player.ranking_overall}
+        </span>
+      )}
+    </Link>
   );
 }
 
