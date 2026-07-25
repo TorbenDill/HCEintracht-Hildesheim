@@ -119,3 +119,24 @@ export function searchPlayers(query: string): Player[] {
 export function getFeaturedProspect(): Player {
   return players.find((p) => p.ranking_overall === 1) ?? players[0];
 }
+
+export type QualitySummary = {
+  total: number;
+  geprueft: number; // 3+ Quellen
+  belegt: number; // genau 2 Quellen
+};
+
+/**
+ * Aggregierte Datenqualität über alle Profile. Da das Build-Quellen-Gate nur
+ * belegte Spieler (>= 2 Quellen) durchlässt, ist dies ein ehrliches
+ * Vertrauens-Signal fürs Board.
+ */
+export function getQualitySummary(): QualitySummary {
+  let geprueft = 0;
+  let belegt = 0;
+  for (const p of players) {
+    if (p.qualitaet === "geprueft") geprueft++;
+    else if (p.qualitaet === "belegt") belegt++;
+  }
+  return { total: players.length, geprueft, belegt };
+}

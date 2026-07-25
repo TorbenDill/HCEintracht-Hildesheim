@@ -8,6 +8,7 @@ import {
   getBoardMeta,
   getFeaturedProspect,
   getPlayerSlug,
+  getQualitySummary,
   getTop100,
   searchPlayers,
 } from "@/lib/player-service";
@@ -35,6 +36,7 @@ export default function Home() {
   const fallers = getFallers(5);
   const newcomers = getNewcomers(5);
   const showMovers = hasMovement();
+  const quality = getQualitySummary();
 
   const faqs = [
     {
@@ -421,6 +423,36 @@ export default function Home() {
           <h2 className="mb-3 text-sm font-bold text-foreground">
             Quellen &amp; Aktualisierung
           </h2>
+          <div className="mb-4 flex items-start gap-2.5 rounded-lg border border-accent/25 bg-accent-glow px-3.5 py-2.5">
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-accent"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={3}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20 6 9 17l-5-5" />
+            </svg>
+            <p className="text-xs leading-relaxed text-foreground/80">
+              <span className="font-bold text-foreground">Datenqualität:</span>{" "}
+              Alle {quality.total} Profile sind mit mindestens zwei unabhängigen
+              Quellen belegt
+              {quality.geprueft > 0 && (
+                <>
+                  , davon{" "}
+                  <span className="font-bold text-accent">
+                    {quality.geprueft} geprüft
+                  </span>{" "}
+                  (drei oder mehr Quellen)
+                </>
+              )}
+              . Nicht belegte oder nicht mehr draft-berechtigte Spieler kommen
+              nicht ins Board.
+            </p>
+          </div>
           <ul className="mb-3 flex flex-col gap-1">
             {meta.sources.map((s) => (
               <li key={s.url}>

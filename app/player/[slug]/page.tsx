@@ -86,17 +86,28 @@ export default async function PlayerPage({
   const photo = getPlayerPhoto(player.name);
   const collegeLink = getCollegeLink(player.college);
 
+  const profileUrl = absoluteUrl(`/player/${getPlayerSlug(player.name)}`);
+  const citations = (player.sources ?? []).map((s) => ({
+    "@type": "CreativeWork",
+    name: s,
+    url: sourceUrl(s),
+  }));
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: player.name,
-    url: absoluteUrl(`/player/${getPlayerSlug(player.name)}`),
-    jobTitle: `${player.position} – NFL Draft ${meta.draftYear} Prospect`,
-    affiliation: {
-      "@type": "CollegeOrUniversity",
-      name: player.college,
+    "@type": "ProfilePage",
+    dateModified: meta.updated,
+    mainEntity: {
+      "@type": "Person",
+      name: player.name,
+      url: profileUrl,
+      jobTitle: `${player.position} – NFL Draft ${meta.draftYear} Prospect`,
+      affiliation: {
+        "@type": "CollegeOrUniversity",
+        name: player.college,
+      },
+      description: player.scouting_report_de.slice(0, 300),
     },
-    description: player.scouting_report_de.slice(0, 300),
+    ...(citations.length ? { citation: citations } : {}),
   };
 
   return (
