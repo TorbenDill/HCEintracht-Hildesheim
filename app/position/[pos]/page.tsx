@@ -8,6 +8,7 @@ import { absoluteUrl } from "@/lib/site";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export function generateStaticParams() {
   return getAllPositionKeys().map((pos) => ({ pos: pos.toLowerCase() }));
@@ -95,6 +96,14 @@ export default async function PositionPage({
       </div>
 
       <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">
+        <Breadcrumbs
+          className="mb-6"
+          items={[
+            { name: "Draft Board", href: "/" },
+            { name: "Positionen", href: "/positionen" },
+            { name: info.label },
+          ]}
+        />
         <div className="mb-8">
           <h1 className="mb-4 font-display text-3xl font-semibold uppercase leading-tight tracking-tight text-foreground sm:text-4xl lg:text-5xl">
             Die besten {info.label} <br className="hidden sm:block" />

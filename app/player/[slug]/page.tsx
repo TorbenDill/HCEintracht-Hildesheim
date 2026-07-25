@@ -18,6 +18,7 @@ import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import StarButton from "@/components/StarButton";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export async function generateStaticParams() {
   const players = getPlayers();
@@ -141,6 +142,17 @@ export default async function PlayerPage({
       </div>
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
+        <Breadcrumbs
+          className="mb-6"
+          items={[
+            { name: "Draft Board", href: "/" },
+            {
+              name: player.position,
+              href: `/position/${player.position.toLowerCase()}`,
+            },
+            { name: player.name },
+          ]}
+        />
         {/* ── HEADER SECTION ── */}
         <section className="mb-10 grid gap-8 lg:grid-cols-[300px_1fr]">
           {/* Player Image */}
