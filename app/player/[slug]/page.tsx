@@ -172,6 +172,15 @@ export default async function PlayerPage({
               <StarButton slug={getPlayerSlug(player.name)} withLabel />
             </div>
 
+            {player.qualitaet && (
+              <div className="mb-4">
+                <QualityBadge
+                  tier={player.qualitaet}
+                  count={player.quellen_anzahl}
+                />
+              </div>
+            )}
+
             {/* Steckbrief */}
             <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
               <StatBox label="Größe" value={player.height || "–"} />
@@ -281,32 +290,68 @@ export default async function PlayerPage({
           </div>
         </Reveal>
 
-        {/* ── QUELLEN ── */}
+        {/* ── QUELLEN & QUALITÄT ── */}
         <section className="mb-10">
           <div className="rounded border border-border bg-surface p-5">
-            <h2 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
-              Quellen
-            </h2>
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+              <h2 className="text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+                Quellen &amp; Qualität
+              </h2>
+              {player.qualitaet && (
+                <QualityBadge
+                  tier={player.qualitaet}
+                  count={player.quellen_anzahl}
+                />
+              )}
+            </div>
+
             {player.sources && player.sources.length > 0 && (
-              <p className="mb-2 text-xs text-muted">
-                Spielerinfos u.&nbsp;a. aus: {player.sources.join(", ")}
-              </p>
+              <div className="mb-4">
+                <p className="mb-2 text-[10px] uppercase tracking-widest text-muted/70">
+                  Belege zu {player.name}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {player.sources.map((s) => (
+                    <a
+                      key={s}
+                      href={sourceUrl(s)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-full border border-border bg-background px-3 py-1 text-xs text-foreground/80 transition-colors hover:border-primary/40 hover:text-primary"
+                    >
+                      {s}
+                    </a>
+                  ))}
+                </div>
+              </div>
             )}
-            <ul className="flex flex-col gap-1">
-              {meta.sources.map((s) => (
-                <li key={s.url}>
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"
-                  >
-                    {s.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <p className="mt-3 text-[10px] text-muted/60">
+
+            <details className="group">
+              <summary className="cursor-pointer list-none text-[10px] uppercase tracking-widest text-muted/70 transition-colors hover:text-primary">
+                <span className="group-open:hidden">
+                  + Verwendete Big-Boards &amp; Methodik
+                </span>
+                <span className="hidden group-open:inline">
+                  − Verwendete Big-Boards &amp; Methodik
+                </span>
+              </summary>
+              <ul className="mt-3 flex flex-col gap-1">
+                {meta.sources.map((s) => (
+                  <li key={s.url}>
+                    <a
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"
+                    >
+                      {s.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+
+            <p className="mt-4 text-[10px] text-muted/60">
               Spielerdarstellung: {meta.imageSource.name} · Stand: {meta.updated}{" "}
               · {meta.updateCycle}
             </p>
@@ -317,6 +362,61 @@ export default async function PlayerPage({
         <AdSense slot="5635468031" className="mb-10" />
       </div>
     </main>
+  );
+}
+
+/** Macht aus einer Domain-Quelle ("espn.com") einen anklickbaren Link. */
+function sourceUrl(src: string): string {
+  const clean = src.trim().replace(/^https?:\/\//, "").replace(/\/.*$/, "");
+  return `https://${clean}`;
+}
+
+/**
+ * Qualitätsstufe eines Profils, abgeleitet aus der Quellenzahl (siehe
+ * scripts/build_2027.py). "geprueft" = 3+ unabhängige Quellen, "belegt" = 2.
+ * Nur belegte Profile erreichen das Board – ein Vertrauenssignal für Leser.
+ */
+function QualityBadge({
+  tier,
+  count,
+}: {
+  tier?: "geprueft" | "belegt" | null;
+  count?: number;
+}) {
+  if (!tier) return null;
+  const verified = tier === "geprueft";
+  const title = verified
+    ? `Geprüft: mit ${count ?? 3}+ unabhängigen Quellen belegt.`
+    : `Belegt: erfüllt den Mindeststandard von ${count ?? 2} unabhängigen Quellen.`;
+  return (
+    <span
+      title={title}
+      className={cn(
+        "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest",
+        verified
+          ? "border-accent/40 bg-accent-glow text-accent"
+          : "border-border bg-background text-muted"
+      )}
+    >
+      <svg
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        className="h-3 w-3"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M20 6 9 17l-5-5" />
+      </svg>
+      {verified ? "Geprüft" : "Belegt"}
+      {count ? (
+        <span className="font-mono font-medium opacity-70">
+          · {count} Quellen
+        </span>
+      ) : null}
+    </span>
   );
 }
 
