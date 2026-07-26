@@ -119,6 +119,12 @@ export default function Home() {
               Positionen
             </Link>
             <Link
+              href="/deutsche-prospects"
+              className="hidden rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary md:inline-block md:px-4"
+            >
+              🇩🇪 Deutsche
+            </Link>
+            <Link
               href="/mock-draft"
               className="rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
             >

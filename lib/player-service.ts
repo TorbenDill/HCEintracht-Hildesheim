@@ -24,6 +24,9 @@ export type Player = {
   // Board nicht (Quellen-Gate im Build).
   quellen_anzahl?: number;
   qualitaet?: "geprueft" | "belegt" | null;
+  // Eigene Kategorie: deutsche D1-Prospects (nicht im Consensus-Board gerankt).
+  deutsch?: boolean;
+  herkunft?: string;
 };
 
 export type BoardMeta = {
@@ -81,6 +84,9 @@ export function getPlayerBySlug(slug: string): Player | undefined {
 // Positions-Buckets einmalig vorsortieren (statt Filter+Sort pro Aufruf).
 const byPosition = new Map<string, Player[]>();
 for (const p of players) {
+  // Deutsche Prospects sind eine eigene Kategorie und nicht im
+  // Consensus-Positionsranking – daher hier ausgeschlossen.
+  if (p.deutsch) continue;
   const key = p.position.toUpperCase();
   (byPosition.get(key) ?? byPosition.set(key, []).get(key)!).push(p);
 }
@@ -118,6 +124,18 @@ export function searchPlayers(query: string): Player[] {
 
 export function getFeaturedProspect(): Player {
   return players.find((p) => p.ranking_overall === 1) ?? players[0];
+}
+
+/**
+ * Deutsche D1-Prospects als eigene Kategorie. Sortiert nach Draft-Aussicht
+ * (klare NFL-Prospects zuerst), dann alphabetisch.
+ */
+export function getGermanProspects(): Player[] {
+  const rank = (p: Player) =>
+    (p.projection ?? "").startsWith("Day 1") ? 0 : 1;
+  return players
+    .filter((p) => p.deutsch)
+    .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name));
 }
 
 const overallSorted = players

@@ -26,7 +26,9 @@
       "pff.com"
     ],
     "quellen_anzahl": 5,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Arch Manning",
@@ -54,7 +56,9 @@
       "sports.yahoo.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Dante Moore",
@@ -82,7 +86,9 @@
       "pff.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Colin Simmons",
@@ -110,7 +116,9 @@
       "profootballnetwork.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Julian Sayin",
@@ -138,7 +146,9 @@
       "sports.yahoo.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Dylan Stewart",
@@ -166,7 +176,9 @@
       "footballscout365.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Leonard Moore",
@@ -194,7 +206,9 @@
       "footballscout365.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Cam Coleman",
@@ -222,7 +236,9 @@
       "247sports.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Jordan Seaton",
@@ -250,7 +266,9 @@
       "tankathon.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Darian Mensah",
@@ -277,7 +295,9 @@
       "bleacherreport.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Trevor Goosby",
@@ -304,7 +324,9 @@
       "sports.yahoo.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "CJ Carr",
@@ -331,7 +353,9 @@
       "sports.yahoo.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Sammy Brown",
@@ -359,7 +383,9 @@
       "allaccessfootball.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "LaNorris Sellers",
@@ -387,7 +413,9 @@
       "bleacherreport.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Matayo Uiagalelei",
@@ -414,7 +442,9 @@
       "profootballnetwork.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Koi Perich",
@@ -441,7 +471,9 @@
       "allaccessfootball.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ellis Robinson IV",
@@ -468,7 +500,9 @@
       "sportsgrid.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "David Stone",
@@ -496,7 +530,9 @@
       "footballscout365.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Teitum Tuioti",
@@ -524,7 +560,9 @@
       "si.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Carter Smith",
@@ -551,7 +589,9 @@
       "lastwordonsports.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Kewan Lacy",
@@ -579,7 +619,9 @@
       "fantasylife.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ryan Williams",
@@ -607,7 +649,9 @@
       "walterfootball.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Jamari Johnson",
@@ -634,7 +678,9 @@
       "nfldraftbuzz.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "KJ Duff",
@@ -661,7 +707,9 @@
       "scoutinggrade.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Nick Marsh",
@@ -688,7 +736,9 @@
       "yardbarker.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ahmad Hardy",
@@ -716,7 +766,9 @@
       "fantasylife.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Charlie Becker",
@@ -744,7 +796,9 @@
       "profootballnetwork.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Brandon Baker",
@@ -771,7 +825,9 @@
       "sports.yahoo.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Dylan Raiola",
@@ -799,7 +855,9 @@
       "tankathon.com"
     ],
     "quellen_anzahl": 4,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "KJ Bolden",
@@ -826,7 +884,9 @@
       "allaccessfootball.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Tae Johnson",
@@ -853,7 +913,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Drew Mestemaker",
@@ -880,7 +942,9 @@
       "on3.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Jayden Maiava",
@@ -906,7 +970,9 @@
       "bleacherreport.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ahmad Moten Sr.",
@@ -933,7 +999,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Zabien Brown",
@@ -959,7 +1027,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Kelley Jones",
@@ -985,7 +1055,9 @@
       "sports.yahoo.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Trey'Dez Green",
@@ -1012,7 +1084,9 @@
       "yardbarker.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Kyngstonn Viliamu-Asa",
@@ -1039,7 +1113,9 @@
       "atozsports.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Damon Wilson II",
@@ -1065,7 +1141,9 @@
       "footballscout365.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Yhonzae Pierre",
@@ -1091,7 +1169,9 @@
       "profootballnetwork.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Quincy Rhodes Jr.",
@@ -1117,7 +1197,9 @@
       "nfldraftbuzz.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "A'Mauri Washington",
@@ -1143,7 +1225,9 @@
       "steelersdepot.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ryan Wingo",
@@ -1169,7 +1253,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Jadan Baugh",
@@ -1196,7 +1282,9 @@
       "fantasylife.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Will Echoles",
@@ -1222,7 +1310,9 @@
       "steelersdepot.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "A.J. Holmes Jr.",
@@ -1248,7 +1338,9 @@
       "steelersdepot.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Iapani Laloulu",
@@ -1274,7 +1366,9 @@
       "essentiallysports.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ashton Hampton",
@@ -1300,7 +1394,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Rasheem Biles",
@@ -1326,7 +1422,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Ben Roberts",
@@ -1352,7 +1450,9 @@
       "espn.com"
     ],
     "quellen_anzahl": 2,
-    "qualitaet": "belegt"
+    "qualitaet": "belegt",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "DJ Lagway",
@@ -1379,7 +1479,9 @@
       "on3.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Kaliq Lockett",
@@ -1406,7 +1508,9 @@
       "247sports.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Justus Terry",
@@ -1433,7 +1537,9 @@
       "pff.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Nate Frazier",
@@ -1460,7 +1566,9 @@
       "footballscout365.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Williams Nwaneri",
@@ -1487,7 +1595,9 @@
       "profootballnetwork.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Peyton Woodyard",
@@ -1514,7 +1624,9 @@
       "on3.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Vernell Brown III",
@@ -1541,7 +1653,9 @@
       "247sports.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
   },
   {
     "name": "Nyckoles Harbor",
@@ -1568,6 +1682,123 @@
       "nfldraftbuzz.com"
     ],
     "quellen_anzahl": 3,
-    "qualitaet": "geprueft"
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
+  },
+  {
+    "name": "Hero Kanu",
+    "position": "DT",
+    "college": "Texas",
+    "height": "6'4\"",
+    "weight": "321 lbs",
+    "ranking_pos": 7,
+    "ranking_overall": null,
+    "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
+    "piktogramme": [
+      "Nose Tackle",
+      "Backup",
+      "Developmental"
+    ],
+    "scouting_report_de": "Kaum eine Geschichte im College-Football klingt so unwahrscheinlich wie die von Hero Kanu. Der gebürtige Geltendorfer stand in Bayern als Fußball-Torwart im Tor, ehe er 2020 nach Kalifornien zog und dort zum ersten Mal Football spielte. Heute ist er ein 6'4\" großer, 321 Pfund schwerer Defensive Tackle, der nach drei Jahren und einem National Championship in Ohio State zu Texas wechselte und dort seine letzte College-Saison bestreitet. Auf dem Feld verbindet er für seine Masse eine seltene Beweglichkeit mit der Kraft, Doppelteams zu behaupten und die Pocket über die Mitte zu stauchen. Ein NFL-Scout brachte es zuletzt auf den Punkt: Legt er so weiter zu wie zum Ende der Saison 2025, hört er 2027 seinen Namen früh. Die Aufgabe für 2026 heißt Konstanz über eine ganze Saison und mehr Produktion als Pass-Rusher. Gelingt das, ist er der höchstgedraftete deutsche Defensivspieler seit Langem.",
+    "best_case_nfl": "Sheldon Rankins (Peak) – beweglicher Interior-Disruptor, der aus dem 3-Technique heraus Druck über die Mitte erzeugt.",
+    "worst_case_nfl": "Folorunso Fatukasi (a.D.) – kräftiger Run-Stopper, dessen begrenzter Pass-Rush ihn auf eine Zwei-Down-Rolle festlegt.",
+    "class_year": "Senior",
+    "projection": "Day 1-2 (Aufsteiger)",
+    "sources": [
+      "texaslonghorns.com",
+      "en.wikipedia.org",
+      "si.com",
+      "kxan.com"
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Geltendorf, Bayern"
+  },
+  {
+    "name": "Max Stege",
+    "position": "EDGE",
+    "college": "Boise State",
+    "height": "",
+    "weight": "",
+    "ranking_pos": 9,
+    "ranking_overall": null,
+    "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
+    "piktogramme": [
+      "Rotation",
+      "Motor",
+      "Versatility"
+    ],
+    "scouting_report_de": "Max Steges Weg führte vom Fußball und Boxen in Köln bis in die Startaufstellung eines College-Football-Playoff-Teams. Bei Boise State hat sich der Edge-Rusher über die Jahre eine feste Rolle erarbeitet: In der Vorsaison stand er in allen Spielen in der Startelf, kam auf über 600 Snaps und landete mit seinen Pressures teamintern unter den Top vier. Sein Spiel lebt von einem konstanten Motor und der Erfahrung aus einem Programm, das zuletzt bis in die Playoffs kam; die Vorschusslorbeeren als Preseason-All-Conference-Pick unterstreichen seinen Status. Für die NFL muss er beweisen, dass First Step und Pass-Rush-Repertoire gegen das nächsthöhere Athletik-Niveau reichen. Als erfahrener, produktiver Senior ist er ein realistischer Day-3- oder Priority-UDFA-Kandidat mit klar definierter Rolle. Für einen deutschen Edge-Spieler ist der Sprung, den er bereits gemacht hat, bemerkenswert.",
+    "best_case_nfl": "Carl Lawson (Peak) – produktiver Rotations-Edge mit gutem First Step und hoher Snap-Ausbeute.",
+    "worst_case_nfl": "Tarron Jackson (a.D.) – rotierender Edge, dessen Athletik-Limit ihn zwischen Practice Squad und Kaderrand pendeln lässt.",
+    "class_year": "Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "broncosports.com",
+      "247sports.com",
+      "idahonews.com"
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Köln"
+  },
+  {
+    "name": "Linus Zunk",
+    "position": "EDGE",
+    "college": "Washington State",
+    "height": "6'6\"",
+    "weight": "270 lbs",
+    "ranking_pos": 10,
+    "ranking_overall": null,
+    "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
+    "piktogramme": [
+      "Rotation",
+      "Motor",
+      "Versatility"
+    ],
+    "scouting_report_de": "Linus Zunk gehört zu den erfahrensten deutschen Edge-Spielern im College-Football. Der gebürtige Berliner war zuletzt Teil des Vanderbilt-Aufschwungs, entschied sich aber mit einem verbleibenden Jahr Eligibility für einen Wechsel nach Washington State, um vom Rotationsspieler zum Starter zu werden. Mit 6'6\" und 270 Pfund bringt er die Länge mit, die NFL-Teams an der Kante suchen; 2025 kam er in allen 13 Spielen auf 3,5 Tackles for Loss und drei Sacks. Als Redshirt-Senior geht es für ihn 2026 darum, mit größerer Rolle auch die Produktion nach oben zu schrauben. Sein Pfund ist die Rahmengröße, die Fragezeichen sind Explosivität und ein zweiter Pass-Rush-Move gegen NFL-Athletik. Als langer, erfahrener Edge ist er ein Day-3- oder Priority-UDFA-Typ, dessen Maße ihm einen Camp-Platz sichern können.",
+    "best_case_nfl": "Tyus Bowser (Peak) – langer, vielseitiger Edge, der über Länge und Motor eine Rotationsrolle mit Splash-Plays ausfüllt.",
+    "worst_case_nfl": "Janarius Robinson (a.D.) – toolsiger Edge, dessen Produktion nie zur Länge aufschließt und der Practice-Squad-Ware bleibt.",
+    "class_year": "RS Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "wsucougars.com",
+      "247sports.com"
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt",
+    "deutsch": true,
+    "herkunft": "Berlin"
+  },
+  {
+    "name": "Justin Okoronkwo",
+    "position": "LB",
+    "college": "South Carolina",
+    "height": "",
+    "weight": "",
+    "ranking_pos": 5,
+    "ranking_overall": null,
+    "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
+    "piktogramme": [
+      "Backup",
+      "Core Four ST",
+      "Toughness"
+    ],
+    "scouting_report_de": "Justin Okoronkwo hat in kurzer Zeit einen bemerkenswerten Weg zurückgelegt. Der gebürtige Münchner unterschrieb zunächst bei Alabama, wo er als Freshman in allen 13 Spielen vor allem auf Special Teams und als Defensiv-Reserve zum Einsatz kam. Nach dem Wechsel zu South Carolina schaffte er den Durchbruch: In der Saison 2025 stand er achtmal in der Startelf und verbuchte 64 Tackles sowie vier Tackles for Loss. Für 2026 kehrt er als etablierter Starter zurück und will seine Rolle im SEC-Team weiter ausbauen. Sein Profil ist das eines fleißigen, physischen Off-Ball-Linebackers, dessen NFL-Wert stark von den Special Teams und der Konstanz in der Coverage abhängt. Als deutscher SEC-Starter ist er ein realistischer Day-3- oder Priority-UDFA-Name mit Entwicklungspotenzial.",
+    "best_case_nfl": "Nick Bellore (Peak) – wertvoller Core-Special-Teamer und Rotations-Linebacker mit langer Kaderperspektive.",
+    "worst_case_nfl": "Joe Giles-Harris (a.D.) – Special-Teams-Linebacker, dessen Coverage-Limits eine feste Defensiv-Rolle verhindern.",
+    "class_year": "Junior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "247sports.com",
+      "on3.com"
+    ],
+    "quellen_anzahl": 2,
+    "qualitaet": "belegt",
+    "deutsch": true,
+    "herkunft": "München"
   }
 ]

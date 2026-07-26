@@ -95,6 +95,21 @@ export default async function PlayerPage({
     (p) => !peerSlugs.has(getPlayerSlug(p.name))
   );
 
+  const breadcrumbItems = player.deutsch
+    ? [
+        { name: "Draft Board", href: "/" },
+        { name: "Deutsche Prospects", href: "/deutsche-prospects" },
+        { name: player.name },
+      ]
+    : [
+        { name: "Draft Board", href: "/" },
+        {
+          name: player.position,
+          href: `/position/${player.position.toLowerCase()}`,
+        },
+        { name: player.name },
+      ];
+
   const profileUrl = absoluteUrl(`/player/${getPlayerSlug(player.name)}`);
   const citations = (player.sources ?? []).map((s) => ({
     "@type": "CreativeWork",
@@ -142,17 +157,7 @@ export default async function PlayerPage({
       </div>
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
-        <Breadcrumbs
-          className="mb-6"
-          items={[
-            { name: "Draft Board", href: "/" },
-            {
-              name: player.position,
-              href: `/position/${player.position.toLowerCase()}`,
-            },
-            { name: player.name },
-          ]}
-        />
+        <Breadcrumbs className="mb-6" items={breadcrumbItems} />
         {/* ── HEADER SECTION ── */}
         <section className="mb-10 grid gap-8 lg:grid-cols-[300px_1fr]">
           {/* Player Image */}
@@ -203,12 +208,22 @@ export default async function PlayerPage({
               <StarButton slug={getPlayerSlug(player.name)} withLabel />
             </div>
 
-            {player.qualitaet && (
-              <div className="mb-4">
-                <QualityBadge
-                  tier={player.qualitaet}
-                  count={player.quellen_anzahl}
-                />
+            {(player.qualitaet || player.deutsch) && (
+              <div className="mb-4 flex flex-wrap items-center gap-2">
+                {player.deutsch && (
+                  <Link
+                    href="/deutsche-prospects"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-primary-glow px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-primary transition-colors hover:bg-primary hover:text-background"
+                  >
+                    <span aria-hidden="true">🇩🇪</span> Deutscher Prospect
+                  </Link>
+                )}
+                {player.qualitaet && (
+                  <QualityBadge
+                    tier={player.qualitaet}
+                    count={player.quellen_anzahl}
+                  />
+                )}
               </div>
             )}
 
@@ -223,6 +238,9 @@ export default async function PlayerPage({
               />
               {player.class_year && (
                 <StatBox label="College-Jahr" value={player.class_year} />
+              )}
+              {player.deutsch && player.herkunft && (
+                <StatBox label="Herkunft" value={player.herkunft} accent />
               )}
               {player.projection && (
                 <StatBox label="Projektion" value={player.projection} accent />

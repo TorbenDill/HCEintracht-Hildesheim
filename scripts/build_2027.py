@@ -344,6 +344,9 @@ def main():
             # Qualitaetsstufe: aus der Quellenzahl abgeleitet.
             "quellen_anzahl": len(srcs),
             "qualitaet": quality_tier(len(srcs)),
+            # Eigene Kategorie: deutsche Prospects (D1) + Herkunft.
+            "deutsch": bool(p.get("deutsch")),
+            "herkunft": p.get("herkunft") or "",
         })
 
     out.sort(key=lambda x: (

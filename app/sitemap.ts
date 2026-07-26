@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: absoluteUrl("/deutsche-prospects"),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
 
   const playerRoutes: MetadataRoute.Sitemap = getPlayers().map((p) => ({
