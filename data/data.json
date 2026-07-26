@@ -1800,5 +1800,35 @@
     "qualitaet": "belegt",
     "deutsch": true,
     "herkunft": "München"
+  },
+  {
+    "name": "Alexander Honig",
+    "position": "TE",
+    "college": "Northwestern",
+    "height": "6'6\"",
+    "weight": "275 lbs",
+    "ranking_pos": 3,
+    "ranking_overall": null,
+    "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
+    "piktogramme": [
+      "Blocking TE",
+      "Depth",
+      "Short Yardage"
+    ],
+    "scouting_report_de": "Alexander Honig ist der wohl bekannteste deutsche Tight-End-Prospect seiner Generation. In Deutschland galt er als eines der größten Talente überhaupt und reifte bei den Schwäbisch Hall Unicorns, ehe er den Sprung ins US-College schaffte. Bei 6'6\" und 275 Pfund ist er zunächst ein Blocker im besten Sinne: eine bewegliche Wand, die als In-Line-TE und faktisch sechster Offensive Liner das Laufspiel öffnet. In drei Jahren an UConn baute er sein Receiving-Spiel aus und setzte 2025 mit 13 Fängen für 162 Yards und drei Touchdowns bei sieben Starts persönliche Bestwerte. Für sein letztes Jahr wechselte er als Graduate zu Northwestern, um in der Big Ten noch einmal Produktion und Draft-Aktie zu steigern. Sein NFL-Weg führt über das Blocken und die Special Teams, das Receiving ist die Kür. Als riesiger, erfahrener Blocker mit deutschem Ausrufezeichen ist er ein realistischer Day-3- oder Priority-UDFA-Kandidat.",
+    "best_case_nfl": "Mo Alie-Cox (Colts) – großgewachsener, blockstarker Y-Tight-End, der in der Red Zone und als sechster O-Liner echten Wert stiftet.",
+    "worst_case_nfl": "Nick Vannett (a.D.) – rotierender In-Line-Blocker mit begrenztem Receiving-Ceiling, der um einen Kaderplatz kämpft.",
+    "class_year": "Grad Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "nusports.com",
+      "247sports.com",
+      "on3.com",
+      "uconnhuskies.com"
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Schwäbisch Hall (Unicorns)"
   }
 ]
