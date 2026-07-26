@@ -6,6 +6,7 @@ import {
   getTeamByAbbr,
   getMockPick,
   getFitsForNeeds,
+  getPickNeighbors,
   teamSlug,
 } from "@/lib/teams";
 import { getBoardMeta, getPlayerSlug } from "@/lib/player-service";
@@ -53,6 +54,7 @@ export default async function TeamPage({
 
   const mock = getMockPick(team);
   const fits = getFitsForNeeds(team.needs);
+  const pickNeighbors = getPickNeighbors(team, 6);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -191,6 +193,30 @@ export default async function TeamPage({
         </Reveal>
 
         <AdSense slot="6888694163" layout="in-article" className="my-10" />
+
+        {pickNeighbors.length > 0 && (
+          <Reveal className="mb-10">
+            <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Weitere Teams in der Draft-Reihenfolge
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {pickNeighbors.map((t) => (
+                <Link
+                  key={t.teamAbbr}
+                  href={`/team/${teamSlug(t.teamAbbr)}`}
+                  className="group flex items-center gap-2 rounded-full border border-border bg-surface px-3.5 py-1.5 text-xs transition-all hover:border-primary/50"
+                >
+                  <span className="rounded-full bg-primary-glow px-1.5 font-mono text-[10px] font-bold text-primary">
+                    #{t.pick}
+                  </span>
+                  <span className="font-bold text-foreground group-hover:text-primary">
+                    {t.team}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </Reveal>
+        )}
 
         <div className="flex flex-wrap gap-3 text-xs">
           <Link

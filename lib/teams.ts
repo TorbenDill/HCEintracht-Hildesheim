@@ -61,6 +61,15 @@ export function getMockPick(team: DraftTeam): MockPick | null {
   return mockPicks.find((m) => m.teamAbbr === team.teamAbbr) ?? null;
 }
 
+/** Teams mit benachbartem Draft-Pick (für interne Cross-Links). */
+export function getPickNeighbors(team: DraftTeam, limit = 6): DraftTeam[] {
+  return teams
+    .filter((t) => t.teamAbbr !== team.teamAbbr)
+    .sort((a, b) => Math.abs(a.pick - team.pick) - Math.abs(b.pick - team.pick))
+    .slice(0, limit)
+    .sort((a, b) => a.pick - b.pick);
+}
+
 /** Pro Bedarf die besten verfügbaren Board-Prospects (dedupliziert). */
 export function getFitsForNeeds(
   needs: string[]

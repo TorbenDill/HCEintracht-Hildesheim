@@ -50,3 +50,8 @@ export function getCollegeBySlug(slug: string): College | null {
 export function getCollegeLink(name: string): string | null {
   return byName.get((name || "").trim())?.slug ?? null;
 }
+
+/** Andere College-Seiten (stärkste zuerst) für interne Cross-Links. */
+export function getRelatedColleges(currentSlug: string, limit = 8): College[] {
+  return colleges.filter((c) => c.slug !== currentSlug).slice(0, limit);
+}

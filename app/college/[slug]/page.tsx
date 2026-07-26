@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getColleges, getCollegeBySlug } from "@/lib/colleges";
+import {
+  getColleges,
+  getCollegeBySlug,
+  getRelatedColleges,
+} from "@/lib/colleges";
 import { getBoardMeta, getPlayerSlug } from "@/lib/player-service";
 import { absoluteUrl } from "@/lib/site";
 import PlayerAvatar from "@/components/PlayerAvatar";
@@ -51,6 +55,7 @@ export default async function CollegePage({
   const players = college.players;
   const positions = Array.from(new Set(players.map((p) => p.position)));
   const top = players[0];
+  const relatedColleges = getRelatedColleges(slug, 8);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -146,6 +151,30 @@ export default async function CollegePage({
         </Reveal>
 
         <AdSense slot="6888694163" layout="in-article" className="my-10" />
+
+        {relatedColleges.length > 0 && (
+          <Reveal className="mb-10">
+            <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Weitere Colleges
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {relatedColleges.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/college/${c.slug}`}
+                  className="group flex items-center gap-2 rounded-full border border-border bg-surface px-3.5 py-1.5 text-xs transition-all hover:border-primary/50"
+                >
+                  <span className="font-bold text-foreground group-hover:text-primary">
+                    {c.name}
+                  </span>
+                  <span className="rounded-full bg-primary-glow px-1.5 font-mono text-[10px] font-bold text-primary">
+                    {c.players.length}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </Reveal>
+        )}
 
         <div className="flex flex-wrap gap-3 text-xs">
           <Link
