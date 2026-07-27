@@ -84,9 +84,9 @@ export function getPlayerBySlug(slug: string): Player | undefined {
 // Positions-Buckets einmalig vorsortieren (statt Filter+Sort pro Aufruf).
 const byPosition = new Map<string, Player[]>();
 for (const p of players) {
-  // Deutsche Prospects sind eine eigene Kategorie und nicht im
-  // Consensus-Positionsranking – daher hier ausgeschlossen.
-  if (p.deutsch) continue;
+  // Deutsche Prospects laufen in den Positionsrankings mit – sinnvoll
+  // eingeordnet über ihren (aus dem Overall-Rank abgeleiteten) Positions-Rank,
+  // ungerankte am unteren Ende der Position.
   const key = p.position.toUpperCase();
   (byPosition.get(key) ?? byPosition.set(key, []).get(key)!).push(p);
 }

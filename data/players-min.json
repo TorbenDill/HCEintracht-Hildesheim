@@ -410,7 +410,7 @@
     "position": "DT",
     "college": "Texas",
     "projection": "Day 1-2 (Aufsteiger)",
-    "ranking_overall": null
+    "ranking_overall": 60
   },
   "max-stege": {
     "name": "Max Stege",
@@ -419,17 +419,17 @@
     "projection": "Day 3 / Priority UDFA",
     "ranking_overall": null
   },
-  "linus-zunk": {
-    "name": "Linus Zunk",
-    "position": "EDGE",
-    "college": "Washington State",
-    "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
-  },
   "justin-okoronkwo": {
     "name": "Justin Okoronkwo",
     "position": "LB",
     "college": "South Carolina",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": null
+  },
+  "linus-zunk": {
+    "name": "Linus Zunk",
+    "position": "EDGE",
+    "college": "Washington State",
     "projection": "Day 3 / Priority UDFA",
     "ranking_overall": null
   },

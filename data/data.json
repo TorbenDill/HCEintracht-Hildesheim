@@ -1693,7 +1693,7 @@
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 7,
-    "ranking_overall": null,
+    "ranking_overall": 60,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -1746,35 +1746,6 @@
     "herkunft": "Köln (Cologne Crocodiles)"
   },
   {
-    "name": "Linus Zunk",
-    "position": "EDGE",
-    "college": "Washington State",
-    "height": "6'6\"",
-    "weight": "270 lbs",
-    "ranking_pos": 10,
-    "ranking_overall": null,
-    "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
-    "piktogramme": [
-      "Rotation",
-      "Motor",
-      "Versatility"
-    ],
-    "scouting_report_de": "Linus Zunk gehört zu den erfahrensten deutschen Edge-Spielern im College-Football. Der gebürtige Berliner war zuletzt Teil des Vanderbilt-Aufschwungs, entschied sich aber mit einem verbleibenden Jahr Eligibility für einen Wechsel nach Washington State, um vom Rotationsspieler zum Starter zu werden. Mit 6'6\" und 270 Pfund bringt er die Länge mit, die NFL-Teams an der Kante suchen; 2025 kam er in allen 13 Spielen auf 3,5 Tackles for Loss und drei Sacks. Als Redshirt-Senior geht es für ihn 2026 darum, mit größerer Rolle auch die Produktion nach oben zu schrauben. Sein Pfund ist die Rahmengröße, die Fragezeichen sind Explosivität und ein zweiter Pass-Rush-Move gegen NFL-Athletik. Als langer, erfahrener Edge ist er ein Day-3- oder Priority-UDFA-Typ, dessen Maße ihm einen Camp-Platz sichern können.",
-    "best_case_nfl": "Tyus Bowser (Peak) – langer, vielseitiger Edge, der über Länge und Motor eine Rotationsrolle mit Splash-Plays ausfüllt.",
-    "worst_case_nfl": "Janarius Robinson (a.D.) – toolsiger Edge, dessen Produktion nie zur Länge aufschließt und der Practice-Squad-Ware bleibt.",
-    "class_year": "RS Senior",
-    "projection": "Day 3 / Priority UDFA",
-    "sources": [
-      "wsucougars.com",
-      "247sports.com",
-      "spandau-bulldogs.de"
-    ],
-    "quellen_anzahl": 3,
-    "qualitaet": "geprueft",
-    "deutsch": true,
-    "herkunft": "Berlin (Spandau Bulldogs)"
-  },
-  {
     "name": "Justin Okoronkwo",
     "position": "LB",
     "college": "South Carolina",
@@ -1802,6 +1773,35 @@
     "qualitaet": "geprueft",
     "deutsch": true,
     "herkunft": "München (Fursty Razorbacks)"
+  },
+  {
+    "name": "Linus Zunk",
+    "position": "EDGE",
+    "college": "Washington State",
+    "height": "6'6\"",
+    "weight": "270 lbs",
+    "ranking_pos": 10,
+    "ranking_overall": null,
+    "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
+    "piktogramme": [
+      "Rotation",
+      "Motor",
+      "Versatility"
+    ],
+    "scouting_report_de": "Linus Zunk gehört zu den erfahrensten deutschen Edge-Spielern im College-Football. Der gebürtige Berliner war zuletzt Teil des Vanderbilt-Aufschwungs, entschied sich aber mit einem verbleibenden Jahr Eligibility für einen Wechsel nach Washington State, um vom Rotationsspieler zum Starter zu werden. Mit 6'6\" und 270 Pfund bringt er die Länge mit, die NFL-Teams an der Kante suchen; 2025 kam er in allen 13 Spielen auf 3,5 Tackles for Loss und drei Sacks. Als Redshirt-Senior geht es für ihn 2026 darum, mit größerer Rolle auch die Produktion nach oben zu schrauben. Sein Pfund ist die Rahmengröße, die Fragezeichen sind Explosivität und ein zweiter Pass-Rush-Move gegen NFL-Athletik. Als langer, erfahrener Edge ist er ein Day-3- oder Priority-UDFA-Typ, dessen Maße ihm einen Camp-Platz sichern können.",
+    "best_case_nfl": "Tyus Bowser (Peak) – langer, vielseitiger Edge, der über Länge und Motor eine Rotationsrolle mit Splash-Plays ausfüllt.",
+    "worst_case_nfl": "Janarius Robinson (a.D.) – toolsiger Edge, dessen Produktion nie zur Länge aufschließt und der Practice-Squad-Ware bleibt.",
+    "class_year": "RS Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "wsucougars.com",
+      "247sports.com",
+      "spandau-bulldogs.de"
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Berlin (Spandau Bulldogs)"
   },
   {
     "name": "Alexander Honig",

@@ -306,7 +306,6 @@ def main():
 
     out = []
     rejected = []
-    pos_counters = {}
     for p in research["players"]:
         # --- Qualitaets-Gate: Quellenpflicht ---
         srcs = clean_sources(p)
@@ -315,8 +314,9 @@ def main():
             continue
 
         pos = p["position"]
-        pos_counters[pos] = pos_counters.get(pos, 0) + 1
-        pos_rank = p.get("pos_rank") or pos_counters[pos]
+        # Positions-Rank wird unten aus der Overall-Reihenfolge abgeleitet;
+        # ein explizit gesetzter pos_rank hat Vorrang.
+        pos_rank = p.get("pos_rank")
         rnd = p.get("round")
         pikt = get_bucket(PIKTOGRAMME, pos, rnd) or []
         comps = get_bucket(NFL_COMPS, pos, rnd) or (None, None)
@@ -349,10 +349,19 @@ def main():
             "herkunft": p.get("herkunft") or "",
         })
 
-    out.sort(key=lambda x: (
-        x["ranking_overall"] if x["ranking_overall"] is not None else 10_000,
-        x["position"], x["ranking_pos"],
-    ))
+    # Nach Overall-Rank sortieren (ungerankte ans Ende, stabil -> Datei-Reihenfolge).
+    out.sort(
+        key=lambda x: x["ranking_overall"] if x["ranking_overall"] is not None else 10_000
+    )
+
+    # Positions-Rank aus dieser Reihenfolge ableiten (deutsche/ungerankte
+    # Prospects landen so am unteren Ende ihrer Position), sofern nicht explizit.
+    pos_seen = {}
+    for x in out:
+        pos = x["position"]
+        pos_seen[pos] = pos_seen.get(pos, 0) + 1
+        if not x["ranking_pos"]:
+            x["ranking_pos"] = pos_seen[pos]
 
     # Slug identisch zu getPlayerSlug (lib/player-service.ts): lower,
     # Leerraum -> "-", dann . ' ’ entfernen. rank-history.json und
