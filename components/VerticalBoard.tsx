@@ -107,6 +107,15 @@ export default function VerticalBoard() {
               <div className="min-w-0">
                 <p className="flex items-center gap-1.5 truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
                   <span className="truncate">{player.name}</span>
+                  {player.deutsch && (
+                    <span
+                      title="Deutscher Prospect"
+                      aria-label="Deutscher Prospect"
+                      className="flex-shrink-0 text-xs"
+                    >
+                      🇩🇪
+                    </span>
+                  )}
                   <MoverBadge name={player.name} />
                 </p>
                 <p className="truncate text-[10px] text-muted sm:hidden">

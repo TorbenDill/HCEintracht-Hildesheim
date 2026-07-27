@@ -130,8 +130,17 @@ export default async function PositionPage({
                   <PlayerAvatar name={p.name} size="sm" />
                 </div>
                 <div className="min-w-0">
-                  <p className="truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
-                    {p.name}
+                  <p className="flex items-center gap-1.5 truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
+                    <span className="truncate">{p.name}</span>
+                    {p.deutsch && (
+                      <span
+                        title="Deutscher Prospect"
+                        aria-label="Deutscher Prospect"
+                        className="flex-shrink-0 text-xs"
+                      >
+                        🇩🇪
+                      </span>
+                    )}
                   </p>
                   <p className="truncate text-[11px] text-muted">
                     {p.college}
