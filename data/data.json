@@ -1743,7 +1743,7 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Köln"
+    "herkunft": "Köln (Cologne Crocodiles)"
   },
   {
     "name": "Linus Zunk",
@@ -1766,12 +1766,13 @@
     "projection": "Day 3 / Priority UDFA",
     "sources": [
       "wsucougars.com",
-      "247sports.com"
+      "247sports.com",
+      "spandau-bulldogs.de"
     ],
-    "quellen_anzahl": 2,
-    "qualitaet": "belegt",
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Berlin"
+    "herkunft": "Berlin (Spandau Bulldogs)"
   },
   {
     "name": "Justin Okoronkwo",
@@ -1794,12 +1795,13 @@
     "projection": "Day 3 / Priority UDFA",
     "sources": [
       "247sports.com",
-      "on3.com"
+      "on3.com",
+      "sportsillustrated.de"
     ],
-    "quellen_anzahl": 2,
-    "qualitaet": "belegt",
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "München"
+    "herkunft": "München (Fursty Razorbacks)"
   },
   {
     "name": "Alexander Honig",
