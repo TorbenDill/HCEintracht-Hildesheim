@@ -412,32 +412,32 @@
     "projection": "Day 1-2 (Aufsteiger)",
     "ranking_overall": 60
   },
+  "alexander-honig": {
+    "name": "Alexander Honig",
+    "position": "TE",
+    "college": "Northwestern",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 61
+  },
   "max-stege": {
     "name": "Max Stege",
     "position": "EDGE",
     "college": "Boise State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
-  },
-  "justin-okoronkwo": {
-    "name": "Justin Okoronkwo",
-    "position": "LB",
-    "college": "South Carolina",
-    "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
+    "ranking_overall": 62
   },
   "linus-zunk": {
     "name": "Linus Zunk",
     "position": "EDGE",
     "college": "Washington State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
+    "ranking_overall": 63
   },
-  "alexander-honig": {
-    "name": "Alexander Honig",
-    "position": "TE",
-    "college": "Northwestern",
+  "justin-okoronkwo": {
+    "name": "Justin Okoronkwo",
+    "position": "LB",
+    "college": "South Carolina",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
+    "ranking_overall": 64
   }
 }

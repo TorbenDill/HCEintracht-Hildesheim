@@ -1717,13 +1717,43 @@
     "herkunft": "Geltendorf, Bayern"
   },
   {
+    "name": "Alexander Honig",
+    "position": "TE",
+    "college": "Northwestern",
+    "height": "6'6\"",
+    "weight": "275 lbs",
+    "ranking_pos": 3,
+    "ranking_overall": 61,
+    "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
+    "piktogramme": [
+      "Blocking TE",
+      "Depth",
+      "Short Yardage"
+    ],
+    "scouting_report_de": "Alexander Honig ist der wohl bekannteste deutsche Tight-End-Prospect seiner Generation. In Deutschland galt er als eines der größten Talente überhaupt und reifte bei den Schwäbisch Hall Unicorns, ehe er den Sprung ins US-College schaffte. Bei 6'6\" und 275 Pfund ist er zunächst ein Blocker im besten Sinne: eine bewegliche Wand, die als In-Line-TE und faktisch sechster Offensive Liner das Laufspiel öffnet. In drei Jahren an UConn baute er sein Receiving-Spiel aus und setzte 2025 mit 13 Fängen für 162 Yards und drei Touchdowns bei sieben Starts persönliche Bestwerte. Für sein letztes Jahr wechselte er als Graduate zu Northwestern, um in der Big Ten noch einmal Produktion und Draft-Aktie zu steigern. Sein NFL-Weg führt über das Blocken und die Special Teams, das Receiving ist die Kür. Als riesiger, erfahrener Blocker mit deutschem Ausrufezeichen ist er ein realistischer Day-3- oder Priority-UDFA-Kandidat.",
+    "best_case_nfl": "Mo Alie-Cox (Colts) – großgewachsener, blockstarker Y-Tight-End, der in der Red Zone und als sechster O-Liner echten Wert stiftet.",
+    "worst_case_nfl": "Nick Vannett (a.D.) – rotierender In-Line-Blocker mit begrenztem Receiving-Ceiling, der um einen Kaderplatz kämpft.",
+    "class_year": "Grad Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "nusports.com",
+      "247sports.com",
+      "on3.com",
+      "uconnhuskies.com"
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Schwäbisch Hall (Unicorns)"
+  },
+  {
     "name": "Max Stege",
     "position": "EDGE",
     "college": "Boise State",
     "height": "6'4\"",
     "weight": "264 lbs",
     "ranking_pos": 9,
-    "ranking_overall": null,
+    "ranking_overall": 62,
     "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
     "piktogramme": [
       "Rotation",
@@ -1746,42 +1776,13 @@
     "herkunft": "Köln (Cologne Crocodiles)"
   },
   {
-    "name": "Justin Okoronkwo",
-    "position": "LB",
-    "college": "South Carolina",
-    "height": "6'3\"",
-    "weight": "231 lbs",
-    "ranking_pos": 5,
-    "ranking_overall": null,
-    "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
-    "piktogramme": [
-      "Backup",
-      "Core Four ST",
-      "Toughness"
-    ],
-    "scouting_report_de": "Justin Okoronkwo hat in kurzer Zeit einen bemerkenswerten Weg zurückgelegt. Der gebürtige Münchner unterschrieb zunächst bei Alabama, wo er als Freshman in allen 13 Spielen vor allem auf Special Teams und als Defensiv-Reserve zum Einsatz kam. Nach dem Wechsel zu South Carolina schaffte er den Durchbruch: In der Saison 2025 stand er achtmal in der Startelf und verbuchte 64 Tackles sowie vier Tackles for Loss. Für 2026 kehrt er als etablierter Starter zurück und will seine Rolle im SEC-Team weiter ausbauen. Sein Profil ist das eines fleißigen, physischen Off-Ball-Linebackers, dessen NFL-Wert stark von den Special Teams und der Konstanz in der Coverage abhängt. Als deutscher SEC-Starter ist er ein realistischer Day-3- oder Priority-UDFA-Name mit Entwicklungspotenzial.",
-    "best_case_nfl": "Nick Bellore (Peak) – wertvoller Core-Special-Teamer und Rotations-Linebacker mit langer Kaderperspektive.",
-    "worst_case_nfl": "Joe Giles-Harris (a.D.) – Special-Teams-Linebacker, dessen Coverage-Limits eine feste Defensiv-Rolle verhindern.",
-    "class_year": "Senior",
-    "projection": "Day 3 / Priority UDFA",
-    "sources": [
-      "247sports.com",
-      "on3.com",
-      "sportsillustrated.de"
-    ],
-    "quellen_anzahl": 3,
-    "qualitaet": "geprueft",
-    "deutsch": true,
-    "herkunft": "München (Fursty Razorbacks)"
-  },
-  {
     "name": "Linus Zunk",
     "position": "EDGE",
     "college": "Washington State",
     "height": "6'6\"",
     "weight": "270 lbs",
     "ranking_pos": 10,
-    "ranking_overall": null,
+    "ranking_overall": 63,
     "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
     "piktogramme": [
       "Rotation",
@@ -1804,33 +1805,32 @@
     "herkunft": "Berlin (Spandau Bulldogs)"
   },
   {
-    "name": "Alexander Honig",
-    "position": "TE",
-    "college": "Northwestern",
-    "height": "6'6\"",
-    "weight": "275 lbs",
-    "ranking_pos": 3,
-    "ranking_overall": null,
-    "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
+    "name": "Justin Okoronkwo",
+    "position": "LB",
+    "college": "South Carolina",
+    "height": "6'3\"",
+    "weight": "231 lbs",
+    "ranking_pos": 5,
+    "ranking_overall": 64,
+    "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
     "piktogramme": [
-      "Blocking TE",
-      "Depth",
-      "Short Yardage"
+      "Backup",
+      "Core Four ST",
+      "Toughness"
     ],
-    "scouting_report_de": "Alexander Honig ist der wohl bekannteste deutsche Tight-End-Prospect seiner Generation. In Deutschland galt er als eines der größten Talente überhaupt und reifte bei den Schwäbisch Hall Unicorns, ehe er den Sprung ins US-College schaffte. Bei 6'6\" und 275 Pfund ist er zunächst ein Blocker im besten Sinne: eine bewegliche Wand, die als In-Line-TE und faktisch sechster Offensive Liner das Laufspiel öffnet. In drei Jahren an UConn baute er sein Receiving-Spiel aus und setzte 2025 mit 13 Fängen für 162 Yards und drei Touchdowns bei sieben Starts persönliche Bestwerte. Für sein letztes Jahr wechselte er als Graduate zu Northwestern, um in der Big Ten noch einmal Produktion und Draft-Aktie zu steigern. Sein NFL-Weg führt über das Blocken und die Special Teams, das Receiving ist die Kür. Als riesiger, erfahrener Blocker mit deutschem Ausrufezeichen ist er ein realistischer Day-3- oder Priority-UDFA-Kandidat.",
-    "best_case_nfl": "Mo Alie-Cox (Colts) – großgewachsener, blockstarker Y-Tight-End, der in der Red Zone und als sechster O-Liner echten Wert stiftet.",
-    "worst_case_nfl": "Nick Vannett (a.D.) – rotierender In-Line-Blocker mit begrenztem Receiving-Ceiling, der um einen Kaderplatz kämpft.",
-    "class_year": "Grad Senior",
+    "scouting_report_de": "Justin Okoronkwo hat in kurzer Zeit einen bemerkenswerten Weg zurückgelegt. Der gebürtige Münchner unterschrieb zunächst bei Alabama, wo er als Freshman in allen 13 Spielen vor allem auf Special Teams und als Defensiv-Reserve zum Einsatz kam. Nach dem Wechsel zu South Carolina schaffte er den Durchbruch: In der Saison 2025 stand er achtmal in der Startelf und verbuchte 64 Tackles sowie vier Tackles for Loss. Für 2026 kehrt er als etablierter Starter zurück und will seine Rolle im SEC-Team weiter ausbauen. Sein Profil ist das eines fleißigen, physischen Off-Ball-Linebackers, dessen NFL-Wert stark von den Special Teams und der Konstanz in der Coverage abhängt. Als deutscher SEC-Starter ist er ein realistischer Day-3- oder Priority-UDFA-Name mit Entwicklungspotenzial.",
+    "best_case_nfl": "Nick Bellore (Peak) – wertvoller Core-Special-Teamer und Rotations-Linebacker mit langer Kaderperspektive.",
+    "worst_case_nfl": "Joe Giles-Harris (a.D.) – Special-Teams-Linebacker, dessen Coverage-Limits eine feste Defensiv-Rolle verhindern.",
+    "class_year": "Senior",
     "projection": "Day 3 / Priority UDFA",
     "sources": [
-      "nusports.com",
       "247sports.com",
       "on3.com",
-      "uconnhuskies.com"
+      "sportsillustrated.de"
     ],
-    "quellen_anzahl": 4,
+    "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Schwäbisch Hall (Unicorns)"
+    "herkunft": "München (Fursty Razorbacks)"
   }
 ]
