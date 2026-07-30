@@ -1,0 +1,71 @@
+name: Auto-Merge Wochen-Update
+
+# Bringt die Arbeitsbranches des CI-Responders automatisch nach `main`,
+# ABER nur wenn das Build-Gate (Datengenerator + Next-Build) sauber durchläuft.
+# So gehen die wöchentlichen Updates ohne manuellen Schritt live (Vercel
+# deployt von main), während kaputte oder unbelegte Änderungen abgefangen werden.
+
+on:
+  push:
+    branches:
+      - "claude/issue-**"
+
+# Nie zwei Auto-Merges gleichzeitig auf main.
+concurrency:
+  group: auto-merge-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: main auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Git-Identität
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Branch in main mergen
+        run: |
+          git fetch origin "${{ github.ref_name }}"
+          if ! git merge --no-edit "origin/${{ github.ref_name }}"; then
+            echo "::error::Merge-Konflikt – kein Auto-Merge, Branch bleibt für manuelle Prüfung."
+            exit 1
+          fi
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build-Gate (Datengenerator + Next-Build)
+        run: |
+          python3 scripts/build_2027.py
+          npm install
+          npx next build
+
+      - name: Neu gebaute Daten übernehmen (falls Abweichung)
+        run: |
+          if ! git diff --quiet; then
+            git add -A
+            git commit -m "Auto-Merge: abgeleitete Daten neu gebaut"
+          fi
+
+      - name: Nach main pushen (löst Vercel-Deploy aus)
+        run: git push origin HEAD:main
+
+      - name: Arbeitsbranch aufräumen
+        run: git push origin --delete "${{ github.ref_name }}" || true
