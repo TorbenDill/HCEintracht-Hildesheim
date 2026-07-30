@@ -79,11 +79,12 @@ export default function DeutscheProspectsPage() {
             Division 1. Diese Kategorie bündelt die deutschen Talente mit dem
             realistischsten Kurs auf den NFL Draft {meta.draftYear} – mit
             Herkunft, Position, College und individuellem deutschen
-            Scouting-Profil. Sie laufen außerhalb des Consensus-Big-Boards, weil
-            sie (noch) nicht auf den großen US-Rankings geführt werden. Es gilt
-            derselbe Qualitätsstandard wie im übrigen Board: aufgenommen wird nur,
-            wer mit mindestens zwei unabhängigen Quellen belegt und für 2027
-            draft-berechtigt ist.
+            Scouting-Profil. Sie stehen als eigener Tier am Ende unseres Big
+            Boards und sind hier zusätzlich gebündelt – von den großen
+            US-Consensus-Rankings werden die meisten (noch) nicht geführt. Es
+            gilt derselbe Qualitätsstandard wie im übrigen Board: aufgenommen
+            wird nur, wer mit mindestens zwei unabhängigen Quellen belegt und für
+            2027 draft-berechtigt ist.
           </p>
         </div>
 

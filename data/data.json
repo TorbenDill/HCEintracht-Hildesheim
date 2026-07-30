@@ -1762,7 +1762,7 @@
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 6,
-    "ranking_overall": null,
+    "ranking_overall": 61,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -1786,100 +1786,13 @@
     "herkunft": "Geltendorf, Bayern"
   },
   {
-    "name": "Max Stege",
-    "position": "EDGE",
-    "college": "Boise State",
-    "height": "6'4\"",
-    "weight": "264 lbs",
-    "ranking_pos": 10,
-    "ranking_overall": null,
-    "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
-    "piktogramme": [
-      "Rotation",
-      "Motor",
-      "Versatility"
-    ],
-    "scouting_report_de": "Max Steges Weg führte vom Fußball und Boxen in Köln bis in die Startaufstellung eines College-Football-Playoff-Teams. Bei Boise State hat sich der Edge-Rusher über die Jahre eine feste Rolle erarbeitet: In der Vorsaison stand er in allen Spielen in der Startelf, kam auf über 600 Snaps und landete mit seinen Pressures teamintern unter den Top vier. Sein Spiel lebt von einem konstanten Motor und der Erfahrung aus einem Programm, das zuletzt bis in die Playoffs kam; die Vorschusslorbeeren als Preseason-All-Conference-Pick unterstreichen seinen Status. Für die NFL muss er beweisen, dass First Step und Pass-Rush-Repertoire gegen das nächsthöhere Athletik-Niveau reichen. Als erfahrener, produktiver Senior ist er ein realistischer Day-3- oder Priority-UDFA-Kandidat mit klar definierter Rolle. Für einen deutschen Edge-Spieler ist der Sprung, den er bereits gemacht hat, bemerkenswert.",
-    "best_case_nfl": "Carl Lawson (Peak) – produktiver Rotations-Edge mit gutem First Step und hoher Snap-Ausbeute.",
-    "worst_case_nfl": "Tarron Jackson (a.D.) – rotierender Edge, dessen Athletik-Limit ihn zwischen Practice Squad und Kaderrand pendeln lässt.",
-    "class_year": "Senior",
-    "projection": "Day 3 / Priority UDFA",
-    "sources": [
-      "broncosports.com",
-      "247sports.com",
-      "idahonews.com"
-    ],
-    "quellen_anzahl": 3,
-    "qualitaet": "geprueft",
-    "deutsch": true,
-    "herkunft": "Köln (Cologne Crocodiles)"
-  },
-  {
-    "name": "Justin Okoronkwo",
-    "position": "LB",
-    "college": "South Carolina",
-    "height": "6'3\"",
-    "weight": "231 lbs",
-    "ranking_pos": 5,
-    "ranking_overall": null,
-    "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
-    "piktogramme": [
-      "Backup",
-      "Core Four ST",
-      "Toughness"
-    ],
-    "scouting_report_de": "Justin Okoronkwo hat in kurzer Zeit einen bemerkenswerten Weg zurückgelegt. Der gebürtige Münchner unterschrieb zunächst bei Alabama, wo er als Freshman in allen 13 Spielen vor allem auf Special Teams und als Defensiv-Reserve zum Einsatz kam. Nach dem Wechsel zu South Carolina schaffte er den Durchbruch: In der Saison 2025 stand er achtmal in der Startelf und verbuchte 64 Tackles sowie vier Tackles for Loss. Für 2026 kehrt er als etablierter Starter zurück und will seine Rolle im SEC-Team weiter ausbauen. Sein Profil ist das eines fleißigen, physischen Off-Ball-Linebackers, dessen NFL-Wert stark von den Special Teams und der Konstanz in der Coverage abhängt. Als deutscher SEC-Starter ist er ein realistischer Day-3- oder Priority-UDFA-Name mit Entwicklungspotenzial.",
-    "best_case_nfl": "Nick Bellore (Peak) – wertvoller Core-Special-Teamer und Rotations-Linebacker mit langer Kaderperspektive.",
-    "worst_case_nfl": "Joe Giles-Harris (a.D.) – Special-Teams-Linebacker, dessen Coverage-Limits eine feste Defensiv-Rolle verhindern.",
-    "class_year": "Senior",
-    "projection": "Day 3 / Priority UDFA",
-    "sources": [
-      "247sports.com",
-      "on3.com",
-      "sportsillustrated.de"
-    ],
-    "quellen_anzahl": 3,
-    "qualitaet": "geprueft",
-    "deutsch": true,
-    "herkunft": "München (Fursty Razorbacks)"
-  },
-  {
-    "name": "Linus Zunk",
-    "position": "EDGE",
-    "college": "Washington State",
-    "height": "6'6\"",
-    "weight": "270 lbs",
-    "ranking_pos": 11,
-    "ranking_overall": null,
-    "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
-    "piktogramme": [
-      "Rotation",
-      "Motor",
-      "Versatility"
-    ],
-    "scouting_report_de": "Linus Zunk gehört zu den erfahrensten deutschen Edge-Spielern im College-Football. Der gebürtige Berliner war zuletzt Teil des Vanderbilt-Aufschwungs, entschied sich aber mit einem verbleibenden Jahr Eligibility für einen Wechsel nach Washington State, um vom Rotationsspieler zum Starter zu werden. Mit 6'6\" und 270 Pfund bringt er die Länge mit, die NFL-Teams an der Kante suchen; 2025 kam er in allen 13 Spielen auf 3,5 Tackles for Loss und drei Sacks. Als Redshirt-Senior geht es für ihn 2026 darum, mit größerer Rolle auch die Produktion nach oben zu schrauben. Sein Pfund ist die Rahmengröße, die Fragezeichen sind Explosivität und ein zweiter Pass-Rush-Move gegen NFL-Athletik. Als langer, erfahrener Edge ist er ein Day-3- oder Priority-UDFA-Typ, dessen Maße ihm einen Camp-Platz sichern können.",
-    "best_case_nfl": "Tyus Bowser (Peak) – langer, vielseitiger Edge, der über Länge und Motor eine Rotationsrolle mit Splash-Plays ausfüllt.",
-    "worst_case_nfl": "Janarius Robinson (a.D.) – toolsiger Edge, dessen Produktion nie zur Länge aufschließt und der Practice-Squad-Ware bleibt.",
-    "class_year": "RS Senior",
-    "projection": "Day 3 / Priority UDFA",
-    "sources": [
-      "wsucougars.com",
-      "247sports.com",
-      "spandau-bulldogs.de"
-    ],
-    "quellen_anzahl": 3,
-    "qualitaet": "geprueft",
-    "deutsch": true,
-    "herkunft": "Berlin (Spandau Bulldogs)"
-  },
-  {
     "name": "Alexander Honig",
     "position": "TE",
     "college": "Northwestern",
     "height": "6'6\"",
     "weight": "275 lbs",
     "ranking_pos": 3,
-    "ranking_overall": null,
+    "ranking_overall": 62,
     "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
     "piktogramme": [
       "Blocking TE",
@@ -1903,13 +1816,100 @@
     "herkunft": "Schwäbisch Hall (Unicorns)"
   },
   {
+    "name": "Max Stege",
+    "position": "EDGE",
+    "college": "Boise State",
+    "height": "6'4\"",
+    "weight": "264 lbs",
+    "ranking_pos": 10,
+    "ranking_overall": 63,
+    "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
+    "piktogramme": [
+      "Rotation",
+      "Motor",
+      "Versatility"
+    ],
+    "scouting_report_de": "Max Steges Weg führte vom Fußball und Boxen in Köln bis in die Startaufstellung eines College-Football-Playoff-Teams. Bei Boise State hat sich der Edge-Rusher über die Jahre eine feste Rolle erarbeitet: In der Vorsaison stand er in allen Spielen in der Startelf, kam auf über 600 Snaps und landete mit seinen Pressures teamintern unter den Top vier. Sein Spiel lebt von einem konstanten Motor und der Erfahrung aus einem Programm, das zuletzt bis in die Playoffs kam; die Vorschusslorbeeren als Preseason-All-Conference-Pick unterstreichen seinen Status. Für die NFL muss er beweisen, dass First Step und Pass-Rush-Repertoire gegen das nächsthöhere Athletik-Niveau reichen. Als erfahrener, produktiver Senior ist er ein realistischer Day-3- oder Priority-UDFA-Kandidat mit klar definierter Rolle. Für einen deutschen Edge-Spieler ist der Sprung, den er bereits gemacht hat, bemerkenswert.",
+    "best_case_nfl": "Carl Lawson (Peak) – produktiver Rotations-Edge mit gutem First Step und hoher Snap-Ausbeute.",
+    "worst_case_nfl": "Tarron Jackson (a.D.) – rotierender Edge, dessen Athletik-Limit ihn zwischen Practice Squad und Kaderrand pendeln lässt.",
+    "class_year": "Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "broncosports.com",
+      "247sports.com",
+      "idahonews.com"
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Köln (Cologne Crocodiles)"
+  },
+  {
+    "name": "Linus Zunk",
+    "position": "EDGE",
+    "college": "Washington State",
+    "height": "6'6\"",
+    "weight": "270 lbs",
+    "ranking_pos": 11,
+    "ranking_overall": 64,
+    "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
+    "piktogramme": [
+      "Rotation",
+      "Motor",
+      "Versatility"
+    ],
+    "scouting_report_de": "Linus Zunk gehört zu den erfahrensten deutschen Edge-Spielern im College-Football. Der gebürtige Berliner war zuletzt Teil des Vanderbilt-Aufschwungs, entschied sich aber mit einem verbleibenden Jahr Eligibility für einen Wechsel nach Washington State, um vom Rotationsspieler zum Starter zu werden. Mit 6'6\" und 270 Pfund bringt er die Länge mit, die NFL-Teams an der Kante suchen; 2025 kam er in allen 13 Spielen auf 3,5 Tackles for Loss und drei Sacks. Als Redshirt-Senior geht es für ihn 2026 darum, mit größerer Rolle auch die Produktion nach oben zu schrauben. Sein Pfund ist die Rahmengröße, die Fragezeichen sind Explosivität und ein zweiter Pass-Rush-Move gegen NFL-Athletik. Als langer, erfahrener Edge ist er ein Day-3- oder Priority-UDFA-Typ, dessen Maße ihm einen Camp-Platz sichern können.",
+    "best_case_nfl": "Tyus Bowser (Peak) – langer, vielseitiger Edge, der über Länge und Motor eine Rotationsrolle mit Splash-Plays ausfüllt.",
+    "worst_case_nfl": "Janarius Robinson (a.D.) – toolsiger Edge, dessen Produktion nie zur Länge aufschließt und der Practice-Squad-Ware bleibt.",
+    "class_year": "RS Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "wsucougars.com",
+      "247sports.com",
+      "spandau-bulldogs.de"
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Berlin (Spandau Bulldogs)"
+  },
+  {
+    "name": "Justin Okoronkwo",
+    "position": "LB",
+    "college": "South Carolina",
+    "height": "6'3\"",
+    "weight": "231 lbs",
+    "ranking_pos": 5,
+    "ranking_overall": 65,
+    "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
+    "piktogramme": [
+      "Backup",
+      "Core Four ST",
+      "Toughness"
+    ],
+    "scouting_report_de": "Justin Okoronkwo hat in kurzer Zeit einen bemerkenswerten Weg zurückgelegt. Der gebürtige Münchner unterschrieb zunächst bei Alabama, wo er als Freshman in allen 13 Spielen vor allem auf Special Teams und als Defensiv-Reserve zum Einsatz kam. Nach dem Wechsel zu South Carolina schaffte er den Durchbruch: In der Saison 2025 stand er achtmal in der Startelf und verbuchte 64 Tackles sowie vier Tackles for Loss. Für 2026 kehrt er als etablierter Starter zurück und will seine Rolle im SEC-Team weiter ausbauen. Sein Profil ist das eines fleißigen, physischen Off-Ball-Linebackers, dessen NFL-Wert stark von den Special Teams und der Konstanz in der Coverage abhängt. Als deutscher SEC-Starter ist er ein realistischer Day-3- oder Priority-UDFA-Name mit Entwicklungspotenzial.",
+    "best_case_nfl": "Nick Bellore (Peak) – wertvoller Core-Special-Teamer und Rotations-Linebacker mit langer Kaderperspektive.",
+    "worst_case_nfl": "Joe Giles-Harris (a.D.) – Special-Teams-Linebacker, dessen Coverage-Limits eine feste Defensiv-Rolle verhindern.",
+    "class_year": "Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "247sports.com",
+      "on3.com",
+      "sportsillustrated.de"
+    ],
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "München (Fursty Razorbacks)"
+  },
+  {
     "name": "Duncan Brune",
     "position": "RB",
     "college": "Ohio",
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 5,
-    "ranking_overall": null,
+    "ranking_overall": 66,
     "forstner_statement": "Bobfahrer-Explosivität und eine Olympia-Mutter, das steht in keinem Scouting-Bericht, ergibt aber Sinn, wenn man ihn laufen sieht. Brune ist noch nicht fertig, und in der MAC bekommt er auch nicht die Duelle, die ein Draft-Gremium überzeugen. Trägt er 2026 die Last und kommt über 1.000 Yards, will ich seinen Namen im Camp hören.",
     "piktogramme": [
       "Physikalität",

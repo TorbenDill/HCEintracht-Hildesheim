@@ -424,41 +424,41 @@
     "position": "DT",
     "college": "Texas",
     "projection": "Day 1-2 (Aufsteiger)",
-    "ranking_overall": null
-  },
-  "max-stege": {
-    "name": "Max Stege",
-    "position": "EDGE",
-    "college": "Boise State",
-    "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
-  },
-  "justin-okoronkwo": {
-    "name": "Justin Okoronkwo",
-    "position": "LB",
-    "college": "South Carolina",
-    "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
-  },
-  "linus-zunk": {
-    "name": "Linus Zunk",
-    "position": "EDGE",
-    "college": "Washington State",
-    "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
+    "ranking_overall": 61
   },
   "alexander-honig": {
     "name": "Alexander Honig",
     "position": "TE",
     "college": "Northwestern",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
+    "ranking_overall": 62
+  },
+  "max-stege": {
+    "name": "Max Stege",
+    "position": "EDGE",
+    "college": "Boise State",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 63
+  },
+  "linus-zunk": {
+    "name": "Linus Zunk",
+    "position": "EDGE",
+    "college": "Washington State",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 64
+  },
+  "justin-okoronkwo": {
+    "name": "Justin Okoronkwo",
+    "position": "LB",
+    "college": "South Carolina",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 65
   },
   "duncan-brune": {
     "name": "Duncan Brune",
     "position": "RB",
     "college": "Ohio",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": null
+    "ranking_overall": 66
   }
 }
