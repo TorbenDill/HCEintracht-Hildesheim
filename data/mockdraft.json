@@ -1,21 +1,21 @@
 [
   {
     "pick": 1,
-    "team": "Arizona Cardinals",
-    "teamAbbr": "ARI",
+    "team": "Miami Dolphins",
+    "teamAbbr": "MIA",
     "player": "Arch Manning",
     "position": "QB",
     "college": "Texas",
-    "reason_de": "Arizona braucht dringend einen Franchise-QB und liegt in nahezu jeder Projektion vorn – PFN und ESPN sehen die Cardinals auf Pick 1 mit dem sichersten QB-Profil der Klasse."
+    "reason_de": "ESPN projiziert Miami nach dem 7-10-Jahr auf Pick 1, und die Quarterback-Frage ist dort die größte der Liga. Manning ist das sauberste Profil der Klasse und würde die Offense sofort neu ausrichten."
   },
   {
     "pick": 2,
-    "team": "Miami Dolphins",
-    "teamAbbr": "MIA",
+    "team": "Arizona Cardinals",
+    "teamAbbr": "ARI",
     "player": "Jeremiah Smith",
     "position": "WR",
     "college": "Ohio State",
-    "reason_de": "Der beste Spieler des Drafts. Miami bekommt nach einer projizierten schwachen Saison das Generational-Talent auf Receiver."
+    "reason_de": "Hält Arizona an Carson Beck fest, ist Smith der logische Zugriff: CBS beschreibt das Duo mit Marvin Harrison Jr. als eines der explosivsten jungen Receiver-Paare der Liga."
   },
   {
     "pick": 3,
@@ -24,16 +24,16 @@
     "player": "Dante Moore",
     "position": "QB",
     "college": "Oregon",
-    "reason_de": "Die QB-bedürftigen Jets greifen beim besten Deep-Ball-Werfer der Klasse zu – für einige Scouts der wahre QB1."
+    "reason_de": "Die Jets brauchen endgültig Klarheit auf der Position. Moore wäre 2026 der zweite Pick gewesen, hätte er declared, und gilt vielen Evaluatoren weiter als QB1 der Klasse."
   },
   {
     "pick": 4,
     "team": "Cleveland Browns",
     "teamAbbr": "CLE",
-    "player": "CJ Carr",
+    "player": "Julian Sayin",
     "position": "QB",
-    "college": "Notre Dame",
-    "reason_de": "Das QB-Zimmer bleibt ungeklärt – ESPN mockt Carr nach Cleveland, dessen Accuracy und Antizipation perfekt zu Stefanskis System passen."
+    "college": "Ohio State",
+    "reason_de": "Cleveland geht mit ungelöster Quarterback-Situation in die Saison und wird beim ersten verfügbaren Passer zuschlagen. Sayin bringt die Ballplatzierung mit, die dem Browns-Passspiel seit Jahren fehlt."
   },
   {
     "pick": 5,
@@ -42,160 +42,160 @@
     "player": "Cam Coleman",
     "position": "WR",
     "college": "Texas",
-    "reason_de": "PFN sieht die Raiders bei einem Receiver – Coleman bringt das vertikale Mismatch-Profil, das der Offense fehlt."
+    "reason_de": "Klint Kubiaks Offense braucht einen Außenposten mit Großraumprofil. Coleman ist mit 6'3\" der Receiver, der in der AFC West gegen physische Corner bestehen kann."
   },
   {
     "pick": 6,
-    "team": "Atlanta Falcons",
-    "teamAbbr": "ATL",
-    "player": "Jordan Seaton",
-    "position": "OT",
-    "college": "LSU",
-    "reason_de": "Blindside-Schutz für Michael Penix Jr.: Der OT1 der Klasse fällt Atlanta hier in den Schoß."
-  },
-  {
-    "pick": 7,
     "team": "Tennessee Titans",
     "teamAbbr": "TEN",
     "player": "Colin Simmons",
     "position": "EDGE",
     "college": "Texas",
-    "reason_de": "PFN mockt den SEC-Sackführer nach Tennessee – ein Elite-First-Step für einen zahnlosen Pass Rush."
+    "reason_de": "Tennessee sammelt weiter Trenchspieler, und Simmons ist der produktivste Pass-Rusher des Boards. DraftTek führt ihn als Nummer 3 der Klasse."
   },
   {
-    "pick": 8,
+    "pick": 7,
     "team": "Carolina Panthers",
     "teamAbbr": "CAR",
     "player": "Leonard Moore",
     "position": "CB",
     "college": "Notre Dame",
-    "reason_de": "PFN und ESPN sind sich einig: Carolina nimmt den CB1 mit der besten Coverage-Saison des College-Footballs."
+    "reason_de": "Die Panthers haben ihre Löcher vor allem in der Secondary und in den Trenches. Moore ist der beste Cover-Corner der Klasse und würde eine Seite dauerhaft schließen."
+  },
+  {
+    "pick": 8,
+    "team": "New Orleans Saints",
+    "teamAbbr": "NO",
+    "player": "Dylan Stewart",
+    "position": "EDGE",
+    "college": "South Carolina",
+    "reason_de": "New Orleans steckt mitten im Umbau und kann sich einen Pass-Rusher mit diesem Ceiling nicht entgehen lassen. Stewart bringt bei 6'5\" den Bend mit, den man nicht trainiert."
   },
   {
     "pick": 9,
-    "team": "New Orleans Saints",
-    "teamAbbr": "NO",
-    "player": "Julian Sayin",
-    "position": "QB",
-    "college": "Ohio State",
-    "reason_de": "Langfristig bleibt QB das große Thema in New Orleans, und der genaueste Passer der Nation ist nach seinem Sprung in die Consensus-Top-5 hier kaum noch zu ignorieren."
+    "team": "New York Giants",
+    "teamAbbr": "NYG",
+    "player": "Jordan Seaton",
+    "position": "OT",
+    "college": "LSU",
+    "reason_de": "Für die Entwicklung von Jaxson Dart ist die Protection die Priorität. Seaton ist auf mehreren Boards der klare OT1 und ein Zehn-Jahres-Baustein."
   },
   {
     "pick": 10,
-    "team": "New York Giants",
-    "teamAbbr": "NYG",
+    "team": "Washington Commanders",
+    "teamAbbr": "WAS",
     "player": "David Stone",
     "position": "DT",
     "college": "Oklahoma",
-    "reason_de": "PFN mockt den Consensus-DT1 zu den Giants, die die Interior-Line neu aufbauen müssen."
+    "reason_de": "Washington braucht interioren Druck, um die Secondary zu entlasten. Stone steht auf allen vier ausgewerteten Boards zwischen Platz 10 und 14."
   },
   {
     "pick": 11,
-    "team": "Washington Commanders",
-    "teamAbbr": "WAS",
-    "player": "KJ Bolden",
-    "position": "S",
-    "college": "Georgia",
-    "reason_de": "PFN projiziert den vielseitigen Georgia-Safety nach Washington als Herzstück der neuen Secondary."
+    "team": "Atlanta Falcons",
+    "teamAbbr": "ATL",
+    "player": "Trevor Goosby",
+    "position": "OT",
+    "college": "Texas",
+    "reason_de": "Atlanta hat die Tackle-Frage nicht dauerhaft gelöst. Goosby bringt mit 6'7\" die Länge, die es gegen die Edge-Rusher der NFC South braucht."
   },
   {
     "pick": 12,
-    "team": "Indianapolis Colts",
-    "teamAbbr": "IND",
-    "player": "Ahmad Moten Sr.",
-    "position": "DT",
-    "college": "Miami",
-    "reason_de": "Die Interior-D-Line ist Indys größte Baustelle – Moten brachte Miami mit 9 TFL bis ins Title Game."
+    "team": "Pittsburgh Steelers",
+    "teamAbbr": "PIT",
+    "player": "CJ Carr",
+    "position": "QB",
+    "college": "Notre Dame",
+    "reason_de": "Pittsburgh sucht weiter den Quarterback für das nächste Jahrzehnt. Carr ist der sauberste Pocket-Passer der zweiten QB-Welle und passt zu einem Team, das strukturiert spielen will."
   },
   {
     "pick": 13,
-    "team": "Dallas Cowboys",
-    "teamAbbr": "DAL",
-    "player": "Sammy Brown",
-    "position": "LB",
-    "college": "Clemson",
-    "reason_de": "Off-Ball-Linebacker bleibt Dallas' größtes Loch – der LB1 der Klasse mit 106 Tackles schließt es."
+    "team": "Indianapolis Colts",
+    "teamAbbr": "IND",
+    "player": "Ellis Robinson IV",
+    "position": "CB",
+    "college": "Georgia",
+    "reason_de": "Die Colts haben auf der Corner-Position weiter Bedarf. Robinson bringt das Fünf-Sterne-Profil und die Press-Fähigkeiten für einen Außenposten."
   },
   {
     "pick": 14,
-    "team": "Pittsburgh Steelers",
-    "teamAbbr": "PIT",
-    "player": "LaNorris Sellers",
-    "position": "QB",
-    "college": "South Carolina",
-    "reason_de": "Nach Jahren der Veteranen-Übergangslösungen investiert Pittsburgh in das größte physische QB-Upside des Drafts."
+    "team": "Dallas Cowboys",
+    "teamAbbr": "DAL",
+    "player": "KJ Bolden",
+    "position": "S",
+    "college": "Georgia",
+    "reason_de": "Dallas braucht einen Organisator hinten, und Bolden ist der große Aufsteiger dieses Sommers. Er lässt sich tief, im Slot und in der Box einsetzen."
   },
   {
     "pick": 15,
     "team": "Minnesota Vikings",
     "teamAbbr": "MIN",
-    "player": "Ellis Robinson IV",
-    "position": "CB",
-    "college": "Georgia",
-    "reason_de": "Die Secondary ist der Top-Need – der frühere Nr.-1-CB-Recruit ist hier purer Value."
+    "player": "Carter Smith",
+    "position": "OT",
+    "college": "Indiana",
+    "reason_de": "Minnesota investiert weiter in die Line. Smith wird von PFN als Top-12-Wert geführt und kann innen wie außen spielen."
   },
   {
     "pick": 16,
     "team": "Chicago Bears",
     "teamAbbr": "CHI",
-    "player": "Dylan Stewart",
+    "player": "Matayo Uiagalelei",
     "position": "EDGE",
-    "college": "South Carolina",
-    "reason_de": "Der Pass Rush bleibt Chicagos Langfrist-Need – fällt der Freak-Athlet wegen der Produktionsfragen, greifen die Bears sofort zu."
+    "college": "Oregon",
+    "reason_de": "Chicago braucht einen konstanten Rusher neben seinen jungen Defensivspielern. Uiagalelei kommt als Senior mit dem fertigsten Power-Rush-Profil der Klasse."
   },
   {
     "pick": 17,
     "team": "Cincinnati Bengals",
     "teamAbbr": "CIN",
-    "player": "Trevor Goosby",
-    "position": "OT",
-    "college": "Texas",
-    "reason_de": "Der 2027er-Erstrundenpick geht in die Line: Joe Burrows Schutz bekommt mit dem 6'7\"-Riesen ein neues Fundament."
+    "player": "Zabien Brown",
+    "position": "CB",
+    "college": "Alabama",
+    "reason_de": "Cincinnati muss die Secondary verjüngen. Brown ist bei DraftTek auf Platz 15 geklettert und bringt SEC-Erfahrung gegen Elite-Receiver mit."
   },
   {
     "pick": 18,
     "team": "Jacksonville Jaguars",
     "teamAbbr": "JAX",
-    "player": "Kewan Lacy",
-    "position": "RB",
-    "college": "Ole Miss",
-    "reason_de": "PFN sieht die Jaguars früh bei einem Running Back – der SEC-Touchdown-König ist der komplette Workhorse."
+    "player": "Ahmad Moten Sr.",
+    "position": "DT",
+    "college": "Miami",
+    "reason_de": "Jacksonville sucht den Anker in der Mitte. Moten setzt Guards zurück und wird von PFN in den Top 25 geführt."
   },
   {
     "pick": 19,
     "team": "Houston Texans",
     "teamAbbr": "HOU",
-    "player": "Carter Smith",
+    "player": "Cayden Green",
     "position": "OT",
-    "college": "Indiana",
-    "reason_de": "Der Schutz für C.J. Stroud ist Houstons Dauerthema – der Big Ten Lineman of the Year beendet die Debatte."
+    "college": "Missouri",
+    "reason_de": "Houston hat die O-Line als Dauerbaustelle. Green kann sofort außen starten und bei Bedarf nach innen rücken, was ihm einen hohen Floor gibt."
   },
   {
     "pick": 20,
+    "team": "Tampa Bay Buccaneers",
+    "teamAbbr": "TB",
+    "player": "Tae Johnson",
+    "position": "S",
+    "college": "Notre Dame",
+    "reason_de": "Tampa Bay setzt gern auf clevere Defensivspieler mit Kommunikationsprofil. Johnson dirigierte eine der besten Secondaries des Landes."
+  },
+  {
+    "pick": 21,
     "team": "Denver Broncos",
     "teamAbbr": "DEN",
     "player": "Jamari Johnson",
     "position": "TE",
     "college": "Oregon",
-    "reason_de": "ESPN sieht Denver auf Waffensuche für Bo Nix – der TE1 der Klasse ist die fehlende Mittelfeld-Option."
-  },
-  {
-    "pick": 21,
-    "team": "Tampa Bay Buccaneers",
-    "teamAbbr": "TB",
-    "player": "Matayo Uiagalelei",
-    "position": "EDGE",
-    "college": "Oregon",
-    "reason_de": "Pass Rush steht oben auf der Liste – der Size-Power-Edge mit Inside-Outside-Flexibilität passt in Bowles' Front."
+    "reason_de": "Denver fehlt eine echte Mittelzonen-Waffe. Johnson ist der TE1 des Boards und in allen vier ausgewerteten Rankings ein Top-20-Wert."
   },
   {
     "pick": 22,
     "team": "Detroit Lions",
     "teamAbbr": "DET",
-    "player": "Teitum Tuioti",
-    "position": "EDGE",
-    "college": "Oregon",
-    "reason_de": "Ein Edge-Partner für Aidan Hutchinson bleibt der Headline-Need – Brugler mockte Tuioti fast genau hierhin."
+    "player": "Will Echoles",
+    "position": "DT",
+    "college": "Ole Miss",
+    "reason_de": "Detroit rotiert viel in den Trenches und braucht frischen Interior-Druck. Echoles ist einer der großen Aufsteiger dieses Sommers."
   },
   {
     "pick": 23,
@@ -204,61 +204,61 @@
     "player": "Darian Mensah",
     "position": "QB",
     "college": "Miami",
-    "reason_de": "Die Post-Stafford-Nachfolge ist die prägende Rams-Story – Mensahs Pocket-Präsenz ist McVay-Material."
+    "reason_de": "Die Rams planen die Nachfolge auf der Quarterback-Position. Mensah wirft sauber auf alle drei Ebenen und passt in ein Play-Action-System."
   },
   {
     "pick": 24,
     "team": "Green Bay Packers",
     "teamAbbr": "GB",
-    "player": "Zabien Brown",
-    "position": "CB",
+    "player": "Ryan Coleman-Williams",
+    "position": "WR",
     "college": "Alabama",
-    "reason_de": "Cornerback ist das häufigste Mock-Ziel der Packers – Browns klebrige Man-Coverage füllt die Lücke."
+    "reason_de": "Green Bay sucht weiter den Alpha-Receiver. Coleman-Williams bringt nach dem Neustart mit neuem Namen und neuer Nummer das höchste Separations-Potenzial dieser Auswahl mit."
   },
   {
     "pick": 25,
     "team": "Los Angeles Chargers",
     "teamAbbr": "LAC",
-    "player": "Will Echoles",
-    "position": "DT",
-    "college": "Ole Miss",
-    "reason_de": "ESPN mockt Echoles genau hierhin – der Pressure-König unter den Interior-Linern verstärkt Harbaughs Front."
+    "player": "Ahmad Hardy",
+    "position": "RB",
+    "college": "Missouri",
+    "reason_de": "Die Chargers brauchen Explosivität im Laufspiel. Hardy ist auf drei von vier ausgewerteten Boards der RB1 der Klasse."
   },
   {
     "pick": 26,
     "team": "New England Patriots",
     "teamAbbr": "NE",
-    "player": "Nick Marsh",
+    "player": "Charlie Becker",
     "position": "WR",
     "college": "Indiana",
-    "reason_de": "ESPN projiziert Marsh zu den Patriots – ein weiterer Deep-Threat für Drake Maye."
+    "reason_de": "New England investiert weiter in Waffen für den Passangriff. PFN führt Becker sogar als Nummer 3 der gesamten Klasse."
   },
   {
     "pick": 27,
-    "team": "Philadelphia Eagles",
-    "teamAbbr": "PHI",
-    "player": "Koi Perich",
-    "position": "S",
+    "team": "San Francisco 49ers",
+    "teamAbbr": "SF",
+    "player": "A'Mauri Washington",
+    "position": "DT",
     "college": "Oregon",
-    "reason_de": "ESPN slottet den Eagles einen Safety – hier fällt ihnen sogar der S1 der Klasse zu."
+    "reason_de": "San Francisco lebt von Interior-Druck. Washington ist von Rang 42 in die erste Runde geklettert und führte die FBS mit acht abgewehrten Pässen an."
   },
   {
     "pick": 28,
-    "team": "San Francisco 49ers",
-    "teamAbbr": "SF",
-    "player": "Tae Johnson",
-    "position": "S",
-    "college": "Notre Dame",
-    "reason_de": "ESPN mockt Johnson genau hierhin – der rangige Irish-Safety verjüngt die 49ers-Secondary."
+    "team": "Philadelphia Eagles",
+    "teamAbbr": "PHI",
+    "player": "Rasheem Biles",
+    "position": "LB",
+    "college": "Texas",
+    "reason_de": "Philadelphia bewertet athletische Linebacker hoch. Biles steht bei DraftTek auf Platz 25 und kann blitzen wie in der Coverage helfen."
   },
   {
     "pick": 29,
     "team": "Kansas City Chiefs",
     "teamAbbr": "KC",
-    "player": "Quincy Rhodes Jr.",
-    "position": "EDGE",
-    "college": "Arkansas",
-    "reason_de": "ESPN sieht die Chiefs bei Rhodes – Prototyp-Länge für Spagnuolos Pass Rush."
+    "player": "Mario Craver",
+    "position": "WR",
+    "college": "Texas A&M",
+    "reason_de": "Kansas City sucht Speed, der Coverages aufreißt. Craver kommt mit 16,9 Yards pro Fang im Karriereschnitt und wird von PFF als Erstrundenkandidat gehandelt."
   },
   {
     "pick": 30,
@@ -267,24 +267,24 @@
     "player": "KJ Duff",
     "position": "WR",
     "college": "Rutgers",
-    "reason_de": "Nach Ahmad Hardys Schussverletzung fällt der RB aus dem sicheren Erstrunden-Bild; Baltimore greift stattdessen bei einem riesigen X-Target für Lamar Jackson zu, das jeden Contested Catch gewinnt."
+    "reason_de": "Baltimore mag große Außenposten mit Contested-Catch-Profil. Duff bringt bei 6'5\" genau das mit."
   },
   {
     "pick": 31,
     "team": "Seattle Seahawks",
     "teamAbbr": "SEA",
-    "player": "Yhonzae Pierre",
-    "position": "EDGE",
-    "college": "Alabama",
-    "reason_de": "ESPN mockt Pierre genau hierhin – Speed und Physis für Macdonalds Front."
+    "player": "Trey'Dez Green",
+    "position": "TE",
+    "college": "LSU",
+    "reason_de": "Seattle braucht eine Red-Zone-Waffe. Green ist mit 6'6\" ein Mismatch, den Tankathon in den Top 25 führt."
   },
   {
     "pick": 32,
     "team": "Buffalo Bills",
     "teamAbbr": "BUF",
-    "player": "Ryan Williams",
-    "position": "WR",
-    "college": "Alabama",
-    "reason_de": "ESPN sieht Super-Bowl-Favorit Buffalo bei einem Alabama-Receiver für Josh Allen – Williams' Big-Play-Profil ist der perfekte Fit."
+    "player": "Kewan Lacy",
+    "position": "RB",
+    "college": "Ole Miss",
+    "reason_de": "Buffalo kann sich am Ende von Runde eins den Luxus eines Three-Down-Backs leisten. PFN führt Lacy als Nummer 13 der Klasse."
   }
 ]

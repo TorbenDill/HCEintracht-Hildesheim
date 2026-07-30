@@ -2,7 +2,7 @@
   "draftYear": 2027,
   "siteUrl": "https://www.nfldraft-scouting.de",
   "siteName": "NFL Draft Board 2027 – Forstner Scouting",
-  "updated": "2026-07-24",
+  "updated": "2026-07-30",
   "updateCycle": "Wöchentliche Aktualisierung (donnerstags)",
   "sources": [
     {
@@ -56,6 +56,14 @@
     {
       "name": "DraftTek – 2027 Big Board",
       "url": "https://www.drafttek.com/"
+    },
+    {
+      "name": "Pro Football Network – PFN Big Board 2027",
+      "url": "https://www.profootballnetwork.com/nfl-draft-hq/pfsn-big-board?year=2027"
+    },
+    {
+      "name": "NFL Draft Countdown – 2027 Prospect Profiles",
+      "url": "https://www.draftcountdown.com/2027-nfl-draft/"
     }
   ],
   "imageSource": {
