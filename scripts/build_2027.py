@@ -406,6 +406,25 @@ def main():
         }
         for p in out
     }
+    # Entfernte Spieler tracken (fuer 410 Gone via middleware.ts): Slugs, die
+    # im vorherigen Board waren, aber jetzt fehlen, wandern in gone-players.json;
+    # kehrt ein Spieler zurueck, faellt er wieder heraus. Muss VOR dem
+    # Ueberschreiben von players-min.json den alten Stand lesen.
+    new_slugs = set(players_min.keys())
+    try:
+        with open("data/players-min.json") as f:
+            old_slugs = set(json.load(f).keys())
+    except (FileNotFoundError, ValueError):
+        old_slugs = set()
+    try:
+        with open("data/gone-players.json") as f:
+            gone = set(json.load(f))
+    except (FileNotFoundError, ValueError):
+        gone = set()
+    gone = (gone | (old_slugs - new_slugs)) - new_slugs
+    with open("data/gone-players.json", "w") as f:
+        json.dump(sorted(gone), f, ensure_ascii=False, indent=2)
+
     with open("data/players-min.json", "w") as f:
         json.dump(players_min, f, ensure_ascii=False, indent=2)
 

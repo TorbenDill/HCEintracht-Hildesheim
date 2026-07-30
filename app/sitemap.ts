@@ -35,6 +35,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: absoluteUrl("/impressum"),
+      lastModified,
+      changeFrequency: "yearly" as const,
+      priority: 0.2,
+    },
+    {
+      url: absoluteUrl("/datenschutz"),
+      lastModified,
+      changeFrequency: "yearly" as const,
+      priority: 0.2,
+    },
   ];
 
   const playerRoutes: MetadataRoute.Sitemap = getPlayers().map((p) => ({
