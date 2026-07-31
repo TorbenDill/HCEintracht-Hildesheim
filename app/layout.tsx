@@ -51,6 +51,12 @@ export const metadata: Metadata = {
   verification: {
     google: "K_0wLMD7ncSWzJ5qiqYXlRwZj8SLENF9JUnH8pxjEa0",
   },
+  // Googles aktuelle AdSense-Site-Verifizierung: rendert
+  // <meta name="google-adsense-account" content="ca-pub-...">. Ergänzt die
+  // ads.txt (public/ads.txt) als zweiten, unabhängigen Nachweis der Inhaberschaft.
+  other: {
+    "google-adsense-account": ADSENSE_CLIENT,
+  },
 };
 
 export default function RootLayout({
