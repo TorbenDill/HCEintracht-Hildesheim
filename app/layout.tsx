@@ -68,16 +68,18 @@ export default function RootLayout({
     <html lang="de" className="h-full antialiased">
       <head>
         {/*
-         * Werbeanfragen pausieren, bis eine Einwilligung vorliegt
-         * (Art. 6 Abs. 1 lit. a DSGVO). Muss synchron VOR dem Basisskript
-         * laufen – CookieConsent greift per useEffect zu spät, sobald das
-         * Skript im <head> hängt.
+         * Google Consent Mode v2. Standardmäßig sind alle Werbe- und
+         * Analyse-Signale auf "denied" – dann liefert AdSense nur
+         * nicht-personalisierte, cookielose Anzeigen (DSGVO-konform, keine
+         * Zustimmung nötig). Liegt eine gespeicherte Einwilligung vor, wird
+         * sofort auf "granted" hochgestuft. Muss synchron VOR dem Basisskript
+         * laufen.
          */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){var w=window;w.adsbygoogle=w.adsbygoogle||[];var ok=false;try{ok=localStorage.getItem(${JSON.stringify(
+            __html: `(function(){var w=window;w.dataLayer=w.dataLayer||[];function gtag(){w.dataLayer.push(arguments);}w.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{if(localStorage.getItem(${JSON.stringify(
               CONSENT_KEY
-            )})==="accepted"}catch(e){}w.adsbygoogle.pauseAdRequests=ok?0:1})();`,
+            )})==='accepted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}w.adsbygoogle=w.adsbygoogle||[];})();`,
           }}
         />
         {/*

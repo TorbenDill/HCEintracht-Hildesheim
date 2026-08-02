@@ -4,21 +4,27 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CONSENT_KEY as KEY } from "@/lib/site";
 
-type AdsQueue = unknown[] & { pauseAdRequests?: number };
+type Gtag = (...args: unknown[]) => void;
 
-function setAdRequestsPaused(paused: boolean) {
+/** Google Consent Mode v2: Werbe-/Analyse-Einwilligung setzen. */
+function updateConsent(granted: boolean) {
   if (typeof window === "undefined") return;
-  const w = window as unknown as { adsbygoogle?: AdsQueue };
-  w.adsbygoogle = w.adsbygoogle || ([] as AdsQueue);
-  // Offizielle AdSense-API: Werbeanfragen pausieren, bis Einwilligung vorliegt.
-  w.adsbygoogle.pauseAdRequests = paused ? 1 : 0;
+  const gtag = (window as unknown as { gtag?: Gtag }).gtag;
+  if (!gtag) return;
+  const state = granted ? "granted" : "denied";
+  gtag("consent", "update", {
+    ad_storage: state,
+    ad_user_data: state,
+    ad_personalization: state,
+    analytics_storage: state,
+  });
 }
 
 /**
- * Cookie-Consent-Banner. Das AdSense-Basisskript ist global eingebunden
- * (nötig für die Site-Verifizierung durch Google), aber Werbeanfragen sind
- * per pauseAdRequests blockiert, bis der Nutzer einwilligt
- * (Art. 6 Abs. 1 lit. a DSGVO).
+ * Cookie-Consent-Banner mit Google Consent Mode v2. Das AdSense-Basisskript
+ * ist global eingebunden; ohne Einwilligung werden nur nicht-personalisierte,
+ * cookielose Anzeigen ausgeliefert (Standard "denied"). Mit Einwilligung
+ * (Art. 6 Abs. 1 lit. a DSGVO) wird auf personalisierte Werbung hochgestuft.
  */
 export default function CookieConsent() {
   const [choice, setChoice] = useState<"pending" | "accepted" | "rejected" | null>(
@@ -26,18 +32,18 @@ export default function CookieConsent() {
   );
 
   useEffect(() => {
+    // Der Head-Skript-Default (denied) und die gespeicherte Einwilligung
+    // werden bereits synchron im <head> gesetzt; hier nur den Banner-Zustand.
     const stored = localStorage.getItem(KEY) as
       | "accepted"
       | "rejected"
       | null;
-    // Standard: pausiert – nur bei gespeicherter Einwilligung freigeben.
-    setAdRequestsPaused(stored !== "accepted");
     setChoice(stored);
   }, []);
 
   function decide(v: "accepted" | "rejected") {
     localStorage.setItem(KEY, v);
-    setAdRequestsPaused(v !== "accepted");
+    updateConsent(v === "accepted");
     setChoice(v);
   }
 
@@ -49,10 +55,10 @@ export default function CookieConsent() {
       <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-xs leading-relaxed text-muted">
           Wir verwenden Cookies. Notwendige Cookies sind für den Betrieb der
-          Seite erforderlich. Zusätzlich zeigen wir mit deiner Einwilligung
-          Werbung über <strong className="text-foreground">Google AdSense</strong>{" "}
-          an – ohne Einwilligung werden keine Werbeanfragen gestellt. Details in
-          der{" "}
+          Seite erforderlich. Werbung über{" "}
+          <strong className="text-foreground">Google AdSense</strong> zeigen wir
+          ohne deine Einwilligung nur nicht-personalisiert und ohne Cookies; mit
+          deiner Einwilligung auch personalisiert. Details in der{" "}
           <Link
             href="/datenschutz"
             className="text-primary underline-offset-2 hover:underline"

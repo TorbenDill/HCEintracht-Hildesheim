@@ -126,17 +126,20 @@ export default function DatenschutzPage() {
             <p>
               Diese Website nutzt Google AdSense, einen Dienst der Google
               Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
-              Das AdSense-Basisskript wird beim Seitenaufruf technisch geladen
-              (u. a. zur Verifizierung der Website); Werbeanfragen und die
-              Anzeige von Werbung erfolgen jedoch erst, nachdem Sie über unser
-              Cookie-Banner eingewilligt haben – bis dahin sind Ad-Requests
-              pausiert. Google AdSense verwendet Cookies und
-              vergleichbare Technologien, um Anzeigen auszuspielen und deren
-              Auslieferung zu messen. Dabei können Nutzungsdaten (u. a.
-              IP-Adresse, Geräte- und Browserinformationen) verarbeitet und an
-              Server von Google – auch in den USA – übertragen werden.
-              Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a
-              DSGVO). Sie können personalisierte Werbung in den{" "}
+              Das AdSense-Basisskript wird beim Seitenaufruf technisch geladen.
+              Ohne Ihre Einwilligung liefert Google AdSense ausschließlich
+              nicht-personalisierte Werbung aus, ohne hierfür Werbe-Cookies zu
+              setzen (umgesetzt über Google Consent Mode v2). Erst mit Ihrer
+              Einwilligung über unser Cookie-Banner werden zusätzlich Cookies und
+              vergleichbare Technologien für personalisierte Werbung eingesetzt.
+              Dabei können Nutzungsdaten (u. a. IP-Adresse, Geräte- und
+              Browserinformationen) verarbeitet und an Server von Google – auch
+              in den USA – übertragen werden. Rechtsgrundlage für
+              nicht-personalisierte, cookielose Werbung ist unser berechtigtes
+              Interesse an der Finanzierung des Angebots (Art. 6 Abs. 1 lit. f
+              DSGVO); für personalisierte Werbung und den Einsatz von Cookies
+              Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG).
+              Sie können personalisierte Werbung in den{" "}
               <a
                 href="https://adssettings.google.com"
                 target="_blank"
