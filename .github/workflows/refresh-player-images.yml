@@ -1,0 +1,51 @@
+name: Profilbilder aktualisieren
+
+# Ergänzt fehlende, ausschließlich FREI LIZENZIERTE Spielerfotos (Wikimedia
+# Commons / Wikipedia) und committet sie nach main. Das Skript holt nur Fotos,
+# die noch fehlen (bestehende bleiben im Cache), und ist fail-safe. So wird die
+# Foto-Abdeckung über die Zeit vollständig, ohne dass jemand eingreifen muss.
+
+on:
+  schedule:
+    # Donnerstags 11:00 UTC – ein paar Stunden nach dem wöchentlichen
+    # Board-Update, damit neu aufgenommene Spieler direkt Fotos bekommen.
+    - cron: "0 11 * * 4"
+  workflow_dispatch: {}
+
+# Nie zwei Bild-Läufe gleichzeitig.
+concurrency:
+  group: player-images
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: main auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Frei lizenzierte Profilbilder holen (nur fehlende)
+        run: node scripts/fetch-player-images.mjs
+
+      - name: Neue Fotos committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/player-images.json; then
+            git add data/player-images.json
+            git commit -m "Profilbilder: neue frei lizenzierte Fotos ergaenzt"
+            git push origin HEAD:main
+            echo "Neue Fotos gepusht."
+          else
+            echo "Keine neuen Fotos gefunden."
+          fi
