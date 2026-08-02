@@ -113,11 +113,12 @@ export default function DatenschutzPage() {
               unseres berechtigten Interesses gesetzt (Art. 6 Abs. 1 lit. f
               DSGVO, § 25 Abs. 2 TDDDG). Alle nicht notwendigen Cookies –
               insbesondere für Werbung (Google AdSense) – werden erst gesetzt,
-              nachdem Sie über unser Cookie-Banner ausdrücklich eingewilligt
+              nachdem Sie über den von Google bereitgestellten, zertifizierten
+              Einwilligungsdienst (Consent-Banner) ausdrücklich eingewilligt
               haben (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Ihre
-              Einwilligung speichern wir lokal in Ihrem Browser; Sie können sie
-              jederzeit widerrufen, indem Sie die Website-Daten in Ihrem Browser
-              löschen.
+              Einwilligung wird durch diesen Einwilligungsdienst gespeichert; Sie
+              können sie jederzeit über die Datenschutz-Optionen des Banners bzw.
+              durch Löschen der Website-Daten in Ihrem Browser widerrufen.
             </p>
           </section>
 
@@ -129,9 +130,11 @@ export default function DatenschutzPage() {
               Das AdSense-Basisskript wird beim Seitenaufruf technisch geladen.
               Ohne Ihre Einwilligung liefert Google AdSense ausschließlich
               nicht-personalisierte Werbung aus, ohne hierfür Werbe-Cookies zu
-              setzen (umgesetzt über Google Consent Mode v2). Erst mit Ihrer
-              Einwilligung über unser Cookie-Banner werden zusätzlich Cookies und
-              vergleichbare Technologien für personalisierte Werbung eingesetzt.
+              setzen (umgesetzt über Google Consent Mode v2). Die Einwilligung
+              wird über den von Google bereitgestellten, zertifizierten
+              Einwilligungsdienst (CMP) eingeholt und verwaltet. Erst mit Ihrer
+              Einwilligung werden zusätzlich Cookies und vergleichbare
+              Technologien für personalisierte Werbung eingesetzt.
               Dabei können Nutzungsdaten (u. a. IP-Adresse, Geräte- und
               Browserinformationen) verarbeitet und an Server von Google – auch
               in den USA – übertragen werden. Rechtsgrundlage für

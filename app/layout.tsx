@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME, CONSENT_KEY, ADSENSE_CLIENT } from "@/lib/site";
-import CookieConsent from "@/components/CookieConsent";
+import { SITE_URL, SITE_NAME, ADSENSE_CLIENT } from "@/lib/site";
 import "@fontsource-variable/archivo";
 import "@fontsource-variable/oswald";
 import "@fontsource-variable/jetbrains-mono";
@@ -68,25 +67,13 @@ export default function RootLayout({
     <html lang="de" className="h-full antialiased">
       <head>
         {/*
-         * Google Consent Mode v2. Standardmäßig sind alle Werbe- und
-         * Analyse-Signale auf "denied" – dann liefert AdSense nur
-         * nicht-personalisierte, cookielose Anzeigen (DSGVO-konform, keine
-         * Zustimmung nötig). Liegt eine gespeicherte Einwilligung vor, wird
-         * sofort auf "granted" hochgestuft. Muss synchron VOR dem Basisskript
-         * laufen.
-         */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var w=window;w.dataLayer=w.dataLayer||[];function gtag(){w.dataLayer.push(arguments);}w.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{if(localStorage.getItem(${JSON.stringify(
-              CONSENT_KEY
-            )})==='accepted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}w.adsbygoogle=w.adsbygoogle||[];})();`,
-          }}
-        />
-        {/*
          * AdSense-Basisskript bewusst als rohes <script> im <head>:
          * next/script hängt es mit data-nscript in den <body>, was Google
          * bei der Site-Verifizierung ablehnt ("AdSense head tag doesn't
-         * support data-nscript attribute").
+         * support data-nscript attribute"). Einwilligung + Consent Mode
+         * übernimmt der von Google bereitgestellte, zertifizierte
+         * Einwilligungsdienst (CMP, in AdSense unter „Datenschutz & Mitteilungen"
+         * aktiviert) – er wird automatisch über dieses Skript ausgeliefert.
          */}
         <script
           async
@@ -136,7 +123,6 @@ export default function RootLayout({
             </nav>
           </div>
         </footer>
-        <CookieConsent />
       </body>
     </html>
   );
