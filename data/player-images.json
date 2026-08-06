@@ -106,5 +106,35 @@
     "license": "CC BY-SA 4.0",
     "artist": "Hameltion",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:UNC_vs_Clemson_2025_-_64_(cropped).jpg"
+  },
+  "iapani-laloulu": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Iapani_Laloulu.jpg/960px-Iapani_Laloulu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "John Hughel",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iapani_Laloulu.jpg"
+  },
+  "yhonzae-pierre": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Yhonzae_Pierre.jpg/960px-Yhonzae_Pierre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "Senior Airman Aidan Thompson",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yhonzae_Pierre.jpg"
+  },
+  "nate-frazier": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Nate_Frazier_%28front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC0",
+    "artist": "TarheelBornBred",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nate_Frazier_(front).jpg"
+  },
+  "dj-lagway": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/2024-1220_Gasparilla_Bowl_DJ_Lagway.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-1220_Gasparilla_Bowl_DJ_Lagway.jpg"
+  },
+  "dylan-raiola": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2025-0722_Dylan_Raiola.jpg/960px-2025-0722_Dylan_Raiola.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-0722_Dylan_Raiola.jpg"
   }
 }
