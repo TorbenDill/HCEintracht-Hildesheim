@@ -55,6 +55,7 @@ jobs:
           # Build- und Recherche-Tools freigeben, damit der Lauf die Aufgabe
           # vollständig erledigt (recherchieren, bauen, verifizieren, pushen).
           claude_args: >-
+            --model claude-sonnet-5
             --allowedTools
             "Bash(python3:*),Bash(python:*),Bash(npm:*),Bash(npx:*),Bash(node:*),Bash(git:*),Edit,MultiEdit,Write,Read,Glob,Grep,WebSearch,WebFetch"
           prompt: ${{ github.event_name == 'workflow_dispatch' && 'Öffne das neueste offene Issue mit dem Label draft-update in diesem Repository und setze die dort beschriebene Aufgabe vollständig um (Recherche, data/research2027.json aktualisieren, scripts/build_2027.py ausführen, npm install && npx next build verifizieren, committen und auf main pushen).' || '' }}
