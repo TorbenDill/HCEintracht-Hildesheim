@@ -1,5 +1,12 @@
 name: Draft Board Wochen-Update
 
+# Läuft VOLLAUTOMATISCH: Der geplante Lauf startet die Claude-Action direkt
+# (kein Issue, kein manueller @claude-Anstoß nötig). Wichtig: Ein per
+# GITHUB_TOKEN erstelltes Issue würde den Responder-Workflow NICHT auslösen
+# (GitHub-Rekursionsschutz) – deshalb wird die Action hier direkt ausgeführt.
+# Die Änderungen landen auf einem Arbeitsbranch; der Auto-Merge-Workflow bringt
+# sie nach bestandenem Build nach `main` (Vercel deployt von dort).
+
 on:
   schedule:
     # Jeden Donnerstag um 08:47 UTC (~10:47 MESZ)
@@ -7,45 +14,54 @@ on:
   workflow_dispatch: {}
 
 permissions:
+  contents: write
+  pull-requests: write
   issues: write
+  id-token: write
+  actions: read
 
 jobs:
-  create-update-issue:
+  weekly-update:
     runs-on: ubuntu-latest
     steps:
-      - name: Update-Issue erstellen
-        uses: actions/github-script@v7
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          script: |
-            const today = new Date().toISOString().slice(0, 10);
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Draft Board Update ${today} – NFL Draft 2027`,
-              labels: ["draft-update"],
-              body: [
-                "@claude Bitte führe das wöchentliche Update des NFL-Draft-2027-Boards durch (Donnerstags-Update):",
-                "",
-                "## Qualitätsstufe (verbindlich – gilt für JEDE Aufnahme und Änderung)",
-                "- **Nur mit Quellen einfügen:** Kein Spieler und keine geänderte Angabe (Schule, Rank, Projektion) kommt ins Board ohne **mindestens 2 unabhängige, seriöse Quellen** im Feld `sources`. Der Build (`scripts/build_2027.py`) hat ein Quellen-Gate und wirft jeden Eintrag mit weniger als 2 Quellen automatisch raus – unbelegte Einträge sind also verlorene Arbeit.",
-                "- **Eligibility zwingend prüfen:** Vor JEDER Aufnahme gegen die **NFL-Draft-2026-Ergebnisse** und den aktuellen College-Roster gegenchecken. Wer 2026 gedraftet wurde, in der NFL ist oder für 2026 keine College-Eligibility mehr hat, ist NICHT aufnehmbar und – falls bereits im Board – zu entfernen. Quelle angeben (z. B. NFL.com Draft-Tracker, Schul-Roster 2026).",
-                "- **Schule/Team verifizieren:** Transfer-Portal-Wechsel beachten – die `school` muss das Team der **Saison 2026** sein, per aktueller Roster-/Transfer-Quelle belegt. Abhängige Reporttexte (z. B. genannter Quarterback eines Receivers) mitziehen.",
-                "- **Qualitätsstufe im Datensatz:** Der Build vergibt pro Spieler automatisch `qualitaet` (`geprueft` = 3+ Quellen, `belegt` = 2 Quellen). Ziel ist `geprueft`; strebe für neue Profile 3+ Quellen an.",
-                "",
-                "1. **Recherche** über möglichst viele seriöse Quellen (viele blocken direkte Fetches – dann Web-Suche über deren Inhalte nutzen):",
-                "   - nflmockdraftdatabase.com (Consensus Big Board 2027), tankathon.com, ESPN, The Athletic, walterfootball.com, prodraftscouting.com, nfldraftbuzz.com",
-                "   - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027, drafttek.com",
-                "2. **`data/research2027.json` aktualisieren**: Ranks/Projektionen verschieben, Riser/Faller einarbeiten, Spieler entfernen, die nicht mehr draft-eligible sind (bereits gedraftet/NFL). Mock-Draft (32 Picks) an aktuelle Draft-Order-Projektionen und Team-Needs anpassen.",
-                "3. **Board wachsen lassen**: In JEDER Woche 3–5 NEUE Spielerprofile ergänzen (weiter in die Tiefe der Positionsrankings, Day-2/Day-3-Prospects, Sleeper). Für jeden neuen Spieler alle Felder ausfüllen – individuelles `report_de` (5–8 Sätze, natürlich, nicht generisch), individuelles `forstner`-Zitat (variabler Tonfall) sowie vielseitige, spielerspezifische `best_case`/`worst_case`-NFL-Vergleiche (Vergleichsnamen NICHT wiederholen). Ziel: über die Saison auf 150+ Profile wachsen.",
-                "4. **Kategorie 'Deutsche Prospects' mitwachsen lassen** (Seite `/deutsche-prospects`): Suche belegbare deutsche Spieler (in Deutschland geboren/aufgewachsen), die 2026 auf einem NCAA-Division-1-Roster stehen und für den Draft 2027 berechtigt sind. Gute Quellen: footballschland.de, afvd.de, die Uni-Roster (z. B. wsucougars.com, broncosports.com), 247sports, on3, ESPN, draftscout.com.",
-                "   - **Datenmodell:** In `data/research2027.json` mit `\"deutsch\": true` und `\"herkunft\"` (Stadt/Region, wenn belegbar zusätzlich der deutsche Football-Verein, z. B. 'Berlin (Berlin Rebels)') anlegen. Deutsche Prospects bekommen einen `overall_rank` am **Ende des Boards** (fortlaufend hinter dem letzten Consensus-Rang) – sie laufen als eigener Tier im Board mit UND erscheinen auf `/deutsche-prospects`. Bestehende deutsche Ränke NICHT entfernen. Alle übrigen Felder wie bei normalen Profilen.",
-                "   - **QUALITÄT VOR MENGE (verbindlich):** Lieber 0–2 VOLLSTÄNDIGE Profile pro Woche als fünf halbfertige. Ein deutscher Prospect wird NUR aufgenommen, wenn ALLE diese Felder belegt sind: name, position, school (Saison 2026), class_year, height, weight, herkunft, projection, individuelles `report_de` (5–8 Sätze), `report_core_de`, `forstner`, `best_case`, `worst_case` und `sources` (>=2 unabhängig). Fehlt etwas Belegbares (z. B. Größe/Gewicht), NICHT raten und NICHT aufnehmen, bis es belegt ist.",
-                "   - **Eligibility & Genauigkeit** wie oben: bereits 2026 gedraftete oder aus dem College abgewanderte deutsche Spieler NICHT aufnehmen (und falls im Board, entfernen). Transfers auf die 2026-Schule prüfen.",
-                "5. **Lexikon erweitern**: In `data/lexikon.json` 1–2 neue Draft-/Scouting-Begriffe ergänzen (gleiche Struktur: slug, term, category, kurz, text mit 3 ausführlichen deutschen Absätzen, keine Gedankenstriche). Keine bestehenden Begriffe duplizieren.",
-                "6. **`updated`-Datum** in `data/board-meta.json` auf heute setzen.",
-                "7. **Neu bauen**: `python3 scripts/build_2027.py` (erzeugt `data/data.json` + `data/mockdraft.json`), dann `npm install && npx next build` zur Verifikation.",
-                "8. **Deploy**: Änderungen committen und auf `main` pushen (Vercel deployt automatisch).",
-                "",
-                "Ziel: Das Board verschiebt sich sichtbar mit der Nachrichtenlage (Leistungen, Verletzungen, Transfers, Declares) UND wächst mit jeder Woche – neue Profile, neue Lexikon-Begriffe, aktualisierte Rankings und die mitwachsende Kategorie der deutschen Prospects (Qualität vor Menge)."
-              ].join("\n")
-            });
+          fetch-depth: 1
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Wochen-Update durch Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: >-
+            --allowedTools
+            "Bash(python3:*),Bash(python:*),Bash(npm:*),Bash(npx:*),Bash(node:*),Bash(git:*),Edit,MultiEdit,Write,Read,Glob,Grep,WebSearch,WebFetch"
+          prompt: |
+            Führe das wöchentliche Update des NFL-Draft-2027-Boards durch (Donnerstags-Update).
+
+            ## Qualitätsstufe (verbindlich – gilt für JEDE Aufnahme und Änderung)
+            - **Nur mit Quellen einfügen:** Kein Spieler und keine geänderte Angabe (Schule, Rank, Projektion) kommt ins Board ohne **mindestens 2 unabhängige, seriöse Quellen** im Feld `sources`. Der Build (`scripts/build_2027.py`) hat ein Quellen-Gate und wirft jeden Eintrag mit weniger als 2 Quellen automatisch raus – unbelegte Einträge sind also verlorene Arbeit.
+            - **Eligibility zwingend prüfen:** Vor JEDER Aufnahme gegen die **NFL-Draft-2026-Ergebnisse** und den aktuellen College-Roster gegenchecken. Wer 2026 gedraftet wurde, in der NFL ist oder für 2026 keine College-Eligibility mehr hat (auch: Highschool-Jahrgang 2025 → erst 2028 berechtigt), ist NICHT aufnehmbar und – falls bereits im Board – zu entfernen. Quelle angeben (z. B. NFL.com Draft-Tracker, Schul-Roster 2026).
+            - **Schule/Team verifizieren:** Transfer-Portal-Wechsel beachten – die `school` muss das Team der **Saison 2026** sein, per aktueller Roster-/Transfer-Quelle belegt. Abhängige Reporttexte (z. B. genannter Quarterback eines Receivers) mitziehen.
+            - **Qualitätsstufe im Datensatz:** Der Build vergibt pro Spieler automatisch `qualitaet` (`geprueft` = 3+ Quellen, `belegt` = 2 Quellen). Ziel ist `geprueft`; strebe für neue Profile 3+ Quellen an.
+
+            1. **Recherche** über möglichst viele seriöse Quellen (viele blocken direkte Fetches – dann Web-Suche über deren Inhalte nutzen):
+               - nflmockdraftdatabase.com (Consensus Big Board 2027), tankathon.com, ESPN, The Athletic, walterfootball.com, prodraftscouting.com, nfldraftbuzz.com
+               - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027, drafttek.com
+            2. **`data/research2027.json` aktualisieren**: Ranks/Projektionen verschieben, Riser/Faller einarbeiten, Spieler entfernen, die nicht mehr draft-eligible sind (bereits gedraftet/NFL). Mock-Draft (32 Picks) an aktuelle Draft-Order-Projektionen und Team-Needs anpassen.
+            3. **Board wachsen lassen**: In JEDER Woche 3–5 NEUE Spielerprofile ergänzen (weiter in die Tiefe der Positionsrankings, Day-2/Day-3-Prospects, Sleeper). Für jeden neuen Spieler alle Felder ausfüllen – individuelles `report_de` (5–8 Sätze, natürlich, nicht generisch), individuelles `forstner`-Zitat (variabler Tonfall) sowie vielseitige, spielerspezifische `best_case`/`worst_case`-NFL-Vergleiche (Vergleichsnamen NICHT wiederholen). Ziel: über die Saison auf 150+ Profile wachsen.
+            4. **Kategorie 'Deutsche Prospects' mitwachsen lassen** (Seite `/deutsche-prospects`): Suche belegbare deutsche Spieler (in Deutschland geboren/aufgewachsen), die 2026 auf einem NCAA-Division-1-Roster stehen und für den Draft 2027 berechtigt sind. Gute Quellen: footballschland.de, afvd.de, die Uni-Roster (z. B. wsucougars.com, broncosports.com), 247sports, on3, ESPN, draftscout.com.
+               - **Datenmodell:** In `data/research2027.json` mit `"deutsch": true` und `"herkunft"` (Stadt/Region, wenn belegbar zusätzlich der deutsche Football-Verein, z. B. 'Berlin (Berlin Rebels)') anlegen. Deutsche Prospects bekommen einen `overall_rank` am **Ende des Boards** (fortlaufend hinter dem letzten Consensus-Rang) – sie laufen als eigener Tier im Board mit UND erscheinen auf `/deutsche-prospects`. Bestehende deutsche Ränke NICHT entfernen. Alle übrigen Felder wie bei normalen Profilen.
+               - **QUALITÄT VOR MENGE (verbindlich):** Lieber 0–2 VOLLSTÄNDIGE Profile pro Woche als fünf halbfertige. Ein deutscher Prospect wird NUR aufgenommen, wenn ALLE diese Felder belegt sind: name, position, school (Saison 2026), class_year, height, weight, herkunft, projection, individuelles `report_de` (5–8 Sätze), `report_core_de`, `forstner`, `best_case`, `worst_case` und `sources` (>=2 unabhängig). Fehlt etwas Belegbares (z. B. Größe/Gewicht), NICHT raten und NICHT aufnehmen, bis es belegt ist.
+               - **Eligibility & Genauigkeit** wie oben: bereits 2026 gedraftete oder aus dem College abgewanderte deutsche Spieler NICHT aufnehmen (und falls im Board, entfernen). Transfers auf die 2026-Schule prüfen.
+            5. **Lexikon erweitern**: In `data/lexikon.json` 1–2 neue Draft-/Scouting-Begriffe ergänzen (gleiche Struktur: slug, term, category, kurz, text mit 3 ausführlichen deutschen Absätzen, keine Gedankenstriche). Keine bestehenden Begriffe duplizieren.
+            6. **`updated`-Datum** in `data/board-meta.json` auf heute setzen.
+            7. **Verifizieren**: `python3 scripts/build_2027.py` (erzeugt `data/data.json` + `data/mockdraft.json`), dann `npm install && npx next build`. Der Build muss grün sein.
+            8. **Abschluss**: Committe deine Änderungen und pushe sie auf deinen Arbeitsbranch. Pushe NICHT direkt auf `main` – der Auto-Merge-Workflow baut den Stand erneut und bringt ihn nach bestandenem Build automatisch nach `main` (Vercel deployt von dort).
+
+            Ziel: Das Board verschiebt sich sichtbar mit der Nachrichtenlage (Leistungen, Verletzungen, Transfers, Declares) UND wächst mit jeder Woche – neue Profile, neue Lexikon-Begriffe, aktualisierte Rankings und die mitwachsende Kategorie der deutschen Prospects (Qualität vor Menge).

@@ -8,7 +8,9 @@ name: Auto-Merge Wochen-Update
 on:
   push:
     branches:
-      - "claude/issue-**"
+      # Alle Arbeitsbranches der Claude-Action (Issue-Responder UND der
+      # geplante Wochen-Lauf) – Namensschema variiert, daher breit gefasst.
+      - "claude/**"
 
 # Nie zwei Auto-Merges gleichzeitig auf main.
 concurrency:
@@ -20,6 +22,8 @@ permissions:
 
 jobs:
   build-and-merge:
+    # Den alten, divergierten Setup-Branch NICHT automatisch mergen.
+    if: github.ref != 'refs/heads/claude/setup-nextjs-project-GKPY7'
     runs-on: ubuntu-latest
     steps:
       - name: main auschecken
