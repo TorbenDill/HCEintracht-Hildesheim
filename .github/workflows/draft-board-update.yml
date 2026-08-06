@@ -38,9 +38,6 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          # TEMPORÄR zur Fehlerdiagnose (Modellwechsel schlug sofort mit
-          # is_error, 0 Kosten, 1 Turn fehl) - danach wieder entfernen.
-          show_full_output: true
           claude_args: >-
             --model claude-sonnet-5
             --allowedTools
