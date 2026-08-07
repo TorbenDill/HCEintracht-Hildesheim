@@ -194,7 +194,9 @@
       "on3.com",
       "footballscout365.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47403146/star-edge-dylan-stewart-returning-south-carolina-26"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -225,7 +227,9 @@
       "tankathon.com",
       "247sports.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47581504/former-auburn-receiver-cam-coleman-commits-texas"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -256,7 +260,9 @@
       "pff.com",
       "tankathon.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47710110/ot-jordan-seaton-commits-lsu-leaving-colorado-sources-say"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -287,7 +293,9 @@
       "nfldraftbuzz.com",
       "sports.yahoo.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/ohio-state-football-qb-julian-221300827.html"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -318,7 +326,9 @@
       "pff.com",
       "footballscout365.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/teams/oklahoma-sooners/news/david-stone-re-signs-for-2026-ou-hoping-to-add-defensive-tackle-in-transfer-portal/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -348,7 +358,9 @@
       "pff.com",
       "sports.yahoo.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/2027-summer-scouting-trevor-goosby-135524810.html"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -378,7 +390,9 @@
       "espn.com",
       "sportsgrid.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5079698/ellis-robinson-iv"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -408,7 +422,9 @@
       "espn.com",
       "allaccessfootball.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5079334/kj-bolden"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -438,7 +454,9 @@
       "on3.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5218506/tae-johnson"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -468,7 +486,9 @@
       "nytimes.com/athletic",
       "lastwordonsports.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/07/10/carter-smith-2027-nfl-draft-early-scouting-report/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -498,7 +518,9 @@
       "nytimes.com/athletic",
       "sports.yahoo.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5079369/cj-carr"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -528,7 +550,9 @@
       "espn.com",
       "nfldraftbuzz.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4922988/jamari-johnson"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -559,7 +583,9 @@
       "footballscout365.com",
       "fantasylife.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/college/missouri-tigers/news/missouri-ahmad-hardy-returns-to-columbia-after-shooting-begins-rehab-for-2026-season/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -590,7 +616,9 @@
       "espn.com",
       "profootballnetwork.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5146735/charlie-becker"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -620,7 +648,9 @@
       "nfltraderumors.co",
       "bleacherreport.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "bleacherreport.com": "https://bleacherreport.com/articles/25455263-darian-mensah-reveals-how-carson-beck-cam-ward-affected-his-decision-transfer-miami"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -651,7 +681,9 @@
       "footballscout365.com",
       "fantasylife.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "profootballnetwork.com": "https://www.profootballnetwork.com/hot-lists-way-too-early-2027-nfl-draft-rb-rankings/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -680,7 +712,9 @@
       "on3.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/rivals/zabien-brown-147175/"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -712,7 +746,9 @@
       "sports.yahoo.com",
       "profootballnetwork.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "draftcountdown.com": "https://www.draftcountdown.com/2027-nfl-draft/prospect-profile/cayden-green-ot-missouri-2027-nfl-draft-prospect-profile-scouting-report/"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -741,7 +777,10 @@
       "pff.com",
       "steelersdepot.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "pff.com": "https://www.pff.com/ncaa/players/amauri-washington/176603",
+      "steelersdepot.com": "https://steelersdepot.com/2026/07/paglia-preseason-2027-nfl-draft-top-10-idl-rankings/"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -771,7 +810,9 @@
       "espn.com",
       "yardbarker.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/college/lsu-tigers/news/treydez-green-agrees-new-deal-at-lsu-set-return-tigers-in-2026/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -801,7 +842,9 @@
       "si.com",
       "profootballnetwork.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "si.com": "https://www.si.com/college/oregon/football/matayo-uiagalelei-childhood-dream-oregon-ducks-dan-lanning-sacks-defensive-lineman-nfl-draft-big-ten-playoff"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -830,7 +873,9 @@
       "cbssports.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5218633/ryan-wingo"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -862,7 +907,9 @@
       "drafttek.com",
       "tankathon.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5141711/ryan-coleman-williams"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -891,7 +938,9 @@
       "pff.com",
       "steelersdepot.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "steelersdepot.com": "https://steelersdepot.com/2026/07/paglia-preseason-2027-nfl-draft-top-10-idl-rankings/"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -920,7 +969,9 @@
       "on3.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4922981/rasheem-biles"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -949,7 +1000,9 @@
       "on3.com",
       "sports.yahoo.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/teams/mississippi-state-bulldogs/news/kelley-jones-return-mississippi-state-football-2026/"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -981,7 +1034,9 @@
       "sports.yahoo.com",
       "draftcountdown.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/mario-craver-inks-historic-deal-213159520.html"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1011,7 +1066,9 @@
       "steelersdepot.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47533299/miami-confident-dt-ahmad-moten-sr-play-cfp-semifinal"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1042,7 +1099,9 @@
       "prodraftscouting.com",
       "bleacherreport.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "walterfootball.com": "https://walterfootball.com/scoutingreports2026lsellers.php"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1072,7 +1131,9 @@
       "cbssports.com",
       "on3.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47492465/qb-drew-mestemaker-join-oklahoma-state-coach-eric-morris"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1101,7 +1162,9 @@
       "profootballnetwork.com",
       "footballscout365.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "profootballnetwork.com": "https://www.profootballnetwork.com/cfb/damon-wilson-snubs-georgia-scheme-miami-transfer-april-2026/"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1131,7 +1194,9 @@
       "247sports.com",
       "yardbarker.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "247sports.com": "https://247sports.com/college/indiana/article/nick-marsh-indiana-transfer-portal-wr-270016703/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1160,7 +1225,9 @@
       "pff.com",
       "steelersdepot.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "pff.com": "https://www.pff.com/news/draft-early-2027-interior-defensive-line-rankings"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1190,7 +1257,9 @@
       "footballscout365.com",
       "fantasylife.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "footballscout365.com": "https://www.footballscout365.com/post/2027-nfl-draft-rb-rankings-top-running-backs-entering-summer-scouting"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1221,7 +1290,9 @@
       "sports.yahoo.com",
       "allaccessfootball.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5079342/sammy-brown"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1250,7 +1321,9 @@
       "walterfootball.com",
       "nfldraftbuzz.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "nfldraftbuzz.com": "https://www.nfldraftbuzz.com/Player/Quincy-RhodesJr-DL-Arkansas"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1282,7 +1355,9 @@
       "sports.yahoo.com",
       "en.wikipedia.org"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/2027-summer-scouting-austin-siereveld-211330024.html"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1314,7 +1389,9 @@
       "sports.yahoo.com",
       "draftcountdown.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "cbssports.com": "https://www.cbssports.com/college-football/players/29142537/brice-pollock/"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1344,7 +1421,9 @@
       "espn.com",
       "allaccessfootball.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47594926/minnesota-transfer-safety-koi-perich-commits-oregon-ducks-football"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1373,7 +1452,9 @@
       "on3.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5127738/ashton-hampton"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1403,7 +1484,9 @@
       "sports.yahoo.com",
       "atozsports.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/kyngstonn-viliamu-asa-2027-nfl-171442659.html"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1435,7 +1518,9 @@
       "draftcountdown.com",
       "sports.yahoo.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "profootballnetwork.com": "https://www.profootballnetwork.com/cfb/pfsn-midseason-all-acc-football-team/"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1465,7 +1550,9 @@
       "cbssports.com",
       "scoutinggrade.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5084771/kj-duff"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1494,7 +1581,9 @@
       "espn.com",
       "essentiallysports.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4870845/iapani-laloulu"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1523,7 +1612,9 @@
       "walterfootball.com",
       "profootballnetwork.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "profootballnetwork.com": "https://www.profootballnetwork.com/top-10-2027-nfl-draft-edge-rankings/"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1554,7 +1645,9 @@
       "lastwordonsports.com",
       "si.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47586441/oregon-washington-uiagalelei-tuioti-returning-ducks"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1584,7 +1677,9 @@
       "sportsgamingrosters.com",
       "sports.yahoo.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/brandon-baker-move-aimed-help-220816573.html"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1614,7 +1709,9 @@
       "tankathon.com",
       "nfldraftbuzz.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/bio/_/id/4870745/nyck-harbor"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1644,7 +1741,9 @@
       "on3.com",
       "profootballnetwork.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/college/nebraska-cornhuskers/news/missouri-transfer-de-williams-nwaneri-commits-to-nebraska/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1673,7 +1772,9 @@
       "on3.com",
       "espn.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4833626/ben-roberts"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1703,7 +1804,9 @@
       "espn.com",
       "on3.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/college/baylor-bears/news/florida-transfer-qb-dj-lagway-has-committed-to-baylor-out-of-the-ncaa-transfer-portal/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1733,7 +1836,9 @@
       "espn.com",
       "on3.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/college/oregon-ducks/news/alabama-transfer-db-peyton-woodyard-commits-to-oregon/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1765,7 +1870,9 @@
       "saturdaydownsouth.com",
       "247sports.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "247sports.com": "https://247sports.com/college/georgia/article/georgia-running-back-nate-frazier-returning-for-2026-season-270628685/"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1794,7 +1901,9 @@
       "nfltraderumors.co",
       "bleacherreport.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "bleacherreport.com": "https://bleacherreport.com/articles/25443836-naming-likely-starting-qbs-top-25-cfb-teams-2026-season"
+    },
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1825,7 +1934,9 @@
       "on3.com",
       "tankathon.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "on3.com": "https://www.on3.com/news/dylan-raiola-on-transferring-from-nebraska-to-oregon-theres-not-cornfields-here/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1856,7 +1967,9 @@
       "247sports.com",
       "en.wikipedia.org"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "tigernet.com": "https://www.tigernet.com/clemson-football/news/clemson-offensive-star-bryant-wesco-jr.-to-return-for-2026-season-47947"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1887,7 +2000,9 @@
       "si.com",
       "kxan.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "texaslonghorns.com": "https://texaslonghorns.com/sports/football/roster/hero-kanu/17032"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1918,7 +2033,9 @@
       "on3.com",
       "uconnhuskies.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "nusports.com": "https://nusports.com/sports/football/roster/alex-honig/13285"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1948,7 +2065,9 @@
       "247sports.com",
       "idahonews.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "broncosports.com": "https://broncosports.com/sports/football/roster/max-stege/14258"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1978,7 +2097,9 @@
       "247sports.com",
       "spandau-bulldogs.de"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "wsucougars.com": "https://wsucougars.com/sports/football/roster/season/2026/player/linus-zunk"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -2008,7 +2129,9 @@
       "on3.com",
       "sportsillustrated.de"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "247sports.com": "https://247sports.com/college/south-carolina/article/okoronkwo-set-to-up-his-game-in-2026-283234220/"
+    },
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -2040,7 +2163,9 @@
       "on3.com",
       "cfbstats.com"
     ],
-    "source_urls": {},
+    "source_urls": {
+      "ohiobobcats.com": "https://ohiobobcats.com/sports/football/roster/duncan-brune/6525"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": true,

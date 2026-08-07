@@ -51,7 +51,10 @@ export type MockPick = {
   reason_de: string;
 };
 
-const players: Player[] = data as Player[];
+// unknown-Zwischenschritt: data.json enthaelt je Spieler unterschiedlich
+// geformte source_urls-Objekte, wodurch TS aus dem JSON eine zu spezifische
+// Literal-Union ableitet, die nicht mehr direkt zu Player[] passt.
+const players: Player[] = data as unknown as Player[];
 
 /** Sortier-Comparator: nach Overall-Rank aufsteigend, ungerankt ans Ende. */
 export function byOverallRank(a: Player, b: Player): number {
