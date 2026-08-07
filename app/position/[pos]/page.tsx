@@ -109,7 +109,7 @@ export default async function PositionPage({
             Die besten {info.label} <br className="hidden sm:block" />
             <span className="text-primary">NFL Draft {meta.draftYear}</span>
           </h1>
-          <p className="max-w-2xl text-sm leading-relaxed text-foreground/85">
+          <p className="max-w-2xl whitespace-pre-line text-sm leading-relaxed text-foreground/85">
             {info.longtext}
           </p>
         </div>
