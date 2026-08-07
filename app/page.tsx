@@ -143,11 +143,17 @@ export default function Home() {
             <input
               type="text"
               placeholder="Spieler suchen..."
+              aria-label="Spieler, Position oder College suchen"
+              role="combobox"
+              aria-expanded={results.length > 0}
+              aria-controls="search-results-list"
+              aria-autocomplete="list"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              className="w-full rounded-full border border-border bg-background px-4 py-2 pl-9 text-sm text-foreground placeholder-muted/50 outline-none transition-colors focus:border-primary"
+              className="w-full rounded-full border border-border bg-background px-4 py-2 pl-9 text-sm text-foreground placeholder-muted/50 transition-colors focus:border-primary"
             />
             <svg
+              aria-hidden="true"
               className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
               fill="none"
               viewBox="0 0 24 24"
@@ -157,10 +163,18 @@ export default function Home() {
               <circle cx="11" cy="11" r="8" />
               <path d="m21 21-4.35-4.35" />
             </svg>
+            <span className="sr-only" role="status" aria-live="polite">
+              {query.length >= 2
+                ? `${results.length} Ergebnis${results.length === 1 ? "" : "se"} gefunden`
+                : ""}
+            </span>
 
             {/* Search Results Dropdown */}
             {results.length > 0 && (
-              <div className="absolute left-0 right-0 top-full z-50 mt-1 max-h-80 overflow-y-auto rounded border border-border bg-surface shadow-2xl">
+              <div
+                id="search-results-list"
+                className="absolute left-0 right-0 top-full z-50 mt-1 max-h-80 overflow-y-auto rounded border border-border bg-surface shadow-2xl"
+              >
                 {results.slice(0, 10).map((p) => (
                   <Link
                     key={`${p.name}-${p.position}`}
@@ -248,7 +262,7 @@ export default function Home() {
             </Link>
           </motion.div>
           {heroVisual && (
-            <p className="absolute bottom-3 right-4 text-[10px] text-muted/60">
+            <p className="absolute bottom-3 right-4 text-[10px] text-muted">
               Foto:{" "}
               <a
                 href={heroVisual.photographerUrl}
@@ -343,6 +357,7 @@ export default function Home() {
         <section className="mb-8 flex flex-wrap items-center gap-2 sm:gap-4">
           <button
             onClick={() => setBoard("vertical")}
+            aria-pressed={board === "vertical"}
             className={cn(
               "flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
               board === "vertical"
@@ -350,13 +365,14 @@ export default function Home() {
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
             )}
           >
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <svg aria-hidden="true" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path d="M4 6h16M4 12h16M4 18h16" />
             </svg>
             Vertical Board
           </button>
           <button
             onClick={() => setBoard("horizontal")}
+            aria-pressed={board === "horizontal"}
             className={cn(
               "flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
               board === "horizontal"
@@ -364,7 +380,7 @@ export default function Home() {
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
             )}
           >
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <svg aria-hidden="true" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path d="M9 4v16M15 4v16M4 9h16M4 15h16" />
             </svg>
             Horizontal Board
@@ -473,7 +489,7 @@ export default function Home() {
               </li>
             ))}
           </ul>
-          <p className="text-[10px] text-muted/60">
+          <p className="text-[10px] text-muted">
             Spielerdarstellung: {meta.imageSource.name} · Stand: {meta.updated}{" "}
             · {meta.updateCycle}
           </p>

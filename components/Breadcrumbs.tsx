@@ -55,7 +55,11 @@ export default function Breadcrumbs({
                   {it.name}
                 </span>
               )}
-              {!last && <span className="text-muted/40">/</span>}
+              {!last && (
+                <span className="text-muted/40" aria-hidden="true">
+                  /
+                </span>
+              )}
             </li>
           );
         })}

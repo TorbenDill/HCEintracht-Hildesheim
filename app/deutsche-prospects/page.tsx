@@ -54,7 +54,7 @@ export default function DeutscheProspectsPage() {
           >
             &larr; Draft Board
           </Link>
-          <span className="text-muted/30">|</span>
+          <span className="text-muted/30" aria-hidden="true">|</span>
           <span className="text-xs uppercase tracking-wider text-primary">
             Deutsche Prospects
           </span>
@@ -136,7 +136,7 @@ export default function DeutscheProspectsPage() {
 
         <AdSense slot="6888694163" layout="in-article" className="mt-12" />
 
-        <p className="mt-10 text-[10px] text-muted/60">
+        <p className="mt-10 text-[10px] text-muted">
           Herkunftsangaben und Draft-Aussichten basieren auf öffentlichen
           College- und Scouting-Quellen (Stand: {meta.updated}). Die Kategorie
           wächst mit – belegte deutsche D1-Prospects werden laufend ergänzt.

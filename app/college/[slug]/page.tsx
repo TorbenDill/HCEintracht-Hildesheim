@@ -83,7 +83,7 @@ export default async function CollegePage({
           >
             &larr; Colleges
           </Link>
-          <span className="text-muted/30">|</span>
+          <span className="text-muted/30" aria-hidden="true">|</span>
           <span className="text-xs uppercase tracking-wider text-primary">
             {meta.draftYear}
           </span>

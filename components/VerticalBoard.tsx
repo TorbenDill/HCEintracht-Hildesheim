@@ -36,6 +36,7 @@ export default function VerticalBoard() {
       <div className="mb-6 flex flex-wrap gap-2">
         <button
           onClick={() => setSelectedPosition("ALL")}
+          aria-pressed={selectedPosition === "ALL"}
           className={cn(
             "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
             selectedPosition === "ALL"
@@ -49,6 +50,7 @@ export default function VerticalBoard() {
           <button
             key={pos}
             onClick={() => setSelectedPosition(pos)}
+            aria-pressed={selectedPosition === pos}
             className={cn(
               "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
               selectedPosition === pos

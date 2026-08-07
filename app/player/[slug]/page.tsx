@@ -149,7 +149,7 @@ export default async function PlayerPage({
           >
             &larr; Draft Board
           </Link>
-          <span className="text-muted/30">|</span>
+          <span className="text-muted/30" aria-hidden="true">|</span>
           <span className="text-xs uppercase tracking-wider text-primary">
             {player.position}
           </span>
@@ -435,7 +435,7 @@ export default async function PlayerPage({
               </ul>
             </details>
 
-            <p className="mt-4 text-[10px] text-muted/60">
+            <p className="mt-4 text-[10px] text-muted">
               Spielerdarstellung: {meta.imageSource.name} · Stand: {meta.updated}{" "}
               · {meta.updateCycle}
             </p>

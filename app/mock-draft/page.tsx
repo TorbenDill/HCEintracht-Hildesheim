@@ -33,7 +33,7 @@ export default function MockDraftPage() {
           >
             &larr; Draft Board
           </Link>
-          <span className="text-muted/30">|</span>
+          <span className="text-muted/30" aria-hidden="true">|</span>
           <span className="text-xs uppercase tracking-wider text-primary">
             Mock Draft {meta.draftYear}
           </span>
@@ -89,7 +89,7 @@ export default function MockDraftPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-3 text-[10px] text-muted/60">
+          <p className="mt-3 text-[10px] text-muted">
             Spielerdarstellung: {meta.imageSource.name}
           </p>
         </div>

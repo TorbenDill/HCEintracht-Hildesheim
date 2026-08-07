@@ -85,7 +85,7 @@ export default async function TeamPage({
           >
             &larr; Teams
           </Link>
-          <span className="text-muted/30">|</span>
+          <span className="text-muted/30" aria-hidden="true">|</span>
           <span className="text-xs uppercase tracking-wider text-primary">
             {team.teamAbbr}
           </span>
