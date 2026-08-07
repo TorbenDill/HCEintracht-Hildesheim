@@ -363,46 +363,46 @@
     "projection": "Runde 3",
     "ranking_overall": 52
   },
-  "nate-frazier": {
-    "name": "Nate Frazier",
-    "position": "RB",
-    "college": "Georgia",
-    "projection": "Runde 3",
-    "ranking_overall": 53
-  },
   "nyckoles-harbor": {
     "name": "Nyckoles Harbor",
     "position": "WR",
     "college": "South Carolina",
     "projection": "Runde 3",
-    "ranking_overall": 54
+    "ranking_overall": 53
   },
   "williams-nwaneri": {
     "name": "Williams Nwaneri",
     "position": "EDGE",
     "college": "Nebraska",
     "projection": "Runde 3",
-    "ranking_overall": 55
+    "ranking_overall": 54
   },
   "ben-roberts": {
     "name": "Ben Roberts",
     "position": "LB",
     "college": "Texas Tech",
     "projection": "Runde 3",
-    "ranking_overall": 56
+    "ranking_overall": 55
   },
   "dj-lagway": {
     "name": "DJ Lagway",
     "position": "QB",
     "college": "Baylor",
     "projection": "Runde 3-4",
-    "ranking_overall": 57
+    "ranking_overall": 56
   },
   "peyton-woodyard": {
     "name": "Peyton Woodyard",
     "position": "S",
     "college": "Oregon",
     "projection": "Runde 3-4",
+    "ranking_overall": 57
+  },
+  "nate-frazier": {
+    "name": "Nate Frazier",
+    "position": "RB",
+    "college": "Georgia",
+    "projection": "Runde 3",
     "ranking_overall": 58
   },
   "jayden-maiava": {
@@ -419,46 +419,53 @@
     "projection": "Day 3 (Declare 2027 offen)",
     "ranking_overall": 60
   },
+  "bryant-wesco-jr": {
+    "name": "Bryant Wesco Jr.",
+    "position": "WR",
+    "college": "Clemson",
+    "projection": "Runde 3-4",
+    "ranking_overall": 61
+  },
   "hero-kanu": {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "projection": "Day 1-2 (Aufsteiger)",
-    "ranking_overall": 61
+    "ranking_overall": 62
   },
   "alexander-honig": {
     "name": "Alexander Honig",
     "position": "TE",
     "college": "Northwestern",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 62
+    "ranking_overall": 63
   },
   "max-stege": {
     "name": "Max Stege",
     "position": "EDGE",
     "college": "Boise State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 63
+    "ranking_overall": 64
   },
   "linus-zunk": {
     "name": "Linus Zunk",
     "position": "EDGE",
     "college": "Washington State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 64
+    "ranking_overall": 65
   },
   "justin-okoronkwo": {
     "name": "Justin Okoronkwo",
     "position": "LB",
     "college": "South Carolina",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 65
+    "ranking_overall": 66
   },
   "duncan-brune": {
     "name": "Duncan Brune",
     "position": "RB",
     "college": "Ohio",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 66
+    "ranking_overall": 67
   }
 }

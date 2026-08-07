@@ -1525,42 +1525,13 @@
     "herkunft": ""
   },
   {
-    "name": "Nate Frazier",
-    "position": "RB",
-    "college": "Georgia",
-    "height": "5'11\"",
-    "weight": "200 lbs",
-    "ranking_pos": 4,
-    "ranking_overall": 53,
-    "forstner_statement": "Frazier läuft mit einer Wucht und einem Antritt, die in Georgias Backfield sofort auffallen, der Junge macht aus wenig viel. Ich brauche nur die volle Snapzahl, um ihn höher zu setzen; teilt Smart die Carries weiter, leidet nur die Statistik, nicht das Talent.",
-    "piktogramme": [
-      "Power",
-      "Short Yardage",
-      "Pass Protection"
-    ],
-    "scouting_report_de": "In Athens gibt es selten Mangel an Running-Back-Talent, und Frazier hat sich früh nach vorn gearbeitet. Schon als Freshman bekam er in Georgias Rotation Verantwortung und dankte es mit einem kompakten, explosiven Laufstil, der Antritt und Contact Balance verbindet. Er findet die Lücke schnell, presst durch den ersten Kontakt und bringt genug Speed mit, um im zweiten Level davonzuziehen. Die Frage ist weniger das Können als der Anteil am Kuchen, denn Kirby Smart teilt die Carries traditionell breit. Reißt Frazier 2026 den Bellcow-Workload an sich, könnte er die verlässlichste Kombination aus Volumen und Big-Play-Potenzial der Klasse liefern. In einer Liga, die Backs spät draftet, ist er ein früher Day-2-Kandidat mit Three-Down-Reifezeichen.",
-    "best_case_nfl": "Kenneth Walker III (Seahawks) – kompakter, explosiver One-Cut-Runner, der aus jedem Lauf ein Big Play über die Distanz machen kann.",
-    "worst_case_nfl": "Zack Moss (Bengals) – solider Rotations-Back ohne Extra-Gang, der bei geteiltem Backfield ein ersetzbarer Committee-Runner bleibt.",
-    "class_year": "Junior",
-    "projection": "Runde 3",
-    "sources": [
-      "drafttek.com",
-      "espn.com",
-      "footballscout365.com"
-    ],
-    "quellen_anzahl": 3,
-    "qualitaet": "geprueft",
-    "deutsch": false,
-    "herkunft": ""
-  },
-  {
     "name": "Nyckoles Harbor",
     "position": "WR",
     "college": "South Carolina",
     "height": "6'5\"",
     "weight": "235 lbs",
     "ranking_pos": 9,
-    "ranking_overall": 54,
+    "ranking_overall": 53,
     "forstner_statement": "Harbor war lange der Spieler, bei dem das Auge etwas sah, das der Stat-Sheet nicht bestätigte. 618 Yards und sechs Touchdowns als teambester Receiver sind nun ein Anfang, und deshalb geht er bei mir nach oben. Ich kaufe hier noch eine Wette auf die Entwicklung, aber die Wette ist billiger geworden.",
     "piktogramme": [
       "Speed",
@@ -1589,7 +1560,7 @@
     "height": "6'6\"",
     "weight": "250 lbs",
     "ranking_pos": 9,
-    "ranking_overall": 55,
+    "ranking_overall": 54,
     "forstner_statement": "Nwaneri ist pure Kinetik, so eine Kombination aus Länge und erstem Schritt siehst du selten, das ist ein Lottoschein mit Hauptgewinn-Potenzial. Er braucht einen zweiten und dritten Move, aber wer auf Upside wettet, kommt an diesem Namen nicht vorbei.",
     "piktogramme": [
       "Motor",
@@ -1618,7 +1589,7 @@
     "height": "",
     "weight": "",
     "ranking_pos": 4,
-    "ranking_overall": 56,
+    "ranking_overall": 55,
     "forstner_statement": "Roberts ist ein Tackling-Automat - der Mann bringt runter, was er erreicht, ganz ohne Firlefanz. In dieser LB-Klasse ohne echte Stars ist so ein verlässlicher Downhill-Typ früh am zweiten Tag genau richtig einsortiert.",
     "piktogramme": [
       "Run Stop",
@@ -1646,7 +1617,7 @@
     "height": "6'3\"",
     "weight": "240 lbs",
     "ranking_pos": 8,
-    "ranking_overall": 57,
+    "ranking_overall": 56,
     "forstner_statement": "Lagways Arm gehört zum Besten in dieser Klasse, da beißt die Maus keinen Faden ab, nur muss der Kopf mit dem Arm mithalten. Ich mag Spieler, die den tiefen Ball suchen, aber die Turnover-Phasen und die kleinen Wehwehchen halten mich noch zurück; das ist eine Wette auf die Reife.",
     "piktogramme": [
       "Arbeitsmoral",
@@ -1675,7 +1646,7 @@
     "height": "6'2\"",
     "weight": "195 lbs",
     "ranking_pos": 4,
-    "ranking_overall": 58,
+    "ranking_overall": 57,
     "forstner_statement": "Woodyard ist genau der positionslose Safety-Typ, nach dem ich in der modernen Liga suche, tiefes Drittel, Slot, Box, alles dabei. Ihm fehlen nur die Turnovers fürs Schaufenster; kommen sie 2026, klettert er auf meinem Board deutlich.",
     "piktogramme": [
       "Depth",
@@ -1693,6 +1664,37 @@
       "on3.com"
     ],
     "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
+  },
+  {
+    "name": "Nate Frazier",
+    "position": "RB",
+    "college": "Georgia",
+    "height": "5'11\"",
+    "weight": "200 lbs",
+    "ranking_pos": 4,
+    "ranking_overall": 58,
+    "forstner_statement": "Frazier läuft mit einer Wucht und einem Antritt, die in Georgias Backfield sofort auffallen, der Junge macht aus wenig viel. Nur die wiederkehrende Knöchelgeschichte bremst mich gerade, das will ich erst gesund über eine ganze Saison sehen, ehe ich ihn wieder höher setze.",
+    "piktogramme": [
+      "Power",
+      "Short Yardage",
+      "Pass Protection"
+    ],
+    "scouting_report_de": "In Athens gibt es selten Mangel an Running-Back-Talent, und Frazier hat sich früh nach vorn gearbeitet. Schon als Freshman bekam er in Georgias Rotation Verantwortung und dankte es mit einem kompakten, explosiven Laufstil, der Antritt und Contact Balance verbindet. Er findet die Lücke schnell, presst durch den ersten Kontakt und bringt genug Speed mit, um im zweiten Level davonzuziehen. Zur Vorsicht mahnt allerdings die Verletzungshistorie: Eine Knöchelverletzung aus dem Sugar Bowl riss beim Spring Game erneut auf, Georgia nahm ihn daraufhin komplett aus dem Programm. Laut Kirby Smart geht er als „probable“ in die Fall-Camp-Vorbereitung, mit reichlich Zeit bis zum Saisonauftakt gegen Tennessee State am 5. September. Reißt Frazier 2026 gesund den Bellcow-Workload an sich, könnte er die verlässlichste Kombination aus Volumen und Big-Play-Potenzial der Klasse liefern – die wiederholte Verletzung an derselben Stelle ist aber ein echtes Fragezeichen für NFL-Teams. In einer Liga, die Backs spät draftet, bleibt er ein Day-2-Kandidat mit Three-Down-Reifezeichen, sofern die Gesundheit mitspielt.",
+    "best_case_nfl": "Kenneth Walker III (Seahawks) – kompakter, explosiver One-Cut-Runner, der aus jedem Lauf ein Big Play über die Distanz machen kann.",
+    "worst_case_nfl": "Zack Moss (Bengals) – solider Rotations-Back ohne Extra-Gang, der bei geteiltem Backfield ein ersetzbarer Committee-Runner bleibt.",
+    "class_year": "Junior",
+    "projection": "Runde 3",
+    "sources": [
+      "drafttek.com",
+      "espn.com",
+      "footballscout365.com",
+      "saturdaydownsouth.com",
+      "247sports.com"
+    ],
+    "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
     "herkunft": ""
@@ -1756,13 +1758,43 @@
     "herkunft": ""
   },
   {
+    "name": "Bryant Wesco Jr.",
+    "position": "WR",
+    "college": "Clemson",
+    "height": "6'2\"",
+    "weight": "190 lbs",
+    "ranking_pos": 10,
+    "ranking_overall": 61,
+    "forstner_statement": "Wesco hatte 2025 genau die Anlagen, die mich an der Außenposition begeistern, ehe die Rückenverletzung alles gestoppt hat. Kommt er 2026 gesund durch eine komplette Saison, klettert er auf meinem Board schnell wieder nach oben; das Talent war nie das Problem.",
+    "piktogramme": [
+      "Slot-Profil",
+      "Blocking",
+      "Special Teams"
+    ],
+    "scouting_report_de": "Bryant Wesco Jr. war auf dem besten Weg, einer der großen Breakout-Namen der Saison 2025 zu werden, ehe ihn im Oktober gegen SMU eine Rückenverletzung stoppte, nachdem er unglücklich auf dem Nacken gelandet war. Die zweite Saisonhälfte fiel komplett aus, was seine Draft-Aktie vorerst einfrierte statt sie steigen zu lassen. Auf dem Tape davor zeigte der 6'2\" große Receiver genau das Profil, das NFL-Scouts an der Außenposition suchen: Länge, sauberes Release und die Athletik, um vertikale Fenster zu öffnen. Für die Saison 2026 ist er vollständig freigegeben und bildet mit T.J. Moore eines der vielversprechendsten Receiver-Duos des Landes, was seine Zielanzahl und Sichtbarkeit deutlich erhöhen sollte. Die entscheidende Frage ist weniger das Talent als die Gesundheit über eine komplette Saison; bleibt er auf dem Feld, hat er das Profil, um sich schnell zurück in die Day-2-Diskussion zu spielen. Ein klassischer Wett-auf-die-Rückkehr-Prospect mit echtem Ceiling.",
+    "best_case_nfl": "Christian Watson (Peak) – langer, athletischer X-Receiver, der über Speed und Größe vertikale Matchup-Probleme erzeugt.",
+    "worst_case_nfl": "Jalen Reagor (a.D.) – athletisch hochveranlagt, aber Verletzungen und unbeständige Ballsicherheit verhindern den Sprung zum verlässlichen NFL-Starter.",
+    "class_year": "Junior",
+    "projection": "Runde 3-4",
+    "sources": [
+      "si.com",
+      "tigernet.com",
+      "247sports.com",
+      "en.wikipedia.org"
+    ],
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
+  },
+  {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 61,
+    "ranking_overall": 62,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -1792,7 +1824,7 @@
     "height": "6'6\"",
     "weight": "275 lbs",
     "ranking_pos": 3,
-    "ranking_overall": 62,
+    "ranking_overall": 63,
     "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
     "piktogramme": [
       "Blocking TE",
@@ -1822,7 +1854,7 @@
     "height": "6'4\"",
     "weight": "264 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 63,
+    "ranking_overall": 64,
     "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
     "piktogramme": [
       "Rotation",
@@ -1851,7 +1883,7 @@
     "height": "6'6\"",
     "weight": "270 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 64,
+    "ranking_overall": 65,
     "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
     "piktogramme": [
       "Rotation",
@@ -1880,7 +1912,7 @@
     "height": "6'3\"",
     "weight": "231 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 65,
+    "ranking_overall": 66,
     "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
     "piktogramme": [
       "Backup",
@@ -1909,7 +1941,7 @@
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 66,
+    "ranking_overall": 67,
     "forstner_statement": "Bobfahrer-Explosivität und eine Olympia-Mutter, das steht in keinem Scouting-Bericht, ergibt aber Sinn, wenn man ihn laufen sieht. Brune ist noch nicht fertig, und in der MAC bekommt er auch nicht die Duelle, die ein Draft-Gremium überzeugen. Trägt er 2026 die Last und kommt über 1.000 Yards, will ich seinen Namen im Camp hören.",
     "piktogramme": [
       "Physikalität",
