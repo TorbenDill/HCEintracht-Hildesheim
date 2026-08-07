@@ -25,6 +25,10 @@
       "bleacherreport.com",
       "pff.com"
     ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/49483019/ohio-state-buckeyes-receiver-jeremiah-smith-chasing-heisman-second-national-title-final-season",
+      "bleacherreport.com": "https://bleacherreport.com/articles/25430798-todd-mcshay-drops-new-2027-nfl-draft-primer-featuring-jeremiah-smith-prospects-watch"
+    },
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -55,6 +59,10 @@
       "tankathon.com",
       "profootballnetwork.com"
     ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5079689/colin-simmons",
+      "on3.com": "https://www.on3.com/teams/texas-longhorns/news/colin-simmons-is-playing-like-an-all-american/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -85,6 +93,10 @@
       "walterfootball.com",
       "sports.yahoo.com"
     ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4870906/arch-manning",
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/2027-nfl-draft-summer-scouting-031020160.html"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -115,6 +127,10 @@
       "cbssports.com",
       "pff.com"
     ],
+    "source_urls": {
+      "si.com": "https://www.si.com/college/oregon/football/dante-moore-oregon-ducks-return-impacting-nfl-draft-quarterback-decisions",
+      "cbssports.com": "https://www.cbssports.com/nfl/news/2027-nfl-draft-rankings-arch-manning-dante-moore/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -145,6 +161,9 @@
       "clutchpoints.com",
       "footballscout365.com"
     ],
+    "source_urls": {
+      "on3.com": "https://www.on3.com/teams/notre-dame-fighting-irish/news/notre-dame-cornerback-leonard-moore-named-no-1-returning-cb-in-college-football/"
+    },
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -175,6 +194,7 @@
       "on3.com",
       "footballscout365.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -205,6 +225,7 @@
       "tankathon.com",
       "247sports.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -235,6 +256,7 @@
       "pff.com",
       "tankathon.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -265,6 +287,7 @@
       "nfldraftbuzz.com",
       "sports.yahoo.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -295,6 +318,7 @@
       "pff.com",
       "footballscout365.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -324,6 +348,7 @@
       "pff.com",
       "sports.yahoo.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -353,6 +378,7 @@
       "espn.com",
       "sportsgrid.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -382,6 +408,7 @@
       "espn.com",
       "allaccessfootball.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -411,6 +438,7 @@
       "on3.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -440,6 +468,7 @@
       "nytimes.com/athletic",
       "lastwordonsports.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -469,6 +498,7 @@
       "nytimes.com/athletic",
       "sports.yahoo.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -498,6 +528,7 @@
       "espn.com",
       "nfldraftbuzz.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -528,6 +559,7 @@
       "footballscout365.com",
       "fantasylife.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -558,6 +590,7 @@
       "espn.com",
       "profootballnetwork.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -587,6 +620,7 @@
       "nfltraderumors.co",
       "bleacherreport.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -617,6 +651,7 @@
       "footballscout365.com",
       "fantasylife.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -645,6 +680,7 @@
       "on3.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -676,6 +712,7 @@
       "sports.yahoo.com",
       "profootballnetwork.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -704,6 +741,7 @@
       "pff.com",
       "steelersdepot.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -733,6 +771,7 @@
       "espn.com",
       "yardbarker.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -762,6 +801,7 @@
       "si.com",
       "profootballnetwork.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -790,6 +830,7 @@
       "cbssports.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -821,6 +862,7 @@
       "drafttek.com",
       "tankathon.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -849,6 +891,7 @@
       "pff.com",
       "steelersdepot.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -877,6 +920,7 @@
       "on3.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -905,6 +949,7 @@
       "on3.com",
       "sports.yahoo.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -936,6 +981,7 @@
       "sports.yahoo.com",
       "draftcountdown.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -965,6 +1011,7 @@
       "steelersdepot.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -995,6 +1042,7 @@
       "prodraftscouting.com",
       "bleacherreport.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1024,6 +1072,7 @@
       "cbssports.com",
       "on3.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1052,6 +1101,7 @@
       "profootballnetwork.com",
       "footballscout365.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1081,6 +1131,7 @@
       "247sports.com",
       "yardbarker.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1109,6 +1160,7 @@
       "pff.com",
       "steelersdepot.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1138,6 +1190,7 @@
       "footballscout365.com",
       "fantasylife.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1168,6 +1221,7 @@
       "sports.yahoo.com",
       "allaccessfootball.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1196,6 +1250,7 @@
       "walterfootball.com",
       "nfldraftbuzz.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1227,6 +1282,7 @@
       "sports.yahoo.com",
       "en.wikipedia.org"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1258,6 +1314,7 @@
       "sports.yahoo.com",
       "draftcountdown.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1287,6 +1344,7 @@
       "espn.com",
       "allaccessfootball.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1315,6 +1373,7 @@
       "on3.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1344,6 +1403,7 @@
       "sports.yahoo.com",
       "atozsports.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1375,6 +1435,7 @@
       "draftcountdown.com",
       "sports.yahoo.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1404,6 +1465,7 @@
       "cbssports.com",
       "scoutinggrade.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1432,6 +1494,7 @@
       "espn.com",
       "essentiallysports.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1460,6 +1523,7 @@
       "walterfootball.com",
       "profootballnetwork.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1490,6 +1554,7 @@
       "lastwordonsports.com",
       "si.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1519,6 +1584,7 @@
       "sportsgamingrosters.com",
       "sports.yahoo.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1548,6 +1614,7 @@
       "tankathon.com",
       "nfldraftbuzz.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1577,6 +1644,7 @@
       "on3.com",
       "profootballnetwork.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1605,6 +1673,7 @@
       "on3.com",
       "espn.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1634,6 +1703,7 @@
       "espn.com",
       "on3.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1663,6 +1733,7 @@
       "espn.com",
       "on3.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1694,6 +1765,7 @@
       "saturdaydownsouth.com",
       "247sports.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1722,6 +1794,7 @@
       "nfltraderumors.co",
       "bleacherreport.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
@@ -1752,6 +1825,7 @@
       "on3.com",
       "tankathon.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1782,6 +1856,7 @@
       "247sports.com",
       "en.wikipedia.org"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
@@ -1812,6 +1887,7 @@
       "si.com",
       "kxan.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1842,6 +1918,7 @@
       "on3.com",
       "uconnhuskies.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1871,6 +1948,7 @@
       "247sports.com",
       "idahonews.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1900,6 +1978,7 @@
       "247sports.com",
       "spandau-bulldogs.de"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1929,6 +2008,7 @@
       "on3.com",
       "sportsillustrated.de"
     ],
+    "source_urls": {},
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
@@ -1960,6 +2040,7 @@
       "on3.com",
       "cfbstats.com"
     ],
+    "source_urls": {},
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": true,

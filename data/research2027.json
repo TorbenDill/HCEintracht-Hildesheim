@@ -21,6 +21,10 @@
         "bleacherreport.com",
         "pff.com"
       ],
+      "source_urls": {
+        "espn.com": "https://www.espn.com/college-football/story/_/id/49483019/ohio-state-buckeyes-receiver-jeremiah-smith-chasing-heisman-second-national-title-final-season",
+        "bleacherreport.com": "https://bleacherreport.com/articles/25430798-todd-mcshay-drops-new-2027-nfl-draft-primer-featuring-jeremiah-smith-prospects-watch"
+      },
       "report_de": "Man muss nicht lange nach dem Konsens suchen: Smith steht auf praktisch jedem Board ganz oben, und das aus gutem Grund. Zwei Spielzeiten in Folge jenseits der 1.200 Receiving-Yards, 27 Touchdowns in seiner Karriere und dazu eine Kombination aus 6'3\", Speed und Physis am Catchpoint, die man in dieser Reinform selten sieht. Todd McShay traut sich sogar den Vergleich mit Calvin Johnson und rankt ihn höher, als er einst Ja'Marr Chase oder Marvin Harrison Jr. bewertet hat. Beeindruckend ist weniger die reine Athletik als die Selbstverständlichkeit, mit der er kontrollierte Bälle und contested catches gleichermaßen wegräumt. Ein echtes Loch im Profil zu finden, fällt schwer. Die einzige offene Frage ist, welches Team an Pick 1 oder 2 überhaupt die Chance bekommt, ihn zu ziehen."
     },
     {
@@ -43,6 +47,10 @@
         "walterfootball.com",
         "sports.yahoo.com"
       ],
+      "source_urls": {
+        "espn.com": "https://www.espn.com/college-football/player/_/id/4870906/arch-manning",
+        "sports.yahoo.com": "https://sports.yahoo.com/articles/2027-nfl-draft-summer-scouting-031020160.html"
+      },
       "report_de": "Der Name öffnet Türen, das Tape hält sie offen. In seinem ersten Jahr als Starter warf Manning 3.163 Yards, 26 Touchdowns bei nur 7 Interceptions und legte obendrauf zehn Rushing-Scores - Zahlen, die nach einer frühen Saisonpleite von Woche zu Woche solider wurden. Genau diese Entwicklungskurve ist das Argument: Er wurde besser, als der Druck stieg. Perfekt ist er noch nicht, die Fußarbeit gerät unter Pressure durcheinander, die Progressions laufen nicht immer sauber ab und die Ballplatzierung schwankt. Aber das Gesamtpaket aus 6'4\", Armstärke und Pocket-Ruhe ist der Grund, warum ihn viele als Favoriten auf Pick 1 im Draft 2027 sehen."
     },
     {
@@ -65,6 +73,10 @@
         "cbssports.com",
         "pff.com"
       ],
+      "source_urls": {
+        "si.com": "https://www.si.com/college/oregon/football/dante-moore-oregon-ducks-return-impacting-nfl-draft-quarterback-decisions",
+        "cbssports.com": "https://www.cbssports.com/nfl/news/2027-nfl-draft-rankings-arch-manning-dante-moore/"
+      },
       "report_de": "Fragt man die richtigen Leute, ist nicht Manning der QB1 dieser Klasse, sondern Moore. Die Argumente kommen direkt vom Tape: 30 Big-Time-Throws, FBS-Bestwert, dazu bei PFF die beste Deep-Passing-Note der gesamten Nation mit 98,5 und obendrein 72 Prozent Completions. Sein tiefer Ball ist kein Highlight-Zufall, sondern ein wiederholbares Werkzeug mit Touch und Timing. In mindestens einem CBS-Mock ging er bereits an Position 1. Das einzige echte Fragezeichen ist die schmale Statur - ob der Körper eine ganze NFL-Saison Prügel wegsteckt, muss 2026 beweisen. Bleibt er gesund, wird der Zweikampf um den ersten Pick eng."
     },
     {
@@ -87,6 +99,10 @@
         "tankathon.com",
         "profootballnetwork.com"
       ],
+      "source_urls": {
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5079689/colin-simmons",
+        "on3.com": "https://www.on3.com/teams/texas-longhorns/news/colin-simmons-is-playing-like-an-all-american/"
+      },
       "report_de": "Der erste Schritt entscheidet an der Edge oft alles, und Simmons' First Step gehört zum Gefährlichsten, was der College-Football momentan zu bieten hat. 2025 führte er die SEC mit 12 Sacks an, in 29 Spielen stehen 21 Karriere-Sacks und 29,5 Tackles for Loss - Produktion, die Matt Miller genügt, um ihn zum EDGE1 zu machen. Besonders die Strip-Sack-Qualität hebt ihn ab: Er attackiert nicht nur den Quarterback, sondern den Ball. Diskutiert wird einzig seine Größe bei 6'3\" und 245 Pfund, doch bei dieser Ausbeute wirkt das wie Erbsenzählerei. Ein Gamewrecker, wie ihn jede Defense sucht."
     },
     {
@@ -131,6 +147,9 @@
         "clutchpoints.com",
         "footballscout365.com"
       ],
+      "source_urls": {
+        "on3.com": "https://www.on3.com/teams/notre-dame-fighting-irish/news/notre-dame-cornerback-leonard-moore-named-no-1-returning-cb-in-college-football/"
+      },
       "report_de": "91,8 - das ist Moores PFF-Coverage-Note und der beste Wert aller FBS-Corner. Dahinter steckt eine Saison, die selbst gestandene Scouts ins Schwärmen bringt: nur 45,1 Passer-Rating gegen ihn, fünf Interceptions und Finalist-Nominierungen für Thorpe und Nagurski Award. Reid und Miller machen ihn bei ESPN einstimmig zum CB1. Er ist lang, schnell und im Press so scheme-vielseitig, dass ihn eine Defense überall parken kann. Ein Corner, der Receiver komplett aus dem Spiel nimmt, ohne dabei Pässe hinterherzulaufen. Notre Dame stellt gleich mehrere frühe Erstrunden-Namen, aber Moore ist der Kronjuwel."
     },
     {

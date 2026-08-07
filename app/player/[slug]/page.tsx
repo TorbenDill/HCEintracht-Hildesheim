@@ -114,7 +114,7 @@ export default async function PlayerPage({
   const citations = (player.sources ?? []).map((s) => ({
     "@type": "CreativeWork",
     name: s,
-    url: sourceUrl(s),
+    url: sourceUrl(s, player.source_urls),
   }));
   const jsonLd = {
     "@context": "https://schema.org",
@@ -398,9 +398,14 @@ export default async function PlayerPage({
                   {player.sources.map((s) => (
                     <a
                       key={s}
-                      href={sourceUrl(s)}
+                      href={sourceUrl(s, player.source_urls)}
                       target="_blank"
                       rel="noopener noreferrer"
+                      title={
+                        player.source_urls?.[s]
+                          ? "Direkter Link zum Artikel"
+                          : undefined
+                      }
                       className="rounded-full border border-border bg-background px-3 py-1 text-xs text-foreground/80 transition-colors hover:border-primary/40 hover:text-primary"
                     >
                       {s}
@@ -476,8 +481,14 @@ function RelatedCard({ player }: { player: Player }) {
   );
 }
 
-/** Macht aus einer Domain-Quelle ("espn.com") einen anklickbaren Link. */
-function sourceUrl(src: string): string {
+/**
+ * Macht aus einer Domain-Quelle ("espn.com") einen anklickbaren Link. Gibt es
+ * fuer diese Domain eine praezise Artikel-URL in source_urls, wird die
+ * bevorzugt; sonst faellt es auf die Domain-Startseite zurueck.
+ */
+function sourceUrl(src: string, sourceUrls?: Record<string, string>): string {
+  const exact = sourceUrls?.[src];
+  if (exact) return exact;
   const clean = src.trim().replace(/^https?:\/\//, "").replace(/\/.*$/, "");
   return `https://${clean}`;
 }

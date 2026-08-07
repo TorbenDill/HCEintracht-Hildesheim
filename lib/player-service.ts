@@ -19,6 +19,10 @@ export type Player = {
   class_year?: string | null;
   projection?: string | null;
   sources?: string[];
+  // Optional: Domain -> exakte Artikel-URL, fuer praezise Belege statt nur
+  // der Domain-Startseite. Nicht jede Quelle muss hier stehen; ohne Eintrag
+  // faellt die Anzeige auf die Domain zurueck.
+  source_urls?: Record<string, string>;
   // Qualitaetsstufe (aus der Quellenzahl abgeleitet): "geprueft" (3+ Quellen),
   // "belegt" (Mindeststandard 2 Quellen). Eintraege darunter erreichen das
   // Board nicht (Quellen-Gate im Build).

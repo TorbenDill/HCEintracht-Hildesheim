@@ -341,6 +341,8 @@ def main():
             "class_year": p.get("class_year"),
             "projection": projection_de(p),
             "sources": srcs,
+            # Optional: Domain -> exakte Artikel-URL fuer praezise Belege.
+            "source_urls": p.get("source_urls") or {},
             # Qualitaetsstufe: aus der Quellenzahl abgeleitet.
             "quellen_anzahl": len(srcs),
             "qualitaet": quality_tier(len(srcs)),
