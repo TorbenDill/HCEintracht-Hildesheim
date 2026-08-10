@@ -34,6 +34,10 @@ export async function generateMetadata({
       .map((p) => p.name)
       .join(", ")} und mehr, mit deutschem Scouting-Profil.`,
     alternates: { canonical: `/college/${slug}` },
+    // Aggregierte College-Uebersicht (Prospect-Liste je Hochschule); der
+    // eigentliche Content liegt in den verlinkten Spielerprofilen. Bewusst
+    // nicht indexiert, um duennes Aggregat-Material aus dem Index zu halten.
+    robots: { index: false, follow: true },
     openGraph: {
       type: "article",
       title,

@@ -114,6 +114,9 @@ export default function RootLayout({
               <a href="/lexikon" className="hover:text-primary">
                 Lexikon
               </a>
+              <a href="/ueber-uns" className="hover:text-primary">
+                Über uns
+              </a>
               <a href="/impressum" className="hover:text-primary">
                 Impressum
               </a>

@@ -34,6 +34,10 @@ export async function generateMetadata({
     title,
     description: `Was brauchen die ${team.team} im NFL Draft ${meta.draftYear}? Bedarf (${team.needs.join(", ")}), projizierter Pick ${team.pick} und passende Prospects aus unserem Big Board.`,
     alternates: { canonical: `/team/${teamSlug(team.teamAbbr)}` },
+    // Aggregierte Team-Bedarf-Seite (Pick + Needs); der eigentliche Content
+    // liegt in den verlinkten Spielerprofilen. Bewusst nicht indexiert, um
+    // duennes/aggregiertes Material aus dem Google-Index herauszuhalten.
+    robots: { index: false, follow: true },
     openGraph: {
       type: "article",
       title,

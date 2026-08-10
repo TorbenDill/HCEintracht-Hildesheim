@@ -2,8 +2,6 @@ import type { MetadataRoute } from "next";
 import { getPlayers, getPlayerSlug, getBoardMeta } from "@/lib/player-service";
 import lexikon from "@/data/lexikon.json";
 import { getAllPositionKeys } from "@/lib/positions";
-import { getColleges } from "@/lib/colleges";
-import { getTeams, teamSlug } from "@/lib/teams";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -34,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/ueber-uns"),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
     },
     {
       url: absoluteUrl("/impressum"),
@@ -86,6 +90,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  // Nur die Hub-Uebersichten aufnehmen. Die einzelnen College- und
+  // Team-Detailseiten sind aggregierte Linklisten (noindex) und gehoeren
+  // daher nicht in die Sitemap.
   const collegeRoutes: MetadataRoute.Sitemap = [
     {
       url: absoluteUrl("/colleges"),
@@ -93,12 +100,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.7,
     },
-    ...getColleges().map((c) => ({
-      url: absoluteUrl(`/college/${c.slug}`),
-      lastModified,
-      changeFrequency: "weekly" as const,
-      priority: 0.6,
-    })),
   ];
 
   const teamRoutes: MetadataRoute.Sitemap = [
@@ -108,12 +109,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.7,
     },
-    ...getTeams().map((t) => ({
-      url: absoluteUrl(`/team/${teamSlug(t.teamAbbr)}`),
-      lastModified,
-      changeFrequency: "weekly" as const,
-      priority: 0.6,
-    })),
   ];
 
   return [
