@@ -136,5 +136,23 @@
     "license": "CC BY 3.0",
     "artist": "Bobak Ha'Eri",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-0722_Dylan_Raiola.jpg"
+  },
+  "carter-smith": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Carter_Smith_%28offensive_tackle%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "Public domain",
+    "artist": "Tech. Sgt. Anthony Hetlage",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carter_Smith_(offensive_tackle).jpg"
+  },
+  "drew-mestemaker": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Drew_Mestemaker_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 4.0",
+    "artist": "2C2K Photography",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drew_Mestemaker_(cropped).jpg"
+  },
+  "bryant-wesco-jr": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/UNC_vs_Clemson_2025_-_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hameltion",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UNC_vs_Clemson_2025_-_03_(cropped).jpg"
   }
 }
