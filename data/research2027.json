@@ -1342,13 +1342,39 @@
       }
     },
     {
+      "name": "Jordan Faison",
+      "position": "WR",
+      "school": "Notre Dame",
+      "class_year": "Senior",
+      "height": "5'10\"",
+      "weight": "183 lbs",
+      "overall_rank": 61,
+      "projection": "Runde 1-2",
+      "round": 1,
+      "report_core_de": "Der wohl ungewöhnlichste Werdegang der Klasse: Ein Top-50-Lacrosse-Recruit, der als Walk-on zum Football kam, 2023 als Sun-Bowl-MVP explodierte und sich seither zu Notre Dames Nr.-1-Receiver entwickelt hat. 2025 mit 49 Fängen für 640 Yards teamführend, hat er den Lacrosse-Schläger für 2026 endgültig an den Nagel gehängt.",
+      "best_case": "Puka Nacua (Rams) – ein unterschätzter Slot-Receiver mit Football-IQ und Explosivität nach dem Fang, der als Nr.-1-Target eine Offense trägt.",
+      "worst_case": "Kadarius Toney (a.D.) – athletisch hochveranlagt und nach dem Catch gefährlich, aber Statur und Konstanz verhindern den Sprung zum verlässlichen Nr.-1-Receiver.",
+      "forstner": "Faison ist die Art von Geschichte, die ich als Scout liebe: ein Lacrosse-Wunderkind, das sich per Walk-on ins Football-Programm gekämpft hat und jetzt Notre Dames bester Receiver ist. Dass er den Schläger für 2026 komplett weglegt, zeigt mir, wie ernst er es meint; für einen Slot-Receiver mit dieser Explosivität ist Runde 1 keine Utopie.",
+      "sources": [
+        "espn.com",
+        "on3.com",
+        "sports.yahoo.com"
+      ],
+      "source_urls": {
+        "espn.com": "https://www.espn.com/college-football/story/_/id/47482708/notre-dame-wr-jordan-faison-play-lacrosse-season",
+        "on3.com": "https://www.on3.com/teams/notre-dame-fighting-irish/news/notre-dame-fighting-irish-football-jordan-faison-moving-on-lacrosse-focus-football/",
+        "sports.yahoo.com": "https://sports.yahoo.com/articles/seahawks-jordan-faison-no-31-180024938.html"
+      },
+      "report_de": "Jordan Faisons Weg zu Notre Dames Nr.-1-Receiver ist eine der ungewöhnlichsten Geschichten im College Football. Als Top-50-Lacrosse-Recruit aus Florida kam er zunächst als Zwei-Sport-Walk-on nach South Bend, gewann mit dem Lacrosse-Team sogar die nationale Meisterschaft, ehe eine verletzungsbedingte Lücke im Receiver-Corps ihm 2023 als Freshman die Chance gab. Er nutzte sie sofort: 19 Fänge, 322 Yards, vier Touchdowns in nur sieben Spielen, gekrönt von einer 115-Yards-Show samt MVP-Auszeichnung im Sun Bowl. Seither ist die Kurve nur nach oben gegangen, 2025 führte er das Team mit 49 Fängen für 640 Yards und vier Touchdowns an. Für 2026 hat er die Konsequenz gezogen und Lacrosse komplett aufgegeben, um sich voll auf den Draft vorzubereiten. Auf dem Feld ist er ein explosiver Slot-Receiver mit exzellentem Ballgefühl, das seine Zwei-Sport-Vergangenheit verrät, und einem Football-IQ, der bei einem Walk-on-Werdegang nicht überrascht. CBS Sports sieht ihn in einem aktuellen Mock bereits als Erstrundenpick an Position 31. Bei knapp 5'10\" bleibt die Statur die einzige echte Frage, aber die Produktion und die Geschichte dahinter machen ihn zu einem der spannendsten Namen im Board."
+    },
+    {
       "name": "Bryant Wesco Jr.",
       "position": "WR",
       "school": "Clemson",
       "class_year": "Junior",
       "height": "6'2\"",
       "weight": "190 lbs",
-      "overall_rank": 61,
+      "overall_rank": 62,
       "projection": "Runde 3-4",
       "round": 4,
       "report_core_de": "Clemsons Breakout-Kandidat, dessen starke erste Saisonhälfte 2025 durch eine Rückenverletzung jäh gestoppt wurde. Für 2026 vollständig freigegeben, will er neben T.J. Moore eines der besten Receiver-Duos des Landes bilden.",
@@ -1369,7 +1395,7 @@
     {
       "name": "Hero Kanu",
       "position": "DT",
-      "overall_rank": 62,
+      "overall_rank": 63,
       "school": "Texas",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1395,7 +1421,7 @@
     {
       "name": "Max Stege",
       "position": "EDGE",
-      "overall_rank": 64,
+      "overall_rank": 65,
       "school": "Boise State",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1420,7 +1446,7 @@
     {
       "name": "Justin Okoronkwo",
       "position": "LB",
-      "overall_rank": 66,
+      "overall_rank": 67,
       "school": "South Carolina",
       "class_year": "Senior",
       "height": "6'3\"",
@@ -1445,7 +1471,7 @@
     {
       "name": "Linus Zunk",
       "position": "EDGE",
-      "overall_rank": 65,
+      "overall_rank": 66,
       "school": "Washington State",
       "class_year": "RS Senior",
       "height": "6'6\"",
@@ -1470,7 +1496,7 @@
     {
       "name": "Alexander Honig",
       "position": "TE",
-      "overall_rank": 63,
+      "overall_rank": 64,
       "school": "Northwestern",
       "class_year": "Grad Senior",
       "height": "6'6\"",
@@ -1626,7 +1652,7 @@
     {
       "name": "Duncan Brune",
       "position": "RB",
-      "overall_rank": 67,
+      "overall_rank": 68,
       "school": "Ohio",
       "class_year": "Junior",
       "height": "5'11\"",

@@ -1951,13 +1951,47 @@
     "herkunft": ""
   },
   {
+    "name": "Jordan Faison",
+    "position": "WR",
+    "college": "Notre Dame",
+    "height": "5'10\"",
+    "weight": "183 lbs",
+    "ranking_pos": 10,
+    "ranking_overall": 61,
+    "forstner_statement": "Faison ist die Art von Geschichte, die ich als Scout liebe: ein Lacrosse-Wunderkind, das sich per Walk-on ins Football-Programm gekämpft hat und jetzt Notre Dames bester Receiver ist. Dass er den Schläger für 2026 komplett weglegt, zeigt mir, wie ernst er es meint; für einen Slot-Receiver mit dieser Explosivität ist Runde 1 keine Utopie.",
+    "piktogramme": [
+      "Route Running",
+      "Separation",
+      "Hände"
+    ],
+    "scouting_report_de": "Jordan Faisons Weg zu Notre Dames Nr.-1-Receiver ist eine der ungewöhnlichsten Geschichten im College Football. Als Top-50-Lacrosse-Recruit aus Florida kam er zunächst als Zwei-Sport-Walk-on nach South Bend, gewann mit dem Lacrosse-Team sogar die nationale Meisterschaft, ehe eine verletzungsbedingte Lücke im Receiver-Corps ihm 2023 als Freshman die Chance gab. Er nutzte sie sofort: 19 Fänge, 322 Yards, vier Touchdowns in nur sieben Spielen, gekrönt von einer 115-Yards-Show samt MVP-Auszeichnung im Sun Bowl. Seither ist die Kurve nur nach oben gegangen, 2025 führte er das Team mit 49 Fängen für 640 Yards und vier Touchdowns an. Für 2026 hat er die Konsequenz gezogen und Lacrosse komplett aufgegeben, um sich voll auf den Draft vorzubereiten. Auf dem Feld ist er ein explosiver Slot-Receiver mit exzellentem Ballgefühl, das seine Zwei-Sport-Vergangenheit verrät, und einem Football-IQ, der bei einem Walk-on-Werdegang nicht überrascht. CBS Sports sieht ihn in einem aktuellen Mock bereits als Erstrundenpick an Position 31. Bei knapp 5'10\" bleibt die Statur die einzige echte Frage, aber die Produktion und die Geschichte dahinter machen ihn zu einem der spannendsten Namen im Board.",
+    "best_case_nfl": "Puka Nacua (Rams) – ein unterschätzter Slot-Receiver mit Football-IQ und Explosivität nach dem Fang, der als Nr.-1-Target eine Offense trägt.",
+    "worst_case_nfl": "Kadarius Toney (a.D.) – athletisch hochveranlagt und nach dem Catch gefährlich, aber Statur und Konstanz verhindern den Sprung zum verlässlichen Nr.-1-Receiver.",
+    "class_year": "Senior",
+    "projection": "Runde 1-2",
+    "sources": [
+      "espn.com",
+      "on3.com",
+      "sports.yahoo.com"
+    ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/story/_/id/47482708/notre-dame-wr-jordan-faison-play-lacrosse-season",
+      "on3.com": "https://www.on3.com/teams/notre-dame-fighting-irish/news/notre-dame-fighting-irish-football-jordan-faison-moving-on-lacrosse-focus-football/",
+      "sports.yahoo.com": "https://sports.yahoo.com/articles/seahawks-jordan-faison-no-31-180024938.html"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
+  },
+  {
     "name": "Bryant Wesco Jr.",
     "position": "WR",
     "college": "Clemson",
     "height": "6'2\"",
     "weight": "190 lbs",
-    "ranking_pos": 10,
-    "ranking_overall": 61,
+    "ranking_pos": 11,
+    "ranking_overall": 62,
     "forstner_statement": "Wesco hatte 2025 genau die Anlagen, die mich an der Außenposition begeistern, ehe die Rückenverletzung alles gestoppt hat. Kommt er 2026 gesund durch eine komplette Saison, klettert er auf meinem Board schnell wieder nach oben; das Talent war nie das Problem.",
     "piktogramme": [
       "Slot-Profil",
@@ -1990,7 +2024,7 @@
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 62,
+    "ranking_overall": 63,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -2023,7 +2057,7 @@
     "height": "6'6\"",
     "weight": "275 lbs",
     "ranking_pos": 3,
-    "ranking_overall": 63,
+    "ranking_overall": 64,
     "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
     "piktogramme": [
       "Blocking TE",
@@ -2056,7 +2090,7 @@
     "height": "6'4\"",
     "weight": "264 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 64,
+    "ranking_overall": 65,
     "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
     "piktogramme": [
       "Rotation",
@@ -2088,7 +2122,7 @@
     "height": "6'6\"",
     "weight": "270 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 65,
+    "ranking_overall": 66,
     "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
     "piktogramme": [
       "Rotation",
@@ -2120,7 +2154,7 @@
     "height": "6'3\"",
     "weight": "231 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 66,
+    "ranking_overall": 67,
     "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
     "piktogramme": [
       "Backup",
@@ -2152,7 +2186,7 @@
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 67,
+    "ranking_overall": 68,
     "forstner_statement": "Bobfahrer-Explosivität und eine Olympia-Mutter, das steht in keinem Scouting-Bericht, ergibt aber Sinn, wenn man ihn laufen sieht. Brune ist noch nicht fertig, und in der MAC bekommt er auch nicht die Duelle, die ein Draft-Gremium überzeugen. Trägt er 2026 die Last und kommt über 1.000 Yards, will ich seinen Namen im Camp hören.",
     "piktogramme": [
       "Physikalität",
