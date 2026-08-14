@@ -19,13 +19,17 @@
         "tankathon.com",
         "espn.com",
         "bleacherreport.com",
-        "pff.com"
+        "pff.com",
+        "nytimes.com/athletic",
+        "clutchpoints.com"
       ],
       "source_urls": {
         "espn.com": "https://www.espn.com/college-football/story/_/id/49483019/ohio-state-buckeyes-receiver-jeremiah-smith-chasing-heisman-second-national-title-final-season",
-        "bleacherreport.com": "https://bleacherreport.com/articles/25430798-todd-mcshay-drops-new-2027-nfl-draft-primer-featuring-jeremiah-smith-prospects-watch"
+        "bleacherreport.com": "https://bleacherreport.com/articles/25430798-todd-mcshay-drops-new-2027-nfl-draft-primer-featuring-jeremiah-smith-prospects-watch",
+        "nytimes.com/athletic": "https://www.nytimes.com/athletic/7508392/2026/08/14/2027-nfl-draft-prospects-freaks-list-jeremiah-smith/",
+        "clutchpoints.com": "https://clutchpoints.com/ncaa-football/ohio-state-football-news-jeremiah-smith-title"
       },
-      "report_de": "Man muss nicht lange nach dem Konsens suchen: Smith steht auf praktisch jedem Board ganz oben, und das aus gutem Grund. Zwei Spielzeiten in Folge jenseits der 1.200 Receiving-Yards, 27 Touchdowns in seiner Karriere und dazu eine Kombination aus 6'3\", Speed und Physis am Catchpoint, die man in dieser Reinform selten sieht. Todd McShay traut sich sogar den Vergleich mit Calvin Johnson und rankt ihn höher, als er einst Ja'Marr Chase oder Marvin Harrison Jr. bewertet hat. Beeindruckend ist weniger die reine Athletik als die Selbstverständlichkeit, mit der er kontrollierte Bälle und contested catches gleichermaßen wegräumt. Ein echtes Loch im Profil zu finden, fällt schwer. Die einzige offene Frage ist, welches Team an Pick 1 oder 2 überhaupt die Chance bekommt, ihn zu ziehen."
+      "report_de": "Man muss nicht lange nach dem Konsens suchen: Smith steht auf praktisch jedem Board ganz oben, und das aus gutem Grund. Zwei Spielzeiten in Folge jenseits der 1.200 Receiving-Yards, 27 Touchdowns in seiner Karriere und dazu eine Kombination aus 6'3\", Speed und Physis am Catchpoint, die man in dieser Reinform selten sieht. Todd McShay traut sich sogar den Vergleich mit Calvin Johnson und rankt ihn höher, als er einst Ja'Marr Chase oder Marvin Harrison Jr. bewertet hat. Beeindruckend ist weniger die reine Athletik als die Selbstverständlichkeit, mit der er kontrollierte Bälle und contested catches gleichermaßen wegräumt. Dass die reine Athletik trotzdem außergewöhnlich ist, bestätigt Bruce Feldmans Freaks List: 38 Zoll Vertical, 23,5 Meilen pro Stunde Topspeed per GPS, 20 Wiederholungen bei 225 Pfund Bankdrücken und 550 Pfund Kniebeuge, bei 6'3\" und 223 Pfund. 2025 stand er damit an der Spitze der Liste, 2026 rutscht er auf Platz 2 hinter Nyck Harbor, der sich den Titel zurückholt - für die Draft-Bewertung ändert das nichts, Smith bleibt der Konsens-Erstplatzierte des gesamten Jahrgangs. Ein echtes Loch im Profil zu finden, fällt schwer. Die einzige offene Frage ist, welches Team an Pick 1 oder 2 überhaupt die Chance bekommt, ihn zu ziehen."
     },
     {
       "name": "Arch Manning",
@@ -1319,18 +1323,22 @@
       "overall_rank": 53,
       "projection": "Runde 3",
       "round": 3,
-      "report_core_de": "Ein körperliches Ausnahmephänomen: 6'5\", 235 Pfund und Weltklasse-Sprinter-Speed in einem Receiver-Körper. 2025 kam erstmals die Produktion dazu, mit 30 Fängen für 618 Yards und sechs Touchdowns war er South Carolinas bester Receiver. Route-Feinheiten und Handkonstanz hinken der Athletik weiter hinterher.",
+      "report_core_de": "Ein körperliches Ausnahmephänomen: 6'5\", 235 Pfund und Weltklasse-Sprinter-Speed in einem Receiver-Körper. 2025 kam erstmals die Produktion dazu, mit 30 Fängen für 618 Yards und sechs Touchdowns war er South Carolinas bester Receiver. Auf Bruce Feldmans Freaks List hat er sich 2026 die Nr.-1-Platzierung von Jeremiah Smith zurückgeholt. Route-Feinheiten und Handkonstanz hinken der Athletik weiter hinterher.",
       "best_case": "Kenny Golladay (Lions, Peak) – ein großgewachsener Speed-X, der über kleinere Corner steigt und in seiner besten Phase die tiefe Außenbahn dominiert.",
       "worst_case": "Darrius Heyward-Bey (a.D.) – ein Athletik-Traum auf dem Papier, dessen Hände und Route-Baum nie NFL-Niveau erreichen und der als Projekt verpufft.",
       "sources": [
         "espn.com",
         "tankathon.com",
-        "nfldraftbuzz.com"
+        "nfldraftbuzz.com",
+        "nytimes.com/athletic",
+        "saturdaydownsouth.com"
       ],
-      "report_de": "Wenn Athletik allein Drafts entscheiden würde, stünde Nyck Harbor ganz oben. Bei 6'5\" und 235 Pfund läuft er die Sprintzeiten eines Weltklasse-Leichtathleten, ein Größen-Speed-Paket, das die Liga vielleicht einmal pro Jahrzehnt sieht. Neu ist, dass die Produktion nachzieht: 2025 fing er in elf Spielen 30 Bälle für 618 Yards und sechs Touchdowns und führte South Carolina damit in Yards und Touchdowns an. Für 2026 hat er seine Rückkehr als Senior erklärt und übernimmt in der Receiver-Gruppe die Führungsrolle, weshalb er auf unserem Board fünf Plätze nach oben rutscht. Trotzdem bleibt der Route-Baum grob und die Hände unbeständig, was ihn von einem fertigen NFL-Receiver noch trennt. Sofort kann er über Gadget-Plays und Special Teams Wert stiften, während die Feinarbeit reift. Findet der Knoten die Lösung, redet die Liga über einen Matchup-Albtraum; findet er sie nicht, bleibt er eine Trainingsgelände-Legende.",
-      "forstner": "Harbor war lange der Spieler, bei dem das Auge etwas sah, das der Stat-Sheet nicht bestätigte. 618 Yards und sechs Touchdowns als teambester Receiver sind nun ein Anfang, und deshalb geht er bei mir nach oben. Ich kaufe hier noch eine Wette auf die Entwicklung, aber die Wette ist billiger geworden.",
+      "report_de": "Wenn Athletik allein Drafts entscheiden würde, stünde Nyck Harbor ganz oben. Bei 6'5\" und 235 Pfund läuft er die Sprintzeiten eines Weltklasse-Leichtathleten, ein Größen-Speed-Paket, das die Liga vielleicht einmal pro Jahrzehnt sieht. Neu ist, dass die Produktion nachzieht: 2025 fing er in elf Spielen 30 Bälle für 618 Yards und sechs Touchdowns und führte South Carolina damit in Yards und Touchdowns an. Für 2026 hat er seine Rückkehr als Senior erklärt und übernimmt in der Receiver-Gruppe die Führungsrolle, weshalb er auf unserem Board fünf Plätze nach oben rutscht. Extern bestätigt wird die Athletik jetzt auch offiziell: Auf Bruce Feldmans Freaks List 2026 holt er sich mit 10,1 Sekunden über 100 Meter und 23,8 Meilen pro Stunde Topspeed die Nr.-1-Platzierung zurück, die er 2023 und 2024 schon innehatte, ehe Jeremiah Smith ihn 2025 kurzzeitig verdrängte - laut Feldman der erste Spieler überhaupt mit zwei Jahren an der Spitze der Liste. Trotzdem bleibt der Route-Baum grob und die Hände unbeständig, was ihn von einem fertigen NFL-Receiver noch trennt. Sofort kann er über Gadget-Plays und Special Teams Wert stiften, während die Feinarbeit reift. Findet der Knoten die Lösung, redet die Liga über einen Matchup-Albtraum; findet er sie nicht, bleibt er eine Trainingsgelände-Legende.",
+      "forstner": "Harbor war lange der Spieler, bei dem das Auge etwas sah, das der Stat-Sheet nicht bestätigte. 618 Yards und sechs Touchdowns als teambester Receiver sind nun ein Anfang, und jetzt kommt mit Platz 1 auf der Freaks List sogar die offizielle Bestätigung fürs Auge dazu. Ich kaufe hier noch eine Wette auf die Entwicklung, aber die Wette ist billiger geworden.",
       "source_urls": {
-        "espn.com": "https://www.espn.com/college-football/player/bio/_/id/4870745/nyck-harbor"
+        "espn.com": "https://www.espn.com/college-football/player/bio/_/id/4870745/nyck-harbor",
+        "nytimes.com/athletic": "https://www.nytimes.com/athletic/7508392/2026/08/14/2027-nfl-draft-prospects-freaks-list-jeremiah-smith/",
+        "saturdaydownsouth.com": "https://www.saturdaydownsouth.com/news/college-football/south-carolina-star-lands-at-no-1-on-bruce-feldmans-freaks-list-for-2026/"
       }
     },
     {
