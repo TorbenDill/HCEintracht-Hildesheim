@@ -419,53 +419,60 @@
     "projection": "Day 3 (Declare 2027 offen)",
     "ranking_overall": 60
   },
+  "jordan-faison": {
+    "name": "Jordan Faison",
+    "position": "WR",
+    "college": "Notre Dame",
+    "projection": "Runde 1-2",
+    "ranking_overall": 61
+  },
   "bryant-wesco-jr": {
     "name": "Bryant Wesco Jr.",
     "position": "WR",
     "college": "Clemson",
     "projection": "Runde 3-4",
-    "ranking_overall": 61
+    "ranking_overall": 62
   },
   "hero-kanu": {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "projection": "Day 1-2 (Aufsteiger)",
-    "ranking_overall": 62
+    "ranking_overall": 63
   },
   "alexander-honig": {
     "name": "Alexander Honig",
     "position": "TE",
     "college": "Northwestern",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 63
+    "ranking_overall": 64
   },
   "max-stege": {
     "name": "Max Stege",
     "position": "EDGE",
     "college": "Boise State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 64
+    "ranking_overall": 65
   },
   "linus-zunk": {
     "name": "Linus Zunk",
     "position": "EDGE",
     "college": "Washington State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 65
+    "ranking_overall": 66
   },
   "justin-okoronkwo": {
     "name": "Justin Okoronkwo",
     "position": "LB",
     "college": "South Carolina",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 66
+    "ranking_overall": 67
   },
   "duncan-brune": {
     "name": "Duncan Brune",
     "position": "RB",
     "college": "Ohio",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 67
+    "ranking_overall": 68
   }
 }
