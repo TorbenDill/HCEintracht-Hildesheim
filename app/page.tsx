@@ -125,6 +125,12 @@ export default function Home() {
               🇩🇪 Deutsche
             </Link>
             <Link
+              href="/europa-talente"
+              className="hidden rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary lg:inline-block lg:px-4"
+            >
+              🌍 Für Europa
+            </Link>
+            <Link
               href="/mock-draft"
               className="rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
             >
