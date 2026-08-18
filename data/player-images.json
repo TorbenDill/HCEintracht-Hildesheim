@@ -166,5 +166,17 @@
     "license": "CC BY 3.0",
     "artist": "Bobak Ha'Eri",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-0118_Jordan_Faison.jpg"
+  },
+  "bray-hubbard": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bray_Hubbard.jpg/960px-Bray_Hubbard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "Tech. Sgt. Anthony Hetlage",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bray_Hubbard.jpg"
+  },
+  "lawson-luckie": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lawson_Luckie.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC0",
+    "artist": "TarheelBornBred",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lawson_Luckie.jpg"
   }
 }
