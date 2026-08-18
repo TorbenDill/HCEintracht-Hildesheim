@@ -11,15 +11,15 @@ import PlayerAvatar from "@/components/PlayerAvatar";
 import AdSense from "@/components/AdSense";
 
 export const metadata = {
-  title: "Talente für Europa: D2/D3-Scouting (ELF & Co.)",
+  title: "Talente für Europa: D2/D3-Scouting mit GFL-Star-Potenzial",
   description:
-    "Spannende NCAA-Division-II- und Division-III-Spieler, deren Produktion und Physis für europäische Ligen wie die European League of Football (ELF) sofortigen Impact bedeuten würde – kein NFL-Draft-Board, sondern ein eigenes Scouting-Radar für Europa.",
+    "Spannende NCAA-Division-II- und Division-III-Spieler, deren Produktion und Physis für die GFL und andere europäische Ligen echtes Star-Potenzial bedeuten würde – kein NFL-Draft-Board, sondern ein eigenes Scouting-Radar für Europa.",
   alternates: { canonical: "/europa-talente" },
   openGraph: {
     type: "article",
     title: "Talente für Europa: D2/D3-Scouting",
     description:
-      "NCAA-Division-II- und -III-Talente mit Potenzial für europäische Ligen wie die ELF – getrennt vom NFL-Draft-Board.",
+      "NCAA-Division-II- und -III-Talente mit GFL-Star-Potenzial – getrennt vom NFL-Draft-Board.",
     url: absoluteUrl("/europa-talente"),
   },
 };
@@ -110,6 +110,9 @@ export default function EuropaTalentePage() {
                 </span>
                 <span className="rounded-full border border-primary/30 bg-primary-glow px-2.5 py-1 text-primary">
                   {p.class_year}
+                </span>
+                <span className="rounded-full border border-accent/40 bg-accent-glow px-2.5 py-1 text-accent">
+                  GFL-Star-Potenzial
                 </span>
               </div>
 
