@@ -1,4 +1,5 @@
 import data from "@/data/europe-talents.json";
+import radarData from "@/data/europe-radar.json";
 
 /**
  * Eigene, vom NFL-Draft-Board vollständig getrennte Kategorie: D2-/D3-/NAIA-
@@ -35,4 +36,55 @@ export function getEuropeTalentsMeta(): { updated: string; intro: string } {
 
 export function getEuropeTalentSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, "-").replace(/[.'’]/g, "");
+}
+
+/**
+ * Zweite Ebene derselben Kategorie: das breite Scouting-Radar. Enthaelt die
+ * All-America-Auswahlen der Saison 2025 aus Division II, III und NAIA, jeweils
+ * mit mindestens zwei unabhaengigen Quellen. Anders als bei den Detailprofilen
+ * gibt es hier bewusst KEINEN Fliesstext-Report, sondern nur belegte Fakten -
+ * plus die Links zu Europlayers, Hudl und Instagram, sofern ein Profil
+ * nachweislich existiert und dem Spieler zugeordnet werden konnte.
+ */
+export type EuropeRadarPlayer = {
+  name: string;
+  position: string;
+  college: string;
+  division: string;
+  class_year: string | null;
+  height: string | null;
+  weight: string | null;
+  hometown: string | null;
+  honors: string[];
+  sources: Record<string, string>;
+  europlayers_url?: string | null;
+  hudl_url?: string | null;
+  instagram?: string | null;
+  /** Gesetzt, wenn ein NFL-Vertrag belegt ist – dann kein Europa-Kandidat. */
+  nfl_note?: string | null;
+  /** Spieler hat oben auf der Seite zusätzlich ein ausführliches Detailprofil. */
+  has_detail?: boolean;
+};
+
+const radar = radarData.players as unknown as EuropeRadarPlayer[];
+
+export function getEuropeRadar(): EuropeRadarPlayer[] {
+  return radar;
+}
+
+export function getEuropeRadarMeta(): {
+  updated: string;
+  note: string;
+  counts: { total: number; europlayers: number; hudl: number; instagram: number };
+} {
+  return {
+    updated: radarData.updated,
+    note: radarData.note,
+    counts: {
+      total: radar.length,
+      europlayers: radar.filter((p) => p.europlayers_url).length,
+      hudl: radar.filter((p) => p.hudl_url).length,
+      instagram: radar.filter((p) => p.instagram).length,
+    },
+  };
 }

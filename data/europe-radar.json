@@ -1,0 +1,3684 @@
+{
+  "updated": "2026-08-18",
+  "note": "Alle All-America-Auswahlen der Saison 2025 aus NCAA Division II, Division III und NAIA, die sich mit mindestens zwei unabhängigen Quellen belegen lassen – ausgewertet wurden die Teams von Associated Press, AFCA und D3football.com. Europlayers- und Hudl-Links erscheinen nur, wenn dort wirklich ein Profil existiert und eindeutig diesem Spieler zugeordnet werden konnte.",
+  "players": [
+    {
+      "name": "Gavin Sukup",
+      "position": "QB",
+      "college": "UIndy",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "188 lbs",
+      "hometown": "Seward, Nebraska",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jack Strand",
+      "position": "QB",
+      "college": "MSU Moorhead",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'5\"",
+      "weight": "240 lbs",
+      "hometown": "Bloomer, Wisconsin",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17761606/jack-strand",
+      "instagram": null,
+      "nfl_note": "Unter Vertrag bei den Atlanta Falcons (Stand 08/2026) – kein Europa-Kandidat.",
+      "has_detail": false
+    },
+    {
+      "name": "Andrew Miller",
+      "position": "RB",
+      "college": "Harding",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "6'1\"",
+      "weight": "225 lbs",
+      "hometown": "Searcy, Arkansas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17859210/andrew-miller",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Curtis Allen",
+      "position": "RB",
+      "college": "Virginia Union",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "215 lbs",
+      "hometown": "Petersburg, Virginia",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Jeffrey Jones",
+      "position": "RB",
+      "college": "New Mexico Highlands",
+      "division": "NCAA Division II",
+      "class_year": "Freshman",
+      "height": "5'9\"",
+      "weight": "175 lbs",
+      "hometown": "St. Petersburg, Florida",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "DeAndre Proctor",
+      "position": "WR",
+      "college": "Johnson C. Smith",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "210 lbs",
+      "hometown": "Elizabeth City, New Jersey",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Gage Florence",
+      "position": "WR",
+      "college": "MSU Moorhead",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'10\"",
+      "weight": "185 lbs",
+      "hometown": "Sawyer, North Dakota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/16071624/gage-florence",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Jaylen Himes",
+      "position": "WR",
+      "college": "Wingate",
+      "division": "NCAA Division II",
+      "class_year": "Freshman",
+      "height": "5'9\"",
+      "weight": "177 lbs",
+      "hometown": "Statesville, North Carolina",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Reggie Retzlaff",
+      "position": "WR",
+      "college": "CSU Pueblo",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'3\"",
+      "weight": "215 lbs",
+      "hometown": "Corona, California",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "TJ Chukwurah",
+      "position": "WR",
+      "college": "Black Hills State",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Junior",
+      "height": "5'11\"",
+      "weight": "190 lbs",
+      "hometown": "Arlington, Texas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Eddie Burgess",
+      "position": "TE",
+      "college": "Upper Iowa",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'4\"",
+      "weight": "240 lbs",
+      "hometown": "Montezuma, Iowa",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17826311/eddie-burgess",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Luke Dehnicke",
+      "position": "TE",
+      "college": "Minnesota Duluth",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Freshman",
+      "height": "6'3\"",
+      "weight": "205 lbs",
+      "hometown": "Andover, Minnesota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Avery Swinton",
+      "position": "OL",
+      "college": "Catawba",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "285 lbs",
+      "hometown": "Jacksonville, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jake Mitchell",
+      "position": "OL",
+      "college": "Harding",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "270 lbs",
+      "hometown": "Greenhill, Alabama",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Joe Cooper",
+      "position": "OL",
+      "college": "Slippery Rock",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'7\"",
+      "weight": "320 lbs",
+      "hometown": "East Berlin, Pennsylvania",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11467171/joe-cooper",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Montriel Lee",
+      "position": "OL",
+      "college": "Central Oklahoma",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "285 lbs",
+      "hometown": "Del City, Oklahoma",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/16071566/montriel-lee",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ryan Buttz",
+      "position": "OL",
+      "college": "UIndy",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'4\"",
+      "weight": "302 lbs",
+      "hometown": "Decatur, Illinois",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ryan Scherecke",
+      "position": "OL",
+      "college": "Kutztown",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'8\"",
+      "weight": "330 lbs",
+      "hometown": "Hatboro, Pa",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Slade Edwards",
+      "position": "OL",
+      "college": "Central Washington",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "290 lbs",
+      "hometown": "Yelm, Washington",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tim Anderson",
+      "position": "OL",
+      "college": "Ferris State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'6\"",
+      "weight": "305 lbs",
+      "hometown": "Rochester, Michigan",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Clayton Power",
+      "position": "DL",
+      "college": "Northwest Missouri State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "283 lbs",
+      "hometown": "Stilwell, Kansas",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ean Rhea",
+      "position": "DL",
+      "college": "Emory & Henry",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "6'2\"",
+      "weight": "235 lbs",
+      "hometown": "Glade Spring, Virginia",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Israel Nwokocha",
+      "position": "DL",
+      "college": "Benedict",
+      "division": "NCAA Division II",
+      "class_year": "Graduate",
+      "height": "6'2\"",
+      "weight": "250 lbs",
+      "hometown": "Detroit",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/10175185/israel-nwokocha",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kenyon Garner",
+      "position": "DL",
+      "college": "Livingtone",
+      "division": "NCAA Division II",
+      "class_year": "Sophomore",
+      "height": "6'4\"",
+      "weight": "230 lbs",
+      "hometown": "Okeechobee, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Michael Shimek",
+      "position": "DL",
+      "college": "Ashland",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "246 lbs",
+      "hometown": "North Canton, Ohio",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17714765/michael-shimek",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ricky Freymond",
+      "position": "DL",
+      "college": "Western Colorado",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'5\"",
+      "weight": "265 lbs",
+      "hometown": "Chino, California",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tyler King",
+      "position": "DL",
+      "college": "Central Washington",
+      "division": "NCAA Division II",
+      "class_year": "Sophomore",
+      "height": "6'5\"",
+      "weight": "250 lbs",
+      "hometown": "Happy Valley, Oregon",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Brandon Hile",
+      "position": "LB",
+      "college": "Kutztown",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "225 lbs",
+      "hometown": "Winfield, Pennsylvania",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17822090/brandon-hile",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Clark Griffin",
+      "position": "LB",
+      "college": "Harding",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'9\"",
+      "weight": "185 lbs",
+      "hometown": "Mountain Brook, Alabama",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ja’Kobe Clinton",
+      "position": "LB",
+      "college": "West Florida",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'2\"",
+      "weight": "230 lbs",
+      "hometown": "Sanford, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Landon Boss",
+      "position": "LB",
+      "college": "Emporia State",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "6'1\"",
+      "weight": "230 lbs",
+      "hometown": "Osage City, Kansas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19096156/landon-boss",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tristan Exline",
+      "position": "LB",
+      "college": "UT Permian Basin",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "6'1\"",
+      "weight": "215 lbs",
+      "hometown": "China Spring, Texas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Darnell Stephens",
+      "position": "DB",
+      "college": "Fort Valley State",
+      "division": "NCAA Division II",
+      "class_year": "Graduate",
+      "height": "6'1\"",
+      "weight": "186 lbs",
+      "hometown": "Conyers, Georgia",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jordan Rogers",
+      "position": "DB",
+      "college": "Pittsburg State",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "5'10\"",
+      "weight": "188 lbs",
+      "hometown": "Bellmead, Texas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/9775074/jordan-rogers",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Justin Payoute",
+      "position": "DB",
+      "college": "Ferris State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'7\"",
+      "weight": "170 lbs",
+      "hometown": "Miami Gardens, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Klayten Batten",
+      "position": "DB",
+      "college": "Shepherd (W. Va.)",
+      "division": "NCAA Division II",
+      "class_year": "Graduate",
+      "height": "5'10\"",
+      "weight": "185 lbs",
+      "hometown": "Waldorf, Maryland",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Marvelous Owens",
+      "position": "DB",
+      "college": "Northeastern State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "195 lbs",
+      "hometown": "Chico, California",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/8257796/marvelous-owens",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Rance Conner",
+      "position": "DB",
+      "college": "Valdosta State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "190 lbs",
+      "hometown": "Miami",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Xavier Walton",
+      "position": "DB",
+      "college": "Angelo State",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "5'10\"",
+      "weight": "200 lbs",
+      "hometown": "San Antonio",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Manaki Watanabe",
+      "position": "K",
+      "college": "Ashland",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Freshman",
+      "height": "6'0\"",
+      "weight": "182 lbs",
+      "hometown": "Novi, Michigan",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Brodie Eisenbraun",
+      "position": "P",
+      "college": "Chadron State",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'2\"",
+      "weight": "185 lbs",
+      "hometown": "Sturgis, South Dakota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/16216069/brodie-eisenbraun",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Deontae Williams",
+      "position": "RS",
+      "college": "California (Pa.)",
+      "division": "NCAA Division II",
+      "class_year": "Sophomore",
+      "height": "6'0\"",
+      "weight": "180 lbs",
+      "hometown": "Pittsburgh",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tye Roberson",
+      "position": "RS",
+      "college": "Lenoir-Rhyne",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'8\"",
+      "weight": "185 lbs",
+      "hometown": "Laurens, South Carolina",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11845436/tye-roberson",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "JayJay Jordan",
+      "position": "APB",
+      "college": "Slippery Rock",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "5'11\"",
+      "weight": "180 lbs",
+      "hometown": "Reading, Pennsylvania",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/21801399/jayjay-jordan",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Bay Harvey",
+      "position": "QB",
+      "college": "Johns Hopkins",
+      "division": "NCAA Division III",
+      "class_year": "Graduate",
+      "height": null,
+      "weight": null,
+      "hometown": "Lenk, Switzerland",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Garret Wilson",
+      "position": "QB",
+      "college": "North Central (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Sophomore",
+      "height": null,
+      "weight": null,
+      "hometown": "Edmond, Oklahoma",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kaleb Blaha",
+      "position": "QB",
+      "college": "UW-River Falls",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "201 lbs",
+      "hometown": "Coon Rapids, Minnesota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Eddie Williams",
+      "position": "RB",
+      "college": "Alma",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'10\"",
+      "weight": "200 lbs",
+      "hometown": "Eastpointe, Michigan",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Isaiah Simmons",
+      "position": "RB",
+      "college": "Brockport",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "5'9\"",
+      "weight": "176 lbs",
+      "hometown": "Buffalo, New York",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Montie Quinn",
+      "position": "RB",
+      "college": "Curry",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'9\"",
+      "weight": "180 lbs",
+      "hometown": "Goose Creek, South Carolina",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/18084569/montie-quinn",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Nahjiir Seagraves",
+      "position": "RB",
+      "college": "N.C. Wesleyan",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "5'10\"",
+      "weight": "190 lbs",
+      "hometown": "Southern Pines, North Carolina",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/12944187/nahjiir-seagraves",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Albert Rundell",
+      "position": "WR",
+      "college": "Bethel",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "6'1\"",
+      "weight": "185 lbs",
+      "hometown": "Watertown, Minnesota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19739860/albert-rundell",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Cole Crotty",
+      "position": "WR",
+      "college": "Johns Hopkins",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Hermosa Beach, California",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19388566/cole-crotty",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Dylan Wheeler",
+      "position": "WR",
+      "college": "St. John’s",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "St. Paul, Minnesota",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Eli Aston",
+      "position": "WR",
+      "college": "Mount St. Joseph",
+      "division": "NCAA Division III",
+      "class_year": "Sophomore",
+      "height": "6'0\"",
+      "weight": "185 lbs",
+      "hometown": "Cincinnati",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19526044/eli-aston",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Gary Lewis",
+      "position": "WR",
+      "college": "Franklin and Marshall",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'10\"",
+      "weight": "195 lbs",
+      "hometown": "Summit, New Jersey",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17761024/gary-lewis",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Robby Ballentine",
+      "position": "WR",
+      "college": "DePauw",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "200 lbs",
+      "hometown": "Crown Point, Indiana",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Thomas Skokna",
+      "position": "WR",
+      "college": "North Central (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'9\"",
+      "weight": "170 lbs",
+      "hometown": "Hindsdale, Illinois",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tyren Montgomery",
+      "position": "WR",
+      "college": "John Carroll",
+      "division": "NCAA Division III",
+      "class_year": "Graduate",
+      "height": "6'1\"",
+      "weight": "190 lbs",
+      "hometown": "The Woodlands, Texas",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/23012499/tyren-montgomery",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Joey Gendreau",
+      "position": "TE",
+      "college": "St. John’s",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "230 lbs",
+      "hometown": "Shorewood, Minnesota",
+      "honors": [
+        "AP Third Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": "https://www.europlayers.com/Profile/103355/joey-gendreau",
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Logan Frederick",
+      "position": "TE",
+      "college": "Utica",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Little Falls, New York",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19234973/logan-frederick",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Reed Breckheimer",
+      "position": "TE",
+      "college": "Carroll (Wis.)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "250 lbs",
+      "hometown": "Hilbert, Wis",
+      "honors": [
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Caleb Bayer",
+      "position": "OL",
+      "college": "Trinity (Texas)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "294 lbs",
+      "hometown": "Grandview, Texas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Chris Clarke",
+      "position": "OL",
+      "college": "Salisbury",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "300 lbs",
+      "hometown": "Ridgely, Md",
+      "honors": [
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Cortez Jones",
+      "position": "OL",
+      "college": "North Central (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Lansing, Illinois",
+      "honors": [
+        "AP First Team All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Dain Walter",
+      "position": "OL",
+      "college": "UW-La Crosse",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'7\"",
+      "weight": "315 lbs",
+      "hometown": "New Glarus, Wis",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/18018962/dain-walter",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Dave Casas",
+      "position": "OL",
+      "college": "Delaware Valley",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'4\"",
+      "weight": "285 lbs",
+      "hometown": "Manahawkin, New Jersey",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Giovanni Kennedy",
+      "position": "OL",
+      "college": "Mount Union",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "275 lbs",
+      "hometown": "Avon, Ohio",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Hayden Philpot",
+      "position": "OL",
+      "college": "Hardin-Simmons",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "300 lbs",
+      "hometown": "Decatur, Texas",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/13020136/hayden-philpot",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Luke Schumacher",
+      "position": "OL",
+      "college": "Coe",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "260 lbs",
+      "hometown": "Kenosha, Wisconsin",
+      "honors": [
+        "AP Third Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Michael Nwosu",
+      "position": "OL",
+      "college": "Johns Hopkins",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "280 lbs",
+      "hometown": "Perry Hall, Maryland",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Quentin Lehman",
+      "position": "OL",
+      "college": "Ohio Northern",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Dalton, Ohio",
+      "honors": [
+        "AP First Team All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/12926095/quentin-lehman",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Quinn Sholar",
+      "position": "OL",
+      "college": "Wabash",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Indianapolis",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Reed Richards",
+      "position": "OL",
+      "college": "Berry",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "6'5\"",
+      "weight": "297 lbs",
+      "hometown": "Powder Springs, Georgia",
+      "honors": [
+        "AP Third Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Dominick Williams",
+      "position": "DL",
+      "college": "East Texas Baptist",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'7\"",
+      "weight": "232 lbs",
+      "hometown": "Houston",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Galen Limantour",
+      "position": "DL",
+      "college": "Susquehanna",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Durham, Pennsylvania",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19514260/galen-limantour",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "John Sullivan",
+      "position": "DL",
+      "college": "North Central (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "270 lbs",
+      "hometown": "Lake Villa, Illinois",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "JP Chaney",
+      "position": "DL",
+      "college": "Aurora",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Batavia, Illinois",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19404568/jp-chaney",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kaleb Brown",
+      "position": "DL",
+      "college": "Mount Union",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "220 lbs",
+      "hometown": "La Plata, Md",
+      "honors": [
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Liam Danitz",
+      "position": "DL",
+      "college": "Hope",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'5\"",
+      "weight": "227 lbs",
+      "hometown": "West Branch, Michigan",
+      "honors": [
+        "AP Third Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Michael Clark",
+      "position": "DL",
+      "college": "Berry",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'8\"",
+      "weight": "280 lbs",
+      "hometown": "McDonough, Georgia",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11765163/michael-clark",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Peter Johanik",
+      "position": "DL",
+      "college": "Wheaton (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "230 lbs",
+      "hometown": "West Chicago, Illinois",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Phil Conant",
+      "position": "DL",
+      "college": "Bethel",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "St. Francis, Minn",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19726423/phil-conant",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tyler Sordillo",
+      "position": "DL",
+      "college": "Springfield",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "6'3\"",
+      "weight": "265 lbs",
+      "hometown": "Hull, Massachusetts",
+      "honors": [
+        "AP Third Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/13318777/tyler-sordillo",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Zach Frank",
+      "position": "DL",
+      "college": "St. John’s",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "270 lbs",
+      "hometown": "Lino Lakes, Minnesota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Aden Wiser",
+      "position": "LB",
+      "college": "Cortland",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "240 lbs",
+      "hometown": "Highland, New York",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Brian Wall",
+      "position": "LB",
+      "college": "Hanover",
+      "division": "NCAA Division III",
+      "class_year": "Sophomore",
+      "height": "6'3\"",
+      "weight": "205 lbs",
+      "hometown": "Sellersburg, Indiana",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11425017/brian-wall",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Caleb Brubaker",
+      "position": "LB",
+      "college": "Grove City",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Mechanicsburg, Pennsylvania",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Daniel Eliasek",
+      "position": "LB",
+      "college": "Randolph-Macon",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "215 lbs",
+      "hometown": "Midlothian, Virginia",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Gage Timm",
+      "position": "LB",
+      "college": "UW-River Falls",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "219 lbs",
+      "hometown": "Shawano, Wisconsin",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/16099276/gage-timm",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kaiden Roden",
+      "position": "LB",
+      "college": "Hardin-Simmons",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Quinlan, Texas",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/8595224/kaiden-roden",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Keenan Tyler",
+      "position": "LB",
+      "college": "Wartburg",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "222 lbs",
+      "hometown": "Decorah, Iowa",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "*Grant Henderson",
+      "position": "DB",
+      "college": "Maryville",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'8\"",
+      "weight": "165 lbs",
+      "hometown": "Miami, Fla",
+      "honors": [
+        "AFCA Coaches All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Carson Bourdo",
+      "position": "DB",
+      "college": "Johns Hopkins",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Traverse City, Michigan",
+      "honors": [
+        "AP First Team All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Colin Kaufmann",
+      "position": "DB",
+      "college": "Baldwin Wallace",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Avon, Ohio",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Devin Williams",
+      "position": "DB",
+      "college": "Bethel",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "220 lbs",
+      "hometown": "Fridley, Minnesota",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Dylan Connors",
+      "position": "DB",
+      "college": "Wesleyan",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "195 lbs",
+      "hometown": "West Milford, New Jersey",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ethan Burrows",
+      "position": "DB",
+      "college": "Adrian",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "6'3\"",
+      "weight": "210 lbs",
+      "hometown": "Essexville, Michigan",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/26724122/ethan-burrows",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Gavin Smith",
+      "position": "DB",
+      "college": "Central",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "190 lbs",
+      "hometown": "Audubon, Iowa",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Joe Spirra",
+      "position": "DB",
+      "college": "Ithaca",
+      "division": "NCAA Division III",
+      "class_year": "Sophomore",
+      "height": null,
+      "weight": null,
+      "hometown": "Bridgewater, New Jersey",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/22502417/joe-spirra",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kosta Thrasivoulou",
+      "position": "DB",
+      "college": "Mount Union",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "North Ridgeville, Ohio",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/26065978/kosta-thrasivoulou",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Nazair Jean-Lubin",
+      "position": "DB",
+      "college": "Cortland",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "hometown": "Freeport, New York",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19563632/nazair-jean-lubin",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Rahmareon Roby",
+      "position": "DB",
+      "college": "North Central (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Lena, Illinois",
+      "honors": [
+        "AP First Team All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": "https://www.europlayers.com/Profile/104332/rahmareon-roby",
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Aidan Ellison",
+      "position": "K",
+      "college": "North Central (Ill.)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "189 lbs",
+      "hometown": "Naperville, Illinois",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com First team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Dominic Bourgeois",
+      "position": "K",
+      "college": "Susquehanna",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": "5'10\"",
+      "weight": "190 lbs",
+      "hometown": "Baltimore",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Michael Stack",
+      "position": "K",
+      "college": "UW-La Crosse",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Oshkosh, Wisconsin",
+      "honors": [
+        "AP Third Team All-America",
+        "D3football.com Fourth team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Chase Lanham",
+      "position": "P",
+      "college": "Southwestern",
+      "division": "NCAA Division III",
+      "class_year": "Freshman",
+      "height": null,
+      "weight": null,
+      "hometown": "Frisco, Texas",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tanner Philpott",
+      "position": "P",
+      "college": "Simpson",
+      "division": "NCAA Division III",
+      "class_year": "Sophomore",
+      "height": "6'2\"",
+      "weight": "200 lbs",
+      "hometown": "Waukee, Iowa",
+      "honors": [
+        "AP Third Team All-America",
+        "AFCA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Vicente Lyon",
+      "position": "P",
+      "college": "Hobart",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Yorktown Heights, New York",
+      "honors": [
+        "AP Second Team All-America",
+        "D3football.com Third team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17943363/vicente-lyon",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "PJ Pollock",
+      "position": "LS",
+      "college": "Susquehanna",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "hometown": "Holidaysburg, Pennsylvania",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "B.J. Stewart",
+      "position": "APB",
+      "college": "Mary Hardin-Baylor",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "5'7\"",
+      "weight": "155 lbs",
+      "hometown": "Shreveport, Louisiana",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA Coaches All-America",
+        "D3football.com Second team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
+        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jackson Waring",
+      "position": "QB",
+      "college": "Grand View (Iowa)",
+      "division": "NAIA",
+      "class_year": "Graduate",
+      "height": "6'3\"",
+      "weight": "225 lbs",
+      "hometown": "Ankeny, Iowa",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/18991964/jackson-waring",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Zach Chevalier",
+      "position": "QB",
+      "college": "Morningside (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "205 lbs",
+      "hometown": "Sioux City, Iowa",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Davontaye Saunders",
+      "position": "RB",
+      "college": "Lindsey Wilson (Ky.)",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "6'0\"",
+      "weight": "205 lbs",
+      "hometown": "Eminence, Kentucky",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Destynd Loring",
+      "position": "RB",
+      "college": "William Penn (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "5'8\"",
+      "weight": "195 lbs",
+      "hometown": "Charleston, South Carolina",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Keagan La Belle",
+      "position": "RB",
+      "college": "Marian (Ind.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "5'7\"",
+      "weight": "190 lbs",
+      "hometown": "McCordsville, Indiana",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Drew Sellon",
+      "position": "WR",
+      "college": "Morningside (Iowa)",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "6'0\"",
+      "weight": "185 lbs",
+      "hometown": "Fremont, Nebraska",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17925060/drew-sellon",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Eli Nourse",
+      "position": "WR",
+      "college": "Montana Western",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "5'10\"",
+      "weight": "170 lbs",
+      "hometown": "Dillon, Montana",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Isaac Smith",
+      "position": "WR",
+      "college": "Indiana Wesleyan",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "180 lbs",
+      "hometown": "Flat Rock, Michigan",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kyle Dixon",
+      "position": "WR",
+      "college": "Culver-Stockton (Mo.)",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "6'4\"",
+      "weight": "215 lbs",
+      "hometown": "Carlinville, Illinois",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/21580726/kyle-dixon",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Matthew Holthusen",
+      "position": "WR",
+      "college": "Southwestern (Kan.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "175 lbs",
+      "hometown": "Wichita, Kansas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/12956563/matthew-holthusen",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Carson Ochoa",
+      "position": "TE",
+      "college": "Carroll (Mont.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "240 lbs",
+      "hometown": "Yorba Linda, California",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tanner Zimmerman",
+      "position": "TE",
+      "college": "Benedictine (Kan.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'5\"",
+      "weight": "235 lbs",
+      "hometown": "Olathe, Kansas",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/12969280/tanner-zimmerman",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ashton Patterson",
+      "position": "OL",
+      "college": "College of Idaho",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'4\"",
+      "weight": "315 lbs",
+      "hometown": "Turlock, California",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11309507/ashton-patterson",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ethan Hansen",
+      "position": "OL",
+      "college": "Dordt (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "270 lbs",
+      "hometown": "Appleton, Wisconsin",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jacob Graves",
+      "position": "OL",
+      "college": "Montana Tech",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "295 lbs",
+      "hometown": "Kuna, Idaho",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "James Wartick",
+      "position": "OL",
+      "college": "Grand View (Iowa)",
+      "division": "NAIA",
+      "class_year": "Graduate",
+      "height": "6'5\"",
+      "weight": "275 lbs",
+      "hometown": "Algona, Iowa",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kyree Watkins",
+      "position": "OL",
+      "college": "Friends (Kan.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "250 lbs",
+      "hometown": "Atlanta",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17329048/kyree-watkins",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Logan Penhollow",
+      "position": "OL",
+      "college": "Indiana Wesleyan",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "270 lbs",
+      "hometown": "Hendersonville, Tennessee",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/17730457/logan-penhollow",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Rashad Beckham",
+      "position": "OL",
+      "college": "Benedictine (Kan.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "270 lbs",
+      "hometown": "Oceanside, California",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11137011/rashad-beckham",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Reece Byerly",
+      "position": "OL",
+      "college": "Marian (Ind.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "285 lbs",
+      "hometown": "Franklin, Indiana",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19589938/reece-byerly",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tyler Carlson",
+      "position": "OL",
+      "college": "Keiser (Fla.)",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "6'5\"",
+      "weight": "327 lbs",
+      "hometown": "Key West, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "A.J. Knox",
+      "position": "DL",
+      "college": "Siena Heights (Mich.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "230 lbs",
+      "hometown": "Rochester, Michigan",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jackson Filer",
+      "position": "DL",
+      "college": "Grand View (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "245 lbs",
+      "hometown": "Des Moines, Iowa",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/7746526/jackson-filer",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tai Lologo",
+      "position": "DL",
+      "college": "Keiser (Fla.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "324 lbs",
+      "hometown": "Huntsville, Alabama",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Thomas Ibrahim",
+      "position": "DL",
+      "college": "Southeastern (Fla.)",
+      "division": "NAIA",
+      "class_year": "Graduate",
+      "height": "6'3\"",
+      "weight": "255 lbs",
+      "hometown": "Ocoee, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
+      "name": "Trystin Voss",
+      "position": "DL",
+      "college": "Northwestern (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "265 lbs",
+      "hometown": "Rogersville, Missouri",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11241475/trystin-voss",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Tyler Walker",
+      "position": "DL",
+      "college": "Montana Western",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "250 lbs",
+      "hometown": "Dillon, Montana",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Zach Myers",
+      "position": "DL",
+      "college": "Evangel (Mo.)",
+      "division": "NAIA",
+      "class_year": "Graduate",
+      "height": "6'2\"",
+      "weight": "225 lbs",
+      "hometown": "Lee’s Summit, Missouri",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Clarke Hamilton",
+      "position": "LB",
+      "college": "Siena Heights (Mich.)",
+      "division": "NAIA",
+      "class_year": "Redshirt Senior",
+      "height": "5'11\"",
+      "weight": "215 lbs",
+      "hometown": "Jacksonville, Florida",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/16292361/clarke-hamilton",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Hunter Zirkle",
+      "position": "LB",
+      "college": "Cumberlands (Ky.)",
+      "division": "NAIA",
+      "class_year": "Sophomore",
+      "height": "6'3\"",
+      "weight": "230 lbs",
+      "hometown": "Arcadia, Florida",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "John Argo",
+      "position": "LB",
+      "college": "Grand View (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "220 lbs",
+      "hometown": "Davenport, Iowa",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Terry Elias Jr.",
+      "position": "LB",
+      "college": "Saint Xavier (Ill.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "195 lbs",
+      "hometown": "Monee, Illinois",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Braeden Orlandi",
+      "position": "DB",
+      "college": "Carroll (Mont.)",
+      "division": "NAIA",
+      "class_year": "Sophomore",
+      "height": "6'1\"",
+      "weight": "200 lbs",
+      "hometown": "Valley Springs, California",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/11383647/braeden-orlandi",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Cannon Johnson",
+      "position": "DB",
+      "college": "Cumberland (Tenn.)",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "5'8\"",
+      "weight": "179 lbs",
+      "hometown": "Maryville, Tennessee",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19296715/cannon-johnson",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Isaiah Hasten",
+      "position": "DB",
+      "college": "Benedictine (Kan.)",
+      "division": "NAIA",
+      "class_year": "Sophomore",
+      "height": "6'3\"",
+      "weight": "180 lbs",
+      "hometown": "San Diego",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Jaiden Jones",
+      "position": "DB",
+      "college": "Texas Wesleyan",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "6'0\"",
+      "weight": "180 lbs",
+      "hometown": "Pearland, Texas",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Kylon Polk",
+      "position": "DB",
+      "college": "Louisiana Christian",
+      "division": "NAIA",
+      "class_year": "Freshman",
+      "height": "5'10\"",
+      "weight": "170 lbs",
+      "hometown": "Loreauville, Louisiana",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Logan Carrington",
+      "position": "DB",
+      "college": "Marian (Ind.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "180 lbs",
+      "hometown": "Greencastle, Indiana",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Vincie Solano",
+      "position": "DB",
+      "college": "Indiana Wesleyan",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "188 lbs",
+      "hometown": "Batavia, Illinois",
+      "honors": [
+        "AP First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Truitt Bosher",
+      "position": "K",
+      "college": "Friends (Kan.)",
+      "division": "NAIA",
+      "class_year": "Freshman",
+      "height": "6'0\"",
+      "weight": "205 lbs",
+      "hometown": "Burleson, Texas",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Drew Rader",
+      "position": "P",
+      "college": "Georgetown (Ky.)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "5'9\"",
+      "weight": "175 lbs",
+      "hometown": "Wooster, Ohio",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Ethan Cutler",
+      "position": "P",
+      "college": "Eastern Oregon",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "185 lbs",
+      "hometown": "Eagle, Idaho",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "A.J. King",
+      "position": "APB",
+      "college": "Tabor (Kan.)",
+      "division": "NAIA",
+      "class_year": "Junior",
+      "height": "5'10\"",
+      "weight": "170 lbs",
+      "hometown": "Wichita, Kansas",
+      "honors": [
+        "AP Second Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Levi Torgerson",
+      "position": "APB",
+      "college": "Montana Tech",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "5'9\"",
+      "weight": "170 lbs",
+      "hometown": "Great Falls, Montana",
+      "honors": [
+        "AP First Team All-America",
+        "AFCA NAIA Coaches All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
+        "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "europlayers_url": null,
+      "hudl_url": "https://www.hudl.com/profile/19297497/levi-torgerson",
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    }
+  ]
+}

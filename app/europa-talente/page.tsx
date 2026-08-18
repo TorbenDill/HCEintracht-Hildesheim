@@ -3,7 +3,10 @@ import {
   getEuropeTalents,
   getEuropeTalentsMeta,
   getEuropeTalentSlug,
+  getEuropeRadar,
+  getEuropeRadarMeta,
 } from "@/lib/europe-talents";
+import EuropeRadar from "@/components/EuropeRadar";
 import { absoluteUrl } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -27,12 +30,14 @@ export const metadata = {
 export default function EuropaTalentePage() {
   const talents = getEuropeTalents();
   const meta = getEuropeTalentsMeta();
+  const radar = getEuropeRadar();
+  const radarMeta = getEuropeRadarMeta();
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Talente für Europa – D2/D3-Scouting",
-    itemListElement: talents.map((p, i) => ({
+    itemListElement: [...talents, ...radar].map((p, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: `${p.name} (${p.position}, ${p.college})`,
@@ -81,11 +86,22 @@ export default function EuropaTalentePage() {
           </div>
         </div>
 
+        <h2 className="mb-4 font-display text-2xl font-semibold uppercase tracking-tight text-foreground">
+          Detailprofile
+        </h2>
+        <p className="mb-5 max-w-2xl text-xs leading-relaxed text-muted">
+          Ausführlich gescoutete Einzelfälle: Rekordhalter, Award-Gewinner und
+          Spieler mit einer Geschichte, die über die Statistik hinausgeht.
+        </p>
+
         <Reveal className="grid gap-4 sm:grid-cols-2">
           {talents.map((p) => (
             <div
               key={getEuropeTalentSlug(p.name)}
-              className="flex flex-col gap-3 rounded-xl border border-border bg-surface p-5"
+              /* min-w-0 + break-words: Grid-Items haben min-width:auto und
+                 wachsen sonst auf die min-content-Breite des laengsten Worts,
+                 wodurch die Karte auf Mobil breiter wird als ihre Spalte. */
+              className="flex min-w-0 flex-col gap-3 break-words rounded-xl border border-border bg-surface p-5"
             >
               <div className="flex items-center gap-3">
                 <span className="relative h-12 w-12 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">
@@ -141,15 +157,56 @@ export default function EuropaTalentePage() {
           ))}
         </Reveal>
 
+        <section className="mt-14">
+          <h2 className="mb-4 font-display text-2xl font-semibold uppercase tracking-tight text-foreground">
+            Scouting-Radar
+          </h2>
+          <p className="mb-5 max-w-2xl text-xs leading-relaxed text-muted">
+            {radarMeta.note}
+          </p>
+          <div className="mb-6 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest">
+            <span className="rounded-full border border-border bg-surface px-2.5 py-1 text-muted">
+              {radarMeta.counts.total} Spieler
+            </span>
+            <span className="rounded-full border border-primary/30 bg-primary-glow px-2.5 py-1 text-primary">
+              {radarMeta.counts.europlayers} mit Europlayers-Profil
+            </span>
+            <span className="rounded-full border border-accent/40 bg-accent-glow px-2.5 py-1 text-accent">
+              {radarMeta.counts.hudl} mit Hudl-Profil
+            </span>
+          </div>
+          <EuropeRadar players={radar} />
+        </section>
+
         <AdSense slot="6888694163" layout="in-article" className="mt-12" />
 
-        <p className="mt-10 text-[10px] text-muted">
-          Diese Liste ist ein eigenständiges Scouting-Radar für europäische
-          Ligen (allen voran die European League of Football) und folgt
-          bewusst nicht der NFL-Draft-Eligibility-Logik unseres Big Boards.
-          Aufgenommen wird nur, wer mit mindestens zwei unabhängigen Quellen
-          belegt ist. Stand: {meta.updated}. Die Liste wächst laufend.
-        </p>
+        <div className="mt-10 space-y-2 text-[10px] leading-relaxed text-muted">
+          <p>
+            Diese Liste ist ein eigenständiges Scouting-Radar für europäische
+            Ligen (allen voran die European League of Football) und folgt
+            bewusst nicht der NFL-Draft-Eligibility-Logik unseres Big Boards.
+            Aufgenommen wird nur, wer mit mindestens zwei unabhängigen Quellen
+            belegt ist. Stand: {meta.updated}. Die Liste wächst laufend.
+          </p>
+          <p>
+            <strong className="text-foreground/70">Zu den Profil-Links:</strong>{" "}
+            Ein Europlayers- oder Hudl-Button erscheint ausschließlich dann, wenn
+            das Profil dort wirklich existiert und sich eindeutig diesem Spieler
+            zuordnen ließ – bei Hudl über den Abgleich der im Profil hinterlegten
+            Hochschule, bei Europlayers über einen eindeutigen Namenstreffer im
+            Spielerverzeichnis. Mehrdeutige Treffer werden verworfen statt geraten.
+            Instagram-Accounts werden nur angezeigt, wenn sie sich belegen lassen;
+            weder Hudl noch Europlayers noch die College-Bios geben sie öffentlich
+            preis, deshalb ist dieses Feld derzeit leer.
+          </p>
+          <p>
+            <strong className="text-foreground/70">Wichtig vor der Kontaktaufnahme:</strong>{" "}
+            Der Kader-Status wurde gegen den NFL Draft 2026 geprüft (kein Spieler
+            dieser Liste wurde gedraftet). Undrafted-Free-Agent-Verträge und
+            Practice-Squad-Wechsel lassen sich nicht flächendeckend nachverfolgen –
+            bekannte Fälle sind markiert, im Zweifel bitte tagesaktuell prüfen.
+          </p>
+        </div>
       </div>
     </main>
   );
