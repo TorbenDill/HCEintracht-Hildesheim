@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-18",
-  "intro": "Nicht jeder herausragende College-Football-Spieler geht in die NFL. In Division II und III (und teils NAIA) spielen jedes Jahr Athleten, deren Produktion und Physis für die GFL (German Football League) und die anderen europäischen Ligen sofortigen Star-Status bedeuten würde. Diese Liste sammelt genau solche Talente. Sie ist bewusst KEIN Draft-Big-Board und folgt keiner NFL-Draft-Eligibility-Logik.",
+  "intro": "Nicht jeder herausragende College-Football-Spieler geht in die NFL. In Division II und III (und teils NAIA) spielen jedes Jahr Athleten, deren Produktion und Physis für die GFL (German Football League) und die anderen europäischen Ligen sofortigen Star-Status bedeuten würde. Das Vorbild sind Karrieren wie die von AJ Wentland (McKendree, Division II), der als GFL-Rookie mit 206 Tackles einen Ligarekord aufstellte, Griffin Neal (Concordia-Moorhead, Division III), der bei den Hildesheim Invaders anfing und es bis ins NFL-Camp der Saints schaffte, oder Casey Therriault, der Braunschweig zu vier German Bowls und einem Eurobowl führte. Diese Liste sammelt genau solche Talente. Sie ist bewusst KEIN Draft-Big-Board und folgt keiner NFL-Draft-Eligibility-Logik.",
   "players": [
     {
       "name": "Montie Quinn",
@@ -38,6 +38,177 @@
       "source_urls": {
         "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
         "startribune.com": "https://www.startribune.com/wisconsin-river-falls-quarterback-kaleb-blaha-wins-gagliardi-trophy-as-division-iiis-top-player/601556629"
+      }
+    },
+    {
+      "name": "Curtis Allen",
+      "position": "RB",
+      "college": "Virginia Union",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "215 lbs",
+      "highlight": "Harlon-Hill-Trophy-Gewinner 2025 – als erster HBCU-Spieler überhaupt: 2.409 Rushing-Yards und 30 Touchdowns, jeweils Bestwert aller College-Divisionen.",
+      "report_de": "Curtis Allen hat 2025 die produktivste Saison abgeliefert, die der College-Football auf irgendeiner Ebene zu bieten hatte: 2.409 Rushing-Yards bei 8,1 Yards pro Lauf, 30 Rushing-Touchdowns und 180 Punkte, jeweils die höchsten Werte über alle Divisionen hinweg. In jedem einzelnen Spiel knackte er die 100-Yard-Marke, viermal die 200er, und gegen Bluefield State legte er am 1. November 369 Yards und fünf Touchdowns auf. Dafür gab es die Harlon Hill Trophy, das Heisman-Äquivalent der Division II, die zuvor zehn Jahre in Folge an Quarterbacks gegangen war und die noch nie ein Spieler einer HBCU gewonnen hatte. Bei 6'2\" und 215 Pfund ist er der klassische Bellcow-Back mit Größe, Balance und Ausdauer. Nach dem NFL Draft 2026 blieb es für ihn allerdings bei Minicamp-Einladungen von Seahawks und Falcons statt eines Vertrags – genau die Konstellation, in der europäische Klubs zuschlagen sollten.",
+      "sources": [
+        "theciaa.com",
+        "hbcugameday.com"
+      ],
+      "source_urls": {
+        "theciaa.com": "https://theciaa.com/news/2025/12/19/about-the-ciaa-the-quiet-storm-breaks-through-curtis-allen-makes-history-as-harlon-hill-trophy-recipient.aspx",
+        "hbcugameday.com": "https://hbcugameday.com/2026/04/27/hbcu-history-maker-gets-nfl-shot-after-draft/"
+      }
+    },
+    {
+      "name": "Justin Payoute",
+      "position": "S",
+      "college": "Ferris State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "highlight": "Cliff-Harris-Award 2025 als bester Defensivspieler des Small-College-Footballs – neun Interceptions, Bestwert aller Divisionen.",
+      "report_de": "Neun Interceptions in einer Saison fängt heute kaum noch jemand, Justin Payoute hat es 2025 getan und damit alle College-Divisionen angeführt. Dazu kommen 72 Tackles (35 solo), vier Tackles for Loss und zwei Defensiv-Touchdowns, einer nach Interception, einer nach Fumble Recovery. Besonders in den Playoffs drehte er auf: 14 Tackles gegen Ashland, je zwei Interceptions gegen Minnesota State und im Halbfinale gegen Newberry. Der Free Safety aus Miami Gardens war vier Jahre Stammspieler bei Ferris State, in denen die Bulldogs vier nationale Titel holten und eine Serie von 30 Siegen in Folge hinlegten. Konsens-First-Team-All-American und AP-Little-All-American. Ein ballsuchender Center Fielder mit dieser Instinkt-Quote entscheidet in der GFL, wo tiefe Bälle regelmäßig ganze Spiele drehen, mehr als jeder Pass-Rusher.",
+      "sources": [
+        "gliac.org",
+        "waltercamp.org"
+      ],
+      "source_urls": {
+        "gliac.org": "https://gliac.org/news/2026/1/22/ferris-state-footballs-justin-payoute-wins-cliff-harris-award-as-nations-top-defensive-player.aspx",
+        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
+      }
+    },
+    {
+      "name": "Gage Florence",
+      "position": "WR",
+      "college": "Minnesota State Moorhead",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "5'10\"",
+      "weight": "185 lbs",
+      "highlight": "NCAA-Division-II-Karriererekord mit 402 Receptions – 105 Fänge allein in der Saison 2025.",
+      "report_de": "Gage Florence ist kein Deep Threat, sondern der zuverlässigste Kettenverlängerer, den die Division II je hatte: Am 8. November 2025 gegen Jamestown stellte er mit insgesamt 402 Karriere-Receptions einen neuen NCAA-Division-II-Rekord auf. In seiner Abschlusssaison fing er 105 Bälle für 1.002 Yards und zwölf Touchdowns und führte damit sowohl die NSIC als auch die gesamte NCAA in der Regular Season bei den Receptions an, bei einem Saisonhoch von 17 Fängen gegen Northern Michigan. Bei 5'10\" und 185 Pfund lebt der gebürtige Nord-Dakotaner von Routenpräzision, Händen und Timing statt von Athletik-Testwerten. Ausgezeichnet als AFCA Second Team All-American, D2CCA First Team, Walter Camp All-American und AP-Little-All-American First Team, dazu CSC Academic All-American. Genau der Slot-Receiver-Typ, der einem europäischen Quarterback jede dritte Serie rettet.",
+      "sources": [
+        "msumdragons.com",
+        "waltercamp.org"
+      ],
+      "source_urls": {
+        "msumdragons.com": "https://www.msumdragons.com/sports/football/roster/gage-florence/10113",
+        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
+      }
+    },
+    {
+      "name": "Tim Anderson",
+      "position": "OT",
+      "college": "Ferris State",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "highlight": "Gene Upshaw Award 2025 als bester Lineman der Division II – Anker einer Offensive Line, die in 14 Spielen nur 17 Sacks zuließ.",
+      "report_de": "Import-Offensive-Tackles sind in Europa die knappste Ressource überhaupt, und Tim Anderson ist der beste, der 2025 aus der Division II kam. Der Right Tackle aus Rochester, Michigan, war drei Jahre Stammspieler und wurde mit dem Gene Upshaw Award als bester Lineman der Division II ausgezeichnet, dem vierten für Ferris State seit 2019. Seine Line ließ in 14 Spielen ganze 17 Sacks zu und blockte für die produktivste Offense der Division II; Ferris State beendete die Saison ungeschlagen als nationaler Meister. Dazu GLIAC Offensive Lineman of the Year, D2CCA First Team All-Super-Region-3 und AP-Little-All-American. Ein Detail, das den Football-Hintergrund erklärt: Sein Zwillingsbruder Bob spielte auf derselben Line. Wer in der GFL eine Pocket bauen will, sucht exakt dieses Profil.",
+      "sources": [
+        "lancastersportshalloffame.com",
+        "waltercamp.org"
+      ],
+      "source_urls": {
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
+      }
+    },
+    {
+      "name": "John Sullivan",
+      "position": "DL",
+      "college": "North Central (IL)",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": null,
+      "highlight": "Cliff-Harris-Award 2025 in der Division III: 22 Tackles for Loss, 8 Sacks, 21 QB-Hurries und 8 abgewehrte Pässe.",
+      "report_de": "John Sullivan hat 2025 eine Saison gespielt, in der jeder Gegner die Wochenplanung um ihn herum bauen musste: 73 Tackles, davon 22 für Raumverlust (94 Yards), acht Sacks, 21 Quarterback-Hurries und acht abgewehrte Pässe an der Line of Scrimmage. Die 22 Tackles for Loss stellten den Vereinsrekord von North Central ein, mit 39,5 in der Karriere steht er auf Platz sechs der Programmgeschichte. Dafür gab es den Cliff Harris Award als bester Defensivspieler der Division III, die Defensive-Player-of-the-Year-Auszeichnungen von D3football.com und Associated Press sowie First-Team-All-America-Ehrungen von allen vier Organisationen, die überhaupt Teams benennen – seine fünfte All-America-Auszeichnung insgesamt. Innen-Disruptoren dieses Kalibers sind in der GFL der schnellste Weg, eine ganze Defense zu sanieren.",
+      "sources": [
+        "northcentralcardinals.com",
+        "en.wikipedia.org"
+      ],
+      "source_urls": {
+        "northcentralcardinals.com": "https://northcentralcardinals.com/news/2026/1/15/football-sullivan-becomes-first-cardinal-to-win-cliff-harris-award.aspx",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      }
+    },
+    {
+      "name": "Albert Rundell",
+      "position": "WR",
+      "college": "Bethel (MN)",
+      "division": "NCAA Division III",
+      "class_year": "Junior",
+      "height": null,
+      "weight": null,
+      "highlight": "1.587 Receiving-Yards und 22 Touchdown-Fänge – die meisten Receiving-Yards aller College-Football-Ebenen 2025.",
+      "report_de": "Albert Rundell führte 2025 sämtliche Ebenen des College-Footballs bei den Receiving-Yards an: 122 Fänge für 1.587 Yards und 22 Touchdowns, beides Vereinsrekorde bei Bethel, dazu 124,08 All-Purpose-Yards pro Spiel. Sein Ausrufezeichen setzte er am 8. November gegen Carleton mit 21 Receptions und fünf Touchdown-Fängen in einem einzigen Spiel, die 21 Fänge sind MIAC-Rekord; gegen St. Olaf standen 246 Yards zu Buche. Gagliardi-Trophy-Finalist, AFCA und AP First Team All-American. Ein wichtiger Hinweis für die Planung: Rundell war 2025 erst Junior und hat damit noch ein Jahr College-Eligibility – er ist ein Kandidat für den Import-Markt 2027, nicht für sofort. Wer jetzt schon Kontakt aufbaut, hat gegenüber der ELF-Konkurrenz einen echten Vorsprung.",
+      "sources": [
+        "athletics.bethel.edu",
+        "gojohnnies.com"
+      ],
+      "source_urls": {
+        "athletics.bethel.edu": "https://athletics.bethel.edu/news/2025/12/18/albert-rundell-named-one-of-five-finalists-for-2025-gagliardi-trophy-given-to-division-iiis-top-football-player.aspx",
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
+      }
+    },
+    {
+      "name": "Jack Curtis",
+      "position": "QB",
+      "college": "Carleton College",
+      "division": "NCAA Division III",
+      "class_year": "Senior",
+      "height": "6'4\"",
+      "weight": null,
+      "highlight": "3.120 Passing-Yards, 29 Touchdowns und 72,5 Prozent Completions – aufgestellt, während er sich alle zwei Wochen einer Chemotherapie unterzog.",
+      "report_de": "Jack Curtis ist der erste Gagliardi-Trophy-Finalist der Carleton-Geschichte und wurde 2025 zum MIAC Offensive Player of the Year gewählt: 284 von 392 Pässen für 3.120 Yards und 29 Touchdowns, 72,45 Prozent Completions, 312 Passing-Yards pro Spiel (Platz neun der Division III) und 28,4 Completions pro Partie (Platz vier). Er brach Carletons Vereinsrekorde bei Completions, Completion-Quote und Passing-Yards und stellte mit 254 Completions eine MIAC-Bestmarke auf, dazu sieben 300-Yard-Spiele in der Conference. Dass er diese Saison spielte, während er sich wegen einer fortgeschrittenen Hodgkin-Lymphom-Erkrankung alle zwei Wochen einer Chemotherapie unterzog, hat seine Conference selbst öffentlich gemacht – es sagt mehr über seine Mentalität als jedes Scouting-Grade. Physikstudent, 6'4\", Rhythmus-Passer aus der Pocket: der Typ Quarterback, der eine europäische Offense sofort organisiert.",
+      "sources": [
+        "athletics.carleton.edu",
+        "miacathletics.com"
+      ],
+      "source_urls": {
+        "athletics.carleton.edu": "https://athletics.carleton.edu/news/2025/12/18/football-jack-curtis-among-finalists-for-gagliardi-trophy.aspx",
+        "miacathletics.com": "https://miacathletics.com/news/2025/12/19/football-curtis-rundell-named-finalists-for-gagliardi-trophy.aspx"
+      }
+    },
+    {
+      "name": "Bay Harvey",
+      "position": "QB",
+      "college": "Johns Hopkins",
+      "division": "NCAA Division III",
+      "class_year": "Graduate Student",
+      "height": "6'2\"",
+      "weight": null,
+      "highlight": "26-3 als Starter, 105 Karriere-Touchdowns und 2025 ein Dual-Threat-Jahr mit 3.091 Passing- und 621 Rushing-Yards.",
+      "report_de": "Bay Harvey ist der Gewinner-Quarterback dieser Liste: 26 Siege bei drei Niederlagen als Starter, 105 Karriere-Touchdowns (79 durch die Luft, 26 am Boden, gemeinsamer Programmrekord), 7.609 Passing-Yards und 9.090 Yards Total Offense, jeweils Platz drei in der Geschichte von Johns Hopkins. 2025 kam er auf 219 von 318 Pässen (68,9 Prozent) für 3.091 Yards, 31 Touchdowns und nur vier Interceptions und lief zusätzlich 621 Yards und zwölf Touchdowns, was den Vereinsrekord für einen Quarterback bedeutet. National stand er auf Rang sechs bei der Pass-Effizienz (180,2) und auf Rang fünf bei den verantworteten Punkten (258); dazu AP Third Team All-American und D3football.com Region 2 Offensive Player of the Year. Ein Realismus-Hinweis für interessierte Klubs: Harvey hat seinen Abschluss bereits in der Tasche und arbeitet in Vollzeit im Energiehandel – ein Angebot muss hier gegen eine laufende Karriere außerhalb des Footballs bestehen.",
+      "sources": [
+        "hopkinssports.com",
+        "gojohnnies.com"
+      ],
+      "source_urls": {
+        "hopkinssports.com": "https://hopkinssports.com/news/2025/12/18/football-harvey-named-one-of-five-finalists-for-gagliardi-trophy.aspx",
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
+      }
+    },
+    {
+      "name": "Thomas Ibrahim",
+      "position": "DL",
+      "college": "Southeastern University (FL)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": null,
+      "weight": null,
+      "highlight": "Cliff-Harris-Award 2025 für die NAIA – Ligaführender bei Sacks (11) und Tackles for Loss (24).",
+      "report_de": "In zwölf Spielen kam Thomas Ibrahim auf elf Sacks und 24 Tackles for Loss und führte damit die gesamte NAIA in beiden Kategorien an; die 24 TFL sind zugleich Vereinsrekord der Southeastern University. Dazu 68 Tackles (31 solo). In der Karriere stehen 157 Tackles (Platz sechs der Programmgeschichte), 33,5 Tackles for Loss (Platz zwei) und 15,5 Sacks (geteilter Platz drei). Ausgezeichnet mit dem Cliff Harris Award als bester Defensivspieler der NAIA, dazu AFCA NAIA Coaches First Team All-American, AP First Team NAIA All-America und First Team All-Sun Conference. Die NAIA ist für europäische Klubs seit Jahren einer der ergiebigsten Import-Pools, gerade auf der Defensive Line – und Ibrahim war 2025 der beste Mann in diesem Pool.",
+      "sources": [
+        "fire.seu.edu",
+        "en.wikipedia.org"
+      ],
+      "source_urls": {
+        "fire.seu.edu": "https://fire.seu.edu/news/2025/12/20/football-thomas-ibrahim-named-2025-cliff-harris-award-recipient.aspx",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       }
     }
   ]
