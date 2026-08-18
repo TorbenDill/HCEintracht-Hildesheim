@@ -1434,13 +1434,47 @@
     "herkunft": ""
   },
   {
+    "name": "Bray Hubbard",
+    "position": "S",
+    "college": "Alabama",
+    "height": "6'2\"",
+    "weight": "213 lbs",
+    "ranking_pos": 4,
+    "ranking_overall": 45,
+    "forstner_statement": "Ein Ex-Quarterback, der jetzt als Safety den Ball liest statt ihn zu werfen, das erklärt seine Instinkte sofort. Vier Interceptions und First-Team-All-SEC sind keine Fleißarbeit, das ist echte Produktion; dass er den frühen Sprung ausgeschlagen hat, spricht für sein Selbstvertrauen in die Saison 2026.",
+    "piktogramme": [
+      "Vielseitigkeit",
+      "Communication",
+      "Special Teams"
+    ],
+    "scouting_report_de": "Bray Hubbards Weg zum Safety ist ungewöhnlich: In der High School war er ein Dual-Threat-Quarterback, der für über 5.000 Yards warf und zweimal zum besten Football-Spieler seines Bundesstaats gewählt wurde, ehe Alabama ihn als Defensive Back verpflichtete. Die Umstellung ist geglückt. Nach einem verletzungsbedingten Einspringen 2024 übernahm er 2025 als Starter und führte die Crimson Tide mit vier Interceptions an, dazu 79 Tackles, zwei Pass Breakups und ein Forced Fumble. Die Liga honorierte das mit First-Team-All-SEC-Ehren von AP und Coaches sowie Second-Team All-America von der AFCA. Vor der Saison 2026 stand ein früher Draft-Sprung ernsthaft im Raum, Hubbard entschied sich aber für ein letztes Jahr in Tuscaloosa und wurde prompt als Preseason Second-Team All-American geführt. Auf dem Feld verbindet er Football-IQ aus seiner Quarterback-Vergangenheit mit der Physis, um sowohl in der Box als auch im Deep-Third zu bestehen. Bleibt die Produktion 2026 auf diesem Niveau, ist ein Sprung in die Day-2-Diskussion naheliegend.",
+    "best_case_nfl": "Xavier McKinney (Packers) – vielseitiger Ballhawk-Safety mit Football-IQ, der aus der Box wie aus der tiefen Zone Interceptions produziert.",
+    "worst_case_nfl": "Jordan Battle (Bengals) – solider, physischer Safety, dessen Range im Deep-Third Grenzen zeigt und der auf eine Rotationsrolle limitiert bleibt.",
+    "class_year": "Senior",
+    "projection": "Runde 2-3",
+    "sources": [
+      "espn.com",
+      "on3.com",
+      "si.com"
+    ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5077638/bray-hubbard",
+      "on3.com": "https://www.on3.com/college/alabama-crimson-tide/news/alabama-safety-bray-hubbard-returning-to-school-for-2026-season/",
+      "si.com": "https://www.si.com/college/alabama/football/alabama-s-2026-defense-gets-huge-boost-with-return-of-bray-hubbard"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
+  },
+  {
     "name": "Ashton Hampton",
     "position": "CB",
     "college": "Clemson",
     "height": "",
     "weight": "",
     "ranking_pos": 6,
-    "ranking_overall": 45,
+    "ranking_overall": 46,
     "forstner_statement": "Hamptons Augen in Zone-Coverage sind top - der Mann liest Quarterbacks und produziert Bälle. Meine einzige Sorge: Kommt er gegen die großen, physischen Receiver klar? Das entscheidet, ob er ein Starter oder ein Schema-Spezialist wird.",
     "piktogramme": [
       "Zone IQ",
@@ -1471,7 +1505,7 @@
     "height": "6'2\"",
     "weight": "245 lbs",
     "ranking_pos": 3,
-    "ranking_overall": 46,
+    "ranking_overall": 47,
     "forstner_statement": "Viliamu-Asa kommt downhill wie ein Zug und bringt als Blitzer noch was extra mit - das ist ein moderner Thumper. In diesem Notre-Dame-Kern geht er fast unter, dabei verankert er die ganze Front.",
     "piktogramme": [
       "Coverage",
@@ -1503,7 +1537,7 @@
     "height": "6'3\"",
     "weight": "255 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 47,
+    "ranking_overall": 48,
     "forstner_statement": "64 Pressures sind kein Zufall und kein Scheme, das ist Handwerk. Lubin rusht, als hätte er für jeden Tackle, den er trifft, einen eigenen Plan. Wenn er lernt, gegen ein Doppelteam nicht nach hinten zu gehen, wird er teuer.",
     "piktogramme": [
       "Power Rush",
@@ -1537,7 +1571,7 @@
     "height": "6'6\"",
     "weight": "215 lbs",
     "ranking_pos": 8,
-    "ranking_overall": 48,
+    "ranking_overall": 49,
     "forstner_statement": "In der Red Zone ist Duff bei 6'6\" eine Cheat-Code - 22 contested catches lügen nicht. Meine einzige echte Frage: Trennt er sich auch von NFL-Corner, oder wird er nur ein Jump-Ball-Spezialist? Das entscheidet über Runde 1 oder Day 2.",
     "piktogramme": [
       "Body Control",
@@ -1569,7 +1603,7 @@
     "height": "6'3\"",
     "weight": "330 lbs",
     "ranking_pos": 1,
-    "ranking_overall": 49,
+    "ranking_overall": 50,
     "forstner_statement": "Laloulu ist ein People-Mover mit einem Anker aus Beton - so einen Center stellst du hin und vergisst die Position zehn Jahre lang. Center werden ständig unterbewertet; ich nicht, ich liebe verlässliche Innenblöcke.",
     "piktogramme": [
       "Pass Protection",
@@ -1600,7 +1634,7 @@
     "height": "6'2\"",
     "weight": "245 lbs",
     "ranking_pos": 7,
-    "ranking_overall": 50,
+    "ranking_overall": 51,
     "forstner_statement": "Pierre ist noch ein Wettschein, kein fertiges Produkt - aber die Flashes, die er zeigt, sind echt. Erstmals Full-Time-Starter zu sein ist genau die Bühne, auf der so einer explodiert; ich habe ihn auf der Watchlist ganz oben.",
     "piktogramme": [
       "Power Rush",
@@ -1631,7 +1665,7 @@
     "height": "6'2\"",
     "weight": "265 lbs",
     "ranking_pos": 8,
-    "ranking_overall": 51,
+    "ranking_overall": 52,
     "forstner_statement": "Diese Sack-Kurve Jahr für Jahr nach oben ist genau das, was ich sehen will - Tuioti arbeitet an sich, das steht auf jedem Snap. Neben Hutchinson in Detroit würde er sofort Sinn ergeben, ich sehe da kein bisschen Reach.",
     "piktogramme": [
       "Motor",
@@ -1664,7 +1698,7 @@
     "height": "6'4\"",
     "weight": "315 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 52,
+    "ranking_overall": 53,
     "forstner_statement": "Baker ist technisch schon jetzt sauberer als viele Senioren - der Junge weiß, was er tut. Die einzige offene Frage steht auf dem Maßband beim Combine; fällt die Armlänge, bleibt er Tackle, und dann ist er ein Erstrunden-Kandidat.",
     "piktogramme": [
       "Zone Blocking",
@@ -1696,7 +1730,7 @@
     "height": "6'5\"",
     "weight": "235 lbs",
     "ranking_pos": 9,
-    "ranking_overall": 53,
+    "ranking_overall": 54,
     "forstner_statement": "Harbor war lange der Spieler, bei dem das Auge etwas sah, das der Stat-Sheet nicht bestätigte. 618 Yards und sechs Touchdowns als teambester Receiver sind nun ein Anfang, und jetzt kommt mit Platz 1 auf der Freaks List sogar die offizielle Bestätigung fürs Auge dazu. Ich kaufe hier noch eine Wette auf die Entwicklung, aber die Wette ist billiger geworden.",
     "piktogramme": [
       "Speed",
@@ -1732,7 +1766,7 @@
     "height": "6'6\"",
     "weight": "250 lbs",
     "ranking_pos": 9,
-    "ranking_overall": 54,
+    "ranking_overall": 55,
     "forstner_statement": "Nwaneri ist pure Kinetik, so eine Kombination aus Länge und erstem Schritt siehst du selten, das ist ein Lottoschein mit Hauptgewinn-Potenzial. Er braucht einen zweiten und dritten Move, aber wer auf Upside wettet, kommt an diesem Namen nicht vorbei.",
     "piktogramme": [
       "Motor",
@@ -1764,7 +1798,7 @@
     "height": "",
     "weight": "",
     "ranking_pos": 4,
-    "ranking_overall": 55,
+    "ranking_overall": 56,
     "forstner_statement": "Roberts ist ein Tackling-Automat - der Mann bringt runter, was er erreicht, ganz ohne Firlefanz. In dieser LB-Klasse ohne echte Stars ist so ein verlässlicher Downhill-Typ früh am zweiten Tag genau richtig einsortiert.",
     "piktogramme": [
       "Run Stop",
@@ -1795,7 +1829,7 @@
     "height": "6'3\"",
     "weight": "240 lbs",
     "ranking_pos": 8,
-    "ranking_overall": 56,
+    "ranking_overall": 57,
     "forstner_statement": "Lagways Arm gehört zum Besten in dieser Klasse, da beißt die Maus keinen Faden ab, nur muss der Kopf mit dem Arm mithalten. Ich mag Spieler, die den tiefen Ball suchen, aber die Turnover-Phasen und die kleinen Wehwehchen halten mich noch zurück; das ist eine Wette auf die Reife.",
     "piktogramme": [
       "Arbeitsmoral",
@@ -1826,8 +1860,8 @@
     "college": "Oregon",
     "height": "6'2\"",
     "weight": "195 lbs",
-    "ranking_pos": 4,
-    "ranking_overall": 57,
+    "ranking_pos": 5,
+    "ranking_overall": 58,
     "forstner_statement": "Woodyard ist genau der positionslose Safety-Typ, nach dem ich in der modernen Liga suche, tiefes Drittel, Slot, Box, alles dabei. Ihm fehlen nur die Turnovers fürs Schaufenster; kommen sie 2026, klettert er auf meinem Board deutlich.",
     "piktogramme": [
       "Depth",
@@ -1859,7 +1893,7 @@
     "height": "5'11\"",
     "weight": "200 lbs",
     "ranking_pos": 4,
-    "ranking_overall": 58,
+    "ranking_overall": 59,
     "forstner_statement": "Frazier läuft mit einer Wucht und einem Antritt, die in Georgias Backfield sofort auffallen, der Junge macht aus wenig viel. Nur die wiederkehrende Knöchelgeschichte bremst mich gerade, das will ich erst gesund über eine ganze Saison sehen, ehe ich ihn wieder höher setze.",
     "piktogramme": [
       "Power",
@@ -1893,7 +1927,7 @@
     "height": "6'4\"",
     "weight": "225 lbs",
     "ranking_pos": 9,
-    "ranking_overall": 59,
+    "ranking_overall": 60,
     "forstner_statement": "Maiavas Touch ist Kunst - der legt Bälle in Körbe, die andere gar nicht sehen. Nur die Turnover-Phasen machen mir Bauchschmerzen; räumt er die weg, redet keiner mehr über 'Runde 1 oder 2'.",
     "piktogramme": [
       "Arbeitsmoral",
@@ -1924,7 +1958,7 @@
     "height": "6'3\"",
     "weight": "220 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 60,
+    "ranking_overall": 61,
     "forstner_statement": "Beim Namen Raiola zucken alle zusammen, weil sofort Mahomes im Raum steht, und genau da bremse ich. Solange er hinter Dante Moore sitzt, sammelt er keine Snaps und keine Argumente, und ohne Snaps declarest du nicht. Ich führe ihn nur noch als Notiz für 2027, das eigentliche Thema wird er im Draft 2028.",
     "piktogramme": [
       "Arbeitsmoral",
@@ -1957,7 +1991,7 @@
     "height": "5'10\"",
     "weight": "183 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 61,
+    "ranking_overall": 62,
     "forstner_statement": "Faison ist die Art von Geschichte, die ich als Scout liebe: ein Lacrosse-Wunderkind, das sich per Walk-on ins Football-Programm gekämpft hat und jetzt Notre Dames bester Receiver ist. Dass er den Schläger für 2026 komplett weglegt, zeigt mir, wie ernst er es meint; für einen Slot-Receiver mit dieser Explosivität ist Runde 1 keine Utopie.",
     "piktogramme": [
       "Route Running",
@@ -1991,7 +2025,7 @@
     "height": "6'2\"",
     "weight": "190 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 62,
+    "ranking_overall": 63,
     "forstner_statement": "Wesco hatte 2025 genau die Anlagen, die mich an der Außenposition begeistern, ehe die Rückenverletzung alles gestoppt hat. Kommt er 2026 gesund durch eine komplette Saison, klettert er auf meinem Board schnell wieder nach oben; das Talent war nie das Problem.",
     "piktogramme": [
       "Slot-Profil",
@@ -2018,13 +2052,47 @@
     "herkunft": ""
   },
   {
+    "name": "Lawson Luckie",
+    "position": "TE",
+    "college": "Georgia",
+    "height": "6'4\"",
+    "weight": "240 lbs",
+    "ranking_pos": 3,
+    "ranking_overall": 64,
+    "forstner_statement": "Luckie ist der Typ Legacy-Spieler, den ich gern übersehen sehe, weil dann die Wette günstiger wird. Die Vertical-Geschwindigkeit für einen 240-Pfund-Tight-End ist real, jetzt muss die Zielanzahl mitziehen; kommt sie, klettert er bei mir schnell.",
+    "piktogramme": [
+      "Special Teams",
+      "Developmental",
+      "Move-TE"
+    ],
+    "scouting_report_de": "Lawson Luckie ist die Definition eines Georgia-Legacy-Prospects: als Sohn des Programms unterschrieben, in der Rotation gereift und jetzt bereit für die Bühne. Der 6'4\" große Tight End hat sich zum TE1 der Bulldogs hochgearbeitet und steht folgerichtig auf der John-Mackey-Award-Watch-List 2026, die die besten Tight Ends des Landes auszeichnet. In seiner Karriere kommt er auf 41 Fänge für 515 Yards und acht Touchdowns, mit einem Drei-Touchdown-Ausbruch gegen Ole Miss als bisherigem Höhepunkt. 2025 blieb die Statistik mit 15 Fängen für 158 Yards und vier Touchdowns noch bescheiden, was vor allem an der geteilten Zielverteilung in Georgias Offense lag. Auf dem Feld zeigt er gute Vertical-Geschwindigkeit für seine Größe, sauberen Route-Baum und verlässliche Hände; das Blocking bleibt die Baustelle, an der NFL-Teams vor dem Draft genau hinschauen werden. Kehrt er 2026 als Senior mit größerer Zielrolle zurück, ist der Sprung in die Day-2-Diskussion realistisch. Ein klassischer Sleeper mit Programm-Pedigree, der auf die richtige Saison wartet.",
+    "best_case_nfl": "Cole Kmet (Bears) – zuverlässiger Receiving-Tight-End mit gutem Football-IQ, der als TE1 einer Offense Struktur und Red-Zone-Wert gibt.",
+    "worst_case_nfl": "Isaac Nauta (a.D.) – vielversprechender Georgia-TE, dessen Blocking-Defizite und unstete Produktion ihn nie über eine Rotationsrolle hinausbringen.",
+    "class_year": "Senior",
+    "projection": "Runde 3-4",
+    "sources": [
+      "espn.com",
+      "on3.com",
+      "si.com"
+    ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4870874/lawson-luckie",
+      "on3.com": "https://www.on3.com/teams/georgia-bulldogs/news/georgia-te-lawson-luckie-announces-his-return-for-2026/",
+      "si.com": "https://www.si.com/college/georgia/football/georgia-bulldogs-tight-end-lawson-luckie-officially-announces-2026-nfl-draft-decision-01kdzp5ffrbq"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": ""
+  },
+  {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 63,
+    "ranking_overall": 65,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -2056,8 +2124,8 @@
     "college": "Northwestern",
     "height": "6'6\"",
     "weight": "275 lbs",
-    "ranking_pos": 3,
-    "ranking_overall": 64,
+    "ranking_pos": 4,
+    "ranking_overall": 66,
     "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
     "piktogramme": [
       "Blocking TE",
@@ -2090,7 +2158,7 @@
     "height": "6'4\"",
     "weight": "264 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 65,
+    "ranking_overall": 67,
     "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
     "piktogramme": [
       "Rotation",
@@ -2122,7 +2190,7 @@
     "height": "6'6\"",
     "weight": "270 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 66,
+    "ranking_overall": 68,
     "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
     "piktogramme": [
       "Rotation",
@@ -2154,7 +2222,7 @@
     "height": "6'3\"",
     "weight": "231 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 67,
+    "ranking_overall": 69,
     "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
     "piktogramme": [
       "Backup",
@@ -2186,7 +2254,7 @@
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 68,
+    "ranking_overall": 70,
     "forstner_statement": "Bobfahrer-Explosivität und eine Olympia-Mutter, das steht in keinem Scouting-Bericht, ergibt aber Sinn, wenn man ihn laufen sieht. Brune ist noch nicht fertig, und in der MAC bekommt er auch nicht die Duelle, die ein Draft-Gremium überzeugen. Trägt er 2026 die Last und kommt über 1.000 Yards, will ich seinen Namen im Camp hören.",
     "piktogramme": [
       "Physikalität",

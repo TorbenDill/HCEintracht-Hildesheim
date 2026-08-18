@@ -307,172 +307,186 @@
     "projection": "Runde 2",
     "ranking_overall": 44
   },
+  "bray-hubbard": {
+    "name": "Bray Hubbard",
+    "position": "S",
+    "college": "Alabama",
+    "projection": "Runde 2-3",
+    "ranking_overall": 45
+  },
   "ashton-hampton": {
     "name": "Ashton Hampton",
     "position": "CB",
     "college": "Clemson",
     "projection": "Runde 2",
-    "ranking_overall": 45
+    "ranking_overall": 46
   },
   "kyngstonn-viliamu-asa": {
     "name": "Kyngstonn Viliamu-Asa",
     "position": "LB",
     "college": "Notre Dame",
     "projection": "Runde 2",
-    "ranking_overall": 46
+    "ranking_overall": 47
   },
   "clev-lubin": {
     "name": "Clev Lubin",
     "position": "EDGE",
     "college": "Louisville",
     "projection": "Runde 2",
-    "ranking_overall": 47
+    "ranking_overall": 48
   },
   "kj-duff": {
     "name": "KJ Duff",
     "position": "WR",
     "college": "Rutgers",
     "projection": "Runde 2",
-    "ranking_overall": 48
+    "ranking_overall": 49
   },
   "iapani-laloulu": {
     "name": "Iapani Laloulu",
     "position": "IOL",
     "college": "Oregon",
     "projection": "Runde 2",
-    "ranking_overall": 49
+    "ranking_overall": 50
   },
   "yhonzae-pierre": {
     "name": "Yhonzae Pierre",
     "position": "EDGE",
     "college": "Alabama",
     "projection": "Runde 2-3",
-    "ranking_overall": 50
+    "ranking_overall": 51
   },
   "teitum-tuioti": {
     "name": "Teitum Tuioti",
     "position": "EDGE",
     "college": "Oregon",
     "projection": "Runde 3",
-    "ranking_overall": 51
+    "ranking_overall": 52
   },
   "brandon-baker": {
     "name": "Brandon Baker",
     "position": "OT",
     "college": "Texas",
     "projection": "Runde 3",
-    "ranking_overall": 52
+    "ranking_overall": 53
   },
   "nyckoles-harbor": {
     "name": "Nyckoles Harbor",
     "position": "WR",
     "college": "South Carolina",
     "projection": "Runde 3",
-    "ranking_overall": 53
+    "ranking_overall": 54
   },
   "williams-nwaneri": {
     "name": "Williams Nwaneri",
     "position": "EDGE",
     "college": "Nebraska",
     "projection": "Runde 3",
-    "ranking_overall": 54
+    "ranking_overall": 55
   },
   "ben-roberts": {
     "name": "Ben Roberts",
     "position": "LB",
     "college": "Texas Tech",
     "projection": "Runde 3",
-    "ranking_overall": 55
+    "ranking_overall": 56
   },
   "dj-lagway": {
     "name": "DJ Lagway",
     "position": "QB",
     "college": "Baylor",
     "projection": "Runde 3-4",
-    "ranking_overall": 56
+    "ranking_overall": 57
   },
   "peyton-woodyard": {
     "name": "Peyton Woodyard",
     "position": "S",
     "college": "Oregon",
     "projection": "Runde 3-4",
-    "ranking_overall": 57
+    "ranking_overall": 58
   },
   "nate-frazier": {
     "name": "Nate Frazier",
     "position": "RB",
     "college": "Georgia",
     "projection": "Runde 3",
-    "ranking_overall": 58
+    "ranking_overall": 59
   },
   "jayden-maiava": {
     "name": "Jayden Maiava",
     "position": "QB",
     "college": "USC",
     "projection": "Day 3",
-    "ranking_overall": 59
+    "ranking_overall": 60
   },
   "dylan-raiola": {
     "name": "Dylan Raiola",
     "position": "QB",
     "college": "Oregon",
     "projection": "Day 3 (Declare 2027 offen)",
-    "ranking_overall": 60
+    "ranking_overall": 61
   },
   "jordan-faison": {
     "name": "Jordan Faison",
     "position": "WR",
     "college": "Notre Dame",
     "projection": "Runde 1-2",
-    "ranking_overall": 61
+    "ranking_overall": 62
   },
   "bryant-wesco-jr": {
     "name": "Bryant Wesco Jr.",
     "position": "WR",
     "college": "Clemson",
     "projection": "Runde 3-4",
-    "ranking_overall": 62
+    "ranking_overall": 63
+  },
+  "lawson-luckie": {
+    "name": "Lawson Luckie",
+    "position": "TE",
+    "college": "Georgia",
+    "projection": "Runde 3-4",
+    "ranking_overall": 64
   },
   "hero-kanu": {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "projection": "Day 1-2 (Aufsteiger)",
-    "ranking_overall": 63
+    "ranking_overall": 65
   },
   "alexander-honig": {
     "name": "Alexander Honig",
     "position": "TE",
     "college": "Northwestern",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 64
+    "ranking_overall": 66
   },
   "max-stege": {
     "name": "Max Stege",
     "position": "EDGE",
     "college": "Boise State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 65
+    "ranking_overall": 67
   },
   "linus-zunk": {
     "name": "Linus Zunk",
     "position": "EDGE",
     "college": "Washington State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 66
+    "ranking_overall": 68
   },
   "justin-okoronkwo": {
     "name": "Justin Okoronkwo",
     "position": "LB",
     "college": "South Carolina",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 67
+    "ranking_overall": 69
   },
   "duncan-brune": {
     "name": "Duncan Brune",
     "position": "RB",
     "college": "Ohio",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 68
+    "ranking_overall": 70
   }
 }
