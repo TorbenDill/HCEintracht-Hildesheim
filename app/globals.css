@@ -85,10 +85,18 @@ input:focus-visible {
    keine Anzeige ausliefert – verhindert leeren Weißraum. */
 .ad-slot {
   text-align: center;
+  /* Liefert AdSense den Block aus, bevor die Slot-Breite feststeht, faellt
+     Google auf eine feste Breite zurueck (Konsolenfehler "No slot size for
+     availableWidth=0") und haengt einen iframe-Host ein, der breiter ist als
+     das Viewport – auf Mobil scrollt dann die ganze Seite horizontal. Der
+     Ueberlauf wird deshalb im Anzeigenblock gehalten statt am Dokument. */
+  max-width: 100%;
+  overflow-x: auto;
 }
 .ad-slot > ins.adsbygoogle {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 .ad-slot:has(> ins.adsbygoogle[data-ad-status="unfilled"]) {
   display: none !important;
