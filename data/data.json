@@ -2280,5 +2280,149 @@
     "qualitaet": "geprueft",
     "deutsch": true,
     "herkunft": "Köln (Cologne Crocodiles)"
+  },
+  {
+    "name": "Bruno Dall",
+    "position": "EDGE",
+    "college": "UCF",
+    "height": "6'7\"",
+    "weight": "260 lbs",
+    "ranking_pos": 12,
+    "ranking_overall": 71,
+    "forstner_statement": null,
+    "piktogramme": [
+      "Length",
+      "Pass-Rusher",
+      "Aufsteiger"
+    ],
+    "scouting_report_de": "Bruno Dall ist der deutsche Spieler mit dem klarsten Produktionsnachweis in diesem Zyklus. Der Hamburger kam ueber die St. Stanislaus High School nach Akron und lieferte dort 2025 die Saison, die ihn auf den Radar gebracht hat: 44 Tackles, 8,5 Tackles for Loss und 4,0 Sacks als Edge-Rusher, dazu sechs abgewehrte Paesse und eine Interception. Das sind ungewoehnliche Zahlen fuer einen Pass-Rusher und ein direkter Effekt seiner Reichweite - die Haende hochzubekommen, wenn der Rush nicht durchkommt, ist bei ihm Gewohnheit statt Zufall. Die Konferenz honorierte die Saison mit der Wahl ins Third-Team All-MAC. Bei 6'7\" und 260 Pfund bringt er genau die Arm- und Rahmenlaenge mit, nach der NFL-Teams auf der Edge suchen. Zur Saison 2026 wechselte er zu UCF, wo nach den Abgaengen von Malachi Lawrence und Nyjalik Kelly eine Startrolle auf ihn wartet - der Sprung von der MAC in den Big-12-Alltag ist der eigentliche Test. Eine seit dem Fruehjahr schwelende Oberschenkelverletzung hat ihn im Fall Camp zunaechst gebremst. Bleibt er gesund und uebertraegt er seine Akron-Produktion auf Power-Conference-Niveau, ist er der interessanteste deutsche Name dieses Draft-Jahrgangs.",
+    "best_case_nfl": "Carl Granderson - langer, produktiver Rotations-Edge, der ueber Reichweite und gestoerte Passwege Wert erzeugt.",
+    "worst_case_nfl": "Rotationsspieler auf Practice-Squad-Niveau, wenn der Sprung ins Power-Conference-Tempo die Produktion kostet.",
+    "class_year": "RS Junior",
+    "projection": "Day 2-3 (Aufsteiger)",
+    "sources": [
+      "ucfknights.com",
+      "espn.com",
+      "247sports.com",
+      "si.com",
+      "gozips.com"
+    ],
+    "source_urls": {
+      "ucfknights.com": "https://ucfknights.com/sports/football/roster/player/bruno-dall",
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5122026/bruno-dall",
+      "247sports.com": "https://247sports.com/player/bruno-dall-46138036/",
+      "si.com": "https://www.si.com/college/ucf/football/ucf-knights-edge-depth-chart-after-malachi-lawrence-drafted-in-first-round-mike-dawson-isaiah-nixon-bruno-dall-ken-talley-sincere-edwards-aymeric-koumba-l-a-jesse-harrold-01kq0jn1y75a",
+      "gozips.com": "https://gozips.com/sports/football/roster/bruno-dall/9607"
+    },
+    "quellen_anzahl": 5,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Hamburg"
+  },
+  {
+    "name": "Issa Ouattara",
+    "position": "DT",
+    "college": "Vanderbilt",
+    "height": "6'7\"",
+    "weight": "315 lbs",
+    "ranking_pos": 7,
+    "ranking_overall": 72,
+    "forstner_statement": null,
+    "piktogramme": [
+      "Freak-Athlet",
+      "Interior Length",
+      "Verletzungshistorie"
+    ],
+    "scouting_report_de": "Yilanan „Issa“ Ouattara ist der koerperlich auffaelligste deutsche Spieler im College-Football: 6'7\" und 315 Pfund, eine Kombination aus Hoehe und Kraft, die Vanderbilt intern als einzigartig im eigenen Kader beschreibt - die Freaks-Liste des Programms fuer 2026 fuehrt er an. Der Koelner kam spaet zum Football, entwickelte sich an der Rabun Gap-Nacoochee School und sagte den Commodores nach einer Camp-Tour mit PPI Recruits zu. Sein Problem war bisher nicht das Potenzial, sondern die Spielzeit: 31 Tackles, zwei Sacks, ein Fumble-Recovery und zwei abgewehrte Paesse stehen zu Buche, wobei beide Sacks und elf dieser Tackles aus den letzten drei Spielen einer Saison stammen - der Moment, in dem es zu klicken begann. Die Saison 2025 endete fuer ihn vorzeitig, im Fruehjahr 2026 stand er wieder auf dem Uebungsfeld, im August ging er ins Fall Camp. Fuer einen Interior-Spieler dieser Groesse ist Pad Level die Dauerbaustelle; kommt er unter die Pads von SEC-Guards, ist der Hebel enorm. 2026 ist seine Saison, um aus Rohmaterial einen Draft-Fall zu machen.",
+    "best_case_nfl": "Interior-Rotationsspieler mit seltenem Reichweiten-Profil, der Passbahnen zustellt und in Nickel-Fronten gebraucht wird.",
+    "worst_case_nfl": "Camp-Koerper - wenn Pad Level und Gesundheit die Produktion weiter begrenzen, bleibt es beim Potenzial.",
+    "class_year": "Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "espn.com",
+      "vucommodores.com",
+      "si.com",
+      "247sports.com"
+    ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4911912/yilanan-ouattara",
+      "vucommodores.com": "https://vucommodores.com/news/2026/03/26/vufb-spring-practice-5-yilanan-ouattara",
+      "si.com": "https://www.si.com/college/vanderbilt/football/yilanan-issa-ouattara-to-miss-remainder-of-2025-season",
+      "247sports.com": "https://247sports.com/player/yilanan-ouattara-46128394/"
+    },
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Köln"
+  },
+  {
+    "name": "Daniel Evert",
+    "position": "TE",
+    "college": "Temple",
+    "height": "6'5\"",
+    "weight": "250 lbs",
+    "ranking_pos": 5,
+    "ranking_overall": 73,
+    "forstner_statement": null,
+    "piktogramme": [
+      "Receiving-TE",
+      "Junger Jahrgang",
+      "Rotation"
+    ],
+    "scouting_report_de": "Daniel Evert ist der deutsche Tight End mit den bisher greifbarsten Ergebnissen. Der gebuertige Regensburger spielte fuer die Nuernberg Rams, ging ueber die NFL Academy in die USA und unterschrieb im Dezember 2023 bei Temple. Der Einstand haette kaum besser laufen koennen: Sein erster Collegeball ueberhaupt war ein Zwei-Yard-Touchdown gegen Utah State, seinen ersten Start gegen Army beantwortete er mit einem 54-Yard-Touchdown - ein Play, das zeigt, dass er nach dem Fang tatsaechlich Strecke macht und nicht nur ein Zonenfueller ist. Als Sophomore gehoerte er 2025 zur festen Tight-End-Rotation. Mit 6'5\" und 250 Pfund bringt er den Rahmen fuer eine Inline-Rolle mit, der naechste Schritt liegt klar in der Blockarbeit gegen echte Power-Conference-Edges. Fuer die Draft-Klasse 2027 ist er der juengste ernstzunehmende deutsche Kandidat: Gibt Temple ihm als Junior die Zielanteile, die seine Athletik rechtfertigt, wird aus dem Rotationsspieler ein Profil mit Draft-Wert.",
+    "best_case_nfl": "Move-Tight-End mit Flex-Alignments, Nahtstellen in der Zone und verlaesslichem Red-Zone-Fang.",
+    "worst_case_nfl": "Blocking-Spezialist ohne Zielanteile, der ueber Special Teams in einen Kader kommen muss.",
+    "class_year": "Junior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "espn.com",
+      "owlsports.com",
+      "temple-news.com",
+      "247sports.com"
+    ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5219878/daniel-evert",
+      "owlsports.com": "https://owlsports.com/sports/football/roster/daniel-evert/17208",
+      "temple-news.com": "https://temple-news.com/evert-finding-his-role-with-temple/",
+      "247sports.com": "https://247sports.com/player/daniel-evert-46142376/"
+    },
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Regensburg"
+  },
+  {
+    "name": "Noel Portnjagin",
+    "position": "IOL",
+    "college": "James Madison",
+    "height": "6'5\"",
+    "weight": "300 lbs",
+    "ranking_pos": 2,
+    "ranking_overall": 74,
+    "forstner_statement": null,
+    "piktogramme": [
+      "GFL-Ausbildung",
+      "Developmental",
+      "Neustart"
+    ],
+    "scouting_report_de": "Noel Portnjagin ist der Beleg dafuer, dass der Weg aus der GFL direkt in die Power Conferences inzwischen offensteht - und dafuer, wie steinig er bleibt. Er spielte bei den Schwaebisch Hall Unicorns, wurde von 247Sports als zweitbester deutscher Prospect seines Jahrgangs gefuehrt und sammelte auf seiner Sommer-Tour Angebote von Georgia, Alabama, Auburn und Florida State ein, ehe er 2024 bei Florida unterschrieb. In Gainesville blieb es bei einem einzigen Einsatz: fuenf Snaps im Gasparilla Bowl gegen Tulane. Im Dezember 2025 ging er in den Transfer Portal und sagte im Januar 2026 James Madison zu - ein Programm, das seit dem FBS-Aufstieg regelmaessig Offensive Linemen entwickelt und ihm die Snaps geben kann, die ihm bislang fehlen. Bei 6'5\" und 300 Pfund ist er koerperlich anschlussfaehig; entscheidend ist, dass er nach nur wenigen Jahren im Sport technische Grundlagen nachholt, die US-Spieler seit der Highschool mitbringen. 2026 ist fuer ihn kein Draft-Jahr, sondern das Jahr, in dem sich zeigt, ob ueberhaupt eins folgt.",
+    "best_case_nfl": "Entwickelbarer Guard mit Power-Conference-Rahmen, der ueber einen Practice Squad in eine Backup-Rolle waechst.",
+    "worst_case_nfl": "Rueckkehr nach Europa - in ELF oder GFL waere er sofort Starter an der Line.",
+    "class_year": "Sophomore",
+    "projection": "Watchlist (Entwicklungsprofil)",
+    "sources": [
+      "espn.com",
+      "247sports.com",
+      "si.com"
+    ],
+    "source_urls": {
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5147385/noel-portnjagin",
+      "247sports.com": "https://247sports.com/player/noel-portnjagin-46142281/",
+      "si.com": "https://www.si.com/college/florida/recruiting/florida-gators-recruiting-yoel-portnjagin-commitment-germany"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Karlsruhe"
   }
 ]

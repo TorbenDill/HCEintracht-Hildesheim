@@ -13,7 +13,7 @@ import AdSense from "@/components/AdSense";
 export const metadata = {
   title: "Deutsche NFL-Draft-Prospects 2027 (College, D1)",
   description:
-    "Deutsche Talente im College Football (NCAA Division 1) mit Kurs auf den NFL Draft 2027: Hero Kanu (Texas), Alexander Honig (Northwestern), Max Stege (Boise State), Justin Okoronkwo (South Carolina), Linus Zunk (Washington State), Duncan Brune (Ohio) – mit deutschem Scouting-Profil, Herkunft und Draft-Aussicht.",
+    "Deutsche Talente im College Football (NCAA Division 1) mit Kurs auf den NFL Draft 2027: Hero Kanu (Texas), Bruno Dall (UCF), Issa Ouattara (Vanderbilt), Alexander Honig (Northwestern), Daniel Evert (Temple), Max Stege (Boise State), Justin Okoronkwo (South Carolina), Linus Zunk (Washington State), Duncan Brune (Ohio), Noel Portnjagin (James Madison) – mit deutschem Scouting-Profil, Herkunft und Draft-Aussicht.",
   alternates: { canonical: "/deutsche-prospects" },
   openGraph: {
     type: "article",
