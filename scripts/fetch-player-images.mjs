@@ -21,7 +21,16 @@ const FREE = /(cc[-\s]?(by|by-sa|zero|0)|public domain|^pd|no restrictions|attri
 const SUFFIX = /^(jr|sr|ii|iii|iv|v)\.?$/i;
 
 function slug(name) {
-  return name.toLowerCase().replace(/\s+/g, "-").replace(/[.'’]/g, "");
+  // Muss identisch zu getPlayerSlug (lib/player-service.ts) und slugify
+  // (scripts/build_2027.py) bleiben - inklusive Umlaut-Transliteration.
+  return name
+    .toLowerCase()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/\s+/g, "-")
+    .replace(/[.'’]/g, "");
 }
 
 async function api(params) {

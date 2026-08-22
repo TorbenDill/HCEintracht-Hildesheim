@@ -349,6 +349,11 @@ def main():
             # Eigene Kategorie: deutsche Prospects (D1) + Herkunft.
             "deutsch": bool(p.get("deutsch")),
             "herkunft": p.get("herkunft") or "",
+            # Deutsche Talente, die fuer 2027 noch NICHT draft-berechtigt sind
+            # (Jahrgang 2028+). Sie laufen auf /deutsche-prospects in einem
+            # eigenen Block und bleiben aus Big Board und Positionsrankings
+            # heraus, damit sie nicht als 2027er-Prospects gelesen werden.
+            "naechste_generation": bool(p.get("naechste_generation")),
         })
 
     # Nach Overall-Rank sortieren (ungerankte ans Ende, stabil -> Datei-Reihenfolge).
@@ -369,7 +374,12 @@ def main():
     # Leerraum -> "-", dann . ' ’ entfernen. rank-history.json und
     # players-min.json werden hierüber gekeyt.
     def slugify(name):
-        s = "-".join(name.lower().split())
+        # Umlaute/ss zuerst transliterieren - ein Slug mit "oe" statt "ö"
+        # vermeidet 404s auf prerenderten Routen und kaputte Sitemap-URLs.
+        s = name.lower()
+        for a, b in (("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")):
+            s = s.replace(a, b)
+        s = "-".join(s.split())
         return s.replace(".", "").replace("'", "").replace("’", "")
 
     new_ranks = {

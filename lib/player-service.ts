@@ -31,6 +31,10 @@ export type Player = {
   // Eigene Kategorie: deutsche D1-Prospects (nicht im Consensus-Board gerankt).
   deutsch?: boolean;
   herkunft?: string;
+  // Deutsches Talent, das fuer 2027 noch nicht draft-berechtigt ist
+  // (Jahrgang 2028+). Laeuft auf /deutsche-prospects in einem eigenen Block
+  // und bleibt aus Big Board und Positionsrankings heraus.
+  naechste_generation?: boolean;
 };
 
 export type BoardMeta = {
@@ -77,7 +81,18 @@ export function getMockDraft(): MockPick[] {
 // scripts/fetch-player-images.mjs müssen dieselbe Regel verwenden, da
 // rank-history.json und player-images.json über diesen Slug gekeyt sind.
 export function getPlayerSlug(name: string): string {
-  return name.toLowerCase().replace(/\s+/g, "-").replace(/[.'’]/g, "");
+  // Umlaute/ß zuerst transliterieren: Ein Slug mit "ö" liefert unter Next
+  // einen 404 (die prerenderte Route matcht die prozentkodierte URL nicht)
+  // und landet so auch kaputt in der Sitemap. Für die bisherigen Namen
+  // (alle ASCII) ändert dieser Schritt nichts.
+  return name
+    .toLowerCase()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/\s+/g, "-")
+    .replace(/[.'’]/g, "");
 }
 
 const bySlug = new Map<string, Player>(
@@ -94,6 +109,9 @@ for (const p of players) {
   // Deutsche Prospects laufen in den Positionsrankings mit – sinnvoll
   // eingeordnet über ihren (aus dem Overall-Rank abgeleiteten) Positions-Rank,
   // ungerankte am unteren Ende der Position.
+  // Ausnahme: Die "Nächste Generation" (noch nicht für 2027 draft-berechtigt)
+  // bleibt draußen, sonst läse sie sich als Teil des 2027er-Rankings.
+  if (p.naechste_generation) continue;
   const key = p.position.toUpperCase();
   (byPosition.get(key) ?? byPosition.set(key, []).get(key)!).push(p);
 }
@@ -141,8 +159,20 @@ export function getGermanProspects(): Player[] {
   const rank = (p: Player) =>
     (p.projection ?? "").startsWith("Day 1") ? 0 : 1;
   return players
-    .filter((p) => p.deutsch)
+    .filter((p) => p.deutsch && !p.naechste_generation)
     .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name));
+}
+
+/**
+ * Deutsche D1-Spieler, die für den Draft 2027 noch nicht berechtigt sind
+ * (Jahrgang 2028 und später). Eigener Block auf /deutsche-prospects, bewusst
+ * getrennt vom 2027er-Tier – alphabetisch, da eine Draft-Reihung hier noch
+ * keine Aussagekraft hätte.
+ */
+export function getGermanNextGen(): Player[] {
+  return players
+    .filter((p) => p.deutsch && p.naechste_generation)
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 const overallSorted = players

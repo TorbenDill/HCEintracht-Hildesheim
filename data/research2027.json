@@ -1770,20 +1770,24 @@
       "herkunft": "Köln",
       "projection": "Day 3 / Priority UDFA",
       "report_core_de": "Kölner Defensive Tackle mit seltener Größe (6'7\", 315 lbs), von Vanderbilt intern als Freak-Athlet geführt; nach vorzeitigem Saisonende 2025 zurück im Fall Camp 2026, um aus dem Rohmaterial einen Draft-Fall zu machen.",
-      "report_de": "Yilanan „Issa“ Ouattara ist der körperlich auffälligste deutsche Spieler im College-Football: 6'7\" und 315 Pfund, eine Kombination aus Höhe und Kraft, die Vanderbilt intern als einzigartig im eigenen Kader beschreibt – die Freaks-Liste des Programms für 2026 führt er an. Der Kölner kam spät zum Football, entwickelte sich an der Rabun Gap-Nacoochee School und sagte den Commodores nach einer Camp-Tour mit PPI Recruits zu. Sein Problem war bisher nicht das Potenzial, sondern die Spielzeit: 31 Tackles, zwei Sacks, ein Fumble-Recovery und zwei abgewehrte Pässe stehen zu Buche, wobei beide Sacks und elf dieser Tackles aus den letzten drei Spielen einer Saison stammen – der Moment, in dem es zu klicken begann. Die Saison 2025 endete für ihn vorzeitig, im Frühjahr 2026 stand er wieder auf dem Übungsfeld, im August ging er ins Fall Camp. Für einen Interior-Spieler dieser Größe ist Pad Level die Dauerbaustelle; kommt er unter die Pads von SEC-Guards, ist der Hebel enorm. 2026 ist seine Saison, um aus Rohmaterial einen Draft-Fall zu machen.",
+      "report_de": "Yilanan „Issa“ Ouattara ist der körperlich auffälligste deutsche Spieler im College-Football: 6'7\" und 315 Pfund, eine Kombination aus Höhe und Kraft, die Vanderbilt intern als einzigartig im eigenen Kader beschreibt – die Freaks-Liste des Programms für 2026 führt er an. Der Kölner kam spät zum Football, entwickelte sich an der Rabun Gap-Nacoochee School und sagte den Commodores nach einer Camp-Tour mit PPI Recruits zu. Sein Problem war bisher nicht das Potenzial, sondern die Spielzeit: 31 Tackles, zwei Sacks, ein Fumble-Recovery und zwei abgewehrte Pässe stehen zu Buche, wobei beide Sacks und elf dieser Tackles aus den letzten drei Spielen einer Saison stammen – der Moment, in dem es zu klicken begann. Die Saison 2025 endete für ihn vorzeitig, im Frühjahr 2026 stand er wieder auf dem Übungsfeld, im August ging er ins Fall Camp. Für einen Interior-Spieler dieser Größe ist Pad Level die Dauerbaustelle; kommt er unter die Pads von SEC-Guards, ist der Hebel enorm. 2026 ist seine Saison, um aus Rohmaterial einen Draft-Fall zu machen. Ein Punkt gehört zur Einordnung dazu: Ouattara ist gemeinsam mit Teamkollege Langston Patterson namentlicher Hauptkläger einer Sammelklage gegen die NCAA, die die Redshirt-Regel und die Begrenzung auf vier Spielzeiten angreift. Die einstweilige Verfügung wies ein Bundesgericht in Tennessee am 15. Januar 2026 ab; Patterson ist für 2026 nicht spielberechtigt. Ouattara selbst kam 2025 nur zu einem Einsatz und hat damit seinen Redshirt gewahrt – er steht 2026 auf dem Feld, und sein Draft-Jahrgang bleibt 2027. Die Klage zielt auf ein zusätzliches fünftes Jahr; bis dahin bleibt offen, ob es dieses Jahr überhaupt geben wird.",
       "best_case": "Interior-Rotationsspieler mit seltenem Reichweiten-Profil, der Passbahnen zustellt und in Nickel-Fronten gebraucht wird.",
       "worst_case": "Camp-Körper – wenn Pad Level und Gesundheit die Produktion weiter begrenzen, bleibt es beim Potenzial.",
       "sources": [
         "espn.com",
         "vucommodores.com",
         "si.com",
-        "247sports.com"
+        "247sports.com",
+        "cbssports.com",
+        "on3.com"
       ],
       "source_urls": {
         "espn.com": "https://www.espn.com/college-football/player/_/id/4911912/yilanan-ouattara",
         "vucommodores.com": "https://vucommodores.com/news/2026/03/26/vufb-spring-practice-5-yilanan-ouattara",
         "si.com": "https://www.si.com/college/vanderbilt/football/yilanan-issa-ouattara-to-miss-remainder-of-2025-season",
-        "247sports.com": "https://247sports.com/player/yilanan-ouattara-46128394/"
+        "247sports.com": "https://247sports.com/player/yilanan-ouattara-46128394/",
+        "cbssports.com": "https://www.cbssports.com/college-football/news/vanderbilts-langston-patterson-issa-ouattara-lead-class-action-lawsuit-against-ncaa-over-redshirt-rule",
+        "on3.com": "https://www.on3.com/nil/news/judge-denies-preliminary-injunction-patterson-v-ncaa-eligibility-lawsuit/"
       }
     },
     {
@@ -1869,6 +1873,126 @@
         "247sports.com": "https://247sports.com/player/manuel-beigel-46135030/",
         "maizenbrew.com": "https://www.maizenbrew.com/football/108745/michigan-football-spring-roster-manuel-beigel-offensive-line-position-change-kyle-whittingham",
         "detroitnews.com": "https://www.detroitnews.com/story/sports/college/university-michigan/2023/09/20/trieu-michigan-commit-manuel-beigel-adjusts-quickly-to-football/70911384007/"
+      }
+    },
+    {
+      "name": "Justin Hasenhuetl",
+      "position": "IOL",
+      "overall_rank": null,
+      "pos_rank": 4,
+      "school": "California",
+      "class_year": "Freshman",
+      "height": "6'5\"",
+      "weight": "300 lbs",
+      "deutsch": true,
+      "naechste_generation": true,
+      "herkunft": "Köln",
+      "projection": "Draft 2028 – höchstbewerteter deutscher Recruit",
+      "report_core_de": "Vierstern-Guard aus Köln, von 247Sports als Nr. 21 der Interior Offensive Linemen des Jahrgangs 2025 geführt – der am höchsten bewertete deutsche Recruit seit Jahren.",
+      "report_de": "Justin Hasenhuetl ist der am höchsten bewertete deutsche Recruit, den es bisher gab, und das ist keine Übertreibung, sondern das Ergebnis der Rankings: 247Sports führte den Kölner als Vierstern und als Nr. 21 der Interior Offensive Linemen im Jahrgang 2025. Die Angebotsliste liest sich entsprechend – Oregon, Penn State, Clemson, Tennessee, Florida, Florida State, Michigan, Auburn, USC. Seine Entscheidung verkündete er im Januar 2025 live im Navy All-American Bowl, dem Auswahlspiel der besten US-Highschool-Spieler, und wählte Kalifornien vor North Carolina und Arkansas. Den Weg dorthin ging er über die Rabun Gap-Nacoochee School in Georgia, jene Schule, die inzwischen fast eine deutsche Football-Dependance ist. Bei 6'5\" und 300 Pfund bringt er den Rahmen für die Innenpositionen mit, dazu eine Technik, die für einen europäischen Spieler seines Alters ungewöhnlich weit ist – genau das hat die Bewertung getrieben. Draft-berechtigt ist er frühestens 2028. Bis dahin ist er der deutsche Name mit der mit Abstand größten Fallhöhe nach oben.",
+      "best_case": "Früh startender Power-Conference-Guard, der sich über drei Jahre in die vorderen Runden spielt.",
+      "worst_case": "Der Sprung vom Recruiting-Ranking zur College-Produktion misslingt – dann bleibt es bei einem Rotationsspieler.",
+      "sources": [
+        "calbears.com",
+        "espn.com",
+        "247sports.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "calbears.com": "https://calbears.com/sports/football/roster/justin-hasenhuetl/27557",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5141507/justin-hasenhuetl",
+        "247sports.com": "https://247sports.com/player/justin-hasenhuetl-46135680/",
+        "si.com": "https://www.si.com/college/cal/football/four-star-ol-justin-hasenhuetl-commits-to-cal-for-2025-01jh8vx69twb"
+      }
+    },
+    {
+      "name": "JJ Hanne",
+      "position": "DT",
+      "overall_rank": null,
+      "pos_rank": 8,
+      "school": "Georgia",
+      "class_year": "Sophomore",
+      "height": "6'5\"",
+      "weight": "280 lbs",
+      "deutsch": true,
+      "naechste_generation": true,
+      "herkunft": "Berlin",
+      "projection": "Draft 2028 – Rotationsspieler bei Georgia",
+      "report_core_de": "Berliner Defensive Lineman, der als Freshman in allen 14 Spielen für Georgia auflief und für 2026 als Gap-Control-Spezialist aufgebaut wird.",
+      "report_de": "Jayden-Jamal „JJ\" Hanne hatte zum Zeitpunkt seiner Verpflichtung zwei Jahre Football gespielt – und entschied sich trotzdem zwischen Georgia, Oregon, Texas, Texas A&M und Nebraska. Der Berliner wuchs mit Basketball und Fußball auf, ging 2022 an die Santa Margarita Catholic in Kalifornien und explodierte im Recruiting-Frühjahr 2024, weil Scouts genau das sahen, was sich schwer beibringen lässt: 6'5\", 280 Pfund, ein Motor, der nicht abreißt, und die Fähigkeit, auf Tackle, Edge und als Three-Technique zu spielen. Bemerkenswerter als die Verpflichtung ist, was danach kam: Als echter Freshman lief er 2025 in allen 14 Spielen auf, sein Debüt gab er gleich im Saisonauftakt gegen Marshall. Zwei Tackles stehen dabei zu Buche – die Zahl ist nebensächlich, das Vertrauen der Georgia-Staffs in einen Spieler mit dieser kurzen Football-Biografie ist es nicht. Für 2026 wird er gezielt als Gap-Control-Spezialist aufgebaut, also für die undankbare Arbeit, die Doppelteams bindet. Draft-berechtigt frühestens 2028.",
+      "best_case": "Interior-Starter in einem Spitzenprogramm, dessen späte Football-Sozialisation irgendwann keine Rolle mehr spielt.",
+      "worst_case": "Bleibt Rotationsspieler hinter der jährlich nachwachsenden Georgia-Konkurrenz.",
+      "sources": [
+        "georgiadogs.com",
+        "espn.com",
+        "247sports.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "georgiadogs.com": "https://georgiadogs.com/sports/football/roster/jj-hanne/10562",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5209009/jj-hanne",
+        "247sports.com": "https://247sports.com/player/jj-hanne-46148097/",
+        "si.com": "https://www.si.com/college/georgia/football/georgia-adds-german-defensive-lineman-to-2025-recruiting-class-01j3x9xj3q4x"
+      }
+    },
+    {
+      "name": "David Höffken",
+      "position": "DT",
+      "overall_rank": null,
+      "pos_rank": 9,
+      "school": "Nebraska",
+      "class_year": "Sophomore",
+      "height": "6'7\"",
+      "weight": "310 lbs",
+      "deutsch": true,
+      "naechste_generation": true,
+      "herkunft": "Kiel",
+      "projection": "Draft 2028 – fester Rotationsspieler",
+      "report_core_de": "Kieler Defensive Lineman, der 2025 als Redshirt-Freshman in elf Spielen zu Nebraskas fester D-Line-Rotation gehörte.",
+      "report_de": "David Höffkens Weg ist der direkteste, den ein deutscher Spieler bisher genommen hat: keine US-Highschool, keine Prep-Schule, sondern drei Saisons bei den Cologne Crocodiles, eine bei den Kiel Baltic Hurricanes – und dann ein Camp in Texas im Juni 2024, organisiert über Gridiron Imports, nach dem Nebraskas Staff ihm auf der Stelle ein Angebot machte, das er auf der Stelle annahm. Mit 22 kam er als Redshirt-Kandidat nach Lincoln und stand ein Jahr später in elf Spielen als fester Teil der Defensive-Line-Rotation auf dem Feld. Seinen ersten Tackle machte er gegen Houston Christian, seinen ersten in der Big Ten bei Penn State. Zwei Tackles sind wenig, elf Einsätze in einer Power-Conference-Rotation nach einem Jahr sind viel – gerade für jemanden, der nie einen Snap US-Highschool-Football gespielt hat. Physisch hat er in zwei Jahren umgebaut: von 6'7\" und 255 Pfund bei der Verpflichtung auf inzwischen 310. Draft-berechtigt frühestens 2028; die eigentliche Frage ist, ob aus dem Rotationsspieler ein Starter wird.",
+      "best_case": "Starter in einer Big-Ten-Front, dessen Länge im Inneren zum Problem für Guards wird.",
+      "worst_case": "Der Gewichtssprung geht auf Kosten der Beweglichkeit – dann bleibt es bei Rotationssnaps.",
+      "sources": [
+        "huskers.com",
+        "espn.com",
+        "247sports.com",
+        "rivals.com"
+      ],
+      "source_urls": {
+        "huskers.com": "https://huskers.com/sports/football/roster/player/david-hoffken",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5227014/david-hoffken",
+        "247sports.com": "https://247sports.com/player/david-hoffken-46150665/",
+        "rivals.com": "https://nebraska.rivals.com/news/nebraska-lands-late-2024-commit-from-international-ath-david-h-ffken"
+      }
+    },
+    {
+      "name": "Konstantin Paschos",
+      "position": "EDGE",
+      "overall_rank": null,
+      "pos_rank": 13,
+      "school": "Princeton",
+      "class_year": "Freshman",
+      "height": "6'7\"",
+      "weight": "235 lbs",
+      "deutsch": true,
+      "naechste_generation": true,
+      "herkunft": "Düsseldorf",
+      "projection": "Draft 2028 – Ivy-League-Entwicklungsprofil",
+      "report_core_de": "6'7\" großer Edge-Rusher aus Düsseldorf, zweimal Erstes Team der deutschen Nationalmannschaft, mit Angeboten von Nebraska und Michigan State – und einer Entscheidung für Princeton.",
+      "report_de": "Konstantin Paschos ist der Fall, an dem man sieht, dass deutsche Spieler inzwischen echte Wahlmöglichkeiten haben. Der Düsseldorfer sammelte in Deutschland zwei Titel und zweimal die Berufung ins Erste Team der Nationalmannschaft, ging an die Choate Rosemary Hall in Connecticut – dieselbe Schule wie Manuel Beigel – und bekam nach einem Satellite-Camp ein Angebot von Nebraska, später auch von Michigan State. Er entschied sich im Juni 2024 trotzdem für Princeton, also für die akademische Variante des Wegs. Mit 6'7\" und 235 Pfund ist er ein klassischer Langrahmen-Edge: Der Hebel ist vorhanden, das Gewicht muss noch kommen, bevor Power-Conference-Tackles ihn nicht mehr einfach wegdrücken können. In der Ivy League bekommt er dafür Zeit, die er anderswo nicht hätte – zugleich ist es die Liga, in der Redshirts nicht existieren und die Uhr entsprechend schneller läuft. Draft-berechtigt frühestens 2028.",
+      "best_case": "Ivy-League-Starter mit Kombine-Maßen, der über einen Pro Day auf den Radar kommt.",
+      "worst_case": "Bleibt bei 235 Pfund hängen – dann ist Europa der realistischere Markt als die NFL.",
+      "sources": [
+        "goprincetontigers.com",
+        "espn.com",
+        "247sports.com",
+        "omaha.com"
+      ],
+      "source_urls": {
+        "goprincetontigers.com": "https://goprincetontigers.com/sports/football/roster/konstantin-paschos/24280",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5302707/konstantin-paschos",
+        "247sports.com": "https://247sports.com/college/nebraska/article/huskers-offer-defensive-lineman-konstantin-paschos--232499860/",
+        "omaha.com": "https://omaha.com/sports/huskers/football/nebraska-football-offers-2025-defensive-lineman-konstantin-paschos/article_450ce1d4-7ed5-5ed2-8920-51a8dfa73284.html"
       }
     }
   ],

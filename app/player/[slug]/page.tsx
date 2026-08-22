@@ -40,9 +40,13 @@ export async function generateMetadata({
 
   const rankPart =
     player.ranking_overall != null ? `#${player.ranking_overall} · ` : "";
+  // Die "Nächste Generation" ist erst einen Zyklus später draft-berechtigt.
+  const draftJahr = player.naechste_generation
+    ? meta.draftYear + 1
+    : meta.draftYear;
   const title = `${player.name} – ${player.position}, ${player.college}`;
   const description =
-    `NFL Draft ${meta.draftYear} Scouting-Profil: ${player.name} (${rankPart}` +
+    `NFL Draft ${draftJahr} Scouting-Profil: ${player.name} (${rankPart}` +
     `${player.position}, ${player.college}). Steckbrief, Stärken/Schwächen, ` +
     `Best- & Worst-Case-Vergleiche und deutsches Scouting-Fazit.`;
   const path = `/player/${getPlayerSlug(player.name)}`;
@@ -124,7 +128,9 @@ export default async function PlayerPage({
       "@type": "Person",
       name: player.name,
       url: profileUrl,
-      jobTitle: `${player.position} – NFL Draft ${meta.draftYear} Prospect`,
+      jobTitle: `${player.position} – NFL Draft ${
+        player.naechste_generation ? meta.draftYear + 1 : meta.draftYear
+      } Prospect`,
       affiliation: {
         "@type": "CollegeOrUniversity",
         name: player.college,
@@ -231,11 +237,15 @@ export default async function PlayerPage({
             <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
               <StatBox label="Größe" value={player.height || "–"} />
               <StatBox label="Gewicht" value={player.weight || "–"} />
-              <StatBox
-                label="Pos. Rank"
-                value={`#${player.ranking_pos}`}
-                accent
-              />
+              {/* Die "Nächste Generation" wird bewusst nicht im
+                  Positionsranking des 2027er-Boards geführt. */}
+              {!player.naechste_generation && (
+                <StatBox
+                  label="Pos. Rank"
+                  value={`#${player.ranking_pos}`}
+                  accent
+                />
+              )}
               {player.class_year && (
                 <StatBox label="College-Jahr" value={player.class_year} />
               )}
@@ -247,7 +257,11 @@ export default async function PlayerPage({
               )}
               <StatBox
                 label="Draft"
-                value={`${meta.draftYear}`}
+                value={
+                  player.naechste_generation
+                    ? `${meta.draftYear + 1}+`
+                    : `${meta.draftYear}`
+                }
               />
             </div>
 

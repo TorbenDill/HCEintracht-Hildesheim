@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   getGermanProspects,
+  getGermanNextGen,
   getPlayerSlug,
   getBoardMeta,
 } from "@/lib/player-service";
@@ -26,6 +27,7 @@ export const metadata = {
 
 export default function DeutscheProspectsPage() {
   const prospects = getGermanProspects();
+  const nextGen = getGermanNextGen();
   const meta = getBoardMeta();
 
   const jsonLd = {
@@ -83,8 +85,12 @@ export default function DeutscheProspectsPage() {
             Boards und sind hier zusätzlich gebündelt – von den großen
             US-Consensus-Rankings werden die meisten (noch) nicht geführt. Es
             gilt derselbe Qualitätsstandard wie im übrigen Board: aufgenommen
-            wird nur, wer mit mindestens zwei unabhängigen Quellen belegt und für
-            2027 draft-berechtigt ist.
+            wird nur, wer mit mindestens zwei unabhängigen Quellen belegt ist.
+            Dieser Block führt die für {meta.draftYear} draft-berechtigten
+            Spieler. Darunter steht mit der Nächsten Generation ein eigener
+            Bereich für deutsche D1-Talente, die erst ab {meta.draftYear + 1} in
+            Frage kommen – sie laufen bewusst außerhalb von Big Board und
+            Positionsrankings, damit niemand sie für diesen Jahrgang hält.
           </p>
         </div>
 
@@ -133,6 +139,74 @@ export default function DeutscheProspectsPage() {
             </Link>
           ))}
         </Reveal>
+
+        {nextGen.length > 0 && (
+          <section className="mt-16">
+            <div className="mb-6 border-t border-border pt-10">
+              <h2 className="mb-3 font-display text-2xl font-semibold uppercase tracking-tight text-foreground lg:text-3xl">
+                Nächste <span className="text-primary">Generation</span>
+              </h2>
+              <p className="max-w-2xl text-sm leading-relaxed text-muted">
+                Deutsche Spieler auf D1-Rostern, die für den Draft{" "}
+                {meta.draftYear} noch nicht berechtigt sind – frühestens{" "}
+                {meta.draftYear + 1}. Für den Standort ist dieser Block der
+                eigentlich interessante: Hier stehen die höchstbewerteten
+                deutschen Recruits, die es je an US-Colleges gab. Sie sind kein
+                Teil des {meta.draftYear}er-Boards und tauchen deshalb weder in
+                den Positionsrankings noch im Big Board auf.
+              </p>
+            </div>
+
+            <Reveal className="grid gap-4 sm:grid-cols-2">
+              {nextGen.map((p) => (
+                <Link
+                  key={getPlayerSlug(p.name)}
+                  href={`/player/${getPlayerSlug(p.name)}`}
+                  className="card-lift group flex flex-col gap-3 rounded-xl border border-border bg-surface p-5 hover:border-primary/50"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="relative h-12 w-12 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">
+                      <PlayerAvatar name={p.name} size="sm" />
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="truncate text-base font-bold text-foreground group-hover:text-primary">
+                        {p.name}
+                      </h3>
+                      <p className="truncate text-[11px] uppercase tracking-wider text-muted">
+                        {p.position} · {p.college}
+                      </p>
+                    </div>
+                    <span className="flex-shrink-0 rounded bg-surface-light px-2 py-1 text-xs font-bold uppercase text-primary">
+                      {p.position}
+                    </span>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-widest">
+                    {p.herkunft && (
+                      <span className="rounded-full border border-border bg-background px-2.5 py-1 text-muted">
+                        <span aria-hidden="true">🇩🇪</span> {p.herkunft}
+                      </span>
+                    )}
+                    <span className="rounded-full border border-border bg-background px-2.5 py-1 text-muted">
+                      Draft {meta.draftYear + 1}+
+                    </span>
+                    {p.class_year && (
+                      <span className="rounded-full border border-primary/30 bg-primary-glow px-2.5 py-1 text-primary">
+                        {p.class_year}
+                      </span>
+                    )}
+                  </div>
+
+                  {p.scouting_report_de && (
+                    <p className="line-clamp-3 text-xs leading-relaxed text-foreground/75">
+                      {p.scouting_report_de}
+                    </p>
+                  )}
+                </Link>
+              ))}
+            </Reveal>
+          </section>
+        )}
 
         <AdSense slot="6888694163" layout="in-article" className="mt-12" />
 
