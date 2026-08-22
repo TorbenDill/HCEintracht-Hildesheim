@@ -1,5 +1,11 @@
 // Zieht den Text aus dem D2CCA-All-America-PDF. Die Eintraege stehen dort in
 // Spalten, deshalb wird pro Zeile (gleiche y-Position) zusammengefasst.
+//
+// BRAUCHT pdfjs-dist, das bewusst KEINE Dependency des Projekts ist - dieses
+// Skript laeuft einmal pro Saison. Vorbereitung in einem Arbeitsordner:
+//   npm init -y && npm install pdfjs-dist@4.10.38
+// Die Rohdatei d2cca.pdf danebenlegen; die echte PDF-Adresse steht im
+// Quelltext der Sidearm-Wrapper-Seite (siehe README).
 import fs from "node:fs";
 import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 
