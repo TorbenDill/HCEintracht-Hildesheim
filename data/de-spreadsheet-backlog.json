@@ -1,0 +1,627 @@
+{
+  "hinweis": "Unverifizierte Rohliste deutscher College-Football-Spieler aus einer vom Nutzer bereitgestellten Excel-Quelle. JEDER Eintrag MUSS vor Aufnahme in data/research2027.json oder data/europe-talents.json individuell mit mindestens 2 unabhaengigen Quellen verifiziert werden (aktueller Roster-Stand 2026, Eligibility, Produktion/Auszeichnungen). Namen aus dieser Liste sind KEINE Bestaetigung, nur ein Recherche-Ausgangspunkt. Bereits im Board gefuehrte Spieler (Kanu, Honig, Stege, Zunk, Okoronkwo, Brune) und bereits mit Quellen ausgeschlossene Spieler (siehe 'ausgeschlossen') sind hier nicht mehr enthalten.",
+  "ausgeschlossen": [
+    {
+      "name": "Maurice Heims",
+      "grund": "DE, Washington/Idaho -> widerspruechliche/veraltete Class-Year-Daten (Senior Stand 2024), 2026-Status nicht sauber aufloesbar"
+    },
+    {
+      "name": "Yilanan Ouattara",
+      "grund": "DT, Vanderbilt -> aktive NCAA-Klage 'Patterson vs. NCAA' um Zusatzjahr, Eligibility ungeklaert"
+    },
+    {
+      "name": "Mark Petry",
+      "grund": "OT, Syracuse -> CFL Global Draft Round 1 + fuer NFL Draft 2026 registriert, bereits weg"
+    }
+  ],
+  "backlog": [
+    {
+      "name": "Joaquin Acuna",
+      "position": "LB",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Stuttgart",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Kariem Al Soufi",
+      "position": "OG",
+      "school_spreadsheet": "Tarleton State (FCS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Paderborn",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Yunus Altincinar",
+      "position": "RB",
+      "school_spreadsheet": "Gettysburg (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Cedric Anton",
+      "position": "TE",
+      "school_spreadsheet": "Eastern Michigan (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Schweinfurt",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Joseph Appiah Darkwa",
+      "position": "DT",
+      "school_spreadsheet": "Temple (FBS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Düsseldorf",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Fabian Bitburger",
+      "position": "DT",
+      "school_spreadsheet": "Ashland (D2)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Erik Bockisch",
+      "position": "OL",
+      "school_spreadsheet": "Villanova (FCS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Wiesengrund, Brandenburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Jakob Bojko",
+      "position": "WR",
+      "school_spreadsheet": "Widener (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Bochum",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Jonathan Branner",
+      "position": "K",
+      "school_spreadsheet": "Transfer NAIA",
+      "class_year_estimate": 2025,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Tobias Braun",
+      "position": "OL",
+      "school_spreadsheet": "Arkansas State",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Freiburg im Breisgau",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Aric Burton",
+      "position": "DE",
+      "school_spreadsheet": "Southern Utah (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Bruno Dall",
+      "position": "DE",
+      "school_spreadsheet": "Akron (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Felix Doege",
+      "position": "OL",
+      "school_spreadsheet": "Appalachian State",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Elmshorn",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Sarrow Drammeh",
+      "position": "DB",
+      "school_spreadsheet": "Memphis (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Filderstadt, BaWü",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Lydell Dyer",
+      "position": "WR",
+      "school_spreadsheet": "Brown (FCS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Bonn",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Daniel Evert",
+      "position": "TE",
+      "school_spreadsheet": "Temple (FBS)",
+      "class_year_estimate": 2028,
+      "herkunft_de": "Regensburg",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Malte Feil",
+      "position": "WR",
+      "school_spreadsheet": "Mercyhurst (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Vorort von Hamburg, S-H",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Ethan Ferguson",
+      "position": "DE/LS",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Oberhaching, BY",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Leon Friebel",
+      "position": "WR",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Waldaschaff, BY",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Jasper Friis",
+      "position": "OL",
+      "school_spreadsheet": "McNeese (FCS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Starnberg, BY",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Maximilian Fromme",
+      "position": "DT",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Braunschweig",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Joshka Gustav",
+      "position": "DE",
+      "school_spreadsheet": "Colorado (FBS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Hannes Hammer",
+      "position": "OL",
+      "school_spreadsheet": "Virginia Tech (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Köln",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Gideon Herbert",
+      "position": "DE",
+      "school_spreadsheet": "Arkansas State",
+      "class_year_estimate": 2027,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Amir Hodzic",
+      "position": "OL",
+      "school_spreadsheet": "Bethune-Cookman (FCS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Berlin",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Jason Hollinger",
+      "position": "DB",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Düsseldorf",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Samariy Howard",
+      "position": "DB/K",
+      "school_spreadsheet": "Albany State (D2)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Landstuhl, R-P",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Jonathan Ipsen",
+      "position": "DE",
+      "school_spreadsheet": "Stephen F. Austin (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Braunschweig",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Anton Jacobs",
+      "position": "OL",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Wernigerode, S-A",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Noel Jäger",
+      "position": "TE",
+      "school_spreadsheet": "Mount Union (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Braunschweig",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Caelin Johnson",
+      "position": "WR",
+      "school_spreadsheet": "Whitworth (D3)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Cedrick Jungmann",
+      "position": "TE",
+      "school_spreadsheet": "Virginia-Wise (D2)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Berlin",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Mattis Karrasch",
+      "position": "OL",
+      "school_spreadsheet": "Northern Arizona University (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Jonas Kelp",
+      "position": "OT",
+      "school_spreadsheet": "Mount Marty (NAIA)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Marlin Klein",
+      "position": "TE",
+      "school_spreadsheet": "Michigan (FBS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Köln",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Jan Klinger",
+      "position": "DL",
+      "school_spreadsheet": "Gettysburg (D3)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Neusiedl am See, AUT",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Cemil Konak",
+      "position": "OL",
+      "school_spreadsheet": "Widener (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Bochum",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Lukas Köttsdorfer",
+      "position": "QB",
+      "school_spreadsheet": "Bryant (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Fürstenfeldbruck",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Lenny Kühl",
+      "position": "TE",
+      "school_spreadsheet": "Toledo (FBS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Marius Landsfeld",
+      "position": "DE",
+      "school_spreadsheet": "Liberty (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Brühl, NRW",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Max Lantzsch",
+      "position": "TE",
+      "school_spreadsheet": "New Mexico (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Radebeul, Sachsen",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Gabe Losau",
+      "position": "WR",
+      "school_spreadsheet": "Western New Mexico (D2)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Aachen",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Liam Lyck",
+      "position": "TE",
+      "school_spreadsheet": "College of the Sequoias (CCAA)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Jan Mahlert",
+      "position": "WR",
+      "school_spreadsheet": "Penn State (FBS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Fürstenfeldbruck",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Lukas Majer",
+      "position": "OL",
+      "school_spreadsheet": "Tennessee-Chattanooga (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Köln",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Maximilian Mang",
+      "position": "TE",
+      "school_spreadsheet": "Syracuse (FBS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Potsdam",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Roberto Miranda",
+      "position": "TE",
+      "school_spreadsheet": "Arizona",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Berlin",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Deon Montgomery",
+      "position": "DB",
+      "school_spreadsheet": "Fordham (FCS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Spangdahlem, R-P",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Chando Ndongfack",
+      "position": "DB",
+      "school_spreadsheet": "Widener (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Düsseldorf",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Terry Nwabuisi-Ezeala",
+      "position": "OL",
+      "school_spreadsheet": "Wake Forest",
+      "class_year_estimate": 2027,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Moritz Oberhofer",
+      "position": "OL",
+      "school_spreadsheet": "Colorado State (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Nürnberg",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Patrick Pedall",
+      "position": "WR",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Noel Portnjagin",
+      "position": "OL",
+      "school_spreadsheet": "Florida",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Schwäbisch Hall",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Lambert Raczinski",
+      "position": "TE",
+      "school_spreadsheet": "Gettysburg (D3)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Kronshagen, S-H",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Nico Reitz",
+      "position": "OL",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Büren, NRW",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Clemens Richter",
+      "position": "TE",
+      "school_spreadsheet": "UCONN (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Dresden",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Ilias Rida",
+      "position": "OL",
+      "school_spreadsheet": "Southeastern Louisiana (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "River Rocha",
+      "position": "K",
+      "school_spreadsheet": "Trinity (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Ramstein, R-P",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Fabian Rogosch",
+      "position": "DE",
+      "school_spreadsheet": "Troy (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Keon Rohe",
+      "position": "OL",
+      "school_spreadsheet": "Florida Atlantic (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Wiesbaden",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Paul Rubelt",
+      "position": "OT",
+      "school_spreadsheet": "Central Florida (FBS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Frankfurt (Oder)",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Lewin Runde",
+      "position": "TE",
+      "school_spreadsheet": "Black Hills St (D2)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Christian Schliemann",
+      "position": "OL",
+      "school_spreadsheet": "Transfer",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Xanten",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Kelvin Schmidt",
+      "position": "DT",
+      "school_spreadsheet": "Stephen F. Austin (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Düsseldorf",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Moritz Schmoranzer",
+      "position": "OL",
+      "school_spreadsheet": "Pittsburgh (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Nürnberg",
+      "kontakt_quelle": "Philipp Forstner"
+    },
+    {
+      "name": "Nico Schwikal",
+      "position": "LB",
+      "school_spreadsheet": "Dartmouth (FCS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Berlin",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Dean Severin",
+      "position": "K",
+      "school_spreadsheet": "Albright (D3)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Essen",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Konstantin Spörk",
+      "position": "OT",
+      "school_spreadsheet": "Dartmouth (FCS)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Köln",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Vincent Sprenger",
+      "position": "OL",
+      "school_spreadsheet": "Dickinson (D3)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Florian Staehler",
+      "position": "OL",
+      "school_spreadsheet": "Towson (FCS)",
+      "class_year_estimate": 2025,
+      "herkunft_de": "Köln",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Tom Steffens",
+      "position": "DT",
+      "school_spreadsheet": "Gettysburg (D3)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "Hamburg",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Farradj Titikpina",
+      "position": "DT",
+      "school_spreadsheet": "Coastal Carolina (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Bochum",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Benni Vollert",
+      "position": "OL",
+      "school_spreadsheet": "American International College (D2)",
+      "class_year_estimate": 2026,
+      "herkunft_de": "München",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Magnus Von Saldern",
+      "position": "TE",
+      "school_spreadsheet": "Massachusetts (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Berlin",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Mick Weyrich",
+      "position": "TE",
+      "school_spreadsheet": "Maryland (FBS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Stuttgart",
+      "kontakt_quelle": "Social Media"
+    },
+    {
+      "name": "Lukas Witt",
+      "position": "OL",
+      "school_spreadsheet": "Yale (FCS)",
+      "class_year_estimate": 2027,
+      "herkunft_de": "Stuttgart",
+      "kontakt_quelle": "Social Media"
+    }
+  ]
+}
