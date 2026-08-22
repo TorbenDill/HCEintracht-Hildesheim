@@ -200,11 +200,22 @@ export default function EuropaTalentePage() {
             preis, deshalb ist dieses Feld derzeit leer.
           </p>
           <p>
+            <strong className="text-foreground/70">Wer ist überhaupt verfügbar?</strong>{" "}
+            Rund ein Drittel der Liste hatte 2025 noch College-Eligibility und ist
+            damit kein Kandidat für sofort – diese Spieler tragen einen Hinweis, ab
+            wann sie frühestens zu haben sind, und lassen sich über den Filter
+            ausblenden. Ebenfalls markiert: wer bereits in Europa unterschrieben hat,
+            wer an eine FBS- oder FCS-Hochschule gewechselt ist und wer in der NFL
+            unter Vertrag steht. Diese Spieler bleiben bewusst sichtbar, weil sie
+            zeigen, welche Profile sich am Markt tatsächlich durchsetzen.
+          </p>
+          <p>
             <strong className="text-foreground/70">Wichtig vor der Kontaktaufnahme:</strong>{" "}
-            Der Kader-Status wurde gegen den NFL Draft 2026 geprüft (kein Spieler
-            dieser Liste wurde gedraftet). Undrafted-Free-Agent-Verträge und
-            Practice-Squad-Wechsel lassen sich nicht flächendeckend nachverfolgen –
-            bekannte Fälle sind markiert, im Zweifel bitte tagesaktuell prüfen.
+            Der Kader-Status wurde gegen den NFL Draft 2026 und gegen die Meldungen
+            von American Football International geprüft. Undrafted-Free-Agent-Verträge,
+            Practice-Squad-Wechsel und Transfers innerhalb des College-Footballs
+            lassen sich nicht flächendeckend nachverfolgen – bekannte Fälle sind
+            markiert, im Zweifel bitte tagesaktuell prüfen.
           </p>
         </div>
       </div>

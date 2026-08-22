@@ -40,9 +40,14 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
   const [division, setDivision] = useState("ALL");
   const [posGroup, setPosGroup] = useState("ALL");
   const [awardsOnly, setAwardsOnly] = useState(false);
+  const [availableOnly, setAvailableOnly] = useState(false);
   const [query, setQuery] = useState("");
 
   const awardCount = useMemo(() => players.filter(isAwarded).length, [players]);
+  const availableCount = useMemo(
+    () => players.filter((p) => p.availability === "verfuegbar").length,
+    [players],
+  );
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -50,6 +55,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
       if (division !== "ALL" && p.division !== division) return false;
       if (posGroup !== "ALL" && groupOf(p.position) !== posGroup) return false;
       if (awardsOnly && !isAwarded(p)) return false;
+      if (availableOnly && p.availability !== "verfuegbar") return false;
       if (!q) return true;
       return (
         p.name.toLowerCase().includes(q) ||
@@ -57,7 +63,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
         (p.hometown ?? "").toLowerCase().includes(q)
       );
     });
-  }, [players, division, posGroup, awardsOnly, query]);
+  }, [players, division, posGroup, awardsOnly, availableOnly, query]);
 
   const linkClass =
     "rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider transition-colors";
@@ -126,6 +132,18 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
           >
             ★ Nur Auszeichnungen ({awardCount})
           </button>
+          <button
+            onClick={() => setAvailableOnly((v) => !v)}
+            aria-pressed={availableOnly}
+            className={cn(
+              "rounded-full px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+              availableOnly
+                ? "bg-accent text-background"
+                : "border border-accent/40 bg-surface text-accent hover:bg-accent-glow",
+            )}
+          >
+            Nur sofort verfügbar ({availableCount})
+          </button>
           <p className="text-xs text-muted" aria-live="polite">
             {filtered.length} von {players.length} Spielern
           </p>
@@ -182,11 +200,16 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                   </p>
                 )}
 
-                {p.nfl_note && (
-                  <p className="mt-1.5 rounded border border-border bg-background px-2 py-1 text-[11px] font-semibold text-foreground/70">
-                    ⚠ {p.nfl_note}
-                  </p>
-                )}
+                {[p.nfl_note, p.transfer_note, p.eligibility_note]
+                  .filter(Boolean)
+                  .map((note) => (
+                    <p
+                      key={note}
+                      className="mt-1.5 rounded border border-border bg-background px-2 py-1 text-[11px] font-semibold text-foreground/70"
+                    >
+                      ⚠ {note}
+                    </p>
+                  ))}
 
                 <div className="mt-2 flex flex-wrap items-center gap-1.5">
                   {p.europlayers_url && (

@@ -51,7 +51,16 @@ function findMatch(rec) {
   return best?.m ?? null;
 }
 
+// Belegte Tippfehler in den Quellen. Ermittelt durch Vergleich der
+// College-Schreibweisen desselben Spielers ueber alle Quellen hinweg; Abkuerzungs-
+// varianten ("Angelo State" vs. "Angelo St.") werden bewusst NICHT angefasst,
+// nur echte Fehler.
+const COLLEGE_FIX = {
+  Livingtone: "Livingstone", // AP-Artikel Division II, Defensive Line
+};
+
 function add(rec, sourceHost, sourceUrl, honor) {
+  if (COLLEGE_FIX[rec.college]) rec = { ...rec, college: COLLEGE_FIX[rec.college] };
   let m = findMatch(rec);
   if (!m) {
     m = {

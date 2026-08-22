@@ -70,6 +70,33 @@ const CLASS_LABEL = {
 };
 const normClass = (c) => (c ? CLASS_LABEL[c.toLowerCase().trim()] ?? c : null);
 
+// Verfuegbarkeit aus der Class ableiten. Ein Drittel der Liste hatte 2025 noch
+// College-Eligibility und ist damit gar kein Kandidat - ohne diesen Hinweis
+// telefoniert ein Klub an Spielern vorbei, die noch Jahre gebunden sind.
+// Bezugssaison ist 2025; wer da Junior war, spielt 2026 sein Abschlussjahr.
+const SEASON = 2025;
+const YEARS_LEFT = { Freshman: 3, Sophomore: 2, Junior: 1, Senior: 0, Graduate: 0 };
+function availability(classYear) {
+  if (!classYear) return { status: "unbekannt", note: null };
+  const base = classYear.replace(/^Redshirt\s+|^Fifth-Year\s+/, "").trim();
+  const left = YEARS_LEFT[base];
+  if (left === undefined) return { status: "unbekannt", note: null };
+  if (left === 0) return { status: "verfuegbar", note: null };
+  const year = SEASON + left + 1;
+  return {
+    status: "gebunden",
+    note: `War 2025 ${classYear} – noch ${left} ${left === 1 ? "Jahr" : "Jahre"} College-Eligibility, frühestens ${year} verfügbar.`,
+  };
+}
+
+// Belegte Wechsel nach oben (FBS/FCS). Wer aufsteigt, ist kein Europa-Kandidat.
+const TRANSFER_STATUS = {
+  "Kenyon Garner|NCAA Division II": {
+    note: "Im Dezember 2025 zu Florida Atlantic (FBS) gewechselt – kein Europa-Kandidat.",
+    url: "https://www.on3.com/news/d-ii-transfer-edge-kenyon-garner-receiving-acc-big-12-interest/",
+  },
+};
+
 // Hometown-Reste absichern: falls doch mal Script-Text durchrutscht, lieber
 // nichts anzeigen als Muell.
 const cleanHometown = (h) => {
@@ -114,6 +141,9 @@ const players = pool.map((p) => {
     instagram: null,
     nfl_note,
     europe_note: eu?.note ?? null,
+    transfer_note: TRANSFER_STATUS[key]?.note ?? null,
+    availability: availability(normClass(p.class_year)).status,
+    eligibility_note: availability(normClass(p.class_year)).note,
     has_detail: detailNames.has(p.name.toLowerCase()),
   };
 });
@@ -159,6 +189,9 @@ for (const a of awardData.awards) {
         instagram: null,
         nfl_note: NFL_STATUS[`${e.name}|${a.division}`] ?? null,
         europe_note: EUROPE_STATUS[`${e.name}|${a.division}`]?.note ?? null,
+        transfer_note: TRANSFER_STATUS[`${e.name}|${a.division}`]?.note ?? null,
+        availability: availability(normClass(base?.class_year ?? null)).status,
+        eligibility_note: availability(normClass(base?.class_year ?? null)).note,
         has_detail: detailNames.has(e.name.toLowerCase()),
       };
       players.push(p);
@@ -176,6 +209,8 @@ for (const a of awardData.awards) {
 for (const p of players) {
   const eu = EUROPE_STATUS[`${p.name}|${p.division}`];
   if (eu?.url) p.sources["americanfootballinternational.com"] = eu.url;
+  const tr = TRANSFER_STATUS[`${p.name}|${p.division}`];
+  if (tr?.url) p.sources["on3.com"] = tr.url;
 }
 
 // Sortierung: Division, dann Positionsgruppe, dann Name
@@ -206,6 +241,8 @@ console.log(`Europlayers-Links (verifiziert): ${epHits}`);
 console.log(`Hudl-Links: ${hudlHits}`);
 console.log(`NFL-Markierungen: ${nflFlagged}`);
 console.log(`Bereits in Europa: ${players.filter((p) => p.europe_note).length}`);
+console.log(`FBS/FCS-Wechsel: ${players.filter((p) => p.transfer_note).length}`);
+console.log(`Sofort verfuegbar: ${players.filter((p) => p.availability === "verfuegbar").length} | noch gebunden: ${players.filter((p) => p.availability === "gebunden").length}`);
 console.log(`Auch als Detailprofil: ${players.filter((p) => p.has_detail).length}`);
 console.log(`Awards: ${awardEnriched} angereichert, ${awardAdded} neu (davon ${awardPromoted} aus dem Einzelquellen-Pool nachgerueckt)`);
 const byDiv = {};

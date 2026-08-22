@@ -49,7 +49,15 @@ node check-afi.mjs           # wer ist schon in Europa unter Vertrag -> afi-hits
 node build-radar.mjs     # -> europe-radar.json  (nach data/ kopieren)
 ```
 
-## Zwei Prüfungen, die man nicht vergessen darf
+## Drei Prüfungen, die man nicht vergessen darf
+
+**Ist der Spieler überhaupt schon frei?** Ein Drittel der Liste hatte 2025 noch
+College-Eligibility. `build-radar.mjs` leitet daraus automatisch `availability`
+und `eligibility_note` ab (Bezugssaison 2025: wer da Junior war, spielt 2026
+sein Abschlussjahr und ist frühestens 2027 zu haben). Zusätzlich gibt es
+`TRANSFER_STATUS` für belegte Wechsel an FBS-/FCS-Hochschulen — Kenyon Garner
+etwa war 2025 der beste Defensivspieler der Division II und ist im Dezember zu
+Florida Atlantic gegangen. Solche Spieler bleiben sichtbar, aber markiert.
 
 **Ist der Spieler schon weg?** Eine Empfehlungsliste, auf der vergebene Spieler
 stehen, verliert sofort ihren Wert. `check-afi.mjs` gleicht die Namen gegen
@@ -83,6 +91,11 @@ Bei Detailprofilen immer prüfen, ob es eine spätere Quelle gibt.
   Die echte Adresse steht im Quelltext dieses Wrappers und zeigt auf
   `s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/...`. Verlinkt wird auf der
   Seite trotzdem der Wrapper, nicht die rohe S3-Datei.
+- **Tippfehler in den Quellen setzen sich durch**, weil beim Merge die zuerst
+  eingelesene Schreibweise gewinnt. Der AP-Artikel schreibt „Livingtone" statt
+  „Livingstone" — korrigiert über `COLLEGE_FIX` in `merge.mjs`. Zum Aufspüren:
+  College-Schreibweisen desselben Spielers über alle Quellen vergleichen.
+  Abkürzungsvarianten („Angelo State" vs. „Angelo St.") dabei in Ruhe lassen.
 - **Positionskürzel unterscheiden sich je Quelle.** Das D2CCA-Team trennt die
   Secondary in `CB`/`S`, die AP-Artikel fassen zu `DB` zusammen, D3football
   kürzt Linemen zu `L`. Fehlt ein Kürzel im Muster, verschwinden Zeilen

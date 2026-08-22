@@ -64,6 +64,12 @@ export type EuropeRadarPlayer = {
   nfl_note?: string | null;
   /** Gesetzt, wenn der Spieler in Europa bereits unter Vertrag steht. */
   europe_note?: string | null;
+  /** Gesetzt bei belegtem Wechsel an eine FBS-/FCS-Hochschule. */
+  transfer_note?: string | null;
+  /** Aus der Class abgeleitet: College fertig oder noch gebunden. */
+  availability?: "verfuegbar" | "gebunden" | "unbekannt";
+  /** Erläutert, wie lange ein gebundener Spieler noch College spielt. */
+  eligibility_note?: string | null;
   /** Spieler hat oben auf der Seite zusätzlich ein ausführliches Detailprofil. */
   has_detail?: boolean;
 };
