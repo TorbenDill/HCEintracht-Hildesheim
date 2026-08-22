@@ -1839,6 +1839,37 @@
         "247sports.com": "https://247sports.com/player/noel-portnjagin-46142281/",
         "si.com": "https://www.si.com/college/florida/recruiting/florida-gators-recruiting-yoel-portnjagin-commitment-germany"
       }
+    },
+    {
+      "name": "Manuel Beigel",
+      "position": "IOL",
+      "overall_rank": 75,
+      "pos_rank": 3,
+      "school": "Michigan",
+      "class_year": "Junior",
+      "height": "6'5\"",
+      "weight": "312 lbs",
+      "deutsch": true,
+      "herkunft": "Frankfurt am Main",
+      "projection": "Day 3 / Priority UDFA",
+      "report_core_de": "Frankfurter Athlet auf Bruce Feldmans Freaks List 2025, der bei Michigan zur Saison 2026 von der Defensive Line auf die Offensive Line wechselt.",
+      "report_de": "Manuel Beigel ist der athletisch auffälligste Deutsche im Kader eines Spitzenprogramms – und der mit der ungewöhnlichsten Baustelle. Der Frankfurter spielte bis 2020 Fußball, wechselte dann zum Football, ging über Choate Rosemary Hall nach Michigan und stand 2025 auf Bruce Feldmans Freaks List, der jährlichen Auflistung der außergewöhnlichsten Athleten des College-Footballs – dort neben Jeremiah Smith und Marlin Klein. Auf dem Feld ist daraus bisher wenig Zählbares geworden: sieben Einsätze 2025, vier davon in den Special Teams, drei in der Defense, dabei ein Tackle und eine Fumble-Recovery. Zur Saison 2026 führt Michigan ihn erstmals als Offensive Lineman – ein Wechsel, den das Programm ausdrücklich mit seinem Potenzial und nicht mit einer Kaderlücke begründet. Bei 6'5\" und 312 Pfund ist der Rahmen für die Line unstrittig, die Technik muss er praktisch von null aufbauen; auf welcher Position entlang der Line er landet, ist offen. Für 2027 ist er damit ein Wettlauf gegen die Zeit: Greift der Wechsel schnell, hat ein NFL-Team am dritten Tag einen Athleten mit seltenem Profil vor sich. Greift er nicht, ist es ein verlorenes Jahr.",
+      "best_case": "Entwicklungs-Guard mit Freak-Athletik, den ein Team am dritten Draft-Tag auf Rohmaterial hin nimmt.",
+      "worst_case": "Der Positionswechsel greift nicht rechtzeitig – dann bleibt es beim Special-Teamer ohne Draft-Wert.",
+      "sources": [
+        "mgoblue.com",
+        "espn.com",
+        "247sports.com",
+        "maizenbrew.com",
+        "detroitnews.com"
+      ],
+      "source_urls": {
+        "mgoblue.com": "https://mgoblue.com/sports/football/roster/manuel-beigel/28023",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5081267/manuel-beigel",
+        "247sports.com": "https://247sports.com/player/manuel-beigel-46135030/",
+        "maizenbrew.com": "https://www.maizenbrew.com/football/108745/michigan-football-spring-roster-manuel-beigel-offensive-line-position-change-kyle-whittingham",
+        "detroitnews.com": "https://www.detroitnews.com/story/sports/college/university-michigan/2023/09/20/trieu-michigan-commit-manuel-beigel-adjusts-quickly-to-football/70911384007/"
+      }
     }
   ],
   "mockdraft": [
