@@ -203,14 +203,16 @@
       "height": null,
       "weight": null,
       "highlight": "Cliff-Harris-Award 2025 für die NAIA – Ligaführender bei Sacks (11) und Tackles for Loss (24).",
-      "report_de": "In zwölf Spielen kam Thomas Ibrahim auf elf Sacks und 24 Tackles for Loss und führte damit die gesamte NAIA in beiden Kategorien an; die 24 TFL sind zugleich Vereinsrekord der Southeastern University. Dazu 68 Tackles (31 solo). In der Karriere stehen 157 Tackles (Platz sechs der Programmgeschichte), 33,5 Tackles for Loss (Platz zwei) und 15,5 Sacks (geteilter Platz drei). Ausgezeichnet mit dem Cliff Harris Award als bester Defensivspieler der NAIA, dazu AFCA NAIA Coaches First Team All-American, AP First Team NAIA All-America und First Team All-Sun Conference. Die NAIA ist für europäische Klubs seit Jahren einer der ergiebigsten Import-Pools, gerade auf der Defensive Line – und Ibrahim war 2025 der beste Mann in diesem Pool.",
+      "report_de": "In zwölf Spielen kam Thomas Ibrahim auf elf Sacks und 24 Tackles for Loss und führte damit die gesamte NAIA in beiden Kategorien an; die 24 TFL sind zugleich Vereinsrekord der Southeastern University. Dazu 68 Tackles (31 solo), sieben Quarterback-Hurries und zwei erzwungene Fumbles. In der Karriere stehen 157 Tackles (Platz sechs der Programmgeschichte), 33,5 Tackles for Loss (Platz zwei) und 15,5 Sacks (geteilter Platz drei). Ausgezeichnet mit dem Cliff Harris Award als bester Defensivspieler der NAIA, dazu AFCA NAIA Coaches First Team All-American, AP First Team NAIA All-America und First Team All-Sun Conference. Die NAIA ist für europäische Klubs seit Jahren einer der ergiebigsten Import-Pools, gerade auf der Defensive Line – und Ibrahim war 2025 der beste Mann in diesem Pool.",
       "sources": [
         "fire.seu.edu",
-        "en.wikipedia.org"
+        "en.wikipedia.org",
+        "afca.com"
       ],
       "source_urls": {
         "fire.seu.edu": "https://fire.seu.edu/news/2025/12/20/football-thomas-ibrahim-named-2025-cliff-harris-award-recipient.aspx",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "afca.com": "https://www.afca.com/william-penns-destynd-loring-and-southeasterns-thomas-ibrahim-headline-the-2025-afca-naia-coaches-all-america-teams/"
       }
     },
     {
@@ -249,6 +251,25 @@
       "source_urls": {
         "football-austria.com": "https://football-austria.com/harlon-hill-finalist-gavin-sukup-wird-neuer-quarterback-der-salzburg-ducks/",
         "athletics.uindy.edu": "https://athletics.uindy.edu/news/2025/12/3/football-sukup-dubbed-harlon-hill-trophy-finalist.aspx"
+      }
+    },
+    {
+      "name": "Destynd Loring",
+      "position": "RB",
+      "college": "William Penn (Iowa)",
+      "division": "NAIA",
+      "class_year": "Senior",
+      "height": "5'8\"",
+      "weight": "195 lbs",
+      "highlight": "Walter Camp NAIA Player of the Year 2025: 1.949 Rushing-Yards und 30 Touchdowns – beides Vereinsrekord, beides NAIA-Bestwert.",
+      "report_de": "Destynd Loring war 2025 der beste Spieler der NAIA, so hat ihn die Walter Camp Football Foundation ausgezeichnet. Die Zahlen dahinter: 1.949 Rushing-Yards und 30 Lauf-Touchdowns, in beiden Kategorien der Ligabestwert und zugleich neue Vereinsrekorde von William Penn. Am Ende seiner Karriere steht er mit 3.939 Yards als bester Läufer der Programmgeschichte in den Büchern. Dazu kommen die Wahl zum Offensive Player of the Year der Heart-of-America-Nordgruppe, das AFCA NAIA Coaches' All-America First Team und die AP-Little-All-America-Auswahl. Interessant ist sein Format: 5'8\" und 195 Pfund, also ein kompakter Back mit tiefem Schwerpunkt, der 30 Touchdowns nicht über Tempo allein holt, sondern über Kontaktbalance. Das ist genau der Läufertyp, der auf europäischen Kunstrasenplätzen und gegen weniger athletische Second Level Defenses funktioniert, wo lange Läufe seltener sind als harte vier Yards. Sein College ist abgeschlossen; im Februar 2026 führte er noch Gespräche über den NFL-Weg, was den Kader-Status vor einer Kontaktaufnahme prüfenswert macht.",
+      "sources": [
+        "waltercamp.org",
+        "afca.com"
+      ],
+      "source_urls": {
+        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-naia-all-america-team/",
+        "afca.com": "https://www.afca.com/william-penns-destynd-loring-and-southeasterns-thomas-ibrahim-headline-the-2025-afca-naia-coaches-all-america-teams/"
       }
     }
   ]

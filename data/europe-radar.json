@@ -3503,7 +3503,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Keagan La Belle",
