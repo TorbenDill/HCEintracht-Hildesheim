@@ -44,6 +44,17 @@ const NFL_STATUS = {
   "Jack Strand|NCAA Division II": "Unter Vertrag bei den Atlanta Falcons (Stand 08/2026) – kein Europa-Kandidat.",
 };
 
+// Bereits in Europa unter Vertrag. Ermittelt ueber check-afi.mjs (Abgleich
+// gegen American Football International) und einzeln belegt. Diese Spieler
+// bleiben in der Liste, aber als vergeben markiert - sie sind der Beweis,
+// dass das Profil in Europa funktioniert, und kein offener Kandidat mehr.
+const EUROPE_STATUS = {
+  "Bay Harvey|NCAA Division III": {
+    note: "Seit August 2026 bei den Potsdam Royals (GFL) – als Schweizer Staatsbürger ohne Import-Platz.",
+    url: "https://www.americanfootballinternational.com/potsdam-royals-sign-swiss-quarterback-bay-harvey-for-stretch-run/",
+  },
+};
+
 // Die Quellen schreiben die Class mal aus, mal abgekuerzt ("senior" vs. "Sr.").
 const CLASS_LABEL = {
   fr: "Freshman", "fr.": "Freshman", freshman: "Freshman",
@@ -72,7 +83,7 @@ const cleanHometown = (h) => {
   return out.length > 60 || /[{};]|function|window\./.test(out) ? null : out;
 };
 
-let epHits = 0, hudlHits = 0, nflFlagged = 0;
+let epHits = 0, hudlHits = 0, nflFlagged = 0, euFlagged = 0;
 
 const players = pool.map((p) => {
   const key = `${p.name}|${p.division}`;
@@ -84,6 +95,8 @@ const players = pool.map((p) => {
   if (hudl_url) hudlHits++;
   const nfl_note = NFL_STATUS[key] ?? null;
   if (nfl_note) nflFlagged++;
+  const eu = EUROPE_STATUS[key] ?? null;
+  if (eu) euFlagged++;
 
   return {
     name: p.name,
@@ -100,6 +113,7 @@ const players = pool.map((p) => {
     hudl_url,
     instagram: null,
     nfl_note,
+    europe_note: eu?.note ?? null,
     has_detail: detailNames.has(p.name.toLowerCase()),
   };
 });
@@ -144,6 +158,7 @@ for (const a of awardData.awards) {
         hudl_url: hudlByKey.get(`${e.name}|${a.division}`) ?? null,
         instagram: null,
         nfl_note: NFL_STATUS[`${e.name}|${a.division}`] ?? null,
+        europe_note: EUROPE_STATUS[`${e.name}|${a.division}`]?.note ?? null,
         has_detail: detailNames.has(e.name.toLowerCase()),
       };
       players.push(p);
@@ -155,6 +170,12 @@ for (const a of awardData.awards) {
     if (!p.honors.includes(e.label)) p.honors.unshift(e.label); // Award zuerst nennen
     Object.assign(p.sources, a.sources);
   }
+}
+
+// Der Beleg fuer eine Europa-Verpflichtung gehoert als Quelle mit an den Eintrag.
+for (const p of players) {
+  const eu = EUROPE_STATUS[`${p.name}|${p.division}`];
+  if (eu?.url) p.sources["americanfootballinternational.com"] = eu.url;
 }
 
 // Sortierung: Division, dann Positionsgruppe, dann Name
@@ -184,6 +205,7 @@ console.log(`Spieler: ${players.length}`);
 console.log(`Europlayers-Links (verifiziert): ${epHits}`);
 console.log(`Hudl-Links: ${hudlHits}`);
 console.log(`NFL-Markierungen: ${nflFlagged}`);
+console.log(`Bereits in Europa: ${players.filter((p) => p.europe_note).length}`);
 console.log(`Auch als Detailprofil: ${players.filter((p) => p.has_detail).length}`);
 console.log(`Awards: ${awardEnriched} angereichert, ${awardAdded} neu (davon ${awardPromoted} aus dem Einzelquellen-Pool nachgerueckt)`);
 const byDiv = {};

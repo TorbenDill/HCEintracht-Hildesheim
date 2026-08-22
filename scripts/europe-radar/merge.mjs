@@ -11,6 +11,7 @@ const afca = JSON.parse(fs.readFileSync("afca-allamerica-2025.json", "utf8"));
 const wiki = JSON.parse(fs.readFileSync("little-all-america-2025.json", "utf8"));
 const naia = JSON.parse(fs.readFileSync("naia-afca-2025.json", "utf8"));
 const d3fb = JSON.parse(fs.readFileSync("d3football-allamerica-2025.json", "utf8"));
+const d2cca = JSON.parse(fs.readFileSync("d2cca-allamerica-2025.json", "utf8"));
 
 function normName(s) {
   return (s ?? "")
@@ -78,6 +79,7 @@ for (const p of ap) add(p, "apnews.com", p.ap_url, `AP ${p.ap_team} Team All-Ame
 for (const p of afca) add(p, "afca.com", p.afca_url, "AFCA Coaches All-America");
 for (const p of naia) add(p, "victorysportsnetwork.com", p.naia_url, "AFCA NAIA Coaches All-America");
 for (const p of d3fb) add(p, "d3football.com", p.d3_url, "D3football.com " + p.d3_section.replace(/ (offense|defense|specialists?)$/i, "") + " All-America");
+for (const p of d2cca) add(p, "esuhornets.com", "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf", "D2CCA " + p.d2cca_team.charAt(0) + p.d2cca_team.slice(1).toLowerCase() + " Team All-America");
 for (const p of wiki) add(p, "en.wikipedia.org", "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team", null);
 
 for (const p of pool) {

@@ -26,6 +26,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -40,11 +41,13 @@
       "honors": [
         "Harlon-Hill-Finalist 2025",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
         "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
@@ -53,6 +56,7 @@
       "hudl_url": "https://www.hudl.com/profile/17761606/jack-strand",
       "instagram": null,
       "nfl_note": "Unter Vertrag bei den Atlanta Falcons (Stand 08/2026) – kein Europa-Kandidat.",
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -60,14 +64,16 @@
       "position": "QB",
       "college": "Kutztown",
       "division": "NCAA Division II",
-      "class_year": null,
+      "class_year": "Junior",
       "height": null,
       "weight": null,
-      "hometown": null,
+      "hometown": "Manheim, Pa",
       "honors": [
-        "Harlon-Hill-Finalist 2025"
+        "Harlon-Hill-Finalist 2025",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
         "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
       },
@@ -75,6 +81,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -97,6 +104,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -111,11 +119,13 @@
       "honors": [
         "Harlon-Hill-Finalist 2025",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
         "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
@@ -124,6 +134,7 @@
       "hudl_url": "https://www.hudl.com/profile/17859210/andrew-miller",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -138,11 +149,13 @@
       "honors": [
         "Harlon-Hill-Trophy-Gewinner 2025",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
         "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
@@ -151,6 +164,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -164,16 +178,19 @@
       "hometown": "St. Petersburg, Florida",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -197,6 +214,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -210,17 +228,20 @@
       "hometown": "Sawyer, North Dakota",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/16071624/gage-florence",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -234,16 +255,19 @@
       "hometown": "Statesville, North Carolina",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -257,17 +281,20 @@
       "hometown": "Corona, California",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -281,17 +308,20 @@
       "hometown": "Arlington, Texas",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -315,6 +345,7 @@
       "hudl_url": "https://www.hudl.com/profile/17826311/eddie-burgess",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -328,17 +359,20 @@
       "hometown": "Andover, Minnesota",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -366,6 +400,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -379,10 +414,12 @@
       "hometown": "Greenhill, Alabama",
       "honors": [
         "Gene-Upshaw-Finalist 2025",
-        "AP First Team All-America"
+        "AP First Team All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
         "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
@@ -391,6 +428,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -405,11 +443,13 @@
       "honors": [
         "Gene-Upshaw-Finalist 2025",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
         "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
@@ -418,6 +458,7 @@
       "hudl_url": "https://www.hudl.com/profile/11467171/joe-cooper",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -442,6 +483,7 @@
       "hudl_url": "https://www.hudl.com/profile/16071566/montriel-lee",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -455,16 +497,19 @@
       "hometown": "Decatur, Illinois",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -479,11 +524,13 @@
       "honors": [
         "Gene-Upshaw-Finalist 2025",
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
         "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
@@ -491,6 +538,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -517,6 +565,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -531,11 +580,13 @@
       "honors": [
         "Gene-Upshaw-Award-Gewinner 2025 (bester D2-Lineman)",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
         "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
@@ -544,6 +595,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -554,13 +606,15 @@
       "class_year": "Redshirt Junior",
       "height": null,
       "weight": null,
-      "hometown": null,
+      "hometown": "Indian Trail, N.C",
       "honors": [
         "Gene-Upshaw-Finalist 2025",
-        "AP Second Team All-America"
+        "AP Second Team All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
         "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
@@ -568,6 +622,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -581,16 +636,19 @@
       "hometown": "Stilwell, Kansas",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -615,6 +673,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -627,16 +686,19 @@
       "weight": "250 lbs",
       "hometown": "Detroit",
       "honors": [
-        "AP First Team All-America"
+        "AP First Team All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/10175185/israel-nwokocha",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -661,6 +723,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -675,11 +738,13 @@
       "honors": [
         "Gene-Upshaw-Finalist 2025",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
         "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
@@ -688,6 +753,7 @@
       "hudl_url": "https://www.hudl.com/profile/17714765/michael-shimek",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -711,6 +777,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -724,16 +791,19 @@
       "hometown": "Happy Valley, Oregon",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -747,16 +817,19 @@
       "hometown": "Winfield, Pennsylvania",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17822090/brandon-hile",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -770,16 +843,19 @@
       "hometown": "Mountain Brook, Alabama",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -793,17 +869,20 @@
       "hometown": "Sanford, Florida",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -817,17 +896,20 @@
       "hometown": "Osage City, Kansas",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/19096156/landon-boss",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -841,17 +923,20 @@
       "hometown": "China Spring, Texas",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -876,6 +961,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -889,17 +975,20 @@
       "hometown": "Bellmead, Texas",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/9775074/jordan-rogers",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -914,11 +1003,13 @@
       "honors": [
         "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "gliac.org": "https://gliac.org/news/2026/1/22/ferris-state-footballs-justin-payoute-wins-cliff-harris-award-as-nations-top-defensive-player.aspx",
         "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
@@ -927,6 +1018,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -950,6 +1042,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -962,16 +1055,19 @@
       "weight": "195 lbs",
       "hometown": "Chico, California",
       "honors": [
-        "AP First Team All-America"
+        "AP First Team All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/8257796/marvelous-owens",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -985,16 +1081,19 @@
       "hometown": "Miami",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1018,6 +1117,31 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Elijah Guyton",
+      "position": "K",
+      "college": "West Alabama",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Junior",
+      "height": "6'1\"",
+      "weight": "185 lbs",
+      "hometown": "Cullman, Alabama",
+      "honors": [
+        "AP Second Team All-America",
+        "D2CCA Second Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1031,17 +1155,20 @@
       "hometown": "Novi, Michigan",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1055,17 +1182,20 @@
       "hometown": "Sturgis, South Dakota",
       "honors": [
         "AP First Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/16216069/brodie-eisenbraun",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1079,16 +1209,19 @@
       "hometown": "Pittsburgh",
       "honors": [
         "AP Second Team All-America",
-        "AFCA Coaches All-America"
+        "AFCA Coaches All-America",
+        "D2CCA Second Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1113,6 +1246,7 @@
       "hudl_url": "https://www.hudl.com/profile/11845436/tye-roberson",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1137,6 +1271,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1161,6 +1296,31 @@
       "hudl_url": "https://www.hudl.com/profile/21801399/jayjay-jordan",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Shea Ruddy",
+      "position": "APB",
+      "college": "Hillsdale",
+      "division": "NCAA Division II",
+      "class_year": "Junior",
+      "height": "5'11\"",
+      "weight": "185 lbs",
+      "hometown": "Temperance, Michigan",
+      "honors": [
+        "AP Second Team All-America",
+        "D2CCA First Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1180,12 +1340,14 @@
       "sources": {
         "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
         "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
-        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx",
+        "americanfootballinternational.com": "https://www.americanfootballinternational.com/potsdam-royals-sign-swiss-quarterback-bay-harvey-for-stretch-run/"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": "Seit August 2026 bei den Potsdam Royals (GFL) – als Schweizer Staatsbürger ohne Import-Platz.",
       "has_detail": true
     },
     {
@@ -1209,6 +1371,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1231,6 +1394,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -1259,6 +1423,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -1284,6 +1449,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1310,6 +1476,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1338,6 +1505,7 @@
       "hudl_url": "https://www.hudl.com/profile/18084569/montie-quinn",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -1361,6 +1529,7 @@
       "hudl_url": "https://www.hudl.com/profile/12944187/nahjiir-seagraves",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1389,6 +1558,7 @@
       "hudl_url": "https://www.hudl.com/profile/19739860/albert-rundell",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -1412,6 +1582,7 @@
       "hudl_url": "https://www.hudl.com/profile/19388566/cole-crotty",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1435,6 +1606,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1460,6 +1632,7 @@
       "hudl_url": "https://www.hudl.com/profile/19526044/eli-aston",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1483,6 +1656,7 @@
       "hudl_url": "https://www.hudl.com/profile/17761024/gary-lewis",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1509,6 +1683,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1535,6 +1710,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1560,6 +1736,7 @@
       "hudl_url": "https://www.hudl.com/profile/23012499/tyren-montgomery",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1585,6 +1762,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1608,6 +1786,7 @@
       "hudl_url": "https://www.hudl.com/profile/19234973/logan-frederick",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1632,6 +1811,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1658,6 +1838,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1681,6 +1862,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1705,6 +1887,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1730,6 +1913,7 @@
       "hudl_url": "https://www.hudl.com/profile/18018962/dain-walter",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1753,6 +1937,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1779,6 +1964,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1804,6 +1990,7 @@
       "hudl_url": "https://www.hudl.com/profile/13020136/hayden-philpot",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1827,6 +2014,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1851,6 +2039,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1875,6 +2064,7 @@
       "hudl_url": "https://www.hudl.com/profile/12926095/quentin-lehman",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1898,6 +2088,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1921,6 +2112,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1944,6 +2136,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1967,6 +2160,7 @@
       "hudl_url": "https://www.hudl.com/profile/19514260/galen-limantour",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -1993,6 +2187,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -2016,6 +2211,7 @@
       "hudl_url": "https://www.hudl.com/profile/19404568/jp-chaney",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2040,6 +2236,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2063,6 +2260,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2087,6 +2285,7 @@
       "hudl_url": "https://www.hudl.com/profile/11765163/michael-clark",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2112,6 +2311,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2135,6 +2335,7 @@
       "hudl_url": "https://www.hudl.com/profile/19726423/phil-conant",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2158,6 +2359,7 @@
       "hudl_url": "https://www.hudl.com/profile/13318777/tyler-sordillo",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2184,6 +2386,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2210,6 +2413,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2233,6 +2437,7 @@
       "hudl_url": "https://www.hudl.com/profile/11425017/brian-wall",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2256,6 +2461,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2280,6 +2486,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2306,6 +2513,7 @@
       "hudl_url": "https://www.hudl.com/profile/16099276/gage-timm",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2329,6 +2537,7 @@
       "hudl_url": "https://www.hudl.com/profile/8595224/kaiden-roden",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2355,6 +2564,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2378,6 +2588,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2402,6 +2613,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2425,6 +2637,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2451,6 +2664,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2475,6 +2689,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2500,6 +2715,7 @@
       "hudl_url": "https://www.hudl.com/profile/26724122/ethan-burrows",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2524,6 +2740,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2547,6 +2764,7 @@
       "hudl_url": "https://www.hudl.com/profile/22502417/joe-spirra",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2570,6 +2788,7 @@
       "hudl_url": "https://www.hudl.com/profile/26065978/kosta-thrasivoulou",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2593,6 +2812,7 @@
       "hudl_url": "https://www.hudl.com/profile/19563632/nazair-jean-lubin",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2617,6 +2837,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2642,6 +2863,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2668,6 +2890,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2691,6 +2914,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2713,6 +2937,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2736,6 +2961,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2759,6 +2985,7 @@
       "hudl_url": "https://www.hudl.com/profile/17943363/vicente-lyon",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2781,6 +3008,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2807,6 +3035,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2830,6 +3059,7 @@
       "hudl_url": "https://www.hudl.com/profile/18991964/jackson-waring",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2854,6 +3084,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2878,6 +3109,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2902,6 +3134,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2925,6 +3158,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2949,6 +3183,7 @@
       "hudl_url": "https://www.hudl.com/profile/17925060/drew-sellon",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2972,6 +3207,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -2996,6 +3232,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3019,6 +3256,7 @@
       "hudl_url": "https://www.hudl.com/profile/21580726/kyle-dixon",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3043,6 +3281,7 @@
       "hudl_url": "https://www.hudl.com/profile/12956563/matthew-holthusen",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3067,6 +3306,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3090,6 +3330,7 @@
       "hudl_url": "https://www.hudl.com/profile/12969280/tanner-zimmerman",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3113,6 +3354,7 @@
       "hudl_url": "https://www.hudl.com/profile/11309507/ashton-patterson",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3136,6 +3378,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3158,6 +3401,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3181,6 +3425,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3205,6 +3450,7 @@
       "hudl_url": "https://www.hudl.com/profile/17329048/kyree-watkins",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3229,6 +3475,7 @@
       "hudl_url": "https://www.hudl.com/profile/17730457/logan-penhollow",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3253,6 +3500,7 @@
       "hudl_url": "https://www.hudl.com/profile/11137011/rashad-beckham",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3276,6 +3524,7 @@
       "hudl_url": "https://www.hudl.com/profile/19589938/reece-byerly",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3300,6 +3549,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3324,6 +3574,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3347,6 +3598,7 @@
       "hudl_url": "https://www.hudl.com/profile/7746526/jackson-filer",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3370,6 +3622,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3396,6 +3649,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": true
     },
     {
@@ -3419,6 +3673,7 @@
       "hudl_url": "https://www.hudl.com/profile/11241475/trystin-voss",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3443,6 +3698,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3467,6 +3723,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3490,6 +3747,7 @@
       "hudl_url": "https://www.hudl.com/profile/16292361/clarke-hamilton",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3514,6 +3772,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3538,6 +3797,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3560,6 +3820,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3584,6 +3845,7 @@
       "hudl_url": "https://www.hudl.com/profile/11383647/braeden-orlandi",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3607,6 +3869,7 @@
       "hudl_url": "https://www.hudl.com/profile/19296715/cannon-johnson",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3631,6 +3894,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3654,6 +3918,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3676,6 +3941,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3700,6 +3966,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3722,6 +3989,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3746,6 +4014,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3770,6 +4039,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3793,6 +4063,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3816,6 +4087,7 @@
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     },
     {
@@ -3840,6 +4112,7 @@
       "hudl_url": "https://www.hudl.com/profile/19297497/levi-torgerson",
       "instagram": null,
       "nfl_note": null,
+      "europe_note": null,
       "has_detail": false
     }
   ]

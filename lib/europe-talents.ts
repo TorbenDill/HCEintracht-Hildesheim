@@ -62,6 +62,8 @@ export type EuropeRadarPlayer = {
   instagram?: string | null;
   /** Gesetzt, wenn ein NFL-Vertrag belegt ist – dann kein Europa-Kandidat. */
   nfl_note?: string | null;
+  /** Gesetzt, wenn der Spieler in Europa bereits unter Vertrag steht. */
+  europe_note?: string | null;
   /** Spieler hat oben auf der Seite zusätzlich ein ausführliches Detailprofil. */
   has_detail?: boolean;
 };

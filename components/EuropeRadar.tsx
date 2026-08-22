@@ -176,6 +176,12 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                   </p>
                 )}
 
+                {p.europe_note && (
+                  <p className="mt-1.5 rounded border border-accent/40 bg-accent-glow px-2 py-1 text-[11px] font-semibold text-accent">
+                    ✓ {p.europe_note}
+                  </p>
+                )}
+
                 {p.nfl_note && (
                   <p className="mt-1.5 rounded border border-border bg-background px-2 py-1 text-[11px] font-semibold text-foreground/70">
                     ⚠ {p.nfl_note}
