@@ -52,6 +52,12 @@ const EUROPE_STATUS = {
   "Bay Harvey|NCAA Division III": {
     note: "Seit August 2026 bei den Potsdam Royals (GFL) – als Schweizer Staatsbürger ohne Import-Platz.",
     url: "https://www.americanfootballinternational.com/potsdam-royals-sign-swiss-quarterback-bay-harvey-for-stretch-run/",
+    host: "americanfootballinternational.com",
+  },
+  "Gavin Sukup|NCAA Division II": {
+    note: "Seit der AFL-Saison 2026 Quarterback der Salzburg Ducks (Österreich).",
+    url: "https://football-austria.com/harlon-hill-finalist-gavin-sukup-wird-neuer-quarterback-der-salzburg-ducks/",
+    host: "football-austria.com",
   },
 };
 
@@ -208,7 +214,7 @@ for (const a of awardData.awards) {
 // Der Beleg fuer eine Europa-Verpflichtung gehoert als Quelle mit an den Eintrag.
 for (const p of players) {
   const eu = EUROPE_STATUS[`${p.name}|${p.division}`];
-  if (eu?.url) p.sources["americanfootballinternational.com"] = eu.url;
+  if (eu?.url) p.sources[eu.host ?? "americanfootballinternational.com"] = eu.url;
   const tr = TRANSFER_STATUS[`${p.name}|${p.division}`];
   if (tr?.url) p.sources["on3.com"] = tr.url;
 }

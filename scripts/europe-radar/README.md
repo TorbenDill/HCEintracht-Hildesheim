@@ -24,7 +24,7 @@ werden deshalb nach dem Namenstreffer gegen harte Merkmale geprüft.
 ```bash
 # 1. Rohdaten holen (siehe Quellen-URLs in den jeweiligen Skripten)
 #    ap_*.html, afca_d2.html, afca_d3.html, naia_vsn.html, d3_direct.html,
-#    little.wiki, d2cca.pdf, afi_idx.xml
+#    little.wiki, d2cca.pdf
 
 # 2. Auswahlteams parsen
 node parse-ap.mjs        # AP All-America D2/D3/NAIA -> ap-allamerica-2025.json
@@ -43,7 +43,7 @@ node crawl-europlayers.mjs   # ~420 Seiten, langsam (15-27 s/Seite) -> europlaye
 node verify-europlayers.mjs  # prüft Team/Position/Maße             -> europlayers-matched.json
 node crawl-hudl.mjs          # 2911 Sitemaps                        -> hudl-candidates.json
 node verify-hudl.mjs         # prüft Hochschule in og:description   -> hudl-matched.json
-node check-afi.mjs           # wer ist schon in Europa unter Vertrag -> afi-hits.json
+node check-europe.mjs        # wer ist schon in Europa unter Vertrag -> europe-hits.json
 
 # 5. Datei für die Seite bauen
 node build-radar.mjs     # -> europe-radar.json  (nach data/ kopieren)
@@ -60,14 +60,20 @@ etwa war 2025 der beste Defensivspieler der Division II und ist im Dezember zu
 Florida Atlantic gegangen. Solche Spieler bleiben sichtbar, aber markiert.
 
 **Ist der Spieler schon weg?** Eine Empfehlungsliste, auf der vergebene Spieler
-stehen, verliert sofort ihren Wert. `check-afi.mjs` gleicht die Namen gegen
-American Football International ab, das Fachmedium für europäische
-Verpflichtungen. AFI vergibt pro Spieler ein Tag und schreibt den Namen in den
-Artikel-Slug, beides lässt sich offline matchen. Treffer werden anschließend
-einzeln gelesen und in `EUROPE_STATUS` in `build-radar.mjs` eingetragen — der
-Spieler bleibt dann in der Liste, aber als vergeben markiert. Analog dazu
-`NFL_STATUS` für NFL-Verträge. Achtung: WordPress nummeriert die Post-Sitemaps
-aufsteigend nach **Alter**, `-1` ist die neueste.
+stehen, verliert sofort ihren Wert. `check-europe.mjs` gleicht die Namen gegen
+die europäische Fachpresse ab: Die Medien vergeben pro Spieler Tags und
+schreiben den Namen in den Artikel-Slug, beides lässt sich offline matchen.
+Treffer werden anschließend einzeln gelesen und in `EUROPE_STATUS` in
+`build-radar.mjs` eingetragen — der Spieler bleibt dann in der Liste, aber als
+vergeben markiert. Analog dazu `NFL_STATUS`.
+
+**Ein Medium reicht dafür nicht.** Der erste Lauf prüfte nur American Football
+International und fand ausschließlich Bay Harvey (GFL). Gavin Sukup spielte da
+längst bei den Salzburg Ducks — gemeldet aber von football-austria.com. Wer den
+Markt abdecken will, braucht pro Liga mindestens ein Medium; die Liste der
+Quellen steht oben in `check-europe.mjs` und gehört erweitert, sobald eine Liga
+fehlt. Achtung: WordPress nummeriert die Post-Sitemaps aufsteigend nach
+**Alter**, `-1` ist die neueste.
 
 **Stimmen die Zahlen noch?** Statistiken aus Artikeln vom Dezember sind
 Zwischenstände vor den Playoffs. Beispiel Bay Harvey: die Meldung zur

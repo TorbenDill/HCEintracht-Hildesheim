@@ -11,14 +11,16 @@
       "height": "5'9\"",
       "weight": "180 lbs",
       "highlight": "522 Yards und 7 Touchdowns in einem einzigen Spiel – NCAA-Rekord über alle Divisionen hinweg (bricht Samaje Perines Marke).",
-      "report_de": "Was Montie Quinn am 18. Oktober 2025 gegen Nichols College abgeliefert hat, gehört zu den außergewöhnlichsten Einzelleistungen der College-Football-Geschichte: 522 Rushing-Yards und sieben Touchdowns bei nur 20 Trägen, an einem Nachmittag mehr Yards als jeder Spieler zuvor in einem einzigen Spiel, egal welche Division. Der Rekord von Heidelbergs Cartel Brooks (465 Yards, 2013) war bis dahin die Division-III-Bestmarke, Samaje Perines FBS-Rekord fiel gleich mit. Bei 5'9\" und 180 Pfund ist Quinn kein Kraftpaket, sondern ein explosiver One-Cut-Runner mit außergewöhnlicher Vision und Tempo, der über eine Karriere mit 6.881 Yards kam und als Senior mit 2.446 Yards alle NCAA-Divisionen anführte. Genau dieses Profil, kompakt, explosiv, konstant produktiv, ist exakt der Spielertyp, aus dem in der GFL seit Jahren echte Stars geworden sind.",
+      "report_de": "Was Montie Quinn am 18. Oktober 2025 gegen Nichols College abgeliefert hat, gehört zu den außergewöhnlichsten Einzelleistungen der College-Football-Geschichte: 522 Rushing-Yards und sieben Touchdowns bei nur 20 Trägen, an einem Nachmittag mehr Yards als jeder Spieler zuvor in einem einzigen Spiel, egal welche Division. Der Rekord von Heidelbergs Cartel Brooks (465 Yards, 2013) war bis dahin die Division-III-Bestmarke, Samaje Perines FBS-Rekord fiel gleich mit. Bei 5'9\" und 180 Pfund ist Quinn kein Kraftpaket, sondern ein explosiver One-Cut-Runner mit außergewöhnlicher Vision und Tempo, der über eine Karriere mit 6.881 Yards kam und als Senior mit 2.446 Yards alle NCAA-Divisionen anführte. Der Rest der Saison war kein Ausreißer nach oben, sondern die Regel: 10,07 Yards pro Lauf, sieben Spiele mit über 200 Rushing-Yards, in zehn von elf Partien über 100 Yards, dazu 27 Rushing-Touchdowns. Die AFCA wählte ihn zum zweiten Mal in ihr All-America-Team. Genau dieses Profil, kompakt, explosiv, konstant produktiv, ist exakt der Spielertyp, aus dem in der GFL seit Jahren echte Stars geworden sind.",
       "sources": [
         "espn.com",
-        "cbssports.com"
+        "cbssports.com",
+        "afca.com"
       ],
       "source_urls": {
         "espn.com": "https://www.espn.com/college-football/story/_/id/46647483/curry-college-rb-montie-quinn-rushes-ncaa-record-522-yards",
-        "cbssports.com": "https://www.cbssports.com/college-football/news/division-iii-rb-rushes-for-522-yards-in-historic-performance-topping-samaje-perines-ncaa-record"
+        "cbssports.com": "https://www.cbssports.com/college-football/news/division-iii-rb-rushes-for-522-yards-in-historic-performance-topping-samaje-perines-ncaa-record",
+        "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/"
       }
     },
     {
@@ -209,6 +211,44 @@
       "source_urls": {
         "fire.seu.edu": "https://fire.seu.edu/news/2025/12/20/football-thomas-ibrahim-named-2025-cliff-harris-award-recipient.aspx",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      }
+    },
+    {
+      "name": "Michael Shimek",
+      "position": "DE",
+      "college": "Ashland",
+      "division": "NCAA Division II",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "246 lbs",
+      "highlight": "D2CCA Ron Lenz Defensive Player of the Year 2025: 17,5 Sacks – die zweitbeste Saison der Ashland-Geschichte hinter einem College-Hall-of-Famer.",
+      "report_de": "Michael Shimek war 2025 der beste Defensivspieler der Division II, und zwar nicht knapp: 17,5 Sacks, 18,5 Tackles for Loss, 55 Tackles (31 solo), drei erzwungene Fumbles und zwei geblockte Kicks. In der Vereinsgeschichte von Ashland hat nur ein Einziger mehr Sacks in einer Saison geschafft – Bill Royce, Mitglied der College Football Hall of Fame. Schon in den ersten beiden Spielwochen legte Shimek 6,5 Sacks auf und wurde zum D2Football.com Defensive Player of the Week; am Ende standen der D2CCA Ron Lenz Award als nationaler Defensivspieler des Jahres, die Wahl zum G-MAC Player of the Year (nicht nur zum besten Verteidiger der Conference) und die zweite First-Team-All-America-Ehrung in Folge. Dazu war er Finalist für den Gene Upshaw Award und den Cliff Harris Award und für die Harlon Hill Trophy nominiert. Bei 6'1\" und 246 Pfund ist er kein Edge-Rusher mit Wingspan-Bonus, sondern lebt von Start, Handarbeit und Ausdauer – ein Profil, das in der GFL nicht von Feldgröße abhängt und sofort trägt. Sein College ist abgeschlossen, er ist verfügbar.",
+      "sources": [
+        "greatmidwestsports.com",
+        "goashlandeagles.com"
+      ],
+      "source_urls": {
+        "greatmidwestsports.com": "https://greatmidwestsports.com/news/2025/12/18/football-shimek-d2cca-defensive-player-of-the-year-he-watanabe-are-two-time-d-ii-first-team-all-americans.aspx",
+        "goashlandeagles.com": "https://goashlandeagles.com/news/2026/1/16/football-shimek-announced-as-finalist-for-2025-cliff-harris-award.aspx"
+      }
+    },
+    {
+      "name": "Gavin Sukup",
+      "position": "QB",
+      "college": "Indianapolis",
+      "division": "NCAA Division II",
+      "class_year": "Senior (Karriere abgeschlossen)",
+      "height": "6'1\"",
+      "weight": "188 lbs",
+      "highlight": "Bereits verpflichtet: Der Harlon-Hill-Finalist führt seit der AFL-Saison 2026 die Offense der Salzburg Ducks – 3.695 Passing-Yards und 41 Touchdowns im Abschlussjahr.",
+      "report_de": "Gavin Sukup zeigt, wie schnell ein Spieler dieser Kategorie vom Markt ist: Kaum war die College-Saison vorbei, hatten ihn die Salzburg Ducks für die AFL-Saison 2026 unter Vertrag; sein Debüt gab er am 7. März 2026. Was Österreich sich da gesichert hat, lässt sich an Zahlen ablesen: 3.695 Passing-Yards, 41 Touchdown-Pässe und 72,3 Prozent angekommene Bälle, dazu 4.018 Yards und 46 Touchdowns insgesamt. Seine Passeffizienz von 195,6 war nicht nur der Bestwert der Division II 2025, sondern der fünfthöchste Saisonwert der gesamten D2-Geschichte. Er ist dreimal in Folge zum Offensive Player of the Year der GLVC gewählt worden – Conference-Rekord –, hält die Schulrekorde von UIndy bei Passing-Yards und Touchdowns und war der erste Greyhound überhaupt, der es unter die Finalisten der Harlon Hill Trophy schaffte. In einem Spiel der Saison 2025 kam er auf über 400 Passing- und zugleich über 100 Rushing-Yards, was sonst niemandem im College-Football gelang. Für deutsche Klubs ist er damit kein Kandidat mehr, aber der beste verfügbare Beleg dafür, welches Profil in Europa sofort zugreift.",
+      "sources": [
+        "football-austria.com",
+        "athletics.uindy.edu"
+      ],
+      "source_urls": {
+        "football-austria.com": "https://football-austria.com/harlon-hill-finalist-gavin-sukup-wird-neuer-quarterback-der-salzburg-ducks/",
+        "athletics.uindy.edu": "https://athletics.uindy.edu/news/2025/12/3/football-sukup-dubbed-harlon-hill-trophy-finalist.aspx"
       }
     }
   ]

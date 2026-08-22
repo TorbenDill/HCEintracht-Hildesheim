@@ -20,17 +20,18 @@
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
-        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025",
+        "football-austria.com": "https://football-austria.com/harlon-hill-finalist-gavin-sukup-wird-neuer-quarterback-der-salzburg-ducks/"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
-      "europe_note": null,
+      "europe_note": "Seit der AFL-Saison 2026 Quarterback der Salzburg Ducks (Österreich).",
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Jack Strand",
@@ -839,7 +840,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ricky Freymond",
