@@ -488,5 +488,33 @@
     "college": "Ohio",
     "projection": "Day 3 / Priority UDFA",
     "ranking_overall": 70
+  },
+  "bruno-dall": {
+    "name": "Bruno Dall",
+    "position": "EDGE",
+    "college": "UCF",
+    "projection": "Day 2-3 (Aufsteiger)",
+    "ranking_overall": 71
+  },
+  "issa-ouattara": {
+    "name": "Issa Ouattara",
+    "position": "DT",
+    "college": "Vanderbilt",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 72
+  },
+  "daniel-evert": {
+    "name": "Daniel Evert",
+    "position": "TE",
+    "college": "Temple",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 73
+  },
+  "noel-portnjagin": {
+    "name": "Noel Portnjagin",
+    "position": "IOL",
+    "college": "James Madison",
+    "projection": "Watchlist (Entwicklungsprofil)",
+    "ranking_overall": 74
   }
 }
