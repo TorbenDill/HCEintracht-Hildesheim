@@ -32,16 +32,24 @@ function groupOf(position: string): string {
   return "ST";
 }
 
+/** Einzelauszeichnungen (Trophy/Award), nicht die All-America-Teams. */
+const isAwarded = (p: EuropeRadarPlayer) =>
+  p.honors.some((h) => /Trophy|Award|Finalist/.test(h));
+
 export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] }) {
   const [division, setDivision] = useState("ALL");
   const [posGroup, setPosGroup] = useState("ALL");
+  const [awardsOnly, setAwardsOnly] = useState(false);
   const [query, setQuery] = useState("");
+
+  const awardCount = useMemo(() => players.filter(isAwarded).length, [players]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return players.filter((p) => {
       if (division !== "ALL" && p.division !== division) return false;
       if (posGroup !== "ALL" && groupOf(p.position) !== posGroup) return false;
+      if (awardsOnly && !isAwarded(p)) return false;
       if (!q) return true;
       return (
         p.name.toLowerCase().includes(q) ||
@@ -49,7 +57,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
         (p.hometown ?? "").toLowerCase().includes(q)
       );
     });
-  }, [players, division, posGroup, query]);
+  }, [players, division, posGroup, awardsOnly, query]);
 
   const linkClass =
     "rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider transition-colors";
@@ -105,9 +113,23 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
           ))}
         </div>
 
-        <p className="text-xs text-muted" aria-live="polite">
-          {filtered.length} von {players.length} Spielern
-        </p>
+        <div className="flex flex-wrap items-center gap-3">
+          <button
+            onClick={() => setAwardsOnly((v) => !v)}
+            aria-pressed={awardsOnly}
+            className={cn(
+              "rounded-full px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+              awardsOnly
+                ? "bg-primary text-background glow-primary"
+                : "border border-primary/40 bg-surface text-primary hover:bg-primary-glow",
+            )}
+          >
+            ★ Nur Auszeichnungen ({awardCount})
+          </button>
+          <p className="text-xs text-muted" aria-live="polite">
+            {filtered.length} von {players.length} Spielern
+          </p>
+        </div>
       </div>
 
       <div className="flex flex-col gap-2">

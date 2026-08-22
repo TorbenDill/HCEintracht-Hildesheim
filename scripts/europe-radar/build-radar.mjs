@@ -27,6 +27,11 @@ const hudl = JSON.parse(fs.readFileSync("hudl-matched.json", "utf8"));
 // Tyler Walker (Benedictine statt Montana Western), der sonst faelschlich
 // verlinkt worden waere.
 const epMatched = JSON.parse(fs.readFileSync("europlayers-matched.json", "utf8"));
+// Einzelauszeichnungen (Harlon Hill, Gene Upshaw, Gagliardi, Cliff Harris).
+// Sie sind das staerkere Signal als ein AP-Third-Team und bringen ausserdem
+// Spieler herein, die in keinem All-America-Team stehen - die Award-Meldung
+// liefert die zwei nötigen Quellen gleich mit.
+const awardData = JSON.parse(fs.readFileSync("awards-2025.json", "utf8"));
 
 // Hudl
 const hudlByKey = new Map(hudl.map((h) => [h.key, h.url]));
@@ -99,6 +104,59 @@ const players = pool.map((p) => {
   };
 });
 
+// --- Auszeichnungen einspielen -------------------------------------------
+// Vorhandene Eintraege bekommen die Ehrung plus die Award-Quellen; fehlende
+// Spieler werden neu angelegt (die Award-Meldung liefert zwei Quellen und
+// erfuellt damit die Regel der Seite).
+const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
+const byName = new Map(players.map((p) => [norm(p.name) + "|" + p.division, p]));
+// Spieler, die bisher nur EINE Quelle hatten: durch die Award-Meldung kommen
+// sie ueber die Schwelle. Ihre schon erfassten Daten (AP-Ehrung, Groesse,
+// Gewicht, Hometown) sollen dabei nicht verloren gehen.
+const singlePool = new Map(
+  JSON.parse(fs.readFileSync("pool-single.json", "utf8")).map((p) => [norm(p.name) + "|" + p.division, p]),
+);
+let awardEnriched = 0, awardAdded = 0, awardPromoted = 0;
+
+for (const a of awardData.awards) {
+  const entries = [
+    ...(a.winner ? [{ ...a.winner, label: a.label_winner }] : []),
+    ...a.finalists.map((f) => ({ ...f, label: a.label_finalist })),
+  ];
+  for (const e of entries) {
+    const key = norm(e.name) + "|" + a.division;
+    let p = byName.get(key);
+    if (!p) {
+      const base = singlePool.get(key);
+      if (base) awardPromoted++;
+      p = {
+        name: base?.name ?? e.name,
+        position: base?.position ?? e.position,
+        college: base?.college ?? e.college,
+        division: a.division,
+        class_year: normClass(base?.class_year ?? null),
+        height: base?.height ?? null,
+        weight: base?.weight ?? null,
+        hometown: cleanHometown(base?.hometown ?? null),
+        honors: base ? [...base.honors] : [],
+        sources: base ? { ...base.sources } : {},
+        europlayers_url: epByKey.get(`${e.name}|${a.division}`) ?? null,
+        hudl_url: hudlByKey.get(`${e.name}|${a.division}`) ?? null,
+        instagram: null,
+        nfl_note: NFL_STATUS[`${e.name}|${a.division}`] ?? null,
+        has_detail: detailNames.has(e.name.toLowerCase()),
+      };
+      players.push(p);
+      byName.set(key, p);
+      awardAdded++;
+    } else {
+      awardEnriched++;
+    }
+    if (!p.honors.includes(e.label)) p.honors.unshift(e.label); // Award zuerst nennen
+    Object.assign(p.sources, a.sources);
+  }
+}
+
 // Sortierung: Division, dann Positionsgruppe, dann Name
 const DIV_ORDER = { "NCAA Division II": 0, "NCAA Division III": 1, NAIA: 2 };
 const POS_ORDER = ["QB", "RB", "WR", "TE", "OL", "T", "G", "C", "DL", "DE", "DT", "LB", "DB", "CB", "S", "K", "P", "LS", "RS", "RET", "APB", "AP", "ATH", "ST"];
@@ -114,9 +172,10 @@ const out = {
   note:
     "Alle All-America-Auswahlen der Saison 2025 aus NCAA Division II, Division III und NAIA, " +
     "die sich mit mindestens zwei unabhängigen Quellen belegen lassen – ausgewertet wurden " +
-    "die Teams von Associated Press, AFCA und D3football.com. Europlayers- und Hudl-Links " +
-    "erscheinen nur, wenn dort wirklich ein Profil existiert und eindeutig diesem Spieler " +
-    "zugeordnet werden konnte.",
+    "die Teams von Associated Press, AFCA und D3football.com sowie die Einzelauszeichnungen " +
+    "Harlon Hill Trophy, Gene Upshaw Award, Gagliardi Trophy und Cliff Harris Award. " +
+    "Europlayers- und Hudl-Links erscheinen nur, wenn dort wirklich ein Profil existiert und " +
+    "eindeutig diesem Spieler zugeordnet werden konnte.",
   players,
 };
 
@@ -126,6 +185,7 @@ console.log(`Europlayers-Links (verifiziert): ${epHits}`);
 console.log(`Hudl-Links: ${hudlHits}`);
 console.log(`NFL-Markierungen: ${nflFlagged}`);
 console.log(`Auch als Detailprofil: ${players.filter((p) => p.has_detail).length}`);
+console.log(`Awards: ${awardEnriched} angereichert, ${awardAdded} neu (davon ${awardPromoted} aus dem Einzelquellen-Pool nachgerueckt)`);
 const byDiv = {};
 players.forEach((p) => (byDiv[p.division] = (byDiv[p.division] ?? 0) + 1));
 console.log("Nach Division:", byDiv);

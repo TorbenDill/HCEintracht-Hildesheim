@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-18",
-  "note": "Alle All-America-Auswahlen der Saison 2025 aus NCAA Division II, Division III und NAIA, die sich mit mindestens zwei unabhängigen Quellen belegen lassen – ausgewertet wurden die Teams von Associated Press, AFCA und D3football.com. Europlayers- und Hudl-Links erscheinen nur, wenn dort wirklich ein Profil existiert und eindeutig diesem Spieler zugeordnet werden konnte.",
+  "note": "Alle All-America-Auswahlen der Saison 2025 aus NCAA Division II, Division III und NAIA, die sich mit mindestens zwei unabhängigen Quellen belegen lassen – ausgewertet wurden die Teams von Associated Press, AFCA und D3football.com sowie die Einzelauszeichnungen Harlon Hill Trophy, Gene Upshaw Award, Gagliardi Trophy und Cliff Harris Award. Europlayers- und Hudl-Links erscheinen nur, wenn dort wirklich ein Profil existiert und eindeutig diesem Spieler zugeordnet werden konnte.",
   "players": [
     {
       "name": "Gavin Sukup",
@@ -12,12 +12,15 @@
       "weight": "188 lbs",
       "hometown": "Seward, Nebraska",
       "honors": [
+        "Harlon-Hill-Finalist 2025",
         "AP Second Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -35,18 +38,65 @@
       "weight": "240 lbs",
       "hometown": "Bloomer, Wisconsin",
       "honors": [
+        "Harlon-Hill-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17761606/jack-strand",
       "instagram": null,
       "nfl_note": "Unter Vertrag bei den Atlanta Falcons (Stand 08/2026) – kein Europa-Kandidat.",
+      "has_detail": false
+    },
+    {
+      "name": "Judd Novak",
+      "position": "QB",
+      "college": "Kutztown",
+      "division": "NCAA Division II",
+      "class_year": null,
+      "height": null,
+      "weight": null,
+      "hometown": null,
+      "honors": [
+        "Harlon-Hill-Finalist 2025"
+      ],
+      "sources": {
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
+      "name": "Reed Charpia",
+      "position": "QB",
+      "college": "Newberry",
+      "division": "NCAA Division II",
+      "class_year": null,
+      "height": null,
+      "weight": null,
+      "hometown": null,
+      "honors": [
+        "Harlon-Hill-Finalist 2025"
+      ],
+      "sources": {
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
       "has_detail": false
     },
     {
@@ -59,13 +109,16 @@
       "weight": "225 lbs",
       "hometown": "Searcy, Arkansas",
       "honors": [
+        "Harlon-Hill-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17859210/andrew-miller",
@@ -83,13 +136,16 @@
       "weight": "215 lbs",
       "hometown": "Petersburg, Virginia",
       "honors": [
+        "Harlon-Hill-Trophy-Gewinner 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -295,13 +351,16 @@
       "weight": "285 lbs",
       "hometown": "Jacksonville, Florida",
       "honors": [
+        "Gene-Upshaw-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -319,11 +378,14 @@
       "weight": "270 lbs",
       "hometown": "Greenhill, Alabama",
       "honors": [
+        "Gene-Upshaw-Finalist 2025",
         "AP First Team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -341,13 +403,16 @@
       "weight": "320 lbs",
       "hometown": "East Berlin, Pennsylvania",
       "honors": [
+        "Gene-Upshaw-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/11467171/joe-cooper",
@@ -412,12 +477,15 @@
       "weight": "330 lbs",
       "hometown": "Hatboro, Pa",
       "honors": [
+        "Gene-Upshaw-Finalist 2025",
         "AP Second Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -435,12 +503,15 @@
       "weight": "290 lbs",
       "hometown": "Yelm, Washington",
       "honors": [
+        "Gene-Upshaw-Finalist 2025",
         "AP Second Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
-        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/"
+        "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -458,19 +529,46 @@
       "weight": "305 lbs",
       "hometown": "Rochester, Michigan",
       "honors": [
+        "Gene-Upshaw-Award-Gewinner 2025 (bester D2-Lineman)",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
       "nfl_note": null,
       "has_detail": true
+    },
+    {
+      "name": "Will Hart",
+      "position": "OL",
+      "college": "Wingate",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Junior",
+      "height": null,
+      "weight": null,
+      "hometown": null,
+      "honors": [
+        "Gene-Upshaw-Finalist 2025",
+        "AP Second Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
     },
     {
       "name": "Clayton Power",
@@ -575,13 +673,16 @@
       "weight": "246 lbs",
       "hometown": "North Canton, Ohio",
       "honors": [
+        "Gene-Upshaw-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17714765/michael-shimek",
@@ -811,13 +912,16 @@
       "weight": "170 lbs",
       "hometown": "Miami Gardens, Florida",
       "honors": [
+        "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "gliac.org": "https://gliac.org/news/2026/1/22/ferris-state-footballs-justin-payoute-wins-cliff-harris-award-as-nations-top-defensive-player.aspx",
+        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -1012,6 +1116,30 @@
       "has_detail": false
     },
     {
+      "name": "Drew Nash",
+      "position": "APB",
+      "college": "Western Colorado",
+      "division": "NCAA Division II",
+      "class_year": "Redshirt Senior",
+      "height": "6'2\"",
+      "weight": "215 lbs",
+      "hometown": "Torrance, California",
+      "honors": [
+        "Harlon-Hill-Finalist 2025",
+        "AP Second Team All-America"
+      ],
+      "sources": {
+        "apnews.com": "https://apnews.com/article/d2-allamerica-0ad6e7d6e3b0bf5023d6153c96d8f875",
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": false
+    },
+    {
       "name": "JayJay Jordan",
       "position": "APB",
       "college": "Slippery Rock",
@@ -1045,12 +1173,14 @@
       "weight": null,
       "hometown": "Lenk, Switzerland",
       "honors": [
+        "Gagliardi-Finalist 2025",
         "AP Third Team All-America",
         "D3football.com Second team All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
-        "d3football.com": "https://www.d3football.com/awards/all-americans/2025"
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -1082,6 +1212,28 @@
       "has_detail": false
     },
     {
+      "name": "Jack Curtis",
+      "position": "QB",
+      "college": "Carleton",
+      "division": "NCAA Division III",
+      "class_year": null,
+      "height": null,
+      "weight": null,
+      "hometown": null,
+      "honors": [
+        "Gagliardi-Finalist 2025"
+      ],
+      "sources": {
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx",
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy"
+      },
+      "europlayers_url": null,
+      "hudl_url": null,
+      "instagram": null,
+      "nfl_note": null,
+      "has_detail": true
+    },
+    {
       "name": "Kaleb Blaha",
       "position": "QB",
       "college": "UW-River Falls",
@@ -1091,6 +1243,7 @@
       "weight": "201 lbs",
       "hometown": "Coon Rapids, Minnesota",
       "honors": [
+        "Gagliardi-Trophy-Gewinner 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America",
         "D3football.com First team All-America"
@@ -1098,8 +1251,9 @@
       "sources": {
         "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
         "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
-        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -1168,6 +1322,7 @@
       "weight": "180 lbs",
       "hometown": "Goose Creek, South Carolina",
       "honors": [
+        "Gagliardi-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America",
         "D3football.com First team All-America"
@@ -1175,8 +1330,9 @@
       "sources": {
         "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
         "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
-        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/18084569/montie-quinn",
@@ -1217,6 +1373,7 @@
       "weight": "185 lbs",
       "hometown": "Watertown, Minnesota",
       "honors": [
+        "Gagliardi-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America",
         "D3football.com First team All-America"
@@ -1224,8 +1381,9 @@
       "sources": {
         "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
         "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
-        "d3football.com": "https://www.d3football.com/awards/all-americans/2025",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/19739860/albert-rundell",
@@ -1821,13 +1979,15 @@
       "weight": "270 lbs",
       "hometown": "Lake Villa, Illinois",
       "honors": [
+        "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/divisioniii-allamerica-1cf272bb511c074c02c1597d95c27239",
         "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "northcentralcardinals.com": "https://northcentralcardinals.com/news/2026/1/15/football-sullivan-becomes-first-cardinal-to-win-cliff-harris-award.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -3222,13 +3382,15 @@
       "weight": "255 lbs",
       "hometown": "Ocoee, Florida",
       "honors": [
+        "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
         "AP First Team All-America",
         "AFCA NAIA Coaches All-America"
       ],
       "sources": {
         "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
         "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "fire.seu.edu": "https://fire.seu.edu/news/2025/12/20/football-thomas-ibrahim-named-2025-cliff-harris-award-recipient.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,

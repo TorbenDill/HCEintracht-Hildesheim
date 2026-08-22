@@ -1,0 +1,97 @@
+{
+  "_comment": "Kuratiert und einzeln geprueft. Jede Auszeichnung traegt zwei unabhaengige Quellen, damit auch Spieler aufgenommen werden koennen, die in keinem All-America-Team stehen. Reihenfolge der Felder entspricht der Ausgabe in build-radar.mjs.",
+  "awards": [
+    {
+      "award": "Harlon Hill Trophy",
+      "label_winner": "Harlon-Hill-Trophy-Gewinner 2025",
+      "label_finalist": "Harlon-Hill-Finalist 2025",
+      "division": "NCAA Division II",
+      "sources": {
+        "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+      },
+      "winner": { "name": "Curtis Allen", "position": "RB", "college": "Virginia Union" },
+      "finalists": [
+        { "name": "Judd Novak", "position": "QB", "college": "Kutztown" },
+        { "name": "Reed Charpia", "position": "QB", "college": "Newberry" },
+        { "name": "Jack Strand", "position": "QB", "college": "MSU Moorhead" },
+        { "name": "Gavin Sukup", "position": "QB", "college": "UIndy" },
+        { "name": "Andrew Miller", "position": "RB", "college": "Harding" },
+        { "name": "Drew Nash", "position": "QB", "college": "Western Colorado" }
+      ]
+    },
+    {
+      "award": "Gene Upshaw Award",
+      "label_winner": "Gene-Upshaw-Award-Gewinner 2025 (bester D2-Lineman)",
+      "label_finalist": "Gene-Upshaw-Finalist 2025",
+      "division": "NCAA Division II",
+      "sources": {
+        "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
+      },
+      "winner": { "name": "Tim Anderson", "position": "OL", "college": "Ferris State" },
+      "finalists": [
+        { "name": "Jake Mitchell", "position": "OL", "college": "Harding" },
+        { "name": "Michael Shimek", "position": "DL", "college": "Ashland" },
+        { "name": "Joe Cooper", "position": "OL", "college": "Slippery Rock" },
+        { "name": "Ryan Scherecke", "position": "OL", "college": "Kutztown" },
+        { "name": "Slade Edwards", "position": "OL", "college": "Central Washington" },
+        { "name": "Will Hart", "position": "OL", "college": "Wingate" },
+        { "name": "Avery Swinton", "position": "OL", "college": "Catawba" }
+      ]
+    },
+    {
+      "award": "Gagliardi Trophy",
+      "label_winner": "Gagliardi-Trophy-Gewinner 2025",
+      "label_finalist": "Gagliardi-Finalist 2025",
+      "division": "NCAA Division III",
+      "sources": {
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx",
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy"
+      },
+      "winner": { "name": "Kaleb Blaha", "position": "QB", "college": "UW-River Falls" },
+      "finalists": [
+        { "name": "Jack Curtis", "position": "QB", "college": "Carleton" },
+        { "name": "Montie Quinn", "position": "RB", "college": "Curry" },
+        { "name": "Albert Rundell", "position": "WR", "college": "Bethel" },
+        { "name": "Bay Harvey", "position": "QB", "college": "Johns Hopkins" }
+      ]
+    },
+    {
+      "award": "Cliff Harris Award",
+      "label_winner": "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
+      "label_finalist": "Cliff-Harris-Finalist 2025",
+      "division": "NCAA Division II",
+      "sources": {
+        "gliac.org": "https://gliac.org/news/2026/1/22/ferris-state-footballs-justin-payoute-wins-cliff-harris-award-as-nations-top-defensive-player.aspx",
+        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
+      },
+      "winner": { "name": "Justin Payoute", "position": "DB", "college": "Ferris State" },
+      "finalists": []
+    },
+    {
+      "award": "Cliff Harris Award",
+      "label_winner": "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
+      "label_finalist": "Cliff-Harris-Finalist 2025",
+      "division": "NCAA Division III",
+      "sources": {
+        "northcentralcardinals.com": "https://northcentralcardinals.com/news/2026/1/15/football-sullivan-becomes-first-cardinal-to-win-cliff-harris-award.aspx",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "winner": { "name": "John Sullivan", "position": "DL", "college": "North Central (Ill.)" },
+      "finalists": []
+    },
+    {
+      "award": "Cliff Harris Award",
+      "label_winner": "Cliff-Harris-Award 2025 (bester Small-College-Defensivspieler)",
+      "label_finalist": "Cliff-Harris-Finalist 2025",
+      "division": "NAIA",
+      "sources": {
+        "fire.seu.edu": "https://fire.seu.edu/news/2025/12/20/football-thomas-ibrahim-named-2025-cliff-harris-award-recipient.aspx",
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+      },
+      "winner": { "name": "Thomas Ibrahim", "position": "DL", "college": "Southeastern (Fla.)" },
+      "finalists": []
+    }
+  ]
+}
