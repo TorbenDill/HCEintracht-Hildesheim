@@ -6,13 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "prebuild": "node scripts/fetch-visuals.mjs && node scripts/fetch-player-images.mjs"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@fontsource-variable/archivo": "^5.3.0",
-    "@fontsource-variable/jetbrains-mono": "^5.3.0",
-    "@fontsource-variable/oswald": "^5.3.0",
     "clsx": "^2.1.1",
     "lucide-react": "^1.7.0",
     "motion": "^12.42.2",

@@ -1,25 +1,18 @@
-import boardMeta from "@/data/board-meta.json";
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
+  "https://www.hceintracht-hildesheim.de";
 
-/**
- * Kanonische Basis-URL der Seite.
- * Reihenfolge: ENV (Vercel/Custom) > board-meta.json > Fallback.
- * So lässt sich die Domain ohne Code-Änderung umstellen.
- */
-export const SITE_URL: string = (
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  boardMeta.siteUrl ||
-  "https://www.nfldraft-scouting.de"
-).replace(/\/$/, "");
+export const SITE_NAME = "HC Eintracht Hildesheim";
 
-export const SITE_NAME: string =
-  boardMeta.siteName || "NFL Draft Board 2027 – Forstner Scouting";
+export const SITE_DESCRIPTION =
+  "Offizielle Website des HC Eintracht Hildesheim – Handball aus Leidenschaft. News, Spieltag, Tickets und mehr.";
 
-/** localStorage-Schlüssel der Cookie-Einwilligung. */
-export const CONSENT_KEY = "nfl-consent-v1";
+export const TOURNAMENT_ID = "sportradar.dhbdata.16059";
 
-/** AdSense-Publisher-ID (muss mit /ads.txt übereinstimmen). */
-export const ADSENSE_CLIENT = "ca-pub-3725697242603398";
-
-export function absoluteUrl(path: string): string {
-  return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
-}
+export const EXTERNAL_LINKS = {
+  shop: "https://shop.hceintracht-hildesheim.de",
+  livestream: "https://sporteurope.tv",
+  statistics: "https://www.handball.net",
+  instagram: "https://www.instagram.com/hceintracht",
+  facebook: "https://www.facebook.com/hceintracht",
+} as const;
