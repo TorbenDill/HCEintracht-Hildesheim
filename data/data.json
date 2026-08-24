@@ -2614,5 +2614,40 @@
     "deutsch": true,
     "herkunft": "Düsseldorf",
     "naechste_generation": true
+  },
+  {
+    "name": "Matti Krüger",
+    "position": "EDGE",
+    "college": "Bucknell",
+    "height": "6'3\"",
+    "weight": "240 lbs",
+    "ranking_pos": 14,
+    "ranking_overall": null,
+    "forstner_statement": null,
+    "piktogramme": [
+      "Rotation",
+      "Motor",
+      "Versatility"
+    ],
+    "scouting_report_de": "Matti Krüger ist das erste Produkt der NFL Academy, das sich in Deutschland als Prospect lesen lässt. Der Berliner, Jahrgang 2005, ging über die Akademie in England und räumte dort ab, was zu vergeben war: Defensive MVP, Defensive-Line-MVP und Performance Athlete of the Year, dazu das Kapitänsamt in jenem Team, das als erste nicht-amerikanische Mannschaft eine US-Highschool geschlagen hat. Bucknell holte ihn in die Patriot League, und anders als bei den meisten europäischen Neuzugängen folgte sofort Spielzeit: elf Einsätze als Freshman 2025, sechs Tackles und der erste Sack seiner Karriere gegen Saint Francis. Bei 6'3\" und 240 Pfund ist er für einen Interior-Spieler noch zu leicht, für die Edge dagegen bereits kräftig genug – die Frage der nächsten beiden Jahre ist schlicht, in welche Richtung er seinen Körper baut. Draft-berechtigt ist er frühestens 2028, und die Patriot League ist nicht die Bühne, auf der NFL-Scouts zufällig vorbeischauen. Produktion in der Größenordnung zweistelliger Tackles for Loss würde das ändern.",
+    "best_case_nfl": "Produktiver FCS-Starter, der sich über einen Pro Day und Kombine-Maße ins Draft-Gespräch spielt.",
+    "worst_case_nfl": "Bleibt zwischen den Positionen hängen – zu leicht für innen, zu wenig Explosivität für außen.",
+    "class_year": "Sophomore",
+    "projection": "Draft 2028 – NFL-Academy-Absolvent",
+    "sources": [
+      "bucknellbison.com",
+      "espn.com",
+      "footballschland.de"
+    ],
+    "source_urls": {
+      "bucknellbison.com": "https://bucknellbison.com/sports/football/roster/matti-krger/13748",
+      "espn.com": "https://www.espn.com/college-football/player/_/id/5298577/matti-kruger",
+      "footballschland.de": "https://footballschland.de/blockblog/deutsche-talente-d1-2025/"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": true,
+    "herkunft": "Berlin",
+    "naechste_generation": true
   }
 ]

@@ -1994,6 +1994,34 @@
         "247sports.com": "https://247sports.com/college/nebraska/article/huskers-offer-defensive-lineman-konstantin-paschos--232499860/",
         "omaha.com": "https://omaha.com/sports/huskers/football/nebraska-football-offers-2025-defensive-lineman-konstantin-paschos/article_450ce1d4-7ed5-5ed2-8920-51a8dfa73284.html"
       }
+    },
+    {
+      "name": "Matti Krüger",
+      "position": "EDGE",
+      "overall_rank": null,
+      "pos_rank": 14,
+      "school": "Bucknell",
+      "class_year": "Sophomore",
+      "height": "6'3\"",
+      "weight": "240 lbs",
+      "deutsch": true,
+      "naechste_generation": true,
+      "herkunft": "Berlin",
+      "projection": "Draft 2028 – NFL-Academy-Absolvent",
+      "report_core_de": "Berliner Defensive Lineman, NFL-Academy-MVP und Kapitän, der als Freshman 2025 in elf Spielen für Bucknell auflief und seinen ersten Sack machte.",
+      "report_de": "Matti Krüger ist das erste Produkt der NFL Academy, das sich in Deutschland als Prospect lesen lässt. Der Berliner, Jahrgang 2005, ging über die Akademie in England und räumte dort ab, was zu vergeben war: Defensive MVP, Defensive-Line-MVP und Performance Athlete of the Year, dazu das Kapitänsamt in jenem Team, das als erste nicht-amerikanische Mannschaft eine US-Highschool geschlagen hat. Bucknell holte ihn in die Patriot League, und anders als bei den meisten europäischen Neuzugängen folgte sofort Spielzeit: elf Einsätze als Freshman 2025, sechs Tackles und der erste Sack seiner Karriere gegen Saint Francis. Bei 6'3\" und 240 Pfund ist er für einen Interior-Spieler noch zu leicht, für die Edge dagegen bereits kräftig genug – die Frage der nächsten beiden Jahre ist schlicht, in welche Richtung er seinen Körper baut. Draft-berechtigt ist er frühestens 2028, und die Patriot League ist nicht die Bühne, auf der NFL-Scouts zufällig vorbeischauen. Produktion in der Größenordnung zweistelliger Tackles for Loss würde das ändern.",
+      "best_case": "Produktiver FCS-Starter, der sich über einen Pro Day und Kombine-Maße ins Draft-Gespräch spielt.",
+      "worst_case": "Bleibt zwischen den Positionen hängen – zu leicht für innen, zu wenig Explosivität für außen.",
+      "sources": [
+        "bucknellbison.com",
+        "espn.com",
+        "footballschland.de"
+      ],
+      "source_urls": {
+        "bucknellbison.com": "https://bucknellbison.com/sports/football/roster/matti-krger/13748",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5298577/matti-kruger",
+        "footballschland.de": "https://footballschland.de/blockblog/deutsche-talente-d1-2025/"
+      }
     }
   ],
   "mockdraft": [
