@@ -485,7 +485,8 @@
         "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
-        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/",
+        "hardingsports.com": "https://hardingsports.com/news/2025/12/12/football-mitchell-earns-runner-up-finish-for-gene-upshaw-award-sets-program-record.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -495,7 +496,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true,
+      "stats_2025": "Als Left Anchor der Offensive Line, die die Division II mit 450,6 Rushing-Yards pro Spiel anführte und national die wenigsten Sacks sowie die wenigsten Tackles for Loss zuließ; Harding 14-0 bis ins nationale Halbfinale",
+      "stats_source": "hardingsports.com"
     },
     {
       "name": "Joe Cooper",
