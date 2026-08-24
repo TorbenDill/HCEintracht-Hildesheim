@@ -80,6 +80,27 @@ Zwischenstände vor den Playoffs. Beispiel Bay Harvey: die Meldung zur
 Gagliardi-Nominierung nannte 3.091 Passing-Yards, die Endabrechnung 3.304.
 Bei Detailprofilen immer prüfen, ob es eine spätere Quelle gibt.
 
+## Produktionszahlen
+
+`stats-2025.json` hält die Saisonzahlen, die `build-radar.mjs` an die Einträge
+hängt. Bewusst **kuratiert statt automatisiert**: Es gibt keine
+maschinenlesbare Quelle, die Statistiken über Division II, III und NAIA hinweg
+liefert. `ncaa.com/stats` ist client-gerendert und führt ohnehin nur die
+laufende Saison; für die 2025er Endstände existiert nichts Vergleichbares. Der
+Versuch ist gemacht und gescheitert – nicht nochmal anfangen.
+
+Deshalb stehen dort nur Spieler, deren Zahlen einzeln belegt sind, in der Regel
+die Award-Träger (aktuell 20 von 162). Jede Zeile nennt ihren Host; steht der
+schon in den `sources` des Spielers, wird kein zweiter Link erzeugt. Offensive
+Linemen haben keine Box-Score-Statistik und bleiben leer – bei ihnen sagt eher
+etwas wie „O-Line ließ in 14 Spielen 17 Sacks zu" etwas aus.
+
+**Widersprüche zwischen Quellen kommen vor und werden zugeordnet, nicht
+aufgelöst.** Die AFCA nennt Kenyon Garner mit 15 Sacks als NCAA-Bestwert, das
+D2CCA führt Michael Shimek mit 17,5 als Bestwert der Division II. Beides steht
+mit „laut AFCA" bzw. der jeweiligen Quelle im Text, statt eine Zahl zur
+Wahrheit zu erklären.
+
 ## Fallstricke, die schon Daten kaputtgemacht haben
 
 - **AP-Artikel:** Die Abschnittsüberschriften stehen im Körper teils als leeres

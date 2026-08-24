@@ -68,6 +68,10 @@ export type EuropeRadarPlayer = {
   transfer_note?: string | null;
   /** Aus der Class abgeleitet: College fertig oder noch gebunden. */
   availability?: "verfuegbar" | "gebunden" | "unbekannt";
+  /** Belegte Produktionszahlen der Saison 2025, sofern einzeln recherchiert. */
+  stats_2025?: string | null;
+  /** Host der Quelle, die die Zahlen belegt. */
+  stats_source?: string | null;
   /** Erläutert, wie lange ein gebundener Spieler noch College spielt. */
   eligibility_note?: string | null;
   /** Spieler hat oben auf der Seite zusätzlich ein ausführliches Detailprofil. */

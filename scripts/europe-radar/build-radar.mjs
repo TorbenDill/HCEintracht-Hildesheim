@@ -32,6 +32,9 @@ const epMatched = JSON.parse(fs.readFileSync("europlayers-matched.json", "utf8")
 // Spieler herein, die in keinem All-America-Team stehen - die Award-Meldung
 // liefert die zwei nötigen Quellen gleich mit.
 const awardData = JSON.parse(fs.readFileSync("awards-2025.json", "utf8"));
+// Kuratierte Produktionszahlen. Ueber alle drei Divisionen hinweg gibt es keine
+// maschinenlesbare Statistikquelle, deshalb nur einzeln belegte Spieler.
+const statsData = JSON.parse(fs.readFileSync("stats-2025.json", "utf8")).stats;
 
 // Hudl
 const hudlByKey = new Map(hudl.map((h) => [h.key, h.url]));
@@ -44,8 +47,8 @@ const NFL_STATUS = {
   "Jack Strand|NCAA Division II": "Unter Vertrag bei den Atlanta Falcons (Stand 08/2026) – kein Europa-Kandidat.",
 };
 
-// Bereits in Europa unter Vertrag. Ermittelt ueber check-afi.mjs (Abgleich
-// gegen American Football International) und einzeln belegt. Diese Spieler
+// Bereits in Europa unter Vertrag. Ermittelt ueber check-europe.mjs (Abgleich
+// gegen die europaeische Fachpresse) und einzeln belegt. Diese Spieler
 // bleiben in der Liste, aber als vergeben markiert - sie sind der Beweis,
 // dass das Profil in Europa funktioniert, und kein offener Kandidat mehr.
 const EUROPE_STATUS = {
@@ -211,6 +214,20 @@ for (const a of awardData.awards) {
   }
 }
 
+// Produktionszahlen anhaengen. Der Beleg wird nur dann als zusaetzliche Quelle
+// eingetragen, wenn eine eigene URL hinterlegt ist - sonst steht der Host schon
+// in den sources des Spielers.
+let statsAttached = 0, statsUnmatched = [];
+for (const [key, s] of Object.entries(statsData)) {
+  const [name, division] = key.split("|");
+  const p = players.find((x) => x.name === name && x.division === division);
+  if (!p) { statsUnmatched.push(key); continue; }
+  p.stats_2025 = s.line;
+  p.stats_source = s.host;
+  if (s.url) p.sources[s.host] = s.url;
+  statsAttached++;
+}
+
 // Der Beleg fuer eine Europa-Verpflichtung gehoert als Quelle mit an den Eintrag.
 for (const p of players) {
   const eu = EUROPE_STATUS[`${p.name}|${p.division}`];
@@ -248,6 +265,7 @@ console.log(`Hudl-Links: ${hudlHits}`);
 console.log(`NFL-Markierungen: ${nflFlagged}`);
 console.log(`Bereits in Europa: ${players.filter((p) => p.europe_note).length}`);
 console.log(`FBS/FCS-Wechsel: ${players.filter((p) => p.transfer_note).length}`);
+console.log(`Zahlen angehaengt: ${statsAttached}` + (statsUnmatched.length ? `, NICHT zugeordnet: ${statsUnmatched.join(", ")}` : ""));
 console.log(`Sofort verfuegbar: ${players.filter((p) => p.availability === "verfuegbar").length} | noch gebunden: ${players.filter((p) => p.availability === "gebunden").length}`);
 console.log(`Auch als Detailprofil: ${players.filter((p) => p.has_detail).length}`);
 console.log(`Awards: ${awardEnriched} angereichert, ${awardAdded} neu (davon ${awardPromoted} aus dem Einzelquellen-Pool nachgerueckt)`);

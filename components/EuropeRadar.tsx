@@ -194,6 +194,15 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                   </p>
                 )}
 
+                {p.stats_2025 && (
+                  <p className="mt-1.5 text-[11px] leading-relaxed text-foreground/80">
+                    <span className="font-bold uppercase tracking-wider text-muted">
+                      2025:{" "}
+                    </span>
+                    {p.stats_2025}
+                  </p>
+                )}
+
                 {p.europe_note && (
                   <p className="mt-1.5 rounded border border-accent/40 bg-accent-glow px-2 py-1 text-[11px] font-semibold text-accent">
                     ✓ {p.europe_note}

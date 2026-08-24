@@ -31,7 +31,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "3.695 Passing-Yards, 41 Touchdowns, 72,3 Prozent Completions; Passeffizienz 195,6 – Bestwert der Division II 2025 und fünfthöchster Saisonwert der D2-Geschichte",
+      "stats_source": "football-austria.com"
     },
     {
       "name": "Jack Strand",
@@ -64,7 +66,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": false,
+      "stats_2025": "303 Completions für 3.546 Yards und 42 Touchdowns – Vereinsrekord bei den Touchdown-Pässen; Karriere: 13.161 Yards und 126 Touchdowns, Platz 10 der D2-Geschichte",
+      "stats_source": "ncaa.com"
     },
     {
       "name": "Judd Novak",
@@ -82,7 +86,8 @@
       "sources": {
         "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
-        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025",
+        "kubears.com": "https://kubears.com/news/2026/7/30/football-novak-led-kutztown-to-new-heights-picked-as-ku-2025-26-male-athlete-of-the-year.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -92,7 +97,9 @@
       "transfer_note": null,
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "has_detail": false,
+      "stats_2025": "215 von 328 Pässen für 3.070 Yards, 31 Touchdowns bei nur 1 Interception, dazu 547 Rushing-Yards (6,9 pro Lauf) und 7 Lauf-Touchdowns; führte Kutztown zu Vereinsrekorden von 14 Siegen und 645 Punkten",
+      "stats_source": "kubears.com"
     },
     {
       "name": "Reed Charpia",
@@ -108,7 +115,8 @@
       ],
       "sources": {
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
-        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025",
+        "newberrywolves.com": "https://newberrywolves.com/news/2025/12/19/football-charpia-finishes-sixth-in-harlon-hill-voting-best-finish-ever-for-newberry-college-finalist.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -118,7 +126,9 @@
       "transfer_note": null,
       "availability": "unbekannt",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": false,
+      "stats_2025": "3.978 Passing-Yards, 326 Completions und 30 Touchdown-Pässe – alle drei Vereinsrekorde; 284,1 Yards pro Spiel, in vier Playoff-Spielen 1.296 Yards. Sechster in der Harlon-Hill-Wahl, bestes Ergebnis der Newberry-Geschichte",
+      "stats_source": "newberrywolves.com"
     },
     {
       "name": "Andrew Miller",
@@ -141,7 +151,8 @@
         "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "greatamericanconference.com": "https://greatamericanconference.com/news/2025/12/3/eight-named-as-finalists-for-harlon-hill-trophy-as-division-ii-football-player-of-the-year.aspx",
-        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025"
+        "ncaa.com": "https://www.ncaa.com/news/football/article/2025-12-03/here-are-8-dii-football-harlon-hill-trophy-finalists-2025",
+        "hardingsports.com": "https://hardingsports.com/news/2026/1/24/football-miller-selected-as-darren-mcfadden-award-winner.aspx"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17859210/andrew-miller",
@@ -151,7 +162,9 @@
       "transfer_note": null,
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "has_detail": false,
+      "stats_2025": "2.048 Rushing-Yards, 28 Touchdowns, 7,2 Yards pro Lauf; 14 Spiele mit 100+ Yards, drei mit 200+, Vereinsrekord von 298 Yards und 4 Touchdowns gegen Henderson State. Zweiter in der Harlon-Hill-Wahl",
+      "stats_source": "hardingsports.com"
     },
     {
       "name": "Curtis Allen",
@@ -184,7 +197,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "2.409 Rushing-Yards, 30 Touchdowns, 8,1 Yards pro Lauf; 100+ Yards in allen 12 Spielen, Saisonbestleistung 369 Yards und 5 Touchdowns gegen Bluefield State",
+      "stats_source": "theciaa.com"
     },
     {
       "name": "Jeffrey Jones",
@@ -270,7 +285,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "105 Receptions für 1.002 Yards und 12 Touchdowns, Saisonhoch 17 Fänge; mit 402 Karriere-Receptions NCAA-Division-II-Rekord",
+      "stats_source": "msumdragons.com"
     },
     {
       "name": "Jaylen Himes",
@@ -663,7 +680,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "Als Right Tackle Anker einer Offensive Line, die in 14 Spielen nur 17 Sacks zuließ und die produktivste Offense der Division II blockte",
+      "stats_source": "lancastersportshalloffame.com"
     },
     {
       "name": "Will Hart",
@@ -807,7 +826,9 @@
       "transfer_note": "Im Dezember 2025 zu Florida Atlantic (FBS) gewechselt – kein Europa-Kandidat.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
-      "has_detail": false
+      "has_detail": false,
+      "stats_2025": "28 Tackles for Loss und 15 Sacks (laut AFCA jeweils NCAA-Bestwert), 55 Tackles davon 39 solo, drei erzwungene Fumbles, zwei Fumble-Recoveries, ein Safety",
+      "stats_source": "afca.com"
     },
     {
       "name": "Michael Shimek",
@@ -830,7 +851,8 @@
         "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
         "lancastersportshalloffame.com": "https://www.lancastersportshalloffame.com/noteworthy/upshaw-award-2025",
-        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/"
+        "d2football.com": "https://www.d2football.com/gene-upshaw-award-finalists-announced17649639783017/",
+        "greatmidwestsports.com": "https://greatmidwestsports.com/news/2025/12/18/football-shimek-d2cca-defensive-player-of-the-year-he-watanabe-are-two-time-d-ii-first-team-all-americans.aspx"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17714765/michael-shimek",
@@ -840,7 +862,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "17,5 Sacks, 18,5 Tackles for Loss, 55 Tackles (31 solo), drei erzwungene Fumbles, zwei geblockte Kicks; 6,5 Sacks allein in den ersten zwei Spielwochen",
+      "stats_source": "greatmidwestsports.com"
     },
     {
       "name": "Ricky Freymond",
@@ -1135,7 +1159,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "9 Interceptions – Bestwert aller College-Divisionen –, 72 Tackles (35 solo), 4 Tackles for Loss, zwei Defensiv-Touchdowns; in den Playoffs je zwei Interceptions gegen Minnesota State und Newberry",
+      "stats_source": "gliac.org"
     },
     {
       "name": "Klayten Batten",
@@ -1503,7 +1529,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "3.304 Passing-Yards und 33 Touchdowns, dazu 696 Rushing-Yards und 14 Lauf-Touchdowns; Karriere 7.822 Yards, 81 Touchdowns bei 13 Interceptions, 26:3 als Starter",
+      "stats_source": "americanfootballinternational.com"
     },
     {
       "name": "Garret Wilson",
@@ -1546,7 +1574,8 @@
       ],
       "sources": {
         "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx",
-        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy"
+        "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
+        "miacathletics.com": "https://miacathletics.com/news/2025/12/19/football-curtis-rundell-named-finalists-for-gagliardi-trophy.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -1556,7 +1585,9 @@
       "transfer_note": null,
       "availability": "unbekannt",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "284 von 392 Pässen für 3.120 Yards und 29 Touchdowns, 72,45 Prozent Completions, 312 Yards pro Spiel; MIAC-Rekord mit 254 Completions",
+      "stats_source": "miacathletics.com"
     },
     {
       "name": "Kaleb Blaha",
@@ -1588,7 +1619,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "4.680 Passing-Yards (Division-III-Rekord) und 5.770 Offense-Yards in der Abschlusssaison; Karriere: 11.004 Passing-Yards und 92 Touchdowns",
+      "stats_source": "d3football.com"
     },
     {
       "name": "Eddie Williams",
@@ -1679,7 +1712,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "2.446 Rushing-Yards und 27 Touchdowns bei 10,07 Yards pro Lauf; NCAA-Rekord von 522 Yards in einem Spiel, sieben Partien mit über 200 Yards",
+      "stats_source": "afca.com"
     },
     {
       "name": "Nahjiir Seagraves",
@@ -1728,7 +1763,8 @@
         "afca.com": "https://www.afca.com/currys-montie-quinn-and-adrians-ethan-burrows-headline-the-2025-afca-division-iii-coaches-all-america-teams/",
         "d3football.com": "https://www.d3football.com/notables/2026/01/blaha-wins-gagliardi-trophy",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
-        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx"
+        "gojohnnies.com": "https://gojohnnies.com/news/2025/12/18/the-gagliardi-trophy-2025-gagliardi-trophy-presented-by-stearns-bank-finalists-announced.aspx",
+        "athletics.bethel.edu": "https://athletics.bethel.edu/news/2025/12/18/albert-rundell-named-one-of-five-finalists-for-2025-gagliardi-trophy-given-to-division-iiis-top-football-player.aspx"
       },
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/19739860/albert-rundell",
@@ -1738,7 +1774,9 @@
       "transfer_note": null,
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "122 Fänge für 1.587 Yards und 22 Touchdowns – die meisten Receiving-Yards aller College-Ebenen 2025; MIAC-Rekord von 21 Receptions in einem Spiel",
+      "stats_source": "athletics.bethel.edu"
     },
     {
       "name": "Cole Crotty",
@@ -2442,7 +2480,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "22 Tackles for Loss (94 Yards), 8 Sacks, 73 Tackles, 21 Quarterback-Hurries und 8 abgewehrte Pässe; Vereinsrekord bei den Tackles for Loss",
+      "stats_source": "northcentralcardinals.com"
     },
     {
       "name": "JP Chaney",
@@ -3033,7 +3073,9 @@
       "transfer_note": null,
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "has_detail": false,
+      "stats_2025": "8 Interceptions – 0,80 pro Spiel und damit Bestwert der Division III –, 46 Tackles (31 solo), 6,5 Tackles for Loss, fünf abgewehrte Pässe",
+      "stats_source": "afca.com"
     },
     {
       "name": "Gavin Smith",
@@ -3493,7 +3535,8 @@
       "sources": {
         "apnews.com": "https://apnews.com/article/naia-football-allamerica-3388d1849dab57d2bac94a0a0b509e65",
         "victorysportsnetwork.com": "https://victorysportsnetwork.com/2025/12/11/2025-afca-naia-football-all-america-teams-announced/",
-        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team"
+        "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
+        "afca.com": "https://www.afca.com/william-penns-destynd-loring-and-southeasterns-thomas-ibrahim-headline-the-2025-afca-naia-coaches-all-america-teams/"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -3503,7 +3546,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "1.949 Rushing-Yards und 30 Touchdowns, beides NAIA-Bestwert und Vereinsrekord; mit 3.939 Karriere-Yards bester Läufer der Programmgeschichte",
+      "stats_source": "afca.com"
     },
     {
       "name": "Keagan La Belle",
@@ -4081,7 +4126,9 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "stats_2025": "11 Sacks und 24 Tackles for Loss in 12 Spielen – beides NAIA-Bestwert –, dazu 68 Tackles (31 solo), sieben Quarterback-Hurries und zwei erzwungene Fumbles",
+      "stats_source": "fire.seu.edu"
     },
     {
       "name": "Trystin Voss",
