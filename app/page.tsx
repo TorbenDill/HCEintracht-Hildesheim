@@ -1,563 +1,241 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
-import { motion, useReducedMotion } from "motion/react";
-import Reveal from "@/components/Reveal";
 import {
-  getBoardMeta,
-  getFeaturedProspect,
-  getPlayerSlug,
-  getQualitySummary,
-  getTop100,
-  searchPlayers,
-} from "@/lib/player-service";
-import { SITE_URL, SITE_NAME, absoluteUrl } from "@/lib/site";
-import { getVisual } from "@/lib/visuals";
-import { getRisers, getFallers, getNewcomers, hasMovement } from "@/lib/movers";
-import { cn } from "@/lib/utils";
-import VerticalBoard from "@/components/VerticalBoard";
-import HorizontalBoard from "@/components/HorizontalBoard";
-import PlayerAvatar from "@/components/PlayerAvatar";
-import AdSense from "@/components/AdSense";
+  Calendar,
+  MapPin,
+  Clock,
+  Ticket,
+  Users,
+  Trophy,
+  ArrowRight,
+} from "lucide-react";
+import SectionHeading from "@/components/SectionHeading";
+import HandballWidget from "@/components/HandballWidget";
 
-type BoardView = "vertical" | "horizontal";
+const PLACEHOLDER_NEWS = [
+  {
+    id: 1,
+    title: "Saisonvorbereitung 2026/27 gestartet",
+    excerpt:
+      "Die Mannschaft des HC Eintracht Hildesheim ist in die Vorbereitung auf die neue Saison gestartet. Trainer und Team sind hochmotiviert.",
+    date: "2026-08-20",
+    category: "Mannschaft",
+  },
+  {
+    id: 2,
+    title: "Neuzugang verstärkt den Rückraum",
+    excerpt:
+      "Der HC Eintracht Hildesheim hat einen neuen Rüchraumspieler verpflichtet, der das Team in der kommenden Saison verstärken wird.",
+    date: "2026-08-18",
+    category: "Transfer",
+  },
+  {
+    id: 3,
+    title: "Dauerkarten für die neue Saison verfügbar",
+    excerpt:
+      "Ab sofort können Dauerkarten für die Saison 2026/27 erworben werden. Sichert euch jetzt euren Stammplatz in der Halle!",
+    date: "2026-08-15",
+    category: "Tickets",
+  },
+];
 
-export default function Home() {
-  const [board, setBoard] = useState<BoardView>("vertical");
-  const [query, setQuery] = useState("");
-  const reduce = useReducedMotion();
-  const heroVisual = getVisual("hero");
-  const featured = getFeaturedProspect();
-  const meta = getBoardMeta();
-  const results = query.length >= 2 ? searchPlayers(query) : [];
-  const top10 = getTop100().slice(0, 10);
-  const risers = getRisers(5);
-  const fallers = getFallers(5);
-  const newcomers = getNewcomers(5);
-  const showMovers = hasMovement();
-  const quality = getQualitySummary();
-
-  const faqs = [
-    {
-      q: `Wer ist der Top-Favorit auf Pick 1 im NFL Draft ${meta.draftYear}?`,
-      a: `Auf den meisten Boards führt WR Jeremiah Smith (Ohio State) als bester Spieler der Klasse, während QB Arch Manning (Texas) als Favorit auf Pick 1 gilt – Teams am Anfang der Draft-Reihenfolge brauchen in der Regel einen Quarterback.`,
-    },
-    {
-      q: `Wann findet der NFL Draft ${meta.draftYear} statt?`,
-      a: `Der NFL Draft ${meta.draftYear} findet traditionell Ende April statt. Die genaue Draft-Reihenfolge ergibt sich aus der NFL-Saison 2026; bis dahin basiert unsere Reihenfolge auf Projektionen.`,
-    },
-    {
-      q: "Wie oft wird dieses Draft Board aktualisiert?",
-      a: `Das Big Board, die Positionsrankings und der Mock Draft werden alle 14 Tage mit den aktuellen Consensus-Boards (u. a. NFL Mock Draft Database, ESPN, PFF, The Draft Network, CBS Sports) abgeglichen. Stand: ${meta.updated}.`,
-    },
-    {
-      q: "Was bedeuten Best Case und Worst Case in den Spielerprofilen?",
-      a: "Jedes Profil vergleicht den Prospect mit aktiven NFL-Spielern: Der Best Case beschreibt das realistische obere Entwicklungs-Szenario, der Worst Case das Enttäuschungs-Szenario – basierend auf Spielstil, Körperbau und Skillset.",
-    },
-    {
-      q: "Kann ich selbst einen Mock Draft erstellen?",
-      a: "Ja – im Mock-Draft-Simulator draftest du entweder für ein Team gegen die CPU oder übernimmst alle 32 Picks im GM-Modus mit Original-Pick-Uhr. Dein Ergebnis kannst du als Social-Media-Bild (4:5 und 9:16) herunterladen.",
-    },
-  ];
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        name: SITE_NAME,
-        url: SITE_URL,
-        inLanguage: "de",
-        description: `Deutschsprachiges Scouting-Dashboard zum NFL Draft ${meta.draftYear}: Big Board, Positionsrankings, Spielerprofile, Mock Draft und Simulator.`,
-      },
-      {
-        "@type": "ItemList",
-        name: `Top 10 Prospects – NFL Draft ${meta.draftYear}`,
-        itemListElement: top10.map((p, i) => ({
-          "@type": "ListItem",
-          position: i + 1,
-          name: `${p.name} (${p.position}, ${p.college})`,
-          url: absoluteUrl(`/player/${getPlayerSlug(p.name)}`),
-        })),
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: faqs.map((f) => ({
-          "@type": "Question",
-          name: f.q,
-          acceptedAnswer: { "@type": "Answer", text: f.a },
-        })),
-      },
-    ],
-  };
-
+export default function HomePage() {
   return (
-    <main className="min-h-screen bg-background">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      {/* ── HEADER BAR ── */}
-      <header className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
-          <div className="min-w-0">
-            <h1 className="font-display text-lg font-semibold uppercase tracking-wide text-foreground sm:text-xl">
-              NFL Draft
-              <span className="text-primary"> Board {meta.draftYear}</span>
+    <>
+      <section className="relative bg-dark text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-dark via-dark-light to-dark opacity-90" />
+        <div className="relative mx-auto max-w-7xl px-6 py-20 md:py-28 lg:py-36">
+          <div className="max-w-3xl">
+            <p className="text-primary font-bold text-sm uppercase tracking-widest mb-3">
+              Handball aus Leidenschaft
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black uppercase leading-tight tracking-tight">
+              HC Eintracht
+              <br />
+              <span className="text-primary">Hildesheim</span>
             </h1>
-            <p className="text-[9px] uppercase tracking-[0.3em] text-muted sm:text-[10px] sm:tracking-[0.4em]">
-              Powered by Forstner Scouting · Stand {meta.updated}
+            <p className="mt-6 text-lg text-gray-300 max-w-xl leading-relaxed">
+              Willkommen beim HC Eintracht Hildesheim. Erlebe packenden
+              Handballsport, leidenschaftliche Fans und eine starke
+              Gemeinschaft.
             </p>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Link href="/tickets/ticketshop" className="btn-primary">
+                <Ticket className="h-5 w-5" />
+                Tickets sichern
+              </Link>
+              <Link href="/spieltag" className="btn-outline">
+                <Calendar className="h-5 w-5" />
+                Spieltag
+              </Link>
+            </div>
           </div>
-
-          <div className="flex gap-2">
-            <Link
-              href="/positionen"
-              className="hidden rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:inline-block sm:px-4"
-            >
-              Positionen
-            </Link>
-            <Link
-              href="/deutsche-prospects"
-              className="hidden rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary md:inline-block md:px-4"
-            >
-              🇩🇪 Deutsche
-            </Link>
-            <Link
-              href="/europa-talente"
-              className="hidden rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary lg:inline-block lg:px-4"
-            >
-              🌍 Für Europa
-            </Link>
-            <Link
-              href="/mock-draft"
-              className="rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wider text-muted transition-all hover:border-primary hover:text-primary sm:px-4"
-            >
-              Mock Draft
-            </Link>
-            <Link
-              href="/simulator"
-              className="rounded-full border border-primary/40 bg-primary-glow px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-background sm:px-4"
-            >
-              Simulator
-            </Link>
-          </div>
-
-          {/* Search */}
-          <div className="relative w-full sm:w-72">
-            <input
-              type="text"
-              placeholder="Spieler suchen..."
-              aria-label="Spieler, Position oder College suchen"
-              role="combobox"
-              aria-expanded={results.length > 0}
-              aria-controls="search-results-list"
-              aria-autocomplete="list"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              className="w-full rounded-full border border-border bg-background px-4 py-2 pl-9 text-sm text-foreground placeholder-muted/50 transition-colors focus:border-primary"
-            />
-            <svg
-              aria-hidden="true"
-              className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <circle cx="11" cy="11" r="8" />
-              <path d="m21 21-4.35-4.35" />
-            </svg>
-            <span className="sr-only" role="status" aria-live="polite">
-              {query.length >= 2
-                ? `${results.length} Ergebnis${results.length === 1 ? "" : "se"} gefunden`
-                : ""}
-            </span>
-
-            {/* Search Results Dropdown */}
-            {results.length > 0 && (
-              <div
-                id="search-results-list"
-                className="absolute left-0 right-0 top-full z-50 mt-1 max-h-80 overflow-y-auto rounded border border-border bg-surface shadow-2xl"
-              >
-                {results.slice(0, 10).map((p) => (
-                  <Link
-                    key={`${p.name}-${p.position}`}
-                    href={`/player/${getPlayerSlug(p.name)}`}
-                    onClick={() => setQuery("")}
-                    className="flex items-center gap-3 border-b border-border px-4 py-2.5 transition-colors hover:bg-surface-light"
-                  >
-                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border">
-                      <PlayerAvatar name={p.name} size="sm" />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-sm font-bold text-foreground">
-                        {p.name}
-                      </p>
-                      <p className="text-[10px] text-muted">
-                        {p.position} · {p.college}
-                      </p>
-                    </div>
-                    {p.ranking_overall && (
-                      <span className="font-mono text-xs font-bold text-primary">
-                        #{p.ranking_overall}
-                      </span>
-                    )}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
-      </header>
-
-      {/* ── HERO (cineastisch, mit optionalem Stadion-Foto) ── */}
-      <section className="relative overflow-hidden">
-        {heroVisual && (
-          <>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={heroVisual.url}
-              alt={heroVisual.alt}
-              fetchPriority="high"
-              className="absolute inset-0 h-full w-full object-cover"
-              style={{ backgroundColor: heroVisual.avgColor }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/30" />
-          </>
-        )}
-        <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-16 sm:px-6 sm:pb-32 sm:pt-24">
-          <motion.h2
-            initial={reduce ? false : { opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="max-w-4xl font-display text-6xl font-bold uppercase leading-[0.92] tracking-tight text-foreground sm:text-8xl lg:text-9xl"
-          >
-            Der Draft beginnt{" "}
-            <span className="bg-gradient-to-r from-primary to-amber-600 bg-clip-text text-transparent">
-              jetzt.
-            </span>
-          </motion.h2>
-          <motion.p
-            initial={reduce ? false : { opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.12, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg"
-          >
-            Big Board, Positionsrankings und Mock Draft zur Klasse 2027, mit
-            deutschem Scouting-Profil zu jedem Prospect.
-          </motion.p>
-          <motion.div
-            initial={reduce ? false : { opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.22, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-8 flex flex-wrap gap-3"
-          >
-            <Link
-              href="/simulator"
-              className="rounded-full bg-primary px-7 py-3.5 text-sm font-bold text-background transition-all hover:scale-[1.03] hover:brightness-110 active:scale-[0.98]"
-            >
-              Simulator starten
-            </Link>
-            <Link
-              href="/mock-draft"
-              className="rounded-full border border-border bg-surface px-7 py-3.5 text-sm font-bold text-foreground transition-all hover:scale-[1.03] hover:border-primary/50 active:scale-[0.98]"
-            >
-              Mock Draft ansehen
-            </Link>
-          </motion.div>
-          {heroVisual && (
-            <p className="absolute bottom-3 right-4 text-[10px] text-muted">
-              Foto:{" "}
-              <a
-                href={heroVisual.photographerUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                {heroVisual.photographer}
-              </a>{" "}
-              / Pexels
-            </p>
-          )}
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
-        {/* ── FEATURED PROSPECT ── */}
-        <Reveal className="mb-20">
-          <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.4em] text-primary">
-            Featured Prospect
-          </p>
-          <Link
-            href={`/player/${getPlayerSlug(featured.name)}`}
-            className="group relative grid overflow-hidden rounded-3xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_20px_50px_rgba(23,24,26,0.14)] md:grid-cols-[280px_1fr]"
-          >
-            {/* Image */}
-            <div className="relative h-64 md:h-auto">
-              <PlayerAvatar name={featured.name} size="lg" />
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent to-surface md:bg-gradient-to-r" />
-            </div>
-
-            {/* Info */}
-            <div className="relative p-6 md:p-8">
-              <div className="mb-2 flex items-center gap-3">
-                <span className="rounded bg-primary px-2.5 py-1 font-mono text-xl font-black text-background">
-                  #{featured.ranking_overall}
-                </span>
-                <span className="rounded bg-surface-light px-2 py-1 text-xs font-bold uppercase text-primary">
-                  {featured.position}
-                </span>
+      <section className="bg-primary text-white">
+        <div className="mx-auto max-w-7xl px-6 py-6">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-6">
+              <span className="text-sm font-bold uppercase tracking-wider opacity-80">
+                Nächstes Heimspiel
+              </span>
+              <div className="flex items-center gap-2 text-sm">
+                <Calendar className="h-4 w-4" />
+                <span className="font-semibold">Saisonstart 2026/27</span>
               </div>
-              <h2 className="mb-1 font-display text-4xl font-semibold uppercase tracking-tight text-foreground group-hover:text-primary">
-                {featured.name}
-              </h2>
-              <p className="mb-4 text-sm uppercase tracking-wider text-muted">
-                {featured.college} · {featured.height} · {featured.weight}
-              </p>
-
-              {featured.piktogramme.length > 0 && (
-                <div className="mb-4 flex flex-wrap gap-2">
-                  {featured.piktogramme.map((p) => (
-                    <span
-                      key={p}
-                      className="rounded-full bg-primary-glow px-3 py-1 text-xs font-bold text-primary"
-                    >
-                      {p}
-                    </span>
-                  ))}
-                </div>
-              )}
-
-              {featured.forstner_statement && (
-                <blockquote className="border-l-2 border-primary pl-3 text-sm italic text-foreground/80">
-                  &ldquo;{featured.forstner_statement}&rdquo;
-                  <span className="ml-2 text-[10px] font-bold uppercase tracking-wider text-accent not-italic">
-                    Forstner
-                  </span>
-                </blockquote>
-              )}
+              <div className="hidden sm:flex items-center gap-2 text-sm">
+                <Clock className="h-4 w-4" />
+                <span>TBA</span>
+              </div>
+              <div className="hidden md:flex items-center gap-2 text-sm">
+                <MapPin className="h-4 w-4" />
+                <span>Hildesheim</span>
+              </div>
             </div>
-          </Link>
-        </Reveal>
-
-        {/* ── RISER & FALLER ── */}
-        {showMovers && (
-          <Reveal className="mb-16">
-            <h2 className="mb-4 text-lg font-black tracking-tight text-foreground">
-              Riser &amp; Faller
-              <span className="ml-2 text-xs font-medium text-muted">
-                seit dem letzten Update ({meta.updated})
-              </span>
-            </h2>
-            <div className="grid gap-4 md:grid-cols-3">
-              <MoverCard title="Aufsteiger" tone="up" movers={risers} />
-              <MoverCard title="Absteiger" tone="down" movers={fallers} />
-              <MoverCard title="Neu im Board" tone="new" movers={newcomers} />
-            </div>
-          </Reveal>
-        )}
-
-        {/* ── BOARD TOGGLE ── */}
-        <section className="mb-8 flex flex-wrap items-center gap-2 sm:gap-4">
-          <button
-            onClick={() => setBoard("vertical")}
-            aria-pressed={board === "vertical"}
-            className={cn(
-              "flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
-              board === "vertical"
-                ? "bg-primary text-background glow-primary"
-                : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
-            )}
-          >
-            <svg aria-hidden="true" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-            Vertical Board
-          </button>
-          <button
-            onClick={() => setBoard("horizontal")}
-            aria-pressed={board === "horizontal"}
-            className={cn(
-              "flex items-center gap-2 rounded-full px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all sm:px-6 sm:py-3 sm:text-sm",
-              board === "horizontal"
-                ? "bg-primary text-background glow-primary"
-                : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
-            )}
-          >
-            <svg aria-hidden="true" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path d="M9 4v16M15 4v16M4 9h16M4 15h16" />
-            </svg>
-            Horizontal Board
-          </button>
-        </section>
-
-        {/* ── BOARD VIEW ── */}
-        <section>
-          {board === "vertical" ? <VerticalBoard /> : <HorizontalBoard />}
-        </section>
-
-        {/* ── ANZEIGE (In-Article, nach dem Board) ── */}
-        <AdSense slot="6888694163" layout="in-article" className="mt-16" />
-
-        {/* ── SEO/GEO: INFO & FAQ ── */}
-        <Reveal className="mt-24 grid gap-6 lg:grid-cols-[1fr_1fr]">
-          <div className="rounded-2xl border border-border bg-surface p-7">
-            <h2 className="mb-3 text-lg font-black tracking-tight text-foreground">
-              Das Wichtigste zum NFL Draft {meta.draftYear}
-            </h2>
-            <p className="text-sm leading-relaxed text-foreground/80">
-              Der NFL Draft {meta.draftYear} gilt als außergewöhnlich starker
-              Jahrgang: Mit WR Jeremiah Smith (Ohio State) und QB Arch Manning
-              (Texas) kämpfen zwei potenzielle Generational-Talente um Pick 1,
-              dahinter drängen Quarterbacks wie Dante Moore (Oregon) und Julian
-              Sayin (Ohio State) sowie Edge-Rusher Colin Simmons (Texas) in die
-              Top 5. Unser deutschsprachiges Big Board bündelt die großen
-              Consensus-Rankings, ergänzt jedes Profil um einen individuellen
-              Scouting-Report mit Best- und Worst-Case-NFL-Vergleich und wird
-              alle 14 Tage aktualisiert – von den Sommer-Boards bis zur
-              Draft-Nacht.
-            </p>
-          </div>
-          <div className="rounded-2xl border border-border bg-surface p-7">
-            <h2 className="mb-3 text-lg font-black tracking-tight text-foreground">
-              Häufige Fragen
-            </h2>
-            <div className="flex flex-col gap-2">
-              {faqs.map((f) => (
-                <details
-                  key={f.q}
-                  className="group rounded border border-border bg-background/50 px-4 py-3"
-                >
-                  <summary className="cursor-pointer list-none text-sm font-bold text-foreground marker:hidden group-open:text-primary">
-                    {f.q}
-                  </summary>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    {f.a}
-                  </p>
-                </details>
-              ))}
-            </div>
-          </div>
-        </Reveal>
-
-        {/* ── ANZEIGE ── */}
-        <AdSense slot="5635468031" className="mt-16" />
-
-        {/* ── QUELLEN / FOOTER ── */}
-        <Reveal className="mt-16">
-        <footer className="rounded-2xl border border-border bg-surface p-6">
-          <h2 className="mb-3 text-sm font-bold text-foreground">
-            Quellen &amp; Aktualisierung
-          </h2>
-          <div className="mb-4 flex items-start gap-2.5 rounded-lg border border-accent/25 bg-accent-glow px-3.5 py-2.5">
-            <svg
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-accent"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={3}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M20 6 9 17l-5-5" />
-            </svg>
-            <p className="text-xs leading-relaxed text-foreground/80">
-              <span className="font-bold text-foreground">Datenqualität:</span>{" "}
-              Alle {quality.total} Profile sind mit mindestens zwei unabhängigen
-              Quellen belegt
-              {quality.geprueft > 0 && (
-                <>
-                  , davon{" "}
-                  <span className="font-bold text-accent">
-                    {quality.geprueft} geprüft
-                  </span>{" "}
-                  (drei oder mehr Quellen)
-                </>
-              )}
-              . Nicht belegte oder nicht mehr draft-berechtigte Spieler kommen
-              nicht ins Board.
-            </p>
-          </div>
-          <ul className="mb-3 flex flex-col gap-1">
-            {meta.sources.map((s) => (
-              <li key={s.url}>
-                <a
-                  href={s.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"
-                >
-                  {s.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <p className="text-[10px] text-muted">
-            Spielerdarstellung: {meta.imageSource.name} · Stand: {meta.updated}{" "}
-            · {meta.updateCycle}
-          </p>
-        </footer>
-        </Reveal>
-      </div>
-    </main>
-  );
-}
-
-function MoverCard({
-  title,
-  tone,
-  movers,
-}: {
-  title: string;
-  tone: "up" | "down" | "new";
-  movers: import("@/lib/movers").Mover[];
-}) {
-  const color =
-    tone === "up"
-      ? "text-accent"
-      : tone === "down"
-        ? "text-red-700"
-        : "text-primary";
-  const arrow = tone === "up" ? "\u25B2" : tone === "down" ? "\u25BC" : "NEU";
-  return (
-    <div className="rounded-2xl border border-border bg-surface p-5">
-      <h3 className={cn("mb-3 text-xs font-black uppercase tracking-widest", color)}>
-        {title}
-      </h3>
-      {movers.length === 0 ? (
-        <p className="text-xs text-muted">Keine Bewegung in dieser Kategorie.</p>
-      ) : (
-        <div className="flex flex-col gap-2">
-          {movers.map((m) => (
             <Link
-              key={m.player.name}
-              href={`/player/${getPlayerSlug(m.player.name)}`}
-              className="group flex items-center gap-3"
+              href="/tickets/ticketshop"
+              className="text-sm font-bold bg-white/20 hover:bg-white/30 px-4 py-2 rounded transition-colors"
             >
-              <span className="relative h-8 w-8 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">
-                <PlayerAvatar name={m.player.name} size="sm" />
-              </span>
-              <span className="min-w-0 flex-1">
-                <span className="block truncate text-sm font-bold text-foreground group-hover:text-primary">
-                  {m.player.name}
-                </span>
-                <span className="block truncate text-[10px] text-muted">
-                  {m.player.position} · {m.player.college}
-                </span>
-              </span>
-              <span className={cn("flex-shrink-0 font-mono text-xs font-bold", color)}>
-                {tone === "new"
-                  ? arrow
-                  : `${arrow}\u00A0${Math.abs(m.delta)}`}
-              </span>
+              Tickets kaufen
             </Link>
-          ))}
+          </div>
         </div>
-      )}
-    </div>
+      </section>
+
+      <section className="py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="flex items-end justify-between mb-10">
+            <SectionHeading
+              title="Aktuelle News"
+              subtitle="Die neuesten Nachrichten rund um den HC Eintracht Hildesheim"
+            />
+            <Link
+              href="/news"
+              className="hidden sm:flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
+            >
+              Alle News
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {PLACEHOLDER_NEWS.map((item) => (
+              <article key={item.id} className="card overflow-hidden">
+                <div className="h-48 bg-gradient-to-br from-dark to-dark-light flex items-center justify-center">
+                  <span className="text-primary text-5xl font-black opacity-20">
+                    HCE
+                  </span>
+                </div>
+                <div className="p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded">
+                      {item.category}
+                    </span>
+                    <time className="text-xs text-muted">{item.date}</time>
+                  </div>
+                  <h3 className="text-lg font-bold leading-snug mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-muted leading-relaxed">
+                    {item.excerpt}
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center sm:hidden">
+            <Link href="/news" className="btn-primary">
+              Alle News
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-surface-alt py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-10 lg:grid-cols-5">
+            <div className="lg:col-span-3">
+              <SectionHeading
+                title="Tabelle"
+                subtitle="Aktuelle Tabelle der laufenden Saison"
+              />
+              <div className="mt-8 card p-6">
+                <HandballWidget widget="tabelle" />
+              </div>
+            </div>
+
+            <div className="lg:col-span-2">
+              <SectionHeading title="Quicklinks" />
+              <div className="mt-8 grid gap-4">
+                {[
+                  {
+                    icon: Trophy,
+                    label: "Spielplan",
+                    desc: "Alle Spiele der Saison",
+                    href: "/spieltag/spielplan",
+                  },
+                  {
+                    icon: Users,
+                    label: "Kader",
+                    desc: "Unsere Mannschaft",
+                    href: "/mannschaft/kader",
+                  },
+                  {
+                    icon: Ticket,
+                    label: "Ticketshop",
+                    desc: "Tickets online kaufen",
+                    href: "/tickets/ticketshop",
+                  },
+                  {
+                    icon: MapPin,
+                    label: "Hallenfinder",
+                    desc: "So findest du uns",
+                    href: "/verein/hallenfinder",
+                  },
+                ].map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="card flex items-center gap-4 p-4 group"
+                  >
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                      <link.icon className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-sm">{link.label}</div>
+                      <div className="text-xs text-muted">{link.desc}</div>
+                    </div>
+                    <ArrowRight className="ml-auto h-4 w-4 text-muted group-hover:text-primary transition-colors" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-dark text-white py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-black uppercase tracking-wide">
+            Werde Teil der{" "}
+            <span className="text-primary">Eintracht-Familie</span>
+          </h2>
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Unterstütze den HC Eintracht Hildesheim als Fan, Sponsor oder
+            Mitglied. Gemeinsam sind wir stärker.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <Link href="/tickets/dauerkarten" className="btn-primary">
+              Dauerkarte sichern
+            </Link>
+            <Link href="/business" className="btn-outline border-white text-white hover:bg-white hover:text-dark">
+              Business &amp; VIP
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
-
