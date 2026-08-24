@@ -1,4 +1,4 @@
-import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
 
 export const metadata = {
   title: "Impressum",
@@ -9,41 +9,21 @@ export const metadata = {
 
 export default function ImpressumPage() {
   return (
-    <main className="min-h-screen bg-background">
-      {/* Back Navigation */}
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-3xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Draft Board
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            Impressum
-          </span>
-        </div>
-      </div>
+    <>
+      <PageHeader title="Impressum" />
 
       <div className="mx-auto max-w-3xl px-6 py-10">
-        <h1 className="mb-8 text-3xl font-black uppercase tracking-tight text-foreground lg:text-4xl">
-          Impressum
-        </h1>
-
         <div className="space-y-8 text-sm leading-relaxed text-foreground/85">
           <section>
             <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-primary">
               Angaben gemäß § 5 DDG
             </h2>
             <p>
-              Marketingberatung Dill
+              HC Eintracht Hildesheim e.V.
               <br />
-              Torben Dill
+              Hildesheim
               <br />
-              Wollenweberstraße 23
-              <br />
-              31134 Hildesheim
+              Niedersachsen
               <br />
               Deutschland
             </p>
@@ -54,47 +34,12 @@ export default function ImpressumPage() {
               Kontakt
             </h2>
             <p>
-              Telefon:{" "}
-              <a
-                href="tel:+491724522519"
-                className="text-primary hover:underline"
-              >
-                0172 4522519
-              </a>
-              <br />
               E-Mail:{" "}
               <a
-                href="mailto:info@marketingberatung-dill.de"
+                href="mailto:info@hceintracht-hildesheim.de"
                 className="text-primary hover:underline"
               >
-                info@marketingberatung-dill.de
-              </a>
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-primary">
-              Berufsbezeichnung
-            </h2>
-            <p>Freiberuflich tätig (Marketingberatung).</p>
-          </section>
-
-          <section>
-            <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-primary">
-              Social Media und andere Onlinepräsenzen
-            </h2>
-            <p>
-              Dieses Impressum gilt auch für die folgenden Social-Media-
-              Präsenzen und Onlineprofile:
-              <br />
-              LinkedIn:{" "}
-              <a
-                href="https://www.linkedin.com/in/torben-dill-6094251b8/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                linkedin.com/in/torben-dill-6094251b8
+                info@hceintracht-hildesheim.de
               </a>
             </p>
           </section>
@@ -104,11 +49,9 @@ export default function ImpressumPage() {
               Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
             </h2>
             <p>
-              Torben Dill
+              HC Eintracht Hildesheim e.V.
               <br />
-              Wollenweberstraße 23
-              <br />
-              31134 Hildesheim
+              Hildesheim
             </p>
           </section>
 
@@ -162,29 +105,7 @@ export default function ImpressumPage() {
               Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der
               schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
               Downloads und Kopien dieser Seite sind nur für den privaten, nicht
-              kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser
-              Seite nicht vom Betreiber erstellt wurden, werden die
-              Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter
-              als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-              Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
-              entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
-              werden wir derartige Inhalte umgehend entfernen.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-primary">
-              Hinweis zu Inhalten
-            </h2>
-            <p>
-              Dieses Angebot ist ein privates, redaktionelles Hobbyprojekt rund
-              um den NFL Draft. Es steht in keiner Verbindung zur National
-              Football League (NFL) oder zu den genannten Colleges und Teams.
-              Spielerbewertungen sind subjektive Einschätzungen. Spielerfotos
-              stammen, soweit vorhanden, aus frei lizenzierten Quellen (Wikimedia
-              Commons) und sind am Bild mit Urheber und Lizenz gekennzeichnet;
-              sonst werden generierte Initialen-Avatare gezeigt. Rankings und
-              Daten basieren auf den auf der Startseite genannten Quellen.
+              kommerziellen Gebrauch gestattet.
             </p>
           </section>
 
@@ -210,6 +131,6 @@ export default function ImpressumPage() {
           </section>
         </div>
       </div>
-    </main>
+    </>
   );
 }
