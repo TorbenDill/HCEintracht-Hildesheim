@@ -447,74 +447,137 @@
     "projection": "Runde 3-4",
     "ranking_overall": 64
   },
+  "kade-pieper": {
+    "name": "Kade Pieper",
+    "position": "IOL",
+    "college": "Iowa",
+    "projection": "Day 2",
+    "ranking_overall": 65
+  },
+  "romanas-frederique-jr": {
+    "name": "Romanas Frederique Jr.",
+    "position": "CB",
+    "college": "Miami",
+    "projection": "Day 2-3",
+    "ranking_overall": 66
+  },
+  "justice-haynes": {
+    "name": "Justice Haynes",
+    "position": "RB",
+    "college": "Georgia Tech",
+    "projection": "Day 2-3",
+    "ranking_overall": 67
+  },
   "hero-kanu": {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "projection": "Day 1-2 (Aufsteiger)",
-    "ranking_overall": 65
+    "ranking_overall": 68
   },
   "alexander-honig": {
     "name": "Alexander Honig",
     "position": "TE",
     "college": "Northwestern",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 66
+    "ranking_overall": 69
   },
   "max-stege": {
     "name": "Max Stege",
     "position": "EDGE",
     "college": "Boise State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 67
+    "ranking_overall": 70
   },
   "linus-zunk": {
     "name": "Linus Zunk",
     "position": "EDGE",
     "college": "Washington State",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 68
+    "ranking_overall": 71
   },
   "justin-okoronkwo": {
     "name": "Justin Okoronkwo",
     "position": "LB",
     "college": "South Carolina",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 69
+    "ranking_overall": 72
   },
   "duncan-brune": {
     "name": "Duncan Brune",
     "position": "RB",
     "college": "Ohio",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 70
+    "ranking_overall": 73
   },
   "bruno-dall": {
     "name": "Bruno Dall",
     "position": "EDGE",
     "college": "UCF",
     "projection": "Day 2-3 (Aufsteiger)",
-    "ranking_overall": 71
+    "ranking_overall": 74
   },
   "issa-ouattara": {
     "name": "Issa Ouattara",
     "position": "DT",
     "college": "Vanderbilt",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 72
+    "ranking_overall": 75
   },
   "daniel-evert": {
     "name": "Daniel Evert",
     "position": "TE",
     "college": "Temple",
     "projection": "Day 3 / Priority UDFA",
-    "ranking_overall": 73
+    "ranking_overall": 76
   },
   "noel-portnjagin": {
     "name": "Noel Portnjagin",
     "position": "IOL",
     "college": "James Madison",
     "projection": "Watchlist (Entwicklungsprofil)",
-    "ranking_overall": 74
+    "ranking_overall": 77
+  },
+  "manuel-beigel": {
+    "name": "Manuel Beigel",
+    "position": "IOL",
+    "college": "Michigan",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 78
+  },
+  "justin-hasenhuetl": {
+    "name": "Justin Hasenhuetl",
+    "position": "IOL",
+    "college": "California",
+    "projection": "Draft 2028 – höchstbewerteter deutscher Recruit",
+    "ranking_overall": null
+  },
+  "jj-hanne": {
+    "name": "JJ Hanne",
+    "position": "DT",
+    "college": "Georgia",
+    "projection": "Draft 2028 – Rotationsspieler bei Georgia",
+    "ranking_overall": null
+  },
+  "david-hoeffken": {
+    "name": "David Höffken",
+    "position": "DT",
+    "college": "Nebraska",
+    "projection": "Draft 2028 – fester Rotationsspieler",
+    "ranking_overall": null
+  },
+  "konstantin-paschos": {
+    "name": "Konstantin Paschos",
+    "position": "EDGE",
+    "college": "Princeton",
+    "projection": "Draft 2028 – Ivy-League-Entwicklungsprofil",
+    "ranking_overall": null
+  },
+  "matti-krueger": {
+    "name": "Matti Krüger",
+    "position": "EDGE",
+    "college": "Bucknell",
+    "projection": "Draft 2028 – NFL-Academy-Absolvent",
+    "ranking_overall": null
   }
 }

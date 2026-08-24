@@ -36,7 +36,8 @@
     "quellen_anzahl": 7,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Colin Simmons",
@@ -70,7 +71,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Arch Manning",
@@ -104,7 +106,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Dante Moore",
@@ -138,7 +141,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Leonard Moore",
@@ -171,7 +175,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Dylan Stewart",
@@ -204,7 +209,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Cam Coleman",
@@ -237,7 +243,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Jordan Seaton",
@@ -270,7 +277,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Julian Sayin",
@@ -303,7 +311,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "David Stone",
@@ -336,7 +345,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Trevor Goosby",
@@ -368,7 +378,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ellis Robinson IV",
@@ -400,7 +411,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "KJ Bolden",
@@ -432,7 +444,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Tae Johnson",
@@ -464,7 +477,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Carter Smith",
@@ -496,7 +510,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "CJ Carr",
@@ -528,7 +543,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Jamari Johnson",
@@ -560,7 +576,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ahmad Hardy",
@@ -593,7 +610,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Charlie Becker",
@@ -626,7 +644,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Darian Mensah",
@@ -658,7 +677,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Kewan Lacy",
@@ -691,7 +711,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Zabien Brown",
@@ -722,7 +743,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Cayden Green",
@@ -756,7 +778,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "A'Mauri Washington",
@@ -788,7 +811,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Trey'Dez Green",
@@ -820,7 +844,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Matayo Uiagalelei",
@@ -852,7 +877,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ryan Wingo",
@@ -883,7 +909,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ryan Coleman-Williams",
@@ -917,7 +944,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Will Echoles",
@@ -948,7 +976,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Rasheem Biles",
@@ -979,7 +1008,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Kelley Jones",
@@ -1010,7 +1040,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Mario Craver",
@@ -1044,7 +1075,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ahmad Moten Sr.",
@@ -1076,7 +1108,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "LaNorris Sellers",
@@ -1109,7 +1142,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Drew Mestemaker",
@@ -1141,7 +1175,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Damon Wilson II",
@@ -1172,7 +1207,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Nick Marsh",
@@ -1204,7 +1240,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "A.J. Holmes Jr.",
@@ -1235,7 +1272,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Jadan Baugh",
@@ -1267,7 +1305,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Sammy Brown",
@@ -1300,7 +1339,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Quincy Rhodes Jr.",
@@ -1331,7 +1371,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Austin Siereveld",
@@ -1365,7 +1406,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Brice Pollock",
@@ -1399,7 +1441,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Koi Perich",
@@ -1431,7 +1474,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Bray Hubbard",
@@ -1465,7 +1509,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ashton Hampton",
@@ -1496,7 +1541,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Kyngstonn Viliamu-Asa",
@@ -1528,7 +1574,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Clev Lubin",
@@ -1562,7 +1609,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "KJ Duff",
@@ -1594,7 +1642,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Iapani Laloulu",
@@ -1625,7 +1674,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Yhonzae Pierre",
@@ -1656,7 +1706,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Teitum Tuioti",
@@ -1689,7 +1740,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Brandon Baker",
@@ -1721,7 +1773,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Nyckoles Harbor",
@@ -1757,7 +1810,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Williams Nwaneri",
@@ -1789,7 +1843,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Ben Roberts",
@@ -1820,7 +1875,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "DJ Lagway",
@@ -1852,7 +1908,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Peyton Woodyard",
@@ -1884,7 +1941,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Nate Frazier",
@@ -1918,7 +1976,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Jayden Maiava",
@@ -1949,7 +2008,8 @@
     "quellen_anzahl": 2,
     "qualitaet": "belegt",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Dylan Raiola",
@@ -1982,7 +2042,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Jordan Faison",
@@ -2016,7 +2077,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Bryant Wesco Jr.",
@@ -2049,7 +2111,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Lawson Luckie",
@@ -2083,7 +2146,113 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": false,
-    "herkunft": ""
+    "herkunft": "",
+    "naechste_generation": false
+  },
+  {
+    "name": "Kade Pieper",
+    "position": "IOL",
+    "college": "Iowa",
+    "height": "6'4\"",
+    "weight": "290 lbs",
+    "ranking_pos": 2,
+    "ranking_overall": 65,
+    "forstner_statement": "Pieper ist für mich der Inbegriff von sauberer Technik – ein Sack in einer ganzen Starterkarriere ist eine Zahl, die man kaum glaubt, bis man die Bänder sieht. Der Wechsel auf Center macht ihn für mich sogar noch interessanter.",
+    "piktogramme": [
+      "Pass Protection",
+      "Second Level",
+      "Balance"
+    ],
+    "scouting_report_de": "Kade Pieper ist nach dem Abgang von Tyler Linderbaum wieder der Name, der Iowas O-Line-Tradition trägt. Als Redshirt-Junior startete er 2025 alle 13 Spiele am Guard, wurde PFF First-Team All-America und Third-Team All-Big Ten und war zentraler Baustein der Line, die Iowa den Joe Moore Award einbrachte – die höchste Auszeichnung für die beste Offensive Line des Landes. Sein Markenzeichen ist die Pass-Protection: über seine gesamte Starterzeit kassierte er nur einen einzigen Sack, ein außergewöhnlicher Wert für einen Interior-Blocker. Zur Saison 2026 wechselt er vom Guard auf Center, wo seine beweglichen Füße und sein präzises Hand-Placement noch besser zur Geltung kommen sollten – die Voraussetzung dafür brachte er schon als Guard mit, wo er Reach-Blocks mit der Fußarbeit eines Skill-Players spielte. Bei 6'4\" und rund 290 Pfund ist er nicht der schwerste Center im Jahrgang, dafür der athletischste; NFL-Nose-Tackles werden versuchen, genau diesen Nachteil über die Anker-Power auszunutzen. Preseason wurde er bereits von AP, Walter Camp, Sporting News, Athlon und Phil Steele als First-Team All-American geführt – ein seltener Konsens vor dem ersten Snap der Saison. Bleibt er gesund und bestätigt den Positionswechsel, ist er einer der sichersten Day-2-Picks der gesamten Offensive-Line-Klasse 2027.",
+    "best_case_nfl": "Frank Ragnow (a.D., Lions) – technisch nahezu fehlerfreier Center mit Pro-Bowl-Anker-Qualitäten.",
+    "worst_case_nfl": "Solider Rotations-Center ohne Pro-Bowl-Ceiling, wenn NFL-Nose-Tackles seinen Gewichtsnachteil konstant ausnutzen.",
+    "class_year": "RS Junior",
+    "projection": "Day 2",
+    "sources": [
+      "hawkeyesports.com",
+      "on3.com",
+      "247sports.com"
+    ],
+    "source_urls": {
+      "hawkeyesports.com": "https://hawkeyesports.com/sports/football/roster/player/kade-pieper",
+      "on3.com": "https://www.on3.com/teams/iowa-hawkeyes/news/kade-pieper-ap-preseason-all-american/",
+      "247sports.com": "https://247sports.com/player/kade-pieper-46131373/"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false
+  },
+  {
+    "name": "Romanas Frederique Jr.",
+    "position": "CB",
+    "college": "Miami",
+    "height": "6'0\"",
+    "weight": "185 lbs",
+    "ranking_pos": 7,
+    "ranking_overall": 66,
+    "forstner_statement": "Frederique ist einer dieser Corners, bei denen die Scouting-Community schneller ist als die Statistik – die Physis und die Ballskills sind längst da, jetzt muss die Verletzungshistorie aus dem Weg.",
+    "piktogramme": [
+      "Tackling",
+      "Route Recognition",
+      "Slot"
+    ],
+    "scouting_report_de": "Romanas „OJ“ Frederique Jr. ist der Mann, den Miami 2026 auf der linken Seite der Secondary verteidigen lassen will. Als Dreisternerecruit aus der St. Thomas Aquinas High School in Fort Lauderdale kam er mit Angeboten von Florida State, Ole Miss, UCF und West Virginia, entschied sich aber für die Hurricanes. 2025 kam er in neun seiner zehn Spiele zum Einsatz und verbuchte trotz einer Verletzung, die ihn zeitweise ausbremste, 19 Tackles und sieben abgewehrte Pässe – eine Passbreak-up-Quote, die für einen noch nicht etablierten Corner beachtlich ist. Bei 6'0\" und 185 Pfund bringt er den langen, drahtigen Rahmen mit, den NFL-Teams für Press-Man-Coverage suchen, muss aber nach der Verletzungspause 2025 die Konstanz über eine ganze Saison erst noch beweisen. Pro Football Network hat ihn bereits als Nummer 3 unter den Cornerback-Prospects der Klasse 2027 gelistet, ein deutliches Signal, wie hoch sein Ceiling eingeschätzt wird. Setzt er 2026 seine Physis in echte Ballproduktion um, ist der Sprung von der Watchlist auf ein echtes Day-2-Profil greifbar.",
+    "best_case_nfl": "Christian Gonzalez (Patriots) – Lockdown-Corner mit Press-Man-Twitch und früher Startrolle.",
+    "worst_case_nfl": "Rotations-Corner im Nickel-Paket, wenn die Verletzungsanfälligkeit eine volle gesunde Saison verhindert.",
+    "class_year": "Junior",
+    "projection": "Day 2-3",
+    "sources": [
+      "miamihurricanes.com",
+      "247sports.com",
+      "canesinsight.com"
+    ],
+    "source_urls": {
+      "miamihurricanes.com": "https://miamihurricanes.com/roster/oj-frederique/",
+      "247sports.com": "https://247sports.com/player/oj-frederique-jr-46139025/",
+      "canesinsight.com": "https://www.canesinsight.com/articles/pfn-high-on-miami-cb-oj-frederique-names-him-no-3-cornerback-in-2027-nfl-draft.12255"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false
+  },
+  {
+    "name": "Justice Haynes",
+    "position": "RB",
+    "college": "Georgia Tech",
+    "height": "5'11\"",
+    "weight": "210 lbs",
+    "ranking_pos": 5,
+    "ranking_overall": 67,
+    "forstner_statement": "Haynes hat die Explosivität, die man sich für einen Feature-Back wünscht – die Frage ist nur, ob der Körper eine volle Saison mitmacht, nachdem er in drei Jahren schon sein drittes Programm ist.",
+    "piktogramme": [
+      "Power",
+      "Short Yardage",
+      "Pass Protection"
+    ],
+    "scouting_report_de": "Justice Haynes hat schon zwei Power-Conference-Programme durchlaufen und kommt für sein letztes College-Jahr 2026 zurück in seine Heimat Georgia. Nach zwei Jahren bei Alabama wechselte er 2025 zu Michigan und lieferte dort trotz nur sieben Spielen die vielleicht beeindruckendste Segment-Produktion der gesamten Position: 857 Yards bei 121 Läufen (7,1 Yards pro Versuch) und zehn Touchdowns, in sechs der sieben Spiele über 100 Yards, ehe eine Fußverletzung gegen Michigan State seine Saison beendete. Im Januar 2026 entschied er sich für den zweiten Portal-Wechsel seiner Karriere und ging zu Georgia Tech, wo er mit seiner letzten verbliebenen Eligibility-Saison sofort die Rolle als Feature-Back übernehmen soll. Bei 5'11\" und 210 Pfund kombiniert er Kontaktbalance mit echter Trennungsgeschwindigkeit, was die 7,1-Yards-Schnitt-Zahl erklärt, ohne dass er ein reiner Explosiv-Läufer ohne Zwischen-den-Tackles-Power wäre. Für ein Draft-Gremium bleibt die zentrale Frage seine Gesundheit: drei Programme in drei Jahren und eine saisonbeendende Verletzung sind ein Muster, das genauer geprüft werden muss. Bestätigt er 2026 seine Michigan-Form über eine volle Saison, ist er einer der produktivsten Backs des gesamten Jahrgangs.",
+    "best_case_nfl": "Tony Pollard – explosiver Feature-Back mit Big-Play-Tempo und stabiler Drei-Downs-Rolle.",
+    "worst_case_nfl": "Committee-Back auf Alexander-Mattison-Niveau, der wegen der Verletzungshistorie nie die volle RB1-Last trägt.",
+    "class_year": "Senior",
+    "projection": "Day 2-3",
+    "sources": [
+      "ramblinwreck.com",
+      "247sports.com",
+      "si.com"
+    ],
+    "source_urls": {
+      "ramblinwreck.com": "https://ramblinwreck.com/roster/justice-haynes/",
+      "247sports.com": "https://247sports.com/player/justice-haynes-46094657/",
+      "si.com": "https://www.si.com/college/georgiatech/football/georgia-tech-a-team-to-watch-for-former-michigan-rb-justice-haynes-01kehz74t9vz"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false
   },
   {
     "name": "Hero Kanu",
@@ -2092,7 +2261,7 @@
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 65,
+    "ranking_overall": 68,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -2116,7 +2285,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Geltendorf, Bayern"
+    "herkunft": "Geltendorf, Bayern",
+    "naechste_generation": false
   },
   {
     "name": "Alexander Honig",
@@ -2125,7 +2295,7 @@
     "height": "6'6\"",
     "weight": "275 lbs",
     "ranking_pos": 4,
-    "ranking_overall": 66,
+    "ranking_overall": 69,
     "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
     "piktogramme": [
       "Blocking TE",
@@ -2149,7 +2319,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Schwäbisch Hall (Unicorns)"
+    "herkunft": "Schwäbisch Hall (Unicorns)",
+    "naechste_generation": false
   },
   {
     "name": "Max Stege",
@@ -2158,7 +2329,7 @@
     "height": "6'4\"",
     "weight": "264 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 67,
+    "ranking_overall": 70,
     "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
     "piktogramme": [
       "Rotation",
@@ -2181,7 +2352,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Köln (Cologne Crocodiles)"
+    "herkunft": "Köln (Cologne Crocodiles)",
+    "naechste_generation": false
   },
   {
     "name": "Linus Zunk",
@@ -2190,7 +2362,7 @@
     "height": "6'6\"",
     "weight": "270 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 68,
+    "ranking_overall": 71,
     "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
     "piktogramme": [
       "Rotation",
@@ -2213,7 +2385,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Berlin (Spandau Bulldogs)"
+    "herkunft": "Berlin (Spandau Bulldogs)",
+    "naechste_generation": false
   },
   {
     "name": "Justin Okoronkwo",
@@ -2222,7 +2395,7 @@
     "height": "6'3\"",
     "weight": "231 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 69,
+    "ranking_overall": 72,
     "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
     "piktogramme": [
       "Backup",
@@ -2245,7 +2418,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "München (Fursty Razorbacks)"
+    "herkunft": "München (Fursty Razorbacks)",
+    "naechste_generation": false
   },
   {
     "name": "Duncan Brune",
@@ -2253,8 +2427,8 @@
     "college": "Ohio",
     "height": "5'11\"",
     "weight": "210 lbs",
-    "ranking_pos": 5,
-    "ranking_overall": 70,
+    "ranking_pos": 6,
+    "ranking_overall": 73,
     "forstner_statement": "Bobfahrer-Explosivität und eine Olympia-Mutter, das steht in keinem Scouting-Bericht, ergibt aber Sinn, wenn man ihn laufen sieht. Brune ist noch nicht fertig, und in der MAC bekommt er auch nicht die Duelle, die ein Draft-Gremium überzeugen. Trägt er 2026 die Last und kommt über 1.000 Yards, will ich seinen Namen im Camp hören.",
     "piktogramme": [
       "Physikalität",
@@ -2279,7 +2453,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Köln (Cologne Crocodiles)"
+    "herkunft": "Köln (Cologne Crocodiles)",
+    "naechste_generation": false
   },
   {
     "name": "Bruno Dall",
@@ -2288,7 +2463,7 @@
     "height": "6'7\"",
     "weight": "260 lbs",
     "ranking_pos": 12,
-    "ranking_overall": 71,
+    "ranking_overall": 74,
     "forstner_statement": null,
     "piktogramme": [
       "Rotation",
@@ -2317,7 +2492,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Hamburg"
+    "herkunft": "Hamburg",
+    "naechste_generation": false
   },
   {
     "name": "Issa Ouattara",
@@ -2326,7 +2502,7 @@
     "height": "6'7\"",
     "weight": "315 lbs",
     "ranking_pos": 7,
-    "ranking_overall": 72,
+    "ranking_overall": 75,
     "forstner_statement": null,
     "piktogramme": [
       "Nose Tackle",
@@ -2357,7 +2533,8 @@
     "quellen_anzahl": 6,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Köln"
+    "herkunft": "Köln",
+    "naechste_generation": false
   },
   {
     "name": "Daniel Evert",
@@ -2366,7 +2543,7 @@
     "height": "6'5\"",
     "weight": "250 lbs",
     "ranking_pos": 5,
-    "ranking_overall": 73,
+    "ranking_overall": 76,
     "forstner_statement": null,
     "piktogramme": [
       "Blocking TE",
@@ -2393,7 +2570,8 @@
     "quellen_anzahl": 4,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Regensburg"
+    "herkunft": "Regensburg",
+    "naechste_generation": false
   },
   {
     "name": "Noel Portnjagin",
@@ -2401,8 +2579,8 @@
     "college": "James Madison",
     "height": "6'5\"",
     "weight": "300 lbs",
-    "ranking_pos": 2,
-    "ranking_overall": 74,
+    "ranking_pos": 3,
+    "ranking_overall": 77,
     "forstner_statement": null,
     "piktogramme": [
       "Spec. Scheme",
@@ -2427,7 +2605,8 @@
     "quellen_anzahl": 3,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Karlsruhe"
+    "herkunft": "Karlsruhe",
+    "naechste_generation": false
   },
   {
     "name": "Manuel Beigel",
@@ -2436,7 +2615,7 @@
     "height": "6'5\"",
     "weight": "312 lbs",
     "ranking_pos": 3,
-    "ranking_overall": 75,
+    "ranking_overall": 78,
     "forstner_statement": null,
     "piktogramme": [
       "Spec. Scheme",
@@ -2465,7 +2644,8 @@
     "quellen_anzahl": 5,
     "qualitaet": "geprueft",
     "deutsch": true,
-    "herkunft": "Frankfurt am Main"
+    "herkunft": "Frankfurt am Main",
+    "naechste_generation": false
   },
   {
     "name": "Justin Hasenhuetl",

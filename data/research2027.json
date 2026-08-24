@@ -1447,7 +1447,7 @@
     {
       "name": "Hero Kanu",
       "position": "DT",
-      "overall_rank": 65,
+      "overall_rank": 68,
       "school": "Texas",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1473,7 +1473,7 @@
     {
       "name": "Max Stege",
       "position": "EDGE",
-      "overall_rank": 67,
+      "overall_rank": 70,
       "school": "Boise State",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1498,7 +1498,7 @@
     {
       "name": "Justin Okoronkwo",
       "position": "LB",
-      "overall_rank": 69,
+      "overall_rank": 72,
       "school": "South Carolina",
       "class_year": "Senior",
       "height": "6'3\"",
@@ -1523,7 +1523,7 @@
     {
       "name": "Linus Zunk",
       "position": "EDGE",
-      "overall_rank": 68,
+      "overall_rank": 71,
       "school": "Washington State",
       "class_year": "RS Senior",
       "height": "6'6\"",
@@ -1548,7 +1548,7 @@
     {
       "name": "Alexander Honig",
       "position": "TE",
-      "overall_rank": 66,
+      "overall_rank": 69,
       "school": "Northwestern",
       "class_year": "Grad Senior",
       "height": "6'6\"",
@@ -1704,7 +1704,7 @@
     {
       "name": "Duncan Brune",
       "position": "RB",
-      "overall_rank": 70,
+      "overall_rank": 73,
       "school": "Ohio",
       "class_year": "Junior",
       "height": "5'11\"",
@@ -1731,7 +1731,7 @@
     {
       "name": "Bruno Dall",
       "position": "EDGE",
-      "overall_rank": 71,
+      "overall_rank": 74,
       "school": "UCF",
       "class_year": "RS Junior",
       "height": "6'7\"",
@@ -1761,7 +1761,7 @@
     {
       "name": "Issa Ouattara",
       "position": "DT",
-      "overall_rank": 72,
+      "overall_rank": 75,
       "school": "Vanderbilt",
       "class_year": "Senior",
       "height": "6'7\"",
@@ -1793,7 +1793,7 @@
     {
       "name": "Daniel Evert",
       "position": "TE",
-      "overall_rank": 73,
+      "overall_rank": 76,
       "school": "Temple",
       "class_year": "Junior",
       "height": "6'5\"",
@@ -1821,7 +1821,7 @@
     {
       "name": "Noel Portnjagin",
       "position": "IOL",
-      "overall_rank": 74,
+      "overall_rank": 77,
       "school": "James Madison",
       "class_year": "Sophomore",
       "height": "6'5\"",
@@ -1847,7 +1847,7 @@
     {
       "name": "Manuel Beigel",
       "position": "IOL",
-      "overall_rank": 75,
+      "overall_rank": 78,
       "pos_rank": 3,
       "school": "Michigan",
       "class_year": "Junior",
@@ -2021,6 +2021,84 @@
         "bucknellbison.com": "https://bucknellbison.com/sports/football/roster/matti-krger/13748",
         "espn.com": "https://www.espn.com/college-football/player/_/id/5298577/matti-kruger",
         "footballschland.de": "https://footballschland.de/blockblog/deutsche-talente-d1-2025/"
+      }
+    },
+    {
+      "name": "Kade Pieper",
+      "position": "IOL",
+      "overall_rank": 65,
+      "school": "Iowa",
+      "class_year": "RS Junior",
+      "height": "6'4\"",
+      "weight": "290 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Iowa-Interior-Lineman, der 2025 als Guard First-Team All-America wurde und 2026 auf Center wechselt; AP-Preseason-All-American mit nur einem einzigen Sack in seiner gesamten Starterzeit.",
+      "report_de": "Kade Pieper ist nach dem Abgang von Tyler Linderbaum wieder der Name, der Iowas O-Line-Tradition trägt. Als Redshirt-Junior startete er 2025 alle 13 Spiele am Guard, wurde PFF First-Team All-America und Third-Team All-Big Ten und war zentraler Baustein der Line, die Iowa den Joe Moore Award einbrachte – die höchste Auszeichnung für die beste Offensive Line des Landes. Sein Markenzeichen ist die Pass-Protection: über seine gesamte Starterzeit kassierte er nur einen einzigen Sack, ein außergewöhnlicher Wert für einen Interior-Blocker. Zur Saison 2026 wechselt er vom Guard auf Center, wo seine beweglichen Füße und sein präzises Hand-Placement noch besser zur Geltung kommen sollten – die Voraussetzung dafür brachte er schon als Guard mit, wo er Reach-Blocks mit der Fußarbeit eines Skill-Players spielte. Bei 6'4\" und rund 290 Pfund ist er nicht der schwerste Center im Jahrgang, dafür der athletischste; NFL-Nose-Tackles werden versuchen, genau diesen Nachteil über die Anker-Power auszunutzen. Preseason wurde er bereits von AP, Walter Camp, Sporting News, Athlon und Phil Steele als First-Team All-American geführt – ein seltener Konsens vor dem ersten Snap der Saison. Bleibt er gesund und bestätigt den Positionswechsel, ist er einer der sichersten Day-2-Picks der gesamten Offensive-Line-Klasse 2027.",
+      "forstner": "Pieper ist für mich der Inbegriff von sauberer Technik – ein Sack in einer ganzen Starterkarriere ist eine Zahl, die man kaum glaubt, bis man die Bänder sieht. Der Wechsel auf Center macht ihn für mich sogar noch interessanter.",
+      "best_case": "Frank Ragnow (a.D., Lions) – technisch nahezu fehlerfreier Center mit Pro-Bowl-Anker-Qualitäten.",
+      "worst_case": "Solider Rotations-Center ohne Pro-Bowl-Ceiling, wenn NFL-Nose-Tackles seinen Gewichtsnachteil konstant ausnutzen.",
+      "sources": [
+        "hawkeyesports.com",
+        "on3.com",
+        "247sports.com"
+      ],
+      "source_urls": {
+        "hawkeyesports.com": "https://hawkeyesports.com/sports/football/roster/player/kade-pieper",
+        "on3.com": "https://www.on3.com/teams/iowa-hawkeyes/news/kade-pieper-ap-preseason-all-american/",
+        "247sports.com": "https://247sports.com/player/kade-pieper-46131373/"
+      }
+    },
+    {
+      "name": "Romanas Frederique Jr.",
+      "position": "CB",
+      "overall_rank": 66,
+      "school": "Miami",
+      "class_year": "Junior",
+      "height": "6'0\"",
+      "weight": "185 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Miami-Cornerback, der 2026 in seine dritte Saison als etablierter Outside-Corner geht; von Pro Football Network als Nummer 3 unter den Cornerbacks der Draft-Klasse 2027 geführt.",
+      "report_de": "Romanas „OJ“ Frederique Jr. ist der Mann, den Miami 2026 auf der linken Seite der Secondary verteidigen lassen will. Als Dreisternerecruit aus der St. Thomas Aquinas High School in Fort Lauderdale kam er mit Angeboten von Florida State, Ole Miss, UCF und West Virginia, entschied sich aber für die Hurricanes. 2025 kam er in neun seiner zehn Spiele zum Einsatz und verbuchte trotz einer Verletzung, die ihn zeitweise ausbremste, 19 Tackles und sieben abgewehrte Pässe – eine Passbreak-up-Quote, die für einen noch nicht etablierten Corner beachtlich ist. Bei 6'0\" und 185 Pfund bringt er den langen, drahtigen Rahmen mit, den NFL-Teams für Press-Man-Coverage suchen, muss aber nach der Verletzungspause 2025 die Konstanz über eine ganze Saison erst noch beweisen. Pro Football Network hat ihn bereits als Nummer 3 unter den Cornerback-Prospects der Klasse 2027 gelistet, ein deutliches Signal, wie hoch sein Ceiling eingeschätzt wird. Setzt er 2026 seine Physis in echte Ballproduktion um, ist der Sprung von der Watchlist auf ein echtes Day-2-Profil greifbar.",
+      "forstner": "Frederique ist einer dieser Corners, bei denen die Scouting-Community schneller ist als die Statistik – die Physis und die Ballskills sind längst da, jetzt muss die Verletzungshistorie aus dem Weg.",
+      "best_case": "Christian Gonzalez (Patriots) – Lockdown-Corner mit Press-Man-Twitch und früher Startrolle.",
+      "worst_case": "Rotations-Corner im Nickel-Paket, wenn die Verletzungsanfälligkeit eine volle gesunde Saison verhindert.",
+      "sources": [
+        "miamihurricanes.com",
+        "247sports.com",
+        "canesinsight.com"
+      ],
+      "source_urls": {
+        "miamihurricanes.com": "https://miamihurricanes.com/roster/oj-frederique/",
+        "247sports.com": "https://247sports.com/player/oj-frederique-jr-46139025/",
+        "canesinsight.com": "https://www.canesinsight.com/articles/pfn-high-on-miami-cb-oj-frederique-names-him-no-3-cornerback-in-2027-nfl-draft.12255"
+      }
+    },
+    {
+      "name": "Justice Haynes",
+      "position": "RB",
+      "overall_rank": 67,
+      "school": "Georgia Tech",
+      "class_year": "Senior",
+      "height": "5'11\"",
+      "weight": "210 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Georgia-Tech-Running-Back mit Stationen in Alabama und Michigan; führte die Big-Ten-Liga in Rushing an, ehe eine Fußverletzung seine Michigan-Saison 2025 vorzeitig beendete. Letztes College-Jahr 2026 vor dem Draft.",
+      "report_de": "Justice Haynes hat schon zwei Power-Conference-Programme durchlaufen und kommt für sein letztes College-Jahr 2026 zurück in seine Heimat Georgia. Nach zwei Jahren bei Alabama wechselte er 2025 zu Michigan und lieferte dort trotz nur sieben Spielen die vielleicht beeindruckendste Segment-Produktion der gesamten Position: 857 Yards bei 121 Läufen (7,1 Yards pro Versuch) und zehn Touchdowns, in sechs der sieben Spiele über 100 Yards, ehe eine Fußverletzung gegen Michigan State seine Saison beendete. Im Januar 2026 entschied er sich für den zweiten Portal-Wechsel seiner Karriere und ging zu Georgia Tech, wo er mit seiner letzten verbliebenen Eligibility-Saison sofort die Rolle als Feature-Back übernehmen soll. Bei 5'11\" und 210 Pfund kombiniert er Kontaktbalance mit echter Trennungsgeschwindigkeit, was die 7,1-Yards-Schnitt-Zahl erklärt, ohne dass er ein reiner Explosiv-Läufer ohne Zwischen-den-Tackles-Power wäre. Für ein Draft-Gremium bleibt die zentrale Frage seine Gesundheit: drei Programme in drei Jahren und eine saisonbeendende Verletzung sind ein Muster, das genauer geprüft werden muss. Bestätigt er 2026 seine Michigan-Form über eine volle Saison, ist er einer der produktivsten Backs des gesamten Jahrgangs.",
+      "forstner": "Haynes hat die Explosivität, die man sich für einen Feature-Back wünscht – die Frage ist nur, ob der Körper eine volle Saison mitmacht, nachdem er in drei Jahren schon sein drittes Programm ist.",
+      "best_case": "Tony Pollard – explosiver Feature-Back mit Big-Play-Tempo und stabiler Drei-Downs-Rolle.",
+      "worst_case": "Committee-Back auf Alexander-Mattison-Niveau, der wegen der Verletzungshistorie nie die volle RB1-Last trägt.",
+      "sources": [
+        "ramblinwreck.com",
+        "247sports.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "ramblinwreck.com": "https://ramblinwreck.com/roster/justice-haynes/",
+        "247sports.com": "https://247sports.com/player/justice-haynes-46094657/",
+        "si.com": "https://www.si.com/college/georgiatech/football/georgia-tech-a-team-to-watch-for-former-michigan-rb-justice-haynes-01kehz74t9vz"
       }
     }
   ],
