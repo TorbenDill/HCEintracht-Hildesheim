@@ -1,128 +1,46 @@
 import type { MetadataRoute } from "next";
-import { getPlayers, getPlayerSlug, getBoardMeta } from "@/lib/player-service";
-import lexikon from "@/data/lexikon.json";
-import { getAllPositionKeys } from "@/lib/positions";
-import { absoluteUrl } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const meta = getBoardMeta();
-  const lastModified = new Date(meta.updated);
-
-  const staticRoutes: MetadataRoute.Sitemap = [
-    {
-      url: absoluteUrl("/"),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: absoluteUrl("/simulator"),
-      lastModified,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    },
-    {
-      url: absoluteUrl("/mock-draft"),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: absoluteUrl("/deutsche-prospects"),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: absoluteUrl("/europa-talente"),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
-    {
-      url: absoluteUrl("/ueber-uns"),
-      lastModified,
-      changeFrequency: "monthly" as const,
-      priority: 0.5,
-    },
-    {
-      url: absoluteUrl("/impressum"),
-      lastModified,
-      changeFrequency: "yearly" as const,
-      priority: 0.2,
-    },
-    {
-      url: absoluteUrl("/datenschutz"),
-      lastModified,
-      changeFrequency: "yearly" as const,
-      priority: 0.2,
-    },
+  const pages = [
+    "",
+    "/news",
+    "/spieltag",
+    "/spieltag/tabelle",
+    "/spieltag/spielplan",
+    "/spieltag/liveticker",
+    "/spieltag/livestream",
+    "/tickets",
+    "/tickets/ticketshop",
+    "/tickets/dauerkarten",
+    "/tickets/gaestefans",
+    "/mannschaft",
+    "/mannschaft/kader",
+    "/mannschaft/trainerteam",
+    "/mannschaft/statistiken",
+    "/jugend",
+    "/business",
+    "/business/logen",
+    "/business/werbemoeglichkeiten",
+    "/business/b2b-netzwerk",
+    "/business/catering",
+    "/fans",
+    "/fans/fanshop",
+    "/fans/fanartikel",
+    "/fans/fanchoreografie",
+    "/verein",
+    "/verein/geschichte",
+    "/verein/vorstand",
+    "/verein/hallenfinder",
+    "/verein/kontakt",
+    "/impressum",
+    "/datenschutz",
   ];
 
-  const playerRoutes: MetadataRoute.Sitemap = getPlayers().map((p) => ({
-    url: absoluteUrl(`/player/${getPlayerSlug(p.name)}`),
-    lastModified,
-    changeFrequency: "weekly",
-    priority: 0.7,
+  return pages.map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: new Date(),
+    changeFrequency: path === "" ? "daily" : "weekly",
+    priority: path === "" ? 1 : 0.8,
   }));
-
-  const lexikonRoutes: MetadataRoute.Sitemap = [
-    {
-      url: absoluteUrl("/lexikon"),
-      lastModified,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    },
-    ...(lexikon as { slug: string }[]).map((e) => ({
-      url: absoluteUrl(`/lexikon/${e.slug}`),
-      lastModified,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    })),
-  ];
-
-  const positionRoutes: MetadataRoute.Sitemap = [
-    {
-      url: absoluteUrl("/positionen"),
-      lastModified,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    },
-    ...getAllPositionKeys().map((pos) => ({
-      url: absoluteUrl(`/position/${pos.toLowerCase()}`),
-      lastModified,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    })),
-  ];
-
-  // Nur die Hub-Uebersichten aufnehmen. Die einzelnen College- und
-  // Team-Detailseiten sind aggregierte Linklisten (noindex) und gehoeren
-  // daher nicht in die Sitemap.
-  const collegeRoutes: MetadataRoute.Sitemap = [
-    {
-      url: absoluteUrl("/colleges"),
-      lastModified,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    },
-  ];
-
-  const teamRoutes: MetadataRoute.Sitemap = [
-    {
-      url: absoluteUrl("/teams"),
-      lastModified,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    },
-  ];
-
-  return [
-    ...staticRoutes,
-    ...playerRoutes,
-    ...lexikonRoutes,
-    ...positionRoutes,
-    ...collegeRoutes,
-    ...teamRoutes,
-  ];
 }

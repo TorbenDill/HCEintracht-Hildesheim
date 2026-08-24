@@ -1,0 +1,25 @@
+{
+  "torhueter": [
+    { "name": "Torhüter 1", "nummer": 1, "position": "Tor" },
+    { "name": "Torhüter 2", "nummer": 12, "position": "Tor" }
+  ],
+  "feldspieler": [
+    { "name": "Spieler 1", "nummer": 2, "position": "Linksaßen" },
+    { "name": "Spieler 2", "nummer": 3, "position": "Rückraum Links" },
+    { "name": "Spieler 3", "nummer": 4, "position": "Rückraum Mitte" },
+    { "name": "Spieler 4", "nummer": 5, "position": "Rückraum Rechts" },
+    { "name": "Spieler 5", "nummer": 6, "position": "Rechtsaßen" },
+    { "name": "Spieler 6", "nummer": 7, "position": "Kreisläufer" },
+    { "name": "Spieler 7", "nummer": 8, "position": "Rückraum Links" },
+    { "name": "Spieler 8", "nummer": 9, "position": "Linksaßen" },
+    { "name": "Spieler 9", "nummer": 10, "position": "Rückraum Mitte" },
+    { "name": "Spieler 10", "nummer": 11, "position": "Kreisläufer" },
+    { "name": "Spieler 11", "nummer": 13, "position": "Rückraum Rechts" },
+    { "name": "Spieler 12", "nummer": 14, "position": "Rechtsaßen" }
+  ],
+  "trainer": [
+    { "name": "Cheftrainer", "rolle": "Cheftrainer" },
+    { "name": "Co-Trainer", "rolle": "Co-Trainer" },
+    { "name": "Torwarttrainer", "rolle": "Torwarttrainer" }
+  ]
+}

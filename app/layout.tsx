@@ -1,30 +1,24 @@
 import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME, ADSENSE_CLIENT } from "@/lib/site";
-import "@fontsource-variable/archivo";
-import "@fontsource-variable/oswald";
-import "@fontsource-variable/jetbrains-mono";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/site";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
-
-const description =
-  "NFL Draft 2027 Scouting-Dashboard auf Deutsch: Big Board, Positionsrankings, Spielerprofile und Mock Draft – powered by Forstner Scouting.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: SITE_NAME,
-    template: "%s | NFL Draft Board 2027",
+    template: `%s | ${SITE_NAME}`,
   },
-  description,
+  description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   keywords: [
-    "NFL Draft 2027",
-    "Big Board",
-    "Mock Draft",
-    "Scouting",
-    "NFL Prospects",
-    "Draftboard",
-    "College Football",
-    "deutsch",
+    "HC Eintracht Hildesheim",
+    "Handball",
+    "Hildesheim",
+    "Handball Hildesheim",
+    "Eintracht Hildesheim",
+    "Handball Niedersachsen",
   ],
   alternates: { canonical: "/" },
   openGraph: {
@@ -33,28 +27,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
     title: SITE_NAME,
-    description,
-    images: [{ url: "/og/home", width: 1200, height: 630, alt: SITE_NAME }],
+    description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
-    description,
-    images: ["/og/home"],
+    description: SITE_DESCRIPTION,
   },
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
-  },
-  verification: {
-    google: "K_0wLMD7ncSWzJ5qiqYXlRwZj8SLENF9JUnH8pxjEa0",
-  },
-  // Googles aktuelle AdSense-Site-Verifizierung: rendert
-  // <meta name="google-adsense-account" content="ca-pub-...">. Ergänzt die
-  // ads.txt (public/ads.txt) als zweiten, unabhängigen Nachweis der Inhaberschaft.
-  other: {
-    "google-adsense-account": ADSENSE_CLIENT,
   },
 };
 
@@ -65,67 +48,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className="h-full antialiased">
-      <head>
-        {/*
-         * AdSense-Basisskript bewusst als rohes <script> im <head>:
-         * next/script hängt es mit data-nscript in den <body>, was Google
-         * bei der Site-Verifizierung ablehnt ("AdSense head tag doesn't
-         * support data-nscript attribute"). Einwilligung + Consent Mode
-         * übernimmt der von Google bereitgestellte, zertifizierte
-         * Einwilligungsdienst (CMP, in AdSense unter „Datenschutz & Mitteilungen"
-         * aktiviert) – er wird automatisch über dieses Skript ausgeliefert.
-         */}
-        <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-          crossOrigin="anonymous"
-        />
-      </head>
       <body className="min-h-full flex flex-col">
-        <div className="flex-1">{children}</div>
-        <footer className="border-t border-border bg-surface">
-          <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-6 py-5 text-xs text-muted">
-            <span>
-              © {new Date().getFullYear()} Marketingberatung Dill · NFL Draft
-              Board 2027
-            </span>
-            <nav className="flex flex-wrap gap-4">
-              <a href="/" className="hover:text-primary">
-                Board
-              </a>
-              <a href="/mock-draft" className="hover:text-primary">
-                Mock Draft
-              </a>
-              <a href="/simulator" className="hover:text-primary">
-                Simulator
-              </a>
-              <a href="/positionen" className="hover:text-primary">
-                Positionen
-              </a>
-              <a href="/colleges" className="hover:text-primary">
-                Colleges
-              </a>
-              <a href="/teams" className="hover:text-primary">
-                Teams
-              </a>
-              <a href="/merkliste" className="hover:text-primary">
-                Merkliste
-              </a>
-              <a href="/lexikon" className="hover:text-primary">
-                Lexikon
-              </a>
-              <a href="/ueber-uns" className="hover:text-primary">
-                Über uns
-              </a>
-              <a href="/impressum" className="hover:text-primary">
-                Impressum
-              </a>
-              <a href="/datenschutz" className="hover:text-primary">
-                Datenschutz
-              </a>
-            </nav>
-          </div>
-        </footer>
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -1,30 +1,24 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Helles Editorial-Theme: Sportmagazin statt Dark-Dashboard */
-  --color-background: #f7f7f6;
-  --color-foreground: #17181a;
-  --color-muted: #5f646c;
+  --color-background: #f5f5f5;
+  --color-foreground: #1a1a1a;
+  --color-muted: #6b7280;
 
-  /* Ein Akzent: verbranntes Football-Orange (kontraststark auf Hell) */
-  --color-primary: #c2410c;
-  --color-primary-dark: #9a3412;
-  --color-primary-glow: rgba(194, 65, 12, 0.08);
+  --color-primary: #92BA4A;
+  --color-primary-dark: #7a9e3a;
+  --color-primary-light: #a8cc66;
 
-  /* Semantisch positiv (SCOUTED, Best Case) */
-  --color-accent: #047857;
-  --color-accent-dark: #065f46;
-  --color-accent-glow: rgba(4, 120, 87, 0.08);
+  --color-dark: #36393E;
+  --color-dark-light: #4a4e54;
+  --color-dark-lighter: #5e636a;
 
   --color-surface: #ffffff;
-  --color-surface-light: #ededec;
-  --color-border: #e2e1df;
+  --color-surface-alt: #f9fafb;
+  --color-border: #e5e7eb;
 
-  --font-sans: "Archivo Variable", ui-sans-serif, system-ui, -apple-system,
-    sans-serif;
-  --font-display: "Oswald Variable", "Archivo Variable", ui-sans-serif,
-    sans-serif;
-  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+  --font-sans: "NuberNext", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "NuberNext", ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
@@ -34,37 +28,75 @@ body {
 }
 
 ::selection {
-  background: rgba(194, 65, 12, 0.18);
-  color: #17181a;
+  background: rgba(146, 186, 74, 0.3);
+  color: #1a1a1a;
 }
 
-/* Ehemalige Glow-Utilities: physische, ruhige Schatten */
-.glow-primary {
-  box-shadow: 0 1px 2px rgba(23, 24, 26, 0.12), 0 6px 20px rgba(23, 24, 26, 0.1);
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0.375rem;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-1px);
 }
 
-.glow-accent {
-  box-shadow: 0 1px 2px rgba(23, 24, 26, 0.1), 0 6px 20px rgba(23, 24, 26, 0.08);
+.btn-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-dark);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0.375rem;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.btn-dark:hover {
+  background: var(--color-dark-light);
+  transform: translateY(-1px);
 }
 
-.text-glow-primary {
-  text-shadow: none;
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: 700;
+  border-radius: 0.375rem;
+  transition: all 0.15s ease;
+}
+.btn-outline:hover {
+  background: var(--color-primary);
+  color: #fff;
 }
 
-.text-glow-accent {
-  text-shadow: none;
+.card {
+  background: var(--color-surface);
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
-
-/* Karten-Hover: leichtes Anheben */
-.card-lift {
-  transition: transform 0.18s ease, box-shadow 0.18s ease,
-    border-color 0.18s ease;
-}
-.card-lift:hover {
+.card:hover {
   transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* Sichtbarer Fokusring für Tastatur-Navigation (A11y) */
+.section-heading {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
@@ -74,48 +106,26 @@ input:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .card-lift,
-  .card-lift:hover {
+  .card,
+  .card:hover,
+  .btn-primary,
+  .btn-dark,
+  .btn-outline {
     transition: none;
     transform: none;
   }
 }
 
-/* Anzeigen: zentriert, und komplett ausblenden (inkl. Rand), wenn Google
-   keine Anzeige ausliefert – verhindert leeren Weißraum. */
-.ad-slot {
-  text-align: center;
-  /* Liefert AdSense den Block aus, bevor die Slot-Breite feststeht, faellt
-     Google auf eine feste Breite zurueck (Konsolenfehler "No slot size for
-     availableWidth=0") und haengt einen iframe-Host ein, der breiter ist als
-     das Viewport – auf Mobil scrollt dann die ganze Seite horizontal. Der
-     Ueberlauf wird deshalb im Anzeigenblock gehalten statt am Dokument. */
-  max-width: 100%;
-  overflow-x: auto;
-}
-.ad-slot > ins.adsbygoogle {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-.ad-slot:has(> ins.adsbygoogle[data-ad-status="unfilled"]) {
-  display: none !important;
-}
-
-/* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;
 }
-
 ::-webkit-scrollbar-track {
-  background: var(--color-surface-light);
+  background: #f0f0f0;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #c9c8c5;
   border-radius: 3px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary);
 }
