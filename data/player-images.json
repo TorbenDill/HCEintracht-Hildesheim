@@ -178,5 +178,23 @@
     "license": "CC0",
     "artist": "TarheelBornBred",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lawson_Luckie.jpg"
+  },
+  "kj-duff": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2026-0728_Big_Ten_MD_KJ_Duff.jpeg/960px-2026-0728_Big_Ten_MD_KJ_Duff.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-0728_Big_Ten_MD_KJ_Duff.jpeg"
+  },
+  "teitum-tuioti": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2026-0729_Big_Ten_MD_Teitum_Tuioti.jpeg/960px-2026-0729_Big_Ten_MD_Teitum_Tuioti.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-0729_Big_Ten_MD_Teitum_Tuioti.jpeg"
+  },
+  "justice-haynes": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/JusticeHaynes2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC0",
+    "artist": "!LijahBG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JusticeHaynes2025.jpg"
   }
 }
