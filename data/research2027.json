@@ -1447,7 +1447,7 @@
     {
       "name": "Hero Kanu",
       "position": "DT",
-      "overall_rank": 71,
+      "overall_rank": 101,
       "school": "Texas",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1473,7 +1473,7 @@
     {
       "name": "Max Stege",
       "position": "EDGE",
-      "overall_rank": 73,
+      "overall_rank": 103,
       "school": "Boise State",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1498,7 +1498,7 @@
     {
       "name": "Justin Okoronkwo",
       "position": "LB",
-      "overall_rank": 75,
+      "overall_rank": 105,
       "school": "South Carolina",
       "class_year": "Senior",
       "height": "6'3\"",
@@ -1523,7 +1523,7 @@
     {
       "name": "Linus Zunk",
       "position": "EDGE",
-      "overall_rank": 74,
+      "overall_rank": 104,
       "school": "Washington State",
       "class_year": "RS Senior",
       "height": "6'6\"",
@@ -1548,7 +1548,7 @@
     {
       "name": "Alexander Honig",
       "position": "TE",
-      "overall_rank": 72,
+      "overall_rank": 102,
       "school": "Northwestern",
       "class_year": "Grad Senior",
       "height": "6'6\"",
@@ -1704,7 +1704,7 @@
     {
       "name": "Duncan Brune",
       "position": "RB",
-      "overall_rank": 76,
+      "overall_rank": 106,
       "school": "Ohio",
       "class_year": "Junior",
       "height": "5'11\"",
@@ -1731,7 +1731,7 @@
     {
       "name": "Bruno Dall",
       "position": "EDGE",
-      "overall_rank": 77,
+      "overall_rank": 107,
       "school": "UCF",
       "class_year": "RS Junior",
       "height": "6'7\"",
@@ -1761,7 +1761,7 @@
     {
       "name": "Issa Ouattara",
       "position": "DT",
-      "overall_rank": 78,
+      "overall_rank": 108,
       "school": "Vanderbilt",
       "class_year": "Senior",
       "height": "6'7\"",
@@ -1793,7 +1793,7 @@
     {
       "name": "Daniel Evert",
       "position": "TE",
-      "overall_rank": 79,
+      "overall_rank": 109,
       "school": "Temple",
       "class_year": "Junior",
       "height": "6'5\"",
@@ -1821,7 +1821,7 @@
     {
       "name": "Noel Portnjagin",
       "position": "IOL",
-      "overall_rank": 80,
+      "overall_rank": 110,
       "school": "James Madison",
       "class_year": "Sophomore",
       "height": "6'5\"",
@@ -1847,7 +1847,7 @@
     {
       "name": "Manuel Beigel",
       "position": "IOL",
-      "overall_rank": 81,
+      "overall_rank": 111,
       "pos_rank": 3,
       "school": "Michigan",
       "class_year": "Junior",
@@ -2177,6 +2177,754 @@
         "gopsusports.com": "https://gopsusports.com/sports/football/roster/player/benjamin-brahmer",
         "247sports.com": "https://247sports.com/college/penn-state/article/penn-state-tight-end-ben-brahmer-named-to-lombardi-award-watch-list-288911409/",
         "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/08/26/benjamin-brahmer-2027-nfl-draft-early-profile/"
+      }
+    },
+    {
+      "name": "Whit Weeks",
+      "position": "LB",
+      "overall_rank": 71,
+      "school": "LSU",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "225 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "LSU-Linebacker mit First-Team-All-SEC-Pedigree, der die NFL-Draft-Meldung 2026 bewusst zurückzog, um als gesunder Senior 2027 anzugreifen; Karrierewerte von 205 Tackles und 16,5 TFL.",
+      "report_de": "Whit Weeks hat 2024 gezeigt, wozu er fähig ist, wenn er gesund bleibt: 120 Tackles, First-Team All-SEC und 3,5 Sacks aus der Linebacker-Position. 2025 bremste ihn eine Verletzung auf nur acht Spiele und 31 Tackles, dennoch entschied er sich bewusst gegen eine NFL-Draft-Meldung 2026, um sich als vollständig gesunder Senior 2027 zu präsentieren – ein Signal für das Selbstvertrauen im eigenen Umfeld. Über die Karriere kommt er auf 205 Tackles und 16,5 Tackles for Loss, Zahlen, die seine Instinkte und seine Fähigkeit, hinter die Line of Scrimmage vorzudringen, unterstreichen. Bei 6'2\" und 225 Pfund ist er kein physischer Ausreißer, spielt seine Statur aber über Tempo und Anlauf-Timing aus. Für ein Draft-Gremium bleibt die zentrale Frage seine Gesundheit über eine komplette Saison – die 2024er-Form deutet aber auf echtes Erstrunden-Potenzial hin.",
+      "forstner": "Weeks hat mit 120 Tackles in einer einzigen Saison gezeigt, was er kann, wenn der Körper mitspielt. Dass er den Draft 2026 bewusst ausgelassen hat, um gesund anzugreifen, ist genau die Art Geduld, die ich bei Linebackern gerne sehe.",
+      "best_case": "Roquan Smith-artiger Tackling-Anführer mit landesweiter Sichtbarkeit, sobald die Gesundheit mitspielt.",
+      "worst_case": "Bleibt Verletzungsakte statt Draft-Erzählung, wenn 2026 erneut eine Saison verkürzt wird.",
+      "sources": [
+        "lsusports.net",
+        "si.com",
+        "nfldraftbuzz.com"
+      ],
+      "source_urls": {
+        "lsusports.net": "https://lsusports.net/sports/fb/roster/player/whit-weeks",
+        "si.com": "https://www.si.com/college/lsu/football/making-the-case-that-lsu-star-whit-weeks-is-the-best-linebacker-in-the-sec",
+        "nfldraftbuzz.com": "https://nfldraftbuzz.com/Player/Whit-Weeks-LB-LSU"
+      }
+    },
+    {
+      "name": "Arion Carter",
+      "position": "LB",
+      "overall_rank": 72,
+      "school": "Tennessee",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "235 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Tennessee-Linebacker, der die SEC 2025 mit 7,6 Tackles pro Spiel anführte, einen nationalen Einzelspiel-Rekord mit 17 Tackles gegen Mississippi State aufstellte und eine NFL-Draft-Meldung 2026 zurückzog.",
+      "report_de": "Arion Carter war 2025 der tackling-produktivste Linebacker der gesamten SEC: 76 Tackles, 6 Tackles for Loss und ein nationaler Einzelspiel-Rekord mit 17 Tackles gegen Mississippi State. Die Konferenz wählte ihn ins Second Team All-SEC, vor der Saison 2026 wurde er zusätzlich ins Preseason Third Team berufen. Trotz konkreter NFL-Draft-Perspektiven entschied er sich im Januar 2026 gegen die Meldung und für ein weiteres College-Jahr – ein Vertrauensbeweis in die eigene Entwicklung. Bei 6'1\" und 235 Pfund ist er kompakt, aber extrem explosiv aus dem Stand, was seine Tackling-Rate über die gesamte Breite des Feldes erklärt. Für 2026 ist die Frage, ob er die Produktion nicht nur hält, sondern auch seine Coverage-Fähigkeiten zeigt, die für NFL-Teams am Off-Ball-Linebacker zunehmend entscheidend sind.",
+      "forstner": "7,6 Tackles pro Spiel in der SEC ist eine Hausnummer, die man selten sieht. Carter hätte 2026 gedraftet werden können und hat sich bewusst dagegen entschieden – das ist ein Spieler, der an sich selbst glaubt.",
+      "best_case": "Devin Bush-artiger Sideline-to-Sideline-Tackler mit landesweiter Tackling-Führung als Visitenkarte.",
+      "worst_case": "Reiner Run-Stopper ohne Coverage-Nachweis, der in Nickel-Paketen vom Feld muss.",
+      "sources": [
+        "utsports.com",
+        "si.com",
+        "wvlt.tv"
+      ],
+      "source_urls": {
+        "utsports.com": "https://utsports.com/sports/football/roster/arion-carter/23001",
+        "si.com": "https://www.si.com/college/tennessee/football/how-stats-show-tennessee-football-s-arion-carter-is-a-top-linebacker-01k6kp2qcfqf",
+        "wvlt.tv": "https://www.wvlt.tv/2026/07/24/four-football-vols-land-preseason-all-sec-team/"
+      }
+    },
+    {
+      "name": "Evan Tengesdahl",
+      "position": "IOL",
+      "overall_rank": 73,
+      "school": "Cincinnati",
+      "class_year": "Senior",
+      "height": "6'4\"",
+      "weight": "315 lbs",
+      "round": 1,
+      "projection": "Runde 1-2",
+      "report_core_de": "Cincinnati-Guard mit AP-Third-Team-All-America-Status 2025: national führende Run-Block-Grade unter Power-Four-Guards und null zugelassene Sacks bei über 400 Pass-Block-Snaps.",
+      "report_de": "Evan Tengesdahl ist nach PFF-Zahlen schlicht der beste Run-Blocker unter allen Power-Four-Guards des Landes: eine Run-Block-Grade von 89,7 bei einer Gesamtnote von 85,4, dazu null zugelassene Sacks über 408 Pass-Block-Snaps in der gesamten Saison 2025. Die AP setzte ihn ins Third Team All-America, PFF führt ihn als Preseason-Nummer-2-Guard des gesamten Landes für 2026, dazu steht er auf der Lombardi-Award-Watchlist. Bei 6'4\" und rund 315 Pfund ist er kein Ausreißer in der Größe, sondern gewinnt seine Duelle über Handtechnik und Leverage – Eigenschaften, die sich unabhängig vom Gegner-Niveau übertragen. Für einen ohnehin dünn besetzten Interior-O-Line-Jahrgang 2027 ist er nach diesen Zahlen ein legitimer Kandidat für die erste Runde. Bestätigt er die Null-Sack-Bilanz über eine weitere Saison, gehört er zu den saubersten Prospects der gesamten Draft-Klasse, unabhängig von der Position.",
+      "forstner": "Null zugelassene Sacks in über 400 Pass-Block-Snaps ist eine Zahl, die ich bei einem Guard kaum irgendwo sonst finde. Tengesdahl ist für mich schon jetzt der sicherste IOL-Name des Jahrgangs.",
+      "best_case": "Zack Martin-artiger Technik-Guard mit Elite-Pass-Protection und sofortiger Startrolle.",
+      "worst_case": "Verliert im Sprung auf noch physischere Gegner an Konstanz und bleibt solider statt elitärer Starter.",
+      "sources": [
+        "gobearcats.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "gobearcats.com": "https://gobearcats.com/sports/football/roster/player/evan-tengesdahl",
+        "si.com": "https://www.si.com/college/cincinnati/football/all-american-uc-guard-evan-tengesdahl-showing-versatility-as-2026-spring-football-continues-01kn4wqmrbms"
+      }
+    },
+    {
+      "name": "Terrance Carter Jr.",
+      "position": "TE",
+      "overall_rank": 74,
+      "school": "Texas Tech",
+      "class_year": "RS Senior",
+      "height": "6'2\"",
+      "weight": "245 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Texas-Tech-Tight-End mit 55 Fängen für 624 Yards und 5 Touchdowns 2025 – unter den Top 5 aller FBS-Tight-Ends in Receptions und Yards, Second-Team All-Big 12.",
+      "report_de": "Terrance Carter Jr. ist statistisch der produktivste Tight-End-Prospect abseits der beiden Top-Namen der Klasse 2027. 2025 fing er 55 Bälle für 624 Yards und fünf Touchdowns, Werte, die ihn unter die Top 5 aller FBS-Tight-Ends in beiden Kategorien setzen. Die Big 12 würdigte ihn mit einer Second-Team-Nominierung. In den größten Spielen lieferte er ab: zehn Catches gegen West Virginia, neun im Playoff gegen Oregon – genau die Bühnen, auf denen NFL-Scouts hinschauen. Bei 6'2\" und 245 Pfund ist er kein Riese für die Position, dafür ein zuverlässiges, konstantes Passziel mit echter Playoff-Erfahrung. Kehrt er 2026 zu ähnlicher Produktion zurück, ist er einer der sichersten Day-2-Tight-Ends des gesamten Jahrgangs.",
+      "forstner": "55 Fänge von einem Tight End sind in dieser Klasse eine Ansage – und dass er das im Playoff gegen Oregon bestätigt hat, macht es für mich noch glaubwürdiger.",
+      "best_case": "Isaiah Likely-artiger Move-Tight-End mit konstanten Zielanteilen und Red-Zone-Wert.",
+      "worst_case": "Bleibt Big-12-Statistik-Phänomen ohne athletischen Sprung, der sich gegen NFL-Linebacker nicht durchsetzt.",
+      "sources": [
+        "texastech.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "texastech.com": "https://texastech.com/sports/football/roster/terrance-carter-jr/14275",
+        "si.com": "https://www.si.com/college/texas-tech/football/red-raiders-tight-end-terrance-carter-jr-announces-return-to-texas-tech-for-2026-season"
+      }
+    },
+    {
+      "name": "Mark Fletcher Jr.",
+      "position": "RB",
+      "overall_rank": 75,
+      "school": "Miami",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "227 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Miami-Power-Back mit ACC-höchsten 1.192 Rushing-Yards 2025 und CFP-Karriererekord (507 Playoff-Rushing-Yards), zentrale Figur von Miamis Titel-Run.",
+      "report_de": "Mark Fletcher Jr. war 2025 der beste Läufer der gesamten ACC: 1.192 Yards, zwölf Touchdowns und 5,5 Yards pro Lauf bei 216 Carries. Im College Football Playoff drehte er dann noch einmal auf und stellte mit 507 Rushing-Yards in vier Spielen (6,8 YPC) einen CFP-Karriererekord auf, während Miami bis ins Championship Game marschierte. Bei 6'1\" und rund 227 Pfund ist er ein physischer Power-Back, der sich Contact-Yards regelmäßig selbst erkämpft, statt nur auf Blocking angewiesen zu sein. Die Bühne war dabei die größtmögliche: national übertragene Playoff-Spiele gegen die besten Defenses des Landes. Für 2026 bleibt die Frage, ob er die Playoff-Form über eine ganze reguläre Saison bestätigen kann – die Physis und die Bühnen-Erfahrung sprechen aber für einen klaren Day-2-Kandidaten.",
+      "forstner": "507 Rushing-Yards in vier Playoff-Spielen gegen die besten Defenses des Landes ist keine Fluchsaison, das ist Bühnenreife. Fletcher hat mich mit genau diesen Spielen überzeugt.",
+      "best_case": "Josh Jacobs-artiger Power-Back mit Contact-Balance und Goal-Line-Verlässlichkeit als Feature-Rusher.",
+      "worst_case": "Bleibt Committee-Back, wenn NFL-Teams die Playoff-Form als Ausreißer statt Regelfall einordnen.",
+      "sources": [
+        "miamihurricanes.com",
+        "cbssports.com"
+      ],
+      "source_urls": {
+        "miamihurricanes.com": "https://miamihurricanes.com/sports/football/roster/season/2026-27/player/mark-fletcher-jr/",
+        "cbssports.com": "https://www.cbssports.com/college-football/news/college-football-playoff-miami-mark-fletcher"
+      }
+    },
+    {
+      "name": "Trevor Lauck",
+      "position": "OT",
+      "overall_rank": 76,
+      "school": "Iowa",
+      "class_year": "RS Junior",
+      "height": "6'5\"",
+      "weight": "310 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Iowas Left Tackle mit nur sechs zugelassenen Pressures bei über 300 Pass-Block-Snaps 2025, Third-Team All-Big Ten, Teil der Joe-Moore-Award-Line, 2026 Preseason First-Team All-Big Ten.",
+      "report_de": "Trevor Lauck ist ein weiteres Produkt der Iowa-O-Line-Fabrik, die 2025 den Joe Moore Award für die beste Offensive Line des Landes gewann. Als Left Tackle ließ er über mehr als 300 Pass-Block-Snaps nur sechs Pressures und drei Penalties zu, eine außergewöhnlich niedrige Fehlerquote für einen Tackle in einer Power-Conference. Die Big Ten würdigte ihn 2025 mit einer Third-Team-Nominierung, vor der Saison 2026 hob ihn Athlon bereits ins Preseason Second Team All-America, die Big Ten selbst ins First Team. Bei 6'5\" und 310 Pfund bringt er den passenden Rahmen für die Außenposition mit, ohne dabei ein reiner Längenspieler zu sein – seine Fußarbeit gilt als die eigentliche Stärke. In einem historisch dünnen Interior-O-Line-Jahrgang 2027 ist ein sauberer Tackle-Prospect mit dieser Fehlerquote ein echter Mehrwert für jedes Draft-Gremium.",
+      "forstner": "Sechs Pressures über eine ganze Saison bei einem Left Tackle ist eine Zahl, die für sich spricht. Lauck macht genau die kleinen Dinge richtig, die ein Draft-Gremium erst auf den zweiten Blick sieht.",
+      "best_case": "Christian Darrisaw-artiger Left Tackle mit sauberer Fußarbeit und minimaler Fehlerquote als Franchise-Blindside-Protector.",
+      "worst_case": "Fußarbeit reicht gegen NFL-Speed-Rusher nicht mehr aus, Wechsel auf die rechte Seite oder nach innen nötig.",
+      "sources": [
+        "hawkeyesports.com",
+        "nfldraftbuzz.com"
+      ],
+      "source_urls": {
+        "hawkeyesports.com": "https://hawkeyesports.com/sports/football/roster/player/trevor-lauck",
+        "nfldraftbuzz.com": "https://www.nfldraftbuzz.com/Player/Trevor-Lauck-OT-Iowa"
+      }
+    },
+    {
+      "name": "Greg Johnson",
+      "position": "IOL",
+      "overall_rank": 77,
+      "school": "Minnesota",
+      "class_year": "Senior",
+      "height": "6'6\"",
+      "weight": "325 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Minnesotas bestbewerteter Offensive Lineman 2025 (PFF 75,6), nur ein Sack in 406 Pass-Block-Snaps, startete die Saison 2026 mit einer der besten Woche-1-Noten des ganzen Landes.",
+      "report_de": "Greg Johnson war 2025 laut PFF der beste Offensive Lineman im gesamten Minnesota-Kader: eine Gesamtnote von 75,6 bei nur einem einzigen zugelassenen Sack über 406 Pass-Block-Snaps. Die Big Ten würdigte ihn mit einer Honorable-Mention-Nominierung. Zum Auftakt der Saison 2026 legte er nach: eine PFF-Grade von 93,9, die zweitbeste Woche-1-Bewertung unter mehr als 1.000 erfassten FBS-Offensive-Linemen. Bei 6'6\" und 325 Pfund bringt er die Größe für den Guard-Center-Wechsel mit, den er bei Minnesota bereits demonstriert hat – Vielseitigkeit, die NFL-Teams an der Interior-Line besonders schätzen. In einem dünn besetzten IOL-Jahrgang 2027 ist er nach diesem Saisonstart einer der am schnellsten steigenden Namen der Position.",
+      "forstner": "Eine 93,9-PFF-Grade in Woche 1 gegen über tausend andere Linemen ist kein Zufall, das ist ein Spieler, der einen echten Sprung gemacht hat. Johnson beobachte ich diese Saison ganz genau.",
+      "best_case": "Vielseitiger Guard-Center-Hybrid im Creed-Humphrey-Stil mit sofortiger Startrolle im Zone-Scheme.",
+      "worst_case": "Der starke Saisonauftakt bleibt Ausreißer, Rückkehr zur soliden, aber unauffälligen 2025er-Form.",
+      "sources": [
+        "gophersports.com",
+        "247sports.com"
+      ],
+      "source_urls": {
+        "gophersports.com": "https://gophersports.com/sports/football/roster/greg-johnson/23952",
+        "247sports.com": "https://247sports.com/player/greg-johnson-46130856/"
+      }
+    },
+    {
+      "name": "Jackson Bennee",
+      "position": "S",
+      "overall_rank": 78,
+      "school": "Utah",
+      "class_year": "Senior",
+      "height": "6'2\"",
+      "weight": "190 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Utah-Safety mit vier Interceptions 2025 und 103 INT-Return-Yards (2. in der Big 12), Teil von Utahs NCAA-Rekord-Pick-Six-Serie, Burlsworth-Trophy-Nominee.",
+      "report_de": "Jackson Bennee hat sich 2025 vom Rollenspieler zum ballfertigsten Safety der Big 12 entwickelt: vier Interceptions, 64 Tackles – der zweithöchste Wert im Team – und fünf Pass Breakups. Seine 103 Return-Yards nach Interceptions waren die zweitmeisten der gesamten Conference, und er war Teil einer Utah-Defense, die eine NCAA-Rekordserie an Pick-Six-Returns aufstellte. Zusätzlich wurde er für die Burlsworth Trophy nominiert, die besten früheren Walk-on des Landes auszeichnet – ein Hinweis auf seinen Entwicklungsweg abseits der großen Recruiting-Scheinwerfer. Bei 6'2\" und 190 Pfund bringt er den Rahmen für Deep-Third-Coverage mit, ohne dabei im Run-Support abzufallen. Für eine an Ballproduktion oft unterversorgte Safety-Klasse 2027 ist er nach diesen Zahlen ein klarer Aufsteiger.",
+      "forstner": "Vier Interceptions von einem Safety, der als Walk-on angefangen hat, ist genau die Geschichte, die mich an diesem Sport begeistert. Bennee hat sich das alles selbst erarbeitet.",
+      "best_case": "Xavier McKinney-artiger Ballhawk-Safety mit Range und Interception-Produktion als Centerfielder.",
+      "worst_case": "Bleibt Zonen-Safety ohne physische Tackling-Präsenz, der im Deep-Third isoliert bleibt.",
+      "sources": [
+        "utahutes.com",
+        "deseret.com"
+      ],
+      "source_urls": {
+        "utahutes.com": "https://utahutes.com/sports/football/roster/jackson-bennee/17492",
+        "deseret.com": "https://www.deseret.com/sports/2025/09/06/utah-utes-pick-six-streak-ncaa-record-jackson-bennee/"
+      }
+    },
+    {
+      "name": "Raleek Brown",
+      "position": "RB",
+      "overall_rank": 79,
+      "school": "Texas",
+      "class_year": "RS Senior",
+      "height": "5'9\"",
+      "weight": "195 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Vielseitiger Dual-Threat-Back mit 1.141 Rushing-Yards und 34 Receptions 2025 bei Arizona State (First-Team All-Big 12), jetzt bei Texas für sein letztes College-Jahr.",
+      "report_de": "Raleek Brown hat sich über Stationen bei USC und Arizona State zu einem der vielseitigsten Running Backs des Jahrgangs entwickelt. 2025 lieferte er bei Arizona State 1.141 Rushing-Yards bei 6,1 Yards pro Versuch sowie 34 Fänge für 239 Yards – eine Kombination, die ihm die Wahl ins First Team All-Big 12 einbrachte. Sein Highlight-Spiel: 255 Yards gegen Colorado, ein Schulrekord, dazu 53 forcierte Missed Tackles über die Saison. Bei 5'9\" und 195 Pfund ist er kein physischer Power-Back, sondern ein reiner Elusiveness- und Receiving-Spezialist, der in Third-Down-Situationen sofort einen Unterschied macht. Für sein letztes College-Jahr wechselte er zu Texas, wo er in einem der talentiertesten Backfields des Landes um Touches kämpft. Zeigt er dort ähnliche Explosivität, ist er der Dual-Threat-Back, den moderne NFL-Offenses in Passing-Downs suchen.",
+      "forstner": "53 forcierte Missed Tackles von einem Running Back mit 195 Pfund sagt mir alles über seine Quickness. Brown ist der Typ Third-Down-Back, den jedes moderne NFL-Playbook heute braucht.",
+      "best_case": "Alvin Kamara-artiger Passing-Down-Back mit Elite-Elusiveness und echtem Receiving-Profil.",
+      "worst_case": "Bleibt reiner Depth-Chart-Rotationsspieler, wenn Texas' tiefes Backfield seine Touches limitiert.",
+      "sources": [
+        "si.com",
+        "247sports.com"
+      ],
+      "source_urls": {
+        "si.com": "https://www.si.com/college/texas/football/texas-longhorns-make-major-splash-with-new-transfer-rb-commit-raleek-brown",
+        "247sports.com": "https://247sports.com/player/raleek-brown-46053600/"
+      }
+    },
+    {
+      "name": "Corey Myrick",
+      "position": "S",
+      "overall_rank": 80,
+      "school": "Clemson",
+      "class_year": "Junior",
+      "height": "6'3\"",
+      "weight": "200 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Clemson-Safety (Transfer von Southern Miss) mit PFF-Coverage-Grade 87,3 2025 – nur ein Touchdown in 384 Coverage-Snaps zugelassen, laut PFF bestbewerteter zurückkehrender Safety der ACC.",
+      "report_de": "Corey Myrick war 2025 bei Southern Miss statistisch einer der am wenigsten überwindbaren Safeties im gesamten College Football: eine PFF-Coverage-Grade von 87,3, die 15.-höchste unter allen Safeties des Landes, bei nur einem einzigen zugelassenen Touchdown über 384 Coverage-Snaps. Dazu kamen 92 Tackles, 4,5 Tackles for Loss und zwei Interceptions – Produktion auf allen Ebenen des Spiels. Der Wechsel zu Clemson für die Saison 2026 gibt ihm eine deutlich größere Bühne: Die Zeitung The Clemson Insider bezeichnete ihn bereits vor der Saison als bestbewerteten zurückkehrenden Safety der gesamten ACC. Bei 6'3\" und 200 Pfund bringt er den Rahmen für Deep-Third-Range mit, ohne dass die Physis im Run-Support leidet. Bestätigt er die Coverage-Zahlen gegen ACC-Niveau, ist er einer der am schnellsten steigenden Namen der gesamten Safety-Klasse 2027.",
+      "forstner": "Nur ein Touchdown in 384 Coverage-Snaps ist eine Zahl, die mich aufhorchen lässt, egal aus welcher Conference sie kommt. Jetzt zeigt sich, ob Myrick das auch gegen ACC-Passgames bestätigt.",
+      "best_case": "Kyle Hamilton-artiger Vielzweck-Safety mit Elite-Coverage-Range und Blitz-Fähigkeit aus der Box.",
+      "worst_case": "Die Coverage-Dominanz war ein Group-of-5-Effekt, der sich gegen ACC-Receiver nicht wiederholt.",
+      "sources": [
+        "clemsontigers.com",
+        "theclemsoninsider.com"
+      ],
+      "source_urls": {
+        "clemsontigers.com": "https://clemsontigers.com/sports/football/roster/player/corey-myrick",
+        "theclemsoninsider.com": "https://www.theclemsoninsider.com/2026/08/25/clemson-has-accs-highest-graded-returning-safety/"
+      }
+    },
+    {
+      "name": "Chris Cole",
+      "position": "LB",
+      "overall_rank": 81,
+      "school": "Georgia",
+      "class_year": "Junior",
+      "height": "6'3\"",
+      "weight": "235 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Georgia-Linebacker mit teamhohen 4,5 Sacks 2025 aus dem Front Seven der Bulldogs, SEC All-Freshman Team 2024, gilt als potenzieller Erstrunden-Kandidat.",
+      "report_de": "Chris Cole hat sich innerhalb von zwei Jahren vom SEC-All-Freshman zu einem der pass-rush-produktivsten Linebacker in Georgias Front Seven entwickelt. 2025 kam er auf 59 Tackles, sieben Tackles for Loss und teamhohe 4,5 Sacks – ungewöhnliche Zahlen für einen Off-Ball-Linebacker, der regelmäßig als zusätzlicher Rusher eingesetzt wird. Sein Weg begann mit der Wahl ins SEC All-Freshman Team 2024, was seine schnelle Entwicklung zusätzlich unterstreicht. Bei 6'3\" und 235 Pfund bringt er den athletischen Rahmen mit, der ihn für Hybrid-Rollen zwischen Linebacker und Edge-Rusher prädestiniert – genau das Profil, das moderne NFL-Defenses zunehmend suchen. 2026 soll er erstmals als vollständiger Every-Down-Starter auflaufen, was bei ähnlicher Pass-Rush-Produktion seinen Sprung ins Draft-Gespräch der ersten Runde untermauern würde.",
+      "forstner": "4,5 Sacks von einem Linebacker im Georgia-Frontseven ist eine Zahl, die Aufmerksamkeit verdient – die Bulldogs produzieren ständig NFL-Talent, und Cole sieht für mich wie der nächste Name aus dieser Linie aus.",
+      "best_case": "Micah Parsons-artiger Hybrid-Rusher, der als Linebacker startet und als Zusatz-Pass-Rusher eingesetzt wird.",
+      "worst_case": "Bleibt situativer Pass-Rush-Spezialist ohne Every-Down-Rolle, wenn die Coverage-Reife fehlt.",
+      "sources": [
+        "georgiadogs.com",
+        "espn.com",
+        "draftcountdown.com"
+      ],
+      "source_urls": {
+        "georgiadogs.com": "https://georgiadogs.com/sports/football/roster/chris-cole/10546",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/5145410/chris-cole",
+        "draftcountdown.com": "https://www.draftcountdown.com/2027-nfl-draft/prospect-profile/chris-cole-lb-georgia-2027-nfl-draft-prospect-profile-scouting-report/"
+      }
+    },
+    {
+      "name": "Vicari Swain",
+      "position": "CB",
+      "overall_rank": 82,
+      "school": "South Carolina",
+      "class_year": "RS Junior",
+      "height": "6'0\"",
+      "weight": "193 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "South-Carolina-Corner mit Doppelrolle: 2 INT/5 PBUs als Cornerback, dazu ligaweit meiste Punt-Return-Touchdowns (3) und zweifacher SEC Special Teams Player of the Week 2025.",
+      "report_de": "Vicari Swain ist der seltene Fall eines Cornerbacks, der ein Spiel auch ohne einen einzigen Snap in der Coverage entscheiden kann. 2025 kam er auf 28 Tackles, zwei Interceptions und fünf Pass Breakups als Startcorner, brachte aber zusätzlich drei Punt-Returns bis in die Endzone – die ligaweit meisten – und wurde zweimal zum SEC Special Teams Player of the Week gewählt. Die Konferenz würdigte ihn zusätzlich mit einer All-SEC-Ehrung als Return Specialist. Bei 6'0\" und 193 Pfund bringt er die athletische Basis für Press-Man-Coverage mit, während seine Explosivität im Return-Game einen zusätzlichen, seltenen Mehrwert liefert. Ein eigenes Scouting-Profil bei Lastwordonsports bestätigt bereits jetzt seine Relevanz für die Draft-Klasse 2027. Für NFL-Teams, die einen Corner mit echtem Special-Teams-Impact suchen, ist er einer der interessantesten Namen der Position.",
+      "forstner": "Drei Punt-Return-Touchdowns UND zwei Interceptions in derselben Saison ist eine Kombination, die ich selten sehe. Swain bringt Spezialteams-Wert, den viele reine Corner-Prospects nicht mitbringen.",
+      "best_case": "Tyler Nubin-artiger Vielzweck-DB mit Return-Value, der als Corner startet und Special Teams dominiert.",
+      "worst_case": "Bleibt reiner Return-Specialist, wenn die Coverage-Konstanz gegen SEC-Nummer-1-Receiver nicht mithält.",
+      "sources": [
+        "gamecocksonline.com",
+        "lastwordonsports.com"
+      ],
+      "source_urls": {
+        "gamecocksonline.com": "https://gamecocksonline.com/sports/football/roster/player/vicari-swain/",
+        "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/08/17/vicari-swain-2027-nfl-draft-early-scouting-report/"
+      }
+    },
+    {
+      "name": "DJ McKinney",
+      "position": "CB",
+      "overall_rank": 83,
+      "school": "Notre Dame",
+      "class_year": "5th-Year Senior",
+      "height": "6'1\"",
+      "weight": "188 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Erfahrener Zwei-Jahres-Starter (Transfer von Colorado) mit 35 Tackles/5 PBUs/1 INT in 9 Starts 2025 vor Saisonende-Verletzung, jetzt bei Notre Dame neben Leonard Moore für sein letztes College-Jahr.",
+      "report_de": "DJ McKinney bringt eine der breitesten Erfahrungsbasen unter den Corner-Prospects der Klasse 2027 mit. Über zwei Jahre als Starter bei Colorado kam er 2025 auf 35 Tackles, fünf Pass Breakups und eine Interception in neun Starts, ehe eine Verletzung seine Saison vorzeitig beendete. Für sein letztes College-Jahr wechselte er zu Notre Dame, wo er direkt neben Leonard Moore – einem der höchstbewerteten Corner-Prospects des gesamten Jahrgangs – auflaufen wird, was ihm sowohl im Training als auch in der Außenwirkung ein deutlich höheres Niveau verschafft. Bei 6'1\" und rund 188 Pfund bringt er den Rahmen für Press-Man-Coverage mit, den NFL-Teams an der Außenposition suchen. Für ein Scouting-Gremium ist die Kombination aus mehrjähriger Starter-Erfahrung und einem Umfeld mit landesweiter Sichtbarkeit ein klarer Pluspunkt, sofern die Verletzung folgenlos verheilt.",
+      "forstner": "Zwei Jahre Starter-Erfahrung und dann der Sprung neben einen der besten Corner-Prospects des Landes – McKinney bekommt 2026 die bestmögliche Bühne, um sich zu zeigen.",
+      "best_case": "Erfahrener Press-Corner im Trent-McDuffie-Stil, der über Technik statt reiner Athletik überzeugt.",
+      "worst_case": "Bleibt Nummer-2-Corner im eigenen Backfield, wenn Moore die gesamte Aufmerksamkeit auf sich zieht.",
+      "sources": [
+        "si.com",
+        "247sports.com"
+      ],
+      "source_urls": {
+        "si.com": "https://www.si.com/college/colorado/football/colorado-buffaloes-dj-mckinney-cornerback-prospect-watch-2026-nfl-draft-deion-sanders-travis-hunter",
+        "247sports.com": "https://247sports.com/college/notre-dame/longformarticle/counting-down-the-irish-23-cb-dj-mckinney-288264571/"
+      }
+    },
+    {
+      "name": "Tony Rojas",
+      "position": "LB",
+      "overall_rank": 84,
+      "school": "Penn State",
+      "class_year": "RS Junior",
+      "height": "6'2\"",
+      "weight": "236 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Penn-State-Linebacker mit teamhohen 10 Tackles gegen FIU vor einer saisonbeendenden Verletzung 2025 (nur 4 Spiele); kehrt 2026 mit Pass-Rush-Fähigkeiten von der LB-Position zurück.",
+      "report_de": "Tony Rojas zeigte 2025 in nur vier Spielen, bevor eine Verletzung seine Saison beendete, warum Penn State große Stücke auf ihn hält: 25 Tackles, 4,5 Tackles for Loss und zwei Sacks, dazu teamhohe zehn Tackles im Auftaktspiel gegen FIU. Diese Rate über eine volle Saison hochgerechnet würde ihn in die Spitzengruppe der produktivsten Linebacker der Big Ten katapultieren. Bei 6'2\" und 236 Pfund bringt er die athletische Basis für die von modernen Defenses gesuchten Blitz-Pakete von der Linebacker-Position mit. Für 2026 ist die zentrale Frage seine Gesundheit über eine komplette Saison – die kurze, aber intensive Stichprobe aus 2025 spricht für echtes Pass-Rush-Potenzial, das über die reine Linebacker-Rolle hinausgeht. Bestätigt er die Form, ist er ein Day-3-Sleeper mit Day-2-Upside.",
+      "forstner": "Zehn Tackles in einem einzigen Spiel, bevor die Verletzung kam, zeigt mir, wo die Form eigentlich lag. Rojas ist ein Name, den ich mir für eine gesunde Saison 2026 vormerke.",
+      "best_case": "Blitz-Package-Linebacker mit Pass-Rush-Nachweis, der sich zum Every-Down-Starter entwickelt.",
+      "worst_case": "Verletzungshistorie verhindert eine volle Stichprobe, bleibt unbewiesenes Talent ohne Draft-Kapital.",
+      "sources": [
+        "247sports.com",
+        "gopsusports.com"
+      ],
+      "source_urls": {
+        "247sports.com": "https://247sports.com/player/tony-rojas-46117743/",
+        "gopsusports.com": "https://gopsusports.com/sports/football/roster/player/tony-rojas"
+      }
+    },
+    {
+      "name": "Brody Foley",
+      "position": "TE",
+      "overall_rank": 85,
+      "school": "Louisville",
+      "class_year": "RS Senior",
+      "height": "6'6\"",
+      "weight": "260 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Vielseitiger Big-Slot-Tight-End (Transfer von Tulsa) mit 37 Fängen/528 Yards/7 TD 2025, First-Team All-AAC, in einer Saison als QB, WR, H-Back und Inline-TE eingesetzt.",
+      "report_de": "Brody Foley ist einer der vielseitigsten Offensive-Spieler dieser Liste: 2025 wurde er bei Tulsa nicht nur als klassischer Tight End eingesetzt, sondern auch als Quarterback, Wide Receiver und H-Back – ein echtes Schweizer-Taschenmesser-Profil. Die Produktion blieb dabei hoch: 37 Fänge, 528 Yards und sieben Touchdowns, was ihm die Wahl ins First Team All-AAC einbrachte. Sports Illustrated projizierte ihn bereits explizit als Teil von Louisvilles Draft-Klasse 2027, nachdem er für sein letztes College-Jahr in die ACC wechselte. Bei 6'6\" und 260 Pfund bringt er den Rahmen für Red-Zone-Matchups gegen kleinere Defensive Backs mit, während seine Vielseitigkeit Offensivkoordinatoren zusätzliche Optionen im Playcalling gibt. Für NFL-Teams, die einen Move-Tight-End mit echtem Big-Slot-Profil suchen, ist er ein Name mit Day-3-Sleeper-Potenzial.",
+      "forstner": "Ein Tight End, der in derselben Saison auch als Quarterback eingesetzt wurde, sagt mir etwas über seine Football-Intelligenz. Foley ist genau der Typ Matchup-Problem, den moderne Offensive Coordinators lieben.",
+      "best_case": "Vielseitiger Big-Slot-Matchup-Tight-End im Stil eines Move-TE mit Multi-Position-Hintergrund.",
+      "worst_case": "Der Sprung in die ACC gegen echte Power-Conference-Defenses zeigt Grenzen der Tulsa-Produktion auf.",
+      "sources": [
+        "gocards.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "gocards.com": "https://gocards.com/sports/football/roster/brody-foley/17795",
+        "si.com": "https://www.si.com/college/louisville/football/projecting-2027-nfl-draft-class"
+      }
+    },
+    {
+      "name": "Jacarrius Peak",
+      "position": "OT",
+      "overall_rank": 86,
+      "school": "South Carolina",
+      "class_year": "RS Senior",
+      "height": "6'4\"",
+      "weight": "305 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Erfahrener Tackle (Transfer von NC State) mit 850 Snaps und 84,1 Pass-Block-Grade 2025 (11. landesweit unter Tackles), All-ACC-Ehrung, jetzt in der SEC bei South Carolina.",
+      "report_de": "Jacarrius Peak war 2025 bei NC State einer der zuverlässigsten Pass-Protectors der ACC: 850 Snaps, eine Gesamtnote von 73,7 und eine Pass-Block-Grade von 84,1, die elfthöchste unter allen Tackles des Landes. Die Konferenz würdigte ihn mit einer All-ACC-Ehrung, und On3 setzte ihn in sein Preseason-Impact-Ranking 2026 auf Platz 5 unter allen Tackles. Für sein letztes College-Jahr wechselte er in die SEC zu South Carolina, was ihm nach der starken ACC-Saison eine noch größere Bühne verschafft. Bei 6'4\" und 305 Pfund ist er kein reiner Längenspieler, sondern überzeugt vor allem über saubere Pass-Set-Technik. Eine Knieverletzung im Camp 2026 ist der einzige Unsicherheitsfaktor, den ein Draft-Gremium im Auge behalten sollte, bevor sich der Konferenzwechsel in echter Produktion niederschlägt.",
+      "forstner": "Elfthöchste Pass-Block-Grade unter allen Tackles des Landes ist eine Hausnummer, die den Konferenzwechsel in die SEC rechtfertigt. Peaks Camp-Verletzung ist die einzige Sache, die ich genau beobachte.",
+      "best_case": "Solider Zone-Blocking-Tackle mit sauberer Pass-Protection-Technik und Startpotenzial ab Jahr eins.",
+      "worst_case": "Die Camp-Verletzung verzögert die Entwicklung und der ACC-zu-SEC-Sprung fällt schwerer als erwartet aus.",
+      "sources": [
+        "gamecocksonline.com",
+        "on3.com"
+      ],
+      "source_urls": {
+        "gamecocksonline.com": "https://gamecocksonline.com/sports/football/roster/player/jacarrius-peak/",
+        "on3.com": "https://www.on3.com/teams/south-carolina-gamecocks/news/south-carolina-football-ea-sports-cfb27-jacarrius-peak-rating/"
+      }
+    },
+    {
+      "name": "Sam Leavitt",
+      "position": "QB",
+      "overall_rank": 87,
+      "school": "LSU",
+      "class_year": "RS Junior",
+      "height": "6'2\"",
+      "weight": "216 lbs",
+      "round": 1,
+      "projection": "Runde 1-3",
+      "report_core_de": "Nummer-1-Transferportal-QB 2026 (von Arizona State zu LSU) mit CFP-Erfahrung: Karriere 4.652 Passing-Yards, 36 Touchdowns, starkes Dual-Threat-Debüt in Baton Rouge.",
+      "report_de": "Sam Leavitt war der begehrteste Quarterback im gesamten Transferportal 2026, nachdem er Arizona State 2024 als Freshman-Starter bis in den College Football Playoff geführt hatte: 2.885 Yards und 24 Touchdowns in jener Saison. Über seine bisherige Karriere kommt er auf 4.652 Passing-Yards und 36 Touchdowns in 24 Spielen. Sein Debüt bei LSU bestätigte den Hype: über 100 Rushing-Yards bei 9,3 Yards pro Lauf und zwei Rushing-Touchdowns, dazu die gewohnte Passgenauigkeit. Bei 6'2\" und 216 Pfund bringt er den athletischen Rahmen für ein modernes Dual-Threat-System mit, ohne dabei ein reiner Läufer zu sein. Der Wechsel in die SEC, wo er nun gegen die physischste Liga des Landes bestehen muss, ist der eigentliche Test für seine Draft-Aktie 2027. Bestätigt er die CFP-Form aus Arizona in Baton Rouge, ist er ein legitimer Kandidat für die erste Rundenhälfte.",
+      "forstner": "Ein Quarterback, der schon als Freshman den Playoff erreicht hat und dann noch den Wechsel in die SEC sucht, hat keine Angst vor der Bühne. Leavitt ist für mich einer der spannendsten Transfer-Storys des Jahrgangs.",
+      "best_case": "Kyler Murray-artiger Dual-Threat-Passer mit echter Explosivität aus der Pocket und im Lauf.",
+      "worst_case": "Der Sprung in die SEC überfordert die Mechanik, bleibt ein talentierter, aber fehleranfälliger Scrambler.",
+      "sources": [
+        "draftcountdown.com",
+        "cbssports.com",
+        "lsusports.net"
+      ],
+      "source_urls": {
+        "draftcountdown.com": "https://www.draftcountdown.com/2027-nfl-draft/prospect-profile/sam-leavitt-qb-lsu-2027-nfl-draft-prospect-profile-scouting-report/",
+        "cbssports.com": "https://www.cbssports.com/college-football/news/lsus-sam-leavitt-auburns-byrum-brown-college-football-transfer-portal-qbs-2026/",
+        "lsusports.net": "https://lsusports.net/sports/fb/roster/player/sam-leavitt"
+      }
+    },
+    {
+      "name": "Marcel Reed",
+      "position": "QB",
+      "overall_rank": 88,
+      "school": "Texas A&M",
+      "class_year": "RS Junior",
+      "height": "6'1\"",
+      "weight": "185 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Führte Texas A&M 2025 zu einem 11-0-Saisonstart: 3.662 Total-Yards, 31 Total-Touchdowns, Top-10-QBR national zu Saisonbeginn 2026; verzichtete auf eine 2026-Meldung.",
+      "report_de": "Marcel Reed hat Texas A&M 2025 zu seinem besten Saisonstart seit Jahren geführt: 11-0, angetrieben von 3.662 Total-Yards und 31 Total-Touchdowns bei einer Completion-Quote von 62,1 Prozent, dazu 493 Rushing-Yards als Zusatzwaffe. Trotz konkreter Draft-Perspektiven entschied er sich gegen eine Meldung für 2026 und für die Rückkehr nach College Station – ein Vertrauensbeweis in das eigene System. Zum Saisonstart 2026 rangiert er national unter den Top 10 im QBR-Ranking. Bei 6'1\" und 185 Pfund ist er kein physischer Riese, dafür ein echter Dual-Threat, der Defenses sowohl mit dem Arm als auch mit den Beinen bestraft. Mit noch zwei Jahren Eligibility ist 2026 wahrscheinlich sein letztes College-Jahr vor einem frühen Deklarieren – die Passing-Entwicklung entscheidet, ob daraus ein Day-2-Pick wird.",
+      "forstner": "Ein 11-0-Saisonstart mit über 30 Total-Touchdowns spricht für sich, aber dass er bei diesen Zahlen auf den Draft 2026 verzichtet hat, zeigt mir echtes Selbstvertrauen ins eigene Wachstum.",
+      "best_case": "Jalen Hurts-artiger Dual-Threat-Anführer, der über Winning-Produktion und Big-Game-Erfahrung überzeugt.",
+      "worst_case": "Bleibt System-Produkt ohne reine Arm-Talent-Ceiling, das gegen NFL-Coverages an Grenzen stößt.",
+      "sources": [
+        "247sports.com",
+        "si.com",
+        "12thman.com"
+      ],
+      "source_urls": {
+        "247sports.com": "https://247sports.com/college/texas-am/article/texas-am-quarterback-marcel-reed-announces-he-is-returning-to-aggies-for-2026-season-269061123/",
+        "si.com": "https://www.si.com/college-football/texas-am-marcel-reed-announces-decision-returning-for-2026-season",
+        "12thman.com": "https://12thman.com/sports/football/roster/player/marcel-reed"
+      }
+    },
+    {
+      "name": "John Henry Daley",
+      "position": "EDGE",
+      "overall_rank": 89,
+      "school": "Michigan",
+      "class_year": "Senior",
+      "height": "6'5\"",
+      "weight": "252 lbs",
+      "round": 1,
+      "projection": "Runde 1-2",
+      "report_core_de": "First-Team-All-American 2025 bei Utah trotz saisonbeendender Achillessehnenverletzung: 11,5 Sacks (national #2), 17,5 TFL (FBS-Bestwert geteilt); jetzt bei Michigan für sein letztes Jahr.",
+      "report_de": "John Henry Daley lieferte 2025 eine der explosivsten Pass-Rush-Saisons des gesamten Landes, ehe eine Achillessehnenverletzung im November seine Zeit bei Utah vorzeitig beendete: 48 Tackles, 17,5 Tackles for Loss – geteilter FBS-Bestwert – und 11,5 Sacks, die zweitmeisten des Landes. Trotz der verkürzten Saison wurde er zum First-Team-All-American gewählt. Für sein letztes College-Jahr wechselte er zu Michigan, eines der physischsten Programme des Landes, und wird laut Team-Berichten fit zum Saisonauftakt 2026 erwartet. Bei 6'5\" und 252 Pfund bringt er die Länge und den Rahmen mit, die NFL-Teams an der Edge suchen. Der einzige Unsicherheitsfaktor für ein Draft-Gremium ist die Achillesverletzung – bestätigt er seine Utah-Form gesund, gehört er zu den besten Edge-Rushern des gesamten Jahrgangs.",
+      "forstner": "11,5 Sacks in einer verkürzten Saison ist eine der explosivsten Pass-Rush-Raten, die ich in diesem Zyklus gesehen habe. Die Achillesverletzung ist der einzige Grund, warum er nicht schon jetzt in aller Munde ist.",
+      "best_case": "Danielle Hunter-artiger Elite-Edge-Rusher mit Sack-Produktion auf Erstrunden-Niveau, sobald die Gesundheit bestätigt ist.",
+      "worst_case": "Die Achillesverletzung limitiert Burst und Explosivität dauerhaft, Produktion fällt spürbar hinter die Utah-Zahlen zurück.",
+      "sources": [
+        "si.com",
+        "draftcountdown.com",
+        "mgoblue.com"
+      ],
+      "source_urls": {
+        "si.com": "https://www.si.com/college/michigan/football/top-25-most-important-michigan-players-in-2026-john-henry-daley",
+        "draftcountdown.com": "https://www.draftcountdown.com/2027-nfl-draft/prospect-profile/john-henry-daley-edge-michigan-2027-nfl-draft-prospect-profile-scouting-report/",
+        "mgoblue.com": "https://mgoblue.com/sports/football/roster/john-henry-daley/28112"
+      }
+    },
+    {
+      "name": "Suntarine Perkins",
+      "position": "LB",
+      "overall_rank": 90,
+      "school": "Ole Miss",
+      "class_year": "Senior",
+      "height": "6'1\"",
+      "weight": "220 lbs",
+      "round": 1,
+      "projection": "Runde 1-2",
+      "report_core_de": "Explosiver Hybrid-Linebacker/Edge-Rusher mit Karrierewerten von 179 Tackles, 32 TFL und 18,5 Sacks seit 2023; verzichtete auf eine 2026-Draft-Meldung für ein 'Money Year'.",
+      "report_de": "Suntarine Perkins ist einer der explosivsten Hybrid-Rusher der gesamten SEC. Schon als Sophomore 2024 führte er sein Team mit 14,0 Tackles for Loss an, dazu 10,5 Sacks und eine All-SEC-Third-Team-Nominierung. Über seine Karriere seit 2023 kommt er auf 179 Tackles, 32 Tackles for Loss und 18,5 Sacks – außergewöhnliche Zahlen für einen Spieler, der zwischen Linebacker und Edge-Rusher pendelt. Ein gemessener 40-Yard-Dash von 4,58 Sekunden bei 220 Pfund unterstreicht seine seltene athletische Kombination aus Größe und Tempo. Trotz konkreter Draft-Perspektiven entschied er sich gegen eine Meldung für 2026 und für ein zusätzliches 'Money Year' bei Ole Miss. Für NFL-Defenses, die zunehmend Hybrid-Spieler zwischen Linebacker und Edge suchen, ist er einer der vielseitigsten Namen des gesamten Jahrgangs 2027.",
+      "forstner": "4,58 Sekunden bei 220 Pfund und fast 20 Sacks über zwei Jahre ist eine Kombination, die man selten findet. Perkins ist für mich schon jetzt einer der interessantesten Hybrid-Spieler des Jahrgangs.",
+      "best_case": "Micah Parsons-artiger Hybrid-Rusher, der zwischen Linebacker und Edge eingesetzt wird und beide Rollen dominiert.",
+      "worst_case": "Bleibt zwischen den Positionen unklar eingeordnet, wenn NFL-Teams sein Profil nicht sauber definieren können.",
+      "sources": [
+        "olemisssports.com",
+        "espn.com",
+        "nfldraftbuzz.com"
+      ],
+      "source_urls": {
+        "olemisssports.com": "https://olemisssports.com/sports/football/roster/suntarine-perkins/6496",
+        "espn.com": "https://www.espn.com/college-football/story/_/id/47346997/suntarine-perkins-4-starters-returning-ole-miss",
+        "nfldraftbuzz.com": "https://www.nfldraftbuzz.com/Player/Suntarine-Perkins-LB-Mississippi"
+      }
+    },
+    {
+      "name": "Anthony Smith",
+      "position": "EDGE",
+      "overall_rank": 91,
+      "school": "Minnesota",
+      "class_year": "RS Senior",
+      "height": "6'6\"",
+      "weight": "285 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Big-Ten-Sackführer 2025: 12,5 Sacks, 17,5 TFL, First-Team All-Big Ten bei Minnesota; Karrierewerte von 19,5 Sacks.",
+      "report_de": "Anthony Smith war 2025 der produktivste Pass-Rusher der gesamten Big Ten: 12,5 Sacks – Liga-Bestwert – und 17,5 Tackles for Loss brachten ihm die Wahl ins First Team All-Big Ten ein. Über seine Karriere kommt er auf 81 Tackles und 19,5 Sacks, eine konstante Aufwärtskurve über mehrere Jahre. Bei 6'6\" und 285 Pfund bringt er einen seltenen Rahmen mit, der sowohl für reinen Speed-Rush als auch für Power-Rush-Moves funktioniert. Als Redshirt-Senior geht er 2026 in sein letztes College-Jahr mit der Chance, die Liga-Führung erneut zu bestätigen. Für ein Draft-Gremium ist ein Liga-Sackführer mit dieser Größe ein klarer Day-2-Kandidat unterhalb der Top-Edge-Namen des Jahrgangs.",
+      "forstner": "Liga-Sackführer in der Big Ten bei 6'6\" ist eine Kombination aus Produktion und Rahmen, die ich mir gerne genauer anschaue. Smith ist ein Name, der bislang unter dem Radar läuft.",
+      "best_case": "Josh Sweat-artiger Power-Speed-Hybrid-Rusher mit Liga-führender Sack-Produktion als Startrolle.",
+      "worst_case": "Bleibt Big-Ten-Statistik-Phänomen ohne athletischen Sprung gegen NFL-Tackles.",
+      "sources": [
+        "draftcountdown.com",
+        "lastwordonsports.com"
+      ],
+      "source_urls": {
+        "draftcountdown.com": "https://www.draftcountdown.com/2027-nfl-draft/prospect-profile/anthony-smith-edge-minnesota-2027-nfl-draft-prospect-profile-scouting-report/",
+        "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/08/31/early-2027-nfl-draft-anthony-smith-scouting-report/"
+      }
+    },
+    {
+      "name": "Duce Robinson",
+      "position": "WR",
+      "overall_rank": 92,
+      "school": "Florida State",
+      "class_year": "Senior",
+      "height": "6'6\"",
+      "weight": "223 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Erster 1.000-Yard-Receiver von Florida State seit 2019: 56 Catches, 1.081 Yards, 6 TD 2025, First-Team All-ACC, Biletnikoff-Semifinalist.",
+      "report_de": "Duce Robinson hat 2025 eine Dürre beendet, die Florida State seit 2019 begleitete: Er war der erste FSU-Receiver seit sechs Jahren mit über 1.000 Yards in einer Saison. Die konkreten Zahlen: 56 Fänge, 1.081 Yards bei 19,3 Yards pro Catch – der zweitbeste Wert der gesamten ACC – und sechs Touchdowns. Die Konferenz würdigte ihn mit einer First-Team-All-ACC-Nominierung, dazu war er Semifinalist für den Biletnikoff Award, die höchste Auszeichnung für College-Receiver. Bei 6'6\" und 223 Pfund ist er ein physischer Ausnahme-Rahmen für die Position, der Contested Catches gegen praktisch jeden Cornerback gewinnen kann. Vor der Saison 2026 steht er zusätzlich auf den Watchlists für Biletnikoff, Walter Camp, Maxwell und den Wuerffel Award. Für sein letztes College-Jahr ist die Frage, ob er die 19,3-Yards-pro-Catch-Explosivität bestätigt – gelingt das, ist er einer der attraktivsten Downfield-Threats des gesamten Jahrgangs.",
+      "forstner": "6'6\" und über 1.000 Yards bei fast 20 Yards pro Catch ist eine Kombination, die selten vorkommt. Robinson ist für mich der Prototyp eines Red-Zone- und Downfield-Mismatch-Receivers.",
+      "best_case": "Mike Evans-artiger Contested-Catch-Riese, der über Größe und Ballkontrolle jeden Corner dominiert.",
+      "worst_case": "Bleibt reiner Größen-Vorteil-Receiver ohne echte Trennungsgeschwindigkeit gegen NFL-Press-Coverage.",
+      "sources": [
+        "seminoles.com",
+        "247sports.com",
+        "espn.com"
+      ],
+      "source_urls": {
+        "seminoles.com": "https://seminoles.com/news/2026/8/19/football-robinson-named-to-biletnikoff-award-watch-list",
+        "247sports.com": "https://247sports.com/college/florida-state/article/florida-state-seminoles-football-duce-robinson-nfl-decision-266713847/",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/4870922/duce-robinson"
+      }
+    },
+    {
+      "name": "Kenyatta Jackson Jr.",
+      "position": "EDGE",
+      "overall_rank": 93,
+      "school": "Ohio State",
+      "class_year": "RS Senior",
+      "height": "6'5\"",
+      "weight": "265 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Ohio-State-Edge-Rusher mit Karrierebestwerten 2025 (28 Tackles, 11,0 TFL, 6,5 Sacks), ehemaliger Florida-Gatorade-Player-of-the-Year der High School.",
+      "report_de": "Kenyatta Jackson Jr. hat sich bei Ohio State Jahr für Jahr gesteigert und lieferte 2025 seine bislang produktivste Saison: 28 Tackles, 11,0 Tackles for Loss und 6,5 Sacks – jeweils persönliche Karrierebestwerte und der zweithöchste TFL-Wert im gesamten Team. Als Vier-Sterne-Recruit und Florida Gatorade Player of the Year seiner Highschool-Klasse kam er mit hohen Erwartungen nach Columbus, die sich nun in echter Produktion niederschlagen. Bei 6'5\" und 265 Pfund bringt er den athletischen Rahmen mit, den NFL-Teams an der Edge suchen. Für sein letztes College-Jahr 2026 ist die zentrale Frage, ob die Aufwärtskurve sich fortsetzt und aus dem Rotationsspieler ein echter Every-Down-Rusher wird. Bei einer weiteren Produktionssteigerung ist er ein realistischer Aufsteiger in die erste Rundenhälfte des Draft-Gesprächs.",
+      "forstner": "Die Kurve bei Jackson zeigt jedes Jahr nach oben, und ein Recruiting-Profil wie seines aus der High School bestätigt, dass das Talent immer da war. 2026 ist für mich das Jahr, in dem sich das in echten Draft-Wert übersetzt.",
+      "best_case": "Steigender Edge-Rusher im Stil eines Rotations-zu-Starter-Sprungs mit Erstrunden-Athletik-Profil.",
+      "worst_case": "Bleibt Rotationsspieler mit begrenztem Pass-Rush-Move-Set hinter Ohio States tiefer Front.",
+      "sources": [
+        "ohiostatebuckeyes.com",
+        "draftcountdown.com",
+        "sports.yahoo.com"
+      ],
+      "source_urls": {
+        "ohiostatebuckeyes.com": "https://ohiostatebuckeyes.com/sports/football/roster/kenyatta-jackson-jr/13306",
+        "draftcountdown.com": "https://www.draftcountdown.com/2027-nfl-draft/prospect-profile/kenyatta-jackson-jr-edge-ohio-state-2027-nfl-draft-prospect-profile-scouting-report/",
+        "sports.yahoo.com": "https://sports.yahoo.com/articles/kenyatta-jackson-2027-nfl-draft-235555019.html"
+      }
+    },
+    {
+      "name": "Jordan Hall",
+      "position": "LB",
+      "overall_rank": 94,
+      "school": "Michigan State",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "249 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Teamführende 88 Tackles 2025 bei Michigan State, Butkus-Award-Watchlist 2026, Preseason First-Team All-Big Ten (Phil Steele).",
+      "report_de": "Jordan Hall war 2025 die unangefochtene Tackling-Maschine von Michigan State: 88 Tackles – teamhoch, davon 47 solo – dazu 4,5 Tackles for Loss, 2,5 Sacks, drei Forced Fumbles und eine Interception. Über seine Karriere kommt er auf 179 Tackles, 13 Tackles for Loss und sieben Sacks in 35 Spielen, eine konstante Produktionskurve über mehrere Jahre. Vor der Saison 2026 setzte ihn Phil Steele bereits ins Preseason First Team All-Big Ten, zusätzlich steht er auf der Watchlist für den Butkus Award, die höchste individuelle Auszeichnung für Linebacker im College Football. Bei 6'3\" und 249 Pfund bringt er den physischen Rahmen für einen Every-Down-Linebacker mit, während seine Turnover-Produktion – drei Forced Fumbles allein 2025 – zusätzlichen Wert liefert. Für NFL-Teams, die einen erfahrenen Anführer für die Mitte der Defense suchen, ist er einer der verlässlichsten Namen der Klasse 2027.",
+      "forstner": "88 Tackles und drei Forced Fumbles in einer Saison ist die Art Rundum-Produktion, die ein Draft-Gremium bei einem Linebacker sehen will. Hall macht einfach alles.",
+      "best_case": "Bobby Wagner-artiger Every-Down-Anführer mit Tackling-Konstanz und Turnover-Erzeugung.",
+      "worst_case": "Bleibt reiner Run-Stopper ohne athletischen Sprung, der in Passing-Downs vom Feld muss.",
+      "sources": [
+        "msuspartans.com",
+        "espn.com"
+      ],
+      "source_urls": {
+        "msuspartans.com": "https://msuspartans.com/sports/football/roster/jordan-hall/17329",
+        "espn.com": "https://www.espn.com/college-football/player/stats/_/id/4870737/jordan-hall"
+      }
+    },
+    {
+      "name": "Justin Scott",
+      "position": "DT",
+      "overall_rank": 95,
+      "school": "Miami",
+      "class_year": "Junior",
+      "height": "6'4\"",
+      "weight": "303 lbs",
+      "round": 3,
+      "projection": "Day 2-3",
+      "report_core_de": "Fünf-Sterne-Recruit bei Miami mit rohem Athletikprofil: 16 QB-Pressures, 6,5 TFL, 1 Forced Fumble 2025 – Playmaker-Moment im Saisonauftakt gegen Notre Dame.",
+      "report_de": "Justin Scott kam als Fünf-Sterne-Recruit nach Miami und beginnt nun, dieses Talent in echte Produktion zu übersetzen. 2025 kam er in allen 16 Spielen zum Einsatz, davon neun als Starter, und sammelte 26 Tackles, 6,5 Tackles for Loss, einen Sack, einen Forced Fumble und 16 Quarterback-Pressures. Sein Signature-Moment lieferte er bereits im Saisonauftakt gegen Notre Dame mit einem erzwungenen Fumble. Bei 6'4\" und 303 Pfund bringt er einen der athletischsten Interior-Rahmen des gesamten Jahrgangs mit – die 16 Pressures bei vergleichsweise wenig Sacks deuten auf noch ungenutztes Potenzial hin. Als Junior 2026 ist der nächste Schritt, aus dem rohen Talent einen vollständigen, konstanten Pass-Rusher zu formen. Gelingt der technische Sprung, ist er einer der Interior-Defensive-Linemen mit der höchsten Ceiling im gesamten Draft-Jahrgang.",
+      "forstner": "16 Pressures bei nur einem Sack sagt mir, dass die Wucht da ist, aber das Finish noch fehlt. Genau diese Lücke zwischen Talent und Produktion macht Scott für mich zu einem der spannendsten Watch-Namen 2026.",
+      "best_case": "Jalen Carter-artiger Interior-Wrecking-Ball mit Erstrunden-Athletik, sobald sich die Pressure-Rate in Sacks übersetzt.",
+      "worst_case": "Bleibt talentierter, aber unproduktiver Rotationsspieler, wenn das Finish am Quarterback ausbleibt.",
+      "sources": [
+        "miamihurricanes.com",
+        "lastwordonsports.com",
+        "atozsports.com"
+      ],
+      "source_urls": {
+        "miamihurricanes.com": "https://miamihurricanes.com/roster/justin-scott/",
+        "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/07/21/justin-scott-2027-nfl-draft-early-scouting-report/",
+        "atozsports.com": "https://atozsports.com/nfl-draft/2027-nfl-draft-miami-dt-justin-scott-scouting-report/"
+      }
+    },
+    {
+      "name": "Isaiah Horton",
+      "position": "WR",
+      "overall_rank": 96,
+      "school": "Texas A&M",
+      "class_year": "RS Senior",
+      "height": "6'4\"",
+      "weight": "215 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Erfahrener Contested-Catch-Receiver (Transfer von Alabama, davor Miami) mit Karrierewerten von 112 Fängen/1.301 Yards/14 TD; jetzt primärer Outside-Receiver bei Texas A&M.",
+      "report_de": "Isaiah Horton bringt eine der breitesten Erfahrungsbasen unter den Receivern der Klasse 2027 mit. Über Stationen bei Miami und Alabama kommt er auf 112 Fänge, 1.301 Yards und 14 Touchdowns in 44 Spielen, 2025 allein bei Alabama 42 Fänge für 511 Yards und acht Touchdowns. Für sein letztes College-Jahr wechselte er zu Texas A&M, wo er 2026 als primärer Outside-Receiver neben Quarterback Marcel Reed auflaufen soll. Bei 6'4\" und 215 Pfund bringt er den Rahmen für Contested Catches gegen kleinere Corners mit, den Power-Conference-Defenses selten flächendeckend kontern können. Mit einem produktiven letzten Jahr in einem starken A&M-Passspiel hat er das Potenzial, sich von der Day-3-Tiefe in echte Day-2-Gespräche zu spielen.",
+      "forstner": "Über 1.300 Karriere-Yards durch zwei Power-Conference-Programme ist eine solide Erfahrungsbasis. Horton ist der Typ Big-Slot-Receiver, der in einem starken Passspiel schnell übersehen wird und dann explodiert.",
+      "best_case": "Courtland Sutton-artiger Contested-Catch-Receiver mit Größenvorteil und Red-Zone-Wert.",
+      "worst_case": "Bleibt Nummer-2-Option hinter den A&M-Skill-Spielern und verpasst den erhofften Produktionssprung.",
+      "sources": [
+        "12thman.com",
+        "247sports.com",
+        "espn.com"
+      ],
+      "source_urls": {
+        "12thman.com": "https://12thman.com/sports/football/roster/player/isaiah-horton",
+        "247sports.com": "https://247sports.com/player/isaiah-horton-46058199/",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/4685383/isaiah-horton"
+      }
+    },
+    {
+      "name": "DJ Hicks",
+      "position": "DT",
+      "overall_rank": 97,
+      "school": "Texas A&M",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "293 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Interior-Pass-Rusher bei Texas A&M mit Produktionssprung 2025 (26 Tackles, 6,5 TFL, 3,0 Sacks in 13 Spielen), Karrierebestwerte u.a. gegen Notre Dame, LSU und Miami.",
+      "report_de": "DJ Hicks hat 2025 den Sprung von Rollenspieler zu echtem Pass-Rush-Faktor gemacht: 26 Tackles, 6,5 Tackles for Loss und drei Sacks bei nur zwei Starts in 13 Spielen – eine Effizienzrate, die seine Draft-Aktie zuletzt deutlich gesteigert hat. Seine besten Einzelleistungen lieferte er ausgerechnet gegen die Top-Gegner des Spielplans: Notre Dame, LSU und Miami. Bei 6'3\" und 293 Pfund ist er kein reiner Größenspieler, sondern setzt auf Quickness aus dem Stand, um an Guards vorbeizukommen. Für sein letztes College-Jahr bei Texas A&M ist der nächste Schritt, aus der Rotationsrolle eine feste Starterrolle zu machen. Bestätigt er die 2025er-Produktionsrate über mehr Snaps, ist ein Sprung von Day-3 in Richtung Runde 2 realistisch.",
+      "forstner": "Seine besten Spiele kamen gegen Notre Dame, LSU und Miami – das sind keine Zufallstreffer gegen schwache Gegner, das ist Produktion gegen die beste verfügbare Konkurrenz. Hicks beobachte ich für 2026 genau.",
+      "best_case": "Effizienter Rotations-zu-Starter-Pass-Rusher, der bei mehr Snaps seine Produktionsrate hochskaliert.",
+      "worst_case": "Bleibt Situational-Rusher ohne Every-Down-Rolle, wenn die Snap-Zahl niedrig bleibt.",
+      "sources": [
+        "12thman.com",
+        "247sports.com",
+        "espn.com"
+      ],
+      "source_urls": {
+        "12thman.com": "https://12thman.com/sports/football/roster/player/dj-hicks",
+        "247sports.com": "https://247sports.com/college/texas-am/article/texas-am-football-roster-profile-dj-hicks-sec-aggies-286334087/",
+        "espn.com": "https://www.espn.com/college-football/player/stats/_/id/5160111/dj-hicks"
+      }
+    },
+    {
+      "name": "Avery Johnson",
+      "position": "QB",
+      "overall_rank": 98,
+      "school": "Kansas State",
+      "class_year": "Senior",
+      "height": "6'3\"",
+      "weight": "198 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Kansas-States-Schulrekordhalter im Passing (48 TD-Pässe, geteilt), Dual-Threat mit 2.385 Passing-Yards/18 TD plus 477 Rushing-Yards/8 Rushing-TD 2025.",
+      "report_de": "Avery Johnson steht kurz davor, die Passing-Rekordbücher von Kansas State komplett neu zu schreiben. Über seine Karriere kommt er auf 5.576 Passing-Yards – Platz sechs aller Zeiten am College – und 48 Touchdown-Pässe, ein geteilter Schulrekord. 2025 allein warf er für 2.385 Yards und 18 Touchdowns bei nur sechs Interceptions, dazu lief er 477 Yards und acht weitere Touchdowns – ein echter Dual-Threat-Impact. Bei 6'3\" und rund 198 Pfund bringt er einen ausgewogenen Rahmen für beide Aufgaben mit. Für sein letztes College-Jahr 2026 könnte er mehrere weitere Schulrekorde brechen, was seine Sichtbarkeit zusätzlich erhöht. Sein Draft-Profil ist das eines klassischen Day-3-QB-Sleepers: nicht der physisch dominanteste Arm des Jahrgangs, dafür Produktion und Winning-Erfahrung über eine ganze Karriere.",
+      "forstner": "Fast 50 Touchdown-Pässe über eine Karriere plus fast 500 Rushing-Yards in einer einzigen Saison ist die Definition von Dual-Threat-Produktion. Johnson ist für mich der Typ Day-3-QB, der in der richtigen Umgebung überrascht.",
+      "best_case": "Gardner Minshew-artiger produktiver Dual-Threat-Backup mit Chance auf Spot-Starts.",
+      "worst_case": "Bleibt reines College-Statistik-Phänomen ohne NFL-Arm-Talent für die nächste Stufe.",
+      "sources": [
+        "si.com",
+        "espn.com",
+        "sports.yahoo.com"
+      ],
+      "source_urls": {
+        "si.com": "https://www.si.com/college/kstate/latest-news/avery-johnson-in-line-to-break-multiple-k-state-records-in-2026-01ksh8qm4hwm",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/4870857/avery-johnson",
+        "sports.yahoo.com": "https://sports.yahoo.com/articles/kansas-states-avery-johnson-latest-003848696.html"
+      }
+    },
+    {
+      "name": "Kevin Jennings",
+      "position": "QB",
+      "overall_rank": 99,
+      "school": "SMU",
+      "class_year": "Senior",
+      "height": "6'0\"",
+      "weight": "192 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Produktiver, mobiler SMU-Passer: 3.648 Passing-Yards, 26 TD, 66,0% Completion, 146,6 Passer Rating (5. in der ACC) 2025.",
+      "report_de": "Kevin Jennings hat SMU 2025 zu einer 9-4-Saison geführt und dabei eine der produktivsten Statistiken der gesamten ACC abgeliefert: 3.648 Passing-Yards, 26 Touchdowns bei 66,0 Prozent Completion-Quote und einer Passer Rating von 146,6, die fünfthöchste der Konferenz. Über 13 Starts kam er auf durchschnittlich 280,1 Yards pro Spiel. Bei nur 6'0\" und 192 Pfund ist er der kleinste Quarterback dieser Liste, was NFL-Scouts traditionell skeptisch macht, seine Mobilität und Entscheidungsschnelligkeit gleichen das aber teilweise aus. Für sein letztes College-Jahr 2026 bleibt die Statistik-Produktion konstant hoch – die Frage für ein Draft-Gremium ist, ob Größe und Armstärke für den Sprung in die NFL reichen. Sein Profil passt am ehesten zu Systemen, die auf schnelle Entscheidungen und Mobilität statt auf reine Pocket-Präsenz setzen.",
+      "forstner": "146,6 Passer Rating in der ACC ist eine echte Zahl, unabhängig von der Größe. Jennings ist der Typ Quarterback, den ich mir in einem Schema mit schnellem Passspiel gut vorstellen kann.",
+      "best_case": "Kyler Murray-artiger kompakter Dual-Threat-Passer mit Elite-Entscheidungsschnelligkeit im schnellen Passspiel.",
+      "worst_case": "Die fehlende Größe wird zum limitierenden Faktor gegen NFL-Pass-Rush-Fenster, bleibt reiner Backup.",
+      "sources": [
+        "smumustangs.com",
+        "nfldraftbuzz.com"
+      ],
+      "source_urls": {
+        "smumustangs.com": "https://smumustangs.com/sports/football/roster/kevin-jennings/15545",
+        "nfldraftbuzz.com": "https://www.nfldraftbuzz.com/Player/Kevin-Jennings-QB-SMU"
+      }
+    },
+    {
+      "name": "Evan Johnson",
+      "position": "CB",
+      "overall_rank": 100,
+      "school": "BYU",
+      "class_year": "RS Senior",
+      "height": "6'0\"",
+      "weight": "185 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "BYU-Corner mit ligaweit meisten Interceptions 2025 (5), 13 Passes Defended, zwei Jahre in Folge teaminterner höchstbewerteter Defensivspieler.",
+      "report_de": "Evan Johnson war 2025 der ballfertigste Cornerback der gesamten Big 12: fünf Interceptions – Liga-Bestwert – dazu 47 Tackles, 13 Passes Defended und ein Sack, was ihm eine Honorable-Mention-All-Big-12-Nominierung einbrachte. Vor der Saison 2026 setzte ihn die Konferenz bereits ins Preseason All-Big-12-Team. Laut internem Team-Grading war er zwei Jahre in Folge der höchstbewertete Defensivspieler des gesamten BYU-Kaders – ein Hinweis darauf, dass seine Konstanz über die reine Interception-Zahl hinausgeht. Bei 6'0\" und 185 Pfund bringt er einen ausgewogenen Rahmen für Press- und Zone-Coverage gleichermaßen mit. Als Cornerback außerhalb der ganz großen Power-Conference-Scheinwerfer ist er einer der am meisten unterschätzten Namen der gesamten Sekundär-Klasse 2027.",
+      "forstner": "Fünf Interceptions als Liga-Bestwert in der Big 12 ist eine Zahl, die viel zu wenig Aufmerksamkeit bekommt, weil sie aus Provo statt aus einer der großen Scheinwerfer-Conferences kommt. Johnson gehört für mich auf jedes CB-Board.",
+      "best_case": "DaRon Bland-artiger Ballhawk-Corner mit Elite-Interception-Rate aus einer Zone-lastigen Scheme-Passung.",
+      "worst_case": "Die Big-12-Produktion bestätigt sich nicht gegen athletischere NFL-Receiver, bleibt Nickel-Rotationsspieler.",
+      "sources": [
+        "byucougars.com",
+        "deseret.com",
+        "si.com"
+      ],
+      "source_urls": {
+        "byucougars.com": "https://byucougars.com/sports/football/roster/player/evan-johnson",
+        "deseret.com": "https://www.deseret.com/sports/2026/05/08/byu-football-evan-johnson-cornerback-player-defense-back-sitake/",
+        "si.com": "https://www.si.com/college/byu/football/byu-star-cornerback-evan-johnson-to-return-for-senior-season"
       }
     }
   ],

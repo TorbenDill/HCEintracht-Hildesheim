@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-09-09",
   "note": "Alle All-America-Auswahlen der Saison 2025 aus NCAA Division II, Division III und NAIA, die sich mit mindestens zwei unabhängigen Quellen belegen lassen – ausgewertet wurden die Teams von Associated Press, AFCA und D3football.com sowie die Einzelauszeichnungen Harlon Hill Trophy, Gene Upshaw Award, Gagliardi Trophy und Cliff Harris Award. Europlayers- und Hudl-Links erscheinen nur, wenn dort wirklich ein Profil existiert und eindeutig diesem Spieler zugeordnet werden konnte.",
   "players": [
     {
@@ -255,7 +255,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Gage Florence",
@@ -346,7 +346,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "TJ Chukwurah",
@@ -403,7 +403,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Luke Dehnicke",
@@ -464,7 +464,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Jake Mitchell",
@@ -531,7 +531,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Montriel Lee",
@@ -559,7 +559,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ryan Buttz",
@@ -588,7 +588,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ryan Scherecke",
@@ -620,7 +620,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Slade Edwards",
@@ -650,7 +650,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tim Anderson",
@@ -744,7 +744,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ean Rhea",
@@ -800,7 +800,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Kenyon Garner",
@@ -894,7 +894,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tyler King",
@@ -952,7 +952,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Clark Griffin",
@@ -981,7 +981,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ja’Kobe Clinton",
@@ -1011,7 +1011,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Landon Boss",
@@ -1099,7 +1099,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Jordan Rogers",
@@ -1129,7 +1129,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Justin Payoute",
@@ -1191,7 +1191,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Marvelous Owens",
@@ -1219,7 +1219,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Rance Conner",
@@ -1248,7 +1248,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Xavier Walton",
@@ -1362,7 +1362,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Deontae Williams",
@@ -1419,7 +1419,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Drew Nash",
@@ -1447,7 +1447,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "JayJay Jordan",
@@ -1653,7 +1653,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Isaiah Simmons",
@@ -1833,7 +1833,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Eli Aston",
@@ -1889,7 +1889,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Robby Ballentine",
@@ -1919,7 +1919,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Thomas Skokna",
@@ -1949,7 +1949,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tyren Montgomery",
@@ -1978,7 +1978,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Joey Gendreau",
@@ -2007,7 +2007,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Logan Frederick",
@@ -2034,7 +2034,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Reed Breckheimer",
@@ -2062,7 +2062,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Caleb Bayer",
@@ -2092,7 +2092,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Chris Clarke",
@@ -2119,7 +2119,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Cortez Jones",
@@ -2176,7 +2176,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Dave Casas",
@@ -2203,7 +2203,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Giovanni Kennedy",
@@ -2233,7 +2233,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Hayden Philpot",
@@ -2262,7 +2262,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Luke Schumacher",
@@ -2289,7 +2289,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Michael Nwosu",
@@ -2317,7 +2317,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Quentin Lehman",
@@ -2372,7 +2372,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Reed Richards",
@@ -2426,7 +2426,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Galen Limantour",
@@ -2540,7 +2540,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Liam Danitz",
@@ -2567,7 +2567,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Michael Clark",
@@ -2595,7 +2595,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Peter Johanik",
@@ -2624,7 +2624,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Phil Conant",
@@ -2708,7 +2708,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Aden Wiser",
@@ -2738,7 +2738,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Brian Wall",
@@ -2792,7 +2792,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Daniel Eliasek",
@@ -2820,7 +2820,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Gage Timm",
@@ -2850,7 +2850,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Kaiden Roden",
@@ -2907,10 +2907,10 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
-      "name": "*Grant Henderson",
+      "name": "Grant Henderson",
       "position": "DB",
       "college": "Maryville",
       "division": "NCAA Division III",
@@ -2934,7 +2934,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Carson Bourdo",
@@ -2962,7 +2962,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Colin Kaufmann",
@@ -2989,7 +2989,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Devin Williams",
@@ -3019,7 +3019,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Dylan Connors",
@@ -3047,7 +3047,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ethan Burrows",
@@ -3106,7 +3106,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Joe Spirra",
@@ -3160,7 +3160,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Nazair Jean-Lubin",
@@ -3215,7 +3215,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Aidan Ellison",
@@ -3244,7 +3244,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Dominic Bourgeois",
@@ -3301,7 +3301,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Chase Lanham",
@@ -3381,7 +3381,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "PJ Pollock",
@@ -3407,7 +3407,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "B.J. Stewart",
@@ -3437,7 +3437,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Jackson Waring",
@@ -3464,7 +3464,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Zach Chevalier",
@@ -3492,7 +3492,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Davontaye Saunders",
@@ -3578,7 +3578,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Drew Sellon",
@@ -3661,7 +3661,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Kyle Dixon",
@@ -3716,7 +3716,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Carson Ochoa",
@@ -3744,7 +3744,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tanner Zimmerman",
@@ -3771,7 +3771,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ashton Patterson",
@@ -3798,7 +3798,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ethan Hansen",
@@ -3825,7 +3825,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Jacob Graves",
@@ -3851,7 +3851,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "James Wartick",
@@ -3878,7 +3878,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Kyree Watkins",
@@ -3906,7 +3906,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Logan Penhollow",
@@ -3934,7 +3934,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Rashad Beckham",
@@ -3962,7 +3962,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Reece Byerly",
@@ -3989,7 +3989,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tyler Carlson",
@@ -4045,7 +4045,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Jackson Filer",
@@ -4072,7 +4072,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tai Lologo",
@@ -4099,7 +4099,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Thomas Ibrahim",
@@ -4158,7 +4158,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Tyler Walker",
@@ -4186,7 +4186,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Zach Myers",
@@ -4214,7 +4214,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Clarke Hamilton",
@@ -4241,7 +4241,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Hunter Zirkle",
@@ -4297,7 +4297,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Terry Elias Jr.",
@@ -4323,7 +4323,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Braeden Orlandi",
@@ -4487,7 +4487,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Vincie Solano",
@@ -4513,7 +4513,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Truitt Bosher",
@@ -4569,7 +4569,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "Ethan Cutler",
@@ -4596,7 +4596,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     },
     {
       "name": "A.J. King",
@@ -4651,7 +4651,7 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": false
+      "has_detail": true
     }
   ]
 }
