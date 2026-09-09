@@ -2255,13 +2255,118 @@
     "naechste_generation": false
   },
   {
+    "name": "Xavier Atkins",
+    "position": "LB",
+    "college": "Auburn",
+    "height": "6'0\"",
+    "weight": "210 lbs",
+    "ranking_pos": 5,
+    "ranking_overall": 68,
+    "forstner_statement": "Atkins hat mit 17 Tackles for Loss eine Zahl abgeliefert, die man bei einem Linebacker kaum sieht – das ist Instinkt, keine reine Athletik. Wenn er das 2026 bestätigt, redet niemand mehr über ihn als Geheimtipp.",
+    "piktogramme": [
+      "Sideline-to-Sideline",
+      "Instinkte",
+      "Tackling"
+    ],
+    "scouting_report_de": "Xavier Atkins ist der Name, den man sich merken sollte, wenn über die tiefe Linebacker-Klasse 2027 gesprochen wird. Nach dem Wechsel von LSU zu Auburn explodierte seine Produktion regelrecht: 84 Tackles – teamhoch bei den Tigers –, dazu 17,0 Tackles for Loss, ein SEC-Bestwert und Auburns höchster Saisonwert überhaupt an dieser Position, sowie neun Sacks, eine Zahl, die man selten bei einem Off-Ball-Linebacker sieht. Die Konferenz honorierte die Saison mit der Wahl ins All-SEC First Team. Bei 6'0\" und 210 Pfund ist er für einen Middle Linebacker eher kompakt gebaut, was NFL-Teams zur Frage zwingt, ob er auf Weakside spielt oder trotz der Größe in der Mitte bleibt – seine Instinkte und die Fähigkeit, hinter der Line of Scrimmage Plays zu machen, relativieren den Größennachteil aber deutlich. 2026 geht er als Junior mit echten Erstrunden-Ambitionen in die Saison; bestätigt er die 2025er-Produktion über eine weitere Saison, ist ein Early Declare für den Draft 2027 realistisch. Für ein Draft-Gremium bleibt die zentrale Frage, ob die Explosivität gegen die Läufe der Power-Four-Topteams genauso durchschlägt wie 2025.",
+    "best_case_nfl": "Zaven Collins – explosiver Off-Ball-Linebacker mit Backfield-Penetration und Erstrunden-Profil.",
+    "worst_case_nfl": "Bleibt auf Weakside limitiert, wenn die Größe gegen Power-Four-Läufe im Zweikampf regelmäßig verliert.",
+    "class_year": "Junior",
+    "projection": "Runde 1 (Early Declare)",
+    "sources": [
+      "auburntigers.com",
+      "si.com",
+      "247sports.com"
+    ],
+    "source_urls": {
+      "auburntigers.com": "https://auburntigers.com/sports/football/roster/player/xavier-atkins",
+      "si.com": "https://www.si.com/college/auburn/football/auburn-football-xavier-atkins-receiving-nfl-draft-buzz-ahead-of-junior-season",
+      "247sports.com": "https://247sports.com/college/auburn/longformarticle/auburn-football-nfl-draft-2027-xavier-atkins-byrum-brown--283171649/"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false
+  },
+  {
+    "name": "Justin Evans-Jenkins",
+    "position": "IOL",
+    "college": "Nebraska",
+    "height": "6'2\"",
+    "weight": "315 lbs",
+    "ranking_pos": 3,
+    "ranking_overall": 69,
+    "forstner_statement": "1.900 Snaps und zwei Positionen – das ist die Art von Erfahrung, die ein Draft-Gremium beruhigt, auch wenn die Länge fehlt. Evans-Jenkins ist der Center, den ich mir für ein Zone-Team vorstelle.",
+    "piktogramme": [
+      "Pass Protection",
+      "Second Level",
+      "Balance"
+    ],
+    "scouting_report_de": "Justin Evans-Jenkins ist der erfahrenste Name der ohnehin dünnen Interior-O-Line-Klasse 2027. Über mehr als 1.900 Karriere-Snaps hat er sich durch beide Interior-Positionen gearbeitet: 2024 startete er alle 13 Spiele am Left Guard, ehe er 2025 auf Center wechselte und dort ebenfalls alle 13 Spiele startete – mehr als 440 Pass-Block- und 355 Run-Block-Snaps, bei nur zehn zugelassenen Pressures und drei Strafen. The Athletic wählte ihn zum Second-Team All-American, Nebraska geht mit ihm als Preseason-Anker in die Saison 2026. Bei 6'2\" und 315 Pfund ist er zwar der kürzeste unter den Top-Centern des Jahrgangs, kompensiert das aber über saubere, kompakte Technik statt über reine Länge. Als Fifth-Year-Senior ist 2026 sein letztes College-Jahr und damit die letzte Gelegenheit, die Nebraska-O-Line, die sich zuletzt sichtbar gefangen hat, in echte Draft-Aktie umzumünzen. Mit seiner Snap-Erfahrung und Vielseitigkeit an zwei Positionen ist er ein Plug-and-play-Kandidat für jedes NFL-Zonenschema.",
+    "best_case_nfl": "Creed Humphrey-artiger Plug-and-play-Center mit sauberer Technik, der einen Zone-Blocking-Scheme sofort trägt.",
+    "worst_case_nfl": "Wird an der NFL-Anker-Power gegen Nose Tackles zum limitierenden Faktor, wenn die fehlende Länge sich rächt.",
+    "class_year": "5th-Year Senior",
+    "projection": "Day 2",
+    "sources": [
+      "huskers.com",
+      "si.com",
+      "espn.com"
+    ],
+    "source_urls": {
+      "huskers.com": "https://huskers.com/sports/football/roster/justin-evans-jenkins/44576",
+      "si.com": "https://www.si.com/college/nebraska/football/what-makes-nebraska-s-justin-evans-one-of-the-top-centers-in-the-2027-nfl-draft-2026",
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4832033/justin-evans"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false
+  },
+  {
+    "name": "Benjamin Brahmer",
+    "position": "TE",
+    "college": "Penn State",
+    "height": "6'7\"",
+    "weight": "250 lbs",
+    "ranking_pos": 4,
+    "ranking_overall": 70,
+    "forstner_statement": "Ein Tight End, der seinem Coach über die Conference-Grenze folgt, sagt mir etwas über das Vertrauensverhältnis – und Brahmers Catch-Radius bei 6'7\" ist genau das, was NFL-Passspiele in der Red Zone suchen.",
+    "piktogramme": [
+      "Special Teams",
+      "Developmental",
+      "Move-TE"
+    ],
+    "scouting_report_de": "Benjamin Brahmer ist der seltene Fall eines Tight Ends, der dem eigenen Cheftrainer über die Conference-Grenze folgt. Drei Jahre spielte er für Matt Campbell an der Iowa State University, ehe beide im Januar 2026 gemeinsam zu Penn State wechselten. In seinem letzten Jahr in Ames lieferte er die bislang produktivste Saison seiner Karriere: 37 Fänge für 446 Yards und sechs Touchdowns in zwölf Spielen. Bei 6'7\" und 250 Pfund bringt er einen der größten Catch-Radien der gesamten Tight-End-Klasse mit und gilt als polierter Allrounder – ein verlässlicher Passfänger, der gleichzeitig als Blocker nicht das schwache Glied ist. Vor der Saison 2026 landete er auf der Watchlist für den Lombardi Award, der besten Linespieler bzw. Linebacker des Landes auszeichnet – ein ungewöhnlicher Ehren für einen Receiving-Tight-End, der seine physische Präsenz unterstreicht. Aktuell wird er eher als Day-3-Pick gehandelt, mit dem Potenzial, sich bei einer starken Abschlusssaison in der Big Ten bis in den zweiten Tag vorzuspielen.",
+    "best_case_nfl": "Polierter Move-Tight-End mit großem Catch-Radius, der sich über eine starke Big-Ten-Saison bis in Day 2 hochspielt.",
+    "worst_case_nfl": "Bleibt Day-3-Rotationsspieler, wenn die Produktion aus Ames sich im komplexeren Penn-State-Passspiel nicht wiederholt.",
+    "class_year": "Senior",
+    "projection": "Day 3",
+    "sources": [
+      "gopsusports.com",
+      "247sports.com",
+      "lastwordonsports.com"
+    ],
+    "source_urls": {
+      "gopsusports.com": "https://gopsusports.com/sports/football/roster/player/benjamin-brahmer",
+      "247sports.com": "https://247sports.com/college/penn-state/article/penn-state-tight-end-ben-brahmer-named-to-lombardi-award-watch-list-288911409/",
+      "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/08/26/benjamin-brahmer-2027-nfl-draft-early-profile/"
+    },
+    "quellen_anzahl": 3,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false
+  },
+  {
     "name": "Hero Kanu",
     "position": "DT",
     "college": "Texas",
     "height": "6'4\"",
     "weight": "321 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 68,
+    "ranking_overall": 71,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
     "piktogramme": [
       "Nose Tackle",
@@ -2294,8 +2399,8 @@
     "college": "Northwestern",
     "height": "6'6\"",
     "weight": "275 lbs",
-    "ranking_pos": 4,
-    "ranking_overall": 69,
+    "ranking_pos": 5,
+    "ranking_overall": 72,
     "forstner_statement": "Honig ist für viele in Deutschland DER Tight End, und ich verstehe warum: 6'6\", 275 Pfund, und er blockt, als hätte er es erfunden. Für die NFL zählt genau das zuerst, das Receiving ist der Bonus; als Blocker mit Special-Teams-Wert hat er eine echte Camp-Chance.",
     "piktogramme": [
       "Blocking TE",
@@ -2329,7 +2434,7 @@
     "height": "6'4\"",
     "weight": "264 lbs",
     "ranking_pos": 10,
-    "ranking_overall": 70,
+    "ranking_overall": 73,
     "forstner_statement": "Stege ist der Beweis, dass Fleiß im College-Football belohnt wird, vom Rotationsmann zum Starter eines Playoff-Teams. Für die NFL wird es eng, aber seinen Motor und seine Snaps nimmt ihm keiner; so einen hat man gern im Camp.",
     "piktogramme": [
       "Rotation",
@@ -2362,7 +2467,7 @@
     "height": "6'6\"",
     "weight": "270 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 71,
+    "ranking_overall": 74,
     "forstner_statement": "Zunk hat die Länge, die man an der Edge nicht lernen kann, 6'6\" bringt in jedem Camp erst einmal Aufmerksamkeit. Wenn er in Washington als Starter die Sackzahl verdoppelt, wird er für die NFL interessant; die Rahmengröße ist jedenfalls da.",
     "piktogramme": [
       "Rotation",
@@ -2394,8 +2499,8 @@
     "college": "South Carolina",
     "height": "6'3\"",
     "weight": "231 lbs",
-    "ranking_pos": 5,
-    "ranking_overall": 72,
+    "ranking_pos": 6,
+    "ranking_overall": 75,
     "forstner_statement": "Okoronkwo hat den vielleicht schwersten Weg gewählt, als deutscher Linebacker in der SEC, und trotzdem einen Startplatz erobert. Für die NFL zählen bei ihm die Special Teams und die Coverage; die Basis für einen Kaderkampf bringt er mit.",
     "piktogramme": [
       "Backup",
@@ -2428,7 +2533,7 @@
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 6,
-    "ranking_overall": 73,
+    "ranking_overall": 76,
     "forstner_statement": "Bobfahrer-Explosivität und eine Olympia-Mutter, das steht in keinem Scouting-Bericht, ergibt aber Sinn, wenn man ihn laufen sieht. Brune ist noch nicht fertig, und in der MAC bekommt er auch nicht die Duelle, die ein Draft-Gremium überzeugen. Trägt er 2026 die Last und kommt über 1.000 Yards, will ich seinen Namen im Camp hören.",
     "piktogramme": [
       "Physikalität",
@@ -2463,7 +2568,7 @@
     "height": "6'7\"",
     "weight": "260 lbs",
     "ranking_pos": 12,
-    "ranking_overall": 74,
+    "ranking_overall": 77,
     "forstner_statement": null,
     "piktogramme": [
       "Rotation",
@@ -2502,7 +2607,7 @@
     "height": "6'7\"",
     "weight": "315 lbs",
     "ranking_pos": 7,
-    "ranking_overall": 75,
+    "ranking_overall": 78,
     "forstner_statement": null,
     "piktogramme": [
       "Nose Tackle",
@@ -2542,8 +2647,8 @@
     "college": "Temple",
     "height": "6'5\"",
     "weight": "250 lbs",
-    "ranking_pos": 5,
-    "ranking_overall": 76,
+    "ranking_pos": 6,
+    "ranking_overall": 79,
     "forstner_statement": null,
     "piktogramme": [
       "Blocking TE",
@@ -2579,8 +2684,8 @@
     "college": "James Madison",
     "height": "6'5\"",
     "weight": "300 lbs",
-    "ranking_pos": 3,
-    "ranking_overall": 77,
+    "ranking_pos": 4,
+    "ranking_overall": 80,
     "forstner_statement": null,
     "piktogramme": [
       "Spec. Scheme",
@@ -2615,7 +2720,7 @@
     "height": "6'5\"",
     "weight": "312 lbs",
     "ranking_pos": 3,
-    "ranking_overall": 78,
+    "ranking_overall": 81,
     "forstner_statement": null,
     "piktogramme": [
       "Spec. Scheme",

@@ -1447,7 +1447,7 @@
     {
       "name": "Hero Kanu",
       "position": "DT",
-      "overall_rank": 68,
+      "overall_rank": 71,
       "school": "Texas",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1473,7 +1473,7 @@
     {
       "name": "Max Stege",
       "position": "EDGE",
-      "overall_rank": 70,
+      "overall_rank": 73,
       "school": "Boise State",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1498,7 +1498,7 @@
     {
       "name": "Justin Okoronkwo",
       "position": "LB",
-      "overall_rank": 72,
+      "overall_rank": 75,
       "school": "South Carolina",
       "class_year": "Senior",
       "height": "6'3\"",
@@ -1523,7 +1523,7 @@
     {
       "name": "Linus Zunk",
       "position": "EDGE",
-      "overall_rank": 71,
+      "overall_rank": 74,
       "school": "Washington State",
       "class_year": "RS Senior",
       "height": "6'6\"",
@@ -1548,7 +1548,7 @@
     {
       "name": "Alexander Honig",
       "position": "TE",
-      "overall_rank": 69,
+      "overall_rank": 72,
       "school": "Northwestern",
       "class_year": "Grad Senior",
       "height": "6'6\"",
@@ -1704,7 +1704,7 @@
     {
       "name": "Duncan Brune",
       "position": "RB",
-      "overall_rank": 73,
+      "overall_rank": 76,
       "school": "Ohio",
       "class_year": "Junior",
       "height": "5'11\"",
@@ -1731,7 +1731,7 @@
     {
       "name": "Bruno Dall",
       "position": "EDGE",
-      "overall_rank": 74,
+      "overall_rank": 77,
       "school": "UCF",
       "class_year": "RS Junior",
       "height": "6'7\"",
@@ -1761,7 +1761,7 @@
     {
       "name": "Issa Ouattara",
       "position": "DT",
-      "overall_rank": 75,
+      "overall_rank": 78,
       "school": "Vanderbilt",
       "class_year": "Senior",
       "height": "6'7\"",
@@ -1793,7 +1793,7 @@
     {
       "name": "Daniel Evert",
       "position": "TE",
-      "overall_rank": 76,
+      "overall_rank": 79,
       "school": "Temple",
       "class_year": "Junior",
       "height": "6'5\"",
@@ -1821,7 +1821,7 @@
     {
       "name": "Noel Portnjagin",
       "position": "IOL",
-      "overall_rank": 77,
+      "overall_rank": 80,
       "school": "James Madison",
       "class_year": "Sophomore",
       "height": "6'5\"",
@@ -1847,7 +1847,7 @@
     {
       "name": "Manuel Beigel",
       "position": "IOL",
-      "overall_rank": 78,
+      "overall_rank": 81,
       "pos_rank": 3,
       "school": "Michigan",
       "class_year": "Junior",
@@ -2099,6 +2099,84 @@
         "ramblinwreck.com": "https://ramblinwreck.com/roster/justice-haynes/",
         "247sports.com": "https://247sports.com/player/justice-haynes-46094657/",
         "si.com": "https://www.si.com/college/georgiatech/football/georgia-tech-a-team-to-watch-for-former-michigan-rb-justice-haynes-01kehz74t9vz"
+      }
+    },
+    {
+      "name": "Xavier Atkins",
+      "position": "LB",
+      "overall_rank": 68,
+      "school": "Auburn",
+      "class_year": "Junior",
+      "height": "6'0\"",
+      "weight": "210 lbs",
+      "round": 1,
+      "projection": "Runde 1 (Early Declare)",
+      "report_core_de": "Auburn-Linebacker mit First-Round-Perspektive: 2025 All-SEC First Team, 84 Tackles (teamhoch), 17,0 Tackles for Loss (SEC-Bestwert) und 9 Sacks – eine für einen Linebacker außergewöhnliche Pass-Rush-Produktion.",
+      "report_de": "Xavier Atkins ist der Name, den man sich merken sollte, wenn über die tiefe Linebacker-Klasse 2027 gesprochen wird. Nach dem Wechsel von LSU zu Auburn explodierte seine Produktion regelrecht: 84 Tackles – teamhoch bei den Tigers –, dazu 17,0 Tackles for Loss, ein SEC-Bestwert und Auburns höchster Saisonwert überhaupt an dieser Position, sowie neun Sacks, eine Zahl, die man selten bei einem Off-Ball-Linebacker sieht. Die Konferenz honorierte die Saison mit der Wahl ins All-SEC First Team. Bei 6'0\" und 210 Pfund ist er für einen Middle Linebacker eher kompakt gebaut, was NFL-Teams zur Frage zwingt, ob er auf Weakside spielt oder trotz der Größe in der Mitte bleibt – seine Instinkte und die Fähigkeit, hinter der Line of Scrimmage Plays zu machen, relativieren den Größennachteil aber deutlich. 2026 geht er als Junior mit echten Erstrunden-Ambitionen in die Saison; bestätigt er die 2025er-Produktion über eine weitere Saison, ist ein Early Declare für den Draft 2027 realistisch. Für ein Draft-Gremium bleibt die zentrale Frage, ob die Explosivität gegen die Läufe der Power-Four-Topteams genauso durchschlägt wie 2025.",
+      "forstner": "Atkins hat mit 17 Tackles for Loss eine Zahl abgeliefert, die man bei einem Linebacker kaum sieht – das ist Instinkt, keine reine Athletik. Wenn er das 2026 bestätigt, redet niemand mehr über ihn als Geheimtipp.",
+      "best_case": "Zaven Collins – explosiver Off-Ball-Linebacker mit Backfield-Penetration und Erstrunden-Profil.",
+      "worst_case": "Bleibt auf Weakside limitiert, wenn die Größe gegen Power-Four-Läufe im Zweikampf regelmäßig verliert.",
+      "sources": [
+        "auburntigers.com",
+        "si.com",
+        "247sports.com"
+      ],
+      "source_urls": {
+        "auburntigers.com": "https://auburntigers.com/sports/football/roster/player/xavier-atkins",
+        "si.com": "https://www.si.com/college/auburn/football/auburn-football-xavier-atkins-receiving-nfl-draft-buzz-ahead-of-junior-season",
+        "247sports.com": "https://247sports.com/college/auburn/longformarticle/auburn-football-nfl-draft-2027-xavier-atkins-byrum-brown--283171649/"
+      }
+    },
+    {
+      "name": "Justin Evans-Jenkins",
+      "position": "IOL",
+      "overall_rank": 69,
+      "school": "Nebraska",
+      "class_year": "5th-Year Senior",
+      "height": "6'2\"",
+      "weight": "315 lbs",
+      "round": 2,
+      "projection": "Day 2",
+      "report_core_de": "Nebraskas Center mit über 1.900 College-Snaps und 31 Karriere-Starts; laut PFF Nummer 4 unter den Interior-O-Linern der Klasse 2027, Preseason Second-Team All-American.",
+      "report_de": "Justin Evans-Jenkins ist der erfahrenste Name der ohnehin dünnen Interior-O-Line-Klasse 2027. Über mehr als 1.900 Karriere-Snaps hat er sich durch beide Interior-Positionen gearbeitet: 2024 startete er alle 13 Spiele am Left Guard, ehe er 2025 auf Center wechselte und dort ebenfalls alle 13 Spiele startete – mehr als 440 Pass-Block- und 355 Run-Block-Snaps, bei nur zehn zugelassenen Pressures und drei Strafen. The Athletic wählte ihn zum Second-Team All-American, Nebraska geht mit ihm als Preseason-Anker in die Saison 2026. Bei 6'2\" und 315 Pfund ist er zwar der kürzeste unter den Top-Centern des Jahrgangs, kompensiert das aber über saubere, kompakte Technik statt über reine Länge. Als Fifth-Year-Senior ist 2026 sein letztes College-Jahr und damit die letzte Gelegenheit, die Nebraska-O-Line, die sich zuletzt sichtbar gefangen hat, in echte Draft-Aktie umzumünzen. Mit seiner Snap-Erfahrung und Vielseitigkeit an zwei Positionen ist er ein Plug-and-play-Kandidat für jedes NFL-Zonenschema.",
+      "forstner": "1.900 Snaps und zwei Positionen – das ist die Art von Erfahrung, die ein Draft-Gremium beruhigt, auch wenn die Länge fehlt. Evans-Jenkins ist der Center, den ich mir für ein Zone-Team vorstelle.",
+      "best_case": "Creed Humphrey-artiger Plug-and-play-Center mit sauberer Technik, der einen Zone-Blocking-Scheme sofort trägt.",
+      "worst_case": "Wird an der NFL-Anker-Power gegen Nose Tackles zum limitierenden Faktor, wenn die fehlende Länge sich rächt.",
+      "sources": [
+        "huskers.com",
+        "si.com",
+        "espn.com"
+      ],
+      "source_urls": {
+        "huskers.com": "https://huskers.com/sports/football/roster/justin-evans-jenkins/44576",
+        "si.com": "https://www.si.com/college/nebraska/football/what-makes-nebraska-s-justin-evans-one-of-the-top-centers-in-the-2027-nfl-draft-2026",
+        "espn.com": "https://www.espn.com/college-football/player/_/id/4832033/justin-evans"
+      }
+    },
+    {
+      "name": "Benjamin Brahmer",
+      "position": "TE",
+      "overall_rank": 70,
+      "school": "Penn State",
+      "class_year": "Senior",
+      "height": "6'7\"",
+      "weight": "250 lbs",
+      "round": 4,
+      "projection": "Day 3",
+      "report_core_de": "Penn-State-Tight-End (6'7\") auf dem Lombardi-Award-Watchlist, der seinem Head Coach Matt Campbell von Iowa State nach Penn State folgte; 2025 in Ames 37 Fänge für 446 Yards und sechs Touchdowns.",
+      "report_de": "Benjamin Brahmer ist der seltene Fall eines Tight Ends, der dem eigenen Cheftrainer über die Conference-Grenze folgt. Drei Jahre spielte er für Matt Campbell an der Iowa State University, ehe beide im Januar 2026 gemeinsam zu Penn State wechselten. In seinem letzten Jahr in Ames lieferte er die bislang produktivste Saison seiner Karriere: 37 Fänge für 446 Yards und sechs Touchdowns in zwölf Spielen. Bei 6'7\" und 250 Pfund bringt er einen der größten Catch-Radien der gesamten Tight-End-Klasse mit und gilt als polierter Allrounder – ein verlässlicher Passfänger, der gleichzeitig als Blocker nicht das schwache Glied ist. Vor der Saison 2026 landete er auf der Watchlist für den Lombardi Award, der besten Linespieler bzw. Linebacker des Landes auszeichnet – ein ungewöhnlicher Ehren für einen Receiving-Tight-End, der seine physische Präsenz unterstreicht. Aktuell wird er eher als Day-3-Pick gehandelt, mit dem Potenzial, sich bei einer starken Abschlusssaison in der Big Ten bis in den zweiten Tag vorzuspielen.",
+      "forstner": "Ein Tight End, der seinem Coach über die Conference-Grenze folgt, sagt mir etwas über das Vertrauensverhältnis – und Brahmers Catch-Radius bei 6'7\" ist genau das, was NFL-Passspiele in der Red Zone suchen.",
+      "best_case": "Polierter Move-Tight-End mit großem Catch-Radius, der sich über eine starke Big-Ten-Saison bis in Day 2 hochspielt.",
+      "worst_case": "Bleibt Day-3-Rotationsspieler, wenn die Produktion aus Ames sich im komplexeren Penn-State-Passspiel nicht wiederholt.",
+      "sources": [
+        "gopsusports.com",
+        "247sports.com",
+        "lastwordonsports.com"
+      ],
+      "source_urls": {
+        "gopsusports.com": "https://gopsusports.com/sports/football/roster/player/benjamin-brahmer",
+        "247sports.com": "https://247sports.com/college/penn-state/article/penn-state-tight-end-ben-brahmer-named-to-lombardi-award-watch-list-288911409/",
+        "lastwordonsports.com": "https://lastwordonsports.com/nfl/2026/08/26/benjamin-brahmer-2027-nfl-draft-early-profile/"
       }
     }
   ],
