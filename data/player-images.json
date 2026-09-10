@@ -196,5 +196,47 @@
     "license": "CC0",
     "artist": "!LijahBG",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:JusticeHaynes2025.jpg"
+  },
+  "cam-coleman": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/20260905-7744-Cam_Coleman_Texas_Longhorn_cropped.jpg/960px-20260905-7744-Cam_Coleman_Texas_Longhorn_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "Johntex",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260905-7744-Cam_Coleman_Texas_Longhorn_cropped.jpg"
+  },
+  "ryan-wingo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/20251128-5057_Ryan_Wingo.jpg/960px-20251128-5057_Ryan_Wingo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "Johntex",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20251128-5057_Ryan_Wingo.jpg"
+  },
+  "whit-weeks": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/092323_LSU_v_Arkansas_027_%2853533974350%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 2.0",
+    "artist": "Tammy Anthony Baker from Louisiana",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:092323_LSU_v_Arkansas_027_(53533974350)_(cropped).jpg"
+  },
+  "mark-fletcher-jr": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/2026-0117_Mark_Fletcher_Jr.jpeg/960px-2026-0117_Mark_Fletcher_Jr.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-0117_Mark_Fletcher_Jr.jpeg"
+  },
+  "dj-mckinney": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/DJ_McKinney_%2828%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 4.0",
+    "artist": "2C2K Photography",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DJ_McKinney_(28)_(cropped).jpg"
+  },
+  "tony-rojas": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/2026-0728_Big_Ten_MD_Tony_Rojas.jpeg/960px-2026-0728_Big_Ten_MD_Tony_Rojas.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-0728_Big_Ten_MD_Tony_Rojas.jpeg"
+  },
+  "duce-robinson": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2024-0901_Duce_Robinson.jpg/960px-2024-0901_Duce_Robinson.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-0901_Duce_Robinson.jpg"
   }
 }
