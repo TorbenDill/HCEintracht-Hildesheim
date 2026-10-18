@@ -231,7 +231,10 @@ export default function Home() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {leaders.map((b) => (
-                <div key={b.key} className="rounded-2xl border border-border bg-surface p-5">
+                /* min-w-0: Grid-Items haben min-width:auto und wachsen sonst auf
+                   ihre min-content-Breite - die Karte wird dann breiter als ihre
+                   Spalte und die ganze Seite scrollt horizontal. */
+                <div key={b.key} className="min-w-0 rounded-2xl border border-border bg-surface p-5">
                   <h3 className="mb-3 text-xs font-black uppercase tracking-widest text-primary">{b.title}</h3>
                   <ol className="flex flex-col gap-2.5">
                     {b.leaders.map((l, i) => (

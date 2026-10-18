@@ -84,7 +84,7 @@ export default function DeutscheProspectsPage() {
             <Link
               key={getPlayerSlug(p.name)}
               href={`/player/${getPlayerSlug(p.name)}`}
-              className="card-lift group flex flex-col gap-3 rounded-xl border border-border bg-surface p-5 hover:border-primary/50"
+              className="card-lift group flex min-w-0 flex-col gap-3 break-words rounded-xl border border-border bg-surface p-5 hover:border-primary/50"
             >
               <div className="flex items-center gap-3">
                 <span className="relative h-12 w-12 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">
@@ -147,7 +147,7 @@ export default function DeutscheProspectsPage() {
                 <Link
                   key={getPlayerSlug(p.name)}
                   href={`/player/${getPlayerSlug(p.name)}`}
-                  className="card-lift group flex flex-col gap-3 rounded-xl border border-border bg-surface p-5 hover:border-primary/50"
+                  className="card-lift group flex min-w-0 flex-col gap-3 break-words rounded-xl border border-border bg-surface p-5 hover:border-primary/50"
                 >
                   <div className="flex items-center gap-3">
                     <span className="relative h-12 w-12 flex-shrink-0 overflow-hidden rounded-full border border-border bg-surface-light">

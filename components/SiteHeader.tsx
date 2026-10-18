@@ -149,11 +149,15 @@ export default function SiteHeader() {
         Zum Inhalt springen
       </a>
       <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="min-w-0 flex-shrink-0" aria-label="Zur Startseite – NFL Draft Board 2027">
-          <span className="block font-display text-base font-semibold uppercase leading-tight tracking-wide text-foreground sm:text-lg">
+        {/* Kein flex-shrink-0: Mit fixer Breite sprengte die lange Stand-Zeile
+            den Header auf schmalen Geraeten um rund 8 px und liess damit JEDE
+            Seite horizontal scrollen. Schrumpffaehig plus truncate kuerzt die
+            Zeile stattdessen mit Auslassungspunkten. */}
+        <Link href="/" className="min-w-0" aria-label="Zur Startseite – NFL Draft Board 2027">
+          <span className="block truncate font-display text-base font-semibold uppercase leading-tight tracking-wide text-foreground sm:text-lg">
             NFL Draft <span className="text-primary">Board {boardMeta.draftYear}</span>
           </span>
-          <span className="block text-[9px] uppercase tracking-[0.25em] text-muted">
+          <span className="block truncate text-[9px] uppercase tracking-[0.25em] text-muted">
             Forstner Scouting · Stand {germanDate(boardMeta.updated)}
           </span>
         </Link>

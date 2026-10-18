@@ -70,15 +70,40 @@ export default function EuropaTalentePage() {
           </div>
         </div>
 
-        <h2 className="mb-4 font-display text-2xl font-semibold uppercase tracking-tight text-foreground">
+        {/* Sprungnavigation: Die Seite ist durch die Zahl der Profile sehr lang.
+            Ohne diese Leiste liegt das Scouting-Radar rund 30 Bildschirmhöhen
+            unter dem Seitenanfang und ist praktisch nicht erreichbar. */}
+        <nav
+          aria-label="Abschnitte dieser Seite"
+          className="sticky top-0 z-30 -mx-4 mb-8 flex flex-wrap gap-2 border-b border-border/60 bg-background/90 px-4 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6"
+        >
+          <a
+            href="#detailprofile"
+            className="rounded-full border border-border bg-surface px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted transition-colors hover:border-primary hover:text-primary"
+          >
+            Detailprofile ({talents.length})
+          </a>
+          <a
+            href="#scouting-radar"
+            className="rounded-full border border-border bg-surface px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted transition-colors hover:border-primary hover:text-primary"
+          >
+            Scouting-Radar ({radar.length})
+          </a>
+        </nav>
+
+        <h2
+          id="detailprofile"
+          className="mb-4 scroll-mt-20 font-display text-2xl font-semibold uppercase tracking-tight text-foreground"
+        >
           Detailprofile
         </h2>
         <p className="mb-5 max-w-2xl text-xs leading-relaxed text-muted">
           Ausführlich gescoutete Einzelfälle: Rekordhalter, Award-Gewinner und
-          Spieler mit einer Geschichte, die über die Statistik hinausgeht.
+          Spieler mit einer Geschichte, die über die Statistik hinausgeht. Die
+          Reports sind eingeklappt – ein Klick öffnet den vollständigen Text.
         </p>
 
-        <Reveal className="grid gap-4 sm:grid-cols-2">
+        <Reveal className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {talents.map((p) => (
             <div
               key={getEuropeTalentSlug(p.name)}
@@ -120,9 +145,20 @@ export default function EuropaTalentePage() {
                 {p.highlight}
               </p>
 
-              <p className="text-xs leading-relaxed text-foreground/80">
-                {p.report_de}
-              </p>
+              {/* Natives details statt State: Der Report bleibt im
+                  server-gerenderten HTML (Googlebot liest ihn), die Karte
+                  ist im eingeklappten Zustand aber nur rund ein Drittel so
+                  hoch. Bei 109 Karten macht das den Unterschied zwischen
+                  einer benutzbaren und einer endlosen Seite. */}
+              <details className="group">
+                <summary className="cursor-pointer list-none text-[10px] font-bold uppercase tracking-widest text-primary transition-colors hover:text-accent">
+                  <span className="group-open:hidden">Scouting-Report lesen +</span>
+                  <span className="hidden group-open:inline">Report einklappen −</span>
+                </summary>
+                <p className="mt-2 text-xs leading-relaxed text-foreground/80">
+                  {p.report_de}
+                </p>
+              </details>
 
               <div className="mt-1 flex flex-wrap gap-2 border-t border-border pt-3">
                 {p.sources.map((s) => (
@@ -141,7 +177,7 @@ export default function EuropaTalentePage() {
           ))}
         </Reveal>
 
-        <section className="mt-14">
+        <section id="scouting-radar" className="mt-14 scroll-mt-20">
           <h2 className="mb-4 font-display text-2xl font-semibold uppercase tracking-tight text-foreground">
             Scouting-Radar
           </h2>

@@ -35,7 +35,9 @@ export default function TeamsPage() {
             <Link
               key={t.teamAbbr}
               href={`/team/${teamSlug(t.teamAbbr)}`}
-              className="card-lift group flex items-center gap-4 rounded-xl border border-border bg-surface p-4 hover:border-primary/50"
+              /* min-w-0: sonst waechst die Karte als Grid-Item auf ihre
+                 min-content-Breite und sprengt auf schmalen Geraeten die Spalte. */
+              className="card-lift group flex min-w-0 items-center gap-4 rounded-xl border border-border bg-surface p-4 hover:border-primary/50"
             >
               <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-primary-glow font-display text-sm font-bold text-primary">
                 {t.teamAbbr}
