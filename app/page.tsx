@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   getBoardMeta,
@@ -22,6 +23,24 @@ import HomeBoard from "@/components/HomeBoard";
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
   return d ? `${d}.${m}.${y}` : iso;
+}
+
+// Startseite: Keyword-Titel ohne Template-Suffix, Beschreibung mit Stand –
+// so sieht man schon im Suchergebnis, dass das Board aktuell ist.
+export function generateMetadata(): Metadata {
+  const meta = getBoardMeta();
+  const title = `NFL Draft ${meta.draftYear}: Big Board & Mock Draft auf Deutsch – Forstner Scouting`;
+  const description =
+    `Das deutsche Big Board zum NFL Draft ${meta.draftYear} (Stand ${germanDate(meta.updated)}): ` +
+    `Consensus-Ranking aus ${meta.consensus.boards} Boards, Saisonstatistiken, Mock Draft Runde 1, ` +
+    `deutsche Prospects und Draft-Simulator.`;
+  return {
+    title: { absolute: title },
+    description,
+    alternates: { canonical: "/" },
+    openGraph: { title, description, url: SITE_URL },
+    twitter: { title, description },
+  };
 }
 
 export default function Home() {
@@ -85,7 +104,15 @@ export default function Home() {
         name: SITE_NAME,
         url: SITE_URL,
         inLanguage: "de",
+        publisher: { "@id": `${SITE_URL}/#organization` },
         description: `Deutschsprachiges Scouting-Dashboard zum NFL Draft ${meta.draftYear}: Big Board nach Consensus, Saisonstatistiken, Spielerprofile, Mock Draft und Simulator.`,
+      },
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
+        name: SITE_NAME,
+        url: SITE_URL,
+        founder: { "@type": "Person", name: "Philipp Forstner" },
       },
       {
         "@type": "ItemList",

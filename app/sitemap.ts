@@ -59,9 +59,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Profile mit eigener Saison-Meldung tragen deren Datum – so sieht die
+  // Suchmaschine, welche Seiten sich zuletzt wirklich geändert haben.
   const playerRoutes: MetadataRoute.Sitemap = getPlayers().map((p) => ({
     url: absoluteUrl(`/player/${getPlayerSlug(p.name)}`),
-    lastModified,
+    lastModified:
+      p.update_stand && p.update_stand > meta.updated
+        ? new Date(p.update_stand)
+        : lastModified,
     changeFrequency: "weekly",
     priority: 0.7,
   }));

@@ -333,6 +333,9 @@ def main():
             "forstner_statement": p.get("forstner") or build_forstner(p),
             "piktogramme": list(pikt),
             "scouting_report_de": p.get("report_de") or build_report(p),
+            # Kurzprofil (1-3 Saetze): "Auf einen Blick" auf der Profilseite,
+            # Meta-Description und llms.txt.
+            "kurzprofil": (p.get("report_core_de") or "").strip() or None,
             "best_case_nfl": best,
             "worst_case_nfl": worst,
             "class_year": p.get("class_year"),

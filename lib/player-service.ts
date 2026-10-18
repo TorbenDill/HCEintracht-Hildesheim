@@ -14,6 +14,8 @@ export type Player = {
   forstner_statement: string | null;
   piktogramme: string[];
   scouting_report_de: string;
+  /** 1–3 Sätze Kernaussage („Auf einen Blick“, Meta-Description). */
+  kurzprofil?: string | null;
   best_case_nfl: string | null;
   worst_case_nfl: string | null;
   // Steckbrief (2027)

@@ -202,3 +202,14 @@ export function getSeasonLeaders(players: Player[], limit = 4): LeaderBoard[] {
     };
   }).filter((b) => b.leaders.length > 0);
 }
+
+/** "Saison 2026: 52 Catches, 984 Yards, 12 TD." – oder null ohne Zahlen. */
+export function seasonLine(season: SeasonSummary | null): string | null {
+  // Nullwerte (z. B. "0 Sacks") sagen im Fließtext nichts – weglassen.
+  const tiles = (season?.hasStats ? season.tiles : []).filter((t) => !/^0([,.]0)?( %)?$/.test(t.value));
+  if (!tiles.length) return null;
+  return `Saison 2026: ${tiles
+    .slice(0, 3)
+    .map((t) => `${t.value} ${t.label}`)
+    .join(", ")}.`;
+}

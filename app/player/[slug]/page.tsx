@@ -10,11 +10,11 @@ import {
   getRankNeighbors,
   type Player,
 } from "@/lib/player-service";
-import { absoluteUrl } from "@/lib/site";
+import { absoluteUrl, SITE_NAME } from "@/lib/site";
 import { getPlayerPhoto } from "@/lib/player-images";
 import { getCollegeLink } from "@/lib/colleges";
 import { cn } from "@/lib/utils";
-import { getSeasonSummary } from "@/lib/season";
+import { getSeasonSummary, seasonLine } from "@/lib/season";
 import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import StarButton from "@/components/StarButton";
@@ -45,10 +45,17 @@ export async function generateMetadata({
     ? meta.draftYear + 1
     : meta.draftYear;
   const title = `${player.name} – ${player.position}, ${player.college}`;
-  const description =
-    `NFL Draft ${draftJahr} Scouting-Profil: ${player.name} (${rankPart}` +
-    `${player.position}, ${player.college}). Steckbrief, Stärken/Schwächen, ` +
-    `Best- & Worst-Case-Vergleiche und deutsches Scouting-Fazit.`;
+  // Datengetrieben statt Textbaustein: Rank, Saisonzahlen und die
+  // Kernaussage des Profils – das, was in den Suchergebnissen den Klick
+  // entscheidet (und was KI-Antworten zitieren können).
+  const season = getSeasonSummary(player);
+  const lead =
+    `NFL Draft ${draftJahr}: ${player.name} (${rankPart}${player.position}, ` +
+    `${player.college}).`;
+  const description = clip(
+    [lead, seasonLine(season), player.kurzprofil].filter(Boolean).join(" "),
+    158
+  );
   const path = `/player/${getPlayerSlug(player.name)}`;
 
   return {
@@ -121,10 +128,17 @@ export default async function PlayerPage({
     name: s,
     url: sourceUrl(s, player.source_urls),
   }));
+  const inches = parseHeight(player.height);
+  const pounds = parseInt(player.weight, 10);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-    dateModified: meta.updated,
+    url: profileUrl,
+    inLanguage: "de-DE",
+    dateModified: player.update_stand ?? meta.updated,
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl("/") },
+    publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl("/") },
+    author: { "@type": "Person", name: "Philipp Forstner", url: absoluteUrl("/ueber-uns") },
     mainEntity: {
       "@type": "Person",
       name: player.name,
@@ -136,7 +150,13 @@ export default async function PlayerPage({
         "@type": "CollegeOrUniversity",
         name: player.college,
       },
-      description: player.scouting_report_de.slice(0, 300),
+      ...(inches ? { height: { "@type": "QuantitativeValue", value: inches, unitCode: "INH" } } : {}),
+      ...(pounds ? { weight: { "@type": "QuantitativeValue", value: pounds, unitCode: "LBR" } } : {}),
+      ...(player.deutsch ? { nationality: { "@type": "Country", name: "Deutschland" } } : {}),
+      ...(player.deutsch && player.herkunft ? { homeLocation: { "@type": "Place", name: player.herkunft } } : {}),
+      ...(season?.url ? { sameAs: [season.url] } : {}),
+      ...(photo ? { image: photo.url } : {}),
+      description: player.kurzprofil ?? player.scouting_report_de.slice(0, 300),
     },
     ...(citations.length ? { citation: citations } : {}),
   };
@@ -304,6 +324,18 @@ export default async function PlayerPage({
             )}
           </div>
         </section>
+
+        {/* ── AUF EINEN BLICK: Kernaussage in 1–3 Sätzen ── */}
+        {player.kurzprofil && (
+          <Reveal className="mb-10">
+            <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Auf einen Blick
+            </h2>
+            <p className="rounded-2xl border border-border bg-surface p-6 text-base leading-relaxed text-foreground/90">
+              {player.kurzprofil}
+            </p>
+          </Reveal>
+        )}
 
         {/* ── SAISON 2026: aktuelle Lage + Statistik ── */}
         {(player.update_de || season) && (
@@ -558,6 +590,19 @@ function sourceUrl(src: string, sourceUrls?: Record<string, string>): string {
   if (exact) return exact;
   const clean = src.trim().replace(/^https?:\/\//, "").replace(/\/.*$/, "");
   return `https://${clean}`;
+}
+
+/** Text auf max. Zeichen kürzen, an einer Wortgrenze, mit Auslassung. */
+function clip(text: string, max: number): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:–-]$/, "") + "…";
+}
+
+/** 6'4" -> 76 (Zoll) für schema.org. */
+function parseHeight(h: string): number | null {
+  const m = h.match(/(\d+)'\s*(\d+)?/);
+  return m ? Number(m[1]) * 12 + Number(m[2] ?? 0) : null;
 }
 
 /** ISO-Datum (2026-10-18) als deutsches Datum (18.10.2026). */
