@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export const metadata = {
   title: "Impressum",
@@ -10,21 +9,6 @@ export const metadata = {
 export default function ImpressumPage() {
   return (
     <main className="min-h-screen bg-background">
-      {/* Back Navigation */}
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-3xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Draft Board
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            Impressum
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-3xl px-6 py-10">
         <h1 className="mb-8 text-3xl font-black uppercase tracking-tight text-foreground lg:text-4xl">

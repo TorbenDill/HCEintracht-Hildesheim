@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prebuild": "node scripts/fetch-visuals.mjs && node scripts/fetch-player-images.mjs"
+    "prebuild": "node scripts/fetch-visuals.mjs && node scripts/fetch-player-images.mjs && node scripts/build-player-visuals.mjs",
+    "images:commons": "node scripts/fetch-player-images.mjs --commons",
+    "stats:season": "node scripts/season-stats/fetch-season-stats.mjs",
+    "data:build": "python -X utf8 scripts/build_2027.py"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",

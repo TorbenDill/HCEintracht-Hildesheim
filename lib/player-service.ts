@@ -1,6 +1,7 @@
 import data from "@/data/data.json";
 import boardMeta from "@/data/board-meta.json";
 import mockdraft from "@/data/mockdraft.json";
+import { getPlayerSlug } from "@/lib/slug";
 
 export type Player = {
   name: string;
@@ -35,12 +36,19 @@ export type Player = {
   // (Jahrgang 2028+). Laeuft auf /deutsche-prospects in einem eigenen Block
   // und bleibt aus Big Board und Positionsrankings heraus.
   naechste_generation?: boolean;
+  // Aktuelle Lage während der Saison (Verletzung, Sperre, Rückkehr) –
+  // datierter Kurztext mit eigenen Belegen.
+  update_de?: string | null;
+  update_stand?: string | null;
+  update_sources?: Record<string, string>;
 };
 
 export type BoardMeta = {
   draftYear: number;
   updated: string;
   updateCycle: string;
+  /** Umfang des zugrunde liegenden Consensus (für Texte auf der Seite). */
+  consensus: { boards: number; mocks: number; source: string; stand: string };
   sources: { name: string; url: string }[];
   imageSource: { name: string; url: string };
 };
@@ -49,9 +57,14 @@ export type MockPick = {
   pick: number;
   team: string;
   teamAbbr: string;
+  /** Ursprünglicher Inhaber eines getauschten Picks (Kürzel + Name). */
+  via?: string;
+  viaTeam?: string;
   player: string;
   position: string;
   college: string;
+  /** Anteil der Mocks, die genau diesen Spieler an diesem Pick sehen. */
+  consensus_pct?: number | null;
   reason_de: string;
 };
 
@@ -77,23 +90,9 @@ export function getMockDraft(): MockPick[] {
   return mockdraft as MockPick[];
 }
 
-// Kanonischer Slug. WICHTIG: scripts/build_2027.py (slugify) und
-// scripts/fetch-player-images.mjs müssen dieselbe Regel verwenden, da
-// rank-history.json und player-images.json über diesen Slug gekeyt sind.
-export function getPlayerSlug(name: string): string {
-  // Umlaute/ß zuerst transliterieren: Ein Slug mit "ö" liefert unter Next
-  // einen 404 (die prerenderte Route matcht die prozentkodierte URL nicht)
-  // und landet so auch kaputt in der Sitemap. Für die bisherigen Namen
-  // (alle ASCII) ändert dieser Schritt nichts.
-  return name
-    .toLowerCase()
-    .replace(/ä/g, "ae")
-    .replace(/ö/g, "oe")
-    .replace(/ü/g, "ue")
-    .replace(/ß/g, "ss")
-    .replace(/\s+/g, "-")
-    .replace(/[.'’]/g, "");
-}
+// Kanonischer Slug – liegt datenfrei in lib/slug.ts (Begründung dort) und
+// wird hier für bestehende Importe weitergereicht.
+export { getPlayerSlug };
 
 const bySlug = new Map<string, Player>(
   players.map((p) => [getPlayerSlug(p.name), p])

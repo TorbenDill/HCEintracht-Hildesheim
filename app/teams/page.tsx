@@ -16,20 +16,6 @@ export default function TeamsPage() {
 
   return (
     <main className="min-h-screen bg-background">
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-5xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Draft Board
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            Teams
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-10">
@@ -59,11 +45,15 @@ export default function TeamsPage() {
                   {t.team}
                 </p>
                 <p className="truncate text-[11px] text-muted">
-                  Bedarf: {t.needs.join(", ")}
+                  {t.record} · Bedarf: {t.needs.join(", ")}
                 </p>
               </div>
-              <span className="flex-shrink-0 font-mono text-xs text-muted">
-                Pick {t.pick}
+              <span className="flex-shrink-0 text-right font-mono text-xs text-muted">
+                {t.picks.length === 0
+                  ? "kein R1-Pick"
+                  : t.picks.length === 1
+                    ? `Pick ${t.picks[0]}`
+                    : `Picks ${t.picks.join(", ")}`}
               </span>
             </Link>
           ))}

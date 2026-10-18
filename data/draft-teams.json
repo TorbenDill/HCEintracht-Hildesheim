@@ -1,56 +1,6 @@
 [
   {
     "pick": 1,
-    "team": "Miami Dolphins",
-    "teamAbbr": "MIA",
-    "needs": [
-      "WR",
-      "CB",
-      "OT"
-    ]
-  },
-  {
-    "pick": 2,
-    "team": "Arizona Cardinals",
-    "teamAbbr": "ARI",
-    "needs": [
-      "QB",
-      "EDGE",
-      "OT"
-    ]
-  },
-  {
-    "pick": 3,
-    "team": "New York Jets",
-    "teamAbbr": "NYJ",
-    "needs": [
-      "QB",
-      "WR",
-      "S"
-    ]
-  },
-  {
-    "pick": 4,
-    "team": "Cleveland Browns",
-    "teamAbbr": "CLE",
-    "needs": [
-      "QB",
-      "EDGE",
-      "WR"
-    ]
-  },
-  {
-    "pick": 5,
-    "team": "Las Vegas Raiders",
-    "teamAbbr": "LV",
-    "needs": [
-      "WR",
-      "CB",
-      "QB"
-    ]
-  },
-  {
-    "pick": 6,
     "team": "Tennessee Titans",
     "teamAbbr": "TEN",
     "needs": [
@@ -60,187 +10,7 @@
     ]
   },
   {
-    "pick": 7,
-    "team": "Carolina Panthers",
-    "teamAbbr": "CAR",
-    "needs": [
-      "CB",
-      "S",
-      "EDGE"
-    ]
-  },
-  {
-    "pick": 8,
-    "team": "New Orleans Saints",
-    "teamAbbr": "NO",
-    "needs": [
-      "QB",
-      "CB",
-      "EDGE"
-    ]
-  },
-  {
-    "pick": 9,
-    "team": "New York Giants",
-    "teamAbbr": "NYG",
-    "needs": [
-      "DT",
-      "IOL",
-      "CB"
-    ]
-  },
-  {
-    "pick": 10,
-    "team": "Washington Commanders",
-    "teamAbbr": "WAS",
-    "needs": [
-      "S",
-      "CB",
-      "EDGE"
-    ]
-  },
-  {
-    "pick": 11,
-    "team": "Atlanta Falcons",
-    "teamAbbr": "ATL",
-    "needs": [
-      "OT",
-      "EDGE",
-      "DT"
-    ]
-  },
-  {
-    "pick": 12,
-    "team": "Pittsburgh Steelers",
-    "teamAbbr": "PIT",
-    "needs": [
-      "QB",
-      "OT",
-      "CB"
-    ]
-  },
-  {
-    "pick": 13,
-    "team": "Indianapolis Colts",
-    "teamAbbr": "IND",
-    "needs": [
-      "DT",
-      "CB",
-      "TE"
-    ]
-  },
-  {
-    "pick": 14,
-    "team": "Dallas Cowboys",
-    "teamAbbr": "DAL",
-    "needs": [
-      "LB",
-      "DT",
-      "RB"
-    ]
-  },
-  {
-    "pick": 15,
-    "team": "Minnesota Vikings",
-    "teamAbbr": "MIN",
-    "needs": [
-      "CB",
-      "IOL",
-      "DT"
-    ]
-  },
-  {
-    "pick": 16,
-    "team": "Chicago Bears",
-    "teamAbbr": "CHI",
-    "needs": [
-      "EDGE",
-      "OT",
-      "RB"
-    ]
-  },
-  {
-    "pick": 17,
-    "team": "Cincinnati Bengals",
-    "teamAbbr": "CIN",
-    "needs": [
-      "OT",
-      "S",
-      "LB"
-    ]
-  },
-  {
-    "pick": 18,
-    "team": "Jacksonville Jaguars",
-    "teamAbbr": "JAX",
-    "needs": [
-      "RB",
-      "IOL",
-      "DT"
-    ]
-  },
-  {
-    "pick": 19,
-    "team": "Houston Texans",
-    "teamAbbr": "HOU",
-    "needs": [
-      "OT",
-      "RB",
-      "WR"
-    ]
-  },
-  {
-    "pick": 20,
-    "team": "Tampa Bay Buccaneers",
-    "teamAbbr": "TB",
-    "needs": [
-      "EDGE",
-      "CB",
-      "LB"
-    ]
-  },
-  {
-    "pick": 21,
-    "team": "Denver Broncos",
-    "teamAbbr": "DEN",
-    "needs": [
-      "WR",
-      "TE",
-      "LB"
-    ]
-  },
-  {
-    "pick": 22,
-    "team": "Detroit Lions",
-    "teamAbbr": "DET",
-    "needs": [
-      "EDGE",
-      "CB",
-      "IOL"
-    ]
-  },
-  {
-    "pick": 23,
-    "team": "Los Angeles Rams",
-    "teamAbbr": "LAR",
-    "needs": [
-      "QB",
-      "CB",
-      "LB"
-    ]
-  },
-  {
-    "pick": 24,
-    "team": "Green Bay Packers",
-    "teamAbbr": "GB",
-    "needs": [
-      "CB",
-      "WR",
-      "DT"
-    ]
-  },
-  {
-    "pick": 25,
+    "pick": 2,
     "team": "Los Angeles Chargers",
     "teamAbbr": "LAC",
     "needs": [
@@ -250,27 +20,78 @@
     ]
   },
   {
-    "pick": 26,
-    "team": "New England Patriots",
-    "teamAbbr": "NE",
+    "pick": 3,
+    "team": "Miami Dolphins",
+    "teamAbbr": "MIA",
     "needs": [
       "WR",
+      "CB",
+      "OT"
+    ]
+  },
+  {
+    "pick": 4,
+    "team": "Houston Texans",
+    "teamAbbr": "HOU",
+    "needs": [
+      "OT",
+      "RB",
+      "WR"
+    ]
+  },
+  {
+    "pick": 5,
+    "team": "Tampa Bay Buccaneers",
+    "teamAbbr": "TB",
+    "needs": [
+      "EDGE",
+      "CB",
+      "LB"
+    ]
+  },
+  {
+    "pick": 6,
+    "team": "Arizona Cardinals",
+    "teamAbbr": "ARI",
+    "needs": [
+      "QB",
       "EDGE",
       "OT"
     ]
   },
   {
-    "pick": 27,
-    "team": "San Francisco 49ers",
-    "teamAbbr": "SF",
+    "pick": 7,
+    "team": "New Orleans Saints",
+    "teamAbbr": "NO",
     "needs": [
-      "S",
+      "QB",
       "CB",
-      "DT"
+      "EDGE"
     ]
   },
   {
-    "pick": 28,
+    "pick": 8,
+    "team": "Washington Commanders",
+    "teamAbbr": "WAS",
+    "needs": [
+      "S",
+      "CB",
+      "EDGE"
+    ]
+  },
+  {
+    "pick": 9,
+    "team": "New York Jets",
+    "teamAbbr": "NYJ",
+    "needs": [
+      "QB",
+      "WR",
+      "S"
+    ],
+    "via": "DAL"
+  },
+  {
+    "pick": 10,
     "team": "Philadelphia Eagles",
     "teamAbbr": "PHI",
     "needs": [
@@ -280,27 +101,49 @@
     ]
   },
   {
-    "pick": 29,
-    "team": "Kansas City Chiefs",
-    "teamAbbr": "KC",
+    "pick": 11,
+    "team": "New York Jets",
+    "teamAbbr": "NYJ",
     "needs": [
+      "QB",
+      "WR",
+      "S"
+    ],
+    "via": "IND"
+  },
+  {
+    "pick": 12,
+    "team": "New York Jets",
+    "teamAbbr": "NYJ",
+    "needs": [
+      "QB",
+      "WR",
+      "S"
+    ]
+  },
+  {
+    "pick": 13,
+    "team": "Cleveland Browns",
+    "teamAbbr": "CLE",
+    "needs": [
+      "QB",
       "EDGE",
-      "OT",
       "WR"
-    ]
+    ],
+    "via": "LAR"
   },
   {
-    "pick": 30,
-    "team": "Baltimore Ravens",
-    "teamAbbr": "BAL",
+    "pick": 14,
+    "team": "Atlanta Falcons",
+    "teamAbbr": "ATL",
     "needs": [
-      "RB",
+      "OT",
       "EDGE",
-      "CB"
+      "DT"
     ]
   },
   {
-    "pick": 31,
+    "pick": 15,
     "team": "Seattle Seahawks",
     "teamAbbr": "SEA",
     "needs": [
@@ -310,13 +153,174 @@
     ]
   },
   {
-    "pick": 32,
+    "pick": 16,
+    "team": "Cincinnati Bengals",
+    "teamAbbr": "CIN",
+    "needs": [
+      "OT",
+      "S",
+      "LB"
+    ]
+  },
+  {
+    "pick": 17,
+    "team": "Cleveland Browns",
+    "teamAbbr": "CLE",
+    "needs": [
+      "QB",
+      "EDGE",
+      "WR"
+    ]
+  },
+  {
+    "pick": 18,
+    "team": "Pittsburgh Steelers",
+    "teamAbbr": "PIT",
+    "needs": [
+      "QB",
+      "OT",
+      "CB"
+    ]
+  },
+  {
+    "pick": 19,
+    "team": "Carolina Panthers",
+    "teamAbbr": "CAR",
+    "needs": [
+      "CB",
+      "S",
+      "EDGE"
+    ]
+  },
+  {
+    "pick": 20,
+    "team": "Las Vegas Raiders",
+    "teamAbbr": "LV",
+    "needs": [
+      "WR",
+      "CB",
+      "QB"
+    ]
+  },
+  {
+    "pick": 21,
+    "team": "Dallas Cowboys",
+    "teamAbbr": "DAL",
+    "needs": [
+      "LB",
+      "DT",
+      "RB"
+    ],
+    "via": "GB"
+  },
+  {
+    "pick": 22,
+    "team": "Chicago Bears",
+    "teamAbbr": "CHI",
+    "needs": [
+      "EDGE",
+      "OT",
+      "RB"
+    ]
+  },
+  {
+    "pick": 23,
+    "team": "New England Patriots",
+    "teamAbbr": "NE",
+    "needs": [
+      "WR",
+      "EDGE",
+      "OT"
+    ]
+  },
+  {
+    "pick": 24,
+    "team": "Denver Broncos",
+    "teamAbbr": "DEN",
+    "needs": [
+      "WR",
+      "TE",
+      "LB"
+    ]
+  },
+  {
+    "pick": 25,
+    "team": "Detroit Lions",
+    "teamAbbr": "DET",
+    "needs": [
+      "EDGE",
+      "CB",
+      "IOL"
+    ]
+  },
+  {
+    "pick": 26,
+    "team": "New York Giants",
+    "teamAbbr": "NYG",
+    "needs": [
+      "DT",
+      "IOL",
+      "CB"
+    ]
+  },
+  {
+    "pick": 27,
+    "team": "Jacksonville Jaguars",
+    "teamAbbr": "JAX",
+    "needs": [
+      "RB",
+      "IOL",
+      "DT"
+    ]
+  },
+  {
+    "pick": 28,
     "team": "Buffalo Bills",
     "teamAbbr": "BUF",
     "needs": [
       "WR",
       "DT",
       "CB"
+    ]
+  },
+  {
+    "pick": 29,
+    "team": "Baltimore Ravens",
+    "teamAbbr": "BAL",
+    "needs": [
+      "RB",
+      "EDGE",
+      "CB"
+    ]
+  },
+  {
+    "pick": 30,
+    "team": "Minnesota Vikings",
+    "teamAbbr": "MIN",
+    "needs": [
+      "CB",
+      "IOL",
+      "DT"
+    ]
+  },
+  {
+    "pick": 31,
+    "team": "Kansas City Chiefs",
+    "teamAbbr": "KC",
+    "needs": [
+      "EDGE",
+      "OT",
+      "WR"
+    ]
+  },
+  {
+    "pick": 32,
+    "team": "San Francisco 49ers",
+    "teamAbbr": "SF",
+    "needs": [
+      "S",
+      "CB",
+      "DT"
     ]
   }
 ]

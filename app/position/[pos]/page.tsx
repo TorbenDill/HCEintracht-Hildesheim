@@ -6,7 +6,6 @@ import { getAllPositionKeys, getPositionInfo } from "@/lib/positions";
 import { getPlayerSlug } from "@/lib/player-service";
 import { absoluteUrl } from "@/lib/site";
 import PlayerAvatar from "@/components/PlayerAvatar";
-import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -80,20 +79,6 @@ export default async function PositionPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-4xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/positionen"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Positionen
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            {key}
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">
         <Breadcrumbs
@@ -157,7 +142,6 @@ export default async function PositionPage({
           </div>
         </Reveal>
 
-        <AdSense slot="6888694163" layout="in-article" className="my-10" />
 
         {/* FAQ */}
         <section className="mb-10">

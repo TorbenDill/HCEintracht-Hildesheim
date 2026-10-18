@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {
   getEuropeTalents,
   getEuropeTalentsMeta,
@@ -11,7 +10,6 @@ import { absoluteUrl } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PlayerAvatar from "@/components/PlayerAvatar";
-import AdSense from "@/components/AdSense";
 
 export const metadata = {
   title: "Talente für Europa: D2/D3-Scouting mit GFL-Star-Potenzial",
@@ -50,20 +48,6 @@ export default function EuropaTalentePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-5xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Draft Board
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            Talente für Europa
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <Breadcrumbs
@@ -178,7 +162,6 @@ export default function EuropaTalentePage() {
           <EuropeRadar players={radar} />
         </section>
 
-        <AdSense slot="6888694163" layout="in-article" className="mt-12" />
 
         <div className="mt-10 space-y-2 text-[10px] leading-relaxed text-muted">
           <p>

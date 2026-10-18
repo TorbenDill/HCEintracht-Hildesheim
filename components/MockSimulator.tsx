@@ -2,12 +2,14 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { getPlayers, type Player } from "@/lib/player-service";
+import { getRankedMinPlayers, type MinPlayer } from "@/lib/players-min";
+
+// Im Simulator genügt die schlanke Spielerliste (Name, Position, College, Rang).
+type Player = MinPlayer;
 import {
   getDraftTeams,
   cpuPick,
   positionColor,
-  type DraftTeam,
 } from "@/lib/simulator";
 import { SITE_URL } from "@/lib/site";
 import { cn } from "@/lib/utils";
@@ -52,17 +54,30 @@ function fmtClock(sec: number): string {
 
 export default function MockSimulator() {
   const teams = useMemo(() => getDraftTeams(), []);
-  const pool = useMemo(
-    () =>
-      [...getPlayers()].sort(
-        (a, b) =>
-          (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999)
-      ),
-    []
-  );
+  // Nur draft-berechtigte, gerankte Spieler: Die "Nächste Generation"
+  // (erst ab 2028 berechtigt) darf im Simulator nicht gedraftet werden.
+  const pool = useMemo(() => getRankedMinPlayers(), []);
+
+  // Durch Trades kann ein Team mehrere Picks halten (Jets 2027: 9, 11, 12).
+  // Für die Auswahl wird deshalb nach Team gruppiert; gewählt wird immer
+  // das ganze Team mit all seinen Picks.
+  const teamGroups = useMemo(() => {
+    const groups = new Map<string, { team: (typeof teams)[number]; slots: number[] }>();
+    teams.forEach((t, i) => {
+      const g = groups.get(t.teamAbbr);
+      if (g) g.slots.push(i);
+      else groups.set(t.teamAbbr, { team: t, slots: [i] });
+    });
+    return [...groups.values()];
+  }, [teams]);
 
   const [mode, setMode] = useState<Mode | null>(null);
   const [yourTeam, setYourTeam] = useState<number | null>(null);
+  const yourSlots = useMemo(() => {
+    if (yourTeam === null) return new Set<number>();
+    const abbr = teams[yourTeam].teamAbbr;
+    return new Set(teams.flatMap((t, i) => (t.teamAbbr === abbr ? [i] : [])));
+  }, [teams, yourTeam]);
   const [picks, setPicks] = useState<(Player | null)[]>(
     Array(teams.length).fill(null)
   );
@@ -87,12 +102,13 @@ export default function MockSimulator() {
   );
 
   const finished = onClock >= teams.length;
+  // Bereit, sobald jede Person ein Team hat (ein Team kann mehrere Picks belegen).
   const partyReady =
-    mode !== "party" || Object.keys(assignments).length >= humanCount;
+    mode !== "party" || new Set(Object.values(assignments)).size >= humanCount;
   const isUserPick =
     !finished &&
     (mode === "gm" ||
-      (mode === "team" && onClock === yourTeam) ||
+      (mode === "team" && yourSlots.has(onClock)) ||
       (mode === "party" && partyReady && assignments[onClock] !== undefined));
 
   const makePick = useCallback(
@@ -110,7 +126,7 @@ export default function MockSimulator() {
   // CPU rückt automatisch vor, wenn im Team-Modus ein fremdes Team dran ist.
   useEffect(() => {
     if (finished || mode === null || mode === "gm") return;
-    if (mode === "team" && (yourTeam === null || onClock === yourTeam)) return;
+    if (mode === "team" && (yourTeam === null || yourSlots.has(onClock))) return;
     if (mode === "party" && (!partyReady || assignments[onClock] !== undefined))
       return;
     const team = teams[onClock];
@@ -119,7 +135,7 @@ export default function MockSimulator() {
       if (choice) makePick(choice);
     }, cpuMs);
     return () => clearTimeout(t);
-  }, [finished, mode, onClock, yourTeam, teams, available, makePick, cpuMs, partyReady, assignments]);
+  }, [finished, mode, onClock, yourTeam, yourSlots, teams, available, makePick, cpuMs, partyReady, assignments]);
 
   // Pick-Uhr (GM-Modus): bei jedem neuen Pick zurücksetzen.
   useEffect(() => {
@@ -214,7 +230,7 @@ export default function MockSimulator() {
         const p = picks[i];
         const y = headerH + i * rowH;
         const mine =
-          (mode === "team" && i === yourTeam) ||
+          (mode === "team" && yourSlots.has(i)) ||
           (mode === "party" && assignments[i] !== undefined);
 
         if (mine) {
@@ -286,7 +302,7 @@ export default function MockSimulator() {
         URL.revokeObjectURL(url);
       }, "image/png");
     },
-    [picks, teams, mode, yourTeam, assignments, humanCount]
+    [picks, teams, mode, yourTeam, yourSlots, assignments, humanCount]
   );
 
   // ---------- RENDER ----------
@@ -301,8 +317,8 @@ export default function MockSimulator() {
             Ein Team draften
           </h3>
           <p className="text-sm text-muted">
-            Wähle dein Team – die CPU übernimmt alle anderen 31 Picks. Du bist
-            nur an deiner Position am Zug.
+            Wähle dein Team – die CPU übernimmt alle übrigen Picks. Du bist an
+            jedem Pick deines Teams am Zug (die Jets etwa dreimal).
           </p>
         </button>
         <button
@@ -374,14 +390,17 @@ export default function MockSimulator() {
           Spieler {setupPlayer} von {humanCount}: Franchise wählen
         </p>
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          {teams.map((t, i) => {
-            const taken = assignments[i];
+          {teamGroups.map(({ team: t, slots }) => {
+            const taken = assignments[slots[0]];
             return (
               <button
                 key={t.teamAbbr}
                 disabled={taken !== undefined}
                 onClick={() => {
-                  setAssignments((prev) => ({ ...prev, [i]: setupPlayer }));
+                  setAssignments((prev) => ({
+                    ...prev,
+                    ...Object.fromEntries(slots.map((i) => [i, setupPlayer])),
+                  }));
                   setSetupPlayer((n) => n + 1);
                 }}
                 className={cn(
@@ -392,7 +411,7 @@ export default function MockSimulator() {
                 )}
               >
                 <p className="text-[10px] font-mono text-muted">
-                  Pick {t.pick}
+                  {slots.length > 1 ? "Picks" : "Pick"} {slots.map((i) => teams[i].pick).join(", ")}
                   {taken !== undefined && (
                     <span className="ml-1 font-bold text-primary">
                       P{taken}
@@ -426,13 +445,15 @@ export default function MockSimulator() {
           </button>
         </div>
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          {teams.map((t, i) => (
+          {teamGroups.map(({ team: t, slots }) => (
             <button
               key={t.teamAbbr}
-              onClick={() => setYourTeam(i)}
+              onClick={() => setYourTeam(slots[0])}
               className="card-lift rounded border border-border bg-surface px-3 py-3 text-left hover:border-primary/50"
             >
-              <p className="text-[10px] font-mono text-muted">Pick {t.pick}</p>
+              <p className="text-[10px] font-mono text-muted">
+                {slots.length > 1 ? "Picks" : "Pick"} {slots.map((i) => teams[i].pick).join(", ")}
+              </p>
               <p className="text-sm font-bold text-foreground">{t.team}</p>
               <p className="mt-1 truncate text-[10px] text-muted">
                 Bedarf: {t.needs.join(", ")}
@@ -599,11 +620,11 @@ export default function MockSimulator() {
               const p = picks[i];
               const current = i === onClock && !finished;
               const mine =
-          (mode === "team" && i === yourTeam) ||
+          (mode === "team" && yourSlots.has(i)) ||
           (mode === "party" && assignments[i] !== undefined);
               return (
                 <div
-                  key={t.teamAbbr}
+                  key={t.pick}
                   className={cn(
                     "grid grid-cols-[32px_44px_1fr] items-center gap-2 rounded border px-3 py-2",
                     current

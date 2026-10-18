@@ -1,30 +1,41 @@
-import teamsData from "@/data/draft-teams.json";
-import mock from "@/data/mockdraft.json";
+import teamsData from "@/data/nfl-teams.json";
 import {
+  getMockDraft,
   getPlayersByPosition,
   byOverallRank,
+  type MockPick,
   type Player,
 } from "@/lib/player-service";
 
-export type DraftTeam = {
-  pick: number;
+// Alle 32 NFL-Teams mit Bedarf, Bilanz und ihren Erstrundenpicks. Durch
+// Trades kann ein Team mehrere Picks haben (Jets 2027: drei) oder keinen
+// (sein Pick gehört dann einem anderen Team). Die Reihenfolge der Picks
+// selbst steht in data/draft-teams.json (Simulator).
+type TeamRow = {
   team: string;
   teamAbbr: string;
+  record: string;
   needs: string[];
+  picks: number[];
+  traded_away: { pick: number; to: string }[];
 };
 
-type MockPick = {
-  pick: number;
-  team: string;
-  teamAbbr: string;
-  player: string;
-  position: string;
-  college: string;
-  reason_de: string;
+export type DraftTeam = TeamRow & {
+  /** Erster eigener Erstrundenpick oder null, wenn der Pick getauscht wurde. */
+  pick: number | null;
+  /** Position in der Draft-Reihenfolge (eigener oder abgegebener Pick). */
+  order: number;
 };
 
-const teams = teamsData as DraftTeam[];
-const mockPicks = mock as MockPick[];
+const source = teamsData as { stand: string; recordAfterWeek: number; teams: TeamRow[] };
+
+const teams: DraftTeam[] = source.teams
+  .map((t) => {
+    const own = [...t.picks].sort((a, b) => a - b);
+    const order = own[0] ?? Math.min(...t.traded_away.map((x) => x.pick));
+    return { ...t, picks: own, pick: own[0] ?? null, order };
+  })
+  .sort((a, b) => a.order - b.order);
 
 // Team-Bedarf (Kürzel) -> Board-Positionen
 const NEED_MAP: Record<string, string[]> = {
@@ -49,25 +60,36 @@ export function teamSlug(abbr: string): string {
   return abbr.toLowerCase();
 }
 
+/** Stand der Bilanzen, z. B. { stand: "2026-10-18", week: 5 }. */
+export function getStandingsMeta(): { stand: string; week: number } {
+  return { stand: source.stand, week: source.recordAfterWeek };
+}
+
 export function getTeams(): DraftTeam[] {
-  return [...teams].sort((a, b) => a.pick - b.pick);
+  return teams;
 }
 
 export function getTeamByAbbr(abbr: string): DraftTeam | null {
   return teams.find((t) => t.teamAbbr.toLowerCase() === abbr.toLowerCase()) ?? null;
 }
 
-export function getMockPick(team: DraftTeam): MockPick | null {
-  return mockPicks.find((m) => m.teamAbbr === team.teamAbbr) ?? null;
+/** Alle Mock-Picks eines Teams (0, 1 oder mehrere). */
+export function getMockPicks(team: DraftTeam): MockPick[] {
+  return getMockDraft().filter((m) => m.teamAbbr === team.teamAbbr);
 }
 
-/** Teams mit benachbartem Draft-Pick (für interne Cross-Links). */
+/** Teams mit benachbarter Draft-Position (für interne Cross-Links). */
 export function getPickNeighbors(team: DraftTeam, limit = 6): DraftTeam[] {
   return teams
     .filter((t) => t.teamAbbr !== team.teamAbbr)
-    .sort((a, b) => Math.abs(a.pick - team.pick) - Math.abs(b.pick - team.pick))
+    .sort((a, b) => Math.abs(a.order - team.order) - Math.abs(b.order - team.order))
     .slice(0, limit)
-    .sort((a, b) => a.pick - b.pick);
+    .sort((a, b) => a.order - b.order);
+}
+
+/** Kürzel -> voller Teamname (für "via"-Angaben). */
+export function teamName(abbr: string): string {
+  return teams.find((t) => t.teamAbbr === abbr)?.team ?? abbr;
 }
 
 /** Pro Bedarf die besten verfügbaren Board-Prospects (dedupliziert). */

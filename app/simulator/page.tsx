@@ -1,7 +1,5 @@
-import Link from "next/link";
 import { getBoardMeta } from "@/lib/player-service";
 import MockSimulator from "@/components/MockSimulator";
-import AdSense from "@/components/AdSense";
 
 export const metadata = {
   title: "Mock Draft Simulator 2027",
@@ -22,21 +20,6 @@ export default function SimulatorPage() {
 
   return (
     <main className="min-h-screen bg-background">
-      {/* Back Navigation */}
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-6xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Draft Board
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            Simulator {meta.draftYear}
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-8">
@@ -51,8 +34,6 @@ export default function SimulatorPage() {
 
         <MockSimulator />
 
-        {/* Anzeige */}
-        <AdSense slot="6888694163" layout="in-article" className="mt-10" />
       </div>
     </main>
   );

@@ -1,11 +1,12 @@
 import teams from "@/data/draft-teams.json";
-import type { Player } from "@/lib/player-service";
 
 export type DraftTeam = {
   pick: number;
   team: string;
   teamAbbr: string;
   needs: string[];
+  /** Ursprünglicher Inhaber eines getauschten Picks (Kürzel). */
+  via?: string;
 };
 
 export function getDraftTeams(): DraftTeam[] {
@@ -17,7 +18,7 @@ export function getDraftTeams(): DraftTeam[] {
  * solange er nicht zu weit über dem besten verfügbaren Spieler (BPA) liegt.
  * Sonst BPA. Eine kleine Zufalls-Reichweite sorgt für Variation pro Lauf.
  */
-export function cpuPick(needs: string[], available: Player[]): Player | null {
+export function cpuPick<T extends { position: string }>(needs: string[], available: T[]): T | null {
   if (available.length === 0) return null;
   const bestOverall = available[0];
   const needPlayer = available.find((p) => needs.includes(p.position));

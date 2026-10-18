@@ -238,5 +238,57 @@
     "license": "CC BY 3.0",
     "artist": "Bobak Ha'Eri",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-0901_Duce_Robinson.jpg"
+  },
+  "will-heldt": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/UNC_vs_Clemson_2025_-_49_%28Heldt%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hameltion",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UNC_vs_Clemson_2025_-_49_(Heldt).jpg"
+  },
+  "zach-lutmer": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/2026-0728_Big_Ten_MD_Zach_Lutmer.jpeg/960px-2026-0728_Big_Ten_MD_Zach_Lutmer.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-0728_Big_Ten_MD_Zach_Lutmer.jpeg"
+  },
+  "jyaire-hill": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/MBN_S24G00_SPRINGGAME-95_%2853668834719%29_%28cropped%29.jpg/960px-MBN_S24G00_SPRINGGAME-95_%2853668834719%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "artist": "Maize &amp; Blue Nation",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MBN_S24G00_SPRINGGAME-95_(53668834719)_(cropped).jpg"
+  },
+  "elijah-paige": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Elijah_Paige.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "Public domain",
+    "artist": "Petty Officer 2nd Class Clayton Wren",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elijah_Paige.jpg"
+  },
+  "jaylen-mcclain": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2026-0729_Big_Ten_MD_Jaylen_McClain.jpeg/960px-2026-0729_Big_Ten_MD_Jaylen_McClain.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-0729_Big_Ten_MD_Jaylen_McClain.jpeg"
+  },
+  "jelani-mcdonald": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Jelani_McDonald.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 2.0",
+    "artist": "Maize &amp; Blue Nation",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jelani_McDonald.jpg"
+  },
+  "avery-johnson": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Avery_Johnson_K-State.png/960px-Avery_Johnson_K-State.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Kansas State Wildcats on K-StateOnline",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avery_Johnson_K-State.png",
+    "file": "File:Avery Johnson K-State.png",
+    "via": "commons-search"
+  },
+  "kevin-jennings": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Kevin_Jennings.jpg/960px-Kevin_Jennings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "Keiteay",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Jennings.jpg",
+    "file": "File:Kevin Jennings.jpg",
+    "via": "commons-search"
   }
 }

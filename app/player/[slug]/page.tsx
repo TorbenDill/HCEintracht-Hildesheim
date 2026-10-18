@@ -14,7 +14,7 @@ import { absoluteUrl } from "@/lib/site";
 import { getPlayerPhoto } from "@/lib/player-images";
 import { getCollegeLink } from "@/lib/colleges";
 import { cn } from "@/lib/utils";
-import AdSense from "@/components/AdSense";
+import { getSeasonSummary } from "@/lib/season";
 import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import StarButton from "@/components/StarButton";
@@ -92,6 +92,7 @@ export default async function PlayerPage({
   }
 
   const photo = getPlayerPhoto(player.name);
+  const season = getSeasonSummary(player);
   const collegeLink = getCollegeLink(player.college);
   const positionPeers = getPositionPeers(player, 5);
   const peerSlugs = new Set(positionPeers.map((p) => getPlayerSlug(p.name)));
@@ -146,21 +147,6 @@ export default async function PlayerPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* Back Navigation */}
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Draft Board
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            {player.position}
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         <Breadcrumbs className="mb-6" items={breadcrumbItems} />
@@ -319,6 +305,78 @@ export default async function PlayerPage({
           </div>
         </section>
 
+        {/* ── SAISON 2026: aktuelle Lage + Statistik ── */}
+        {(player.update_de || season) && (
+          <Reveal className="mb-10">
+            <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Saison 2026
+            </h2>
+            {player.update_de && (
+              <div className="mb-4 rounded-2xl border border-amber-500/40 bg-amber-500/10 p-5">
+                <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">
+                  Aktuelle Lage
+                  {player.update_stand && (
+                    <span className="ml-2 font-normal normal-case tracking-normal text-muted">
+                      Stand {formatDate(player.update_stand)}
+                    </span>
+                  )}
+                </p>
+                <p className="text-sm leading-relaxed text-foreground/90">
+                  {player.update_de}
+                </p>
+                {player.update_sources &&
+                  Object.keys(player.update_sources).length > 0 && (
+                    <p className="mt-3 flex flex-wrap gap-2 text-[11px] text-muted">
+                      Quelle:
+                      {Object.entries(player.update_sources).map(([d, url]) => (
+                        <a
+                          key={d}
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline decoration-dotted hover:text-primary"
+                        >
+                          {d}
+                        </a>
+                      ))}
+                    </p>
+                  )}
+              </div>
+            )}
+            {season && (
+              <div className="rounded-2xl border border-border bg-surface p-5">
+                {season.hasStats ? (
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
+                    {season.games != null && (
+                      <StatBox label="Spiele" value={String(season.games)} />
+                    )}
+                    {season.tiles.map((t) => (
+                      <StatBox key={t.label} label={t.label} value={t.value} accent />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-sm text-foreground/80">
+                    {["OT", "IOL"].includes(player.position)
+                      ? "Offensive Linemen tauchen in der Box-Score-Statistik nicht auf – ihre Leistung lässt sich nur am Film und an Grading-Daten ablesen."
+                      : "Für diese Saison liegt noch kein Statistikeintrag vor."}
+                  </p>
+                )}
+                <p className="mt-3 text-[11px] text-muted">
+                  Stand {season.through} ·{" "}
+                  <a
+                    href={season.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-dotted hover:text-primary"
+                  >
+                    cfbstats.com
+                  </a>
+                </p>
+              </div>
+            )}
+          </Reveal>
+        )}
+
         {/* ── FORSTNER'S TAKE ── */}
         {player.forstner_statement && (
           <Reveal className="mb-10">
@@ -337,9 +395,6 @@ export default async function PlayerPage({
             </div>
           </Reveal>
         )}
-
-        {/* ── ANZEIGE ── */}
-        <AdSense slot="6888694163" layout="in-article" className="mb-10" />
 
         {/* ── SCOUTING REPORT ── */}
         <Reveal className="mb-10">
@@ -461,8 +516,6 @@ export default async function PlayerPage({
           </div>
         </section>
 
-        {/* Anzeige (Display, Seitenende) */}
-        <AdSense slot="5635468031" className="mb-10" />
       </div>
     </main>
   );
@@ -505,6 +558,12 @@ function sourceUrl(src: string, sourceUrls?: Record<string, string>): string {
   if (exact) return exact;
   const clean = src.trim().replace(/^https?:\/\//, "").replace(/\/.*$/, "");
   return `https://${clean}`;
+}
+
+/** ISO-Datum (2026-10-18) als deutsches Datum (18.10.2026). */
+function formatDate(iso: string): string {
+  const [y, m, d] = iso.split("-");
+  return d && m && y ? `${d}.${m}.${y}` : iso;
 }
 
 /**

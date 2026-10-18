@@ -1,5 +1,5 @@
 import images from "@/data/player-images.json";
-import { getPlayerSlug } from "@/lib/player-service";
+import { getPlayerSlug } from "@/lib/slug";
 
 export type PlayerPhoto = {
   url: string;

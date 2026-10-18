@@ -43,3 +43,6 @@ next-env.d.ts
 # python (build scripts)
 __pycache__/
 *.pyc
+
+# Crawl-Cache der Saisonstatistik-Pipeline
+scripts/season-stats/.cache/

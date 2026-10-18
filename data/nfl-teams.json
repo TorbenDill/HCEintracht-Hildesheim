@@ -1,0 +1,471 @@
+{
+  "stand": "2026-10-18",
+  "recordAfterWeek": 5,
+  "teams": [
+    {
+      "team": "Tennessee Titans",
+      "teamAbbr": "TEN",
+      "record": "0-5",
+      "needs": [
+        "EDGE",
+        "OT",
+        "WR"
+      ],
+      "picks": [
+        1
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Los Angeles Chargers",
+      "teamAbbr": "LAC",
+      "record": "0-5",
+      "needs": [
+        "DT",
+        "WR",
+        "RB"
+      ],
+      "picks": [
+        2
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Miami Dolphins",
+      "teamAbbr": "MIA",
+      "record": "0-5",
+      "needs": [
+        "WR",
+        "CB",
+        "OT"
+      ],
+      "picks": [
+        3
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Houston Texans",
+      "teamAbbr": "HOU",
+      "record": "1-4",
+      "needs": [
+        "OT",
+        "RB",
+        "WR"
+      ],
+      "picks": [
+        4
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Tampa Bay Buccaneers",
+      "teamAbbr": "TB",
+      "record": "1-4",
+      "needs": [
+        "EDGE",
+        "CB",
+        "LB"
+      ],
+      "picks": [
+        5
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Arizona Cardinals",
+      "teamAbbr": "ARI",
+      "record": "1-4",
+      "needs": [
+        "QB",
+        "EDGE",
+        "OT"
+      ],
+      "picks": [
+        6
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "New Orleans Saints",
+      "teamAbbr": "NO",
+      "record": "1-4",
+      "needs": [
+        "QB",
+        "CB",
+        "EDGE"
+      ],
+      "picks": [
+        7
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Washington Commanders",
+      "teamAbbr": "WAS",
+      "record": "1-3-1",
+      "needs": [
+        "S",
+        "CB",
+        "EDGE"
+      ],
+      "picks": [
+        8
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Dallas Cowboys",
+      "teamAbbr": "DAL",
+      "record": "2-3",
+      "needs": [
+        "LB",
+        "DT",
+        "RB"
+      ],
+      "picks": [
+        21
+      ],
+      "traded_away": [
+        {
+          "pick": 9,
+          "to": "NYJ"
+        }
+      ]
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "teamAbbr": "PHI",
+      "record": "2-3",
+      "needs": [
+        "S",
+        "EDGE",
+        "CB"
+      ],
+      "picks": [
+        10
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Indianapolis Colts",
+      "teamAbbr": "IND",
+      "record": "2-3",
+      "needs": [
+        "DT",
+        "CB",
+        "TE"
+      ],
+      "picks": [],
+      "traded_away": [
+        {
+          "pick": 11,
+          "to": "NYJ"
+        }
+      ]
+    },
+    {
+      "team": "New York Jets",
+      "teamAbbr": "NYJ",
+      "record": "2-3",
+      "needs": [
+        "QB",
+        "WR",
+        "S"
+      ],
+      "picks": [
+        9,
+        11,
+        12
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Los Angeles Rams",
+      "teamAbbr": "LAR",
+      "record": "2-3",
+      "needs": [
+        "QB",
+        "CB",
+        "LB"
+      ],
+      "picks": [],
+      "traded_away": [
+        {
+          "pick": 13,
+          "to": "CLE"
+        }
+      ]
+    },
+    {
+      "team": "Atlanta Falcons",
+      "teamAbbr": "ATL",
+      "record": "2-3",
+      "needs": [
+        "OT",
+        "EDGE",
+        "DT"
+      ],
+      "picks": [
+        14
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Seattle Seahawks",
+      "teamAbbr": "SEA",
+      "record": "3-3",
+      "needs": [
+        "EDGE",
+        "IOL",
+        "LB"
+      ],
+      "picks": [
+        15
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "teamAbbr": "CIN",
+      "record": "3-2",
+      "needs": [
+        "OT",
+        "S",
+        "LB"
+      ],
+      "picks": [
+        16
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Cleveland Browns",
+      "teamAbbr": "CLE",
+      "record": "3-2",
+      "needs": [
+        "QB",
+        "EDGE",
+        "WR"
+      ],
+      "picks": [
+        13,
+        17
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "teamAbbr": "PIT",
+      "record": "3-2",
+      "needs": [
+        "QB",
+        "OT",
+        "CB"
+      ],
+      "picks": [
+        18
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Carolina Panthers",
+      "teamAbbr": "CAR",
+      "record": "2-2",
+      "needs": [
+        "CB",
+        "S",
+        "EDGE"
+      ],
+      "picks": [
+        19
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Las Vegas Raiders",
+      "teamAbbr": "LV",
+      "record": "3-2",
+      "needs": [
+        "WR",
+        "CB",
+        "QB"
+      ],
+      "picks": [
+        20
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Green Bay Packers",
+      "teamAbbr": "GB",
+      "record": "3-2",
+      "needs": [
+        "CB",
+        "WR",
+        "DT"
+      ],
+      "picks": [],
+      "traded_away": [
+        {
+          "pick": 21,
+          "to": "DAL"
+        }
+      ]
+    },
+    {
+      "team": "Chicago Bears",
+      "teamAbbr": "CHI",
+      "record": "3-2",
+      "needs": [
+        "EDGE",
+        "OT",
+        "RB"
+      ],
+      "picks": [
+        22
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "New England Patriots",
+      "teamAbbr": "NE",
+      "record": "3-2",
+      "needs": [
+        "WR",
+        "EDGE",
+        "OT"
+      ],
+      "picks": [
+        23
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Denver Broncos",
+      "teamAbbr": "DEN",
+      "record": "4-2",
+      "needs": [
+        "WR",
+        "TE",
+        "LB"
+      ],
+      "picks": [
+        24
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Detroit Lions",
+      "teamAbbr": "DET",
+      "record": "3-2",
+      "needs": [
+        "EDGE",
+        "CB",
+        "IOL"
+      ],
+      "picks": [
+        25
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "New York Giants",
+      "teamAbbr": "NYG",
+      "record": "3-1-1",
+      "needs": [
+        "DT",
+        "IOL",
+        "CB"
+      ],
+      "picks": [
+        26
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Jacksonville Jaguars",
+      "teamAbbr": "JAX",
+      "record": "4-1",
+      "needs": [
+        "RB",
+        "IOL",
+        "DT"
+      ],
+      "picks": [
+        27
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Buffalo Bills",
+      "teamAbbr": "BUF",
+      "record": "4-1",
+      "needs": [
+        "WR",
+        "DT",
+        "CB"
+      ],
+      "picks": [
+        28
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Baltimore Ravens",
+      "teamAbbr": "BAL",
+      "record": "4-1",
+      "needs": [
+        "RB",
+        "EDGE",
+        "CB"
+      ],
+      "picks": [
+        29
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Minnesota Vikings",
+      "teamAbbr": "MIN",
+      "record": "5-0",
+      "needs": [
+        "CB",
+        "IOL",
+        "DT"
+      ],
+      "picks": [
+        30
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "Kansas City Chiefs",
+      "teamAbbr": "KC",
+      "record": "4-0",
+      "needs": [
+        "EDGE",
+        "OT",
+        "WR"
+      ],
+      "picks": [
+        31
+      ],
+      "traded_away": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "teamAbbr": "SF",
+      "record": "5-0",
+      "needs": [
+        "S",
+        "CB",
+        "DT"
+      ],
+      "picks": [
+        32
+      ],
+      "traded_away": []
+    }
+  ]
+}

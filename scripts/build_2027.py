@@ -268,17 +268,11 @@ def build_report(p):
     return " ".join(parts)
 
 def build_forstner(p):
-    if p.get("forstner"):
-        return p["forstner"]
-    rnd = p.get("round")
-    name = p["name"]
-    if rnd == 1:
-        return f"{name} ist für mich ein sicherer Erstrundenpick 2027 – dieses Profil plane ich fest ein."
-    if rnd == 2:
-        return f"{name} gehört auf jedes Top-60-Board. Mit einer starken Saison 2026 ist sogar Runde 1 drin."
-    if rnd == 3:
-        return f"{name} ist ein klassischer Day-2-Value – bei einem Fall in Runde 3 würde ich sofort zuschlagen."
-    return None
+    # Nur ausdruecklich hinterlegte Statements. Frueher erzeugte diese
+    # Funktion fuer Spieler mit round 1-3 automatisch Ich-Saetze in Philipp
+    # Forstners Namen - ein Zitat, das er nie gesagt hat. Fehlt das Feld,
+    # bleibt das Statement leer und die Seite blendet den Block aus.
+    return p.get("forstner") or None
 
 # Qualitaets-Gate: Ein Spieler wird NUR aufgenommen, wenn er belegt ist.
 # Grundsatz "immer nur mit Quellen einfuegen" -> Mindestzahl unabhaengiger
@@ -318,7 +312,10 @@ def main():
         # ein explizit gesetzter pos_rank hat Vorrang.
         pos_rank = p.get("pos_rank")
         rnd = p.get("round")
-        pikt = get_bucket(PIKTOGRAMME, pos, rnd) or []
+        # Individuelle Faehigkeits-Tags aus dem Research-Eintrag haben Vorrang;
+        # der Positions-Bucket ist nur der Fallback (sonst traegt jeder QB
+        # dieselben drei Schlagworte).
+        pikt = p.get("piktogramme") or get_bucket(PIKTOGRAMME, pos, rnd) or []
         comps = get_bucket(NFL_COMPS, pos, rnd) or (None, None)
         best = p.get("best_case") or comps[0]
         worst = p.get("worst_case") or comps[1]
@@ -354,6 +351,12 @@ def main():
             # eigenen Block und bleiben aus Big Board und Positionsrankings
             # heraus, damit sie nicht als 2027er-Prospects gelesen werden.
             "naechste_generation": bool(p.get("naechste_generation")),
+            # Aktuelle Lage waehrend der Saison (Verletzung, Sperre, Rueckkehr):
+            # datierter Kurztext + eigene Belege, auf der Profilseite als
+            # Hinweis ueber dem Report.
+            "update_de": p.get("update_de") or None,
+            "update_stand": p.get("update_stand") or None,
+            "update_sources": p.get("update_sources") or {},
         })
 
     # Nach Overall-Rank sortieren (ungerankte ans Ende, stabil -> Datei-Reihenfolge).

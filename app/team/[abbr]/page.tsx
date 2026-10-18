@@ -4,20 +4,35 @@ import Link from "next/link";
 import {
   getTeams,
   getTeamByAbbr,
-  getMockPick,
+  getMockPicks,
   getFitsForNeeds,
   getPickNeighbors,
+  getStandingsMeta,
+  teamName,
   teamSlug,
+  type DraftTeam,
 } from "@/lib/teams";
 import { getBoardMeta, getPlayerSlug } from "@/lib/player-service";
 import { absoluteUrl } from "@/lib/site";
 import PlayerAvatar from "@/components/PlayerAvatar";
-import AdSense from "@/components/AdSense";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export function generateStaticParams() {
   return getTeams().map((t) => ({ abbr: teamSlug(t.teamAbbr) }));
+}
+
+/** Ein Satz zur Pick-Situation – berücksichtigt Trades (0, 1 oder mehrere Picks). */
+function pickSentence(team: DraftTeam): string {
+  if (team.picks.length === 0) {
+    const t = team.traded_away[0];
+    return `Die ${team.team} (${team.record}) haben 2027 keinen eigenen Erstrundenpick – ihr Pick ${t.pick} gehört nach einem Trade den ${teamName(t.to)}.`;
+  }
+  if (team.picks.length === 1) {
+    return `Die ${team.team} (${team.record}) picken nach aktuellem Tabellenstand an Position ${team.picks[0]}.`;
+  }
+  const words = ["", "einen", "zwei", "drei", "vier"];
+  return `Die ${team.team} (${team.record}) halten gleich ${words[team.picks.length] ?? team.picks.length} Erstrundenpicks: ${team.picks.join(", ")}.`;
 }
 
 export async function generateMetadata({
@@ -32,11 +47,10 @@ export async function generateMetadata({
   const title = `${team.team}: NFL Draft ${meta.draftYear} Bedarf & Prospects`;
   return {
     title,
-    description: `Was brauchen die ${team.team} im NFL Draft ${meta.draftYear}? Bedarf (${team.needs.join(", ")}), projizierter Pick ${team.pick} und passende Prospects aus unserem Big Board.`,
+    description: `${pickSentence(team)} Bedarf: ${team.needs.join(", ")}. Mock-Draft-Pick, Begründung und passende Prospects aus unserem Big Board.`,
     alternates: { canonical: `/team/${teamSlug(team.teamAbbr)}` },
-    // Aggregierte Team-Bedarf-Seite (Pick + Needs); der eigentliche Content
-    // liegt in den verlinkten Spielerprofilen. Bewusst nicht indexiert, um
-    // duennes/aggregiertes Material aus dem Google-Index herauszuhalten.
+    // Aggregierte Team-Seite; bis zur inhaltlichen Aufwertung bewusst nicht
+    // indexiert, um dünnes Material aus dem Google-Index herauszuhalten.
     robots: { index: false, follow: true },
     openGraph: {
       type: "article",
@@ -56,9 +70,16 @@ export default async function TeamPage({
   const meta = getBoardMeta();
   if (!team) notFound();
 
-  const mock = getMockPick(team);
+  const mocks = getMockPicks(team);
   const fits = getFitsForNeeds(team.needs);
   const pickNeighbors = getPickNeighbors(team, 6);
+  const standings = getStandingsMeta();
+
+  const mockAnswer = mocks.length
+    ? ` In unserem Mock Draft wählen sie ${mocks
+        .map((m) => `an Pick ${m.pick} ${m.player} (${m.position}, ${m.college})`)
+        .join(" und ")}.`
+    : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -69,7 +90,7 @@ export default async function TeamPage({
         name: `Was brauchen die ${team.team} im NFL Draft ${meta.draftYear}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `Der größte Bedarf der ${team.team} liegt auf den Positionen ${team.needs.join(", ")}. In unserem projizierten Mock Draft wählen sie an Pick ${team.pick}${mock ? ` ${mock.player} (${mock.position}, ${mock.college})` : ""}.`,
+          text: `${pickSentence(team)} Der größte Bedarf liegt auf den Positionen ${team.needs.join(", ")}.${mockAnswer}`,
         },
       },
     ],
@@ -81,20 +102,6 @@ export default async function TeamPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-4xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/teams"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Teams
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            {team.teamAbbr}
-          </span>
-        </div>
-      </div>
 
       <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">
         <Breadcrumbs
@@ -106,45 +113,56 @@ export default async function TeamPage({
           ]}
         />
         <div className="mb-8">
+          <p className="mb-2 font-mono text-xs font-bold uppercase tracking-widest text-muted">
+            {team.teamAbbr} · Bilanz {team.record} · Stand nach Woche {standings.week}
+          </p>
           <h1 className="mb-4 font-display text-3xl font-semibold uppercase leading-tight tracking-tight text-foreground sm:text-4xl lg:text-5xl">
             {team.team}
             <br className="hidden sm:block" />{" "}
-            <span className="text-primary">
-              Draft-Bedarf {meta.draftYear}
-            </span>
+            <span className="text-primary">Draft-Bedarf {meta.draftYear}</span>
           </h1>
           <p className="max-w-2xl text-sm leading-relaxed text-foreground/85">
-            Die {team.team} picken in unserer projizierten Draft-Reihenfolge an
-            Position {team.pick}. Der größte Bedarf liegt auf {team.needs.join(", ")}.
-            Nachfolgend die passenden verfügbaren Prospects aus dem Big Board.
+            {pickSentence(team)} Der größte Bedarf liegt auf {team.needs.join(", ")}.
+            {mocks.length > 1
+              ? " Nachfolgend unsere Mock-Draft-Picks mit Begründung und die passenden verfügbaren Prospects aus dem Big Board."
+              : mocks.length === 1
+                ? " Nachfolgend unser Mock-Draft-Pick mit Begründung und die passenden verfügbaren Prospects aus dem Big Board."
+                : " Nachfolgend die passenden Prospects aus dem Big Board – für einen späteren Pick oder einen Trade zurück in Runde 1."}
           </p>
         </div>
 
-        {/* Projizierter Pick */}
-        {mock && (
-          <Reveal className="mb-8">
+        {/* Mock-Draft-Picks (0, 1 oder mehrere) */}
+        {mocks.length > 0 && (
+          <Reveal className="mb-10">
             <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-muted">
-              Unser Mock-Draft-Pick
+              {mocks.length > 1 ? "Unsere Mock-Draft-Picks" : "Unser Mock-Draft-Pick"}
             </h2>
-            <Link
-              href={`/player/${getPlayerSlug(mock.player)}`}
-              className="group flex items-center gap-4 rounded-2xl border border-primary/30 bg-primary-glow p-5 transition-all hover:border-primary/60"
-            >
-              <span className="font-mono text-3xl font-black text-primary">
-                {mock.pick}
-              </span>
-              <div className="relative h-12 w-12 overflow-hidden rounded-full border border-border bg-surface-light">
-                <PlayerAvatar name={mock.player} size="sm" />
-              </div>
-              <div className="min-w-0 flex-1">
-                <p className="truncate text-base font-black uppercase text-foreground group-hover:text-primary">
-                  {mock.player}
-                </p>
-                <p className="truncate text-xs text-muted">
-                  {mock.position} · {mock.college}
-                </p>
-              </div>
-            </Link>
+            <div className="flex flex-col gap-3">
+              {mocks.map((mock) => (
+                <Link
+                  key={mock.pick}
+                  href={`/player/${getPlayerSlug(mock.player)}`}
+                  className="group block rounded-2xl border border-primary/30 bg-primary-glow p-5 transition-all hover:border-primary/60"
+                >
+                  <div className="flex items-center gap-4">
+                    <span className="font-mono text-3xl font-black text-primary">{mock.pick}</span>
+                    <div className="relative h-12 w-12 overflow-hidden rounded-full border border-border bg-surface-light">
+                      <PlayerAvatar name={mock.player} size="sm" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-base font-black uppercase text-foreground group-hover:text-primary">
+                        {mock.player}
+                      </p>
+                      <p className="truncate text-xs text-muted">
+                        {mock.position} · {mock.college}
+                        {mock.viaTeam ? ` · Pick via ${mock.viaTeam}` : ""}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="mt-3 text-sm leading-relaxed text-foreground/85">{mock.reason_de}</p>
+                </Link>
+              ))}
+            </div>
           </Reveal>
         )}
 
@@ -162,9 +180,7 @@ export default async function TeamPage({
                   </span>
                 </h3>
                 {players.length === 0 ? (
-                  <p className="text-xs text-muted">
-                    Aktuell kein passender Prospect im Board.
-                  </p>
+                  <p className="text-xs text-muted">Aktuell kein passender Prospect im Board.</p>
                 ) : (
                   <div className="grid gap-2 sm:grid-cols-3">
                     {players.map((p) => (
@@ -182,9 +198,7 @@ export default async function TeamPage({
                           </span>
                           <span className="block truncate text-[10px] text-muted">
                             {p.college}
-                            {p.ranking_overall != null
-                              ? ` · #${p.ranking_overall}`
-                              : ""}
+                            {p.ranking_overall != null ? ` · #${p.ranking_overall}` : ""}
                           </span>
                         </span>
                       </Link>
@@ -196,10 +210,8 @@ export default async function TeamPage({
           </div>
         </Reveal>
 
-        <AdSense slot="6888694163" layout="in-article" className="my-10" />
-
         {pickNeighbors.length > 0 && (
-          <Reveal className="mb-10">
+          <Reveal className="my-10">
             <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-primary">
               Weitere Teams in der Draft-Reihenfolge
             </h2>
@@ -211,11 +223,9 @@ export default async function TeamPage({
                   className="group flex items-center gap-2 rounded-full border border-border bg-surface px-3.5 py-1.5 text-xs transition-all hover:border-primary/50"
                 >
                   <span className="rounded-full bg-primary-glow px-1.5 font-mono text-[10px] font-bold text-primary">
-                    #{t.pick}
+                    {t.pick != null ? `#${t.pick}` : "–"}
                   </span>
-                  <span className="font-bold text-foreground group-hover:text-primary">
-                    {t.team}
-                  </span>
+                  <span className="font-bold text-foreground group-hover:text-primary">{t.team}</span>
                 </Link>
               ))}
             </div>

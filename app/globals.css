@@ -81,35 +81,6 @@ input:focus-visible {
   }
 }
 
-/* Anzeigen: zentriert, und komplett ausblenden (inkl. Rand), solange Google
-   keine Anzeige ausliefert – verhindert leeren Weißraum. */
-.ad-slot {
-  text-align: center;
-  /* Liefert AdSense den Block aus, bevor die Slot-Breite feststeht, faellt
-     Google auf eine feste Breite zurueck (Konsolenfehler "No slot size for
-     availableWidth=0") und haengt einen iframe-Host ein, der breiter ist als
-     das Viewport – auf Mobil scrollt dann sonst die ganze Seite horizontal.
-     WICHTIG: hier "hidden" und nicht "auto" verwenden. Mit "auto" wird der
-     Anzeigenblock selbst zum Scroll-Container und zeigt auf jeder Seite
-     Scrollbalken um eine leere Flaeche. */
-  max-width: 100%;
-  overflow: hidden;
-}
-.ad-slot > ins.adsbygoogle {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-/* Nur anzeigen, wenn Google die Anzeige tatsaechlich ausgeliefert hat.
-   Frueher wurde nur auf data-ad-status="unfilled" geprueft – das greift aber
-   nicht, wenn AdSense gar kein Status-Attribut setzt (nicht freigegeben,
-   blockiert oder nie initialisiert). Genau dann blieb auf jeder Seite ein
-   rund 280 px hoher leerer Block stehen. Die Pruefung laeuft deshalb
-   umgekehrt: sichtbar nur bei "filled". */
-.ad-slot:not(:has(> ins.adsbygoogle[data-ad-status="filled"])) {
-  display: none !important;
-}
-
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;

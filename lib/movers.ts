@@ -16,14 +16,30 @@ const allMovers: Mover[] = [];
 const moverByName = new Map<string, { delta: number; isNew: boolean }>();
 
 if (hasHistory) {
-  for (const p of getPlayers()) {
-    if (p.ranking_overall == null) continue;
-    const prev = previous[getPlayerSlug(p.name)];
+  // Bewegung wird RELATIV gemessen: nur gegenüber den Spielern, die in beiden
+  // Ständen gerankt sind. Sonst gälte jeder, der durch neu aufgenommene
+  // Spieler nach hinten rutscht, als "Absteiger" – obwohl sich seine Position
+  // im Feld gar nicht verändert hat (so standen im September alle deutschen
+  // Prospects mit "▼ 14" in der Absteiger-Liste).
+  const prevRank = (p: Player) => previous[getPlayerSlug(p.name)];
+  const ranked = getPlayers().filter((p) => p.ranking_overall != null);
+  const common = ranked.filter((p) => prevRank(p) != null);
+  const oldOrder = new Map(
+    [...common].sort((a, b) => prevRank(a) - prevRank(b)).map((p, i) => [p.name, i] as const)
+  );
+  const newOrder = new Map(
+    [...common]
+      .sort((a, b) => (a.ranking_overall ?? 0) - (b.ranking_overall ?? 0))
+      .map((p, i) => [p.name, i] as const)
+  );
+
+  for (const p of ranked) {
     let entry: Mover | null = null;
-    if (prev == null) {
+    if (prevRank(p) == null) {
       entry = { player: p, delta: 0, isNew: true };
-    } else if (prev !== p.ranking_overall) {
-      entry = { player: p, delta: prev - p.ranking_overall, isNew: false };
+    } else {
+      const delta = oldOrder.get(p.name)! - newOrder.get(p.name)!;
+      if (delta !== 0) entry = { player: p, delta, isNew: false };
     }
     if (entry) {
       allMovers.push(entry);

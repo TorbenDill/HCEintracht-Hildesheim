@@ -2,7 +2,12 @@
 
 import { useState } from "react";
 import { getPlayerPhoto } from "@/lib/player-images";
+import { getPlayerSlug } from "@/lib/slug";
+import visuals from "@/data/player-visuals.json";
 import { cn } from "@/lib/utils";
+
+type Visual = { number: string | null; primary: string | null; secondary: string };
+const VISUALS = visuals as Record<string, Visual>;
 
 function initials(name: string): string {
   const parts = name.trim().split(/\s+/).filter(Boolean);
@@ -11,29 +16,23 @@ function initials(name: string): string {
   return (first + last).toUpperCase();
 }
 
-// Deterministische Farbwahl pro Name – jeder Spieler bekommt immer denselben
-// Verlauf, ohne externe Bild-Requests (keine 404s/Fehlermeldungen).
-const GRADIENTS = [
-  "from-cyan-600/25 via-surface to-background",
-  "from-emerald-600/25 via-surface to-background",
-  "from-violet-600/25 via-surface to-background",
-  "from-amber-600/25 via-surface to-background",
-  "from-rose-600/25 via-surface to-background",
-  "from-sky-600/25 via-surface to-background",
-  "from-lime-600/25 via-surface to-background",
-  "from-fuchsia-600/25 via-surface to-background",
-];
-
-function hash(name: string): number {
-  let h = 0;
-  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
-  return h;
+/** Hex-Farbe um einen Faktor abdunkeln (für den Trikot-Verlauf). */
+function shade(hex: string, factor: number): string {
+  const n = hex.replace("#", "");
+  const c = [0, 2, 4].map((i) =>
+    Math.max(0, Math.min(255, Math.round(parseInt(n.slice(i, i + 2), 16) * factor)))
+  );
+  return `#${c.map((v) => v.toString(16).padStart(2, "0")).join("")}`;
 }
 
+const NUMBER_SIZE = { sm: "text-sm", md: "text-3xl", lg: "text-[9rem]" } as const;
+
 /**
- * Spieler-Avatar: zeigt ein frei lizenziertes Wikimedia-Foto, sofern vorhanden,
- * sonst einen Initialen-Avatar mit festem Farbverlauf. Bei Ladefehler des Fotos
- * wird sauber auf den Avatar zurückgefallen. Füllt den (relativen) Container.
+ * Spieler-Avatar: zeigt ein frei lizenziertes Foto (Wikimedia), sofern
+ * vorhanden. Sonst eine Trikot-Karte in den Teamfarben mit der echten
+ * Rückennummer aus dem offiziellen Roster (data/player-visuals.json) –
+ * ohne Logos, ohne externe Requests. Bei Ladefehler des Fotos wird sauber auf
+ * die Karte zurückgefallen. Füllt den (relativen) Container.
  */
 export default function PlayerAvatar({
   name,
@@ -52,27 +51,62 @@ export default function PlayerAvatar({
         src={photo.url}
         alt={name}
         loading="lazy"
+        decoding="async"
         onError={() => setFailed(true)}
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover object-top"
       />
     );
   }
 
-  const textSize =
-    size === "lg" ? "text-6xl" : size === "sm" ? "text-[11px]" : "text-base";
-  const gradient = GRADIENTS[hash(name) % GRADIENTS.length];
+  const v = VISUALS[getPlayerSlug(name)];
+  const primary = v?.primary ?? "#3f3f46";
+  const secondary = v?.secondary ?? "#ffffff";
+  const label = v?.number ? `${name}, Trikotnummer ${v.number}` : name;
 
   return (
     <div
-      className={cn(
-        "absolute inset-0 flex items-center justify-center bg-gradient-to-br font-black tracking-tight text-foreground/85",
-        gradient,
-        textSize
-      )}
       role="img"
-      aria-label={name}
+      aria-label={label}
+      className="absolute inset-0 flex items-center justify-center overflow-hidden"
+      style={{ background: `linear-gradient(150deg, ${primary} 0%, ${shade(primary, 0.55)} 100%)` }}
     >
-      {initials(name)}
+      {/* Ärmelstreifen als dezentes Trikot-Motiv (nicht bei Mini-Avataren) */}
+      {size !== "sm" && (
+        <>
+          <span
+            aria-hidden="true"
+            className="absolute inset-x-0 bottom-[18%] h-[5%] opacity-70"
+            style={{ backgroundColor: secondary }}
+          />
+          <span
+            aria-hidden="true"
+            className="absolute inset-x-0 bottom-[10%] h-[2.5%] opacity-50"
+            style={{ backgroundColor: secondary }}
+          />
+        </>
+      )}
+      <span
+        aria-hidden="true"
+        className={cn(
+          "relative font-display font-bold leading-none tracking-tight",
+          NUMBER_SIZE[size]
+        )}
+        style={{
+          color: secondary,
+          textShadow: size === "sm" ? undefined : "0 2px 0 rgba(0,0,0,0.25)",
+        }}
+      >
+        {v?.number ?? initials(name)}
+      </span>
+      {size === "lg" && (
+        <span
+          aria-hidden="true"
+          className="absolute left-4 top-4 font-mono text-xs font-bold uppercase tracking-[0.3em] opacity-80"
+          style={{ color: secondary }}
+        >
+          {initials(name)}
+        </span>
+      )}
     </div>
   );
 }

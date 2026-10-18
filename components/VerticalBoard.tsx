@@ -1,198 +1,153 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
-import {
-  getTop100,
-  getAllPositions,
-  getPlayersByPosition,
-  getPlayerSlug,
-  type Player,
-} from "@/lib/player-service";
 import PlayerAvatar from "@/components/PlayerAvatar";
-import { getMover } from "@/lib/movers";
+import type { BoardRow } from "@/lib/board-rows";
 import { cn } from "@/lib/utils";
 
-const POSITION_ORDER = [
-  "QB", "RB", "WR", "TE", "OT", "G", "C", "IOL", "EDGE", "DT", "LB", "CB", "S", "K", "P", "LS",
-];
+export const POSITION_ORDER = ["QB", "RB", "WR", "TE", "OT", "IOL", "EDGE", "DT", "LB", "CB", "S"];
 
-export default function VerticalBoard() {
-  const [selectedPosition, setSelectedPosition] = useState<string>("ALL");
-  const allPositions = getAllPositions();
-  const positions = [
-    ...POSITION_ORDER.filter((p) => allPositions.includes(p)),
-    ...allPositions.filter((p) => !POSITION_ORDER.includes(p)),
-  ];
+export default function VerticalBoard({ rows }: { rows: BoardRow[] }) {
+  const [filter, setFilter] = useState<string>("TOP");
+  const positions = useMemo(() => {
+    const present = new Set(rows.map((r) => r.position));
+    return [
+      ...POSITION_ORDER.filter((p) => present.has(p)),
+      ...[...present].filter((p) => !POSITION_ORDER.includes(p)),
+    ];
+  }, [rows]);
 
-  const players: Player[] =
-    selectedPosition === "ALL"
-      ? getTop100()
-      : getPlayersByPosition(selectedPosition);
+  const visible =
+    filter === "TOP"
+      ? rows.filter((r) => r.rank <= 100)
+      : filter === "ALL"
+        ? rows
+        : rows.filter((r) => r.position === filter);
+  const byPosition = filter !== "TOP" && filter !== "ALL";
+
+  const chip = (key: string, label: string) => (
+    <button
+      key={key}
+      type="button"
+      onClick={() => setFilter(key)}
+      aria-pressed={filter === key}
+      className={cn(
+        "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
+        filter === key
+          ? "bg-primary text-background glow-primary"
+          : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
+      )}
+    >
+      {label}
+    </button>
+  );
 
   return (
     <div>
-      {/* Position Filter */}
-      <div className="mb-6 flex flex-wrap gap-2">
-        <button
-          onClick={() => setSelectedPosition("ALL")}
-          aria-pressed={selectedPosition === "ALL"}
-          className={cn(
-            "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
-            selectedPosition === "ALL"
-              ? "bg-primary text-background glow-primary"
-              : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
-          )}
-        >
-          Top 100
-        </button>
-        {positions.map((pos) => (
-          <button
-            key={pos}
-            onClick={() => setSelectedPosition(pos)}
-            aria-pressed={selectedPosition === pos}
-            className={cn(
-              "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
-              selectedPosition === pos
-                ? "bg-primary text-background glow-primary"
-                : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
-            )}
-          >
-            {pos}
-          </button>
-        ))}
+      <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label="Board filtern">
+        {chip("TOP", "Top 100")}
+        {chip("ALL", `Alle ${rows.length}`)}
+        {positions.map((p) => chip(p, p))}
       </div>
 
-      {/* Table Header */}
-      <div className="mb-2 grid grid-cols-[44px_36px_1fr_44px] items-center gap-2 px-3 text-[10px] font-bold uppercase tracking-widest text-muted sm:grid-cols-[60px_44px_1fr_60px_110px] sm:gap-3 sm:px-4 md:grid-cols-[60px_44px_1fr_60px_110px_90px]">
-        <span>Rank</span>
-        <span></span>
+      <div className="mb-2 grid grid-cols-[40px_36px_1fr_44px] items-center gap-2 px-3 text-[10px] font-bold uppercase tracking-widest text-muted sm:grid-cols-[56px_44px_1fr_56px_120px] sm:gap-3 sm:px-4 lg:grid-cols-[56px_44px_1fr_56px_130px_190px]">
+        <span>{byPosition ? "Pos." : "Rang"}</span>
+        <span />
         <span>Spieler</span>
         <span>Pos</span>
         <span className="hidden sm:block">College</span>
-        <span className="hidden text-right md:block">Forstner</span>
+        <span className="hidden text-right lg:block">Saison 2026</span>
       </div>
 
-      {/* Player Rows */}
-      <div className="flex flex-col gap-1">
-        {players.map((player) => {
-          const rank =
-            selectedPosition === "ALL"
-              ? player.ranking_overall
-              : player.ranking_pos;
+      <ol className="flex flex-col gap-1">
+        {visible.map((r) => {
+          const rank = byPosition ? r.posRank : r.rank;
           return (
-            <Link
-              key={`${player.name}-${player.position}`}
-              href={`/player/${getPlayerSlug(player.name)}`}
-              className="group grid grid-cols-[44px_36px_1fr_44px] items-center gap-2 rounded-xl border border-transparent bg-surface px-3 py-3 transition-all hover:border-primary/30 hover:bg-surface-light sm:grid-cols-[60px_44px_1fr_60px_110px] sm:gap-3 sm:px-4 md:grid-cols-[60px_44px_1fr_60px_110px_90px]"
-            >
-              {/* Rank */}
-              <span
-                className={cn(
-                  "font-mono text-lg font-black sm:text-2xl",
-                  rank && rank <= 5
-                    ? "text-primary text-glow-primary"
-                    : rank && rank <= 15
-                      ? "text-accent text-glow-accent"
-                      : "text-muted"
-                )}
+            <li key={r.slug}>
+              <Link
+                href={`/player/${r.slug}`}
+                className="group grid grid-cols-[40px_36px_1fr_44px] items-center gap-2 rounded-xl border border-transparent bg-surface px-3 py-3 transition-all hover:border-primary/30 hover:bg-surface-light sm:grid-cols-[56px_44px_1fr_56px_120px] sm:gap-3 sm:px-4 lg:grid-cols-[56px_44px_1fr_56px_130px_190px]"
               >
-                #{rank ?? "-"}
-              </span>
+                <span
+                  className={cn(
+                    "font-mono text-lg font-black sm:text-2xl",
+                    rank <= 5 ? "text-primary text-glow-primary" : rank <= 15 ? "text-accent" : "text-muted"
+                  )}
+                >
+                  {rank}
+                </span>
 
-              {/* Player Image */}
-              <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border bg-surface-light sm:h-10 sm:w-10">
-                <PlayerAvatar name={player.name} size="sm" />
-              </div>
+                <span className="relative h-8 w-8 overflow-hidden rounded-full border border-border bg-surface-light sm:h-10 sm:w-10">
+                  <PlayerAvatar name={r.name} size="sm" />
+                </span>
 
-              {/* Name & Piktogramme */}
-              <div className="min-w-0">
-                <p className="flex items-center gap-1.5 truncate text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
-                  <span className="truncate">{player.name}</span>
-                  {player.deutsch && (
-                    <span
-                      title="Deutscher Prospect"
-                      aria-label="Deutscher Prospect"
-                      className="flex-shrink-0 text-xs"
-                    >
-                      🇩🇪
+                <span className="min-w-0">
+                  <span className="flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
+                    <span className="truncate">{r.name}</span>
+                    {r.deutsch && (
+                      <span title="Deutscher Prospect" aria-label="Deutscher Prospect" className="flex-shrink-0 text-xs">
+                        🇩🇪
+                      </span>
+                    )}
+                    {r.hasNews && (
+                      <span
+                        title="Aktuelle Lage: Verletzung oder Sperre – siehe Profil"
+                        className="flex-shrink-0 rounded bg-amber-500/15 px-1 py-0.5 text-[8px] font-bold normal-case text-amber-700 dark:text-amber-400"
+                      >
+                        News
+                      </span>
+                    )}
+                    <MoverBadge mover={r.mover} />
+                  </span>
+                  <span className="block truncate text-[11px] text-muted sm:hidden">
+                    {r.college}
+                    {r.season ? ` · ${r.season}` : ""}
+                  </span>
+                  {r.tags.length > 0 && (
+                    <span className="mt-0.5 hidden gap-1 sm:flex">
+                      {r.tags.map((t) => (
+                        <span key={t} className="rounded bg-primary-glow px-1.5 py-0.5 text-[9px] font-medium text-primary">
+                          {t}
+                        </span>
+                      ))}
                     </span>
                   )}
-                  <MoverBadge name={player.name} />
-                </p>
-                <p className="truncate text-[10px] text-muted sm:hidden">
-                  {player.college}
-                </p>
-                {player.piktogramme.length > 0 && (
-                  <div className="mt-0.5 hidden gap-1 sm:flex">
-                    {player.piktogramme.slice(0, 3).map((p) => (
-                      <span
-                        key={p}
-                        className="rounded bg-primary-glow px-1.5 py-0.5 text-[9px] font-medium text-primary"
-                      >
-                        {p}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
+                </span>
 
-              {/* Position */}
-              <span className="rounded bg-surface-light px-1.5 py-1 text-center text-[10px] font-bold uppercase text-primary sm:px-2 sm:text-xs">
-                {player.position}
-              </span>
+                <span className="rounded bg-surface-light px-1.5 py-1 text-center text-[10px] font-bold uppercase text-primary sm:px-2 sm:text-xs">
+                  {r.position}
+                </span>
 
-              {/* College */}
-              <span className="hidden truncate text-xs text-muted sm:block">
-                {player.college}
-              </span>
+                <span className="hidden truncate text-xs text-muted sm:block">{r.college}</span>
 
-              {/* Forstner Rating */}
-              <div className="hidden justify-end md:flex">
-                {player.forstner_statement ? (
-                  <span className="rounded bg-accent-glow px-2 py-1 text-[10px] font-bold text-accent">
-                    SCOUTED
-                  </span>
-                ) : (
-                  <span className="text-[10px] text-muted/50">-</span>
-                )}
-              </div>
-            </Link>
+                <span className="hidden text-right font-mono text-[11px] text-foreground/80 lg:block">
+                  {r.season ?? <span className="text-muted/50">–</span>}
+                </span>
+              </Link>
+            </li>
           );
         })}
-      </div>
-
-      {players.length === 0 && (
-        <div className="py-20 text-center text-muted">
-          Keine Spieler für diese Position gefunden.
-        </div>
-      )}
+      </ol>
     </div>
   );
 }
 
-function MoverBadge({ name }: { name: string }) {
-  const m = getMover(name);
-  if (!m) return null;
-  if (m.isNew) {
+function MoverBadge({ mover }: { mover: BoardRow["mover"] }) {
+  if (!mover) return null;
+  if (mover.isNew) {
     return (
-      <span className="flex-shrink-0 rounded bg-primary/15 px-1 py-0.5 text-[8px] font-bold text-primary">
-        NEU
-      </span>
+      <span className="flex-shrink-0 rounded bg-primary/15 px-1 py-0.5 text-[8px] font-bold text-primary">NEU</span>
     );
   }
-  if (m.delta === 0) return null;
-  const up = m.delta > 0;
+  const up = mover.delta > 0;
   return (
     <span
-      className={cn(
-        "flex-shrink-0 font-mono text-[9px] font-bold",
-        up ? "text-accent" : "text-red-700"
-      )}
+      className={cn("flex-shrink-0 font-mono text-[9px] font-bold", up ? "text-accent" : "text-red-700")}
+      title={`${up ? "Aufgestiegen" : "Abgestiegen"} um ${Math.abs(mover.delta)} Plätze seit dem letzten Update`}
     >
-      {up ? "\u25B2" : "\u25BC"}
-      {Math.abs(m.delta)}
+      {up ? "▲" : "▼"}
+      {Math.abs(mover.delta)}
     </span>
   );
 }
-

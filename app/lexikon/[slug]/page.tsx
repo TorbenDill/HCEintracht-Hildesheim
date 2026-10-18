@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import lexikon from "@/data/lexikon.json";
 import { absoluteUrl } from "@/lib/site";
-import AdSense from "@/components/AdSense";
 
 type Entry = {
   slug: string;
@@ -71,20 +70,6 @@ export default async function LexikonEntryPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-3xl items-center gap-4 px-6 py-3">
-          <Link
-            href="/lexikon"
-            className="text-xs font-bold uppercase tracking-widest text-muted transition-colors hover:text-primary"
-          >
-            &larr; Lexikon
-          </Link>
-          <span className="text-muted/30" aria-hidden="true">|</span>
-          <span className="text-xs uppercase tracking-wider text-primary">
-            {entry.category}
-          </span>
-        </div>
-      </div>
 
       <article className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-10">
         <h1 className="mb-4 font-display text-4xl font-semibold uppercase tracking-tight text-foreground lg:text-5xl">
@@ -105,7 +90,6 @@ export default async function LexikonEntryPage({
           ))}
         </div>
 
-        <AdSense slot="6888694163" layout="in-article" className="my-10" />
 
         <section className="rounded-2xl border border-border bg-surface p-6">
           <h2 className="mb-4 text-sm font-black tracking-tight text-foreground">

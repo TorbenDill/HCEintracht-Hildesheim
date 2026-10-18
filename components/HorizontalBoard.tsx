@@ -1,55 +1,33 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
-import {
-  getAllPositions,
-  getPlayersByPosition,
-  getPlayerSlug,
-} from "@/lib/player-service";
 import PlayerAvatar from "@/components/PlayerAvatar";
+import { POSITION_ORDER } from "@/components/VerticalBoard";
+import type { BoardRow } from "@/lib/board-rows";
 import { cn } from "@/lib/utils";
 
-const POSITION_ORDER = [
-  "QB", "RB", "WR", "TE", "OT", "G", "C", "IOL", "EDGE", "DT", "LB", "CB", "S", "K", "P", "LS",
-];
-
-export default function HorizontalBoard() {
+/** Positions-Matrix: je Position die zehn besten Prospects nebeneinander. */
+export default function HorizontalBoard({ rows }: { rows: BoardRow[] }) {
   const [filter, setFilter] = useState<string>("ALL");
-  const allPositions = getAllPositions();
-
-  const orderedPositions = POSITION_ORDER.filter((p) =>
-    allPositions.includes(p)
-  );
-  // Add any positions not in our predefined order
-  allPositions.forEach((p) => {
-    if (!orderedPositions.includes(p)) orderedPositions.push(p);
-  });
-
-  const visiblePositions =
-    filter === "ALL"
-      ? orderedPositions
-      : orderedPositions.filter((p) => p === filter);
+  const positions = useMemo(() => {
+    const present = new Set(rows.map((r) => r.position));
+    return [
+      ...POSITION_ORDER.filter((p) => present.has(p)),
+      ...[...present].filter((p) => !POSITION_ORDER.includes(p)),
+    ];
+  }, [rows]);
+  const visiblePositions = filter === "ALL" ? positions : positions.filter((p) => p === filter);
 
   return (
     <div>
-      {/* Position Filter */}
-      <div className="mb-6 flex flex-wrap gap-2">
-        <button
-          onClick={() => setFilter("ALL")}
-          className={cn(
-            "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
-            filter === "ALL"
-              ? "bg-primary text-background glow-primary"
-              : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
-          )}
-        >
-          Alle
-        </button>
-        {orderedPositions.map((pos) => (
+      <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label="Positionen filtern">
+        {["ALL", ...positions].map((pos) => (
           <button
             key={pos}
+            type="button"
             onClick={() => setFilter(pos)}
+            aria-pressed={filter === pos}
             className={cn(
               "rounded-full px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider transition-all",
               filter === pos
@@ -57,101 +35,56 @@ export default function HorizontalBoard() {
                 : "border border-border bg-surface text-muted hover:border-primary hover:text-primary"
             )}
           >
-            {pos}
+            {pos === "ALL" ? "Alle Positionen" : pos}
           </button>
         ))}
       </div>
 
-      {/* Horizontal Scrollable Matrix */}
       <div className="overflow-x-auto pb-4">
         <div className="flex gap-4" style={{ minWidth: "max-content" }}>
           {visiblePositions.map((position) => {
-            const posPlayers = getPlayersByPosition(position).slice(0, 10);
+            const posRows = rows.filter((r) => r.position === position).slice(0, 10);
             return (
-              <div
-                key={position}
-                className="w-[220px] flex-shrink-0"
-              >
-                {/* Position Header */}
+              <section key={position} className="w-[230px] flex-shrink-0" aria-label={`Top ${position}`}>
                 <div className="mb-3 flex items-center gap-2 border-b border-primary/30 pb-2">
-                  <span className="text-lg font-black uppercase text-primary text-glow-primary">
-                    {position}
-                  </span>
-                  <span className="text-[10px] font-medium text-muted">
-                    {posPlayers.length} Spieler
-                  </span>
+                  <span className="text-lg font-black uppercase text-primary text-glow-primary">{position}</span>
+                  <Link href={`/position/${position.toLowerCase()}`} className="ml-auto text-[10px] font-medium text-muted hover:text-primary">
+                    Ranking →
+                  </Link>
                 </div>
-
-                {/* Player Cards */}
                 <div className="flex flex-col gap-2">
-                  {posPlayers.map((player) => (
+                  {posRows.map((r) => (
                     <Link
-                      key={`${player.name}-${player.position}`}
-                      href={`/player/${getPlayerSlug(player.name)}`}
+                      key={r.slug}
+                      href={`/player/${r.slug}`}
                       className="group rounded-xl border border-border bg-surface p-3 transition-all hover:border-primary/40 hover:bg-surface-light"
                     >
                       <div className="mb-2 flex items-center gap-2">
-                        {/* Rank Badge */}
                         <span
                           className={cn(
                             "flex h-6 w-6 items-center justify-center rounded text-[10px] font-black",
-                            player.ranking_pos <= 3
-                              ? "bg-primary text-background"
-                              : "bg-surface-light text-muted"
+                            r.posRank <= 3 ? "bg-primary text-background" : "bg-surface-light text-muted"
                           )}
                         >
-                          {player.ranking_pos}
+                          {r.posRank}
                         </span>
-
-                        {/* Image */}
-                        <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border">
-                          <PlayerAvatar name={player.name} size="sm" />
-                        </div>
-
-                        {/* Overall Rank */}
-                        {player.ranking_overall && (
-                          <span className="ml-auto text-[10px] font-mono text-muted">
-                            OVR #{player.ranking_overall}
-                          </span>
-                        )}
+                        <span className="relative h-8 w-8 overflow-hidden rounded-full border border-border">
+                          <PlayerAvatar name={r.name} size="sm" />
+                        </span>
+                        <span className="ml-auto font-mono text-[10px] text-muted">#{r.rank}</span>
                       </div>
-
-                      {/* Name */}
                       <p className="truncate text-xs font-bold uppercase tracking-wide text-foreground group-hover:text-primary">
-                        {player.name}
+                        {r.name}
+                        {r.deutsch && <span className="ml-1" aria-label="Deutscher Prospect">🇩🇪</span>}
                       </p>
-
-                      {/* College */}
-                      <p className="truncate text-[10px] text-muted">
-                        {player.college}
-                      </p>
-
-                      {/* Piktogramme */}
-                      {player.piktogramme.length > 0 && (
-                        <div className="mt-1.5 flex flex-wrap gap-1">
-                          {player.piktogramme.slice(0, 2).map((p) => (
-                            <span
-                              key={p}
-                              className="rounded bg-primary-glow px-1 py-0.5 text-[8px] font-medium text-primary"
-                            >
-                              {p}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-
-                      {/* Forstner Badge */}
-                      {player.forstner_statement && (
-                        <div className="mt-1.5 border-t border-border pt-1.5">
-                          <p className="line-clamp-2 text-[9px] italic text-accent/70">
-                            &ldquo;{player.forstner_statement}&rdquo;
-                          </p>
-                        </div>
+                      <p className="truncate text-[10px] text-muted">{r.college}</p>
+                      {r.season && (
+                        <p className="mt-1.5 truncate font-mono text-[10px] text-foreground/75">{r.season}</p>
                       )}
                     </Link>
                   ))}
                 </div>
-              </div>
+              </section>
             );
           })}
         </div>

@@ -2,13 +2,16 @@
 
 import Link from "next/link";
 import { useWatchlist } from "@/lib/useWatchlist";
-import { getPlayerBySlug, getPlayerSlug } from "@/lib/player-service";
-import { getMover } from "@/lib/movers";
+import { getMinPlayer } from "@/lib/players-min";
+import { getPlayerSlug } from "@/lib/slug";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import StarButton from "@/components/StarButton";
 import { cn } from "@/lib/utils";
 
-export default function Merkliste() {
+type Movers = Record<string, { delta: number; isNew: boolean } | null>;
+
+/** Merkliste aus dem localStorage; Auf-/Abstiege kommen vom Server (Prop). */
+export default function Merkliste({ movers }: { movers: Movers }) {
   const { list, ready } = useWatchlist();
 
   if (!ready) {
@@ -16,7 +19,7 @@ export default function Merkliste() {
   }
 
   const players = list
-    .map((slug) => getPlayerBySlug(slug))
+    .map((slug) => getMinPlayer(slug))
     .filter((p): p is NonNullable<typeof p> => Boolean(p))
     .sort((a, b) => (a.ranking_overall ?? 999) - (b.ranking_overall ?? 999));
 
@@ -43,7 +46,7 @@ export default function Merkliste() {
   return (
     <div className="flex flex-col gap-2">
       {players.map((p) => {
-        const mover = getMover(p.name);
+        const mover = movers[getPlayerSlug(p.name)] ?? null;
         return (
           <div
             key={p.name}
