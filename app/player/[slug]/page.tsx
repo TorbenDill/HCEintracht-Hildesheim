@@ -123,11 +123,18 @@ export default async function PlayerPage({
       ];
 
   const profileUrl = absoluteUrl(`/player/${getPlayerSlug(player.name)}`);
-  const citations = (player.sources ?? []).map((s) => ({
-    "@type": "CreativeWork",
-    name: s,
-    url: sourceUrl(s, player.source_urls),
-  }));
+  /* Nur Quellen mit praeziser Artikel-URL als citation ausgeben. Vorher lief
+     hier sourceUrl() durch, das auf die Domain-Startseite zurueckfaellt - damit
+     behauptete das strukturierte Datum eine Belegstelle, die in Wahrheit nur
+     die Startseite des Mediums war. Eine nicht belegende citation ist fuer
+     Such- und Antwortmaschinen schlechter als keine. */
+  const citations = (player.sources ?? [])
+    .filter((s) => player.source_urls?.[s])
+    .map((s) => ({
+      "@type": "CreativeWork",
+      name: s,
+      url: player.source_urls![s],
+    }));
   const inches = parseHeight(player.height);
   const pounds = parseInt(player.weight, 10);
   const jsonLd = {
@@ -496,22 +503,34 @@ export default async function PlayerPage({
                   Belege zu {player.name}
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {player.sources.map((s) => (
-                    <a
-                      key={s}
-                      href={sourceUrl(s, player.source_urls)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title={
-                        player.source_urls?.[s]
-                          ? "Direkter Link zum Artikel"
-                          : undefined
-                      }
-                      className="rounded-full border border-border bg-background px-3 py-1 text-xs text-foreground/80 transition-colors hover:border-primary/40 hover:text-primary"
-                    >
-                      {s}
-                    </a>
-                  ))}
+                  {/* Quellen mit praeziser Artikel-URL sind durch das Pfeil-
+                      Zeichen erkennbar. Ohne diese Unterscheidung sahen beide
+                      Faelle gleich aus, und ein Klick landete unbemerkt auf der
+                      Startseite des Mediums statt auf dem Beleg. */}
+                  {player.sources.map((s) => {
+                    const direkt = player.source_urls?.[s];
+                    return (
+                      <a
+                        key={s}
+                        href={sourceUrl(s, player.source_urls)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={
+                          direkt
+                            ? "Direkter Link zum Artikel"
+                            : `Kein Artikel-Link hinterlegt – fuehrt zur Startseite von ${s}`
+                        }
+                        className={
+                          direkt
+                            ? "rounded-full border border-border bg-background px-3 py-1 text-xs text-foreground/80 transition-colors hover:border-primary/40 hover:text-primary"
+                            : "rounded-full border border-dashed border-border/70 bg-background px-3 py-1 text-xs text-muted transition-colors hover:border-primary/40 hover:text-primary"
+                        }
+                      >
+                        {s}
+                        {direkt && <span aria-hidden="true"> ↗</span>}
+                      </a>
+                    );
+                  })}
                 </div>
               </div>
             )}
