@@ -5,7 +5,7 @@
     {
       "name": "Gavin Sukup",
       "position": "QB",
-      "college": "UIndy",
+      "college": "Indianapolis",
       "division": "NCAA Division II",
       "class_year": "Senior",
       "height": "6'1\"",
@@ -260,7 +260,7 @@
     {
       "name": "Gage Florence",
       "position": "WR",
-      "college": "MSU Moorhead",
+      "college": "Minnesota State Moorhead",
       "division": "NCAA Division II",
       "class_year": "Senior",
       "height": "5'10\"",
@@ -468,7 +468,7 @@
     },
     {
       "name": "Jake Mitchell",
-      "position": "OL",
+      "position": "OT",
       "college": "Harding",
       "division": "NCAA Division II",
       "class_year": "Senior",
@@ -654,7 +654,7 @@
     },
     {
       "name": "Tim Anderson",
-      "position": "OL",
+      "position": "OT",
       "college": "Ferris State",
       "division": "NCAA Division II",
       "class_year": "Senior",
@@ -835,7 +835,7 @@
     },
     {
       "name": "Michael Shimek",
-      "position": "DL",
+      "position": "DE",
       "college": "Ashland",
       "division": "NCAA Division II",
       "class_year": "Senior",
@@ -1133,7 +1133,7 @@
     },
     {
       "name": "Justin Payoute",
-      "position": "DB",
+      "position": "S",
       "college": "Ferris State",
       "division": "NCAA Division II",
       "class_year": "Senior",
@@ -1567,7 +1567,7 @@
     {
       "name": "Jack Curtis",
       "position": "QB",
-      "college": "Carleton",
+      "college": "Carleton College",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -1596,7 +1596,7 @@
     {
       "name": "Kaleb Blaha",
       "position": "QB",
-      "college": "UW-River Falls",
+      "college": "Wisconsin-River Falls",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'2\"",
@@ -1689,7 +1689,7 @@
     {
       "name": "Montie Quinn",
       "position": "RB",
-      "college": "Curry",
+      "college": "Curry College",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "5'9\"",
@@ -1750,7 +1750,7 @@
     {
       "name": "Albert Rundell",
       "position": "WR",
-      "college": "Bethel",
+      "college": "Bethel (MN)",
       "division": "NCAA Division III",
       "class_year": "Junior",
       "height": "6'1\"",
@@ -2459,7 +2459,7 @@
     {
       "name": "John Sullivan",
       "position": "DL",
-      "college": "North Central (Ill.)",
+      "college": "North Central (IL)",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'2\"",
@@ -4105,7 +4105,7 @@
     {
       "name": "Thomas Ibrahim",
       "position": "DL",
-      "college": "Southeastern (Fla.)",
+      "college": "Southeastern University (FL)",
       "division": "NAIA",
       "class_year": "Graduate",
       "height": "6'3\"",

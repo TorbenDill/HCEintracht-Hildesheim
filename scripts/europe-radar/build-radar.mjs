@@ -13,14 +13,20 @@ const pool = JSON.parse(fs.readFileSync("pool-2plus.json", "utf8"));
 // Die ausfuehrlich gescouteten Spieler stehen oben auf der Seite als Karte.
 // Sie bleiben im Radar (damit Positionsfilter vollstaendig sind), werden aber
 // als Detailprofil markiert, statt kommentarlos doppelt aufzutauchen.
-const detailNames = new Set(
-  JSON.parse(
-    fs.readFileSync(
-      "C:/Users/torbe/Downloads/HCEintracht-Hildesheim/data/europe-talents.json",
-      "utf8",
-    ),
-  ).players.map((p) => p.name.toLowerCase()),
-);
+// Pfad relativ zu diesem Skript, nicht absolut: Der frueher hier eingetragene
+// Klonpfad (Downloads\HCEintracht-Hildesheim) existiert nicht mehr, ein Neulauf
+// waere daran gescheitert.
+const detailPath = new URL("../../data/europe-talents.json", import.meta.url);
+const detailPlayers = JSON.parse(fs.readFileSync(detailPath, "utf8")).players;
+const detailNames = new Set(detailPlayers.map((p) => p.name.toLowerCase()));
+
+// Das Detailprofil ist die maßgebliche Angabe fuer Position und College.
+// Die Auswahlteams schreiben Schulen unterschiedlich ("Curry" vs. "Curry
+// College") und fassen Positionen zu Gruppen zusammen ("OL" statt "OT"),
+// wodurch derselbe Spieler auf einer Seite zweimal unterschiedlich dastand.
+const detailKey = (name, division) =>
+  name.toLowerCase().replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim() + "|" + division;
+const detailByKey = new Map(detailPlayers.map((p) => [detailKey(p.name, p.division), p]));
 const hudl = JSON.parse(fs.readFileSync("hudl-matched.json", "utf8"));
 // Europlayers: nur die verifizierten Treffer aus verify-europlayers.mjs.
 // Ein reiner Namenstreffer reicht nicht - es gibt dort z. B. einen zweiten
@@ -236,6 +242,17 @@ for (const p of players) {
   if (tr?.url) p.sources["on3.com"] = tr.url;
 }
 
+// Position und College aus dem Detailprofil uebernehmen, wo es eines gibt.
+// Der Positionsfilter der Seite arbeitet mit Gruppen (OT faellt unter OL), die
+// praezisere Angabe bricht ihn also nicht.
+let angeglichen = 0;
+for (const p of players) {
+  const m = detailByKey.get(detailKey(p.name, p.division));
+  if (!m) continue;
+  if (m.position && m.position !== p.position) { p.position = m.position; angeglichen++; }
+  if (m.college && m.college !== p.college) p.college = m.college;
+}
+
 // Sortierung: Division, dann Positionsgruppe, dann Name
 const DIV_ORDER = { "NCAA Division II": 0, "NCAA Division III": 1, NAIA: 2 };
 const POS_ORDER = ["QB", "RB", "WR", "TE", "OL", "T", "G", "C", "DL", "DE", "DT", "LB", "DB", "CB", "S", "K", "P", "LS", "RS", "RET", "APB", "AP", "ATH", "ST"];
@@ -268,6 +285,7 @@ console.log(`FBS/FCS-Wechsel: ${players.filter((p) => p.transfer_note).length}`)
 console.log(`Zahlen angehaengt: ${statsAttached}` + (statsUnmatched.length ? `, NICHT zugeordnet: ${statsUnmatched.join(", ")}` : ""));
 console.log(`Sofort verfuegbar: ${players.filter((p) => p.availability === "verfuegbar").length} | noch gebunden: ${players.filter((p) => p.availability === "gebunden").length}`);
 console.log(`Auch als Detailprofil: ${players.filter((p) => p.has_detail).length}`);
+console.log(`Labels an Detailprofil angeglichen: ${angeglichen}`);
 console.log(`Awards: ${awardEnriched} angereichert, ${awardAdded} neu (davon ${awardPromoted} aus dem Einzelquellen-Pool nachgerueckt)`);
 const byDiv = {};
 players.forEach((p) => (byDiv[p.division] = (byDiv[p.division] ?? 0) + 1));
