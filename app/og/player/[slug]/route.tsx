@@ -22,7 +22,8 @@ export async function GET(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const player = players[slug];
+  // Nur eigene Keys (kein "__proto__"/"constructor" aus dem Prototyp).
+  const player = Object.hasOwn(players, slug) ? players[slug] : undefined;
 
   const shell = (children: React.ReactNode) => (
     <div

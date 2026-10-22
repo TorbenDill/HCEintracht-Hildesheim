@@ -10,6 +10,7 @@ import { absoluteUrl } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PlayerAvatar from "@/components/PlayerAvatar";
+import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 
 export const metadata = {
   title: "Talente für Europa: D2/D3-Scouting mit GFL-Star-Potenzial",
@@ -46,7 +47,7 @@ export default function EuropaTalentePage() {
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
@@ -164,7 +165,7 @@ export default function EuropaTalentePage() {
                 {p.sources.map((s) => (
                   <a
                     key={s}
-                    href={p.source_urls?.[s] ?? `https://${s}`}
+                    href={safeExternalUrl(p.source_urls?.[s] ?? `https://${s}`)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-full border border-border bg-background px-2.5 py-1 text-[10px] text-muted transition-colors hover:border-primary/40 hover:text-primary"

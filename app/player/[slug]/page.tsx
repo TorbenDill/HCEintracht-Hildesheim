@@ -19,6 +19,7 @@ import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import StarButton from "@/components/StarButton";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 
 export async function generateStaticParams() {
   const players = getPlayers();
@@ -172,7 +173,7 @@ export default async function PlayerPage({
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
@@ -196,7 +197,7 @@ export default async function PlayerPage({
             </div>
             {photo && (
               <a
-                href={photo.sourceUrl}
+                href={safeExternalUrl(photo.sourceUrl)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute bottom-0 left-0 max-w-full truncate rounded-tr bg-background/85 px-2 py-0.5 text-[8px] text-muted backdrop-blur-sm hover:text-primary"
@@ -370,7 +371,7 @@ export default async function PlayerPage({
                       {Object.entries(player.update_sources).map(([d, url]) => (
                         <a
                           key={d}
-                          href={url}
+                          href={safeExternalUrl(url)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="underline decoration-dotted hover:text-primary"
@@ -403,7 +404,7 @@ export default async function PlayerPage({
                 <p className="mt-3 text-[11px] text-muted">
                   Stand {season.through} ·{" "}
                   <a
-                    href={season.url}
+                    href={safeExternalUrl(season.url)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline decoration-dotted hover:text-primary"
@@ -512,7 +513,7 @@ export default async function PlayerPage({
                     return (
                       <a
                         key={s}
-                        href={sourceUrl(s, player.source_urls)}
+                        href={safeExternalUrl(sourceUrl(s, player.source_urls))}
                         target="_blank"
                         rel="noopener noreferrer"
                         title={
@@ -548,7 +549,7 @@ export default async function PlayerPage({
                 {meta.sources.map((s) => (
                   <li key={s.url}>
                     <a
-                      href={s.url}
+                      href={safeExternalUrl(s.url)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"

@@ -6,6 +6,7 @@ import { getTeams } from "@/lib/teams";
 import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Reveal from "@/components/Reveal";
+import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 
 const meta = getBoardMeta();
 
@@ -45,7 +46,7 @@ export default function UeberUnsPage() {
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-8">
@@ -188,7 +189,7 @@ export default function UeberUnsPage() {
             {meta.sources.map((s) => (
               <li key={s.url}>
                 <a
-                  href={s.url}
+                  href={safeExternalUrl(s.url)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"

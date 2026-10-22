@@ -9,6 +9,7 @@ import { absoluteUrl } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PlayerAvatar from "@/components/PlayerAvatar";
+import { safeJsonLd } from "@/lib/security";
 
 export const metadata = {
   title: "Deutsche NFL-Draft-Prospects 2027 (College, D1)",
@@ -45,7 +46,7 @@ export default function DeutscheProspectsPage() {
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">

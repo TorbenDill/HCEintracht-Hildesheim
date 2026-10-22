@@ -17,6 +17,7 @@ import { absoluteUrl } from "@/lib/site";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { safeJsonLd } from "@/lib/security";
 
 export function generateStaticParams() {
   return getTeams().map((t) => ({ abbr: teamSlug(t.teamAbbr) }));
@@ -100,7 +101,7 @@ export default async function TeamPage({
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">

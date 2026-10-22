@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import lexikon from "@/data/lexikon.json";
 import { absoluteUrl } from "@/lib/site";
+import { safeJsonLd } from "@/lib/security";
 
 type Entry = {
   slug: string;
@@ -68,7 +69,7 @@ export default async function LexikonEntryPage({
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <article className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-10">

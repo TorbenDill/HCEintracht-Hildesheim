@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import { cn } from "@/lib/utils";
 import type { EuropeRadarPlayer } from "@/lib/europe-talents";
+import { safeExternalUrl } from "@/lib/security";
 
 const DIVISIONS = [
   { key: "ALL", label: "Alle" },
@@ -223,7 +224,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                 <div className="mt-2 flex flex-wrap items-center gap-1.5">
                   {p.europlayers_url && (
                     <a
-                      href={p.europlayers_url}
+                      href={safeExternalUrl(p.europlayers_url)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={cn(linkClass, "border-primary/40 text-primary hover:bg-primary-glow")}
@@ -233,7 +234,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                   )}
                   {p.hudl_url && (
                     <a
-                      href={p.hudl_url}
+                      href={safeExternalUrl(p.hudl_url)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={cn(linkClass, "border-accent/40 text-accent hover:bg-accent-glow")}
@@ -243,7 +244,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                   )}
                   {p.instagram && (
                     <a
-                      href={`https://www.instagram.com/${p.instagram}/`}
+                      href={`https://www.instagram.com/${encodeURIComponent(p.instagram)}/`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={cn(linkClass, "border-border text-muted hover:border-primary hover:text-primary")}
@@ -255,7 +256,7 @@ export default function EuropeRadar({ players }: { players: EuropeRadarPlayer[] 
                     {Object.entries(p.sources).map(([host, url]) => (
                       <a
                         key={host}
-                        href={url}
+                        href={safeExternalUrl(url)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-full border border-border bg-background px-2 py-0.5 text-[10px] text-muted transition-colors hover:border-primary/40 hover:text-primary"

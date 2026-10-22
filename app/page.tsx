@@ -19,6 +19,7 @@ import { cn } from "@/lib/utils";
 import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import HomeBoard from "@/components/HomeBoard";
+import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
@@ -138,7 +139,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-background">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
 
       {/* ── HERO ── */}
       <section className="relative overflow-hidden border-b border-border/60">
@@ -205,7 +206,7 @@ export default function Home() {
           {heroVisual && (
             <p className="absolute bottom-3 right-4 text-[10px] text-muted">
               Foto:{" "}
-              <a href={heroVisual.photographerUrl} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+              <a href={safeExternalUrl(heroVisual.photographerUrl)} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
                 {heroVisual.photographer}
               </a>{" "}
               / Pexels
@@ -371,7 +372,7 @@ export default function Home() {
               {meta.sources.map((s) => (
                 <li key={s.url}>
                   <a
-                    href={s.url}
+                    href={safeExternalUrl(s.url)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-muted underline-offset-2 transition-colors hover:text-primary hover:underline"

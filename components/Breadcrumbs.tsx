@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { absoluteUrl } from "@/lib/site";
+import { safeJsonLd } from "@/lib/security";
 
 export type Crumb = { name: string; href?: string };
 
@@ -33,7 +34,7 @@ export default function Breadcrumbs({
     >
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <ol className="flex flex-wrap items-center gap-1.5">
         {items.map((it, i) => {
