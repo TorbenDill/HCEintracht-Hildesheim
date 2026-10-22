@@ -53,7 +53,7 @@ const NFL_STATUS = {
 // dass das Profil in Europa funktioniert, und kein offener Kandidat mehr.
 const EUROPE_STATUS = {
   "Bay Harvey|NCAA Division III": {
-    note: "Potsdam Royals (GFL): als Mid-Season-Verpflichtung bis in den German Bowl 2026, 19 Touchdowns bei 1 Interception in fünf Einsätzen.",
+    note: "Potsdam Royals (GFL): als Mid-Season-Verpflichtung bis in den GFL Bowl 2026, 19 Touchdowns bei 1 Interception in fünf Einsätzen.",
     url: "https://www.americanfootballinternational.com/quarterback-head-to-head-rocky-lombardi-vs-bay-harvey-in-the-2026-german-bowl/",
     host: "americanfootballinternational.com",
   },
