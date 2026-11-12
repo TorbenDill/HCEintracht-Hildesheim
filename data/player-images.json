@@ -290,5 +290,11 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Jennings.jpg",
     "file": "File:Kevin Jennings.jpg",
     "via": "commons-search"
+  },
+  "austin-simmons": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Austin_Simmons.jpg/960px-Austin_Simmons.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "Staff Sgt. Joshua Hastings",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Austin_Simmons.jpg"
   }
 }
