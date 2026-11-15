@@ -360,6 +360,9 @@ def main():
             "update_de": p.get("update_de") or None,
             "update_stand": p.get("update_stand") or None,
             "update_sources": p.get("update_sources") or {},
+            # Einschaetzungen aus dem Footballquark-Podcast "Die Stars von
+            # Morgen" (Forstner/Leinweber): [{folge, minute, sprecher, text}]
+            "podcast_stimmen": p.get("podcast_stimmen") or [],
         })
 
     # Nach Overall-Rank sortieren (ungerankte ans Ende, stabil -> Datei-Reihenfolge).

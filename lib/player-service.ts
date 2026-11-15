@@ -2,6 +2,7 @@ import data from "@/data/data.json";
 import boardMeta from "@/data/board-meta.json";
 import mockdraft from "@/data/mockdraft.json";
 import { getPlayerSlug } from "@/lib/slug";
+import type { PodcastStimme } from "@/lib/experts";
 
 export type Player = {
   name: string;
@@ -43,6 +44,9 @@ export type Player = {
   update_de?: string | null;
   update_stand?: string | null;
   update_sources?: Record<string, string>;
+  // Einschätzungen aus dem Footballquark-Podcast „Die Stars von Morgen“
+  // (Forstner/Leinweber), je mit Folge und Zeitmarke.
+  podcast_stimmen?: PodcastStimme[];
 };
 
 export type BoardMeta = {

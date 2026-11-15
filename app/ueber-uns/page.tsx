@@ -8,6 +8,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Reveal from "@/components/Reveal";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 import { pageMetadata } from "@/lib/seo";
+import { EXPERTS, PODCAST, getEpisodes, formatDateDe } from "@/lib/experts";
 
 const meta = getBoardMeta();
 
@@ -25,6 +26,9 @@ export default function UeberUnsPage() {
   const collegeCount = getColleges().length;
   const teamCount = getTeams().length;
   const sourceCount = meta.sources.length;
+  const episodes = getEpisodes().filter((e) => e.geprueft);
+  const episodeCount = episodes.length;
+  const firstEpisode = episodes.at(-1)?.datum ?? "2026-08-19";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -38,6 +42,11 @@ export default function UeberUnsPage() {
       url: SITE_URL,
       description:
         "Deutschsprachiges Scouting-Projekt zum NFL Draft: Big Board, Positionsrankings, Spielerprofile und Mock Draft.",
+      member: Object.values(EXPERTS).map((e) => ({
+        "@type": "Person",
+        name: e.name,
+        jobTitle: e.rolle,
+      })),
     },
   };
 
@@ -114,6 +123,48 @@ export default function UeberUnsPage() {
               Impressum
             </Link>
             .
+          </p>
+        </Reveal>
+
+        <Reveal className="mb-10">
+          <h2
+            id="experten"
+            className="mb-3 scroll-mt-24 text-lg font-black tracking-tight text-foreground"
+          >
+            Unsere Experten
+          </h2>
+          <div className="mb-4 grid gap-3 sm:grid-cols-2">
+            {Object.values(EXPERTS).map((e) => (
+              <div
+                key={e.id}
+                className="min-w-0 rounded-2xl border border-border bg-surface p-5"
+              >
+                <p className="text-base font-black text-foreground">{e.name}</p>
+                <p className="mb-2 text-xs font-bold uppercase tracking-widest text-primary">
+                  {e.rolle}
+                </p>
+                <p className="break-words text-sm leading-relaxed text-foreground/80">
+                  {e.kurz}
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="text-sm leading-relaxed text-foreground/80">
+            Jede Woche sprechen beide in{" "}
+            <a
+              href={safeExternalUrl(PODCAST.showUrl)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              {PODCAST.reihe}
+            </a>{" "}
+            ({PODCAST.name}) über College Football und die Prospects des
+            nächsten Drafts. Was dort über einen Spieler gesagt wird, gleichen wir
+            mit den Profilen ab und führen es im Abschnitt „Aus dem Podcast“
+            auf – sinngemäß zusammengefasst, mit Datum und Zeitmarke der Folge.
+            Ausgewertet sind {episodeCount} Folgen seit dem{" "}
+            {formatDateDe(firstEpisode)}.
           </p>
         </Reveal>
 

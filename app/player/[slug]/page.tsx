@@ -21,6 +21,14 @@ import StarButton from "@/components/StarButton";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import BeatwriterNotes from "@/components/BeatwriterNotes";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
+import {
+  PODCAST,
+  EXPERTS,
+  episodeUrl,
+  episodeShortTitle,
+  formatDateDe,
+  speakerLabel,
+} from "@/lib/experts";
 
 export async function generateStaticParams() {
   const players = getPlayers();
@@ -125,6 +133,22 @@ export default async function PlayerPage({
       ];
 
   const profileUrl = absoluteUrl(`/player/${getPlayerSlug(player.name)}`);
+  // Podcast-Einschätzungen, neueste Folge zuerst.
+  const podcastStimmen = [...(player.podcast_stimmen ?? [])].sort((a, b) =>
+    b.folge.localeCompare(a.folge)
+  );
+  const podcastCitations = [...new Set(podcastStimmen.map((s) => s.folge))].map(
+    (folge) => ({
+      "@type": "PodcastEpisode",
+      name: episodeShortTitle(folge),
+      datePublished: folge,
+      url: episodeUrl(folge),
+      partOfSeries: { "@type": "PodcastSeries", name: PODCAST.name, url: PODCAST.showUrl },
+    })
+  );
+  const hasLeinweber = podcastStimmen.some(
+    (s) => s.sprecher === "leinweber" || s.sprecher === "beide"
+  );
   /* Nur Quellen mit praeziser Artikel-URL als citation ausgeben. Vorher lief
      hier sourceUrl() durch, das auf die Domain-Startseite zurueckfaellt - damit
      behauptete das strukturierte Datum eine Belegstelle, die in Wahrheit nur
@@ -148,6 +172,15 @@ export default async function PlayerPage({
     isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl("/") },
     publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl("/") },
     author: { "@type": "Person", name: "Philipp Forstner", url: absoluteUrl("/ueber-uns") },
+    ...(hasLeinweber
+      ? {
+          contributor: {
+            "@type": "Person",
+            name: EXPERTS.leinweber.name,
+            url: absoluteUrl("/ueber-uns#experten"),
+          },
+        }
+      : {}),
     mainEntity: {
       "@type": "Person",
       name: player.name,
@@ -167,7 +200,9 @@ export default async function PlayerPage({
       ...(photo ? { image: photo.url } : {}),
       description: player.kurzprofil ?? player.scouting_report_de.slice(0, 300),
     },
-    ...(citations.length ? { citation: citations } : {}),
+    ...(citations.length || podcastCitations.length
+      ? { citation: [...citations, ...podcastCitations] }
+      : {}),
   };
 
   return (
@@ -434,6 +469,47 @@ export default async function PlayerPage({
                 &ldquo;{player.forstner_statement}&rdquo;
               </blockquote>
             </div>
+          </Reveal>
+        )}
+
+        {/* ── AUS DEM PODCAST ── */}
+        {podcastStimmen.length > 0 && (
+          <Reveal className="mb-10">
+            <h2 className="mb-1 text-xs font-bold uppercase tracking-[0.3em] text-primary">
+              Aus dem Podcast
+            </h2>
+            <p className="mb-4 text-xs text-muted">
+              {PODCAST.reihe} · {PODCAST.name} – sinngemäß zusammengefasst
+            </p>
+            <ol className="flex flex-col gap-3">
+              {podcastStimmen.map((s, i) => (
+                <li
+                  key={`${s.folge}-${i}`}
+                  className="min-w-0 rounded-2xl border border-border bg-surface p-5"
+                >
+                  <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span className="rounded bg-primary/15 px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-primary">
+                      Experte
+                    </span>
+                    <span className="text-sm font-bold text-foreground">
+                      {speakerLabel(s.sprecher)}
+                    </span>
+                  </div>
+                  <p className="break-words text-sm leading-relaxed text-foreground/85">
+                    {s.text}
+                  </p>
+                  <a
+                    href={safeExternalUrl(episodeUrl(s.folge))}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-block break-words text-xs text-muted underline decoration-dotted hover:text-primary"
+                  >
+                    Folge vom {formatDateDe(s.folge)}
+                    {s.minute ? `, ab Min. ${s.minute}` : ""}: {episodeShortTitle(s.folge)} ↗
+                  </a>
+                </li>
+              ))}
+            </ol>
           </Reveal>
         )}
 

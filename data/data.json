@@ -48,7 +48,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/518/50312218/index.html",
       "cbssports.com": "https://www.cbssports.com/college-football/news/jeremiah-smith-ohio-state-big-ten-receiving-yards-record/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Colin Simmons",
@@ -94,7 +95,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/703/50312306/index.html",
       "sports.yahoo.com": "https://sports.yahoo.com/articles/longhorns-daily-news-texas-defensive-122100443.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Leonard Moore",
@@ -134,7 +136,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Drew Mestemaker",
@@ -177,7 +180,8 @@
     "update_stand": "2026-11-07",
     "update_sources": {
       "kctv5.com": "https://www.kctv5.com/2026/11/07/mestemaker-hawkins-lead-oklahoma-states-dominant-effort-over-kansas-state-66-28/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Dylan Stewart",
@@ -229,7 +233,8 @@
       "saturdaydownsouth.com": "https://www.saturdaydownsouth.com/news/college-football/shane-beamer-announces-dylan-stewart-has-been-suspended-indefinitely/",
       "nbcsports.com": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/south-carolina-suspends-dylan-stewart-indefinitely",
       "cfbstats.com": "https://cfbstats.com/2026/player/648/50310495/tackle/gamelog.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Darian Mensah",
@@ -272,7 +277,8 @@
     "update_stand": "2026-11-07",
     "update_sources": {
       "suntimes.com": "https://chicago.suntimes.com/college-sports/2026/11/07/notre-dame-knocks-off-top-ranked-miami"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Charlie Becker",
@@ -314,7 +320,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/306/50304327/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Chris Cole",
@@ -362,7 +369,8 @@
     "update_sources": {
       "ksl.com": "https://www.ksl.com/article/51642837/no-3-georgia-takes-advantage-of-4-turnovers-by-no-17-florida-to-beat-gators-27-8",
       "saturdaydownsouth.com": "https://www.saturdaydownsouth.com/news/college-football/chris-cole-earns-national-player-of-the-week-honor-for-performance-against-alabama/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jordan Seaton",
@@ -402,7 +410,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Ashton Hampton",
@@ -440,7 +449,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "CJ Carr",
@@ -481,7 +491,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/513/50310480/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Cam Coleman",
@@ -523,7 +534,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/703/50310429/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Will Echoles",
@@ -561,7 +573,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Trinidad Chambliss",
@@ -604,7 +617,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/433/1136057/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Xavier Gilliam",
@@ -652,7 +666,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/694/50303952/index.html",
       "sicemdawgs.com": "https://sicemdawgs.com/2026/11/kj-bolden-named-2026-lott-impact-trophy-finalist/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Greg Johnson",
@@ -691,7 +706,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Arch Manning",
@@ -736,7 +752,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Nick Marsh",
@@ -775,7 +792,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Ellis Robinson IV",
@@ -816,7 +834,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/257/50310449/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Trevor Lauck",
@@ -859,7 +878,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cbs2iowa.com": "https://cbs2iowa.com/sports/cbs2-local-sports/iowa-offensive-linemen-trevor-lauck-kade-pieper-named-lombardi-award-semifinalists"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Trevor Goosby",
@@ -902,7 +922,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "on3.com": "https://www.on3.com/teams/texas-longhorns/news/texas-star-lt-trevor-goosby-out-for-the-year-with-knee-injury/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Dante Moore",
@@ -948,7 +969,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/529/2000295/index.html",
       "theforkball.com": "https://theforkball.com/oregon-qb-dante-moore-expected-to-miss-rest-of-season/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Yhonzae Pierre",
@@ -988,7 +1010,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/8/2000235/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jadan Baugh",
@@ -1029,7 +1052,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/235/50309802/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "KJ Bolden",
@@ -1073,7 +1097,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/257/50311183/index.html",
       "sicemdawgs.com": "https://sicemdawgs.com/2026/11/kj-bolden-chris-cole-named-2026-bednarik-award-semifinalists/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "KJ Duff",
@@ -1116,7 +1141,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "wral.com": "https://www.wral.com/news/ap/a819f-rutgers-receiver-kj-duff-out-for-the-season-after-undergoing-ankle-surgery-report-says/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jamari Johnson",
@@ -1160,7 +1186,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/529/2002973/index.html",
       "goducks.com": "https://goducks.com/news/2026/11/11/football-johnson-named-mackey-award-semifinalist"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Kelley Jones",
@@ -1198,7 +1225,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "David Stone",
@@ -1240,7 +1268,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/522/50312233/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Trey'Dez Green",
@@ -1286,7 +1315,8 @@
     "update_sources": {
       "rotowire.com": "https://www.rotowire.com/cfootball/player/t-green-46190",
       "clutchpoints.com": "https://clutchpoints.com/ncaa-football/lsu-football-news-treydez-green-trending-right-direction-alabama-tilt-surprise-injury-designation"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "A'Mauri Washington",
@@ -1327,7 +1357,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/529/2000799/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Kade Pieper",
@@ -1370,7 +1401,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "hawkeyesports.com": "https://hawkeyesports.com/news/2026/11/11/iowa-o-line-named-joe-moore-award-semifinalist-26"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Tae Johnson",
@@ -1414,7 +1446,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/513/50310479/index.html",
       "clutchpoints.com": "https://clutchpoints.com/ncaa-football/notre-dame-football-news-fighting-irish-without-several-key-defenders-miami-blockbuster"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Austin Simmons",
@@ -1462,7 +1495,8 @@
     "update_sources": {
       "mutigers.com": "https://mutigers.com/sports/football/roster/player/austin-simmons",
       "kctv5.com": "https://www.kctv5.com/2026/11/06/nfl-draft-stock-rises-mizzou-re-signs-simmons-2027-deal/?outputType=amp"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Ryan Coleman-Williams",
@@ -1505,7 +1539,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/8/50312040/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Kyngstonn Viliamu-Asa",
@@ -1549,7 +1584,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/513/50311235/index.html",
       "ndsmcobserver.com": "https://ndsmcobserver.com/article/viliamu-asa-dominates-on-defense-in-irish-holy-war-victory-20261115"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Justin Scott",
@@ -1590,7 +1626,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Devan Thompkins",
@@ -1631,7 +1668,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Sammy Brown",
@@ -1671,7 +1709,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Lance Heard",
@@ -1712,7 +1751,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Kewan Lacy",
@@ -1752,7 +1792,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Zabien Brown",
@@ -1795,7 +1836,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/8/50310416/index.html",
       "tide1009.com": "https://tide1009.com/gameday-availability-report-alabama-vanderbilt-2026/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Cayden Green",
@@ -1836,7 +1878,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Kingston Lopa",
@@ -1877,7 +1920,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Carter Smith",
@@ -1916,7 +1960,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Will Heldt",
@@ -1959,7 +2004,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/147/2000036/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Matayo Uiagalelei",
@@ -2000,7 +2046,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/529/2002224/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Ahmad Moten Sr.",
@@ -2039,7 +2086,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Jaylen McClain",
@@ -2082,7 +2130,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/518/50311236/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Elijah Paige",
@@ -2127,7 +2176,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "sports.yahoo.com": "https://sports.yahoo.com/articles/usc-ol-elijah-paige-named-011743508.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Boubacar Traore",
@@ -2168,7 +2218,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Kenyatta Jackson Jr.",
@@ -2211,7 +2262,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/518/1177851/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Julian Sayin",
@@ -2254,7 +2306,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/518/50310418/index.html",
       "sports.yahoo.com": "https://sports.yahoo.com/articles/happened-julian-sayin-why-ohio-184014175.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Melvin Siani",
@@ -2295,7 +2348,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Reed Harris",
@@ -2336,7 +2390,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Anthonie Knapp",
@@ -2381,7 +2436,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "fightingirish.com": "https://fightingirish.com/news/2026/11/11/notre-dame-named-joe-moore-award-semifinalist"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Deuce Alexander",
@@ -2424,7 +2480,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/433/2001072/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Samson Okunlola",
@@ -2465,7 +2522,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Omarion Miller",
@@ -2508,7 +2566,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/28/2002441/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jayden Maiava",
@@ -2548,7 +2607,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/657/1177721/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Clev Lubin",
@@ -2589,7 +2649,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Zach Lutmer",
@@ -2632,7 +2693,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/312/2001001/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Princewill Umanmielen",
@@ -2675,7 +2737,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/365/2000800/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Quincy Rhodes Jr.",
@@ -2715,7 +2778,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Mario Craver",
@@ -2758,7 +2822,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/697/50309831/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Tavion Gadson",
@@ -2801,7 +2866,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/334/2002215/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Luke Reynolds",
@@ -2842,7 +2908,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Zereoue Williams",
@@ -2883,7 +2950,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Damon Wilson II",
@@ -2923,7 +2991,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/415/2002195/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Austin Siereveld",
@@ -2964,7 +3033,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Ryan Wingo",
@@ -3004,7 +3074,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/703/50311267/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "LaNorris Sellers",
@@ -3049,7 +3120,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/648/2002443/index.html",
       "on3.com": "https://www.on3.com/news/cutter-woods-to-start-at-quarterback-for-south-carolina-with-lanorris-sellers-dealing-with-ankle-injury/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Ahmad Hardy",
@@ -3093,7 +3165,8 @@
     "update_stand": "2026-11-01",
     "update_sources": {
       "clickondetroit.com": "https://www.clickondetroit.com/sports/2026/11/01/missouri-running-back-ahmad-hardy-returns-to-play-6-months-after-being-shot-in-the-leg/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Duce Robinson",
@@ -3138,7 +3211,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/234/1208932/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Ty Benefield",
@@ -3181,7 +3255,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/365/2000753/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Koi Perich",
@@ -3220,7 +3295,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Rasheem Biles",
@@ -3263,7 +3339,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/703/2001231/index.html",
       "sports.yahoo.com": "https://sports.yahoo.com/articles/longhorns-daily-news-texas-defensive-122100443.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Vicari Swain",
@@ -3305,7 +3382,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/648/2001556/index.html",
       "gamecocksonline.com": "https://gamecocksonline.com/news/2026/11/11/swain-named-finalist-for-jet-award/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jyaire Hill",
@@ -3346,7 +3424,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Romanas Frederique Jr.",
@@ -3392,7 +3471,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/415/50312152/index.html",
       "atozsports.com": "https://atozsports.com/?p=490644"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Bear Alexander",
@@ -3433,7 +3513,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Bryant Wesco Jr.",
@@ -3475,7 +3556,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/147/50312074/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "John Henry Daley",
@@ -3516,7 +3598,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Dom Nichols",
@@ -3559,7 +3642,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/418/50303890/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jelani McDonald",
@@ -3604,7 +3688,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/703/2002969/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Anthony Boswell",
@@ -3645,7 +3730,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "DJ McKinney",
@@ -3689,7 +3775,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/513/1175114/index.html",
       "on3.com": "https://www.on3.com/teams/notre-dame-fighting-irish/news/notre-dame-fighting-irish-football-dj-mckinney-injury-update/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Junior Sherrill",
@@ -3730,7 +3817,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Isaac Brown",
@@ -3773,7 +3861,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Amare Thomas",
@@ -3814,7 +3903,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Jacarrius Peak",
@@ -3853,7 +3943,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "A.J. Holmes Jr.",
@@ -3891,7 +3982,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Jordan Ross",
@@ -3934,7 +4026,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/365/50312302/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Brice Pollock",
@@ -3980,7 +4073,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/700/2002372/index.html",
       "roundtable.io": "https://roundtable.io/sports/ncaa/texas-tech/news/brice-pollock-puts-texas-tech-in-hunt-for-jim-thorpe-award"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Iapani Laloulu",
@@ -4018,7 +4112,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Emmanuel Oyebadejo",
@@ -4061,7 +4156,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/235/1246555/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Audavion Collins",
@@ -4104,7 +4200,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/539/1177633/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Niki Prongos",
@@ -4145,7 +4242,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Nate Frazier",
@@ -4188,7 +4286,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/257/50311182/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Wyatt Young",
@@ -4231,7 +4330,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/521/50212082/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Bray Hubbard",
@@ -4272,7 +4372,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Suntarine Perkins",
@@ -4315,7 +4416,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/433/2001013/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Tony Rojas",
@@ -4356,7 +4458,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/539/2001180/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Lawson Luckie",
@@ -4397,7 +4500,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Jordan Faison",
@@ -4440,7 +4544,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/513/1205334/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Xavier Atkins",
@@ -4485,7 +4590,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "saturdaydownsouth.com": "https://www.saturdaydownsouth.com/news/college-football/auburn-dismisses-2025-first-team-all-sec-linebacker-from-program"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Terrance Carter Jr.",
@@ -4524,7 +4630,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Mark Fletcher Jr.",
@@ -4565,7 +4672,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/415/2000887/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Anthony Smith",
@@ -4606,7 +4714,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/428/1174878/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Ben Roberts",
@@ -4644,7 +4753,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Jackson Bennee",
@@ -4685,7 +4795,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/732/1242560/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Evan Johnson",
@@ -4731,7 +4842,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/77/1177276/index.html",
       "sports.ksl.com": "https://sports.ksl.com/ncaa/byu-football/byu-football-depth-chart-baylor-week/578874"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Evan Tengesdahl",
@@ -4770,7 +4882,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Justin Okoronkwo",
@@ -4811,7 +4924,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/648/50210025/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Hero Kanu",
@@ -4853,7 +4967,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/703/1177834/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Teitum Tuioti",
@@ -4900,7 +5015,8 @@
     "update_sources": {
       "kptv.com": "https://www.kptv.com/2026/11/10/ducks-defensive-star-tuioti-out-season-with-knee-injury-lanning-says/",
       "opb.org": "https://www.opb.org/article/2026/11/07/oregon-storms-back-from-2-touchdown-deficit-to-hammer-no-11-ohio-state-41-28/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Brandon Baker",
@@ -4939,7 +5055,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Nyckoles Harbor",
@@ -4984,7 +5101,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/648/2003070/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Williams Nwaneri",
@@ -5023,7 +5141,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "DJ Lagway",
@@ -5064,7 +5183,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/51/50310433/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Peyton Woodyard",
@@ -5105,7 +5225,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/529/50310413/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Dylan Raiola",
@@ -5155,7 +5276,8 @@
       "kptv.com": "https://www.kptv.com/2026/10/31/raiola-throws-3-tds-help-oregon-beat-no-20-northwestern-34-26/",
       "opb.org": "https://www.opb.org/article/2026/11/07/oregon-storms-back-from-2-touchdown-deficit-to-hammer-no-11-ohio-state-41-28/",
       "abc7.com": "https://abc7.com/post/oregon-qb-moore-ruled-ucla-game-raiola-get-start/19919657"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Justice Haynes",
@@ -5198,7 +5320,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/255/2000888/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Justin Evans-Jenkins",
@@ -5239,7 +5362,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Benjamin Brahmer",
@@ -5280,7 +5404,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Whit Weeks",
@@ -5326,7 +5451,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/365/2000237/index.html",
       "nola.com": "https://www.nola.com/sports/lsu/football/lsu-football-whit-weeks-injury-texas-tiger-stadium/article_f64f9876-24e6-4c4f-a057-5e49bc0ee95e.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Arion Carter",
@@ -5370,7 +5496,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/694/2000135/index.html",
       "wvlt.tv": "https://www.wvlt.tv/2026/11/09/arion-carter-named-sec-defensive-player-week-after-standout-performance-against-kentucky/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Raleek Brown",
@@ -5413,7 +5540,8 @@
     "update_stand": "2026-11-05",
     "update_sources": {
       "saturdaydownsouth.com": "https://www.saturdaydownsouth.com/news/college-football/texas-rb-to-miss-remainder-of-2026-season-per-reports/"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Corey Myrick",
@@ -5454,7 +5582,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/147/50303883/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Brody Foley",
@@ -5495,7 +5624,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/367/1174494/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Sam Leavitt",
@@ -5536,7 +5666,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Marcel Reed",
@@ -5582,7 +5713,8 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/697/2001279/index.html",
       "sports.yahoo.com": "https://sports.yahoo.com/articles/mike-elko-defends-marcel-reed-031500195.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Jordan Hall",
@@ -5629,7 +5761,8 @@
       "cfbstats.com": "https://cfbstats.com/2026/player/416/2000225/index.html",
       "sports.yahoo.com": "https://sports.yahoo.com/articles/michigan-state-receives-major-injury-142518687.html",
       "roundtable.io": "https://roundtable.io/sports/ncaa/michigan-state/news/michigan-state-availability-report-looks-bleak-ahead-of-northwestern-game"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Isaiah Horton",
@@ -5670,7 +5803,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "DJ Hicks",
@@ -5713,7 +5847,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/697/2002434/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Avery Johnson",
@@ -5760,7 +5895,8 @@
       "cfbstats.com": "https://cfbstats.com/2026/player/327/2001498/index.html",
       "kctv5.com": "https://www.kctv5.com/2026/11/03/klein-says-k-states-avery-johnson-has-outside-chance-return-this-season/",
       "sports.yahoo.com": "https://sports.yahoo.com/articles/k-state-q-does-future-110000200.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Kevin Jennings",
@@ -5799,7 +5935,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Alexander Honig",
@@ -5841,7 +5978,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/509/1122682/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Max Stege",
@@ -5882,7 +6020,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/66/2000950/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Linus Zunk",
@@ -5921,7 +6060,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Duncan Brune",
@@ -5963,7 +6103,8 @@
     "update_stand": "2026-11-15",
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/519/50211456/index.html"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Bruno Dall",
@@ -6010,7 +6151,8 @@
     "update_stand": "2026-10-18",
     "update_sources": {
       "si.com": "https://www.si.com/college/ucf/football/ucf-knights-football-injury-tracker-every-injury-update-from-fall-camp-and-what-it-means-scott-frost-01kz7646z4ya"
-    }
+    },
+    "podcast_stimmen": []
   },
   {
     "name": "Issa Ouattara",
@@ -6057,7 +6199,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Daniel Evert",
@@ -6100,7 +6243,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Noel Portnjagin",
@@ -6141,7 +6285,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Manuel Beigel",
@@ -6186,7 +6331,8 @@
     "naechste_generation": false,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Justin Hasenhuetl",
@@ -6229,7 +6375,8 @@
     "naechste_generation": true,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "JJ Hanne",
@@ -6272,7 +6419,8 @@
     "naechste_generation": true,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "David Höffken",
@@ -6315,7 +6463,8 @@
     "naechste_generation": true,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Konstantin Paschos",
@@ -6356,7 +6505,8 @@
     "naechste_generation": true,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   },
   {
     "name": "Matti Krüger",
@@ -6395,6 +6545,7 @@
     "naechste_generation": true,
     "update_de": null,
     "update_stand": null,
-    "update_sources": {}
+    "update_sources": {},
+    "podcast_stimmen": []
   }
 ]
