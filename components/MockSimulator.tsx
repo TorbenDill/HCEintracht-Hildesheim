@@ -137,10 +137,14 @@ export default function MockSimulator() {
     return () => clearTimeout(t);
   }, [finished, mode, onClock, yourTeam, yourSlots, teams, available, makePick, cpuMs, partyReady, assignments]);
 
-  // Pick-Uhr (GM-Modus): bei jedem neuen Pick zurücksetzen.
-  useEffect(() => {
+  // Pick-Uhr (GM-Modus): bei jedem neuen Pick zurücksetzen. Als State-
+  // Anpassung beim Rendern statt im Effekt (kein zusätzlicher Render-Durchlauf).
+  const clockKey = `${onClock}-${clockLen}`;
+  const [lastClockKey, setLastClockKey] = useState(clockKey);
+  if (clockKey !== lastClockKey) {
+    setLastClockKey(clockKey);
     setTimeLeft(clockLen);
-  }, [onClock, clockLen]);
+  }
 
   // Countdown herunterzählen, solange der Nutzer am Zug ist.
   useEffect(() => {
@@ -155,6 +159,8 @@ export default function MockSimulator() {
   useEffect(() => {
     const clockActive = mode === "gm" || (mode === "party" && isUserPick);
     if (finished || !clockActive || clockLen === 0 || timeLeft > 0) return;
+    // Reaktion auf ein externes Ereignis (Uhr abgelaufen), daher bewusst im Effekt.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (available.length > 0) makePick(available[0]);
   }, [finished, mode, clockLen, timeLeft, available, makePick, isUserPick]);
 

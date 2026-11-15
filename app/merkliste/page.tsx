@@ -2,6 +2,11 @@ import { getBoardMeta, getPlayers, getPlayerSlug } from "@/lib/player-service";
 import { getMover } from "@/lib/movers";
 import Merkliste from "@/components/Merkliste";
 
+function germanDate(iso: string): string {
+  const [y, m, d] = iso.split("-");
+  return d ? `${d}.${m}.${y}` : iso;
+}
+
 export const metadata = {
   title: "Meine Merkliste",
   description:
@@ -23,7 +28,7 @@ export default function MerklistePage() {
           </h1>
           <p className="max-w-2xl text-sm leading-relaxed text-muted">
             Deine gemerkten Prospects, sortiert nach Consensus-Rang, mit der
-            Bewegung seit dem letzten Update ({meta.updated}). Die Liste ist
+            Bewegung seit dem letzten Update ({germanDate(meta.updated)}). Die Liste ist
             lokal in diesem Browser gespeichert.
           </p>
         </div>

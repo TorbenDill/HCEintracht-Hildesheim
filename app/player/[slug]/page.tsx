@@ -282,9 +282,9 @@ export default async function PlayerPage({
             {/* Piktogramme */}
             {player.piktogramme.length > 0 && (
               <div className="mb-6">
-                <h3 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+                <h2 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
                   Fähigkeiten
-                </h3>
+                </h2>
                 <div className="flex flex-wrap gap-2">
                   {player.piktogramme.map((p) => (
                     <div
@@ -303,9 +303,9 @@ export default async function PlayerPage({
             {/* Pro Comparison */}
             {(player.best_case_nfl || player.worst_case_nfl) && (
               <div>
-                <h3 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
+                <h2 className="mb-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted">
                   NFL Comparison
-                </h3>
+                </h2>
                 <div className="grid grid-cols-2 gap-3">
                   {player.best_case_nfl && (
                     <div className="rounded border border-accent/30 bg-accent-glow p-4">
