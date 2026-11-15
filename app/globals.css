@@ -98,3 +98,40 @@ input:focus-visible {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary);
 }
+
+/* Board-Editor: Einfuegemarke beim Ziehen */
+.drop-marker::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-primary);
+}
+
+/* Fokusring auch fuer Textareas (Notizen) */
+textarea:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Druckansicht: nur das Board, ohne Navigation und Bedienelemente */
+@media print {
+  header.sticky,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  .board-editor li {
+    break-inside: avoid;
+    box-shadow: none !important;
+  }
+  .board-editor input {
+    border: 0 !important;
+  }
+}

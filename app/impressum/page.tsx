@@ -1,7 +1,7 @@
 
 export const metadata = {
   title: "Impressum",
-  description: "Impressum und Anbieterkennzeichnung nach § 5 DDG.",
+  description: "Impressum von nfldraft-scouting.de: Anbieterkennzeichnung nach § 5 DDG, Kontakt und redaktionelle Verantwortung für das NFL Draft Board 2027.",
   alternates: { canonical: "/impressum" },
   robots: { index: true, follow: true },
 };

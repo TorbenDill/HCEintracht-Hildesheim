@@ -26,7 +26,7 @@ export async function generateMetadata({
   const title = `Die besten ${info.label} im NFL Draft ${meta.draftYear}`;
   return {
     title,
-    description: `${info.label} im NFL Draft ${meta.draftYear}: Ranking der Top-Prospects mit deutschem Scouting-Profil. ${info.intro}`,
+    description: `${info.label} im NFL Draft ${meta.draftYear}: Ranking der Top-Prospects mit deutschem Scouting-Profil. ${info.intro.split(/(?<=[.!?])\s/)[0]}`.slice(0, 200),
     alternates: { canonical: `/position/${pos.toLowerCase()}` },
     openGraph: {
       type: "article",

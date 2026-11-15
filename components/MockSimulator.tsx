@@ -313,9 +313,9 @@ export default function MockSimulator() {
           onClick={() => reset("team")}
           className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
         >
-          <h3 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
+          <h2 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
             Ein Team draften
-          </h3>
+          </h2>
           <p className="text-sm text-muted">
             Wähle dein Team – die CPU übernimmt alle übrigen Picks. Du bist an
             jedem Pick deines Teams am Zug (die Jets etwa dreimal).
@@ -325,9 +325,9 @@ export default function MockSimulator() {
           onClick={() => reset("gm")}
           className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
         >
-          <h3 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
+          <h2 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
             GM-Modus · Alle 32 Picks
-          </h3>
+          </h2>
           <p className="text-sm text-muted">
             Du entscheidest jeden einzelnen Pick der ersten Runde und lädst dein
             Ergebnis als Social-Media-Bild (4:5 & 9:16) herunter.
@@ -337,9 +337,9 @@ export default function MockSimulator() {
           onClick={() => reset("party")}
           className="card-lift group rounded-xl border border-border bg-surface p-8 text-left hover:border-primary/50"
         >
-          <h3 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
+          <h2 className="mb-2 text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary">
             Party-Modus · 2-6 Personen
-          </h3>
+          </h2>
           <p className="text-sm text-muted">
             Jede Person übernimmt eine Franchise, die CPU draftet den Rest.
             Perfekt für Podcasts und Livestreams.

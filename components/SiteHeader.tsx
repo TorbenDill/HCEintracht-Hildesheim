@@ -25,6 +25,7 @@ const NAV = [
   { href: "/", label: "Big Board" },
   { href: "/mock-draft", label: "Mock Draft" },
   { href: "/simulator", label: "Simulator" },
+  { href: "/mein-board", label: "Mein Board" },
   { href: "/positionen", label: "Positionen" },
   { href: "/teams", label: "Teams" },
   { href: "/deutsche-prospects", label: "Deutsche" },
@@ -181,7 +182,7 @@ export default function SiteHeader() {
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
-        <div className="hidden w-56 md:block xl:w-44 2xl:w-64">{search("suche-desktop")}</div>
+        <div className="hidden w-56 md:block xl:w-36 2xl:w-64">{search("suche-desktop")}</div>
 
         <Link
           href="/merkliste"

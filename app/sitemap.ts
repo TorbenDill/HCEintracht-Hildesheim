@@ -16,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: absoluteUrl("/mein-board"),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/simulator"),
       lastModified,
       changeFrequency: "monthly" as const,

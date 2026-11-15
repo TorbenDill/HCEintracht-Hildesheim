@@ -94,11 +94,15 @@ export default function DatenschutzPage() {
             <p>
               Diese Website setzt keine Cookies und bindet keine Werbe-,
               Analyse- oder Tracking-Dienste ein. Wenn Sie Spieler auf Ihre
-              Merkliste setzen, wird diese Auswahl ausschließlich lokal im
-              Speicher Ihres Browsers (localStorage) abgelegt und nicht an uns
-              oder Dritte übertragen. Sie können die Merkliste jederzeit selbst
-              leeren oder durch Löschen der Website-Daten in Ihrem Browser
-              entfernen. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG, da die
+              Merkliste setzen oder unter „Mein Board“ ein eigenes Big Board
+              mit Notizen anlegen, wird das ausschließlich lokal im Speicher
+              Ihres Browsers (localStorage) abgelegt und nicht an uns oder
+              Dritte übertragen. Auch Bild- und PDF-Downloads entstehen direkt
+              in Ihrem Browser. Ein geteilter Board-Link enthält nur Reihenfolge,
+              Tiers und Board-Namen im URL-Fragment (nach dem „#“), das Browser
+              nicht an den Server senden; Notizen sind nie enthalten. Sie können
+              Merkliste und Board jederzeit durch Löschen der Website-Daten in
+              Ihrem Browser entfernen. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG, da die
               Speicherung für die von Ihnen ausdrücklich gewünschte Funktion
               unbedingt erforderlich ist.
             </p>
