@@ -7,10 +7,14 @@ name: Draft Board Wochen-Update
 # Die Änderungen landen auf einem Arbeitsbranch; der Auto-Merge-Workflow bringt
 # sie nach bestandenem Build nach `main` (Vercel deployt von dort).
 
+# MIGRATION 15.11.2026 (Redaktionszentrale): Der Zeitplan ist abgeschaltet.
+# Grund: Dieser Lauf ist seit August bei jedem Termin nach ~20 s fehlgeschlagen
+# ("Claude execution failed"), und es darf nur EINEN Publisher je Projekt geben.
+# Den Wochenlauf übernimmt die Nachtroutine "redaktion-nfldraft-nacht"
+# (Do 01:30 Europe/Berlin, Worktree C:/nflv-redaktion, Board-Validierung vor Push).
+# Manuell startbar bleibt der Workflow; vor Reaktivierung Ursache in den Logs klären
+# und die Nachtroutine pausieren. Alter Zeitplan: cron "47 8 * * 4" (UTC).
 on:
-  schedule:
-    # Jeden Donnerstag um 08:47 UTC (~10:47 MESZ)
-    - cron: "47 8 * * 4"
   workflow_dispatch: {}
 
 permissions:
@@ -46,7 +50,7 @@ jobs:
             Führe das wöchentliche Update des NFL-Draft-2027-Boards durch (Donnerstags-Update).
 
             ## Qualitätsstufe (verbindlich – gilt für JEDE Aufnahme und Änderung)
-            - **Nur mit Quellen einfügen:** Kein Spieler und keine geänderte Angabe (Schule, Rank, Projektion) kommt ins Board ohne **mindestens 2 unabhängige, seriöse Quellen** im Feld `sources`. Der Build (`scripts/build_2027.py`) hat ein Quellen-Gate und wirft jeden Eintrag mit weniger als 2 Quellen automatisch raus – unbelegte Einträge sind also verlorene Arbeit.
+            - **Nur mit Quellen einfügen:** Kein Spieler und keine geänderte Angabe (Schule, Rank, Projektion) kommt ins Board ohne **mindestens 3 unabhängige, seriöse, tatsächlich geöffnete Quellen** (Bestandsprofile mit 2 Quellen bleiben, gelten aber als nachzuprüfen) im Feld `sources`. Der Build (`scripts/build_2027.py`) hat ein Quellen-Gate und wirft jeden Eintrag mit weniger als 2 Quellen automatisch raus – unbelegte Einträge sind also verlorene Arbeit.
             - **Eligibility zwingend prüfen:** Vor JEDER Aufnahme gegen die **NFL-Draft-2026-Ergebnisse** und den aktuellen College-Roster gegenchecken. Wer 2026 gedraftet wurde, in der NFL ist oder für 2026 keine College-Eligibility mehr hat (auch: Highschool-Jahrgang 2025 → erst 2028 berechtigt), ist NICHT aufnehmbar und – falls bereits im Board – zu entfernen. Quelle angeben (z. B. NFL.com Draft-Tracker, Schul-Roster 2026).
             - **Schule/Team verifizieren:** Transfer-Portal-Wechsel beachten – die `school` muss das Team der **Saison 2026** sein, per aktueller Roster-/Transfer-Quelle belegt. Abhängige Reporttexte (z. B. genannter Quarterback eines Receivers) mitziehen.
             - **Qualitätsstufe im Datensatz:** Der Build vergibt pro Spieler automatisch `qualitaet` (`geprueft` = 3+ Quellen, `belegt` = 2 Quellen). Ziel ist `geprueft`; strebe für neue Profile 3+ Quellen an.
@@ -56,7 +60,7 @@ jobs:
                - nflmockdraftdatabase.com (Consensus Big Board 2027), tankathon.com, ESPN, The Athletic, walterfootball.com, prodraftscouting.com, nfldraftbuzz.com
                - **Immer zusätzlich analysieren:** bigboardlab.com, thedraftnetwork.com, cbssports.com/nfl/draft/mock-draft, underdogmockdraft.com, pff.com/draft/big-board?season=2027, drafttek.com
             2. **`data/research2027.json` aktualisieren**: Ranks/Projektionen verschieben, Riser/Faller einarbeiten, Spieler entfernen, die nicht mehr draft-eligible sind (bereits gedraftet/NFL). Mock-Draft (32 Picks) an aktuelle Draft-Order-Projektionen und Team-Needs anpassen.
-            3. **Board wachsen lassen**: In JEDER Woche 3–5 NEUE Spielerprofile ergänzen (weiter in die Tiefe der Positionsrankings, Day-2/Day-3-Prospects, Sleeper). Für jeden neuen Spieler alle Felder ausfüllen – individuelles `report_de` (5–8 Sätze, natürlich, nicht generisch), individuelles `forstner`-Zitat (variabler Tonfall) sowie vielseitige, spielerspezifische `best_case`/`worst_case`-NFL-Vergleiche (Vergleichsnamen NICHT wiederholen). Ziel: über die Saison auf 150+ Profile wachsen.
+            3. **Board wachsen lassen**: In JEDER Woche 3–5 NEUE Spielerprofile ergänzen (weiter in die Tiefe der Positionsrankings, Day-2/Day-3-Prospects, Sleeper). Für jeden neuen Spieler alle Felder ausfüllen – individuelles `report_de` (5–8 Sätze, natürlich, nicht generisch), KEIN generiertes `forstner`-Zitat (Feld leer lassen; Statements nur, wenn Philipp Forstner sie selbst geliefert hat) sowie vielseitige, spielerspezifische `best_case`/`worst_case`-NFL-Vergleiche (Vergleichsnamen NICHT wiederholen). Ziel: über die Saison auf 150+ Profile wachsen.
             4. **Kategorie 'Deutsche Prospects' mitwachsen lassen** (Seite `/deutsche-prospects`): Suche belegbare deutsche Spieler (in Deutschland geboren/aufgewachsen), die 2026 auf einem NCAA-Division-1-Roster stehen und für den Draft 2027 berechtigt sind. Gute Quellen: footballschland.de, afvd.de, die Uni-Roster (z. B. wsucougars.com, broncosports.com), 247sports, on3, ESPN, draftscout.com.
                - **Datenmodell:** In `data/research2027.json` mit `"deutsch": true` und `"herkunft"` (Stadt/Region, wenn belegbar zusätzlich der deutsche Football-Verein, z. B. 'Berlin (Berlin Rebels)') anlegen. Deutsche Prospects bekommen einen `overall_rank` am **Ende des Boards** (fortlaufend hinter dem letzten Consensus-Rang) – sie laufen als eigener Tier im Board mit UND erscheinen auf `/deutsche-prospects`. Bestehende deutsche Ränke NICHT entfernen. Alle übrigen Felder wie bei normalen Profilen.
                - **QUALITÄT VOR MENGE (verbindlich):** Lieber 0–2 VOLLSTÄNDIGE Profile pro Woche als fünf halbfertige. Ein deutscher Prospect wird NUR aufgenommen, wenn ALLE diese Felder belegt sind: name, position, school (Saison 2026), class_year, height, weight, herkunft, projection, individuelles `report_de` (5–8 Sätze), `report_core_de`, `forstner`, `best_case`, `worst_case` und `sources` (>=2 unabhängig). Fehlt etwas Belegbares (z. B. Größe/Gewicht), NICHT raten und NICHT aufnehmen, bis es belegt ist.
