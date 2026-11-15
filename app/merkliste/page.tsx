@@ -1,19 +1,21 @@
 import { getBoardMeta, getPlayers, getPlayerSlug } from "@/lib/player-service";
 import { getMover } from "@/lib/movers";
 import Merkliste from "@/components/Merkliste";
+import { pageMetadata } from "@/lib/seo";
 
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
   return d ? `${d}.${m}.${y}` : iso;
 }
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: "Meine Merkliste",
   description:
-    "Deine gemerkten NFL-Draft-2027-Prospects auf einen Blick, inklusive Ranking-Bewegung seit dem letzten Update.",
+    "Deine gemerkten NFL-Draft-2027-Prospects auf einen Blick, sortiert nach Consensus-Rang und mit der Ranking-Bewegung seit dem letzten Update.",
+  path: "/merkliste",
   // Persönliche, geräteabhängige Seite – nicht indexieren.
   robots: { index: false, follow: true },
-};
+});
 
 export default function MerklistePage() {
   const meta = getBoardMeta();

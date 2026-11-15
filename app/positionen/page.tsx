@@ -2,19 +2,28 @@ import Link from "next/link";
 import { getPlayersByPosition } from "@/lib/player-service";
 import { getAllPositionKeys, getPositionInfo } from "@/lib/positions";
 import Reveal from "@/components/Reveal";
+import { pageMetadata } from "@/lib/seo";
+import CollectionJsonLd from "@/components/CollectionJsonLd";
 
-export const metadata = {
-  title: "NFL Draft 2027 Positionsrankings: Beste Spieler je Position",
+export const metadata = pageMetadata({
+  title: "NFL Draft 2027: Rankings nach Position",
   description:
-    "Die besten Prospects des NFL Draft 2027 nach Position: Quarterbacks, Wide Receiver, Edge Rusher, Cornerbacks und mehr, jeweils mit deutschem Scouting-Ranking.",
-  alternates: { canonical: "/positionen" },
-};
+    "Die besten Prospects des NFL Draft 2027 nach Position: Quarterbacks, Wide Receiver, Edge Rusher, Cornerbacks und mehr – jeweils mit deutschem Scouting-Ranking.",
+  path: "/positionen",
+  kicker: "Positionsrankings",
+});
 
 export default function PositionenPage() {
   const keys = getAllPositionKeys();
 
   return (
     <main className="min-h-screen bg-background">
+      <CollectionJsonLd
+        name="Positionsrankings NFL Draft 2027"
+        path="/positionen"
+        description="Die besten Prospects des NFL Draft 2027 nach Position."
+        items={keys.map((k) => ({ name: getPositionInfo(k)?.label ?? k, path: `/position/${k.toLowerCase()}` }))}
+      />
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-10">

@@ -93,7 +93,7 @@ export default function VerticalBoard({ rows }: { rows: BoardRow[] }) {
                     {r.hasNews && (
                       <span
                         title="Aktuelle Lage: Verletzung oder Sperre – siehe Profil"
-                        className="flex-shrink-0 rounded bg-amber-500/15 px-1 py-0.5 text-[8px] font-bold normal-case text-amber-700 dark:text-amber-400"
+                        className="flex-shrink-0 rounded bg-amber-500/15 px-1 py-0.5 text-[8px] font-bold normal-case text-amber-800"
                       >
                         News
                       </span>
@@ -115,7 +115,7 @@ export default function VerticalBoard({ rows }: { rows: BoardRow[] }) {
                   )}
                 </span>
 
-                <span className="rounded bg-surface-light px-1.5 py-1 text-center text-[10px] font-bold uppercase text-primary sm:px-2 sm:text-xs">
+                <span className="rounded bg-surface-light px-1.5 py-1 text-center text-[10px] font-bold uppercase text-primary-dark sm:px-2 sm:text-xs">
                   {r.position}
                 </span>
 

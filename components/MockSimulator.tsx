@@ -584,7 +584,7 @@ export default function MockSimulator() {
                   {o.label}
                 </button>
               ))}
-              <span className="ml-1 text-[10px] text-muted/70">
+              <span className="ml-1 text-[10px] text-muted">
                 Läuft die Uhr ab, pickt automatisch der beste verfügbare Spieler.
               </span>
             </>

@@ -32,7 +32,7 @@ export default function StarButton({
         toggle(slug);
       }}
       aria-pressed={active}
-      aria-label={active ? "Von Merkliste entfernen" : "Zur Merkliste hinzufügen"}
+      aria-label={withLabel ? undefined : active ? "Von Merkliste entfernen" : "Zur Merkliste hinzufügen"}
       className={cn(
         "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-bold transition-all",
         active

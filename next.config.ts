@@ -49,6 +49,19 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   // Kein "X-Powered-By: Next.js" (Fingerprinting).
   poweredByHeader: false,
+  // Spielerfotos (Wikimedia Commons) und Hero-Bild (Pexels) laufen ueber die
+  // Bildoptimierung: skaliert, AVIF/WebP, von der eigenen Domain ausgeliefert.
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "upload.wikimedia.org", pathname: "/wikipedia/commons/**" },
+      { protocol: "https", hostname: "thumb.wikimedia.org", pathname: "/wikipedia/commons/**" },
+      { protocol: "https", hostname: "images.pexels.com", pathname: "/photos/**" },
+    ],
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [640, 828, 1080, 1280, 1920],
+    imageSizes: [48, 96, 160, 240, 360],
+    minimumCacheTTL: 2592000,
+  },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

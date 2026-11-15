@@ -12,6 +12,7 @@ import PlayerAvatar from "@/components/PlayerAvatar";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { safeJsonLd } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getColleges().map((c) => ({ slug: c.slug }));
@@ -27,23 +28,19 @@ export async function generateMetadata({
   const meta = getBoardMeta();
   if (!college) return { title: "College nicht gefunden" };
   const title = `${college.name}: NFL Draft ${meta.draftYear} Prospects`;
-  return {
+  return pageMetadata({
     title,
-    description: `Alle NFL-Draft-${meta.draftYear}-Prospects der ${college.name} in unserem Big Board: ${college.players
+    description: `Alle NFL-Draft-${meta.draftYear}-Prospects von ${college.name} in unserem Big Board: ${college.players
       .slice(0, 4)
       .map((p) => p.name)
       .join(", ")} und mehr, mit deutschem Scouting-Profil.`,
-    alternates: { canonical: `/college/${slug}` },
-    // Aggregierte College-Uebersicht (Prospect-Liste je Hochschule); der
-    // eigentliche Content liegt in den verlinkten Spielerprofilen. Bewusst
-    // nicht indexiert, um duennes Aggregat-Material aus dem Index zu halten.
+    path: `/college/${slug}`,
+    type: "article",
+    kicker: "Prospects nach College",
+    // Aggregierte College-Uebersicht; bewusst nicht indexiert (duennes Aggregat).
     robots: { index: false, follow: true },
-    openGraph: {
-      type: "article",
-      title,
-      url: absoluteUrl(`/college/${slug}`),
-    },
-  };
+  });
+
 }
 
 export default async function CollegePage({

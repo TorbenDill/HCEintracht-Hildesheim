@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   getBoardMeta,
   getMockDraft,
@@ -20,6 +21,7 @@ import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import HomeBoard from "@/components/HomeBoard";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
@@ -30,18 +32,16 @@ function germanDate(iso: string): string {
 // so sieht man schon im Suchergebnis, dass das Board aktuell ist.
 export function generateMetadata(): Metadata {
   const meta = getBoardMeta();
-  const title = `NFL Draft ${meta.draftYear}: Big Board & Mock Draft auf Deutsch – Forstner Scouting`;
-  const description =
-    `Das deutsche Big Board zum NFL Draft ${meta.draftYear} (Stand ${germanDate(meta.updated)}): ` +
-    `Consensus-Ranking aus ${meta.consensus.boards} Boards, Saisonstatistiken, Mock Draft Runde 1, ` +
-    `deutsche Prospects und Draft-Simulator.`;
-  return {
-    title: { absolute: title },
-    description,
-    alternates: { canonical: "/" },
-    openGraph: { title, description, url: SITE_URL },
-    twitter: { title, description },
-  };
+  return pageMetadata({
+    title: `NFL Draft ${meta.draftYear}: Big Board & Mock Draft | Forstner Scouting`,
+    absoluteTitle: true,
+    description:
+      `Das deutsche Big Board zum NFL Draft ${meta.draftYear} (Stand ${germanDate(meta.updated)}): ` +
+      `Consensus aus ${meta.consensus.boards} Boards, Mock Draft, Simulator, Saisonstatistik und deutsche Prospects.`,
+    path: "/",
+    image: "/og/home",
+    imageAlt: `NFL Draft Board ${meta.draftYear} – Forstner Scouting`,
+  });
 }
 
 export default function Home() {
@@ -145,19 +145,20 @@ export default function Home() {
       <section className="relative overflow-hidden border-b border-border/60">
         {heroVisual && (
           <>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={heroVisual.url}
               alt={heroVisual.alt}
-              fetchPriority="high"
-              className="absolute inset-0 h-full w-full object-cover"
+              fill
+              preload
+              sizes="100vw"
+              className="object-cover"
               style={{ backgroundColor: heroVisual.avgColor }}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/92 to-background/40" />
           </>
         )}
         <div className="relative mx-auto max-w-7xl px-4 pb-14 pt-12 sm:px-6 sm:pb-20 sm:pt-16">
-          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary-glow px-3 py-1 text-[10px] font-bold uppercase tracking-[0.25em] text-primary">
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary-glow px-3 py-1 text-[10px] font-bold uppercase tracking-[0.25em] text-primary-dark">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" aria-hidden="true" />
             Saison 2026 · Stand {stand}
           </p>

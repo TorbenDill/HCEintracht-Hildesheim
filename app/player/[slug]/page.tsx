@@ -292,7 +292,7 @@ export default async function PlayerPage({
                       key={p}
                       className="flex items-center gap-1.5 rounded-full border border-primary/20 bg-primary-glow px-3 py-1.5"
                     >
-                      <span className="text-xs font-bold text-primary">
+                      <span className="text-xs font-bold text-primary-dark">
                         {p}
                       </span>
                     </div>
@@ -354,7 +354,7 @@ export default async function PlayerPage({
             </h2>
             {player.update_de && (
               <div className="mb-4 rounded-2xl border border-amber-500/40 bg-amber-500/10 p-5">
-                <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">
+                <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-amber-700">
                   Aktuelle Lage
                   {player.update_stand && (
                     <span className="ml-2 font-normal normal-case tracking-normal text-muted">
@@ -504,7 +504,7 @@ export default async function PlayerPage({
 
             {player.sources && player.sources.length > 0 && (
               <div className="mb-4">
-                <p className="mb-2 text-[10px] uppercase tracking-widest text-muted/70">
+                <p className="mb-2 text-[10px] uppercase tracking-widest text-muted">
                   Belege zu {player.name}
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -541,7 +541,7 @@ export default async function PlayerPage({
             )}
 
             <details className="group">
-              <summary className="cursor-pointer list-none text-[10px] uppercase tracking-widest text-muted/70 transition-colors hover:text-primary">
+              <summary className="cursor-pointer list-none text-[10px] uppercase tracking-widest text-muted transition-colors hover:text-primary">
                 <span className="group-open:hidden">
                   + Verwendete Big-Boards &amp; Methodik
                 </span>
@@ -676,7 +676,7 @@ function QualityBadge({
       </svg>
       {verified ? "Geprüft" : "Belegt"}
       {count ? (
-        <span className="font-mono font-medium opacity-70">
+        <span className="font-mono font-medium">
           · {count} Quellen
         </span>
       ) : null}

@@ -1,13 +1,16 @@
 import Link from "next/link";
 import lexikon from "@/data/lexikon.json";
 import Reveal from "@/components/Reveal";
+import { pageMetadata } from "@/lib/seo";
+import CollectionJsonLd from "@/components/CollectionJsonLd";
 
-export const metadata = {
-  title: "NFL Draft Lexikon: Scouting-Begriffe auf Deutsch erklärt",
+export const metadata = pageMetadata({
+  title: "NFL Draft Lexikon: Begriffe erklärt",
   description:
-    "Was ist ein 3-Technique? Was bedeutet Cover 3? RAS Score, Senior Bowl, Draft Grades und alle wichtigen Scouting-Begriffe ausführlich auf Deutsch erklärt.",
-  alternates: { canonical: "/lexikon" },
-};
+    "Was ist ein 3-Technique, was bedeutet Cover 3? RAS Score, Senior Bowl, Draft Grades und alle wichtigen Scouting-Begriffe verständlich auf Deutsch erklärt.",
+  path: "/lexikon",
+  kicker: "Lexikon",
+});
 
 type Entry = {
   slug: string;
@@ -23,6 +26,13 @@ export default function LexikonPage() {
 
   return (
     <main className="min-h-screen bg-background">
+      <CollectionJsonLd
+        termSet
+        name="NFL Draft Lexikon"
+        path="/lexikon"
+        description="Scouting- und Draft-Begriffe auf Deutsch erklärt."
+        items={entries.map((e) => ({ name: e.term, path: `/lexikon/${e.slug}`, description: e.kurz }))}
+      />
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-10">

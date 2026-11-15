@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getBoardMeta } from "@/lib/player-service";
 import BoardEditor from "@/components/BoardEditor";
+import { pageMetadata } from "@/lib/seo";
+import ToolFaq from "@/components/ToolFaq";
 
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
@@ -10,17 +12,14 @@ function germanDate(iso: string): string {
 
 export function generateMetadata(): Metadata {
   const meta = getBoardMeta();
-  const title = `Eigenes Big Board ${meta.draftYear} erstellen`;
-  const description =
-    `Bau dein eigenes NFL-Draft-${meta.draftYear}-Big-Board: Prospects per Drag & Drop sortieren, ` +
-    `Tiers setzen, Notizen schreiben, mit dem Consensus vergleichen und als Link oder Bild teilen. Kostenlos, ohne Anmeldung.`;
-  return {
-    title,
-    description,
-    alternates: { canonical: "/mein-board" },
-    openGraph: { title, description, url: "/mein-board" },
-    twitter: { title, description },
-  };
+  return pageMetadata({
+    title: `Eigenes Big Board ${meta.draftYear} erstellen`,
+    description:
+      `Bau dein eigenes NFL-Draft-${meta.draftYear}-Big-Board: Prospects per Drag & Drop sortieren, Tiers und ` +
+      `Notizen setzen, als PNG oder PDF speichern. Kostenlos, ohne Anmeldung.`,
+    path: "/mein-board",
+    kicker: "Board-Editor",
+  });
 }
 
 export default function MeinBoardPage() {
@@ -41,6 +40,35 @@ export default function MeinBoardPage() {
           </p>
         </header>
         <BoardEditor />
+
+        <ToolFaq
+          name={`Big-Board-Editor ${meta.draftYear}`}
+          path="/mein-board"
+          heading="Fragen zum Board-Editor"
+          description="Kostenloser Editor für dein eigenes NFL-Draft-Big-Board: sortieren, Tiers, Notizen, Vergleich mit dem Consensus, Download als PNG und PDF."
+          items={[
+            {
+              q: "Wie erstelle ich mein eigenes NFL Draft Big Board?",
+              a: "Starte mit einer Vorlage – Consensus Top 32, 50, 100, alle Prospects oder deine Merkliste – und sortiere die Spieler per Drag & Drop, mit den Pfeilen oder indem du direkt einen neuen Rang eintippst. Über „Spieler hinzufügen“ ergänzt du weitere Prospects.",
+            },
+            {
+              q: "Was bedeuten die Pfeile neben den Spielern?",
+              a: "▲ und ▼ zeigen, wie viele Plätze du einen Spieler höher oder tiefer einstufst als unser Consensus-Board. Ein Gleichheitszeichen heißt: gleiche Einschätzung.",
+            },
+            {
+              q: "Kann ich Tiers und eigene Notizen anlegen?",
+              a: "Ja. Tier-Trenner gliedern dein Board in Gruppen gleichwertiger Spieler. Zu jedem Spieler notierst du deine Runde, Stärken, Schwächen und eine freie Notiz.",
+            },
+            {
+              q: "Wie lade ich mein Board herunter?",
+              a: "Als PNG im Seiten-Design für Social Media (Feed 4:5 oder Story 9:16, jeweils deine Top 32) oder als PDF mit dem kompletten Board, allen Notizen und Kästchen zum Abhaken am Draft-Tag.",
+            },
+            {
+              q: "Wo wird mein Board gespeichert?",
+              a: "Nur lokal in deinem Browser, ohne Konto und ohne Tracking. Ein Teilen-Link enthält Reihenfolge, Tiers und Namen, aber nie deine Notizen.",
+            },
+          ]}
+        />
       </div>
     </main>
   );

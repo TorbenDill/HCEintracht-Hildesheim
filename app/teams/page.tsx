@@ -2,13 +2,16 @@ import Link from "next/link";
 import { getTeams, teamSlug } from "@/lib/teams";
 import { getBoardMeta } from "@/lib/player-service";
 import Reveal from "@/components/Reveal";
+import { pageMetadata } from "@/lib/seo";
+import CollectionJsonLd from "@/components/CollectionJsonLd";
 
-export const metadata = {
-  title: "NFL Draft 2027: Team-Needs & Bedarf aller 32 Teams",
+export const metadata = pageMetadata({
+  title: "NFL Draft 2027: Bedarf aller 32 Teams",
   description:
-    "Was braucht jedes NFL-Team im Draft 2027? Bedarf, projizierter Erstrundenpick und passende Prospects für alle 32 Franchises.",
-  alternates: { canonical: "/teams" },
-};
+    "Was braucht jedes NFL-Team im Draft 2027? Positionsbedarf, projizierter Erstrundenpick und passende Prospects aus unserem Big Board für alle 32 Franchises.",
+  path: "/teams",
+  kicker: "Team-Needs",
+});
 
 export default function TeamsPage() {
   const teams = getTeams();
@@ -16,6 +19,12 @@ export default function TeamsPage() {
 
   return (
     <main className="min-h-screen bg-background">
+      <CollectionJsonLd
+        name="Team-Needs NFL Draft 2027"
+        path="/teams"
+        description="Bedarf, projizierter Erstrundenpick und passende Prospects aller 32 NFL-Teams."
+        items={teams.map((t) => ({ name: t.team, path: `/team/${teamSlug(t.teamAbbr)}` }))}
+      />
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-10">

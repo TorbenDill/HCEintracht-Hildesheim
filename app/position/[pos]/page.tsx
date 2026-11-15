@@ -9,6 +9,7 @@ import PlayerAvatar from "@/components/PlayerAvatar";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { safeJsonLd } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getAllPositionKeys().map((pos) => ({ pos: pos.toLowerCase() }));
@@ -24,17 +25,14 @@ export async function generateMetadata({
   const meta = getBoardMeta();
   if (!info) return { title: "Position nicht gefunden" };
   const title = `Die besten ${info.label} im NFL Draft ${meta.draftYear}`;
-  return {
+  return pageMetadata({
     title,
-    description: `${info.label} im NFL Draft ${meta.draftYear}: Ranking der Top-Prospects mit deutschem Scouting-Profil. ${info.intro.split(/(?<=[.!?])\s/)[0]}`.slice(0, 200),
-    alternates: { canonical: `/position/${pos.toLowerCase()}` },
-    openGraph: {
-      type: "article",
-      title,
-      description: info.intro,
-      url: absoluteUrl(`/position/${pos.toLowerCase()}`),
-    },
-  };
+    description: `${info.label} im NFL Draft ${meta.draftYear}: das Ranking der Top-Prospects mit deutschem Scouting-Profil. ${info.intro}`,
+    path: `/position/${pos.toLowerCase()}`,
+    type: "article",
+    kicker: "Positionsranking",
+  });
+
 }
 
 export default async function PositionPage({

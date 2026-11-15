@@ -2,13 +2,16 @@ import Link from "next/link";
 import { getColleges } from "@/lib/colleges";
 import { getBoardMeta } from "@/lib/player-service";
 import Reveal from "@/components/Reveal";
+import { pageMetadata } from "@/lib/seo";
+import CollectionJsonLd from "@/components/CollectionJsonLd";
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: "NFL Draft 2027: Prospects nach College",
   description:
-    "Welche College-Programme stellen die meisten NFL-Draft-Prospects 2027? Ohio State, Texas, Georgia und mehr, jeweils mit den Prospects aus unserem Big Board.",
-  alternates: { canonical: "/colleges" },
-};
+    "Welche College-Programme stellen die meisten NFL-Draft-Prospects 2027? Ohio State, Texas, Georgia und mehr – jeweils mit allen Spielern aus unserem Big Board.",
+  path: "/colleges",
+  kicker: "Prospects nach College",
+});
 
 export default function CollegesPage() {
   const colleges = getColleges();
@@ -16,6 +19,12 @@ export default function CollegesPage() {
 
   return (
     <main className="min-h-screen bg-background">
+      <CollectionJsonLd
+        name="NFL-Draft-Prospects nach College"
+        path="/colleges"
+        description="College-Programme mit NFL-Draft-2027-Prospects in unserem Big Board."
+        items={colleges.map((c) => ({ name: c.name, path: `/college/${c.slug}` }))}
+      />
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="mb-10">

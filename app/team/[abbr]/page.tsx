@@ -13,11 +13,11 @@ import {
   type DraftTeam,
 } from "@/lib/teams";
 import { getBoardMeta, getPlayerSlug } from "@/lib/player-service";
-import { absoluteUrl } from "@/lib/site";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { safeJsonLd } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getTeams().map((t) => ({ abbr: teamSlug(t.teamAbbr) }));
@@ -46,19 +46,16 @@ export async function generateMetadata({
   const meta = getBoardMeta();
   if (!team) return { title: "Team nicht gefunden" };
   const title = `${team.team}: NFL Draft ${meta.draftYear} Bedarf & Prospects`;
-  return {
+  return pageMetadata({
     title,
     description: `${pickSentence(team)} Bedarf: ${team.needs.join(", ")}. Mock-Draft-Pick, Begründung und passende Prospects aus unserem Big Board.`,
-    alternates: { canonical: `/team/${teamSlug(team.teamAbbr)}` },
-    // Aggregierte Team-Seite; bis zur inhaltlichen Aufwertung bewusst nicht
-    // indexiert, um dünnes Material aus dem Google-Index herauszuhalten.
+    path: `/team/${teamSlug(team.teamAbbr)}`,
+    type: "article",
+    kicker: "Team-Needs",
+    // Aggregierte Team-Seite; bis zur inhaltlichen Aufwertung nicht indexiert.
     robots: { index: false, follow: true },
-    openGraph: {
-      type: "article",
-      title,
-      url: absoluteUrl(`/team/${teamSlug(team.teamAbbr)}`),
-    },
-  };
+  });
+
 }
 
 export default async function TeamPage({

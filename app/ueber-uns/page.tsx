@@ -7,19 +7,18 @@ import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Reveal from "@/components/Reveal";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
 const meta = getBoardMeta();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Über uns & Methodik",
-  description: `Wer hinter ${SITE_NAME} steht und wie unser deutschsprachiges NFL-Draft-Big-Board entsteht: Datenquellen, Scouting-Methodik, Aktualisierungszyklus und redaktionelle Grundsätze.`,
-  alternates: { canonical: "/ueber-uns" },
-  openGraph: {
-    type: "article",
-    title: "Über uns & Methodik",
-    url: absoluteUrl("/ueber-uns"),
-  },
-};
+  description:
+    "Wer hinter dem NFL Draft Board 2027 steht und wie unser deutsches Big Board entsteht: Quellen, Consensus-Methodik, Aktualisierung und redaktionelle Regeln.",
+  path: "/ueber-uns",
+  type: "article",
+  kicker: "Über uns",
+});
 
 export default function UeberUnsPage() {
   const playerCount = getPlayers().length;

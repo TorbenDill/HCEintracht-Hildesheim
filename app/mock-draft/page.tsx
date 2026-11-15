@@ -6,20 +6,16 @@ import PlayerAvatar from "@/components/PlayerAvatar";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { safeJsonLd } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Mock Draft 2027 – Runde 1 mit aktueller Draft-Reihenfolge",
+export const metadata = pageMetadata({
+  title: "Mock Draft 2027: Runde 1 mit Begründung",
   description:
-    "NFL Mock Draft 2027: alle 32 Erstrunden-Picks nach aktuellem NFL-Tabellenstand, inklusive getauschter Picks, Consensus-Anteil und deutscher Begründung zu jedem Pick.",
-  alternates: { canonical: "/mock-draft" },
-  openGraph: {
-    type: "article",
-    title: "NFL Mock Draft 2027 – Runde 1",
-    description:
-      "Alle 32 Erstrunden-Picks des NFL Draft 2027 nach aktuellem Tabellenstand, mit deutscher Begründung.",
-    url: "/mock-draft",
-  },
-};
+    "NFL Mock Draft 2027: alle 32 Erstrunden-Picks nach aktueller Draft-Reihenfolge, inklusive getauschter Picks, Consensus-Anteil und deutscher Begründung je Pick.",
+  path: "/mock-draft",
+  type: "article",
+  kicker: "Mock Draft · Runde 1",
+});
 
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
@@ -162,7 +158,7 @@ function PickRow({ pick }: { pick: Pick }) {
             {pick.consensus_pct} % der Mocks
           </span>
         ) : (
-          <span className="col-span-3 justify-self-start rounded-full border border-amber-500/40 bg-amber-500/10 px-2.5 py-1 text-[10px] font-bold text-amber-700 dark:text-amber-400 sm:col-span-1 sm:justify-self-end">
+          <span className="col-span-3 justify-self-start rounded-full border border-amber-500/40 bg-amber-500/10 px-2.5 py-1 text-[10px] font-bold text-amber-700 sm:col-span-1 sm:justify-self-end">
             Board-Pick
           </span>
         )}

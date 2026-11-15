@@ -154,7 +154,7 @@ export default function SiteHeader() {
             den Header auf schmalen Geraeten um rund 8 px und liess damit JEDE
             Seite horizontal scrollen. Schrumpffaehig plus truncate kuerzt die
             Zeile stattdessen mit Auslassungspunkten. */}
-        <Link href="/" className="min-w-0" aria-label="Zur Startseite – NFL Draft Board 2027">
+        <Link href="/" className="min-w-0" title="Zur Startseite">
           <span className="block truncate font-display text-base font-semibold uppercase leading-tight tracking-wide text-foreground sm:text-lg">
             NFL Draft <span className="text-primary">Board {boardMeta.draftYear}</span>
           </span>

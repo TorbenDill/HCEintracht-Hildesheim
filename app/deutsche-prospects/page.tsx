@@ -10,20 +10,16 @@ import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import { safeJsonLd } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Deutsche NFL-Draft-Prospects 2027 (College, D1)",
+export const metadata = pageMetadata({
+  title: "Deutsche NFL-Draft-Prospects 2027",
   description:
     "Deutsche Talente im College Football (D1) mit Kurs auf den NFL Draft 2027: Hero Kanu, Bruno Dall, Issa Ouattara und weitere – mit Scouting-Profil und Draft-Aussicht.",
-  alternates: { canonical: "/deutsche-prospects" },
-  openGraph: {
-    type: "article",
-    title: "Deutsche NFL-Draft-Prospects 2027",
-    description:
-      "Deutsche D1-College-Football-Spieler mit Kurs auf den NFL Draft 2027 – Scouting-Profile, Herkunft, Draft-Aussicht.",
-    url: absoluteUrl("/deutsche-prospects"),
-  },
-};
+  path: "/deutsche-prospects",
+  type: "article",
+  kicker: "Deutsche im College Football",
+});
 
 export default function DeutscheProspectsPage() {
   const prospects = getGermanProspects();

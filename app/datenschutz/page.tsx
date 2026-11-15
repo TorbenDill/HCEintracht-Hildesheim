@@ -1,11 +1,11 @@
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: "Datenschutzerklärung",
   description:
-    "Informationen zur Verarbeitung personenbezogener Daten nach DSGVO – inkl. Hosting, Server-Logfiles, lokaler Merkliste und eingebundener Bilder.",
-  alternates: { canonical: "/datenschutz" },
-  robots: { index: true, follow: true },
-};
+    "Datenschutz bei nfldraft-scouting.de: keine Cookies, kein Tracking. Hosting, Server-Logfiles, lokale Merkliste und eigenes Board – alles nach DSGVO erklärt.",
+  path: "/datenschutz",
+});
 
 function H2({ children }: { children: React.ReactNode }) {
   return (

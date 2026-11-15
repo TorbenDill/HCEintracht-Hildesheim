@@ -1,10 +1,11 @@
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: "Impressum",
-  description: "Impressum von nfldraft-scouting.de: Anbieterkennzeichnung nach § 5 DDG, Kontakt und redaktionelle Verantwortung für das NFL Draft Board 2027.",
-  alternates: { canonical: "/impressum" },
-  robots: { index: true, follow: true },
-};
+  description:
+    "Impressum von nfldraft-scouting.de: Anbieterkennzeichnung nach § 5 DDG, Kontakt und redaktionelle Verantwortung für das NFL Draft Board 2027.",
+  path: "/impressum",
+});
 
 export default function ImpressumPage() {
   return (

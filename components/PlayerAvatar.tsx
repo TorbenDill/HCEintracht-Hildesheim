@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { getPlayerPhoto } from "@/lib/player-images";
 import { getPlayerSlug } from "@/lib/slug";
 import visuals from "@/data/player-visuals.json";
@@ -26,6 +27,12 @@ function shade(hex: string, factor: number): string {
 }
 
 const NUMBER_SIZE = { sm: "text-sm", md: "text-3xl", lg: "text-[9rem]" } as const;
+// Anzeigebreite je Avatar-Groesse (fuer srcset/sizes der Bildoptimierung).
+const IMAGE_SIZES = {
+  sm: "48px",
+  md: "(max-width: 640px) 45vw, 240px",
+  lg: "(max-width: 1024px) 90vw, 360px",
+} as const;
 
 /**
  * Spieler-Avatar: zeigt ein frei lizenziertes Foto (Wikimedia), sofern
@@ -46,14 +53,17 @@ export default function PlayerAvatar({
 
   if (photo && !failed) {
     return (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
+      // Ueber die Next-Bildoptimierung: passende Groesse, AVIF/WebP, eigene
+      // Domain (keine Drittanbieter-Cookies von Wikimedia), langes Caching.
+      <Image
         src={photo.url}
         alt={name}
-        loading="lazy"
-        decoding="async"
+        fill
+        sizes={IMAGE_SIZES[size]}
+        // Grosses Profilfoto ist das LCP-Element der Spielerseite.
+        preload={size === "lg"}
         onError={() => setFailed(true)}
-        className="absolute inset-0 h-full w-full object-cover object-top"
+        className="object-cover object-top"
       />
     );
   }

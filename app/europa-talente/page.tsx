@@ -6,25 +6,20 @@ import {
   getEuropeRadarMeta,
 } from "@/lib/europe-talents";
 import EuropeRadar from "@/components/EuropeRadar";
-import { absoluteUrl } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Talente für Europa: D2/D3-Scouting mit GFL-Star-Potenzial",
+export const metadata = pageMetadata({
+  title: "D2/D3-Talente für Europa und die GFL",
   description:
-    "Spannende NCAA-Division-II- und Division-III-Spieler, deren Produktion und Physis für die GFL und andere europäische Ligen echtes Star-Potenzial bedeuten würde – kein NFL-Draft-Board, sondern ein eigenes Scouting-Radar für Europa.",
-  alternates: { canonical: "/europa-talente" },
-  openGraph: {
-    type: "article",
-    title: "Talente für Europa: D2/D3-Scouting",
-    description:
-      "NCAA-Division-II- und -III-Talente mit GFL-Star-Potenzial – getrennt vom NFL-Draft-Board.",
-    url: absoluteUrl("/europa-talente"),
-  },
-};
+    "Scouting-Radar für Europa: NCAA-Division-II- und -III-Spieler mit GFL-Star-Potenzial, mit Belegen, Verfügbarkeit und Status – getrennt vom NFL-Draft-Board.",
+  path: "/europa-talente",
+  type: "article",
+  kicker: "Scouting-Radar Europa",
+});
 
 export default function EuropaTalentePage() {
   const talents = getEuropeTalents();
