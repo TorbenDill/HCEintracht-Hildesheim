@@ -505,7 +505,7 @@ export default async function PlayerPage({
                     className="mt-3 inline-block break-words text-xs text-muted underline decoration-dotted hover:text-primary"
                   >
                     Folge vom {formatDateDe(s.folge)}
-                    {s.minute ? `, ab Min. ${s.minute}` : ""}: {episodeShortTitle(s.folge)} ↗
+                    {s.minute ? `, ab ca. Min. ${s.minute}` : ""}: {episodeShortTitle(s.folge)} ↗
                   </a>
                 </li>
               ))}
