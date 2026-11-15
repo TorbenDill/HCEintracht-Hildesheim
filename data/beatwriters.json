@@ -1,0 +1,293 @@
+{
+ "stand": "2026-11-15",
+ "writers": {
+  "ari-druin": {
+   "team": "ARI",
+   "writer": "Donnie Druin",
+   "outlet": "Cardinals On SI",
+   "role": "Beatwriter seit 2018",
+   "author_url": "https://www.si.com/nfl/cardinals/onsi/author/donnie-druin",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "atl-mixson": {
+   "team": "ATL",
+   "writer": "Saivion Mixson",
+   "outlet": "The Falcoholic",
+   "role": "Draft-Kolumnist",
+   "author_url": "https://www.thefalcoholic.com/authors/saivionmixson",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "bal-shaffer": {
+   "team": "BAL",
+   "writer": "Jonas Shaffer",
+   "outlet": "The Baltimore Banner",
+   "role": "akkreditierter Beatwriter",
+   "author_url": "https://www.thebanner.com/sports/ravens-nfl/",
+   "paywall": "teilweise",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "buf-trapasso": {
+   "team": "BUF",
+   "writer": "Chris Trapasso",
+   "outlet": "Buffalo Rumblings",
+   "role": "Draft-Analyst (ex CBS Sports)",
+   "author_url": "https://www.buffalorumblings.com/authors/chris-trapasso",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "car-belton": {
+   "team": "CAR",
+   "writer": "Daniel Belton",
+   "outlet": "Cat Scratch Reader",
+   "role": "Draft-Kolumnist",
+   "author_url": "https://www.catscratchreader.com/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "chi-rooney": {
+   "team": "CHI",
+   "writer": "Matt Rooney",
+   "outlet": "Bleacher Nation",
+   "role": "Bears-Redakteur",
+   "author_url": "https://www.bleachernation.com/author/matt-rooney/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "cin-altman": {
+   "team": "CIN",
+   "writer": "Dale Altman",
+   "outlet": "Cincy Jungle",
+   "role": "Draft-Kolumnist",
+   "author_url": "https://www.cincyjungle.com/authors/dale-altman",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "cle-mueller": {
+   "team": "CLE",
+   "writer": "Jared Mueller",
+   "outlet": "Dawgs By Nature",
+   "role": "Browns-Autor seit ueber 10 Jahren",
+   "author_url": "https://www.dawgsbynature.com/authors/jared-mueller",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "dal-sanchez": {
+   "team": "DAL",
+   "writer": "Josh Sanchez",
+   "outlet": "Cowboys On SI",
+   "role": "Managing Editor",
+   "author_url": "https://www.si.com/nfl/cowboys/onsi/author/josh-sanchez",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "den-hart": {
+   "team": "DEN",
+   "writer": "Christopher Hart",
+   "outlet": "Mile High Report",
+   "role": "Draft-Kolumnist",
+   "author_url": "https://www.milehighreport.com/authors/christopher-hart",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "det-rogers": {
+   "team": "DET",
+   "writer": "Justin Rogers",
+   "outlet": "Detroit Football Network",
+   "role": "akkreditierter Beatreporter",
+   "author_url": "https://www.detroitfootball.net",
+   "paywall": "teilweise",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "gb-huber": {
+   "team": "GB",
+   "writer": "Bill Huber",
+   "outlet": "Packers On SI",
+   "role": "Beatwriter",
+   "author_url": "https://www.si.com/nfl/packers/onsi/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "hou-alexander": {
+   "team": "HOU",
+   "writer": "Jonathan M. Alexander",
+   "outlet": "Houston Chronicle",
+   "role": "akkreditierter Beatwriter",
+   "author_url": "https://www.houstonchronicle.com/author/jonathan-alexander/",
+   "paywall": "ja",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "ind-robins": {
+   "team": "IND",
+   "writer": "Jay Robins",
+   "outlet": "Stampede Blue",
+   "role": "Draft-Analyst",
+   "author_url": "https://www.stampedeblue.com/authors/jay-robins",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "jax-shipley": {
+   "team": "JAX",
+   "writer": "John Shipley",
+   "outlet": "Jaguars On SI",
+   "role": "Beatwriter",
+   "author_url": "https://www.si.com/nfl/jaguars/onsi/author/john-shipley",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "kc-chabot": {
+   "team": "KC",
+   "writer": "Matthew Chabot",
+   "outlet": "Arrowhead Addict (FanSided)",
+   "role": "Draft-Analyst",
+   "author_url": "https://arrowheadaddict.com/author/matthewchabot",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "lac-peterson": {
+   "team": "LAC",
+   "writer": "Michael Peterson",
+   "outlet": "Bolts From The Blue",
+   "role": "Chargers-Autor",
+   "author_url": "https://www.boltsfromtheblue.com/authors/michael-peterson",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "lar-grisak": {
+   "team": "LAR",
+   "writer": "Blaine Grisak",
+   "outlet": "Rams On SI",
+   "role": "akkreditierter Lead Publisher",
+   "author_url": "https://www.si.com/nfl/rams/onsi/author/blaine-g",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "lv-holder": {
+   "team": "LV",
+   "writer": "Matt Holder",
+   "outlet": "Silver and Black Pride / B/R Scouting",
+   "role": "Raiders-Filmanalyst und Draft-Scout",
+   "author_url": "https://www.silverandblackpride.com/authors/matt-holder",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "mia-poupart": {
+   "team": "MIA",
+   "writer": "Alain Poupart",
+   "outlet": "Dolphins On SI",
+   "role": "akkreditierter Beatwriter",
+   "author_url": "https://www.si.com/nfl/dolphins/onsi/author/alain-poupart",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "min-liebert": {
+   "team": "MIN",
+   "writer": "Tony Liebert",
+   "outlet": "Bring Me The News",
+   "role": "Vikings-Reporter",
+   "author_url": "https://bringmethenews.com/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "ne-lazar": {
+   "team": "NE",
+   "writer": "Evan Lazar",
+   "outlet": "Patriots.com",
+   "role": "Team-Seite, Draft- und Filmanalyst",
+   "author_url": "https://www.patriots.com/news",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "no-parker": {
+   "team": "NO",
+   "writer": "Anthony Parker",
+   "outlet": "Canal Street Chronicles",
+   "role": "Draft-Kolumnist",
+   "author_url": "https://www.canalstreetchronicles.com/authors/anthonyparker",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "niedrig"
+  },
+  "nyg-dabate": {
+   "team": "NYG",
+   "writer": "Mike D'Abate",
+   "outlet": "Giants On SI",
+   "role": "Beatwriter",
+   "author_url": "https://www.si.com/nfl/giants/onsi/author/mike-dabate",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "nyj-costello": {
+   "team": "NYJ",
+   "writer": "Brian Costello",
+   "outlet": "New York Post",
+   "role": "akkreditierter Beatwriter",
+   "author_url": "https://nypost.com/author/brian-costello/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "phi-kempski": {
+   "team": "PHI",
+   "writer": "Jimmy Kempski",
+   "outlet": "PhillyVoice",
+   "role": "akkreditierter Beatwriter",
+   "author_url": "https://www.phillyvoice.com/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "pit-saunders": {
+   "team": "PIT",
+   "writer": "Alan Saunders",
+   "outlet": "Steelers Now",
+   "role": "akkreditierter Beatreporter",
+   "author_url": "https://steelersnow.com/author/asaunders/",
+   "paywall": "teilweise",
+   "glaubwuerdigkeit": "hoch"
+  },
+  "sea-nelson": {
+   "team": "SEA",
+   "writer": "Brendon Nelson",
+   "outlet": "Seahawks On SI",
+   "role": "Analyst",
+   "author_url": "https://www.si.com/nfl/seahawks/onsi/author/brendon-nelson",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "sf-cohn": {
+   "team": "SF",
+   "writer": "Grant Cohn",
+   "outlet": "49ers On SI",
+   "role": "langjaehriger 49ers-Reporter",
+   "author_url": "https://www.si.com/nfl/49ers/onsi/",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "tb-adams": {
+   "team": "TB",
+   "writer": "Bailey Adams",
+   "outlet": "Pewter Report",
+   "role": "Bucs-Autor seit 2016",
+   "author_url": "https://www.pewterreport.com/",
+   "paywall": "teilweise",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "ten-melo": {
+   "team": "TEN",
+   "writer": "Justin Melo",
+   "outlet": "Music City Miracles",
+   "role": "Draft-Analyst",
+   "author_url": "https://www.musiccitymiracles.com/authors/justin-melo",
+   "paywall": "frei",
+   "glaubwuerdigkeit": "mittel"
+  },
+  "was-standig": {
+   "team": "WAS",
+   "writer": "Ben Standig",
+   "outlet": "Last Man Standig",
+   "role": "langjaehriger Commanders-Reporter",
+   "author_url": "https://lastmanstandig.substack.com/",
+   "paywall": "teilweise",
+   "glaubwuerdigkeit": "hoch"
+  }
+ }
+}

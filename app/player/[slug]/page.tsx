@@ -19,6 +19,7 @@ import Reveal from "@/components/Reveal";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import StarButton from "@/components/StarButton";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import BeatwriterNotes from "@/components/BeatwriterNotes";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 
 export async function generateStaticParams() {
@@ -447,6 +448,9 @@ export default async function PlayerPage({
             </p>
           </div>
         </Reveal>
+
+        {/* ── TEAM-BEATS (woechentlich, Redaktionszentrale) ── */}
+        <BeatwriterNotes slug={slug} />
 
         {/* ── WEITERE PROSPECTS (interne Verlinkung) ── */}
         {(positionPeers.length > 0 || rankNeighbors.length > 0) && (
