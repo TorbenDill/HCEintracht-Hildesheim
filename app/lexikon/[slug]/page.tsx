@@ -7,6 +7,8 @@ import { safeJsonLd } from "@/lib/security";
 import { pageMetadata } from "@/lib/seo";
 import { getPlayersByPosition, getPlayerSlug, byOverallRank } from "@/lib/player-service";
 import { getPositionInfo } from "@/lib/positions";
+import RichText, { plainText } from "@/components/RichText";
+import { SITE_NAME } from "@/lib/site";
 
 type Entry = {
   slug: string;
@@ -14,6 +16,9 @@ type Entry = {
   category: string;
   kurz: string;
   text: string;
+  abschnitte?: { frage: string; text: string }[];
+  faq?: { q: string; a: string }[];
+  stand?: string;
 };
 
 const entries = lexikon as Entry[];
@@ -74,6 +79,8 @@ export default async function LexikonEntryPage({
     .sort(byOverallRank)
     .slice(0, 5);
 
+  const abschnitte = entry.abschnitte ?? [];
+  const faq = entry.faq ?? [];
   const url = absoluteUrl(`/lexikon/${entry.slug}`);
   const jsonLd = {
     "@context": "https://schema.org",
@@ -91,6 +98,32 @@ export default async function LexikonEntryPage({
           url: absoluteUrl("/lexikon"),
         },
       },
+      {
+        "@type": "Article",
+        "@id": `${url}#artikel`,
+        headline: `${entry.term} einfach erklärt`,
+        description: entry.kurz,
+        url,
+        inLanguage: "de-DE",
+        about: { "@id": `${url}#begriff` },
+        ...(entry.stand ? { dateModified: entry.stand } : {}),
+        author: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl("/") },
+        publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl("/") },
+        isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl("/") },
+      },
+      ...(faq.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              "@id": `${url}#faq`,
+              mainEntity: faq.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: plainText(f.a) },
+              })),
+            },
+          ]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -117,17 +150,69 @@ export default async function LexikonEntryPage({
           {entry.kurz}
         </p>
 
-        <div className="space-y-5">
-          {entry.text.split("\n\n").map((para, i) => (
-            <p
-              key={i}
-              className="text-[15px] leading-relaxed text-foreground/85"
-            >
-              {para}
-            </p>
-          ))}
-        </div>
+        {abschnitte.length > 1 && (
+          <nav aria-label="Inhalt" className="mb-8 rounded-xl border border-border bg-surface px-5 py-4">
+            <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.2em] text-muted">Auf dieser Seite</p>
+            <ol className="space-y-1 text-sm">
+              {abschnitte.map((a, i) => (
+                <li key={a.frage}>
+                  <a href={`#abschnitt-${i + 1}`} className="font-semibold text-foreground hover:text-primary">
+                    {a.frage}
+                  </a>
+                </li>
+              ))}
+              {faq.length > 0 && (
+                <li>
+                  <a href="#haeufige-fragen" className="font-semibold text-foreground hover:text-primary">
+                    Häufige Fragen
+                  </a>
+                </li>
+              )}
+            </ol>
+          </nav>
+        )}
 
+        <RichText text={entry.text} />
+
+        {abschnitte.map((a, i) => (
+          <section key={a.frage} aria-labelledby={`abschnitt-${i + 1}`} className="mt-10">
+            <h2
+              id={`abschnitt-${i + 1}`}
+              className="mb-4 scroll-mt-24 font-display text-2xl font-semibold tracking-tight text-foreground"
+            >
+              {a.frage}
+            </h2>
+            <RichText text={a.text} />
+          </section>
+        ))}
+
+        {faq.length > 0 && (
+          <section aria-labelledby="haeufige-fragen" className="mt-12">
+            <h2
+              id="haeufige-fragen"
+              className="mb-4 scroll-mt-24 font-display text-2xl font-semibold tracking-tight text-foreground"
+            >
+              Häufige Fragen zu {entry.term}
+            </h2>
+            <div className="divide-y divide-border rounded-2xl border border-border bg-surface">
+              {faq.map((f) => (
+                <details key={f.q} className="group px-5 py-4">
+                  <summary className="cursor-pointer list-none text-sm font-bold text-foreground marker:hidden">
+                    <span className="mr-2 inline-block text-primary transition-transform group-open:rotate-90">›</span>
+                    {f.q}
+                  </summary>
+                  <RichText text={f.a} className="mt-2 text-sm leading-relaxed text-muted" />
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {entry.stand && (
+          <p className="mt-6 text-xs text-muted">
+            Stand: {entry.stand.split("-").reverse().join(".")}
+          </p>
+        )}
 
         {prospects.length > 0 && (
           <section aria-labelledby="board-bezug" className="my-10 rounded-2xl border border-border bg-surface p-6">

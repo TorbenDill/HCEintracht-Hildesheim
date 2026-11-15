@@ -4,160 +4,831 @@
     "term": "3-Technique",
     "category": "Defense",
     "kurz": "Defensive Tackle, der außen am Guard ausgerichtet ist und primär als Pass Rusher durch die B-Gap arbeitet.",
-    "text": "Die Zahlen-Techniken beschreiben, wo ein Defensive Lineman vor dem Snap gegenüber der Offensive Line ausgerichtet ist. Bei der 3-Technique steht der Defensive Tackle auf der Außenschulter des Guards, also im Zwischenraum zwischen Guard und Tackle (der sogenannten B-Gap).\n\nDiese Ausrichtung ist die Angriffsposition schlechthin: Statt wie ein Nose Tackle zwei Blocker zu binden, soll die 3-Technique mit dem ersten Schritt in die Lücke explodieren und im Idealfall den Guard im Eins-gegen-eins schlagen. Deshalb sind klassische 3-Techniques eher schnell und explosiv als massig. Aaron Donald hat die Position über ein Jahrzehnt definiert.\n\nIm Draft-Kontext bedeutet die Einordnung als 3-Technique: Der Spieler wird für Fronten mit einem Gap-Angriff (meist 4-3- oder Hybrid-Schemes) gescoutet, und sein wichtigstes Verkaufsargument ist Interior Pass Rush, nicht Laufverteidigung. Weitere gängige Ausrichtungen: 0-Technique (direkt über dem Center), 1-Technique (Schulter des Centers), 5-Technique (außen am Tackle)."
+    "text": "Die Zahlen-Techniken beschreiben, wo ein Defensive Lineman vor dem Snap gegenüber der Offensive Line ausgerichtet ist. Bei der 3-Technique steht der Defensive Tackle auf der Außenschulter des Guards, also im Zwischenraum zwischen Guard und Tackle (der sogenannten B-Gap).\n\nDiese Ausrichtung ist die Angriffsposition schlechthin: Statt wie ein Nose Tackle zwei Blocker zu binden, soll die 3-Technique mit dem ersten Schritt in die Lücke explodieren und im Idealfall den Guard im Eins-gegen-eins schlagen. Deshalb sind klassische 3-Techniques eher schnell und explosiv als massig. Aaron Donald hat die Position über ein Jahrzehnt definiert.\n\nIm Draft-Kontext bedeutet die Einordnung als 3-Technique: Der Spieler wird für Fronten mit einem Gap-Angriff (meist 4-3- oder Hybrid-Schemes) gescoutet, und sein wichtigstes Verkaufsargument ist Interior Pass Rush, nicht Laufverteidigung. Weitere gängige Ausrichtungen: 0-Technique (direkt über dem Center), 1-Technique (Schulter des Centers), 5-Technique (außen am Tackle).",
+    "abschnitte": [
+      {
+        "frage": "Was macht eine gute 3-Technique aus?",
+        "text": "Eine gute 3-Technique gewinnt mit dem ersten Schritt. Entscheidend sind Explosivität aus dem Stand, ein niedriges Pad Level (also eine tiefe Körperhaltung im Kontakt), schnelle Hände zum Lösen vom Block und ein Plan aus mehreren Pass-Rush-Moves. Masse ist zweitrangig, solange der Spieler gegen Doppelblocks nicht komplett weggeschoben wird.\n\nWorauf Scouts im Detail schauen:\n\n- Get-off: Reaktion auf den Snap, idealerweise schneller als der Guard aus seiner Stellung\n- Hand Usage: Swim, Rip, Club oder Push-Pull, um die Hände des Blockers zu schlagen\n- Counter: ein zweiter Move, wenn der erste nicht sitzt\n- Motor: Verfolgung des Balls bis zum Pfiff, auch bei Screens und Läufen zur Gegenseite"
+      },
+      {
+        "frage": "Was ist der Unterschied zwischen 3-Technique und Nose Tackle?",
+        "text": "Der Nose Tackle steht als 0- oder 1-Technique direkt am Center und soll Blocker binden, damit die Linebacker frei laufen können. Die 3-Technique steht weiter außen am Guard, greift eine einzelne Lücke an und soll selbst Plays machen. Kurz gesagt: Der Nose Tackle schafft Platz, die 3-Technique attackiert.\n\nDaraus ergeben sich unterschiedliche Körpertypen. Nose Tackles bringen oft deutlich mehr Gewicht mit und punkten über Kraft und Standfestigkeit, 3-Techniques über Beschleunigung und Beweglichkeit. In Hybrid-Fronten wechseln viele Interior Linemen je nach Down und Formation die Ausrichtung, deshalb schätzen Teams Spieler, die beide Rollen zumindest solide ausfüllen. Einen Überblick über die Position bietet die Seite [Defensive Tackles](/position/dt)."
+      },
+      {
+        "frage": "Worauf achten Scouts bei einer 3-Technique im Draft?",
+        "text": "Scouts suchen bei einer 3-Technique vor allem Belege für Interior Pass Rush auf dem Tape: gewonnene Eins-gegen-eins-Duelle gegen Guards, Druck auf den Quarterback und Tackles hinter der Line. Athletische Testwerte wie 10-Yard-Split, Three-Cone-Drill und Broad Jump stützen das Bild, ersetzen es aber nicht.\n\nEin typischer Fehlschluss ist die Gewichtsfrage. Leichtere Interior Linemen werden gern als zu klein abgestempelt, obwohl gerade die 3-Technique von Schnelligkeit lebt. Aaron Donald galt vor dem Draft 2014 als untergewichtig und ging dennoch an 13. Stelle. Umgekehrt reichen starke Werte beim [Combine](/lexikon/combine) nicht, wenn der Spieler im Spiel zu hoch steht und vom Guard kontrolliert wird. Der [RAS-Score](/lexikon/ras-score) hilft, Messwerte positionsbezogen einzuordnen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Spielt eine 3-Technique auch gegen den Lauf?",
+        "a": "Ja. Auch wenn der Pass Rush im Vordergrund steht, ist die 3-Technique für die B-Gap verantwortlich. Bricht sie zu früh nach außen oder innen aus, entsteht eine Lücke für den Running Back. Viele Defenses lassen sie in Laufsituationen deshalb mit klarer Gap-Disziplin spielen und erst bei Passdowns freier attackieren."
+      },
+      {
+        "q": "Gibt es die 3-Technique auch in einer 3-4-Defense?",
+        "a": "In klassischen 3-4-Fronten spielen die Defensive Ends oft Two-Gap, sind also für beide Lücken neben ihrem Blocker zuständig. Viele moderne 3-4-Teams nutzen aber One-Gap-Prinzipien und richten einen Interior Lineman je nach Situation als 3-Technique aus. Die Bezeichnung hängt an der Ausrichtung vor dem Snap, nicht am Namen des Schemas."
+      },
+      {
+        "q": "Was ist eine 4i-Technique?",
+        "a": "Die 4i-Technique steht auf der Innenschulter des Offensive Tackles, das i steht für inside. Sie liegt damit zwischen 3-Technique und 4-Technique (direkt über dem Tackle). Analog bezeichnet 2i die Innenschulter des Guards. Diese Ausrichtungen sind vor allem in 3-4-Fronten verbreitet, in denen der Defensive End näher an die Mitte rückt."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "cover-3",
     "term": "Cover 3",
     "category": "Defense",
     "kurz": "Zonen-Coverage, bei der drei Verteidiger das tiefe Feld in Dritteln abdecken und vier die kurzen Zonen übernehmen.",
-    "text": "Cover 3 ist eine der meistgespielten Zonen-Verteidigungen im Football. Das tiefe Feld wird in drei Drittel geteilt: Die beiden Outside Corner nehmen die äußeren Drittel, der Free Safety das mittlere. Darunter verteidigen vier Spieler (meist zwei Linebacker und zwei Slot-/Flat-Verteidiger) die kurzen Zonen.\n\nDie Stärken: Cover 3 ist gut gegen tiefe Pässe abgesichert, bringt einen Safety als zusätzlichen Verteidiger in die Box gegen den Lauf und ist relativ einfach zu lehren. Die Schwächen: Die Seams (die Nähte zwischen mittlerem und äußerem Drittel) und die Flats sind angreifbar, vor allem gegen schnelle Ausflüge von Running Backs und gegen Four-Verticals-Konzepte.\n\nFür das Scouting ist Cover 3 relevant, weil es bestimmte Spielertypen verlangt: Corner mit langer, schneller Rückwärtsbewegung und gutem Blick zum Quarterback (Zone Eyes), einen Free Safety mit echter Range über das ganze Feld und Linebacker, die Zonen lesen statt nur Manndeckung zu spielen. Die Seattle-Seahawks-Defense der Legion-of-Boom-Ära ist das berühmteste Cover-3-Beispiel."
+    "text": "Cover 3 ist eine der meistgespielten Zonen-Verteidigungen im Football. Das tiefe Feld wird in drei Drittel geteilt: Die beiden Outside Corner nehmen die äußeren Drittel, der Free Safety das mittlere. Darunter verteidigen vier Spieler (meist zwei Linebacker und zwei Slot-/Flat-Verteidiger) die kurzen Zonen.\n\nDie Stärken: Cover 3 ist gut gegen tiefe Pässe abgesichert, bringt einen Safety als zusätzlichen Verteidiger in die Box gegen den Lauf und ist relativ einfach zu lehren. Die Schwächen: Die Seams (die Nähte zwischen mittlerem und äußerem Drittel) und die Flats sind angreifbar, vor allem gegen schnelle Ausflüge von Running Backs und gegen Four-Verticals-Konzepte.\n\nFür das Scouting ist Cover 3 relevant, weil es bestimmte Spielertypen verlangt: Corner mit langer, schneller Rückwärtsbewegung und gutem Blick zum Quarterback (Zone Eyes), einen Free Safety mit echter Range über das ganze Feld und Linebacker, die Zonen lesen statt nur Manndeckung zu spielen. Die Seattle-Seahawks-Defense der Legion-of-Boom-Ära ist das berühmteste Cover-3-Beispiel.",
+    "abschnitte": [
+      {
+        "frage": "Wie erkennt man Cover 3 vor dem Snap?",
+        "text": "Typisches Erkennungsmerkmal von Cover 3 ist ein einzelner tiefer Safety in der Mitte des Feldes (Single-High). Die Outside Corner stehen oft mit Abstand zum Receiver und mit Außenleverage, der zweite Safety rückt näher an die Line. Weil Defenses das gezielt verschleiern, ist das Bild vor dem Snap aber nur ein Hinweis.\n\nHäufig zeigt die Defense zunächst zwei tiefe Safeties und rotiert erst kurz vor oder mit dem Snap in Cover 3. Das endgültige Bild entsteht dann erst nach dem Snap. Dieselbe Single-High-Optik nutzt auch Cover 1, also Manndeckung mit einem freien Safety. Verlässlicher ist deshalb oft die Reaktion der Corner auf Receiver-Bewegungen: Wer einem Receiver in Motion quer über das Feld folgt, spielt eher Mann."
+      },
+      {
+        "frage": "Welche Varianten von Cover 3 gibt es?",
+        "text": "Die bekanntesten Varianten unterscheiden sich darin, wer die kurzen Zonen übernimmt. Bei Cover 3 Sky rotiert ein Safety in die Curl-Flat-Zone, bei Cover 3 Buzz in den Hook-Curl-Bereich zwischen den Hashes. Bei Cover 3 Cloud spielt ein Corner die Flat, während ein Safety das äußere Drittel übernimmt.\n\nModerne Defenses spielen Cover 3 zudem oft als Pattern Match: Die Zonen-Verteidiger orientieren sich an den Laufwegen der Receiver und wechseln bei bestimmten Routen-Kombinationen faktisch in Manndeckung. So lässt sich die klassische Schwäche an den Seams abschwächen, ohne die Grundstruktur aufzugeben. Dafür steigen die Anforderungen an Kommunikation und Spielverständnis."
+      },
+      {
+        "frage": "Was bedeutet Cover 3 für die Bewertung von Draft-Prospects?",
+        "text": "Bei Prospects aus Cover-3-lastigen Systemen zeigt das Tape vor allem Zonen-Verhalten. Scouts prüfen dann gezielt, ob ein Cornerback auch Press-Man spielen kann und ob ein Free Safety genug Range hat, um allein das mittlere Drittel zu halten. Fehlende Mann-Snaps sind keine Schwäche, aber eine offene Frage.\n\nEin häufiger Fehlschluss betrifft Statistiken. Corner in Cover 3 werden oft seltener direkt angeworfen, wenige zugelassene Catches sagen also nicht automatisch etwas über Deckungsqualität. Umgekehrt sammeln Zonen-Corner mit gutem Blick zum Quarterback mitunter Interceptions, die in Manndeckung schwerer zu holen wären. Mehr zu den Positionen unter [Cornerbacks](/position/cb) und [Safeties](/position/s), zu Sub-Packages unter [Nickel & Dime](/lexikon/nickel-dime)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Cover 3 und Cover 2?",
+        "a": "Bei Cover 2 teilen sich zwei Safeties das tiefe Feld in zwei Hälften, die Corner bleiben kurz und verteidigen die Flats. Cover 3 nutzt drei tiefe Verteidiger mit nur einem Safety in der Mitte. Cover 2 ist dadurch stärker in den Flats, aber anfälliger in der tiefen Mitte und an den Sidelines zwischen Corner und Safety."
+      },
+      {
+        "q": "Welche Pass-Konzepte schlagen Cover 3 typischerweise?",
+        "a": "Klassische Gegenmittel sind Flood-Konzepte mit drei Routen in unterschiedlicher Tiefe auf einer Seite, Curl-Flat-Kombinationen, die den Verteidiger zwischen zwei Routen in Konflikt bringen, und vertikale Konzepte, die die drei tiefen Verteidiger überladen. Auch schnelle Pässe in die Flat sind beliebt, weil die Corner dort oft mit viel Abstand stehen."
+      },
+      {
+        "q": "Spielen NFL-Teams heute noch viel Cover 3?",
+        "a": "Ja, Cover 3 gehört weiterhin zum Grundrepertoire vieler NFL-Defenses. In den letzten Jahren haben allerdings Two-High-Shells, also Aufstellungen mit zwei tiefen Safeties, stark an Bedeutung gewonnen. Viele Teams kombinieren beides und rotieren aus einem Two-High-Bild in Cover 3, um dem Quarterback vor dem Snap möglichst wenig zu verraten."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "nfl-draft-grades",
     "term": "NFL Draft Grades erklärt",
     "category": "Draft-Prozess",
     "kurz": "Bewertungsskalen, mit denen Scouts Prospects eine Runden-Projektion und Rollen-Prognose zuordnen.",
-    "text": "Draft Grades übersetzen einen Scouting-Bericht in eine vergleichbare Note. Teams und Medien nutzen unterschiedliche Skalen, aber fast alle beantworten dieselben zwei Fragen: In welcher Runde sollte dieser Spieler gedraftet werden, und welche Rolle traut man ihm in der NFL zu?\n\nEine typische Skala: Ein Erstrunden-Grade steht für einen sofortigen Starter mit Pro-Bowl-Potenzial. Zweite und dritte Runde bedeuten Starter oder wertvoller Rotationsspieler im ersten Jahr. Day-3-Grades (Runde 4 bis 7) stehen für Rollenspieler, Spezialisten und Entwicklungsprojekte. Ein UDFA-Grade heißt: kein Draft-Pick, aber eine Einladung ins Training Camp ist realistisch.\n\nWichtig zum Verständnis: Grades sind Projektionen, keine Garantien. Sie verrechnen Talent, Produktion am College, athletische Tests, Alter, Verletzungshistorie und Charakter-Einschätzungen. Deshalb verschieben sich Grades über die Saison, nach den All-Star-Games und nach dem Combine teils deutlich. Unser Board zeigt zu jedem Spieler die aktuelle Runden-Projektion aus dem Quellen-Konsens."
+    "text": "Draft Grades übersetzen einen Scouting-Bericht in eine vergleichbare Note. Teams und Medien nutzen unterschiedliche Skalen, aber fast alle beantworten dieselben zwei Fragen: In welcher Runde sollte dieser Spieler gedraftet werden, und welche Rolle traut man ihm in der NFL zu?\n\nEine typische Skala: Ein Erstrunden-Grade steht für einen sofortigen Starter mit Pro-Bowl-Potenzial. Zweite und dritte Runde bedeuten Starter oder wertvoller Rotationsspieler im ersten Jahr. Day-3-Grades (Runde 4 bis 7) stehen für Rollenspieler, Spezialisten und Entwicklungsprojekte. Ein UDFA-Grade heißt: kein Draft-Pick, aber eine Einladung ins Training Camp ist realistisch.\n\nWichtig zum Verständnis: Grades sind Projektionen, keine Garantien. Sie verrechnen Talent, Produktion am College, athletische Tests, Alter, Verletzungshistorie und Charakter-Einschätzungen. Deshalb verschieben sich Grades über die Saison, nach den All-Star-Games und nach dem Combine teils deutlich. Unser Board zeigt zu jedem Spieler die aktuelle Runden-Projektion aus dem Quellen-Konsens.",
+    "abschnitte": [
+      {
+        "frage": "Wie unterscheiden sich Draft Grades von Teams und Medien?",
+        "text": "NFL-Teams vergeben Draft Grades intern nach eigenen, geheimen Skalen und bewerten dabei vor allem den Fit in ihr System. Medien und unabhängige Analysten veröffentlichen ihre Grades dagegen offen und bewerten neutral, ohne konkretes Team im Blick. Deshalb kann derselbe Prospect bei zwei Teams eine ganze Runde auseinanderliegen.\n\nEin Edge-Rusher, der als Stand-up-Linebacker in einer 3-4-Defense glänzt, passt nicht automatisch in ein Schema mit vier Down Linemen. Teams führen zudem oft getrennte Noten für Talent und Teambedarf. Öffentliche Rankings, wie sie in unser [Big Board](/) einfließen, bilden diese Feinheiten nur als Durchschnitt ab."
+      },
+      {
+        "frage": "Was bedeuten Draft Grades für Teams nach dem Draft?",
+        "text": "Nach dem Draft meint der Begriff Draft Grades meist Schulnoten von A bis F, mit denen Medien die Draft-Klasse eines Teams bewerten. Bewertet werden der Wert jedes Picks gegenüber den Rankings, die Erfüllung von Kaderlücken und die Qualität der Trades. Diese Noten entstehen innerhalb weniger Stunden.\n\nGenau darin liegt ihre Schwäche: Ob eine Klasse gut war, zeigt sich realistisch erst nach drei bis vier Saisons. Klassen, die am Draft-Wochenende schlechte Noten bekamen, entpuppen sich immer wieder als Volltreffer, und umgekehrt. Sinnvoll lesen lassen sich die Sofortnoten vor allem als Abgleich mit dem Konsens, etwa wie stark ein Team von einem typischen [Mock Draft](/mock-draft) abgewichen ist."
+      },
+      {
+        "frage": "Wie liest man Draft Grades beim Scouting eines Prospects richtig?",
+        "text": "Ein Draft Grade ist eine verdichtete Prognose, die nur zusammen mit dem Scouting-Bericht Sinn ergibt. Scouts achten darauf, wie der Grade zustande kommt: Ein hoher Wert aus enormem Potenzial ist riskanter als derselbe Wert aus konstanter Produktion. Dieser Unterschied zwischen Ceiling und Floor ist für die Einordnung entscheidend.\n\nTypische Fehlschlüsse bei der Interpretation:\n\n- Gleicher Grade heißt nicht gleicher Wert: Quarterbacks und Edge-Rusher werden wegen ihrer Positionsbedeutung früher gezogen als gleich bewertete Running Backs.\n- Ein Day-3-Grade ist kein Urteil über die Karriere, sondern über die Wahrscheinlichkeit, schnell zu starten.\n- Grades aus dem Herbst sind vorläufig, weil Messwerte und Medizin noch fehlen.\n\nWer eigene Bewertungen festhalten möchte, kann sie unter [Mein Board](/mein-board) mit dem Konsens vergleichen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Gibt es eine einheitliche Skala für NFL Draft Grades?",
+        "a": "Nein. Jedes NFL-Team nutzt ein eigenes Notensystem, oft mit Zahlenwerten oder Buchstabencodes, die zusätzlich Rolle und Risiko kodieren. Auch Medien verwenden verschiedene Skalen. Vergleichbar werden die Noten erst, wenn man sie in Runden-Projektionen übersetzt, also in die Frage, in welchem Bereich des Drafts ein Spieler realistisch ausgewählt werden sollte."
+      },
+      {
+        "q": "Wie viele Spieler bekommen pro Jahr einen Erstrunden-Grade?",
+        "a": "Auf den meisten Boards erhalten deutlich weniger als 32 Spieler einen echten Erstrunden-Grade. Die erste Runde wird trotzdem mit 32 Picks gefüllt, weil Teams nach Bedarf und Positionswert auswählen. Deshalb gelten späte Erstrundenpicks oft als Spieler mit Zweitrunden-Grade, die früh gezogen wurden."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Grade und Ranking?",
+        "a": "Ein Grade ist eine absolute Bewertung: Er sagt, welche Rolle ein Spieler in der NFL wahrscheinlich ausfüllt. Ein Ranking ist relativ und ordnet alle Prospects in eine Reihenfolge. Mehrere Spieler können denselben Grade haben, im Ranking steht aber immer einer vor dem anderen. Aus Rankings entsteht ein Big Board, aus Grades die Einteilung in Runden."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "ras-score",
     "term": "RAS (Relative Athletic Score)",
     "category": "Messwerte",
     "kurz": "Kennzahl von 0 bis 10, die die Athletik eines Prospects im historischen Vergleich seiner Position einordnet.",
-    "text": "Der Relative Athletic Score (RAS) wurde von Kent Lee Platte entwickelt und ist zur Standard-Währung geworden, wenn über die Athletik von Draft-Prospects gesprochen wird. Die Idee: Alle messbaren Tests eines Spielers (Größe, Gewicht, 40-Yard-Dash, Sprünge, Agility-Drills, Bench Press) werden nicht absolut betrachtet, sondern mit allen Spielern derselben Position seit 1987 verglichen.\n\nDas Ergebnis ist eine einzige Zahl zwischen 0 und 10. Ein RAS von 5,00 ist exakter Durchschnitt, alles über 8,00 gilt als klar überdurchschnittlich, Werte ab 9,50 sind Elite. Der Charme liegt im Positionskontext: 4,55 Sekunden über 40 Yards sind für einen Receiver ordentlich, für einen 145-Kilo-Tackle historisch schnell.\n\nFür die Draft-Analyse ist der RAS ein Werkzeug, kein Urteil: Es gibt jedes Jahr erfolgreiche Spieler mit mittelmäßigem RAS und hochathletische Busts. Aussagekräftig sind vor allem Extremwerte, denn bestimmte Positionen (Edge, Offensive Tackle) haben historisch fast keine erfolgreichen Starter mit sehr niedrigem RAS hervorgebracht."
+    "text": "Der Relative Athletic Score (RAS) wurde von Kent Lee Platte entwickelt und ist zur Standard-Währung geworden, wenn über die Athletik von Draft-Prospects gesprochen wird. Die Idee: Alle messbaren Tests eines Spielers (Größe, Gewicht, 40-Yard-Dash, Sprünge, Agility-Drills, Bench Press) werden nicht absolut betrachtet, sondern mit allen Spielern derselben Position seit 1987 verglichen.\n\nDas Ergebnis ist eine einzige Zahl zwischen 0 und 10. Ein RAS von 5,00 ist exakter Durchschnitt, alles über 8,00 gilt als klar überdurchschnittlich, Werte ab 9,50 sind Elite. Der Charme liegt im Positionskontext: 4,55 Sekunden über 40 Yards sind für einen Receiver ordentlich, für einen 145-Kilo-Tackle historisch schnell.\n\nFür die Draft-Analyse ist der RAS ein Werkzeug, kein Urteil: Es gibt jedes Jahr erfolgreiche Spieler mit mittelmäßigem RAS und hochathletische Busts. Aussagekräftig sind vor allem Extremwerte, denn bestimmte Positionen (Edge, Offensive Tackle) haben historisch fast keine erfolgreichen Starter mit sehr niedrigem RAS hervorgebracht.",
+    "abschnitte": [
+      {
+        "frage": "Wie wird der RAS berechnet?",
+        "text": "Der RAS basiert auf zehn Messwerten: Größe, Gewicht, 40-Yard-Dash samt 10- und 20-Yard-Split, Bench Press, Vertical Jump, Broad Jump, Short Shuttle und 3-Cone-Drill. Jeder Wert wird mit der historischen Verteilung derselben Position verglichen, in eine Teilnote von 0 bis 10 übersetzt und anschließend zu einem Gesamtwert gemittelt.\n\nDamit eine Gesamtnote entsteht, braucht ein Spieler mindestens sechs dieser Messwerte. Diese Mindestzahl verhindert, dass ein einzelner Bereich wie die Geschwindigkeit das Ergebnis dominiert. Neben den Werten vom [Combine](/lexikon/combine) werden auch Messungen vom [Pro Day](/lexikon/pro-day) berücksichtigt. Fehlen zu viele Tests, etwa wegen einer Verletzung, bleibt der Score leer."
+      },
+      {
+        "frage": "Was sagen die Teilbereiche des RAS aus?",
+        "text": "Neben der Gesamtnote zeigt der RAS Teilbewertungen für Größe, Speed, Explosivität und Agilität. Diese Aufschlüsselung ist oft aufschlussreicher als die Endzahl, weil sie zeigt, woher die Athletik eines Prospects stammt und ob sie wirklich zu den konkreten Anforderungen seiner Position passt.\n\nEin Cornerback mit Top-Speed, aber schwachen Agility-Werten kann in der Manndeckung Probleme beim Richtungswechsel bekommen. Ein Offensive Lineman mit hervorragenden Sprungwerten bringt dagegen die Explosivität für den Punch aus der Stance mit. Für Interior Defensive Linemen wie die [3-Technique](/lexikon/3-technique) zählen kurze Splits und Explosivität mehr als die volle 40-Yard-Zeit."
+      },
+      {
+        "frage": "Wie sollten Scouts den RAS bei der Draft-Bewertung einordnen?",
+        "text": "Für Scouts ist der RAS ein Filter und ein Warnsignal, kein Ranking-Ersatz. Er hilft dabei, Tape-Eindrücke zu bestätigen oder zu hinterfragen: Wirkt ein Spieler im Film schnell, misst aber langsam, lohnt ein zweiter Blick auf Technik und Spielverständnis. Entscheidend bleibt, wie die Athletik auf dem Feld umgesetzt wird.\n\nTypische Fehlschlüsse entstehen, wenn ein hoher RAS als Garantie gelesen wird oder ein niedriger als Ausschluss. Zudem hängt der Wert vom Testtag ab: Leichte Verletzungen, ungewohnter Boden oder ein auf Messwerte zugeschnittenes Gewicht können die Zahl beeinflussen. Beim Vergleich mehrerer Spieler einer [Position](/positionen) sollte deshalb immer auch das Tape mitbewertet werden."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ist der RAS ein offizielles Werkzeug der NFL?",
+        "a": "Nein. Der RAS ist eine unabhängige Kennzahl, die öffentlich zugänglich auf Basis der veröffentlichten Messwerte berechnet wird. NFL-Teams arbeiten mit eigenen, internen Athletikmodellen. In Medien, Analysen und Fan-Diskussionen hat sich der RAS aber als gemeinsamer Bezugspunkt etabliert, weil er Athletik mit einer einzigen, leicht vergleichbaren Zahl ausdrückt."
+      },
+      {
+        "q": "Kann sich der RAS eines Spielers nachträglich ändern?",
+        "a": "Ja. Wenn ein Prospect beim Combine nur einen Teil der Tests absolviert und weitere beim Pro Day nachholt, wird der Score mit den zusätzlichen Werten neu berechnet. Auch die historische Vergleichsbasis wächst mit jedem Jahrgang, sodass sich Einordnungen langfristig leicht verschieben können."
+      },
+      {
+        "q": "Gibt es den RAS auch für Quarterbacks?",
+        "a": "Ja, der RAS wird für alle Positionen berechnet, auch für Quarterbacks. Bei Spielmachern hat die Kennzahl aber wenig Vorhersagekraft, weil Präzision, Entscheidungsfindung und Spielverständnis den Erfolg bestimmen. Die Bench Press absolvieren Quarterbacks traditionell nicht, sodass bei ihnen meist weniger Messwerte in die Berechnung einfließen."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "senior-bowl",
     "term": "Senior Bowl",
     "category": "Draft-Prozess",
     "kurz": "Das wichtigste All-Star-Game des Draft-Zyklus: eine Woche Training unter NFL-Beobachtung in Mobile, Alabama.",
-    "text": "Der Reese's Senior Bowl findet jedes Jahr Anfang Februar in Mobile, Alabama statt und ist das prestigeträchtigste All-Star-Event des Draft-Prozesses. Eingeladen werden die besten Seniors und Spieler mit abgeschlossenem Studium, seit einigen Jahren auch ausgewählte jüngere Prospects.\n\nEntscheidend ist nicht das Spiel am Samstag, sondern die Trainingswoche davor: Drei Tage lang treten die Prospects in Eins-gegen-eins-Drills gegeneinander an, vor den Augen von Scouts, Koordinatoren und General Managern aller 32 Teams. Für Spieler von kleineren Schulen ist es die Bühne, um sich gegen Power-Conference-Konkurrenz zu beweisen; für alle anderen die Chance, Fragen aus dem Tape direkt zu beantworten.\n\nJedes Jahr steigen mehrere Spieler durch eine starke Senior-Bowl-Woche um eine ganze Runde auf den Boards. Zusätzlich führen die Teams vor Ort formelle Interviews, die in die Charakter-Bewertung einfließen. Faustregel der Scouts: Das Tape der Saison bleibt die Grundlage, aber Mobile liefert die letzten Prozentpunkte Gewissheit."
+    "text": "Der Senior Bowl (seit 2026 mit Titelsponsor Panini) findet jedes Jahr Ende Januar in Mobile, Alabama statt und ist das prestigeträchtigste All-Star-Event des Draft-Prozesses. Eingeladen werden die besten Seniors und Spieler mit abgeschlossenem Studium, seit einigen Jahren auch ausgewählte jüngere Prospects.\n\nEntscheidend ist nicht das Spiel am Samstag, sondern die Trainingswoche davor: Drei Tage lang treten die Prospects in Eins-gegen-eins-Drills gegeneinander an, vor den Augen von Scouts, Koordinatoren und General Managern aller 32 Teams. Für Spieler von kleineren Schulen ist es die Bühne, um sich gegen Power-Conference-Konkurrenz zu beweisen; für alle anderen die Chance, Fragen aus dem Tape direkt zu beantworten.\n\nJedes Jahr steigen mehrere Spieler durch eine starke Senior-Bowl-Woche um eine ganze Runde auf den Boards. Zusätzlich führen die Teams vor Ort formelle Interviews, die in die Charakter-Bewertung einfließen. Faustregel der Scouts: Das Tape der Saison bleibt die Grundlage, aber Mobile liefert die letzten Prozentpunkte Gewissheit.",
+    "abschnitte": [
+      {
+        "frage": "Wo und wann findet der Senior Bowl statt?",
+        "text": "Der Senior Bowl wird in Mobile, Alabama, im Hancock Whitney Stadium auf dem Campus der University of South Alabama ausgetragen. Das Spiel findet Ende Januar oder Anfang Februar statt, die Ausgabe 2027 ist für Samstag, den 30. Januar angesetzt. Seit 2026 läuft das Event als Panini Senior Bowl.\n\nZuvor war Reese's elf Jahre lang Titelsponsor. Die Trainingswoche beginnt mit dem offiziellen Weigh-in, danach folgen drei Practice-Tage. Das Spiel selbst wird im Fernsehen übertragen und markiert den Abschluss der All-Star-Saison, rund einen Monat vor dem [Combine](/lexikon/combine)."
+      },
+      {
+        "frage": "Was passiert beim Weigh-in des Senior Bowls?",
+        "text": "Beim Weigh-in werden alle Teilnehmer vor Scouts offiziell vermessen: Größe, Gewicht, Armlänge, Handgröße und Spannweite. Für viele Prospects sind es die ersten verlässlichen Körpermaße des Draft-Zyklus, denn die College-Angaben in offiziellen Spielerprofilen sind oft geschönt. Abweichungen verschieben die Positionsprojektion teils deutlich.\n\nEin Offensive Tackle mit kurzen Armen wird dann womöglich als Guard eingeplant, ein Edge-Rusher mit geringem Gewicht eher als Linebacker. Die Daten dienen den Teams als Grundlage, bis die Messungen beim Combine sie bestätigen oder korrigieren."
+      },
+      {
+        "frage": "Worauf achten Scouts beim Senior Bowl?",
+        "text": "Scouts beobachten beim Senior Bowl vor allem die Eins-gegen-eins-Duelle der Practices, weil dort Technik gegen gleichwertige Konkurrenz sichtbar wird. Wichtig ist auch, wie schnell Prospects neue Playbooks und Coaching umsetzen. Die Teams werden von Trainerstäben aus der NFL betreut, was den Austausch besonders realistisch macht.\n\nTypische Bewertungspunkte sind:\n\n- Lernkurve von Tag zu Tag, etwa bei Small-School-Spielern\n- Pass-Rush gegen Pass-Protection bei Linemen\n- Ballsicherheit und Separation bei Receivern gegen starke Cornerbacks\n\nEin Fehlschluss wäre, das eigentliche Spiel überzubewerten. Viele Scouts reisen bereits nach den Practices ab. Bewertungen fließen in die Runden-Projektion auf dem [Big Board](/lexikon/big-board) ein."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Senior Bowl und Shrine Bowl?",
+        "a": "Beide sind All-Star-Events mit einer Trainingswoche vor NFL-Scouts. Der Senior Bowl in Mobile gilt als hochkarätiger und versammelt viele Prospects mit Projektion für die ersten drei Runden. Der East-West Shrine Bowl in Texas richtet sich stärker an Day-3-Kandidaten und Undrafted Free Agents. Beide finden Ende Januar oder Anfang Februar statt, meist nur wenige Tage auseinander."
+      },
+      {
+        "q": "Wie heißen die Teams beim Senior Bowl?",
+        "a": "Die Teilnehmer werden auf zwei Teams verteilt, das National Team und das American Team. Die Kader umfassen zusammen mehr als 100 Prospects und verändern sich bis kurz vor der Trainingswoche, weil eingeladene Spieler verletzt absagen oder sich auf Combine und Pro Day konzentrieren. Für sie rücken kurzfristig andere Prospects nach."
+      },
+      {
+        "q": "Lohnt sich der Senior Bowl für Erstrunden-Kandidaten?",
+        "a": "Für hoch eingeschätzte Prospects ist der Senior Bowl ein Abwägen zwischen Risiko und Nutzen. Wer teilnimmt, zeigt Wettkampfbereitschaft und führt früh Gespräche mit Teams. Manche Top-Spieler sagen dennoch ab, um Verletzungen zu vermeiden. Eine Absage schadet einem Spieler mit starkem Tape in der Regel nicht."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "east-west-shrine-bowl",
     "term": "East-West Shrine Bowl",
     "category": "Draft-Prozess",
     "kurz": "Traditionsreiches All-Star-Game eine Stufe unter dem Senior Bowl, wichtig für Day-3- und Sleeper-Prospects.",
-    "text": "Der East-West Shrine Bowl ist das älteste College-All-Star-Game (seit 1925) und wird zugunsten der Shriners Children's Hospitals ausgetragen. Im Draft-Ökosystem steht er eine Stufe unter dem Senior Bowl: Hier spielen vor allem Prospects, die in den Runden 4 bis 7 oder als Undrafted Free Agents projiziert werden.\n\nGenau das macht ihn für Scouts wertvoll. Die Trainingswoche zeigt, welche Small-School-Spieler und Spätentwickler gegen besseren Wettbewerb bestehen. Wer hier dominiert, bekommt oft nachträglich eine Senior-Bowl-Einladung oder schiebt sich in die Draftable-Range. NFL-Teams schicken komplette Scouting-Abteilungen, und viele spätere Starter und Special-Teams-Stammspieler wurden in dieser Woche entdeckt.\n\nFür unser Board gilt: Taucht ein Spieler mit Shrine-Bowl-Einladung auf, ist das ein Signal, dass die Liga ihn auf dem Zettel hat, auch wenn die großen Boards ihn noch nicht führen. Die Woche findet Ende Januar/Anfang Februar statt, kurz vor dem Senior Bowl."
+    "text": "Der East-West Shrine Bowl ist das älteste College-All-Star-Game (seit 1925) und wird zugunsten der Shriners Children's Hospitals ausgetragen. Im Draft-Ökosystem steht er eine Stufe unter dem Senior Bowl: Hier spielen vor allem Prospects, die in den Runden 4 bis 7 oder als Undrafted Free Agents projiziert werden.\n\nGenau das macht ihn für Scouts wertvoll. Die Trainingswoche zeigt, welche Small-School-Spieler und Spätentwickler gegen besseren Wettbewerb bestehen. Wer hier dominiert, bekommt oft nachträglich eine Senior-Bowl-Einladung oder schiebt sich in die Draftable-Range. NFL-Teams schicken komplette Scouting-Abteilungen, und viele spätere Starter und Special-Teams-Stammspieler wurden in dieser Woche entdeckt.\n\nFür unser Board gilt: Taucht ein Spieler mit Shrine-Bowl-Einladung auf, ist das ein Signal, dass die Liga ihn auf dem Zettel hat, auch wenn die großen Boards ihn noch nicht führen. Die Woche findet Ende Januar statt, zuletzt in derselben Woche wie der Senior Bowl.",
+    "abschnitte": [
+      {
+        "frage": "Wo wird der East-West Shrine Bowl ausgetragen?",
+        "text": "Der East-West Shrine Bowl findet seit 2024 im Großraum Dallas statt. 2024 und 2026 wurde das Spiel im Ford Center at The Star in Frisco, Texas, ausgetragen, der Zentrale der Dallas Cowboys. Die 100. Ausgabe im Januar 2025 lief im AT&T Stadium in Arlington. Ein Spielort für 2027 war bei Redaktionsschluss nicht offiziell bestätigt.\n\nDer Spielort hat in der Geschichte oft gewechselt. Gegründet 1925 in San Francisco, zog das Spiel später unter anderem nach Texas und Florida, von 2012 bis 2020 nach St. Petersburg. Nach der Absage 2021 wegen der Pandemie wurde 2022 und 2023 im Allegiant Stadium bei Las Vegas gespielt."
+      },
+      {
+        "frage": "Welche Regeln gelten beim East-West Shrine Bowl?",
+        "text": "Seit 2017 stellt die NFL beim Shrine Bowl Coaching-Staffs und Schiedsrichter, gespielt wird nach NFL-Regeln mit Einschränkungen. Unter anderem sind Shifts und Motion in der Offense sowie Stunts und Blitzes in der Defense untersagt. Das hält die Spielzüge einfach und macht individuelle Duelle besser vergleichbar.\n\nFür Scouts ist das ein Vorteil: Ohne komplexe Schemata zeigt sich, wer seine Gegenspieler technisch und athletisch schlagen kann. Neben Seniors dürfen auch Underclassmen teilnehmen, die sich für den Draft angemeldet haben. Seit 1985 werden zudem einzelne Spieler aus dem kanadischen Universitätsfootball eingeladen."
+      },
+      {
+        "frage": "Warum ist der East-West Shrine Bowl für Scouts wichtig?",
+        "text": "Der Shrine Bowl ist für Scouts die beste Gelegenheit, Spieler aus dem Bereich Day 3 und [UDFA](/lexikon/udfa) gegen ähnlich starke Konkurrenz zu sehen. Auf dem Tape spielen viele dieser Prospects gegen schwächere Gegner. Die Practice-Woche zeigt, ob ihre Stärken auch gegen Spieler aus großen Conferences tragen.\n\nWorauf Scouts in der Woche achten:\n\n- Wie Small-School-Spieler mit dem Tempo umgehen\n- Ob Prospects an Special Teams Interesse und Einsatz zeigen\n- Wie schnell neue Techniken der NFL-Coaches umgesetzt werden\n\nEin Fehlschluss wäre, Shrine-Bowl-Spieler pauschal als zweite Wahl abzutun. Viele haben über diese Woche ihren Weg in die NFL gefunden, wie die Einordnung von [Day 1, 2 und 3](/lexikon/day-1-2-3) zeigt."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wohin gehen die Einnahmen des Shrine Bowls?",
+        "a": "Die Nettoerlöse des East-West Shrine Bowls kommen den karitativen Projekten der Shriners zugute, vor allem den Shriners Children's Hospitals. Diese Kliniken behandeln Kinder unter anderem mit orthopädischen Erkrankungen und Verbrennungen. Der wohltätige Zweck ist seit der ersten Ausgabe 1925 der Kern des Events."
+      },
+      {
+        "q": "Gibt es beim Shrine Bowl ein MVP?",
+        "a": "Ja. Seit 1954 werden bei jedem East-West Shrine Bowl zwei Spieler als Most Valuable Player ausgezeichnet, einer für die Offense und einer für die Defense. Für den Draft zählt die Auszeichnung weniger als die Eindrücke aus der Trainingswoche, sie sorgt aber für zusätzliche Aufmerksamkeit."
+      },
+      {
+        "q": "Wie werden die Teams beim Shrine Bowl eingeteilt?",
+        "a": "Wie der Name sagt, treten ein East Team und ein West Team gegeneinander an. Die Zuordnung orientiert sich traditionell grob an der Herkunft der Spieler beziehungsweise ihrer Colleges. Für Scouts spielt die Aufteilung kaum eine Rolle, weil ohnehin die Duelle in den Practices im Mittelpunkt stehen und nicht das Endergebnis."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "combine",
     "term": "NFL Scouting Combine",
     "category": "Draft-Prozess",
     "kurz": "Das zentrale Testevent in Indianapolis: standardisierte athletische Messungen, Medizinchecks und Interviews.",
-    "text": "Das NFL Scouting Combine findet jährlich Ende Februar/Anfang März in Indianapolis statt. Rund 320 eingeladene Prospects durchlaufen dort standardisierte Tests: 40-Yard-Dash, Vertical Jump, Broad Jump, 3-Cone-Drill, Short Shuttle, Bench Press sowie positionsspezifische Drills.\n\nFür die Teams sind zwei weniger sichtbare Teile oft wichtiger als die Läufe in Shorts: die medizinischen Untersuchungen (alle 32 Teams erhalten denselben vollständigen Medizin-Report, für manche Prospects das Zünglein an der Waage) und die formellen 15-Minuten-Interviews, in denen Football-IQ und Persönlichkeit geprüft werden.\n\nDie athletischen Zahlen fließen in Modelle wie den RAS ein und können Boards spürbar verschieben, vor allem bei Extremwerten. Die gesunde Einordnung bleibt aber: Das Combine bestätigt oder hinterfragt das, was auf dem Tape zu sehen ist, es ersetzt es nicht. Wer beim Combine nicht testet, holt das beim Pro Day seiner Universität nach."
+    "text": "Das NFL Scouting Combine findet jährlich Ende Februar/Anfang März in Indianapolis statt. Rund 320 eingeladene Prospects durchlaufen dort standardisierte Tests: 40-Yard-Dash, Vertical Jump, Broad Jump, 3-Cone-Drill, Short Shuttle, Bench Press sowie positionsspezifische Drills.\n\nFür die Teams sind zwei weniger sichtbare Teile oft wichtiger als die Läufe in Shorts: die medizinischen Untersuchungen (alle 32 Teams erhalten denselben vollständigen Medizin-Report, für manche Prospects das Zünglein an der Waage) und die formellen Interviews (seit 2020 bis zu 18 Minuten), in denen Football-IQ und Persönlichkeit geprüft werden.\n\nDie athletischen Zahlen fließen in Modelle wie den RAS ein und können Boards spürbar verschieben, vor allem bei Extremwerten. Die gesunde Einordnung bleibt aber: Das Combine bestätigt oder hinterfragt das, was auf dem Tape zu sehen ist, es ersetzt es nicht. Wer beim Combine nicht testet, holt das beim Pro Day seiner Universität nach.",
+    "abschnitte": [
+      {
+        "frage": "Wo und wann findet der NFL Combine statt?",
+        "text": "Der NFL Scouting Combine findet seit 1987 in Indianapolis statt, die Drills laufen im Lucas Oil Stadium. Die NFL hat Indianapolis als Austragungsort für 2027 und 2028 bestätigt. Laut NFL-Kalender beginnt der Combine 2027 am 1. März und damit etwa eine Woche später als in den Vorjahren.\n\nDer Ablauf erstreckt sich über rund eine Woche. Die Prospects reisen in Positionsgruppen an, durchlaufen zunächst Messungen, Medizinchecks und Interviews und absolvieren am Ende ihres Aufenthalts die On-Field-Workouts. Die Drills werden im Fernsehen übertragen und ziehen inzwischen auch Fans vor Ort an. Nur eingeladene Spieler dürfen teilnehmen."
+      },
+      {
+        "frage": "Welche Messungen und Interviews gibt es beim Combine?",
+        "text": "Vor den Drills werden Körpermaße offiziell erfasst: Größe, Gewicht, Armlänge, Handgröße und Spannweite. Gerade Armlänge und Handgröße gelten bei Offensive Tackles, Edge-Rushern und Quarterbacks als wichtige Schwellenwerte. Dazu kommen Medizinchecks und formelle Interviews, deren Zahl und Dauer die Liga begrenzt.\n\nSeit 2020 darf jedes Team bis zu 45 formelle Interviews führen, jeweils bis zu 18 Minuten lang. Vorher waren es 60 Gespräche zu je 15 Minuten. Daneben gibt es viele informelle Kurzgespräche. Den früher fest eingeplanten Wonderlic-Test hat die Liga als verpflichtenden Bestandteil abgeschafft, Teams nutzen stattdessen eigene kognitive Tests."
+      },
+      {
+        "frage": "Wie wichtig ist der Combine für die Draft-Bewertung?",
+        "text": "Der Combine ist für Scouts vor allem ein Abgleich: Er bestätigt, ob die Athletik aus dem Tape messbar vorhanden ist, und liefert vergleichbare Zahlen für alle Prospects. Große Sprünge auf den Boards entstehen meist durch Extremwerte oder medizinische Befunde, seltener durch solide Durchschnittsleistungen.\n\nWorauf Scouts besonders achten:\n\n- Split-Zeiten beim [40-Yard-Dash](/lexikon/40-yard-dash) für Linemen, weil die ersten zehn Yards die Explosivität zeigen\n- Positionsdrills, in denen Fußarbeit und Technik sichtbar werden\n- Verzichtet ein Spieler auf Tests, ist das kein Warnsignal, solange er sie beim Pro Day nachholt\n\nDie Messwerte fließen direkt in Kennzahlen wie den [RAS](/lexikon/ras-score) ein."
+      },
+      {
+        "frage": "Was ist der Rekord im 40-Yard-Dash beim Combine?",
+        "text": "Den offiziellen Combine-Rekord im 40-Yard-Dash hält Wide Receiver Xavier Worthy mit 4,21 Sekunden aus dem Jahr 2024. Er löste damit John Ross ab, der 2017 4,22 Sekunden gelaufen war. Worthy wurde anschließend in der ersten Runde von den Kansas City Chiefs gedraftet.\n\nRekordzeiten sorgen für Schlagzeilen, sagen aber wenig über die spätere Karriere aus. Für die Bewertung zählt, wie sich die Geschwindigkeit im Spiel zeigt, etwa beim Lösen von Coverage oder beim Verfolgen eines Ballträgers."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie viele Spieler werden zum NFL Combine eingeladen?",
+        "a": "In der Regel werden jedes Jahr rund 320 bis 330 Prospects eingeladen. Die Auswahl trifft ein Gremium aus Personalverantwortlichen der NFL-Teams auf Basis von Scouting-Bewertungen. Eine Einladung ist ein starkes Signal, dass die Liga einen Spieler als draftbar einschätzt, eine Garantie für einen Pick ist sie aber nicht."
+      },
+      {
+        "q": "Können Fans den Combine live besuchen?",
+        "a": "Ja, seit einigen Jahren öffnet die NFL Teile des Combines für Publikum. Fans können die On-Field-Workouts im Lucas Oil Stadium von ausgewählten Bereichen aus verfolgen, begleitet von Fan-Angeboten rund um das Event. Die Interviews und Medizinchecks bleiben dagegen nicht öffentlich."
+      },
+      {
+        "q": "Ist die Teilnahme am Combine Pflicht für den Draft?",
+        "a": "Nein. Für die Draft-Teilnahme reicht die Eligibility, eine Combine-Einladung ist keine Voraussetzung. Jedes Jahr werden auch Spieler gedraftet, die nicht in Indianapolis waren, etwa von kleineren Colleges. Auch eingeladene Prospects dürfen einzelne Tests auslassen, nehmen aber meist zumindest an Messungen, Medizinchecks und Interviews teil."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "pro-day",
     "term": "Pro Day",
     "category": "Draft-Prozess",
     "kurz": "Testtag an der eigenen Universität, an dem Prospects vor Scouts ihre Workouts absolvieren.",
-    "text": "Ein Pro Day ist die Heimspiel-Version des Combines: Jede größere Universität veranstaltet im März einen Testtag, an dem ihre Draft-Kandidaten vor angereisten NFL-Scouts die bekannten Drills absolvieren. Wer beim Combine nicht eingeladen war, verletzt war oder seine Zeiten verbessern will, bekommt hier die zweite Chance.\n\nDie Bedingungen sind allerdings weniger standardisiert: gelaufen wird auf dem vertrauten Boden, gestoppt teils per Hand, und Quarterbacks werfen einstudierte Skripte an ihre eigenen Receiver. Deshalb gewichten Teams Pro-Day-Zahlen vorsichtiger als Combine-Werte, die Differenz von einer Zehntelsekunde beim 40-Yard-Dash ist eingepreist.\n\nWichtig sind Pro Days vor allem für drei Gruppen: Small-School-Prospects ohne Combine-Einladung, Spieler mit Verletzungs-Comeback, die Gesundheit demonstrieren wollen, und Quarterbacks, deren Wurf-Sessions von Head Coaches und Offensive Coordinators persönlich besucht werden. Privat-Workouts einzelner Teams schließen sich oft direkt an."
+    "text": "Ein Pro Day ist die Heimspiel-Version des Combines: Jede größere Universität veranstaltet im März einen Testtag, an dem ihre Draft-Kandidaten vor angereisten NFL-Scouts die bekannten Drills absolvieren. Wer beim Combine nicht eingeladen war, verletzt war oder seine Zeiten verbessern will, bekommt hier die zweite Chance.\n\nDie Bedingungen sind allerdings weniger standardisiert: gelaufen wird auf dem vertrauten Boden, gestoppt teils per Hand, und Quarterbacks werfen einstudierte Skripte an ihre eigenen Receiver. Deshalb gewichten Teams Pro-Day-Zahlen vorsichtiger als Combine-Werte, die Differenz von einer Zehntelsekunde beim 40-Yard-Dash ist eingepreist.\n\nWichtig sind Pro Days vor allem für drei Gruppen: Small-School-Prospects ohne Combine-Einladung, Spieler mit Verletzungs-Comeback, die Gesundheit demonstrieren wollen, und Quarterbacks, deren Wurf-Sessions von Head Coaches und Offensive Coordinators persönlich besucht werden. Privat-Workouts einzelner Teams schließen sich oft direkt an.",
+    "abschnitte": [
+      {
+        "frage": "Wie läuft ein Pro Day ab?",
+        "text": "Ein Pro Day beginnt meist mit Messungen von Größe, Gewicht und Spannweite, danach folgen die bekannten Tests wie 40-Yard-Dash, Sprünge und Agility-Drills. Zum Abschluss stehen Positionsdrills, oft geleitet von anwesenden NFL-Coaches. Die Universität organisiert den Tag, die Teams entscheiden, wen sie schicken.\n\nSpieler, die beim [Combine](/lexikon/combine) bereits alle Tests absolviert haben, konzentrieren sich am Pro Day häufig nur auf die Positionsarbeit. Wer in Indianapolis einzelne Tests ausgelassen oder schwach gemessen hat, nutzt die Gelegenheit zum Nachtesten. Spieler kleinerer Colleges dürfen häufig am Pro Day einer größeren Universität in der Nähe teilnehmen."
+      },
+      {
+        "frage": "Wann finden Pro Days statt?",
+        "text": "Pro Days finden im Zeitraum nach dem Combine bis wenige Wochen vor dem Draft statt, also überwiegend im März und teils bis Anfang April. Die großen Programme verteilen ihre Termine so, dass Scouts möglichst viele Pro Days besuchen können. Der NFL Draft 2027 ist für den 29. April bis 1. Mai in Washington angesetzt.\n\nIn diese Phase fallen auch die Besuche von Prospects in den Teamzentralen. Jedes Team darf eine begrenzte Zahl auswärtiger Spieler zu sogenannten Top-30-Visits einladen, bei denen Gespräche, Medizinchecks und Taktik-Sessions stattfinden, aber keine Workouts."
+      },
+      {
+        "frage": "Wie bewerten Scouts Pro-Day-Ergebnisse für den Draft?",
+        "text": "Scouts nutzen Pro Days vor allem, um offene Fragen zu klären: Ist eine Verletzung ausgeheilt, hat sich eine Zeit verbessert, passt ein Spieler auf eine neue Position? Die Zahlen werden mit Combine-Werten abgeglichen und tendenziell vorsichtiger gewichtet, weil Bedingungen und Zeitmessung schwanken.\n\nEin häufiger Fehlschluss ist, eine deutlich bessere Pro-Day-Zeit als echten Fortschritt zu lesen. Oft spiegelt sie eher günstigere Bedingungen wider. Aussagekräftiger ist, wie ein Prospect in den Positionsdrills wirkt und wie viele Head Coaches oder General Manager anwesend sind. Hohe Präsenz zeigt, welche Teams ernsthaftes Interesse haben, wie es sich später in [Mock Drafts](/mock-draft) widerspiegelt."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Dürfen Combine-Teilnehmer beim Pro Day noch einmal laufen?",
+        "a": "Ja. Prospects, die beim Combine getestet haben, können beim Pro Day einzelne Tests wiederholen. Viele nutzen das, um eine enttäuschende Zeit zu verbessern. Teams betrachten dann beide Werte, verlassen sich aber eher auf die standardisierte Messung aus Indianapolis, weil die Pro-Day-Bedingungen nicht einheitlich sind."
+      },
+      {
+        "q": "Ist ein Pro Day öffentlich?",
+        "a": "Das hängt von der Universität ab. Viele Pro Days finden in der eigenen Trainingshalle statt und sind für das allgemeine Publikum nicht zugänglich, während Medien teils zugelassen werden. Ergebnisse werden häufig über Universitäten, Reporter oder soziale Medien bekannt, sind aber nicht immer offiziell bestätigt."
+      },
+      {
+        "q": "Was sind private Workouts nach dem Pro Day?",
+        "a": "Private Workouts sind individuelle Trainingseinheiten, die ein einzelnes Team mit einem Prospect vereinbart, oft am College oder in dessen Heimatort. Coaches testen dort gezielt Fähigkeiten, die für ihr System wichtig sind. Besonders Quarterbacks absolvieren vor dem Draft mehrere solcher Workouts für verschiedene interessierte Teams."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "big-board",
     "term": "Big Board",
     "category": "Scouting",
     "kurz": "Die positionsübergreifende Rangliste aller Draft-Prospects, sortiert nach Talent statt nach Team-Bedarf.",
-    "text": "Ein Big Board ist die zentrale Rangliste des Scoutings: alle draftberechtigten Spieler eines Jahrgangs, positionsübergreifend sortiert nach ihrem Wert, unabhängig davon, welches Team welchen Bedarf hat. Es beantwortet die Frage: Wer ist der beste verfügbare Spieler?\n\nTeams pflegen interne Boards mit eigenen Grades; Medien und Scouting-Dienste veröffentlichen ihre Versionen. Ein Consensus Big Board (wie unsere Hauptquelle) mittelt viele öffentliche Boards und glättet damit Ausreißer einzelner Analysten. Das macht es zur besten öffentlichen Näherung an die tatsächliche Marktmeinung.\n\nVom Big Board zu unterscheiden ist der Mock Draft: Der simuliert die Draft-Reihenfolge inklusive Team-Bedürfnissen. Ein Spieler kann auf dem Board Rang 10 stehen, aber im Mock auf Pick 20 fallen, weil die Teams davor andere Positionen brauchen. Genau aus dieser Differenz entsteht am Draft-Abend der berühmte Value-Pick: ein Team greift zu, wenn ein Spieler deutlich unter seinem Board-Rang verfügbar ist."
+    "text": "Ein Big Board ist die zentrale Rangliste des Scoutings: alle draftberechtigten Spieler eines Jahrgangs, positionsübergreifend sortiert nach ihrem Wert, unabhängig davon, welches Team welchen Bedarf hat. Es beantwortet die Frage: Wer ist der beste verfügbare Spieler?\n\nTeams pflegen interne Boards mit eigenen Grades; Medien und Scouting-Dienste veröffentlichen ihre Versionen. Ein Consensus Big Board (wie unsere Hauptquelle) mittelt viele öffentliche Boards und glättet damit Ausreißer einzelner Analysten. Das macht es zur besten öffentlichen Näherung an die tatsächliche Marktmeinung.\n\nVom Big Board zu unterscheiden ist der Mock Draft: Der simuliert die Draft-Reihenfolge inklusive Team-Bedürfnissen. Ein Spieler kann auf dem Board Rang 10 stehen, aber im Mock auf Pick 20 fallen, weil die Teams davor andere Positionen brauchen. Genau aus dieser Differenz entsteht am Draft-Abend der berühmte Value-Pick: ein Team greift zu, wenn ein Spieler deutlich unter seinem Board-Rang verfügbar ist.",
+    "abschnitte": [
+      {
+        "frage": "Wie entsteht ein Big Board?",
+        "text": "Ein Big Board entsteht aus Spielerbewertungen: Scouts sehen Spielfilm, ergänzen Testergebnisse, medizinische Befunde und Gespräche und vergeben pro Prospect einen Grade. Aus diesen Grades wird eine durchgehende Rangliste über alle Positionen gebildet. Die Reihenfolge ist also das Ergebnis vieler Einzelurteile, nicht deren Ausgangspunkt.\n\nBei Teams läuft das in Stufen: Area Scouts bewerten die Spieler ihrer Region, Cross-Checker prüfen die besten Kandidaten gegen, danach kommen Positionstrainer und General Manager dazu. Bis zum Draft wird das Board immer wieder umsortiert, etwa nach dem Senior Bowl, der [Combine](/lexikon/combine) oder den Pro Days. Öffentliche Boards folgen derselben Logik, nur mit weniger Zugang zu Medizin- und Interviewdaten."
+      },
+      {
+        "frage": "Was sind Tiers auf einem Big Board?",
+        "text": "Tiers sind Gruppen von Spielern, die ein Bewerter als ungefähr gleichwertig einstuft. Statt nur Platz 14 und Platz 15 zu unterscheiden, fasst ein Tier etwa alle Spieler zusammen, die als sichere Erstrunden-Starter gelten. Tiers zeigen, wo im Board echte Qualitätssprünge liegen und wo die Unterschiede marginal sind.\n\nFür den Draft-Abend ist das praktisch: Solange im eigenen Pick-Bereich noch mehrere Spieler desselben Tiers verfügbar sind, kann ein Team nach Bedarf auswählen oder sogar nach hinten traden. Ist der Tier fast leer, lohnt eher ein Trade nach vorn. Diese Denkweise verbindet das Big Board direkt mit der Philosophie des [BPA](/lexikon/bpa)."
+      },
+      {
+        "frage": "Worauf sollte man beim Lesen eines Big Boards achten?",
+        "text": "Ein Big Board ist eine Momentaufnahme. Wer es liest, sollte prüfen, wann es zuletzt aktualisiert wurde, welche Informationen eingeflossen sind und ob es ein Einzel- oder ein Consensus-Board ist. Abstände zwischen Rängen sind selten gleich groß: Zwischen Platz 3 und 4 kann mehr liegen als zwischen Platz 30 und 50.\n\nTypische Fehlschlüsse:\n\n- Rang gleich Draft-Position: Quarterbacks und Premium-Positionen gehen oft früher, als ihr Rang erwarten lässt.\n- Frühe Boards als Urteil: Vor der Saison stützen sie sich vor allem auf Film aus dem Vorjahr.\n- Positionen ignorieren: Ein Guard und ein Edge Rusher auf ähnlichem Rang haben für Teams oft unterschiedlichen Wert.\n\nAuf dieser Seite zeigt die Startseite das [Consensus Big Board](/). Unter [Mein Board](/mein-board) lässt sich eine eigene Rangliste mit Tiers und Notizen anlegen und als PNG oder PDF herunterladen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie viele Spieler stehen auf einem Big Board?",
+        "a": "Das hängt vom Zweck ab. Öffentliche Boards umfassen meist 100 bis 300 Spieler. NFL-Teams bewerten intern deutlich mehr Prospects, sortieren aber nur die Spieler in ihre Rangliste ein, die ihre medizinischen und charakterlichen Kriterien erfüllen. Spieler ohne Draft-Grade landen auf einer separaten Liste für die Phase nach dem Draft."
+      },
+      {
+        "q": "Haben NFL-Teams unterschiedliche Big Boards?",
+        "a": "Ja. Jedes Team bewertet Spieler nach eigenem Schema, eigener Scheme-Passung und eigenen medizinischen Standards. Ein Spieler kann bei einem Team in der ersten Runde stehen und bei einem anderen gar nicht auf dem Board sein, etwa wegen eines Befunds oder weil er nicht ins System passt. Deshalb weichen echte Draft-Ergebnisse oft deutlich von öffentlichen Boards ab."
+      },
+      {
+        "q": "Was ist ein Positional Board?",
+        "a": "Ein Positional Board ordnet Spieler nur innerhalb einer Position, zum Beispiel alle Cornerbacks eines Jahrgangs. Es ergänzt das positionsübergreifende Big Board und hilft zu erkennen, wie tief eine Position besetzt ist. Ist eine Position tief, kann ein Team sie später im Draft angehen und früh eine knappere Position besetzen."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "mock-draft",
     "term": "Mock Draft",
     "category": "Draft-Prozess",
     "kurz": "Eine Simulation des Drafts: Wer pickt an welcher Stelle welchen Spieler, unter Berücksichtigung der Team-Needs.",
-    "text": "Ein Mock Draft ist die Vorhersage des tatsächlichen Draft-Ablaufs: Pick für Pick wird simuliert, welches Team welchen Spieler auswählt. Anders als das Big Board (reine Talent-Rangliste) verrechnet der Mock die Draft-Reihenfolge, die Kaderlücken der Teams, Quarterback-Dynamiken und mögliche Trades.\n\nMock Drafts erfüllen im Draft-Ökosystem mehrere Rollen: Für Fans sind sie die zugänglichste Draft-Vorschau. Für Analysten sind sie ein Denkwerkzeug, um Szenarien durchzuspielen (Was passiert, wenn zwei Quarterbacks in den Top 5 gehen?). Und in Summe bilden hunderte veröffentlichte Mocks eine Markterwartung ab, an der sich am Draft-Abend Überraschungen messen lassen.\n\nJe näher der Draft rückt, desto präziser werden Mocks, weil Combine-Ergebnisse, Team-Besuche und Insider-Informationen einfließen. Vor der Saison (wie aktuell bei unserem 2027er-Mock) sind sie bewusst als frühe Projektion zu lesen: Die Draft-Reihenfolge basiert noch auf Prognosen der NFL-Saison. Im Simulator kannst du selbst mocken, allein oder mit bis zu sechs Personen."
+    "text": "Ein Mock Draft ist die Vorhersage des tatsächlichen Draft-Ablaufs: Pick für Pick wird simuliert, welches Team welchen Spieler auswählt. Anders als das Big Board (reine Talent-Rangliste) verrechnet der Mock die Draft-Reihenfolge, die Kaderlücken der Teams, Quarterback-Dynamiken und mögliche Trades.\n\nMock Drafts erfüllen im Draft-Ökosystem mehrere Rollen: Für Fans sind sie die zugänglichste Draft-Vorschau. Für Analysten sind sie ein Denkwerkzeug, um Szenarien durchzuspielen (Was passiert, wenn zwei Quarterbacks in den Top 5 gehen?). Und in Summe bilden hunderte veröffentlichte Mocks eine Markterwartung ab, an der sich am Draft-Abend Überraschungen messen lassen.\n\nJe näher der Draft rückt, desto präziser werden Mocks, weil Combine-Ergebnisse, Team-Besuche und Insider-Informationen einfließen. Vor der Saison (wie aktuell bei unserem 2027er-Mock) sind sie bewusst als frühe Projektion zu lesen: Die Draft-Reihenfolge basiert noch auf Prognosen der NFL-Saison. Im Simulator kannst du selbst mocken, allein oder mit bis zu sechs Personen.",
+    "abschnitte": [
+      {
+        "frage": "Wie wird ein Mock Draft erstellt?",
+        "text": "Ein Mock Draft entsteht, indem zuerst die Draft-Reihenfolge festgelegt oder prognostiziert wird. Danach wird für jedes Team abgewogen, welche Positionen fehlen, welche Spieler auf seinem Niveau verfügbar sind und wie das Front Office bisher gedraftet hat. Grundlage bleibt eine Talent-Rangliste, das [Big Board](/lexikon/big-board).\n\nSeriöse Mocks berücksichtigen außerdem Vertragssituationen, die Free Agency im März und das Verhalten anderer Teams: Wenn mehrere Teams vor einem Pick einen Quarterback brauchen, verschiebt das alle folgenden Picks. Manche Mocks bilden auch Trades ab, die meisten verzichten aber darauf, weil Trades kaum vorhersehbar sind."
+      },
+      {
+        "frage": "Wie genau sind Mock Drafts?",
+        "text": "Mock Drafts treffen in der ersten Runde meist nur einen kleinen Teil der exakten Paarungen aus Team und Spieler. Deutlich besser schneiden sie bei der Frage ab, welche Spieler grundsätzlich in Runde 1 gehen. Je früher im Jahr ein Mock erscheint, desto größer ist die Unsicherheit, weil Reihenfolge, Kader und Informationen sich noch ändern.\n\nEin einzelner Trade kann einen Mock ab dieser Stelle komplett verschieben. Deshalb ist die Trefferquote bei exakten Picks ein strenges Maß. Aussagekräftiger ist, ob ein Mock die Tendenzen erkennt: welche Positionen früh gefragt sind, welche Spieler fallen und wo sich Bedarf und Angebot treffen."
+      },
+      {
+        "frage": "Was verrät ein Mock Draft über die Bewertung eines Prospects?",
+        "text": "Ein Mock Draft zeigt, wo ein Prospect voraussichtlich ausgewählt wird, nicht wie gut er ist. Ein Spieler kann im Mock spät auftauchen, weil die Teams davor andere Bedürfnisse haben, obwohl sein Talent höher eingestuft wird. Für eine Einschätzung des Spielers selbst ist das Big Board die bessere Quelle.\n\nEin häufiger Fehlschluss ist, Mock-Positionen als Qualitätsurteil zu lesen. Ein Mock bündelt Annahmen über 32 Teams. Wer einen Prospect bewerten will, schaut auf Grades, Film und Testwerte; wer wissen will, wann er realistisch vom Board geht, schaut auf den Mock. Der aktuelle [Mock Draft](/mock-draft) dieser Seite und der [Simulator](/simulator) zeigen beide Perspektiven nebeneinander."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist ein Mock Draft Simulator?",
+        "a": "Ein Mock Draft Simulator lässt Nutzer selbst für ein oder mehrere Teams picken, während der Computer die übrigen Teams übernimmt. Die CPU-Teams wählen dabei anhand einer Rangliste und hinterlegter Team-Bedürfnisse. So lassen sich eigene Szenarien testen, etwa ein früher Quarterback-Pick oder ein Trade-Down. Auf dieser Seite steht dafür der Simulator bereit."
+      },
+      {
+        "q": "Ab wann erscheinen Mock Drafts für einen Jahrgang?",
+        "a": "Erste Mock Drafts für den nächsten Jahrgang erscheinen oft schon direkt nach dem vorherigen Draft im Frühjahr. Sie beruhen dann auf geschätzten Draft-Reihenfolgen und Film aus der vergangenen College-Saison. Die meisten Analysten aktualisieren ihre Mocks nach der regulären Saison, nach dem Senior Bowl, nach der Combine und kurz vor dem Draft."
+      },
+      {
+        "q": "Was ist ein Seven-Round-Mock?",
+        "a": "Die meisten Mocks decken nur die erste Runde ab, weil dort Aufmerksamkeit und Informationslage am größten sind. Erweiterte Versionen simulieren zwei, drei oder alle sieben Runden. Je weiter sie reichen, desto unsicherer werden einzelne Picks, weil später kleine Unterschiede zwischen vielen ähnlich bewerteten Spielern entscheiden und weniger öffentliche Informationen vorliegen."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "bpa",
     "term": "BPA (Best Player Available)",
     "category": "Scouting",
     "kurz": "Draft-Philosophie: immer den besten verfügbaren Spieler wählen, unabhängig vom aktuellen Team-Bedarf.",
-    "text": "BPA steht für Best Player Available und beschreibt die Draft-Philosophie, bei jedem Pick schlicht den am höchsten bewerteten verfügbaren Spieler zu nehmen, auch wenn auf dieser Position kein akuter Bedarf besteht. Die Gegenposition ist das Need-Drafting: gezielt Kaderlücken stopfen.\n\nDas Argument für BPA: Kaderbedarf ändert sich schnell (Verletzungen, Free Agency), Talent-Fehlgriffe wirken dagegen jahrelang nach. Wer einen Reach macht, also einen schwächeren Spieler nur wegen der Position früher zieht als sein Board-Rang rechtfertigt, zahlt langfristig drauf. Die meisten erfolgreichen Front Offices fahren in der Praxis eine Mischung: BPA innerhalb eines Korridors, bei ungefähr gleich bewerteten Spielern entscheidet der Bedarf.\n\nIm Simulator auf dieser Seite kannst du beide Philosophien selbst testen: Die CPU spielt einen gemäßigten Need-Ansatz und greift nur dann zum Bedarf, wenn der Spieler nicht zu weit unter dem besten verfügbaren liegt, sonst nimmt sie den BPA."
+    "text": "BPA steht für Best Player Available und beschreibt die Draft-Philosophie, bei jedem Pick schlicht den am höchsten bewerteten verfügbaren Spieler zu nehmen, auch wenn auf dieser Position kein akuter Bedarf besteht. Die Gegenposition ist das Need-Drafting: gezielt Kaderlücken stopfen.\n\nDas Argument für BPA: Kaderbedarf ändert sich schnell (Verletzungen, Free Agency), Talent-Fehlgriffe wirken dagegen jahrelang nach. Wer einen Reach macht, also einen schwächeren Spieler nur wegen der Position früher zieht als sein Board-Rang rechtfertigt, zahlt langfristig drauf. Die meisten erfolgreichen Front Offices fahren in der Praxis eine Mischung: BPA innerhalb eines Korridors, bei ungefähr gleich bewerteten Spielern entscheidet der Bedarf.\n\nIm Simulator auf dieser Seite kannst du beide Philosophien selbst testen: Die CPU spielt einen gemäßigten Need-Ansatz und greift nur dann zum Bedarf, wenn der Spieler nicht zu weit unter dem besten verfügbaren liegt, sonst nimmt sie den BPA.",
+    "abschnitte": [
+      {
+        "frage": "Was ist der Unterschied zwischen BPA und Need-Drafting?",
+        "text": "BPA wählt den am höchsten eingestuften Spieler auf dem eigenen Board, egal auf welcher Position. Need-Drafting wählt gezielt für eine Kaderlücke, auch wenn dafür ein etwas schwächer eingestufter Spieler genommen wird. Der Unterschied zeigt sich vor allem dann, wenn Talent und Bedarf deutlich auseinanderfallen.\n\nIn der Praxis liegt die Wahrheit meist dazwischen. Viele Teams ordnen ihr [Big Board](/lexikon/big-board) in Tiers und wählen innerhalb eines Tiers nach Bedarf. Reines Need-Drafting zeigt sich oft dann, wenn ein Team unbedingt einen Quarterback braucht und dafür bereit ist, früher zuzugreifen, als das eigene Board es nahelegt."
+      },
+      {
+        "frage": "Warum ist BPA bei Premium-Positionen umstritten?",
+        "text": "Nicht jede Position hat denselben Wert. Quarterbacks, Edge Rusher, Offensive Tackles und Cornerbacks gelten als Premium-Positionen, weil sie das Spiel stark beeinflussen und auf dem Free-Agent-Markt teuer sind. Ein strenges BPA, das einen Running Back vor einem gleich starken Tackle wählt, ignoriert diesen Positionswert.\n\nViele Front Offices rechnen den Positionswert deshalb direkt in ihre Grades ein. Ein Off-Ball Linebacker braucht dann einen klar höheren Grade, um vor einem [Edge](/lexikon/edge) eingestuft zu werden. BPA bedeutet in diesem Sinn nicht, Positionen zu ignorieren, sondern das Board ehrlich zu befolgen, wenn der Positionswert bereits berücksichtigt ist."
+      },
+      {
+        "frage": "Wie hängen BPA und Draft-Trades zusammen?",
+        "text": "Trades sind das Werkzeug, mit dem Teams BPA und Bedarf versöhnen. Steht im eigenen Pick-Bereich kein Spieler, der Board und Bedarf zugleich erfüllt, kann ein Team nach hinten traden, zusätzliche Picks sammeln und später zugreifen. Ist ein Wunschspieler noch verfügbar, aber gefährdet, lohnt ein Trade nach vorn.\n\nFür die Bewertung eines Prospects heißt das: Ob ein Spieler BPA ist, hängt vom Board des jeweiligen Teams ab. Ein Pick, der von außen wie ein Reach wirkt, kann auf dem Board des Teams der beste verfügbare Spieler gewesen sein. Wer nach dem Draft Picks bewertet, sollte das berücksichtigen. Im [Simulator](/simulator) lässt sich der Unterschied selbst durchspielen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was bedeutet Reach im NFL Draft?",
+        "a": "Ein Reach ist ein Pick, bei dem ein Team einen Spieler deutlich früher auswählt, als es die öffentliche Einschätzung oder das Big Board nahelegen. Häufig steckt Bedarf auf einer bestimmten Position dahinter. Ob ein Pick wirklich ein Reach war, zeigt sich allerdings erst nach einigen Jahren, wenn klar ist, wie sich der Spieler in der NFL entwickelt hat."
+      },
+      {
+        "q": "Was ist ein Value-Pick?",
+        "a": "Ein Value-Pick ist das Gegenstück zum Reach: Ein Team bekommt einen Spieler deutlich später, als sein Board-Rang erwarten lässt. Das passiert, wenn andere Teams Bedarf auf anderen Positionen hatten oder Bedenken bei Medizin oder Charakter bestanden. Value-Picks gelten als typisches Ergebnis einer BPA-Strategie, weil das Team konsequent nach Rangliste wählt."
+      },
+      {
+        "q": "Spielt BPA in späten Runden eine kleinere Rolle?",
+        "a": "In den späten Runden liegen viele Spieler eng beieinander, deshalb entscheiden dort oft Kaderbedarf, Scheme-Passung und Special-Teams-Wert. Gleichzeitig ist das Risiko eines Fehlgriffs geringer, weil späte Picks weniger Draft-Kapital kosten. Viele Teams nutzen Day 3 daher gezielt, um Lücken zu füllen oder Entwicklungsspieler mit hoher Athletik auszuwählen."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "day-1-2-3",
     "term": "Day 1, Day 2, Day 3",
     "category": "Draft-Prozess",
     "kurz": "Die Dreiteilung des Drafts: Runde 1 (Tag 1), Runden 2-3 (Tag 2), Runden 4-7 (Tag 3).",
-    "text": "Der NFL Draft erstreckt sich über drei Tage, und diese Struktur hat eine eigene Sprache geprägt: Day 1 ist die erste Runde am Donnerstagabend, Day 2 umfasst die Runden 2 und 3 am Freitag, Day 3 die Runden 4 bis 7 am Samstag.\n\nDie Einteilung ist mehr als Logistik, sie beschreibt Erwartungsklassen. Ein Day-1-Pick soll ein sofortiger Starter mit Star-Potenzial sein, inklusive der Fifth-Year-Option im Rookie-Vertrag, die nur Erstrundenpicks haben. Day-2-Picks gelten als zukünftige Starter mit kleinen Fragezeichen, hier entsteht traditionell der beste Gegenwert im Draft. Day 3 liefert Rollenspieler, Spezialisten, Entwicklungsprojekte und Special-Teams-Stammpersonal.\n\nIm Scouting-Sprachgebrauch heißt Er ist ein Day-2-Spieler deshalb: solide NFL-Zukunft, aber kein Blue-Chip-Talent. Zwischen dem letzten Pick von Day 2 und dem ersten von Day 3 liegt über Nacht außerdem ein strategisch wichtiges Fenster: Teams telefonieren bereits mit den Beratern der ungedrafteten Spieler."
+    "text": "Der NFL Draft erstreckt sich über drei Tage, und diese Struktur hat eine eigene Sprache geprägt: Day 1 ist die erste Runde am Donnerstagabend, Day 2 umfasst die Runden 2 und 3 am Freitag, Day 3 die Runden 4 bis 7 am Samstag.\n\nDie Einteilung ist mehr als Logistik, sie beschreibt Erwartungsklassen. Ein Day-1-Pick soll ein sofortiger Starter mit Star-Potenzial sein, inklusive der Fifth-Year-Option im Rookie-Vertrag, die nur Erstrundenpicks haben. Day-2-Picks gelten als zukünftige Starter mit kleinen Fragezeichen, hier entsteht traditionell der beste Gegenwert im Draft. Day 3 liefert Rollenspieler, Spezialisten, Entwicklungsprojekte und Special-Teams-Stammpersonal.\n\nIm Scouting-Sprachgebrauch heißt Er ist ein Day-2-Spieler deshalb: solide NFL-Zukunft, aber kein Blue-Chip-Talent. Zwischen dem letzten Pick von Day 2 und dem ersten von Day 3 liegt über Nacht außerdem ein strategisch wichtiges Fenster: Teams telefonieren bereits mit den Beratern der ungedrafteten Spieler.",
+    "abschnitte": [
+      {
+        "frage": "Wie viele Picks gibt es an Day 1, Day 2 und Day 3?",
+        "text": "Jede Runde umfasst grundsätzlich 32 Picks, einen pro Team. Day 1 hat damit 32 Picks, Day 2 mit zwei Runden gut doppelt so viele, Day 3 mit vier Runden den größten Teil. Durch Compensatory Picks am Ende der Runden 3 bis 7 und verwirkte Picks schwankt die Gesamtzahl jedes Jahr leicht.\n\nCompensatory Picks erhalten Teams als Ausgleich, wenn sie in der Free Agency mehr wertvolle Spieler verloren als dazugewonnen haben. Deshalb ist Day 3 der Tag mit den meisten Picks und auch der Tag, an dem Teams die meisten Spieler für Kadertiefe und Special Teams finden. Der allerletzte Pick des Drafts trägt den Spitznamen Mr. Irrelevant."
+      },
+      {
+        "frage": "Was bedeutet ein Day-1-, Day-2- oder Day-3-Grade für einen Prospect?",
+        "text": "Ein Day-Grade fasst die erwartete Draft-Spanne eines Prospects zusammen. Ein Day-1-Grade steht für einen Spieler mit Starter-Profil ab dem ersten Jahr, ein Day-2-Grade für einen künftigen Starter mit einzelnen Schwächen, ein Day-3-Grade für Rollenspieler, Backups oder Entwicklungsprojekte mit klarer Stärke.\n\nFür Scouts ist die Einteilung ein Gesprächswerkzeug, kein Endurteil. Ein häufiger Fehlschluss ist, Day-3-Spielern grundsätzlich wenig zuzutrauen. Tom Brady wurde in Runde 6 gezogen, Brock Purdy war 2022 der letzte Pick des Drafts. Solche Fälle sind Ausnahmen, zeigen aber, wie groß die Unsicherheit bei der Projektion von College-Spielern bleibt. Mehr zu Bewertungsskalen steht unter [NFL Draft Grades](/lexikon/nfl-draft-grades)."
+      },
+      {
+        "frage": "Wie unterscheiden sich die Rookie-Verträge nach Draft-Tag?",
+        "text": "Alle gedrafteten Spieler erhalten Rookie-Verträge über vier Jahre, deren Höhe sich nach der Pick-Position richtet. Erstrundenpicks bekommen zusätzlich die Fifth-Year-Option, mit der ihr Team den Vertrag um ein fünftes Jahr verlängern kann. Je früher der Pick, desto höher fallen Gehalt und Signing Bonus aus.\n\nDie Unterschiede sind erheblich. Ein Top-10-Pick kostet ein Team ein Vielfaches eines Day-3-Picks, liefert bei Erfolg aber auch langfristig Kostenkontrolle auf einem Starter. Gerade deshalb gilt Day 2 als Bereich mit gutem Verhältnis aus Kosten und Spielqualität. Spieler, die nach Day 3 übrig bleiben, unterschreiben als [UDFA](/lexikon/udfa)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wann findet der NFL Draft statt?",
+        "a": "Der NFL Draft findet traditionell Ende April statt und verteilt sich über drei Tage von Donnerstag bis Samstag. Die erste Runde läuft am Donnerstagabend amerikanischer Zeit, in Deutschland also in der Nacht auf Freitag. Der Austragungsort wechselt jedes Jahr zwischen verschiedenen NFL-Städten."
+      },
+      {
+        "q": "Wie viel Zeit haben Teams für einen Pick?",
+        "a": "Die Zeit pro Pick sinkt im Lauf des Drafts. In der ersten Runde haben Teams zehn Minuten, in der zweiten sieben Minuten. Ab der dritten Runde verkürzt sich die Bedenkzeit weiter, in den späten Runden bleiben nur noch wenige Minuten. Läuft die Zeit ab, kann das nächste Team bereits seinen Pick abgeben."
+      },
+      {
+        "q": "Können Teams an Day 2 und Day 3 Picks tauschen?",
+        "a": "Ja, Trades sind an allen drei Tagen möglich. Teams tauschen Picks innerhalb des laufenden Drafts, gegen Picks im nächsten Jahr oder gegen Spieler. Gerade zwischen Day 1 und Day 2 entstehen häufig Trades, weil Teams über Nacht ihre Boards neu sortieren und gezielt auf Spieler reagieren, die überraschend noch verfügbar sind."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "udfa",
     "term": "UDFA (Undrafted Free Agent)",
     "category": "Draft-Prozess",
     "kurz": "Spieler, die im Draft nicht ausgewählt wurden und danach als Free Agents bei Teams unterschreiben.",
-    "text": "UDFA steht für Undrafted Free Agent: einen draftberechtigten Spieler, der in den sieben Runden nicht ausgewählt wurde. Direkt nach dem letzten Pick, dem traditionell als Mr. Irrelevant gefeierten Spieler, beginnt eine hektische Phase, in der alle 32 Teams um die besten ungedrafteten Spieler werben.\n\nFür die Spieler hat das Nicht-Gedraftet-Werden einen echten Vorteil: Sie dürfen sich ihr Team aussuchen und gehen dorthin, wo der Depth Chart die beste Chance auf einen Kaderplatz bietet. Die Signing-Boni sind klein, aber der Weg in die Liga ist real: Jedes Jahr schaffen es dutzende UDFAs in die 53er-Kader, und die Liste prominenter Beispiele reicht von Kurt Warner über Tony Romo bis zu aktuellen Pro-Bowl-Spielern.\n\nIn Scouting-Berichten bedeutet ein UDFA-Grade deshalb nicht wertlos, sondern: kein Draft-Kapital wert, aber Training-Camp-Kandidat mit definierbarem Weg über Special Teams oder eine Spezialrolle."
+    "text": "UDFA steht für Undrafted Free Agent: einen draftberechtigten Spieler, der in den sieben Runden nicht ausgewählt wurde. Direkt nach dem letzten Pick, dem traditionell als Mr. Irrelevant gefeierten Spieler, beginnt eine hektische Phase, in der alle 32 Teams um die besten ungedrafteten Spieler werben.\n\nFür die Spieler hat das Nicht-Gedraftet-Werden einen echten Vorteil: Sie dürfen sich ihr Team aussuchen und gehen dorthin, wo der Depth Chart die beste Chance auf einen Kaderplatz bietet. Die Signing-Boni sind klein, aber der Weg in die Liga ist real: Jedes Jahr schaffen es dutzende UDFAs in die 53er-Kader, und die Liste prominenter Beispiele reicht von Kurt Warner über Tony Romo bis zu aktuellen Pro-Bowl-Spielern.\n\nIn Scouting-Berichten bedeutet ein UDFA-Grade deshalb nicht wertlos, sondern: kein Draft-Kapital wert, aber Training-Camp-Kandidat mit definierbarem Weg über Special Teams oder eine Spezialrolle.",
+    "abschnitte": [
+      {
+        "frage": "Wie läuft die Verpflichtung von UDFAs ab?",
+        "text": "Die Verpflichtung von UDFAs beginnt direkt nach dem letzten Pick. Teams kontaktieren Spieler und Berater telefonisch, oft wurden die Gespräche schon während Day 3 vorbereitet. Die Spieler wählen zwischen mehreren Angeboten und unterschreiben in der Regel einen Standardvertrag über drei Jahre mit kleinem Signing Bonus und teilweise garantiertem Gehalt.\n\nNeben vollwertigen Verträgen gibt es eine zweite Stufe: Spieler ohne Vertragsangebot erhalten Einladungen zu Rookie-Minicamps als Tryout-Spieler. Überzeugen sie dort, folgt ein Vertrag. Für Teams ist die UDFA-Phase eine Verlängerung des Drafts, in der sie Spieler von ihrem [Big Board](/lexikon/big-board) holen, die keinen Pick wert waren."
+      },
+      {
+        "frage": "Welche bekannten NFL-Spieler waren UDFAs?",
+        "text": "Zu den bekanntesten UDFAs gehören die Quarterbacks Kurt Warner und Tony Romo, Tight End Antonio Gates, Linebacker James Harrison sowie die Receiver Wes Welker und Adam Thielen. Kurt Warner wurde später in die Hall of Fame aufgenommen. Diese Karrieren zeigen, dass auch der Draft Talente regelmäßig falsch einschätzt.\n\nDie Gründe sind unterschiedlich: Gates spielte am College Basketball statt Football, Warner musste sich über die Arena Football League und NFL Europe zurückkämpfen. Andere waren körperlich spät entwickelt, kamen von kleinen Programmen oder hatten Verletzungen im letzten College-Jahr. Für die Masse der UDFAs gilt aber: Der Weg in den Kader ist schmal und führt fast immer über Special Teams."
+      },
+      {
+        "frage": "Worauf achten Scouts bei möglichen UDFAs?",
+        "text": "Bei Spielern ohne Draft-Grade suchen Scouts vor allem nach einer klaren Stärke, die sich in eine NFL-Rolle übersetzen lässt. Dazu gehören Special-Teams-Tauglichkeit, eine herausragende athletische Eigenschaft oder eine Spezialrolle wie Long Snapper. Allroundspieler ohne Ausreißer nach oben haben es schwerer.\n\nWichtige Kriterien:\n\n- Athletik: hohe Werte bei [Combine](/lexikon/combine) oder Pro Day sprechen für Entwicklungspotenzial.\n- Positionsflexibilität: Spieler, die mehrere Rollen besetzen können, haben mehr Wege in den Kader.\n- Konkurrenzlage: Ein dünner Depth Chart beim Team erhöht die Chancen.\n- Herkunft: Spieler kleinerer Colleges werden öfter übersehen, wenn sie wenig Film gegen starke Gegner haben."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Verdienen UDFAs weniger als gedraftete Spieler?",
+        "a": "In der Regel ja. UDFAs erhalten wie späte Draft-Picks Gehälter nahe dem Ligaminimum, aber meist deutlich kleinere Signing Boni, für die Teams nur ein begrenztes Budget haben. Dafür läuft ihr Vertrag ein Jahr kürzer als der eines gedrafteten Spielers. Wer sich durchsetzt, kann also früher über einen neuen, besser dotierten Vertrag verhandeln."
+      },
+      {
+        "q": "Was ist ein Priority Free Agent?",
+        "a": "Als Priority Free Agent bezeichnet man einen UDFA, den Teams besonders hoch einschätzen und um den sich nach dem Draft mehrere Teams bemühen. Solche Spieler hatten oft einen Grade im Bereich der späten Runden und erhalten die höchsten UDFA-Boni oder höhere Garantien. Der Begriff ist kein offizieller Vertragsstatus, sondern Sprachgebrauch der Branche."
+      },
+      {
+        "q": "Können UDFAs auf dem Practice Squad landen?",
+        "a": "Ja, das ist ein häufiger Weg. Wer bei den Kaderkürzungen vor der Saison nicht unter die 53 Spieler kommt, kann für den Practice Squad verpflichtet werden. Dort trainiert er mit dem Team, spielt aber nur nach einer Aktivierung. Viele UDFAs nutzen den Practice Squad als Zwischenschritt, bevor sie in den aktiven Kader aufrücken."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "edge",
     "term": "EDGE (Edge Rusher)",
     "category": "Positionen",
     "kurz": "Sammelbegriff für Pass Rusher am Rand der Line, egal ob 4-3 Defensive End oder 3-4 Outside Linebacker.",
-    "text": "EDGE ist im modernen Scouting der Sammelbegriff für alle Verteidiger, die am Rand der Line of Scrimmage angreifen, unabhängig davon, ob sie im Schema als Defensive End mit der Hand im Boden oder als stehender Outside Linebacker geführt werden. Die Position hat sich als eigene Kategorie durchgesetzt, weil die Aufgabe dieselbe ist: den Quarterback jagen und die Kante gegen den Lauf setzen.\n\nDie wichtigsten Bewertungskriterien: der erste Schritt (Get-off), die Fähigkeit, sich unter den Block zu beugen und die Kurve zum Quarterback eng zu halten (Bend), ein Plan aus Pass-Rush-Moves samt Counter, Länge und Kraft im Ansatz (Power/Bull Rush) sowie die Disziplin gegen das Laufspiel.\n\nIm Draft ist EDGE neben Quarterback und Offensive Tackle die am höchsten bezahlte Premium-Position, entsprechend früh gehen die Top-Talente vom Board. Faustregel: Wer den Passwerfer stören kann, wird überdraftet, wer es nicht kann, fällt, egal wie gut die übrigen Werte sind."
+    "text": "EDGE ist im modernen Scouting der Sammelbegriff für alle Verteidiger, die am Rand der Line of Scrimmage angreifen, unabhängig davon, ob sie im Schema als Defensive End mit der Hand im Boden oder als stehender Outside Linebacker geführt werden. Die Position hat sich als eigene Kategorie durchgesetzt, weil die Aufgabe dieselbe ist: den Quarterback jagen und die Kante gegen den Lauf setzen.\n\nDie wichtigsten Bewertungskriterien: der erste Schritt (Get-off), die Fähigkeit, sich unter den Block zu beugen und die Kurve zum Quarterback eng zu halten (Bend), ein Plan aus Pass-Rush-Moves samt Counter, Länge und Kraft im Ansatz (Power/Bull Rush) sowie die Disziplin gegen das Laufspiel.\n\nIm Draft ist EDGE neben Quarterback und Offensive Tackle die am höchsten bezahlte Premium-Position, entsprechend früh gehen die Top-Talente vom Board. Faustregel: Wer den Passwerfer stören kann, wird überdraftet, wer es nicht kann, fällt, egal wie gut die übrigen Werte sind.",
+    "abschnitte": [
+      {
+        "frage": "Was ist der Unterschied zwischen 4-3 Defensive End und 3-4 Outside Linebacker?",
+        "text": "Ein 4-3 Defensive End startet meist mit der Hand im Boden und ist eher schwerer, ein 3-4 Outside Linebacker steht aufrecht und muss gelegentlich auch in Coverage fallen. Im Kern greifen beide die Kante an. Unterschiede zeigen sich vor allem bei Gewicht, Startposition und Zusatzaufgaben.\n\nFür Teams heißt das: Ein schwerer Edge mit viel Kraft gegen den Lauf passt eher zu Fronten, in denen er häufig auf der Außenschulter des Tackles steht (5-Technique). Leichtere, sehr bewegliche Rusher werden oft in Stand-up-Rollen eingesetzt, in denen sie auch in Zonen fallen oder Running Backs aufnehmen. Viele Defenses mischen beide Typen und wechseln die Ausrichtung je nach Down."
+      },
+      {
+        "frage": "Welche Pass-Rush-Moves sollte ein Edge Rusher beherrschen?",
+        "text": "Ein Edge Rusher braucht mindestens einen Speed-Move, einen Power-Move und einen Counter, der zum Hauptmove passt. Entscheidend ist weniger die Anzahl als der Plan: Die Moves müssen aufeinander aufbauen, damit der Offensive Tackle nicht einfach auf das Lieblingsmanöver des Rushers warten kann.\n\nTypische Bausteine eines Pass-Rush-Repertoires:\n\n- Speed Rush: Angriff über die Außenkante mit Bend um den Tackle\n- Long Arm: ein gestreckter Arm in die Brust des Blockers, um Distanz und Kontrolle zu gewinnen\n- Bull Rush: Kraftangriff direkt durch den Blocker\n- Spin Move und Inside Counter: Wechsel nach innen, wenn der Tackle zu weit nach außen absetzt\n- Chop, Rip und Swim: Handtechniken, um die Hände des Blockers zu schlagen"
+      },
+      {
+        "frage": "Worauf achten Scouts bei Edge Rushern im Draft?",
+        "text": "Scouts gewichten bei EDGE-Prospects die Produktion pro Pass-Rush-Snap stärker als reine Sack-Zahlen. Pressures, Win-Rate und die Frage, gegen welche Tackles die Erfolge kamen, sagen mehr als eine einzelne Statistik. Dazu kommen Messwerte wie Armlänge, 10-Yard-Split und Sprungtests aus dem [Combine](/lexikon/combine).\n\nTypischer Fehlschluss: Ein Edge mit vielen Sacks aus unblockten Situationen, Stunts oder späten Verfolgungsjagden wirkt produktiver, als er ist. Umgekehrt wird ein Rusher mit wenigen Sacks, aber vielen schnellen Pressures oft unterschätzt. Riskant sind auch Tweener, also Spieler zwischen zwei Positionen: zu leicht für die Hand im Boden, zu steif für Coverage. Die aktuelle Einordnung des Jahrgangs zeigt die Positionsseite [EDGE](/position/edge)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ist ein Edge Rusher ein Linebacker oder ein Defensive Lineman?",
+        "a": "Beides ist möglich. Die offizielle Bezeichnung hängt vom Schema des Teams ab: In 4-3-Fronten heißt er Defensive End, in 3-4-Fronten Outside Linebacker. Im Scouting hat sich EDGE als neutraler Begriff durchgesetzt, weil die Aufgabe identisch ist und Spieler im Laufe ihrer Karriere oft zwischen beiden Bezeichnungen wechseln."
+      },
+      {
+        "q": "Warum ist die Armlänge bei Edge Rushern so wichtig?",
+        "a": "Lange Arme helfen, den Blocker zuerst zu berühren und auf Distanz zu halten. Wer den Kontakt kontrolliert, kann sich leichter lösen oder den Tackle zurückdrücken. Deshalb wird die Armlänge beim Combine gemessen und fließt in die Bewertung ein. Kurze Arme sind kein K.-o.-Kriterium, verlangen aber mehr Explosivität und saubere Technik."
+      },
+      {
+        "q": "Was unterscheidet EDGE von einem Interior Defensive Lineman?",
+        "a": "Interior Defensive Linemen wie die [3-Technique](/lexikon/3-technique) stehen zwischen den Tackles und kämpfen gegen Guards und Center, oft gegen Doppelblocks. EDGE-Spieler stehen außen am Tackle oder Tight End und haben mehr Raum, um die Kurve zum Quarterback zu laufen. Interior Linemen sind deshalb meist schwerer, Edge Rusher länger und beweglicher."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "40-yard-dash",
     "term": "40-Yard-Dash",
     "category": "Messwerte",
     "kurz": "Der berühmteste Athletik-Test des Drafts: Sprint über 40 Yards, gemessen inklusive 10- und 20-Yard-Splits.",
-    "text": "Der 40-Yard-Dash ist der Signature-Test des Draft-Prozesses: ein Sprint über 40 Yards (36,6 Meter) aus dem Dreipunktstart. Gemessen werden neben der Endzeit auch die Splits nach 10 und 20 Yards, und die sind für Scouts oft aussagekräftiger als die Schlagzeilen-Zahl, denn der 10-Yard-Split misst die Explosivität der ersten Schritte, die im Spiel häufiger entscheidet als Top-Speed.\n\nZur Einordnung der Zeiten: Für Receiver und Cornerbacks gilt alles unter 4,40 Sekunden als schnell, 4,50 als solide. Running Backs liegen meist zwischen 4,45 und 4,60, Linebacker um 4,60, Interior Linemen über 5,00. Positionskontext ist alles, weshalb Tools wie der RAS die Zeiten relativ zur Position bewerten.\n\nDie gesunde Skepsis: Der 40-Yard-Dash wird in Shorts ohne Gegner gelaufen. Er bestätigt Speed, den man auf dem Tape sieht, oder erklärt, warum ein Spieler ständig Separation findet. Er ersetzt aber nie das Spiel-Tempo (Play Speed), das Scouts höher gewichten."
+    "text": "Der 40-Yard-Dash ist der Signature-Test des Draft-Prozesses: ein Sprint über 40 Yards (36,6 Meter) aus dem Dreipunktstart. Gemessen werden neben der Endzeit auch die Splits nach 10 und 20 Yards, und die sind für Scouts oft aussagekräftiger als die Schlagzeilen-Zahl, denn der 10-Yard-Split misst die Explosivität der ersten Schritte, die im Spiel häufiger entscheidet als Top-Speed.\n\nZur Einordnung der Zeiten: Für Receiver und Cornerbacks gilt alles unter 4,40 Sekunden als schnell, 4,50 als solide. Running Backs liegen meist zwischen 4,45 und 4,60, Linebacker um 4,60, Interior Linemen über 5,00. Positionskontext ist alles, weshalb Tools wie der RAS die Zeiten relativ zur Position bewerten.\n\nDie gesunde Skepsis: Der 40-Yard-Dash wird in Shorts ohne Gegner gelaufen. Er bestätigt Speed, den man auf dem Tape sieht, oder erklärt, warum ein Spieler ständig Separation findet. Er ersetzt aber nie das Spiel-Tempo (Play Speed), das Scouts höher gewichten.",
+    "abschnitte": [
+      {
+        "frage": "Wie wird der 40-Yard-Dash gemessen?",
+        "text": "Beim Combine wird der 40-Yard-Dash elektronisch gemessen, zusätzlich stoppen Scouts per Hand. Jeder Spieler hat in der Regel zwei Versuche, in Ranglisten taucht meist die bessere Zeit auf. Bei Pro Days messen die anwesenden Teams dagegen oft selbst mit Handstoppuhren, weshalb dort mehrere leicht unterschiedliche Zeiten kursieren können.\n\nHandgestoppte Zeiten fallen meist etwas schneller aus, weil die Person an der Stoppuhr am Start erst auf die Bewegung reagiert. Scouts lesen Pro-Day-Zeiten deshalb vorsichtiger als Combine-Werte. Mehr zu den beiden Terminen unter [Pro Day](/lexikon/pro-day) und [Combine](/lexikon/combine)."
+      },
+      {
+        "frage": "Wie hängen Körpergewicht und 40-Yard-Dash zusammen?",
+        "text": "Eine 40-Yard-Zeit ist ohne Körpergewicht kaum aussagekräftig. Ein Sprint in 4,60 Sekunden von einem 120 Kilo schweren Edge Rusher ist athletisch weit beeindruckender als dieselbe Zeit von einem 90 Kilo leichten Receiver. Scouts lesen die Zeit deshalb immer im Verhältnis zu Größe, Gewicht und Position.\n\nKennzahlen wie der Speed Score, der Gewicht und 40-Zeit kombiniert, oder der [RAS-Score](/lexikon/ras-score) mit positionsbezogenen Perzentilen machen diesen Zusammenhang sichtbar. Bei Linemen ist die Endzeit fast nebensächlich: Interessant ist vor allem der 10-Yard-Split, weil ein Lineman im Spiel selten mehr als ein paar Yards am Stück sprintet."
+      },
+      {
+        "frage": "Wie wichtig ist der 40-Yard-Dash für den Draft?",
+        "text": "Der 40-Yard-Dash kann den Draft-Wert eines Prospects verschieben, entscheidet aber selten allein. Am stärksten wirkt er bei Positionen, für die Speed zur Jobbeschreibung gehört, etwa Wide Receiver, Cornerback und Running Back. Eine starke Zeit bestätigt das Tape, eine schwache wirft Fragen auf, die Scouts im Film klären.\n\nTypische Fehlschlüsse:\n\n- Schnelle Zeit, wenig Tape: Wer auf dem Feld nie so schnell wirkte, wird nach einem starken Sprint leicht überbewertet\n- Langsame Zeit, viel Produktion: Spieler mit Spielverständnis und gutem Antritt werden gern unterschätzt\n- Einzelwert statt Gesamtbild: Agilitätstests wie Three-Cone und Shuttle zeigen Richtungswechsel, die ein Sprint geradeaus nicht abbildet\n\nDas bekannteste Gegenbeispiel ist Jerry Rice: Er galt vor dem Draft als nicht besonders schnell und wurde dennoch zum Receiver mit den meisten Receiving Yards der NFL-Geschichte."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist die schnellste 40-Yard-Zeit beim Combine?",
+        "a": "Den Combine-Rekord seit Einführung der elektronischen Messung hält Xavier Worthy, der 2024 in 4,21 Sekunden lief. Er löste John Ross ab, der 2017 mit 4,22 Sekunden gemessen worden war. Ältere handgestoppte Zeiten aus früheren Jahrzehnten sind wegen der anderen Messmethode nicht direkt vergleichbar."
+      },
+      {
+        "q": "Läuft jeder Spieler beim Combine den 40-Yard-Dash?",
+        "a": "Nein, die Teilnahme an den einzelnen Tests ist freiwillig. Manche Prospects verzichten wegen Verletzungen, andere laufen bewusst erst beim Pro Day an ihrem College, wo sie die Bedingungen kennen. Ein Verzicht ist an sich kein Warnsignal, lässt aber eine Frage offen, die Teams auf anderem Weg beantworten müssen."
+      },
+      {
+        "q": "Kann man die 40-Yard-Zeit durch Training verbessern?",
+        "a": "Ja, deutlich. Prospects trainieren in den Wochen vor dem Combine gezielt Startposition, Körperhaltung und die ersten Schritte, oft bei spezialisierten Trainern. Schon wenige Hundertstel können in Ranglisten viel ausmachen. Genau deshalb sagen Combine-Zeiten etwas über Athletik aus, aber nur begrenzt etwas über das Tempo im Spiel."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "scouting-begriffe",
     "term": "Scouting-Begriffe von A bis Z",
     "category": "Scouting",
     "kurz": "Die wichtigsten Fachbegriffe aus Scouting-Berichten kompakt erklärt: von Anchor bis YAC.",
-    "text": "Scouting-Berichte haben ihr eigenes Vokabular. Die wichtigsten Begriffe, die auch in unseren Spielerprofilen auftauchen:\n\nAnchor: Die Fähigkeit eines Blockers, gegen einen Bull Rush stabil zu bleiben und nicht in den Rückraum gedrückt zu werden. Bend: Die Beweglichkeit eines Edge Rushers, sich um die Kante zu biegen, ohne Tempo zu verlieren. Burst: Explosivität auf den ersten Metern. Catch Radius: Der Fangbereich eines Receivers aus Länge, Sprungkraft und Körperkontrolle. Contact Balance: Die Fähigkeit eines Ballträgers, nach Kontakt auf den Beinen zu bleiben.\n\nContested Catch: Ein Fang im direkten Duell mit einem Verteidiger. Get-off: Die Reaktionsschnelligkeit eines D-Liners beim Snap. Hand Fighting/Hand Usage: Die Technik, Blocker mit den Händen zu kontrollieren oder abzuwehren. Motor: Einsatzbereitschaft über jeden Snap, unabhängig vom Spielstand. Play Speed: Die tatsächliche Geschwindigkeit im Spiel, im Unterschied zur Testgeschwindigkeit. Pocket Presence: Das Gespür eines Quarterbacks für Druck, ohne den Blick vom Feld zu nehmen.\n\nRange: Der Raum, den ein Safety oder Linebacker abdecken kann. Separation: Der Abstand, den ein Receiver zum Verteidiger herausläuft. Stack and Shed: Einen Blocker annehmen, kontrollieren und abwerfen, um zu tackeln. YAC (Yards After Catch/Contact): Raumgewinn nach dem Fang beziehungsweise nach dem ersten Kontakt. Zone Eyes: Der Blick eines Zonen-Verteidigers auf Quarterback und Routen-Verteilung statt auf einen einzelnen Gegenspieler."
+    "text": "Scouting-Berichte haben ihr eigenes Vokabular. Die wichtigsten Begriffe, die auch in unseren Spielerprofilen auftauchen:\n\nAnchor: Die Fähigkeit eines Blockers, gegen einen Bull Rush stabil zu bleiben und nicht in den Rückraum gedrückt zu werden. Bend: Die Beweglichkeit eines Edge Rushers, sich um die Kante zu biegen, ohne Tempo zu verlieren. Burst: Explosivität auf den ersten Metern. Catch Radius: Der Fangbereich eines Receivers aus Länge, Sprungkraft und Körperkontrolle. Contact Balance: Die Fähigkeit eines Ballträgers, nach Kontakt auf den Beinen zu bleiben.\n\nContested Catch: Ein Fang im direkten Duell mit einem Verteidiger. Get-off: Die Reaktionsschnelligkeit eines D-Liners beim Snap. Hand Fighting/Hand Usage: Die Technik, Blocker mit den Händen zu kontrollieren oder abzuwehren. Motor: Einsatzbereitschaft über jeden Snap, unabhängig vom Spielstand. Play Speed: Die tatsächliche Geschwindigkeit im Spiel, im Unterschied zur Testgeschwindigkeit. Pocket Presence: Das Gespür eines Quarterbacks für Druck, ohne den Blick vom Feld zu nehmen.\n\nRange: Der Raum, den ein Safety oder Linebacker abdecken kann. Separation: Der Abstand, den ein Receiver zum Verteidiger herausläuft. Stack and Shed: Einen Blocker annehmen, kontrollieren und abwerfen, um zu tackeln. YAC (Yards After Catch/Contact): Raumgewinn nach dem Fang beziehungsweise nach dem ersten Kontakt. Zone Eyes: Der Blick eines Zonen-Verteidigers auf Quarterback und Routen-Verteilung statt auf einen einzelnen Gegenspieler.",
+    "abschnitte": [
+      {
+        "frage": "Was bedeuten Floor und Ceiling im Scouting?",
+        "text": "Floor beschreibt das, was ein Prospect in der NFL mindestens leisten dürfte, Ceiling sein bestmögliches Ergebnis bei idealer Entwicklung. Ein Spieler mit hohem Floor gilt als sicher, aber begrenzt. Ein Spieler mit hohem Ceiling bringt Ausnahmeanlagen mit, ist aber unfertig und damit riskanter.\n\nEng verwandt sind die Begriffe Pro-ready und Projekt. Pro-ready meint einen technisch weit entwickelten Spieler, der früh spielen kann. Ein Projekt braucht Zeit, oft wegen roher Technik bei starker Athletik. Toolsy beschreibt Spieler mit auffälligen körperlichen Werkzeugen, deren Spiel noch nicht konstant ist. Ob ein Team eher auf Floor oder Ceiling setzt, hängt auch von der Pick-Position ab."
+      },
+      {
+        "frage": "Welche Scouting-Begriffe beschreiben Athletik und Körper?",
+        "text": "Athletik-Begriffe beschreiben, wie sich ein Spieler bewegt, wie explosiv er ist und welche körperlichen Voraussetzungen er für seine Position mitbringt. Sie ergänzen Messwerte wie den [40-Yard-Dash](/lexikon/40-yard-dash) oder den [RAS-Score](/lexikon/ras-score), denn Scouts unterscheiden zwischen Testwerten und dem, was auf dem Film sichtbar ist.\n\n- Length: Armlänge und Spannweite, wichtig für Offensive Tackles, Edge Rusher und Cornerbacks.\n- Twitch: schnelle, explosive Reaktionen der Muskulatur auf kurze Distanz.\n- Change of Direction: Fähigkeit, die Richtung zu wechseln, ohne Tempo zu verlieren.\n- Hip Fluidity: lockere Hüftbewegung, etwa beim Umdrehen eines Cornerbacks.\n- Short-Area Quickness: Schnelligkeit auf wenigen Yards, oft wichtiger als Topspeed.\n- Pad Level: Körperhöhe im Kontakt, der tiefere Spieler gewinnt meist die Leverage."
+      },
+      {
+        "frage": "Wie liest man Scouting-Begriffe in einem Spielerprofil richtig?",
+        "text": "Scouting-Begriffe in Spielerprofilen sind Beobachtungen, keine Messwerte. Ein Hinweis wie gute Pocket Presence beschreibt ein wiederkehrendes Muster auf dem Film. Entscheidend ist, wie oft und gegen welche Gegner es auftritt. Stärken und Schwächen ergeben erst zusammen ein Bild davon, welche Rolle ein Prospect in der NFL ausfüllen kann.\n\nTypische Fehlschlüsse entstehen, wenn einzelne Begriffe überbewertet werden. Ein Spieler mit starkem Motor, aber fehlender Athletik bleibt oft ein Backup. Umgekehrt lässt sich Technik eher lernen als fehlende Länge. Scouts achten deshalb darauf, welche Schwächen korrigierbar sind. Die Profile unter [Positionen](/positionen) verwenden die hier erklärten Begriffe durchgehend."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was bedeutet Processing beim Quarterback?",
+        "a": "Processing beschreibt, wie schnell und richtig ein Quarterback Informationen nach dem Snap verarbeitet: Er liest die Defense, erkennt Coverage-Schemata und findet den richtigen Anspielpartner. Ein Quarterback mit gutem Processing spielt den Ball rechtzeitig, bevor Druck entsteht."
+      },
+      {
+        "q": "Was ist mit Tape oder Film gemeint?",
+        "a": "Tape oder Film meint die Spielaufnahmen, auf denen Scouts Prospects bewerten. Besonders wertvoll ist die All-22-Perspektive, die alle 22 Spieler auf dem Feld zeigt. Wenn Scouts sich auf das Tape berufen, meinen sie eine Bewertung, die auf Spielleistung statt auf Testergebnissen beruht. Film gilt im Scouting als wichtigste Grundlage, Testwerte ergänzen ihn."
+      },
+      {
+        "q": "Was bedeutet Click and Close?",
+        "a": "Click and Close beschreibt bei Verteidigern, vor allem Cornerbacks und Safeties, das schnelle Erkennen einer Route und das unmittelbare Schließen der Lücke zum Receiver. Click steht für die Reaktion, Close für den Antritt zum Ball. Spieler mit gutem Click and Close kommen oft zu Pass-Breakups, auch wenn ihr Topspeed nicht herausragend ist."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "red-flag",
     "term": "Red Flag",
     "category": "Scouting",
     "kurz": "Warnsignal in der Bewertung eines Prospects: medizinisch, charakterlich oder auf dem Tape.",
-    "text": "Als Red Flags bezeichnen Scouts alle Warnsignale, die den Draft-Wert eines Spielers unabhängig von seinem Talent drücken. Die drei Hauptkategorien: medizinische Flags (schwere oder wiederkehrende Verletzungen, chronische Probleme, auffällige Combine-Untersuchungen), charakterliche Flags (Disziplinarprobleme, Arbeitsmoral, Vorfälle abseits des Feldes) und football-spezifische Flags (etwa ein Ein-Jahres-Wunder ohne vorherige Produktion oder stark schemeabhängige Leistungen).\n\nWie stark eine Red Flag wiegt, bewertet jedes Team anders, und genau daraus entstehen die überraschenden Draft-Fälle: Ein Spieler mit Erstrunden-Tape rutscht wegen der Medizinakte in Runde 3, ein anderes Team nimmt das Risiko bewusst in Kauf und wird belohnt.\n\nSeriöse öffentliche Analysen gehen mit Charakter-Themen vorsichtig um, weil die Informationslage von außen dünn ist. Auch in unseren Profilen gilt: Wir benennen belastbare, öffentlich dokumentierte Punkte (etwa Verletzungshistorien), spekulieren aber nicht über Interna."
+    "text": "Als Red Flags bezeichnen Scouts alle Warnsignale, die den Draft-Wert eines Spielers unabhängig von seinem Talent drücken. Die drei Hauptkategorien: medizinische Flags (schwere oder wiederkehrende Verletzungen, chronische Probleme, auffällige Combine-Untersuchungen), charakterliche Flags (Disziplinarprobleme, Arbeitsmoral, Vorfälle abseits des Feldes) und football-spezifische Flags (etwa ein Ein-Jahres-Wunder ohne vorherige Produktion oder stark schemeabhängige Leistungen).\n\nWie stark eine Red Flag wiegt, bewertet jedes Team anders, und genau daraus entstehen die überraschenden Draft-Fälle: Ein Spieler mit Erstrunden-Tape rutscht wegen der Medizinakte in Runde 3, ein anderes Team nimmt das Risiko bewusst in Kauf und wird belohnt.\n\nSeriöse öffentliche Analysen gehen mit Charakter-Themen vorsichtig um, weil die Informationslage von außen dünn ist. Auch in unseren Profilen gilt: Wir benennen belastbare, öffentlich dokumentierte Punkte (etwa Verletzungshistorien), spekulieren aber nicht über Interna.",
+    "abschnitte": [
+      {
+        "frage": "Welche Arten von Red Flags gibt es im NFL-Draft?",
+        "text": "Red Flags lassen sich grob in vier Gruppen sortieren: medizinische Befunde, Verhalten abseits des Feldes, Probleme bei Einstellung und Lernfähigkeit sowie Warnsignale auf dem Tape. Dazu kommen kleinere Yellow Flags, also Punkte, die beobachtet, aber nicht als Ausschlussgrund gewertet werden.\n\n- Medizinisch: wiederkehrende Verletzungen derselben Region, Operationen an Knie, Schulter oder Wirbelsäule, auffällige Befunde beim Medical Check\n- Verhalten: dokumentierte Vorfälle, Suspendierungen, Konflikte im Team\n- Einstellung: Zweifel an Trainingsfleiß, Playbook-Verständnis oder Zuverlässigkeit\n- Tape: Produktion nur in einer einzigen Saison, starke Abhängigkeit vom Scheme, fehlende Härte im Kontaktspiel\n\nDie Grenze zwischen Yellow und Red Flag zieht jedes Team selbst. Was für ein Team ein Ausschlusskriterium ist, steht bei einem anderen nur als Randnotiz im Bericht."
+      },
+      {
+        "frage": "Wie prüfen Teams eine medizinische Red Flag?",
+        "text": "Medizinische Red Flags klären Teams vor allem bei der [Combine](/lexikon/combine) in Indianapolis, wo Ärzte aller Klubs die eingeladenen Spieler gründlich untersuchen und Bildgebung anfordern. Bei offenen Fragen folgen Nachuntersuchungen im Frühjahr. Am Ende vergibt jedes Team eine eigene medizinische Einstufung.\n\nEntscheidend ist dabei weniger die Verletzung selbst als die Prognose. Ein sauber verheilter Bruch wiegt meist leichter als ein Gelenk mit Knorpelschaden, das in drei Jahren Probleme machen könnte. Weil diese Akten nicht öffentlich sind, wirken manche Draft-Verläufe von außen rätselhaft: Ein Spieler fällt weit unter seinen Konsens-Platz, obwohl auf dem Tape nichts dagegen spricht."
+      },
+      {
+        "frage": "Was bedeutet eine Red Flag für die Bewertung eines Prospects?",
+        "text": "Eine Red Flag führt selten dazu, dass ein Prospect komplett vom Board verschwindet. Meist wird sie als Abschlag eingepreist: Ein Spieler mit Erstrunden-Talent rutscht in Runde 2 oder 3, wo das Risiko im Verhältnis zum Preis wieder vertretbar erscheint. Manche Teams streichen Spieler mit bestimmten Flags allerdings grundsätzlich.\n\nTypische Fehlschlüsse entstehen auf beiden Seiten. Öffentliche Boards überschätzen oft Gerüchte, die kurz vor dem Draft gestreut werden und deren Herkunft unklar ist. Gleichzeitig unterschätzen sie Tape-Flags, weil eine starke Statistik-Saison Schwächen in Technik oder Konstanz überdeckt. Für ein eigenes [Big Board](/lexikon/big-board) hilft es, Flags nach Belegbarkeit zu sortieren: dokumentiert, plausibel, reines Gerücht."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen einer Red Flag und einer Yellow Flag?",
+        "a": "Eine Yellow Flag ist ein Punkt, den Scouts im Blick behalten, der aber den Draft-Wert eines Prospects nur leicht oder gar nicht senkt, etwa eine kleinere Verletzung ohne Folgen. Eine Red Flag ist ein ernstes Warnsignal, das zu einem deutlichen Abschlag oder bei manchen Teams zum Streichen vom Board führen kann."
+      },
+      {
+        "q": "Kann ein Spieler eine Red Flag vor dem Draft noch ausräumen?",
+        "a": "Teilweise ja. Bei medizinischen Fragen helfen Nachuntersuchungen und gute Testergebnisse am [Pro Day](/lexikon/pro-day). Bei Fragen zu Einstellung oder Verhalten sind die persönlichen Gespräche mit Teams bei der Combine und bei Besuchen im Frühjahr entscheidend. Ob das reicht, bewertet jedes Team unterschiedlich."
+      },
+      {
+        "q": "Warum fallen Spieler mit Red Flags manchmal trotzdem früh?",
+        "a": "Wenn ein Team die Flag für beherrschbar hält, etwa weil die eigenen Ärzte eine bessere Prognose stellen oder das Umfeld im Klub als stabilisierend gilt, wird das Risiko bewusst eingegangen. Bei außergewöhnlichem Talent und hohem Bedarf auf der Position ist die Bereitschaft dazu besonders groß."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "rpo",
     "term": "RPO (Run-Pass Option)",
     "category": "Offense",
     "kurz": "Spielzug, bei dem der Quarterback erst nach dem Snap anhand eines Verteidigers entscheidet, ob gelaufen oder geworfen wird.",
-    "text": "Die Run-Pass Option, kurz RPO, ist einer der prägendsten Offense-Trends der letzten zehn Jahre. Anders als beim klassischen Play-Action-Pass ist bei einer RPO zum Zeitpunkt des Snaps noch nicht entschieden, ob der Spielzug ein Lauf oder ein Pass wird. Die Offensive Line blockt in der Regel wie bei einem Laufspielzug, der Running Back nimmt den Handoff-Weg, und der Quarterback liest gleichzeitig einen vorher festgelegten Verteidiger. Reagiert dieser auf den Lauf, zieht der QB den Ball zurück und wirft; bleibt er in Coverage, übergibt er an den Back.\n\nDas Herzstück jeder RPO ist der sogenannte Conflict Defender, meist ein Linebacker oder Safety, der gleichzeitig für Lauf- und Passverantwortung zuständig ist und dadurch in eine Zwickmühle gerät. Genau diesen Konflikt nutzt die Offense aus: Egal wie sich der Verteidiger entscheidet, er liegt falsch. Für den Quarterback zählen dabei schnelle Augen und eine noch schnellere Entscheidung, denn RPOs leben von Timing. Regeltechnisch ist der Bewegungsspielraum der Offensive Line begrenzt, da Linemen bei einem Pass nur wenige Yards ins Feld vordringen dürfen, weshalb die meisten RPO-Würfe kurze, schnelle Konzepte wie Slants, Bubble Screens oder Glances sind.\n\nFür das Scouting ist die RPO-Erfahrung eines Quarterbacks doppelt relevant. Einerseits zeigt sie, ob ein Prospect Defenses vor und nach dem Snap lesen kann, andererseits verzerrt ein RPO-lastiges College-System manchmal die Statistik, weil viele einfache Reads die Completion-Rate künstlich heben. NFL-Scouts fragen deshalb, wie viel ein Quarterback tatsächlich selbst entscheidet und wie er in klassischen Drop-Back-Situationen aussieht, in denen es keine einfache Auslass-Option gibt. Umgekehrt gewinnen Verteidiger an Wert, die als Conflict Defender diszipliniert bleiben und beide Verantwortungen bedienen können, ohne sich zu verzetteln."
+    "text": "Die Run-Pass Option, kurz RPO, ist einer der prägendsten Offense-Trends der letzten zehn Jahre. Anders als beim klassischen Play-Action-Pass ist bei einer RPO zum Zeitpunkt des Snaps noch nicht entschieden, ob der Spielzug ein Lauf oder ein Pass wird. Die Offensive Line blockt in der Regel wie bei einem Laufspielzug, der Running Back nimmt den Handoff-Weg, und der Quarterback liest gleichzeitig einen vorher festgelegten Verteidiger. Reagiert dieser auf den Lauf, zieht der QB den Ball zurück und wirft; bleibt er in Coverage, übergibt er an den Back.\n\nDas Herzstück jeder RPO ist der sogenannte Conflict Defender, meist ein Linebacker oder Safety, der gleichzeitig für Lauf- und Passverantwortung zuständig ist und dadurch in eine Zwickmühle gerät. Genau diesen Konflikt nutzt die Offense aus: Egal wie sich der Verteidiger entscheidet, er liegt falsch. Für den Quarterback zählen dabei schnelle Augen und eine noch schnellere Entscheidung, denn RPOs leben von Timing. Regeltechnisch ist der Bewegungsspielraum der Offensive Line begrenzt, da Linemen bei einem Pass nur wenige Yards ins Feld vordringen dürfen, weshalb die meisten RPO-Würfe kurze, schnelle Konzepte wie Slants, Bubble Screens oder Glances sind.\n\nFür das Scouting ist die RPO-Erfahrung eines Quarterbacks doppelt relevant. Einerseits zeigt sie, ob ein Prospect Defenses vor und nach dem Snap lesen kann, andererseits verzerrt ein RPO-lastiges College-System manchmal die Statistik, weil viele einfache Reads die Completion-Rate künstlich heben. NFL-Scouts fragen deshalb, wie viel ein Quarterback tatsächlich selbst entscheidet und wie er in klassischen Drop-Back-Situationen aussieht, in denen es keine einfache Auslass-Option gibt. Umgekehrt gewinnen Verteidiger an Wert, die als Conflict Defender diszipliniert bleiben und beide Verantwortungen bedienen können, ohne sich zu verzetteln.",
+    "abschnitte": [
+      {
+        "frage": "Was ist der Unterschied zwischen RPO, Read Option und Play-Action?",
+        "text": "Bei der Read Option liest der Quarterback einen Verteidiger und entscheidet zwischen Handoff und eigenem Lauf. Bei der RPO entscheidet er zwischen Lauf und Pass. Play-Action ist dagegen ein fest geplanter Passspielzug, bei dem der Lauf nur angetäuscht wird. Bei Play-Action steht das Ergebnis also schon vor dem Snap fest.\n\nDaneben gibt es Pre-Snap-RPOs, bei denen der Quarterback schon vor dem Snap anhand der Aufstellung entscheidet, etwa bei viel Abstand zwischen Receiver und Verteidiger. Kombinationen mehrerer Optionen in einem Spielzug heißen auch Packaged Plays."
+      },
+      {
+        "frage": "Wie verteidigt man gegen RPOs?",
+        "text": "Defenses begegnen RPOs vor allem mit Disziplin und Verschleierung. Ist der Conflict Defender für den Quarterback nicht eindeutig zu lesen, etwa weil Verantwortungen nach dem Snap getauscht werden, verliert die Offense ihren klaren Read. Hilfreich sind außerdem Defensive Linemen, die den Lauf ohne Hilfe stoppen, damit Linebacker in Coverage bleiben können.\n\nFür den Draft heißt das: Defensive Tackles, die Doppelblocks allein halten, und disziplinierte Linebacker sind gegen RPO-Offenses gefragt. Mehr dazu unter [Linebacker](/position/lb)."
+      },
+      {
+        "frage": "Wie bewertet man einen Quarterback aus einem RPO-System im Draft?",
+        "text": "Bei Quarterbacks aus RPO-Systemen trennen Scouts die einfachen Reads von echten Progressionen. Entscheidend ist, wie der Prospect bei Third Downs, im Two-Minute-Drill und gegen Blitz aussieht, wenn das System weniger Antworten vorgibt. Gute Zeichen sind schnelle Entscheidungen, präzises Timing und saubere Ballplatzierung bei kurzen Würfen.\n\nHilfreich sind Statistiken ohne RPOs und Screens, etwa Completion-Rate und Yards pro Versuch. Wer nur dort glänzt, braucht ein passendes NFL-System oder Entwicklungszeit. Wie daraus Noten werden, erklärt [NFL-Draft-Grades](/lexikon/nfl-draft-grades)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Sind RPOs im College und in der NFL gleich geregelt?",
+        "a": "RPOs sind auf allen Ebenen erlaubt. Unterschiede gibt es bei der Regel, wie weit Offensive Linemen bei einem Pass über die Line of Scrimmage vordringen dürfen: Im College ist der Spielraum größer als in der NFL. College-RPOs mit längeren Pässen funktionieren deshalb nicht eins zu eins bei den Profis."
+      },
+      {
+        "q": "Was ist ein Bubble Screen in einer RPO?",
+        "a": "Ein Bubble Screen ist ein kurzer Pass zu einem Receiver, der sich hinter der Line nach außen bewegt und von Mitspielern abgeschirmt wird. In RPOs dient er oft als Option gegen eine Überzahl in der Box: Stehen zu viele Verteidiger gegen den Lauf, geht der Ball schnell nach außen, wo die Offense zahlenmäßig überlegen ist."
+      },
+      {
+        "q": "Muss ein Quarterback für RPOs laufstark sein?",
+        "a": "Nicht unbedingt. Bei einer klassischen RPO entscheidet der Quarterback zwischen Handoff und Pass, er läuft selbst nicht. Laufstärke ist nur bei Varianten mit zusätzlicher Keep-Option gefragt. Wichtiger sind schnelle Augen, ein schneller Release und Präzision auf kurze Distanz, deshalb spielen auch klassische Pocket-Passer RPOs erfolgreich."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "nickel-dime",
     "term": "Nickel & Dime",
     "category": "Defense",
     "kurz": "Defensive Personalpakete mit einem fünften (Nickel) oder sechsten (Dime) Defensive Back gegen Passformationen.",
-    "text": "In der Basis-Defense stehen meist vier Defensive Backs auf dem Feld: zwei Cornerbacks und zwei Safeties. Sobald die Offense in Passsituationen zusätzliche Receiver bringt, reagiert die Verteidigung mit Sub-Packages. Das Nickel-Package ersetzt einen Linebacker durch einen fünften Defensive Back, den Nickelback. Das Dime-Package geht noch einen Schritt weiter und bringt einen sechsten Defensive Back aufs Feld, meist auf Kosten eines weiteren Linebackers. Die Begriffe stammen aus der US-Münzlogik: Der Nickel ist als Fünf-Cent-Stück die fünfte Einheit, der Dime als Zehn-Cent-Stück steht für die sechste.\n\nDer Nickelback hat sich vom Notbehelf zur eigenständigen Schlüsselposition entwickelt. Weil moderne Offenses den Großteil ihrer Snaps aus Formationen mit drei oder mehr Receivern spielen, steht das Nickel-Package in vielen Teams faktisch häufiger auf dem Feld als die nominelle Basis-Defense. Ein guter Slot- oder Nickel-Corner muss enorm vielseitig sein: Er deckt schnelle Slot-Receiver in engem Raum, blitzt gelegentlich, muss aber auch im Run-Support zupacken und darf im Tackling nicht schwächeln. Diese Kombination aus Coverage-Geschmeidigkeit und Physis macht die Position im Scouting so anspruchsvoll.\n\nDas Dime-Package kommt vor allem in klaren Passsituationen wie dritten Downs mit vielen Yards zum Einsatz, wenn die Verteidigung maximale Coverage-Flexibilität will und das Laufspiel kaum fürchtet. Für den Draft bedeutet dieser Trend, dass vielseitige Defensive Backs und coverage-fähige, rangige Safeties an Wert gewinnen, während reine Zwei-Down-Linebacker ohne Coverage-Skills abgewertet werden. In unseren Profilen taucht deshalb immer wieder die Frage auf, ob ein Linebacker nickel-tauglich ist, also im Passspiel auf dem Feld bleiben kann, oder ob er in Sub-Packages weichen muss. Genau diese Einordnung entscheidet oft über eine ganze Draft-Runde."
+    "text": "In der Basis-Defense stehen meist vier Defensive Backs auf dem Feld: zwei Cornerbacks und zwei Safeties. Sobald die Offense in Passsituationen zusätzliche Receiver bringt, reagiert die Verteidigung mit Sub-Packages. Das Nickel-Package ersetzt einen Linebacker durch einen fünften Defensive Back, den Nickelback. Das Dime-Package geht noch einen Schritt weiter und bringt einen sechsten Defensive Back aufs Feld, meist auf Kosten eines weiteren Linebackers. Die Begriffe stammen aus der US-Münzlogik: Der Nickel ist als Fünf-Cent-Stück die fünfte Einheit, der Dime als Zehn-Cent-Stück steht für die sechste.\n\nDer Nickelback hat sich vom Notbehelf zur eigenständigen Schlüsselposition entwickelt. Weil moderne Offenses den Großteil ihrer Snaps aus Formationen mit drei oder mehr Receivern spielen, steht das Nickel-Package in vielen Teams faktisch häufiger auf dem Feld als die nominelle Basis-Defense. Ein guter Slot- oder Nickel-Corner muss enorm vielseitig sein: Er deckt schnelle Slot-Receiver in engem Raum, blitzt gelegentlich, muss aber auch im Run-Support zupacken und darf im Tackling nicht schwächeln. Diese Kombination aus Coverage-Geschmeidigkeit und Physis macht die Position im Scouting so anspruchsvoll.\n\nDas Dime-Package kommt vor allem in klaren Passsituationen wie dritten Downs mit vielen Yards zum Einsatz, wenn die Verteidigung maximale Coverage-Flexibilität will und das Laufspiel kaum fürchtet. Für den Draft bedeutet dieser Trend, dass vielseitige Defensive Backs und coverage-fähige, rangige Safeties an Wert gewinnen, während reine Zwei-Down-Linebacker ohne Coverage-Skills abgewertet werden. In unseren Profilen taucht deshalb immer wieder die Frage auf, ob ein Linebacker nickel-tauglich ist, also im Passspiel auf dem Feld bleiben kann, oder ob er in Sub-Packages weichen muss. Genau diese Einordnung entscheidet oft über eine ganze Draft-Runde.",
+    "abschnitte": [
+      {
+        "frage": "Was ist der Unterschied zwischen Nickelback und Slot Corner?",
+        "text": "In der Praxis meinen beide Begriffe meist dieselbe Rolle: den Defensive Back, der im Nickel-Package innen gegen den Slot-Receiver steht. Nickelback beschreibt die Rolle im Personalpaket, Slot Corner die Ausrichtung auf dem Feld. Setzt ein Team dort einen dritten Safety statt eines Corners ein, ist von Big Nickel die Rede.\n\nDer dritte Safety bringt mehr Größe und Tackling-Stärke mit als ein klassischer Slot Corner, hat aber oft Mühe gegen sehr schnelle Slot-Receiver. Ähnlich funktioniert der Dime Linebacker: ein Safety in der Rolle eines Linebackers."
+      },
+      {
+        "frage": "Worauf achten Scouts bei einem Nickel-Prospect?",
+        "text": "Scouts prüfen bei Nickel-Prospects in erster Linie kurze Beschleunigung, Hüftbeweglichkeit und Reaktionsschnelligkeit auf engem Raum. Agilitätstests wie der 20-Yard-Shuttle und der Three-Cone-Drill sind hier oft aussagekräftiger als der [40-Yard-Dash](/lexikon/40-yard-dash). Dazu kommen Tackling, Blitz-Timing und das Verständnis für Übergaben in Zonen-Coverage.\n\nEin typischer Fehlschluss: Ein Outside Corner, der außen nicht überzeugt, wird automatisch als Nickel eingestuft. Die Position verlangt aber eigene Fähigkeiten, und nicht jeder kleinere Corner bringt die nötige Physis für Kontakt in Box-Nähe mit. Passende Profile finden sich unter [Cornerbacks](/position/cb) und [Safeties](/position/s)."
+      },
+      {
+        "frage": "Gibt es nach Nickel und Dime noch weitere Defensive-Back-Pakete?",
+        "text": "Ja. Mit sieben Defensive Backs spricht man meist vom Quarter- oder Dollar-Package, die Bezeichnungen variieren je nach Team. Solche Aufstellungen kommen fast nur in Extremsituationen vor, etwa bei sehr langen dritten Downs oder bei Hail-Mary-Versuchen am Ende einer Halbzeit, wenn nur noch tiefe Pässe verhindert werden sollen.\n\nFür den Draft zeigen diese Pakete vor allem eines: Wer eine feste Rolle in einem Sub-Package ausfüllt, sammelt in der NFL Snaps, auch ohne Starter in der Basis-Defense zu sein."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist eine 4-2-5-Defense?",
+        "a": "4-2-5 beschreibt das typische Nickel-Package: vier Defensive Linemen, zwei Linebacker und fünf Defensive Backs. Viele Teams spielen diese Aufstellung so häufig, dass sie im Sprachgebrauch als neue Basis gilt. Wechselt ein Team aus einer 3-4-Front in Nickel, entsteht entsprechend oft eine 2-4-5-Aufstellung, wobei die stehenden Edge Rusher als Linebacker gezählt werden."
+      },
+      {
+        "q": "Wie erkennt man im Fernsehen, ob eine Defense Nickel spielt?",
+        "a": "Am einfachsten zählt man die Defensive Backs: fünf bedeuten Nickel, sechs Dime. Oft verrät es auch die Offense. Bringt sie drei Wide Receiver mit einem Running Back und einem Tight End (11 Personnel), antwortet die Defense in den meisten Fällen mit Nickel, weil sonst ein Linebacker gegen einen Slot-Receiver decken müsste."
+      },
+      {
+        "q": "Ist der Nickelback ein Starter?",
+        "a": "Faktisch ja. Weil das Nickel-Package in der modernen NFL einen Großteil der Defensive-Snaps ausmacht, kommt ein guter Nickelback oft auf ähnlich viele Einsätze wie ein Outside Corner. Teams investieren deshalb inzwischen gezielt Draft-Picks in Slot-Spezialisten, statt die Rolle nur mit Ersatzspielern zu besetzen."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "draft-eligibility",
     "term": "Draft-Eligibility",
     "category": "Draft-Prozess",
     "kurz": "Die Voraussetzung, überhaupt gedraftet werden zu dürfen: mindestens drei Jahre Abstand zum Highschool-Abschluss.",
-    "text": "Die NFL ist die einzige der großen US-Ligen mit einer harten Wartezeit. Wer gedraftet werden will, muss mindestens drei Football-Saisons von seinem Highschool-Abschluss entfernt sein. Ein Spieler mit Abschlussjahrgang 2024 ist also frühestens für den Draft 2027 wählbar, ein Spieler des Jahrgangs 2025 erst 2028. Das gilt unabhängig davon, wie viele Spiele er im College tatsächlich absolviert hat. Genau deshalb tauchen in seriösen Big Boards für einen Jahrgang nie Spieler auf, die gerade erst ihr zweites College-Jahr beginnen, egal wie beeindruckend ihre Freshman-Saison war.\n\nWichtig ist die Unterscheidung zwischen NFL-Eligibility und College-Eligibility. Die NCAA gibt jedem Spieler ein Zeitfenster mit einer begrenzten Zahl an Spielsaisons, ein Redshirt-Jahr kann dieses Fenster verlängern. Die NFL interessiert das nicht: Sie zählt ausschließlich die Jahre seit der Highschool. Daraus entstehen zwei Gruppen. Underclassmen müssen aktiv erklären, dass sie auf ihre restliche College-Zeit verzichten, und zwar bis zu einer Frist im Januar. Spieler, deren College-Eligibility ohnehin ausläuft, sind automatisch im Draft-Pool und brauchen keine Erklärung.\n\nFür ein Draft-Board ist Eligibility deshalb kein Detail, sondern die erste Prüfung überhaupt. Ein Profil, das für den falschen Jahrgang geführt wird, ist wertlos, und dasselbe gilt für Spieler, die im Vorjahr bereits gedraftet wurden oder auf einem NFL-Kader stehen. Wir gleichen jeden Eintrag deshalb gegen die Ergebnisse des vorangegangenen Drafts und gegen den aktuellen College-Roster ab. Fällt bei dieser Prüfung ein Name durch, wird er entfernt, auch wenn er wochenlang im Board gestanden hat."
+    "text": "Die NFL ist die einzige der großen US-Ligen mit einer harten Wartezeit. Wer gedraftet werden will, muss mindestens drei Football-Saisons von seinem Highschool-Abschluss entfernt sein. Ein Spieler mit Abschlussjahrgang 2024 ist also frühestens für den Draft 2027 wählbar, ein Spieler des Jahrgangs 2025 erst 2028. Das gilt unabhängig davon, wie viele Spiele er im College tatsächlich absolviert hat. Genau deshalb tauchen in seriösen Big Boards für einen Jahrgang nie Spieler auf, die gerade erst ihr zweites College-Jahr beginnen, egal wie beeindruckend ihre Freshman-Saison war.\n\nWichtig ist die Unterscheidung zwischen NFL-Eligibility und College-Eligibility. Die NCAA gibt jedem Spieler ein Zeitfenster mit einer begrenzten Zahl an Spielsaisons, ein Redshirt-Jahr kann dieses Fenster verlängern. Die NFL interessiert das nicht: Sie zählt ausschließlich die Jahre seit der Highschool. Daraus entstehen zwei Gruppen. Underclassmen müssen aktiv erklären, dass sie auf ihre restliche College-Zeit verzichten, und zwar bis zu einer Frist im Januar. Spieler, deren College-Eligibility ohnehin ausläuft, sind automatisch im Draft-Pool und brauchen keine Erklärung.\n\nFür ein Draft-Board ist Eligibility deshalb kein Detail, sondern die erste Prüfung überhaupt. Ein Profil, das für den falschen Jahrgang geführt wird, ist wertlos, und dasselbe gilt für Spieler, die im Vorjahr bereits gedraftet wurden oder auf einem NFL-Kader stehen. Wir gleichen jeden Eintrag deshalb gegen die Ergebnisse des vorangegangenen Drafts und gegen den aktuellen College-Roster ab. Fällt bei dieser Prüfung ein Name durch, wird er entfernt, auch wenn er wochenlang im Board gestanden hat.",
+    "abschnitte": [
+      {
+        "frage": "Wann ist die Frist für Early Entries zum NFL-Draft?",
+        "text": "Underclassmen, also Spieler mit verbleibender College-Eligibility, müssen ihre Anmeldung bis Mitte Januar bei der NFL einreichen. Für den Draft 2026 lag die Hauptfrist am 14. Januar, für Spieler im Endspiel der College Football Playoff lag sie später. Die genauen Termine legt die Liga jedes Jahr neu fest.\n\nFür 2026 gab es zusätzlich eine frühere Frist Anfang Januar für Spieler, die bei einem All-Star-Spiel wie dem [Senior Bowl](/lexikon/senior-bowl) berücksichtigt werden wollten. Kurz nach der Hauptfrist folgt ein Zeitfenster von 72 Stunden, in dem eine Anmeldung zurückgezogen werden kann. Die Termine für den Draft 2027 sollten erst als gesichert gelten, wenn NFL und NCAA sie veröffentlicht haben."
+      },
+      {
+        "frage": "Kann ein Spieler nach der Draft-Anmeldung ans College zurückkehren?",
+        "text": "Ja, aber nur unter Bedingungen. Wer sich innerhalb des Rückzugsfensters wieder abmeldet und die NCAA-Regeln einhält, behält seine College-Eligibility. Wer die Frist verstreicht oder gegen die Amateurregeln verstößt, etwa durch einen Vertrag mit einem Agenten, kann in der Regel nicht mehr für sein Programm spielen.\n\nZur Absicherung können Spieler beim College Advisory Committee der NFL eine unverbindliche Prognose anfordern, in welcher Runde sie voraussichtlich gezogen würden."
+      },
+      {
+        "frage": "Was bedeutet Draft-Eligibility für Scouting und Big Boards?",
+        "text": "Für Scouts bestimmt Eligibility, welcher Jahrgang überhaupt bewertet wird. Seniors und Spieler mit auslaufender College-Zeit sind sicher im Pool. Bei Underclassmen bleibt bis Mitte Januar offen, ob sie sich anmelden. Ein Board für den kommenden Draft enthält deshalb immer Spieler, deren Teilnahme noch nicht feststeht.\n\nDaraus entsteht ein typischer Fehlschluss: Ein Jahrgang wirkt im Herbst auf einer Position sehr stark, weil mehrere Underclassmen hoch eingestuft sind. Bleiben zwei oder drei davon am College, sieht die Positionsgruppe im April deutlich dünner aus. Deshalb verändern sich [Mock Drafts](/lexikon/mock-draft) nach der Januar-Frist oft spürbar, und Teams planen ihren Bedarf erst danach verbindlich."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist Special Eligibility im NFL-Draft?",
+        "a": "Special Eligibility ist der formale Status, den die NFL Underclassmen gewährt, wenn sie fristgerecht ihre Teilnahme beantragt haben und die Drei-Jahres-Regel erfüllen. Die Liga veröffentlicht nach Ablauf der Fristen eine Liste dieser Spieler. Underclassmen, die bereits ihren Abschluss gemacht haben, führt sie dabei gesondert auf."
+      },
+      {
+        "q": "Was passiert mit einem Spieler, der angemeldet ist, aber nicht gedraftet wird?",
+        "a": "Er wird Free Agent und kann direkt nach dem Draft mit jedem Team einen Vertrag als [UDFA](/lexikon/udfa) abschließen. Eine Rückkehr ans College ist nach Ablauf der Rückzugsfrist in der Regel nicht mehr möglich, deshalb ist die Entscheidung für Underclassmen mit unsicherer Draft-Prognose ein echtes Risiko."
+      },
+      {
+        "q": "Gibt es Ausnahmen von der Drei-Jahres-Regel?",
+        "a": "Über den regulären Draft gibt es keine Ausnahme für Spieler, die die drei Jahre nicht erfüllen. Für Spieler, deren Eligibility erst nach dem regulären Draft feststeht, kann die Liga einen Supplemental Draft im Sommer ansetzen. Dieser findet aber nicht jedes Jahr statt und spielt in den letzten Jahren kaum eine Rolle."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "transfer-portal",
     "term": "Transfer Portal",
     "category": "Draft-Prozess",
     "kurz": "Das offizielle NCAA-Wechselregister, das College-Kader jedes Jahr neu mischt und Scouting-Notizen in Wochen veralten lässt.",
-    "text": "Das Transfer Portal ist im Kern eine Datenbank. Ein Spieler meldet seinem Compliance-Büro, dass er wechseln möchte, sein Name wird eingetragen, und ab diesem Moment dürfen andere Programme ihn offen kontaktieren. Eingeführt wurde das System 2018, um einen vorher intransparenten Prozess nachvollziehbar zu machen. In Verbindung mit der Aufhebung der Sitzjahr-Pflicht und den Möglichkeiten der Namens- und Bildrechte hat es die Kaderplanung im College-Football grundlegend verändert. In jedem Winter wechseln inzwischen mehrere Tausend Spieler das Programm.\n\nFür das Scouting bedeutet das zweierlei. Erstens muss bei jedem Prospect die Schulzugehörigkeit für die kommende Saison überprüft werden, denn ein Bericht, der einen Quarterback noch bei seinem alten Programm führt, ist im Detail sofort falsch, inklusive aller abhängigen Angaben wie Scheme, Mitspieler oder Konkurrenzsituation. Zweitens verändert ein Wechsel die Bewertung selbst. Ein Rotationsspieler, der zu einem kleineren Programm geht, um endlich zu starten, sammelt Snaps und Produktion. Umgekehrt kann ein Spieler bei einem Spitzenprogramm plötzlich hinter einem stärkeren Konkurrenten sitzen und ein komplettes Jahr an Tape verlieren.\n\nDraft-Gremien lesen Portal-Wechsel deshalb wie eine zusätzliche Informationsquelle. Ein Wechsel nach oben, also von einer kleineren Conference in die Power Four, ist eine echte Prüfung: Bestätigt ein Spieler seine Produktion auf dem höheren Niveau, steigt sein Wert deutlich. Ein Wechsel nach unten kann Chance oder Warnsignal sein, je nachdem, ob er von der Rolle oder vom Trainerstab getrieben war. In unseren Profilen führen wir die Schule der jeweils kommenden Saison und benennen den Wechsel im Text, weil er fast immer Teil der Bewertung ist."
+    "text": "Das Transfer Portal ist im Kern eine Datenbank. Ein Spieler meldet seinem Compliance-Büro, dass er wechseln möchte, sein Name wird eingetragen, und ab diesem Moment dürfen andere Programme ihn offen kontaktieren. Eingeführt wurde das System 2018, um einen vorher intransparenten Prozess nachvollziehbar zu machen. In Verbindung mit der Aufhebung der Sitzjahr-Pflicht und den Möglichkeiten der Namens- und Bildrechte hat es die Kaderplanung im College-Football grundlegend verändert. In jedem Winter wechseln inzwischen mehrere Tausend Spieler das Programm.\n\nFür das Scouting bedeutet das zweierlei. Erstens muss bei jedem Prospect die Schulzugehörigkeit für die kommende Saison überprüft werden, denn ein Bericht, der einen Quarterback noch bei seinem alten Programm führt, ist im Detail sofort falsch, inklusive aller abhängigen Angaben wie Scheme, Mitspieler oder Konkurrenzsituation. Zweitens verändert ein Wechsel die Bewertung selbst. Ein Rotationsspieler, der zu einem kleineren Programm geht, um endlich zu starten, sammelt Snaps und Produktion. Umgekehrt kann ein Spieler bei einem Spitzenprogramm plötzlich hinter einem stärkeren Konkurrenten sitzen und ein komplettes Jahr an Tape verlieren.\n\nDraft-Gremien lesen Portal-Wechsel deshalb wie eine zusätzliche Informationsquelle. Ein Wechsel nach oben, also von einer kleineren Conference in die Power Four, ist eine echte Prüfung: Bestätigt ein Spieler seine Produktion auf dem höheren Niveau, steigt sein Wert deutlich. Ein Wechsel nach unten kann Chance oder Warnsignal sein, je nachdem, ob er von der Rolle oder vom Trainerstab getrieben war. In unseren Profilen führen wir die Schule der jeweils kommenden Saison und benennen den Wechsel im Text, weil er fast immer Teil der Bewertung ist.",
+    "abschnitte": [
+      {
+        "frage": "Wann ist das Transfer-Portal-Fenster im College Football?",
+        "text": "Seit dem Zyklus 2025/26 gibt es im College Football nur noch ein Transfer-Portal-Fenster im Winter. Die NCAA hat das Frühjahrsfenster im April gestrichen und für 2026 ein Fenster vom 2. bis 16. Januar festgelegt. Vorher gab es zwei Fenster, eines im Dezember nach der Regular Season und eines im Frühjahr.\n\nTeams in der College Football Playoff erhalten Sonderregeln. Nach einem Head-Coach-Wechsel öffnet sich für die Spieler des betroffenen Programms ein eigenes Zeitfenster von 15 Tagen. Die Termine für Folgejahre legt die NCAA jeweils neu fest."
+      },
+      {
+        "frage": "Was bedeutet das neue Portalfenster für das Scouting?",
+        "text": "Durch das einzige Fenster im Januar stehen die Kader für die kommende Saison früher fest als zuvor. Mit dem Wegfall des Frühjahrsfensters gibt es kaum noch späte Wechsel nach dem Spring Game. Für Scouts heißt das: Spätestens ab Februar lässt sich die Schule eines Prospects für die nächste Saison meist verlässlich zuordnen.\n\nGleichzeitig überschneidet sich das Fenster mit den Fristen für Early Entries. Ein Underclassman entscheidet im Januar parallel, ob er in den Draft geht, bleibt oder wechselt. Rollen, Scheme und Konkurrenz können sich so innerhalb weniger Tage ändern."
+      },
+      {
+        "frage": "Woran erkennen Scouts, ob ein Portal-Wechsel einem Prospect hilft?",
+        "text": "Scouts bewerten einen Portal-Wechsel vor allem danach, ob er mehr Snaps, ein passenderes Scheme oder stärkere Gegner bringt. Ein Wechsel, der gezielt eine Lücke im Profil schließt, etwa fehlende Produktion gegen Power-Four-Gegner, ist ein Pluspunkt. Mehrere Wechsel ohne erkennbares Ziel werfen Fragen auf.\n\n- Rolle: Wird der Spieler beim neuen Programm Starter oder kämpft er erneut um Einsatzzeit?\n- Scheme: Passt das neue System zu den Stärken, die das Tape bisher zeigt?\n- Gegnerstärke: Steigt oder sinkt das Niveau der Conference?\n\nEin typischer Fehlschluss ist, Produktion nach einem Wechsel nach unten eins zu eins zu übernehmen. Zahlen gegen schwächere Gegner gehören immer neben das ältere Tape auf höherem Niveau."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Muss ein Spieler im Transfer Portal tatsächlich wechseln?",
+        "a": "Nein. Der Eintrag ins Portal erlaubt anderen Programmen den Kontakt, verpflichtet aber nicht zum Wechsel. Ein Spieler kann zu seinem bisherigen Programm zurückkehren, sofern dieses ihn wieder aufnimmt. Einen Anspruch auf seinen alten Kaderplatz hat er nicht."
+      },
+      {
+        "q": "Verliert ein Spieler durch einen Wechsel Spielberechtigung?",
+        "a": "In der Regel nicht mehr. Seit die NCAA die Pflicht zu einem Sitzjahr für Wechsel abgeschafft hat, dürfen Spieler, die die akademischen Voraussetzungen erfüllen und im erlaubten Zeitfenster wechseln, beim neuen Programm sofort spielen. Die Gesamtzahl der Spielsaisons bleibt durch die NCAA-Regeln begrenzt."
+      },
+      {
+        "q": "Wo sieht man, für welches College ein Prospect aktuell spielt?",
+        "a": "Auf dieser Seite führen die Spielerprofile und die [College-Übersicht](/colleges) jeweils die Schule der kommenden Saison. Nach dem Portalfenster im Januar werden Wechsel eingepflegt, damit Angaben zu Programm, Conference und Umfeld im [Big Board](/) zur aktuellen Saison passen."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "fall-camp",
     "term": "Fall Camp",
     "category": "Draft-Prozess",
     "kurz": "Die mehrwöchige Vorbereitungsphase vor dem College-Football-Saisonstart, in der Startelf, Verletzungsstatus und Positionskämpfe entschieden werden.",
-    "text": "Fall Camp bezeichnet die intensive Trainingsphase, mit der jedes College-Programm rund vier bis fünf Wochen vor dem ersten Saisonspiel beginnt, meist Anfang bis Mitte August. Anders als die lockereren Frühjahrs- und Sommereinheiten ist das Fall Camp mit täglichen Vollkontakt-Trainings, Zwei-Einheiten-Tagen und Scrimmages die letzte und wichtigste Vorbereitungsphase. Hier werden Startelf-Fragen entschieden, neue Transfers und Freshmen integriert, und Trainerstäbe geben die ersten offiziellen Verletzungs- und Formupdates der Saison heraus.\n\nFür das Draft-Scouting ist das Fall Camp eine wichtige, aber auch tückische Quelle. Positiv: Aussagen von Head Coaches zu Fitness, Gewichtszunahme oder einer neuen Rolle sind oft die aktuellste verfügbare Information, gerade bei Spielern mit Verletzungshistorie aus der Vorsaison. Ein Spieler, der als „probable“ oder „full go“ geführt wird, signalisiert Bereitschaft für den Saisonstart. Negativ: Trainer neigen dazu, Verletzungen kleinzureden und Positionskämpfe diplomatisch offenzuhalten, weshalb Fall-Camp-Berichte selten die volle Wahrheit verraten und immer mit echten Spieldaten aus der laufenden Saison abgeglichen werden müssen.\n\nIn unseren Profilen fließen Fall-Camp-Updates vor allem dort ein, wo sie eine bestehende Bewertung direkt berühren, etwa bei einer wiederkehrenden Verletzung oder einem offenen Rollenkampf. Eine einzelne Fall-Camp-Meldung verschiebt bei uns selten allein einen Rank; erst die Bestätigung oder Widerlegung durch echte Snaps in der Saison macht aus der Ankündigung eine verlässliche Bewertungsgrundlage."
+    "text": "Fall Camp bezeichnet die intensive Trainingsphase, mit der jedes College-Programm rund vier bis fünf Wochen vor dem ersten Saisonspiel beginnt, meist Anfang bis Mitte August. Anders als die lockereren Frühjahrs- und Sommereinheiten ist das Fall Camp mit täglichen Vollkontakt-Trainings, Zwei-Einheiten-Tagen und Scrimmages die letzte und wichtigste Vorbereitungsphase. Hier werden Startelf-Fragen entschieden, neue Transfers und Freshmen integriert, und Trainerstäbe geben die ersten offiziellen Verletzungs- und Formupdates der Saison heraus.\n\nFür das Draft-Scouting ist das Fall Camp eine wichtige, aber auch tückische Quelle. Positiv: Aussagen von Head Coaches zu Fitness, Gewichtszunahme oder einer neuen Rolle sind oft die aktuellste verfügbare Information, gerade bei Spielern mit Verletzungshistorie aus der Vorsaison. Ein Spieler, der als „probable“ oder „full go“ geführt wird, signalisiert Bereitschaft für den Saisonstart. Negativ: Trainer neigen dazu, Verletzungen kleinzureden und Positionskämpfe diplomatisch offenzuhalten, weshalb Fall-Camp-Berichte selten die volle Wahrheit verraten und immer mit echten Spieldaten aus der laufenden Saison abgeglichen werden müssen.\n\nIn unseren Profilen fließen Fall-Camp-Updates vor allem dort ein, wo sie eine bestehende Bewertung direkt berühren, etwa bei einer wiederkehrenden Verletzung oder einem offenen Rollenkampf. Eine einzelne Fall-Camp-Meldung verschiebt bei uns selten allein einen Rank; erst die Bestätigung oder Widerlegung durch echte Snaps in der Saison macht aus der Ankündigung eine verlässliche Bewertungsgrundlage.",
+    "abschnitte": [
+      {
+        "frage": "Wie läuft ein Fall Camp im College Football ab?",
+        "text": "Ein Fall Camp beginnt mit einer Eingewöhnungsphase, in der die Spieler zunächst nur mit Helm und dann mit teilweiser Schutzausrüstung trainieren. Erst danach folgen Einheiten in voller Montur mit Vollkontakt. In der zweiten Hälfte stehen Scrimmages, also Trainingsspiele unter Wettkampfbedingungen, und die Vorbereitung auf den ersten Gegner im Mittelpunkt.\n\nDie NCAA regelt den Ablauf mit Vorgaben zu Trainingsumfang, Kontaktzeiten und Ruhetagen, die vor allem dem Hitzeschutz und der Belastungssteuerung dienen. Am Ende des Camps veröffentlichen viele Programme ihre erste Depth Chart, also die offizielle Aufstellung mit Startern und Ersatzleuten je Position."
+      },
+      {
+        "frage": "Welche Fall-Camp-Infos sind für das Draft-Scouting relevant?",
+        "text": "Für Scouts sind im Fall Camp vor allem drei Signale relevant: offizielle Depth Charts, Angaben zu Gewicht und Positionswechseln sowie der Gesundheitsstatus nach Verletzungen aus der Vorsaison. Diese Punkte lassen sich später im Spiel überprüfen. Lobende Trainerworte ohne konkrete Angaben sind dagegen kaum verwertbar.\n\n- Rolle: Ist der Spieler Starter, Rotationsspieler oder in einem offenen Positionskampf?\n- Körper: Hat er gezielt Masse aufgebaut oder abgenommen, etwa für einen Wechsel vom [EDGE](/lexikon/edge) ins Innere der Line?\n- Gesundheit: Trainiert er ohne Einschränkungen oder wird er geschont?\n- Umfeld: Gibt es einen neuen Coordinator, neue Mitspieler oder ein neues Scheme?"
+      },
+      {
+        "frage": "Warum sind Fall-Camp-Berichte oft trügerisch?",
+        "text": "Fall-Camp-Berichte stammen fast immer aus kontrollierten Quellen: Pressekonferenzen, Medientage und kurze offene Trainingsausschnitte. Trainer haben wenig Interesse, Schwächen oder Verletzungsdetails vor dem Saisonstart offenzulegen. Deshalb klingt im August fast jeder Spieler verbessert, und echte Rückschlüsse liefern erst die ersten Spieltage.\n\nTypisch ist der Hype um einen Spieler, der im Camp angeblich dominiert. Gegen die eigenen Ersatzleute zu glänzen, sagt wenig über die Leistung gegen starke Gegner aus. Für die Bewertung eines Prospects zählt am Ende das Spiel-Tape, und das [Big Board](/lexikon/big-board) bewegt sich zu Saisonbeginn erst, wenn die Snaps die Ankündigungen bestätigen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Fall Camp und Spring Practice?",
+        "a": "Spring Practice findet im Frühjahr statt, endet meist mit einem Spring Game und dient vor allem der Entwicklung, dem Einbau neuer Systeme und dem Testen von Positionswechseln. Das Fall Camp im Spätsommer ist die direkte Vorbereitung auf den Saisonstart, in der Rollen festgelegt und der erste Gegner vorbereitet werden."
+      },
+      {
+        "q": "Gibt es auch in der NFL ein Fall Camp?",
+        "a": "In der NFL heißt die vergleichbare Phase Training Camp. Sie beginnt im Juli, umfasst die Preseason-Spiele und endet mit dem Zuschnitt auf den finalen Kader. Gedraftete Rookies erleben dort ihren ersten echten Konkurrenzkampf um einen Platz im Team."
+      },
+      {
+        "q": "Können Scouts beim Fall Camp zuschauen?",
+        "a": "NFL-Scouts besuchen im Spätsommer und Herbst viele College-Programme, sehen Training, sprechen mit Trainerstäben und holen Informationen zu Prospects ein. Wie viel Zugang sie bekommen, entscheidet jedes Programm selbst. Öffentlich sind meist nur kurze Ausschnitte, deshalb bleibt das Spiel-Tape die wichtigste Grundlage."
+      }
+    ],
+    "stand": "2026-11-15"
   },
   {
     "slug": "freaks-list",
     "term": "Freaks List",
     "category": "Scouting-Begriffe",
     "kurz": "Bruce Feldmans jährliche Rangliste der 101 athletischsten College-Football-Spieler, veröffentlicht bei The Athletic – ein Gradmesser für reine Athletik, nicht für Draft-Stock.",
-    "text": "Die Freaks List ist ein jährliches Ranking des Reporters Bruce Feldman, der seit rund einem Vierteljahrhundert die 101 athletischsten Spieler des College Footballs kürt. Grundlage sind keine Spielstatistiken, sondern reine Testwerte: Sprintzeiten und GPS-Topspeed, Vertical und Broad Jump, Kraftwerte wie Bankdrücken und Kniebeuge sowie Einschätzungen von Trainern und Strength Coaches, die diese Athleten täglich im Training sehen. Die Liste erscheint traditionell im Spätsommer vor dem Saisonstart und ist längst eine feste Institution im US-College-Football-Journalismus.\n\nWichtig für die Einordnung: Die Freaks List misst athletisches Potenzial, nicht Football-Produktion oder Draft-Wert. Ein hoher Platz bedeutet nicht automatisch einen frühen Draft-Pick, so wie ein niedriger oder fehlender Platz keinen späten bedeutet. Viele der besten Football-Spieler sind keine reinen Freaks, sondern gewinnen über Technik, Instinkte und Football-IQ. Umgekehrt tauchen auf der Liste auch Spieler mit Rohtalent auf, deren Produktion noch weit hinter ihrer Athletik zurückbleibt.\n\nFür unser Board ist die Freaks List trotzdem eine wertvolle Zusatzquelle: Sie bestätigt oder relativiert externe Eindrücke mit echten Messwerten und liefert oft die aktuellsten verfügbaren Testdaten der Saison. Wir werten eine hohe Platzierung als unterstützendes Argument in einem Profil, nicht als eigenständigen Ranking-Faktor – die Einordnung im Draft-Board richtet sich weiterhin nach der Gesamtschau aus Tape, Produktion und Konsens-Quellen."
+    "text": "Die Freaks List ist ein jährliches Ranking des Reporters Bruce Feldman, der seit rund einem Vierteljahrhundert die 101 athletischsten Spieler des College Footballs kürt. Grundlage sind keine Spielstatistiken, sondern reine Testwerte: Sprintzeiten und GPS-Topspeed, Vertical und Broad Jump, Kraftwerte wie Bankdrücken und Kniebeuge sowie Einschätzungen von Trainern und Strength Coaches, die diese Athleten täglich im Training sehen. Die Liste erscheint traditionell im Spätsommer vor dem Saisonstart und ist längst eine feste Institution im US-College-Football-Journalismus.\n\nWichtig für die Einordnung: Die Freaks List misst athletisches Potenzial, nicht Football-Produktion oder Draft-Wert. Ein hoher Platz bedeutet nicht automatisch einen frühen Draft-Pick, so wie ein niedriger oder fehlender Platz keinen späten bedeutet. Viele der besten Football-Spieler sind keine reinen Freaks, sondern gewinnen über Technik, Instinkte und Football-IQ. Umgekehrt tauchen auf der Liste auch Spieler mit Rohtalent auf, deren Produktion noch weit hinter ihrer Athletik zurückbleibt.\n\nFür unser Board ist die Freaks List trotzdem eine wertvolle Zusatzquelle: Sie bestätigt oder relativiert externe Eindrücke mit echten Messwerten und liefert oft die aktuellsten verfügbaren Testdaten der Saison. Wir werten eine hohe Platzierung als unterstützendes Argument in einem Profil, nicht als eigenständigen Ranking-Faktor – die Einordnung im Draft-Board richtet sich weiterhin nach der Gesamtschau aus Tape, Produktion und Konsens-Quellen.",
+    "abschnitte": [
+      {
+        "frage": "Wie kommt ein Spieler auf die Freaks List?",
+        "text": "Spieler kommen auf die Freaks List über Informationen aus den Programmen selbst. Strength Coaches, Trainer und Mitarbeiter liefern Messwerte und Beobachtungen aus dem Training, der Autor ordnet sie ein und ergänzt eigene Recherche. Eine offizielle Bewerbung oder einheitlich kontrollierte Tests wie bei der Combine gibt es dabei nicht.\n\nDaraus folgt eine wichtige Einschränkung: Die Werte stammen aus unterschiedlichen Messumgebungen. Eine handgestoppte Sprintzeit im Teamtraining ist nicht mit einer elektronisch gemessenen Zeit bei der [Combine](/lexikon/combine) vergleichbar, und GPS-Topspeeds hängen vom eingesetzten System ab. Die Liste ist deshalb eher ein gut recherchierter Hinweis als ein sauberer Datensatz."
+      },
+      {
+        "frage": "Was sagt die Freaks List über den Draft-Wert eines Prospects?",
+        "text": "Für den Draft ist die Freaks List vor allem ein Frühindikator: Sie zeigt im Sommer, welche Spieler athletische Ausreißer sind, lange bevor Combine und Pro Days offizielle Daten liefern. Über den Draft-Wert entscheidet sie nicht. Athletik zählt erst, wenn sie auf dem Tape in Football-Leistung umgesetzt wird.\n\nScouts nutzen die Liste deshalb als Anlass, genauer hinzusehen. Ein Spieler mit wenig Produktion, aber herausragenden Werten wird ein Kandidat für die Frage, ob ein besseres Scheme oder mehr Snaps das Potenzial freilegen. Ein typischer Fehlschluss ist, Freaks-Werte mit späteren Combine-Ergebnissen gleichzusetzen. Wer im Sommer als Sprint-Ausreißer gilt, läuft im März nicht zwingend einen ebenso herausragenden [40-Yard Dash](/lexikon/40-yard-dash)."
+      },
+      {
+        "frage": "Wie unterscheidet sich die Freaks List vom RAS-Score?",
+        "text": "Die Freaks List ist ein redaktionelles Ranking aus Trainingswerten und Einschätzungen von Trainern, erstellt vor der Saison. Der [RAS-Score](/lexikon/ras-score) ist eine Formel, die offizielle Testwerte von Combine und Pro Day ins Verhältnis zu Größe und Gewicht setzt und mit früheren Spielern derselben Position vergleicht.\n\nBeide Werkzeuge ergänzen sich. Die Freaks List liefert früh im Zyklus Hinweise auf außergewöhnliche Athletik, auch bei Spielern, die noch nicht im Fokus stehen. Der RAS ordnet im Frühjahr ein, wie athletisch ein Prospect im Vergleich zu seinem Positionsjahrgang wirklich ist. Wer beide nebeneinander legt, sieht, ob sich ein Sommer-Hype in offiziellen Messungen bestätigt."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Warum enthält die Freaks List genau 101 Spieler?",
+        "a": "Die Zahl 101 ist eine Festlegung des Autors, keine statistische Grenze. Ein Spieler auf Platz 101 ist nicht messbar weniger athletisch als einer auf Platz 90. Die Reihenfolge innerhalb der Liste spiegelt die Einschätzung des Autors wider und sollte nicht wie ein Ranking des Draft-Werts gelesen werden."
+      },
+      {
+        "q": "Tauchen auf der Freaks List nur Draft-Prospects auf?",
+        "a": "Nein. Die Liste berücksichtigt Spieler aller College-Jahrgänge, also auch Spieler, die für den kommenden Draft noch gar nicht wählbar sind. Für ein Board zum anstehenden Draft ist deshalb immer zu prüfen, ob ein gelisteter Spieler die Draft-Eligibility erfüllt und ob er sich anmeldet."
+      },
+      {
+        "q": "Gilt ein Platz auf der Freaks List für bestimmte Positionen mehr?",
+        "a": "Athletik wird auf jeder Position geschätzt, ihr Gewicht ist aber unterschiedlich. Bei Positionen wie Cornerback, Wide Receiver oder [EDGE](/position/edge) sind Tempo und Explosivität besonders eng mit dem Draft-Wert verknüpft. Bei Quarterbacks oder Interior Linemen zählen Technik und Spielverständnis meist deutlich stärker."
+      }
+    ],
+    "stand": "2026-11-15"
   }
 ]
