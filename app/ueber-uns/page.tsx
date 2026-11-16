@@ -88,7 +88,7 @@ export default function UeberUnsPage() {
               { n: playerCount, l: "Spielerprofile" },
               { n: collegeCount, l: "Colleges" },
               { n: teamCount, l: "NFL-Teams" },
-              { n: sourceCount, l: "Quell-Boards" },
+              { n: meta.consensus.boards, l: "Boards im Consensus" },
             ].map((s) => (
               <div
                 key={s.l}
@@ -174,10 +174,12 @@ export default function UeberUnsPage() {
           </h2>
           <div className="flex flex-col gap-3 text-sm leading-relaxed text-foreground/80">
             <p>
-              Grundlage ist ein Consensus-Ansatz: Wir werten {sourceCount}{" "}
-              etablierte, öffentlich einsehbare Big Boards und Draft-Rankings aus
-              (unten vollständig verlinkt) und verdichten sie zu einer
-              Gesamtrangfolge. So gleichen sich die Ausreißer einzelner Quellen
+              Grundlage ist ein Consensus-Ansatz: Das Consensus Big Board der
+              NFL Mock Draft Database bündelt {meta.consensus.boards} öffentliche
+              Big Boards und {meta.consensus.mocks} Mock Drafts. Jede Woche
+              gleichen wir es mit weiteren datierten Einzel-Boards ab (unten
+              vollständig verlinkt); einen Rang ändern wir nur, wenn mehrere
+              dieser Boards deutlich abweichen. So gleichen sich die Ausreißer einzelner Quellen
               aus und es entsteht ein belastbarer Überblick, welche Prospects der
               Draft-Community aktuell wie hoch gehandelt werden.
             </p>
@@ -233,7 +235,7 @@ export default function UeberUnsPage() {
           </h2>
           <p className="mb-4 text-sm leading-relaxed text-foreground/80">
             Wir machen offen, worauf die Consensus-Rangfolge beruht. Diese{" "}
-            {sourceCount} Boards fließen in die Auswertung ein:
+            {sourceCount} Quellen fließen in Ranking, Mock Draft und Saisonzahlen ein:
           </p>
           <ul className="mb-4 grid gap-1.5 sm:grid-cols-2">
             {meta.sources.map((s) => (

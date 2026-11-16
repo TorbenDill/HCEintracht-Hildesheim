@@ -39,9 +39,9 @@
     "url": "https://commons.wikimedia.org"
   },
   "consensus": {
-    "boards": 56,
-    "mocks": 224,
+    "boards": 71,
+    "mocks": 300,
     "source": "NFL Mock Draft Database",
-    "stand": "2026-10-17"
+    "stand": "2026-11-16"
   }
 }

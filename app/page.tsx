@@ -66,7 +66,7 @@ export default function Home() {
   const faqs = [
     {
       q: `Wer ist der beste Prospect im NFL Draft ${meta.draftYear}?`,
-      a: `Im Consensus der NFL Mock Draft Database (Stand ${stand}) führt ${p1.position} ${p1.name} (${p1.college}) vor ${p2.position} ${p2.name} (${p2.college}) und ${p3.position} ${p3.name} (${p3.college}).${
+      a: `Auf unserem Consensus-Board (Stand ${stand}) führt ${p1.position} ${p1.name} (${p1.college}) vor ${p2.position} ${p2.name} (${p2.college}) und ${p3.position} ${p3.name} (${p3.college}).${
         mock[0]
           ? ` Im Consensus-Mock geht ${mock[0].player} an Pick 1 zu den ${mock[0].team}${mock[0].consensus_pct ? ` (in ${mock[0].consensus_pct} Prozent der Mocks)` : ""}.`
           : ""
@@ -74,7 +74,7 @@ export default function Home() {
     },
     {
       q: "Wie entsteht das Ranking auf dieser Seite?",
-      a: `Die Plätze 1 bis 100 folgen exakt dem Consensus Big Board der NFL Mock Draft Database, das ${meta.consensus.boards} Big Boards und ${meta.consensus.mocks} Mock Drafts bündelt. Weitere Spieler ordnen wir über aktuelle Einzel-Boards (CBS Sports, Scouting Grade) ein. Jedes Profil ist mit mindestens drei unabhängigen Quellen belegt.`,
+      a: `Grundlage ist das Consensus Big Board der NFL Mock Draft Database, das ${meta.consensus.boards} Big Boards und ${meta.consensus.mocks} Mock Drafts bündelt. Jede Woche gleichen wir es mit weiteren datierten Einzel-Boards ab; einen Rang ändern wir nur, wenn mehrere dieser Boards deutlich abweichen. Spieler außerhalb des Consensus ordnen wir über die Einzel-Boards ein. Jedes Profil ist mit mindestens drei unabhängigen Quellen belegt.`,
     },
     {
       q: `Wann findet der NFL Draft ${meta.draftYear} statt?`,
@@ -319,7 +319,7 @@ export default function Home() {
             Big Board <span className="text-primary">{meta.draftYear}</span>
           </h2>
           <p className="mb-6 max-w-3xl text-sm text-muted">
-            Plätze 1–100 nach dem Consensus der NFL Mock Draft Database (Stand {stand}), danach weitere belegte
+            Reihenfolge nach dem Consensus der NFL Mock Draft Database, wöchentlich mit weiteren Boards abgeglichen (Stand {stand}), danach weitere belegte
             Prospects. Pfeile zeigen die Bewegung seit dem letzten Update, „News“ markiert Verletzungen und Sperren.
           </p>
           <HomeBoard rows={rows} />
@@ -339,7 +339,7 @@ export default function Home() {
                 {qbLeader && ` Unter den Quarterbacks führt ${qbLeader.player.name} mit ${qbLeader.value} Touchdown-Pässen (${qbLeader.extra}).`}
               </p>
               <p>
-                Dieses deutschsprachige Big Board übernimmt die Reihenfolge des Consensus, ergänzt jedes Profil um
+                Dieses deutschsprachige Big Board folgt dem Consensus, gleicht ihn wöchentlich mit weiteren Boards ab und ergänzt jedes Profil um
                 einen individuellen Scouting-Report mit Best- und Worst-Case-Vergleich, die aktuellen Saisonzahlen
                 und – wo nötig – Hinweise zu Verletzungen oder Sperren.
               </p>

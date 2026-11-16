@@ -136,9 +136,10 @@ export function buildLlmsFullTxt(): string {
     "",
     `Das Ranking verdichtet ${meta.consensus.boards} öffentliche Big Boards und ` +
       `${meta.consensus.mocks} Mock Drafts (${meta.consensus.source}, Stand ` +
-      `${germanDate(meta.consensus.stand)}) zu einer Rangfolge; einzelne Experten-Boards ` +
-      "(u. a. CBS Sports, ESPN) dienen zur Einordnung von Spielern außerhalb des Consensus. " +
-      "Jedes Profil ist mit mindestens zwei unabhängigen Quellen belegt. Saisonzahlen " +
+      `${germanDate(meta.consensus.stand)}) zu einer Rangfolge. Wöchentlich gleichen wir sie mit weiteren datierten ` +
+      "Einzel-Boards ab (siehe Quellen); ein Rang ändert sich nur, wenn mehrere Boards deutlich abweichen. " +
+      "Einzel-Boards dienen auch zur Einordnung von Spielern außerhalb des Consensus. " +
+      "Jedes Profil ist mit mindestens drei unabhängigen Quellen belegt. Saisonzahlen " +
       `stammen von cfbstats.com (Stand ${seasonThrough()}). Scouting-Texte und NFL-Vergleiche ` +
       "sind redaktionelle Einschätzungen.",
     "",
