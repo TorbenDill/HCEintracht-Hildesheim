@@ -51,6 +51,12 @@
     },
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "23:25",
+        "sprecher": "forstner",
+        "text": "Smith beweist laut Forstner gerade, dass er unabhängig vom Quarterback ein Difference Maker bleibt, und in diesem Jahr war ihm kaum ein Cornerback gewachsen. Zum Start der Draft-Saison wird ernsthaft diskutiert werden, ob er als Wide Receiver der erste Pick sein kann."
+      },
+      {
         "folge": "2026-10-15",
         "minute": "20:37",
         "sprecher": "leinweber",
@@ -67,12 +73,6 @@
         "minute": "48:15",
         "sprecher": "leinweber",
         "text": "Aktuell unangefochten der beste Receiver im Draftjahrgang; mit 151 Yards und zwei Touchdowns zum Auftakt gegen Ball State bestätigte er das. Leinweber sieht ihn als klaren Maßstab, an dem sich Cam Coleman misst, und rechnet mit einem Big Play als möglichem Spielentscheider."
-      },
-      {
-        "folge": "2026-08-19",
-        "minute": "10:17",
-        "sprecher": "forstner",
-        "text": "Gilt aktuell vielen als bester Skillspieler des Landes: starker Route Runner, der sich separiert, dabei groß und kräftig gebaut, mit einem Profil in Richtung Ja'Marr Chase. Die NFL schaut genau hin, der Top-3-Pick-Wert muss sich aber erst bestätigen, bevor man ihn lobt."
       }
     ]
   },
@@ -177,6 +177,12 @@
     "update_sources": {},
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "53:34",
+        "sprecher": "leinweber",
+        "text": "Ballhawking-Corner und Standout der Notre-Dame-Defense, variabel in Man und Zone einsetzbar mit viel Ball-Production; Quarterbacks werfen kaum noch in seine Richtung. An den Kontakt nach der Line of Scrimmage muss er sich in der NFL gewöhnen. Leinweber sieht ihn wahrscheinlich in den Top 15, vielleicht in den Top 10."
+      },
+      {
         "folge": "2026-08-27",
         "minute": "06:17",
         "sprecher": "forstner",
@@ -228,6 +234,12 @@
     },
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "61:56",
+        "sprecher": "beide",
+        "text": "Gehört zusammen mit Darian Mensah zu den Quarterbacks, die im Podcast aktuell als realistische Kandidaten für den ersten Quarterback des Drafts gesehen werden; CJ Carr gilt als möglicher nächster Name dahinter."
+      },
+      {
         "folge": "2026-11-04",
         "minute": "48:41",
         "sprecher": "forstner",
@@ -244,12 +256,6 @@
         "minute": "32:17",
         "sprecher": "forstner",
         "text": "Neben Chambliss einer der Quarterbacks, die sich zunehmend als erster Quarterback dieses Drafts in den Fokus spielen."
-      },
-      {
-        "folge": "2026-10-08",
-        "minute": "11:44",
-        "sprecher": "leinweber",
-        "text": "Rhythmischer Passer in der Spread-Offense von Eric Morris mit viel Quick Game, aber auch längeren Drops, bei denen er im Timing bleibt. Guter Arm, Mobilität und Größe, dazu akkurat; er bringt viele Traits mit, kommt aber aus einem System, das sich schwer auf NFL-Niveau übertragen lässt. Ein Erstrunden-Quarterback fällt Leinweber aktuell noch schwer zu sagen, weit entfernt ist er davon aber nicht; er hält eine Rückkehr für ein weiteres College-Jahr für möglich."
       }
     ]
   },
@@ -349,6 +355,12 @@
       "suntimes.com": "https://chicago.suntimes.com/college-sports/2026/11/07/notre-dame-knocks-off-top-ranked-miami"
     },
     "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "61:56",
+        "sprecher": "beide",
+        "text": "Gehört zusammen mit Drew Mestemaker zu den Quarterbacks, die im Podcast aktuell als realistische Kandidaten für den ersten Quarterback des Drafts gesehen werden; CJ Carr gilt als möglicher nächster Name dahinter."
+      },
       {
         "folge": "2026-11-04",
         "minute": "56:08",
@@ -622,6 +634,18 @@
     },
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "55:48",
+        "sprecher": "forstner",
+        "text": "Carr macht alles richtig und ist der Quarterback mit den wenigsten Fehlern im College, aber auf Tape fehlt Forstner das Besondere; er zieht den Vergleich zu Brock Purdy. Nach den Quarterback-Kriterien von Bill Parcells fehlen ihm noch Starts und Erfahrung, nur das Touchdown-Interception-Verhältnis ist herausragend. Ohne neues Narrativ in den Playoffs würde er ihm ein weiteres College-Jahr empfehlen."
+      },
+      {
+        "folge": "2026-11-18",
+        "minute": "61:36",
+        "sprecher": "leinweber",
+        "text": "Leinweber würde Carr eher raten, in den Draft zu gehen und sich mit Darian Mensah und Drew Mestemaker zu messen, sofern der Playoff-Run nicht völlig misslingt. Außer diesen dreien sieht er aktuell niemanden realistisch in der Diskussion um den ersten Quarterback."
+      },
+      {
         "folge": "2026-11-04",
         "minute": "57:57",
         "sprecher": "forstner",
@@ -632,18 +656,6 @@
         "minute": "50:42",
         "sprecher": "leinweber",
         "text": "Quarterback von Notre Dame, der aus Leinwebers Sicht sehr effizient und effektiv spielt und mit der Offense bisher dominant auftritt."
-      },
-      {
-        "folge": "2026-10-15",
-        "minute": "57:53",
-        "sprecher": "forstner",
-        "text": "Quarterback mit durchschnittlicher Athletik und ohne Dual-Threat-Profil, aber mit gutem Ballgefühl, tiefem Arm, Ruhe gegen Blitzes und fast ohne turnoverwürdige Plays. Offen ist, ob er in engen Spielen gegen Top-Teams mehr als Game Manager sein kann; ein Titelgewinn würde seinen Draft Stock deutlich heben. Ob er im nächsten Jahr überhaupt in die NFL geht, hängt vom Saisonverlauf ab."
-      },
-      {
-        "folge": "2026-08-27",
-        "minute": "07:46",
-        "sprecher": "forstner",
-        "text": "Soll bei Notre Dame offensiv für die Punkte sorgen, wird von Forstner aber als noch nicht relevant für den Draft eingestuft; er geht deshalb nicht näher auf ihn ein."
       }
     ]
   },
@@ -972,6 +984,12 @@
     "update_sources": {},
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "62:07",
+        "sprecher": "leinweber",
+        "text": "Anders als bei CJ Carr würde Leinweber Manning eher raten, noch ein Jahr bei Texas dranzuhängen, statt 2027 in den Draft zu gehen."
+      },
+      {
         "folge": "2026-10-21",
         "minute": "23:40",
         "sprecher": "forstner",
@@ -988,12 +1006,6 @@
         "minute": "65:36",
         "sprecher": "forstner",
         "text": "Forstner sieht Anlagen und Plays, die andere nicht machen, vermisst aber Kontinuität und Führungsanspruch und hält die Top-3-Debatte für überzogen, abgesehen vom Nachnamen. Es werde mehr aus ihm gemacht, als er bislang zeigt, andere Quarterbacks gehörten eher in die Konsens-Diskussion um Platz eins."
-      },
-      {
-        "folge": "2026-10-15",
-        "minute": "67:25",
-        "sprecher": "leinweber",
-        "text": "Leinweber stimmt Forstner zunehmend zu. Gegen Ohio State zeigte Manning im vierten Viertel Positives, am Ende des Red-River-Spiels aber eine schwache Entscheidung gegen Cover Zero und ungenaue Würfe unter Druck."
       }
     ]
   },
@@ -1085,6 +1097,12 @@
       "cfbstats.com": "https://cfbstats.com/2026/player/257/50310449/index.html"
     },
     "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "54:54",
+        "sprecher": "forstner",
+        "text": "Forstner hat Robinson in seiner Kolumne als besten Cornerback des nächsten Drafts bezeichnet, bewusst etwas zugespitzt. Er wird sich mit Leonard Moore messen; welcher zuerst geht, hängt vom Team ab, denn Robinson ist der längere, physischere Press-Man-Corner, Moore ein anderer Spielertyp."
+      },
       {
         "folge": "2026-11-11",
         "minute": "22:46",
@@ -2916,6 +2934,12 @@
     },
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "06:18",
+        "sprecher": "forstner",
+        "text": "Seit Sayin nicht mehr spielt, tut sich Ohio State offensiv schwer. Für Forstner hebt das seine Bewertung, weil erst jetzt sichtbar wird, wie wichtig er für sein Team ist."
+      },
+      {
         "folge": "2026-10-15",
         "minute": "17:22",
         "sprecher": "forstner",
@@ -3742,6 +3766,12 @@
     "update_sources": {},
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "17:37",
+        "sprecher": "forstner",
+        "text": "Bei Siereveld stellt sich für Forstner die Frage, ob er ein vielseitiger Starter oder am Ende der sechste Offensive Lineman eines Teams wird. Er hat auf mehreren Positionen gestartet, im Vorjahr keinen Sack zugelassen und ist ein sicherer Run-Blocker; offen ist, wie er gegen sehr athletische Pass Rusher besteht."
+      },
+      {
         "folge": "2026-09-09",
         "minute": "65:25",
         "sprecher": "forstner",
@@ -4361,6 +4391,12 @@
     "update_sources": {},
     "podcast_stimmen": [
       {
+        "folge": "2026-11-18",
+        "minute": "40:51",
+        "sprecher": "leinweber",
+        "text": "Gilt für Leinweber als wahrscheinlich bester Spieler der Wolverines und steht im Broadcast regelmäßig im Fokus. Er geht nach seiner Einschätzung in diesem Jahr in den Draft."
+      },
+      {
         "folge": "2026-09-23",
         "minute": "33:39",
         "sprecher": "forstner",
@@ -4422,7 +4458,14 @@
     "update_sources": {
       "cfbstats.com": "https://cfbstats.com/2026/player/418/50303890/index.html"
     },
-    "podcast_stimmen": []
+    "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "40:51",
+        "sprecher": "leinweber",
+        "text": "Talentierter, athletischer Edge mit guter Leverage und einzelnen guten Pass-Rush-Moves, aber noch inkonstant. Gegen starke Offensive Linemen fehlt ihm oft die Power, obwohl er den Frame dafür hätte. Leinweber rechnet eher damit, dass er noch ein Jahr ans College zurückkehrt."
+      }
+    ]
   },
   {
     "name": "Jelani McDonald",
@@ -6075,7 +6118,14 @@
     "update_de": null,
     "update_stand": null,
     "update_sources": {},
-    "podcast_stimmen": []
+    "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "18:42",
+        "sprecher": "forstner",
+        "text": "Lang, explosiv und athletisch mit guten Speed-to-Power-Moves, aber für seine Anlagen bisher zu wenig produktiv. Forstner sieht die Gefahr eines Rotationsspielers ohne Impact; über die letzten Spiele, Senior Bowl und Combine muss sich klären, wie hoch der Entwicklungshorizont ist und was er früh auf dem Feld bringt."
+      }
+    ]
   },
   {
     "name": "DJ Lagway",
@@ -6316,7 +6366,20 @@
     "update_de": null,
     "update_stand": null,
     "update_sources": {},
-    "podcast_stimmen": []
+    "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "12:56",
+        "sprecher": "leinweber",
+        "text": "Für Leinweber das Top-Prospect der Cornhuskers: im dritten Jahr Starter, konstant, smart und technisch solide, dazu auch auf Guard einsetzbar. Athletisch ohne herausragende Traits; er sieht ihn als Mittelrunden-Pick um die vierte Runde, der als Backup beginnt und sich später als Starter durchsetzen kann, idealerweise auf Center."
+      },
+      {
+        "folge": "2026-11-18",
+        "minute": "16:13",
+        "sprecher": "forstner",
+        "text": "Forstner verweist auf eine Statistik, nach der Evans-Jenkins in diesem Jahr zu den Offensive Linemen mit den wenigsten zugelassenen Pressures im College Football gehört, auch wenn die Center-Position das begünstigt. Solche Center sind in der passlastigen NFL gefragt und werden oft früher gedraftet als erwartet; über den Senior Bowl kann er weitere Schritte machen."
+      }
+    ]
   },
   {
     "name": "Benjamin Brahmer",
@@ -6917,6 +6980,18 @@
     "update_stand": null,
     "update_sources": {},
     "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "47:53",
+        "sprecher": "forstner",
+        "text": "Forstner sieht bei Jennings weiter eine Auswärtsschwäche: In lauten Stadien und bei schwierigen Bedingungen fällt sein Spiel ab, das zieht sich seit dem Playoff-Spiel gegen Penn State durch. Als Draftkandidat war er schon gehypter, das Spiel bei Notre Dame ist eine der letzten Chancen, sich zu zeigen."
+      },
+      {
+        "folge": "2026-11-18",
+        "minute": "51:17",
+        "sprecher": "leinweber",
+        "text": "Für Leinweber trotz aller Kritik statistisch und von den Erfolgen her einer der besten College-Quarterbacks, mit drei Jahren Starter-Erfahrung und SMU als Playoff-Team. Ein Dual-Threat-Playmaker mit Licht und Schatten, der in großen Spielen noch nicht überzeugt hat; gegen Notre Dame entscheidet sich für ihn, ob Jennings ein Fünftrunden-Quarterback ist oder in der dritten Runde mitreden kann."
+      },
       {
         "folge": "2026-08-27",
         "minute": "18:10",
@@ -9405,6 +9480,161 @@
         "minute": "43:41",
         "sprecher": "leinweber",
         "text": "Leinweber sieht in dem Fünftjahres-Senior den eigentlichen Top-Corner der USC-Defense, der mit zwei Interceptions und einem Defensive Touchdown seine Breakout-Saison hat. Mit gelisteten fünf Fuß elf wäre er laut Leinweber gegen Spieler wie Becker physisch ein Mismatch-Kandidat. Er rechnet ihn wahrscheinlich recht klar als Day-3-Spieler ein."
+      }
+    ]
+  },
+  {
+    "name": "Sahir West",
+    "position": "EDGE",
+    "college": "UCLA",
+    "height": "6'3\"",
+    "weight": "279 lbs",
+    "ranking_pos": 22,
+    "ranking_overall": 187,
+    "forstner_statement": "West ist für mich wahnsinnig produktiv, er ist über zwei Jahre ständig hinter der Line of Scrimmage. Wenn das so weitergeht, kommt man an einer Diskussion über die frühen Runden nicht vorbei, auch wenn seine Statur schwer einzuordnen ist und ich keinen passenden NFL-Vergleich finde. Das Duell mit Evan Link von Michigan ist für mich der Gradmesser.",
+    "piktogramme": [
+      "Depth",
+      "Special Teams",
+      "Developmental"
+    ],
+    "scouting_report_de": "Sahir West kam von der Mount St. Joseph High School in Baltimore als Teil der Klasse 2024 zu James Madison, wo er sein erstes Jahr mit nur zwei Einsätzen als Redshirt-Saison nutzte. 2025 folgte der Durchbruch: 45 Tackles, 14,0 Tackles for Loss, 7,0 Sacks, ein Forced Fumble und vier abgewehrte Pässe, dazu die Auszeichnungen als Sun Belt Freshman of the Year, First Team Freshman All-American und All-Sun-Belt-Second-Team. Mit 7,0 Sacks lag er laut UCLA unter allen FBS-Freshmen auf Rang zwei, im Sun-Belt-Finale gegen Troy stellte er mit 5,5 Tackles for Loss und 3,0 Sacks einen Rekord für das Endspiel auf. Nach der Saison folgte er Head Coach Bob Chesney nach Westwood. In der Saison 2026 führt ihn Ourlads bei UCLA mit 40 Tackles, 8,5 Tackles for Loss, 4,5 Sacks, sieben QB Hits und einem eroberten Fumble, sein bestes Spiel bisher war das 27:0 gegen Nevada am 31. Oktober mit neun Tackles, zwei Tackles for Loss und 1,5 Sacks. Seine Stärke ist die konstante Produktion hinter der Line of Scrimmage, er findet über zwei Jahre regelmäßig den Weg ins Backfield und ist dabei gegen den Lauf genauso präsent wie als Pass Rusher. Fragezeichen setzt sein Profil mit 6-3 und 279 Pfund: Er ist weder der lange, schwere Edge noch der kleine, explosive Speed Rusher, und die reine Sack-Ausbeute ist 2026 im Vergleich zur Tackle-for-Loss-Zahl überschaubar. Gegen Big-Ten-Tackles wie Michigans Evan Link muss er zeigen, dass seine Produktion aus der Sun Belt übertragbar ist. In der NFL ist er zunächst ein Rotations-Edge mit Run-Defense-Wert, der sich als Underclassman mit einer starken Saisonschlussphase noch deutlich nach oben schieben kann.",
+    "kurzprofil": "Im Consensus Big Board der NFL Mock Draft Database steht West auf Rang 116, bei Tankathon auf Rang 117, einzelne Mocks von SI und CBS sahen ihn sogar in Runde 1. 2025 kam er bei James Madison auf 45 Tackles, 14,0 Tackles for Loss und 7,0 Sacks, 2026 stehen für UCLA bisher 40 Tackles, 8,5 Tackles for Loss und 4,5 Sacks zu Buche.",
+    "best_case_nfl": "Jonathon Cooper (Broncos) – kein Längen- oder Explosivitätswunder, hat sich aber über Technik und Motor vom späten Pick zum produktiven Stamm-Edge in Denver entwickelt.",
+    "worst_case_nfl": "Isaiah McGuire (Browns) – im College produktiver Edge aus der Mitte des Drafts, der in Cleveland bisher vor allem als Rotationsspieler eingesetzt wird.",
+    "class_year": "Junior",
+    "projection": "Day 3",
+    "sources": [
+      "uclabruins.com",
+      "espn.com",
+      "ourlads.com",
+      "nflmockdraftdatabase.com",
+      "tankathon.com",
+      "si.com",
+      "sportsgrid.com"
+    ],
+    "source_urls": {
+      "uclabruins.com": "https://uclabruins.com/sports/football/roster/player/sahir-west",
+      "espn.com": "https://www.espn.com/college-football/player/stats/_/id/5197086/sahir-west",
+      "ourlads.com": "https://www.ourlads.com/ncaa-football-depth-charts/player-stats/sahir-west/171683",
+      "nflmockdraftdatabase.com": "https://www.nflmockdraftdatabase.com/players/2027/sahir-west",
+      "tankathon.com": "https://www.tankathon.com/nfl/big-board",
+      "si.com": "https://www.si.com/college/ucla/bruins-how-sahir-west-will-impact-defense",
+      "sportsgrid.com": "https://www.sportsgrid.com/ncaaf/article/no-7-ucla-turns-rose-bowl-into-house-of-horrors-in-monstrous-win-over-nevada"
+    },
+    "quellen_anzahl": 7,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false,
+    "update_de": null,
+    "update_stand": null,
+    "update_sources": {},
+    "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "31:06",
+        "sprecher": "forstner",
+        "text": "Forstner sieht West bei weiter so hoher Produktion zwei Jahre in Folge zwangsläufig in einer Erstrunden-Diskussion, unabhängig von den Maßen. Seine Statur ist weder groß und schwer noch klein und leichtfüßig, passende NFL-Vergleiche fallen schwer, Nik Bonitto etwa sei deutlich explosiver. Wahnsinnig produktiv, aber mit Fragezeichen; das Duell mit Michigan-Tackle Evan Link ist ein Gradmesser."
+      }
+    ]
+  },
+  {
+    "name": "Evan Link",
+    "position": "OT",
+    "college": "Michigan",
+    "height": "6'6\"",
+    "weight": "313 lbs",
+    "ranking_pos": 17,
+    "ranking_overall": 188,
+    "forstner_statement": "Link hatte ich vor der Saison ehrlich gesagt nicht auf dem Zettel, und lange war unklar, ob er eher Guard oder Tackle ist. Er hat aber regelmäßig auf beiden Tackle-Positionen gestartet und ist dort eine sichere Bank: groß, schwer, gute Beinarbeit und viel Spielerfahrung. Das Duell mit Sahir West von UCLA ist für mich ein echter Gradmesser.",
+    "piktogramme": [
+      "Swing-Tackle",
+      "Developmental",
+      "Motor"
+    ],
+    "scouting_report_de": "Evan Link kam als Vier-Sterne-Recruit und laut 247Sports Composite Nummer 267 seines Jahrgangs von der Gonzaga College High School zu Michigan. Nach einem Jahr ohne Einsatz wurde er 2024 sofort Starter: In allen 13 Spielen dabei, elf Starts, davon zehn an Right Tackle und zum Abschluss einer an Left Tackle im ReliaQuest Bowl gegen Alabama. 2025 rückte er auf die Blindside und startete sieben Spiele an Left Tackle, der letzte Start in der Michigan-Bio ist das Spiel gegen Washington am 18. Oktober. In der Saison 2026 begann er an Left Guard gegen Western Michigan und ist seitdem wieder die Konstante an Left Tackle, mit Starts gegen UTEP, Iowa, Minnesota, Penn State, Indiana, Rutgers, Michigan State und Oregon, gegen Michigan State half er zusätzlich an Left Guard aus. Insgesamt stehen 29 Spiele mit 27 Starts zu Buche, dazu zwei Academic-All-Big-Ten-Auszeichnungen. Seine Stärken sind Größe und Masse mit 6-6 und 313 Pfund, saubere Beinarbeit und die Erfahrung auf beiden Tackle-Positionen und an Guard. Offen ist, wo er in der NFL langfristig spielt: Mehrere Boards führen ihn als Interior Lineman, Michigan setzt ihn überwiegend außen ein. Gerade diese Vielseitigkeit macht ihn für NFL-Teams als sechsten Mann und möglichen Starter auf Day 3 interessant, ein starkes Duell mit UCLA-Edge Sahir West wäre ein zusätzlicher Pluspunkt.",
+    "kurzprofil": "Im Consensus Big Board der NFL Mock Draft Database steht Link auf Rang 124 mit Projektion vierte Runde, bei Tankathon ist er nicht gelistet. Für Michigan hat er 29 Spiele mit 27 Starts bestritten, davon 15 an Left Tackle, elf an Right Tackle und einen an Left Guard; 2026 startete er bisher neunmal.",
+    "best_case_nfl": "Matt Goncalves (Colts) – großer College-Tackle aus der Mitte des Drafts, der mit Erfahrung auf beiden Seiten zum Starter an Right Guard in Indianapolis wurde.",
+    "worst_case_nfl": "Caedan Wallace (Dolphins) – erfahrener Big-Ten-Tackle vom Day 2, der in der NFL als Tackle-Guard-Backup nie über eine Kaderrolle hinauskam.",
+    "class_year": "Senior",
+    "projection": "Day 3",
+    "sources": [
+      "mgoblue.com",
+      "espn.com",
+      "nflmockdraftdatabase.com",
+      "si.com"
+    ],
+    "source_urls": {
+      "mgoblue.com": "https://mgoblue.com/sports/football/roster/evan-link/27909",
+      "espn.com": "https://www.espn.com/college-football/player/_/id/4899479/evan-link",
+      "nflmockdraftdatabase.com": "https://www.nflmockdraftdatabase.com/players/2027/evan-link",
+      "si.com": "https://www.si.com/college/michigan/football/michigan-football-evan-link-talks-mentality-shift-with-offensive-line"
+    },
+    "quellen_anzahl": 4,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false,
+    "update_de": null,
+    "update_stand": null,
+    "update_sources": {},
+    "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "34:34",
+        "sprecher": "forstner",
+        "text": "Forstner hatte Link vor der Saison nicht unbedingt auf dem Zettel, offen war, ob er Guard oder Tackle ist. Er hat aber regelmäßig an Right und Left Tackle gestartet und ist dort eine sichere Bank: groß, schwer, gute Beinarbeit und viel Spielerfahrung. Das Duell mit Sahir West von UCLA sieht er als Gradmesser."
+      }
+    ]
+  },
+  {
+    "name": "Wayne Knight",
+    "position": "RB",
+    "college": "UCLA",
+    "height": "5'7\"",
+    "weight": "193 lbs",
+    "ranking_pos": 14,
+    "ranking_overall": 189,
+    "forstner_statement": "Knight holt für mich unglaublich viel aus seinen Anlagen heraus, die Produktion bei JMU und jetzt bei UCLA spricht für sich. Mit seinen Maßen und ohne echten Top-Speed wird er in der NFL kein Lead Back, aber als Receiver aus dem Backfield und Returner sehe ich einen klaren Day-3-Weg.",
+    "piktogramme": [
+      "Physikalität",
+      "Backup-Material",
+      "Durability"
+    ],
+    "scouting_report_de": "Wayne Knight kam von der Smyrna High School in Delaware zu James Madison und brauchte Anlauf: In seinen ersten beiden Jahren hatte er zusammen nur neun Läufe, 2024 waren es 77 Läufe für 449 Yards und zwei Touchdowns plus 15 Catches. 2025 explodierte er mit 207 Läufen für 1.373 Yards und neun Touchdowns, 40 Catches für 397 Yards und Punt Returns, insgesamt ein JMU-Schulrekord von 2.039 All-Purpose-Yards. Dafür gab es die Second-Team-All-America-Auszeichnung von AP, SI, USA Today und On3, die Wahl zum MVP des Sun-Belt-Finales und einen Platz unter den Finalisten des Paul Hornung Award. Zur Saison 2026 folgte er Head Coach Bob Chesney zu UCLA und ist dort sofort der Motor des Laufspiels: ESPN führt ihn bisher mit 146 Läufen für 845 Yards und 13 Touchdowns bei 5,8 Yards pro Lauf, dazu 18 Catches für 157 Yards und zwei Touchdowns sowie zehn Kickoff Returns für 204 Yards. Gegen Purdue lief er 177 Yards bei nur 18 Versuchen, beim 17:15 in Oregon erzielte er einen Lauf- und einen Receiving-Touchdown. Seine Stärken sind Vision, Instinkte und Effizienz, dazu kommt echter Wert als Receiver aus dem Backfield und als Returner. Dagegen sprechen die Maße von 5-7 und 193 Pfund, ein fehlender Top-Speed und begrenzter Wert in der Pass Protection. In der NFL ist er ein Day-3-Kandidat, der sich über Special Teams und eine Rolle als Third-Down-Back einen Kaderplatz erarbeiten muss.",
+    "kurzprofil": "Im Consensus Big Board der NFL Mock Draft Database steht Knight auf Rang 253 mit Projektion siebte Runde, bei Tankathon ist er nicht gelistet. 2025 lief er für James Madison 1.373 Yards und neun Touchdowns, 2026 stehen für UCLA bisher 845 Rushing-Yards, 13 Touchdowns und 157 Receiving-Yards zu Buche.",
+    "best_case_nfl": "Jaylen Warren (Steelers) – kleiner, nicht gedrafteter Back, der sich über Vision, Receiving und Einsatz zum Leistungsträger in Pittsburgh entwickelt hat.",
+    "worst_case_nfl": "Ray Davis (Bills) – kompakter Back vom Day 3, der in Buffalo vor allem als Returner gebraucht wird und offensiv nur eine Nebenrolle spielt.",
+    "class_year": "Fifth-Year Senior",
+    "projection": "Day 3 / Priority UDFA",
+    "sources": [
+      "uclabruins.com",
+      "espn.com",
+      "nflmockdraftdatabase.com",
+      "si.com",
+      "nbcsports.com"
+    ],
+    "source_urls": {
+      "uclabruins.com": "https://uclabruins.com/sports/football/roster/wayne-knight/16075",
+      "espn.com": "https://www.espn.com/college-football/player/stats/_/id/4912342/wayne-knight",
+      "nflmockdraftdatabase.com": "https://www.nflmockdraftdatabase.com/players/2027/wayne-knight",
+      "si.com": "https://www.si.com/college/ucla/bruins-breakdown-wayne-knight-continues-dominance-defeats-purdue",
+      "nbcsports.com": "https://www.nbcsports.com/college-football/news/no-21-ucla-downs-turnover-plagued-no-13-oregon-17-15-to-remain-undefeated"
+    },
+    "quellen_anzahl": 5,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false,
+    "update_de": null,
+    "update_stand": null,
+    "update_sources": {},
+    "podcast_stimmen": [
+      {
+        "folge": "2026-11-18",
+        "minute": "39:12",
+        "sprecher": "leinweber",
+        "text": "Leinweber sieht bei Knight keinen Top-Speed und kleine Maße, aber einen guten Receiver aus dem Backfield, soliden Route Runner und Returner mit guter Vision und guten Instinkten; in der Pass Protection bringt er wenig. Für ihn ein Day-3-Pick, der sich als Third-Down-Back etablieren könnte und viel aus seinen Anlagen herausholt."
       }
     ]
   },

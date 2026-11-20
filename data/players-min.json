@@ -1301,6 +1301,27 @@
     "projection": "Day 3 / Priority UDFA",
     "ranking_overall": 186
   },
+  "sahir-west": {
+    "name": "Sahir West",
+    "position": "EDGE",
+    "college": "UCLA",
+    "projection": "Day 3",
+    "ranking_overall": 187
+  },
+  "evan-link": {
+    "name": "Evan Link",
+    "position": "OT",
+    "college": "Michigan",
+    "projection": "Day 3",
+    "ranking_overall": 188
+  },
+  "wayne-knight": {
+    "name": "Wayne Knight",
+    "position": "RB",
+    "college": "UCLA",
+    "projection": "Day 3 / Priority UDFA",
+    "ranking_overall": 189
+  },
   "justin-hasenhuetl": {
     "name": "Justin Hasenhuetl",
     "position": "IOL",
