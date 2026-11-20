@@ -2,11 +2,11 @@
   "draftYear": 2027,
   "siteUrl": "https://www.nfldraft-scouting.de",
   "siteName": "NFL Draft Board 2027 – Forstner Scouting",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "updateCycle": "Laufende Aktualisierung während der College-Saison",
   "sources": [
     {
-      "name": "NFL Mock Draft Database – Consensus Big Board 2027 (Stand 15.11.2026)",
+      "name": "NFL Mock Draft Database – Consensus Big Board 2027 (Stand 19.11.2026)",
       "url": "https://www.nflmockdraftdatabase.com/big-boards/2027/consensus-big-board-2027"
     },
     {
@@ -14,19 +14,23 @@
       "url": "https://www.nflmockdraftdatabase.com/mock-drafts/2027/consensus-mock-draft-2027"
     },
     {
-      "name": "ESPN – Mel Kipers Big Board Top 25 (Stand 12.11.2026)",
+      "name": "ESPN – Mel Kipers Big Board Top 25 (Stand 19.11.2026)",
       "url": "https://www.espn.com/nfl/draft2027/story/_/id/50182998/2027-nfl-draft-rankings-kiper-big-board-top-prospects"
     },
     {
-      "name": "Tankathon – 2027 NFL Draft Big Board (Stand ca. 08.11.2026)",
+      "name": "Pro Football Network – 2027 NFL Draft Big Board (Stand 18.11.2026)",
+      "url": "https://www.profootballnetwork.com/nfl-draft-hq/big-board"
+    },
+    {
+      "name": "Tankathon – 2027 NFL Draft Big Board (Stand ca. 16.11.2026)",
       "url": "https://www.tankathon.com/nfl/big_board"
     },
     {
-      "name": "FOX Sports – Rob Rangs Big Board Top 50 (Stand 30.10.2026)",
-      "url": "https://www.foxnews.com/sports/2027-nfl-draft-big-board-6-qbs-rank-among-top-50-overall-prospects.print"
+      "name": "NFL Draft Countdown – Brian Lambs Big Board Top 100 (Stand 16.11.2026)",
+      "url": "https://www.draftcountdown.com/rankings/2027-nfl-draft-big-board-top-100-prospect-rankings-updated-brian-lamb/"
     },
     {
-      "name": "cfbstats.com – Saisonstatistiken und Roster 2026 (Stand 13.11.2026)",
+      "name": "cfbstats.com – Saisonstatistiken und Roster 2026 (Stand 18.11.2026)",
       "url": "https://cfbstats.com/"
     },
     {
@@ -39,9 +43,9 @@
     "url": "https://commons.wikimedia.org"
   },
   "consensus": {
-    "boards": 71,
-    "mocks": 300,
+    "boards": 72,
+    "mocks": 309,
     "source": "NFL Mock Draft Database",
-    "stand": "2026-11-16"
+    "stand": "2026-11-19"
   }
 }

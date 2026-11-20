@@ -2,8 +2,8 @@
   "meta": {
     "source": "cfbstats.com",
     "season": 2026,
-    "through": "11/14/2026",
-    "generated": "2026-11-15"
+    "through": "11/18/2026",
+    "generated": "2026-11-20"
   },
   "board": {
     "jeremiah-smith": {
@@ -7670,6 +7670,2481 @@
           "yards-from-scrimmage-total-yard": 764,
           "yards-from-scrimmage-yard-play": 14.4,
           "yards-from-scrimmage-yard-g": 76.4
+        }
+      },
+      "games": 10
+    },
+    "jamari-sharpe": {
+      "team": "indiana",
+      "roster_name": "Jamari Sharpe",
+      "number": "22",
+      "pos": "DB",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "190",
+      "hometown": "Miami, FL",
+      "url": "https://cfbstats.com/2026/player/306/1174506/index.html",
+      "stats": {
+        "all-purpose running": {
+          "g": 9,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 34,
+          "all-purpose-plays": 2,
+          "all-purpose-total-yard": 34,
+          "all-purpose-yard-play": 17,
+          "all-purpose-yard-g": 3.8
+        },
+        "interceptions": {
+          "g": 9,
+          "int-ret": 2,
+          "int-ret-yard": 34,
+          "int-ret-td": 0,
+          "int-ret-g": 0.22
+        },
+        "tackles": {
+          "g": 9,
+          "tackle-solo": 16,
+          "tackle-assist": 12,
+          "tackle-total": 28,
+          "tackle-total-g": 3.11
+        },
+        "tackles for loss": {
+          "g": 9,
+          "tfl": 2.5,
+          "tfl-yard": 14,
+          "tfl-g": 0.28
+        },
+        "misc. defense": {
+          "g": 9,
+          "pass-broken-up": 7,
+          "qb-hurry": 0,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 9
+    },
+    "pj-williams": {
+      "team": "smu",
+      "roster_name": "PJ Williams",
+      "number": "59",
+      "pos": "OL",
+      "yr": "SR",
+      "ht": "6-5",
+      "wt": "306",
+      "hometown": "Dickinson, TX",
+      "url": "https://cfbstats.com/2026/team/663/roster.html",
+      "stats": null,
+      "games": null
+    },
+    "lj-martin": {
+      "team": "byu",
+      "roster_name": "LJ Martin",
+      "number": "4",
+      "pos": "RB",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "225",
+      "hometown": "El Paso, TX",
+      "url": "https://cfbstats.com/2026/player/77/2003175/index.html",
+      "stats": {
+        "rushing": {
+          "g": 6,
+          "rush-att": 57,
+          "rush-yard": 412,
+          "rush-avg": 7.23,
+          "rush-td": 4,
+          "rush-att-g": 9.5,
+          "rush-yard-g": 68.67
+        },
+        "receiving": {
+          "g": 6,
+          "rec": 6,
+          "rec-yard": 46,
+          "rec-avg": 7.67,
+          "rec-td": 0,
+          "rec-g": 1,
+          "rec-yard-g": 7.7
+        },
+        "scoring": {
+          "g": 6,
+          "scoring-td": 4,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 24,
+          "scoring-pt-g": 4
+        },
+        "total offense": {
+          "g": 6,
+          "total-off-rush": 412,
+          "total-off-pass": 0,
+          "total-off-play": 57,
+          "total-off-yard": 412,
+          "total-off-yard-play": 7.23,
+          "total-off-yard-g": 68.7
+        },
+        "all-purpose running": {
+          "g": 6,
+          "all-purpose-rush": 412,
+          "all-purpose-recv": 46,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 63,
+          "all-purpose-total-yard": 458,
+          "all-purpose-yard-play": 7.3,
+          "all-purpose-yard-g": 76.3
+        },
+        "yards from scrimmage": {
+          "g": 6,
+          "yards-from-scrimmage-rush": 412,
+          "yards-from-scrimmage-recv": 46,
+          "yards-from-scrimmage-td": 4,
+          "yards-from-scrimmage-play": 63,
+          "yards-from-scrimmage-total-yard": 458,
+          "yards-from-scrimmage-yard-play": 7.3,
+          "yards-from-scrimmage-yard-g": 76.3
+        }
+      },
+      "games": 6
+    },
+    "anto-saka": {
+      "team": "texas a&m",
+      "roster_name": "Anto Saka",
+      "number": "14",
+      "pos": "DE",
+      "yr": "SR",
+      "ht": "6-4",
+      "wt": "255",
+      "hometown": "Baltimore, MD",
+      "url": "https://cfbstats.com/2026/player/697/1177814/index.html",
+      "stats": {
+        "tackles": {
+          "g": 9,
+          "tackle-solo": 4,
+          "tackle-assist": 9,
+          "tackle-total": 13,
+          "tackle-total-g": 1.44
+        },
+        "tackles for loss": {
+          "g": 9,
+          "tfl": 2,
+          "tfl-yard": 4,
+          "tfl-g": 0.22
+        },
+        "sacks": {
+          "g": 9,
+          "sack": 0.5,
+          "sack-yard": 2,
+          "sack-g": 0.06
+        },
+        "misc. defense": {
+          "g": 9,
+          "pass-broken-up": 0,
+          "qb-hurry": 3,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 9
+    },
+    "jalen-mayo": {
+      "team": "houston",
+      "roster_name": "Jalen Mayo",
+      "number": "2",
+      "pos": "DB",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "190",
+      "hometown": "Hampton, VA",
+      "url": "https://cfbstats.com/2026/player/288/1187361/index.html",
+      "stats": {
+        "all-purpose running": {
+          "g": 9,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 1,
+          "all-purpose-total-yard": 0,
+          "all-purpose-yard-play": 0,
+          "all-purpose-yard-g": 0
+        },
+        "interceptions": {
+          "g": 9,
+          "int-ret": 1,
+          "int-ret-yard": 0,
+          "int-ret-td": 0,
+          "int-ret-g": 0.11
+        },
+        "tackles": {
+          "g": 9,
+          "tackle-solo": 29,
+          "tackle-assist": 8,
+          "tackle-total": 37,
+          "tackle-total-g": 4.11
+        },
+        "tackles for loss": {
+          "g": 9,
+          "tfl": 3,
+          "tfl-yard": 15,
+          "tfl-g": 0.33
+        },
+        "sacks": {
+          "g": 9,
+          "sack": 1,
+          "sack-yard": 10,
+          "sack-g": 0.11
+        },
+        "misc. defense": {
+          "g": 9,
+          "pass-broken-up": 7,
+          "qb-hurry": 1,
+          "fumble-forced": 1,
+          "blocked": 0
+        }
+      },
+      "games": 9
+    },
+    "sammy-omosigho": {
+      "team": "ucla",
+      "roster_name": "Sammy Omosigho",
+      "number": "10",
+      "pos": "LB",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "239",
+      "hometown": "Crandall, TX",
+      "url": "https://cfbstats.com/2026/player/110/2001214/index.html",
+      "stats": {
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 41,
+          "tackle-assist": 31,
+          "tackle-total": 72,
+          "tackle-total-g": 7.2
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 10.5,
+          "tfl-yard": 51,
+          "tfl-g": 1.05
+        },
+        "sacks": {
+          "g": 10,
+          "sack": 5.5,
+          "sack-yard": 42,
+          "sack-g": 0.55
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 5,
+          "qb-hurry": 6,
+          "fumble-forced": 5,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "wayshawn-parker": {
+      "team": "utah",
+      "roster_name": "Wayshawn Parker",
+      "number": "1",
+      "pos": "RB",
+      "yr": "JR",
+      "ht": "5-10",
+      "wt": "205",
+      "hometown": "Richmond, CA",
+      "url": "https://cfbstats.com/2026/player/732/50291238/index.html",
+      "stats": {
+        "rushing": {
+          "g": 10,
+          "rush-att": 124,
+          "rush-yard": 764,
+          "rush-avg": 6.16,
+          "rush-td": 9,
+          "rush-att-g": 12.4,
+          "rush-yard-g": 76.4
+        },
+        "receiving": {
+          "g": 10,
+          "rec": 29,
+          "rec-yard": 269,
+          "rec-avg": 9.28,
+          "rec-td": 4,
+          "rec-g": 2.9,
+          "rec-yard-g": 26.9
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 13,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 78,
+          "scoring-pt-g": 7.8
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 764,
+          "total-off-pass": 0,
+          "total-off-play": 124,
+          "total-off-yard": 764,
+          "total-off-yard-play": 6.16,
+          "total-off-yard-g": 76.4
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 764,
+          "all-purpose-recv": 269,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 153,
+          "all-purpose-total-yard": 1033,
+          "all-purpose-yard-play": 6.8,
+          "all-purpose-yard-g": 103.3
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 764,
+          "yards-from-scrimmage-recv": 269,
+          "yards-from-scrimmage-td": 13,
+          "yards-from-scrimmage-play": 153,
+          "yards-from-scrimmage-total-yard": 1033,
+          "yards-from-scrimmage-yard-play": 6.8,
+          "yards-from-scrimmage-yard-g": 103.3
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 1,
+          "tackle-assist": 0,
+          "tackle-total": 1,
+          "tackle-total-g": 0.1
+        }
+      },
+      "games": 10
+    },
+    "faletau-satuala": {
+      "team": "byu",
+      "roster_name": "Faletau Satuala",
+      "number": "11",
+      "pos": "S",
+      "yr": "JR",
+      "ht": "6-4",
+      "wt": "215",
+      "hometown": "Bountiful, UT",
+      "url": "https://cfbstats.com/2026/player/77/50312058/index.html",
+      "stats": {
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 59,
+          "all-purpose-plays": 1,
+          "all-purpose-total-yard": 59,
+          "all-purpose-yard-play": 59,
+          "all-purpose-yard-g": 5.9
+        },
+        "interceptions": {
+          "g": 10,
+          "int-ret": 1,
+          "int-ret-yard": 59,
+          "int-ret-td": 0,
+          "int-ret-g": 0.1
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 29,
+          "tackle-assist": 25,
+          "tackle-total": 54,
+          "tackle-total-g": 5.4
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 4,
+          "tfl-yard": 7,
+          "tfl-g": 0.4
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 3,
+          "qb-hurry": 4,
+          "fumble-forced": 0,
+          "blocked": 1
+        }
+      },
+      "games": 10
+    },
+    "amare-ferrell": {
+      "team": "indiana",
+      "roster_name": "Amare Ferrell",
+      "number": "1",
+      "pos": "DB",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "205",
+      "hometown": "Lake City, FL",
+      "url": "https://cfbstats.com/2026/player/306/2001521/index.html",
+      "stats": {
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 42,
+          "all-purpose-plays": 3,
+          "all-purpose-total-yard": 42,
+          "all-purpose-yard-play": 14,
+          "all-purpose-yard-g": 4.2
+        },
+        "interceptions": {
+          "g": 10,
+          "int-ret": 3,
+          "int-ret-yard": 42,
+          "int-ret-td": 0,
+          "int-ret-g": 0.3
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 22,
+          "tackle-assist": 30,
+          "tackle-total": 52,
+          "tackle-total-g": 5.2
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 1,
+          "tfl-yard": 3,
+          "tfl-g": 0.1
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 4,
+          "qb-hurry": 0,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "francis-brewu": {
+      "team": "notre dame",
+      "roster_name": "Francis Brewu",
+      "number": "7",
+      "pos": "DL",
+      "yr": "JR",
+      "ht": "6-1",
+      "wt": "285",
+      "hometown": "Westerville, OH",
+      "url": "https://cfbstats.com/2026/player/513/50217049/index.html",
+      "stats": {
+        "tackles": {
+          "g": 8,
+          "tackle-solo": 9,
+          "tackle-assist": 7,
+          "tackle-total": 16,
+          "tackle-total-g": 2
+        },
+        "tackles for loss": {
+          "g": 8,
+          "tfl": 3,
+          "tfl-yard": 11,
+          "tfl-g": 0.38
+        },
+        "sacks": {
+          "g": 8,
+          "sack": 2,
+          "sack-yard": 10,
+          "sack-g": 0.25
+        },
+        "misc. defense": {
+          "g": 8,
+          "pass-broken-up": 0,
+          "qb-hurry": 1,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 8
+    },
+    "mike-matthews": {
+      "team": "tennessee",
+      "roster_name": "Mike Matthews",
+      "number": "4",
+      "pos": "WR",
+      "yr": "JR",
+      "ht": "6-1",
+      "wt": "200",
+      "hometown": "Lilburn, GA",
+      "url": "https://cfbstats.com/2026/player/694/50310502/index.html",
+      "stats": {
+        "receiving": {
+          "g": 10,
+          "rec": 39,
+          "rec-yard": 608,
+          "rec-avg": 15.59,
+          "rec-td": 4,
+          "rec-g": 3.9,
+          "rec-yard-g": 60.8
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 4,
+          "rush-yard": 12,
+          "rush-avg": 3,
+          "rush-td": 1,
+          "rush-att-g": 0.4,
+          "rush-yard-g": 1.2
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 5,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 30,
+          "scoring-pt-g": 3
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 12,
+          "total-off-pass": 0,
+          "total-off-play": 4,
+          "total-off-yard": 12,
+          "total-off-yard-play": 3,
+          "total-off-yard-g": 1.2
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 12,
+          "all-purpose-recv": 608,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 43,
+          "all-purpose-total-yard": 620,
+          "all-purpose-yard-play": 14.4,
+          "all-purpose-yard-g": 62
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 12,
+          "yards-from-scrimmage-recv": 608,
+          "yards-from-scrimmage-td": 5,
+          "yards-from-scrimmage-play": 43,
+          "yards-from-scrimmage-total-yard": 620,
+          "yards-from-scrimmage-yard-play": 14.4,
+          "yards-from-scrimmage-yard-g": 62
+        }
+      },
+      "games": 10
+    },
+    "jermaine-mathews-jr": {
+      "team": "ohio state",
+      "roster_name": "Jermaine Mathews Jr.",
+      "number": "7",
+      "pos": "CB",
+      "yr": "SR",
+      "ht": "5-11",
+      "wt": "195",
+      "hometown": "Cincinnati, OH",
+      "url": "https://cfbstats.com/2026/player/518/2000112/index.html",
+      "stats": {
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 22,
+          "tackle-assist": 15,
+          "tackle-total": 37,
+          "tackle-total-g": 3.7
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 3.5,
+          "tfl-yard": 22,
+          "tfl-g": 0.35
+        },
+        "sacks": {
+          "g": 10,
+          "sack": 1,
+          "sack-yard": 9,
+          "sack-g": 0.1
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 9,
+          "qb-hurry": 0,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "cade-uluave": {
+      "team": "byu",
+      "roster_name": "Cade Uluave",
+      "number": "4",
+      "pos": "LB",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "230",
+      "hometown": "South Jordan, UT",
+      "url": "https://cfbstats.com/2026/player/77/2000682/index.html",
+      "stats": {
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 17,
+          "all-purpose-plays": 1,
+          "all-purpose-total-yard": 17,
+          "all-purpose-yard-play": 17,
+          "all-purpose-yard-g": 1.7
+        },
+        "interceptions": {
+          "g": 10,
+          "int-ret": 1,
+          "int-ret-yard": 17,
+          "int-ret-td": 0,
+          "int-ret-g": 0.1
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 34,
+          "tackle-assist": 27,
+          "tackle-total": 61,
+          "tackle-total-g": 6.1
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 5.5,
+          "tfl-yard": 21,
+          "tfl-g": 0.55
+        },
+        "sacks": {
+          "g": 10,
+          "sack": 2.5,
+          "sack-yard": 13,
+          "sack-g": 0.25
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 0,
+          "qb-hurry": 7,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "drake-lindsey": {
+      "team": "minnesota",
+      "roster_name": "Drake Lindsey",
+      "number": "5",
+      "pos": "QB",
+      "yr": "JR",
+      "ht": "6-5",
+      "wt": "230",
+      "hometown": "Fayetteville, AR",
+      "url": "https://cfbstats.com/2026/player/428/50216959/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 326,
+          "pass-comp": 196,
+          "pass-pct": 60.1,
+          "pass-yard": 1982,
+          "pass-yard-att": 6.1,
+          "pass-td": 13,
+          "pass-int": 7,
+          "pass-rating": 120.06,
+          "pass-att-g": 32.6,
+          "pass-yard-g": 198.2
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 29,
+          "rush-yard": -70,
+          "rush-avg": -2.41,
+          "rush-td": 0,
+          "rush-att-g": 2.9,
+          "rush-yard-g": -7
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": -70,
+          "total-off-pass": 1982,
+          "total-off-play": 355,
+          "total-off-yard": 1912,
+          "total-off-yard-play": 5.39,
+          "total-off-yard-g": 191.2
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": -70,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 29,
+          "all-purpose-total-yard": -70,
+          "all-purpose-yard-play": -2.4,
+          "all-purpose-yard-g": -7
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": -70,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 0,
+          "yards-from-scrimmage-play": 29,
+          "yards-from-scrimmage-total-yard": -70,
+          "yards-from-scrimmage-yard-play": -2.4,
+          "yards-from-scrimmage-yard-g": -7
+        }
+      },
+      "games": 10
+    },
+    "cayden-lee": {
+      "team": "missouri",
+      "roster_name": "Cayden Lee",
+      "number": "19",
+      "pos": "WR",
+      "yr": "SR",
+      "ht": "5-11",
+      "wt": "180",
+      "hometown": "Kennesaw, GA",
+      "url": "https://cfbstats.com/2026/player/434/2002189/index.html",
+      "stats": {
+        "receiving": {
+          "g": 10,
+          "rec": 65,
+          "rec-yard": 879,
+          "rec-avg": 13.52,
+          "rec-td": 5,
+          "rec-g": 6.5,
+          "rec-yard-g": 87.9
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 5,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 30,
+          "scoring-pt-g": 3
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 879,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 65,
+          "all-purpose-total-yard": 879,
+          "all-purpose-yard-play": 13.5,
+          "all-purpose-yard-g": 87.9
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 0,
+          "yards-from-scrimmage-recv": 879,
+          "yards-from-scrimmage-td": 5,
+          "yards-from-scrimmage-play": 65,
+          "yards-from-scrimmage-total-yard": 879,
+          "yards-from-scrimmage-yard-play": 13.5,
+          "yards-from-scrimmage-yard-g": 87.9
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 2,
+          "tackle-assist": 0,
+          "tackle-total": 2,
+          "tackle-total-g": 0.2
+        }
+      },
+      "games": 10
+    },
+    "kemari-copeland": {
+      "team": "virginia tech",
+      "roster_name": "Kemari Copeland",
+      "number": "13",
+      "pos": "DL",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "305",
+      "hometown": "Virginia Beach, VA",
+      "url": "https://cfbstats.com/2026/player/742/1178194/index.html",
+      "stats": {
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 14,
+          "tackle-assist": 11,
+          "tackle-total": 25,
+          "tackle-total-g": 2.5
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 5,
+          "tfl-yard": 19,
+          "tfl-g": 0.5
+        },
+        "sacks": {
+          "g": 10,
+          "sack": 1,
+          "sack-yard": 9,
+          "sack-g": 0.1
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 0,
+          "qb-hurry": 2,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "jayden-bellamy": {
+      "team": "ucf",
+      "roster_name": "Jayden Bellamy",
+      "number": "1",
+      "pos": "DB",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "190",
+      "hometown": "Freehold, NJ",
+      "url": "https://cfbstats.com/2026/player/128/1175064/index.html",
+      "stats": {
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 2,
+          "all-purpose-plays": 1,
+          "all-purpose-total-yard": 2,
+          "all-purpose-yard-play": 2,
+          "all-purpose-yard-g": 0.2
+        },
+        "interceptions": {
+          "g": 10,
+          "int-ret": 1,
+          "int-ret-yard": 2,
+          "int-ret-td": 0,
+          "int-ret-g": 0.1
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 17,
+          "tackle-assist": 9,
+          "tackle-total": 26,
+          "tackle-total-g": 2.6
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 2,
+          "tfl-yard": 7,
+          "tfl-g": 0.2
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 3,
+          "qb-hurry": 0,
+          "fumble-forced": 1,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "xavier-scott": {
+      "team": "illinois",
+      "roster_name": "Xavier Scott",
+      "number": "1",
+      "pos": "DB",
+      "yr": "SR",
+      "ht": "5-11",
+      "wt": "195",
+      "hometown": "Riviera Beach, FL",
+      "url": "https://cfbstats.com/2026/player/301/1179883/index.html",
+      "stats": {
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 21,
+          "tackle-assist": 15,
+          "tackle-total": 36,
+          "tackle-total-g": 3.6
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 1.5,
+          "tfl-yard": 3,
+          "tfl-g": 0.15
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 4,
+          "qb-hurry": 0,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "evan-stewart": {
+      "team": "oregon",
+      "roster_name": "Evan Stewart",
+      "number": "7",
+      "pos": "WR",
+      "yr": "SR",
+      "ht": "6-0",
+      "wt": "178",
+      "hometown": "Memphis, TN",
+      "url": "https://cfbstats.com/2026/player/529/1175403/index.html",
+      "stats": {
+        "receiving": {
+          "g": 8,
+          "rec": 36,
+          "rec-yard": 508,
+          "rec-avg": 14.11,
+          "rec-td": 4,
+          "rec-g": 4.5,
+          "rec-yard-g": 63.5
+        },
+        "punt returns": {
+          "g": 8,
+          "punt-ret": 6,
+          "punt-ret-yard": 51,
+          "punt-ret-avg": 8.5,
+          "punt-ret-td": 0,
+          "punt-ret-g": 0.8,
+          "punt-ret-yard-g": 6.4
+        },
+        "rushing": {
+          "g": 8,
+          "rush-att": 1,
+          "rush-yard": -2,
+          "rush-avg": -2,
+          "rush-td": 0,
+          "rush-att-g": 0.13,
+          "rush-yard-g": -0.25
+        },
+        "passing": {
+          "g": 8,
+          "pass-att": 1,
+          "pass-comp": 0,
+          "pass-pct": 0,
+          "pass-yard": 0,
+          "pass-yard-att": 0,
+          "pass-td": 0,
+          "pass-int": 0,
+          "pass-rating": 0,
+          "pass-att-g": 0.1,
+          "pass-yard-g": 0
+        },
+        "scoring": {
+          "g": 8,
+          "scoring-td": 4,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 24,
+          "scoring-pt-g": 3
+        },
+        "total offense": {
+          "g": 8,
+          "total-off-rush": -2,
+          "total-off-pass": 0,
+          "total-off-play": 2,
+          "total-off-yard": -2,
+          "total-off-yard-play": -1,
+          "total-off-yard-g": -0.3
+        },
+        "all-purpose running": {
+          "g": 8,
+          "all-purpose-rush": -2,
+          "all-purpose-recv": 508,
+          "all-purpose-punt-ret": 51,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 43,
+          "all-purpose-total-yard": 557,
+          "all-purpose-yard-play": 13,
+          "all-purpose-yard-g": 69.6
+        },
+        "yards from scrimmage": {
+          "g": 8,
+          "yards-from-scrimmage-rush": -2,
+          "yards-from-scrimmage-recv": 508,
+          "yards-from-scrimmage-td": 4,
+          "yards-from-scrimmage-play": 37,
+          "yards-from-scrimmage-total-yard": 506,
+          "yards-from-scrimmage-yard-play": 13.7,
+          "yards-from-scrimmage-yard-g": 63.3
+        }
+      },
+      "games": 8
+    },
+    "robert-fitzgerald": {
+      "team": "northwestern",
+      "roster_name": "Robert Fitzgerald",
+      "number": "6",
+      "pos": "DB",
+      "yr": "SR",
+      "ht": "6-0",
+      "wt": "210",
+      "hometown": "Dallas, TX",
+      "url": "https://cfbstats.com/2026/player/509/1177816/index.html",
+      "stats": {
+        "scoring": {
+          "g": 7,
+          "scoring-td": 1,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 6,
+          "scoring-pt-g": 0.9
+        },
+        "all-purpose running": {
+          "g": 7,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 15,
+          "all-purpose-plays": 3,
+          "all-purpose-total-yard": 15,
+          "all-purpose-yard-play": 5,
+          "all-purpose-yard-g": 2.1
+        },
+        "interceptions": {
+          "g": 7,
+          "int-ret": 3,
+          "int-ret-yard": 15,
+          "int-ret-td": 1,
+          "int-ret-g": 0.43
+        },
+        "tackles": {
+          "g": 7,
+          "tackle-solo": 30,
+          "tackle-assist": 37,
+          "tackle-total": 67,
+          "tackle-total-g": 9.57
+        },
+        "tackles for loss": {
+          "g": 7,
+          "tfl": 1,
+          "tfl-yard": 4,
+          "tfl-g": 0.14
+        },
+        "sacks": {
+          "g": 7,
+          "sack": 0.5,
+          "sack-yard": 4,
+          "sack-g": 0.07
+        },
+        "misc. defense": {
+          "g": 7,
+          "pass-broken-up": 2,
+          "qb-hurry": 0,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 7
+    },
+    "noah-fifita": {
+      "team": "arizona",
+      "roster_name": "Noah Fifita",
+      "number": "1",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "5-10",
+      "wt": "190",
+      "hometown": "Huntington Beach, CA",
+      "url": "https://cfbstats.com/2026/player/29/1173984/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 350,
+          "pass-comp": 251,
+          "pass-pct": 71.7,
+          "pass-yard": 3150,
+          "pass-yard-att": 9,
+          "pass-td": 24,
+          "pass-int": 6,
+          "pass-rating": 166.51,
+          "pass-att-g": 35,
+          "pass-yard-g": 315
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 80,
+          "rush-yard": 119,
+          "rush-avg": 1.49,
+          "rush-td": 4,
+          "rush-att-g": 8,
+          "rush-yard-g": 11.9
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 4,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 1,
+          "scoring-safety": 0,
+          "scoring-pt": 26,
+          "scoring-pt-g": 2.6
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 119,
+          "total-off-pass": 3150,
+          "total-off-play": 430,
+          "total-off-yard": 3269,
+          "total-off-yard-play": 7.6,
+          "total-off-yard-g": 326.9
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 119,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 80,
+          "all-purpose-total-yard": 119,
+          "all-purpose-yard-play": 1.5,
+          "all-purpose-yard-g": 11.9
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 119,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 4,
+          "yards-from-scrimmage-play": 80,
+          "yards-from-scrimmage-total-yard": 119,
+          "yards-from-scrimmage-yard-play": 1.5,
+          "yards-from-scrimmage-yard-g": 11.9
+        }
+      },
+      "games": 10
+    },
+    "beau-pribula": {
+      "team": "virginia",
+      "roster_name": "Beau Pribula",
+      "number": "7",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "209",
+      "hometown": "York, PA",
+      "url": "https://cfbstats.com/2026/player/746/1175169/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 236,
+          "pass-comp": 155,
+          "pass-pct": 65.7,
+          "pass-yard": 1727,
+          "pass-yard-att": 7.3,
+          "pass-td": 15,
+          "pass-int": 3,
+          "pass-rating": 145.58,
+          "pass-att-g": 23.6,
+          "pass-yard-g": 172.7
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 103,
+          "rush-yard": 262,
+          "rush-avg": 2.54,
+          "rush-td": 2,
+          "rush-att-g": 10.3,
+          "rush-yard-g": 26.2
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 2,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 12,
+          "scoring-pt-g": 1.2
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 262,
+          "total-off-pass": 1727,
+          "total-off-play": 339,
+          "total-off-yard": 1989,
+          "total-off-yard-play": 5.87,
+          "total-off-yard-g": 198.9
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 262,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 103,
+          "all-purpose-total-yard": 262,
+          "all-purpose-yard-play": 2.5,
+          "all-purpose-yard-g": 26.2
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 262,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 2,
+          "yards-from-scrimmage-play": 103,
+          "yards-from-scrimmage-total-yard": 262,
+          "yards-from-scrimmage-yard-play": 2.5,
+          "yards-from-scrimmage-yard-g": 26.2
+        }
+      },
+      "games": 10
+    },
+    "john-mateer": {
+      "team": "oklahoma",
+      "roster_name": "John Mateer",
+      "number": "10",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "224",
+      "hometown": "Little Elm, TX",
+      "url": "https://cfbstats.com/2026/player/522/1180523/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 299,
+          "pass-comp": 193,
+          "pass-pct": 64.5,
+          "pass-yard": 2153,
+          "pass-yard-att": 7.2,
+          "pass-td": 15,
+          "pass-int": 7,
+          "pass-rating": 136.92,
+          "pass-att-g": 29.9,
+          "pass-yard-g": 215.3
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 116,
+          "rush-yard": 271,
+          "rush-avg": 2.34,
+          "rush-td": 1,
+          "rush-att-g": 11.6,
+          "rush-yard-g": 27.1
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 1,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 6,
+          "scoring-pt-g": 0.6
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 271,
+          "total-off-pass": 2153,
+          "total-off-play": 415,
+          "total-off-yard": 2424,
+          "total-off-yard-play": 5.84,
+          "total-off-yard-g": 242.4
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 271,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 116,
+          "all-purpose-total-yard": 271,
+          "all-purpose-yard-play": 2.3,
+          "all-purpose-yard-g": 27.1
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 271,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 1,
+          "yards-from-scrimmage-play": 116,
+          "yards-from-scrimmage-total-yard": 271,
+          "yards-from-scrimmage-yard-play": 2.3,
+          "yards-from-scrimmage-yard-g": 27.1
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 1,
+          "tackle-assist": 0,
+          "tackle-total": 1,
+          "tackle-total-g": 0.1
+        }
+      },
+      "games": 10
+    },
+    "rocco-becht": {
+      "team": "penn state",
+      "roster_name": "Rocco Becht",
+      "number": "3",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "208",
+      "hometown": "Wesley Chapel, FL",
+      "url": "https://cfbstats.com/2026/player/539/1174518/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 276,
+          "pass-comp": 173,
+          "pass-pct": 62.7,
+          "pass-yard": 2163,
+          "pass-yard-att": 7.8,
+          "pass-td": 18,
+          "pass-int": 5,
+          "pass-rating": 146.41,
+          "pass-att-g": 27.6,
+          "pass-yard-g": 216.3
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 76,
+          "rush-yard": 93,
+          "rush-avg": 1.22,
+          "rush-td": 3,
+          "rush-att-g": 7.6,
+          "rush-yard-g": 9.3
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 3,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 1,
+          "scoring-safety": 0,
+          "scoring-pt": 20,
+          "scoring-pt-g": 2
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 93,
+          "total-off-pass": 2163,
+          "total-off-play": 352,
+          "total-off-yard": 2256,
+          "total-off-yard-play": 6.41,
+          "total-off-yard-g": 225.6
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 93,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 76,
+          "all-purpose-total-yard": 93,
+          "all-purpose-yard-play": 1.2,
+          "all-purpose-yard-g": 9.3
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 93,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 3,
+          "yards-from-scrimmage-play": 76,
+          "yards-from-scrimmage-total-yard": 93,
+          "yards-from-scrimmage-yard-play": 1.2,
+          "yards-from-scrimmage-yard-g": 9.3
+        }
+      },
+      "games": 10
+    },
+    "gunner-stockton": {
+      "team": "georgia",
+      "roster_name": "Gunner Stockton",
+      "number": "14",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "215",
+      "hometown": "Tiger, GA",
+      "url": "https://cfbstats.com/2026/player/257/1174433/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 220,
+          "pass-comp": 157,
+          "pass-pct": 71.4,
+          "pass-yard": 2109,
+          "pass-yard-att": 9.6,
+          "pass-td": 21,
+          "pass-int": 4,
+          "pass-rating": 179.74,
+          "pass-att-g": 22,
+          "pass-yard-g": 210.9
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 56,
+          "rush-yard": 239,
+          "rush-avg": 4.27,
+          "rush-td": 3,
+          "rush-att-g": 5.6,
+          "rush-yard-g": 23.9
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 3,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 18,
+          "scoring-pt-g": 1.8
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 239,
+          "total-off-pass": 2109,
+          "total-off-play": 276,
+          "total-off-yard": 2348,
+          "total-off-yard-play": 8.51,
+          "total-off-yard-g": 234.8
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 239,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 56,
+          "all-purpose-total-yard": 239,
+          "all-purpose-yard-play": 4.3,
+          "all-purpose-yard-g": 23.9
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 239,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 3,
+          "yards-from-scrimmage-play": 56,
+          "yards-from-scrimmage-total-yard": 239,
+          "yards-from-scrimmage-yard-play": 4.3,
+          "yards-from-scrimmage-yard-g": 23.9
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 1,
+          "tackle-assist": 0,
+          "tackle-total": 1,
+          "tackle-total-g": 0.1
+        }
+      },
+      "games": 10
+    },
+    "aidan-chiles": {
+      "team": "northwestern",
+      "roster_name": "Aidan Chiles",
+      "number": "0",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-4",
+      "wt": "225",
+      "hometown": "Long Beach, CA",
+      "url": "https://cfbstats.com/2026/player/509/2000732/index.html",
+      "stats": {
+        "passing": {
+          "g": 8,
+          "pass-att": 202,
+          "pass-comp": 139,
+          "pass-pct": 68.8,
+          "pass-yard": 1898,
+          "pass-yard-att": 9.4,
+          "pass-td": 13,
+          "pass-int": 1,
+          "pass-rating": 167.99,
+          "pass-att-g": 25.3,
+          "pass-yard-g": 237.3
+        },
+        "rushing": {
+          "g": 8,
+          "rush-att": 86,
+          "rush-yard": 274,
+          "rush-avg": 3.19,
+          "rush-td": 10,
+          "rush-att-g": 10.75,
+          "rush-yard-g": 34.25
+        },
+        "scoring": {
+          "g": 8,
+          "scoring-td": 10,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 1,
+          "scoring-safety": 0,
+          "scoring-pt": 62,
+          "scoring-pt-g": 7.8
+        },
+        "total offense": {
+          "g": 8,
+          "total-off-rush": 274,
+          "total-off-pass": 1898,
+          "total-off-play": 288,
+          "total-off-yard": 2172,
+          "total-off-yard-play": 7.54,
+          "total-off-yard-g": 271.5
+        },
+        "all-purpose running": {
+          "g": 8,
+          "all-purpose-rush": 274,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 86,
+          "all-purpose-total-yard": 274,
+          "all-purpose-yard-play": 3.2,
+          "all-purpose-yard-g": 34.3
+        },
+        "yards from scrimmage": {
+          "g": 8,
+          "yards-from-scrimmage-rush": 274,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 10,
+          "yards-from-scrimmage-play": 86,
+          "yards-from-scrimmage-total-yard": 274,
+          "yards-from-scrimmage-yard-play": 3.2,
+          "yards-from-scrimmage-yard-g": 34.3
+        }
+      },
+      "games": 8
+    },
+    "coleton-price": {
+      "team": "kentucky",
+      "roster_name": "Coleton Price",
+      "number": "72",
+      "pos": "OL",
+      "yr": "SR",
+      "ht": "6-3",
+      "wt": "308",
+      "hometown": "Bowie, TX",
+      "url": "https://cfbstats.com/2026/team/334/roster.html",
+      "stats": null,
+      "games": null
+    },
+    "collin-dixon": {
+      "team": "illinois",
+      "roster_name": "Collin Dixon",
+      "number": "17",
+      "pos": "WR",
+      "yr": "SR",
+      "ht": "6-1",
+      "wt": "215",
+      "hometown": "Tallmadge, OH",
+      "url": "https://cfbstats.com/2026/player/301/2001442/index.html",
+      "stats": {
+        "receiving": {
+          "g": 10,
+          "rec": 72,
+          "rec-yard": 946,
+          "rec-avg": 13.14,
+          "rec-td": 13,
+          "rec-g": 7.2,
+          "rec-yard-g": 94.6
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 1,
+          "rush-yard": 15,
+          "rush-avg": 15,
+          "rush-td": 0,
+          "rush-att-g": 0.1,
+          "rush-yard-g": 1.5
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 13,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 78,
+          "scoring-pt-g": 7.8
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 15,
+          "total-off-pass": 0,
+          "total-off-play": 1,
+          "total-off-yard": 15,
+          "total-off-yard-play": 15,
+          "total-off-yard-g": 1.5
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 15,
+          "all-purpose-recv": 946,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 73,
+          "all-purpose-total-yard": 961,
+          "all-purpose-yard-play": 13.2,
+          "all-purpose-yard-g": 96.1
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 15,
+          "yards-from-scrimmage-recv": 946,
+          "yards-from-scrimmage-td": 13,
+          "yards-from-scrimmage-play": 73,
+          "yards-from-scrimmage-total-yard": 961,
+          "yards-from-scrimmage-yard-play": 13.2,
+          "yards-from-scrimmage-yard-g": 96.1
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 1,
+          "tackle-assist": 0,
+          "tackle-total": 1,
+          "tackle-total-g": 0.1
+        }
+      },
+      "games": 10
+    },
+    "makhi-hughes": {
+      "team": "houston",
+      "roster_name": "Makhi Hughes",
+      "number": "21",
+      "pos": "RB",
+      "yr": "SR",
+      "ht": "6-0",
+      "wt": "210",
+      "hometown": "Birmingham, AL",
+      "url": "https://cfbstats.com/2026/player/288/1180457/index.html",
+      "stats": {
+        "rushing": {
+          "g": 10,
+          "rush-att": 144,
+          "rush-yard": 712,
+          "rush-avg": 4.94,
+          "rush-td": 5,
+          "rush-att-g": 14.4,
+          "rush-yard-g": 71.2
+        },
+        "receiving": {
+          "g": 10,
+          "rec": 13,
+          "rec-yard": 119,
+          "rec-avg": 9.15,
+          "rec-td": 0,
+          "rec-g": 1.3,
+          "rec-yard-g": 11.9
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 5,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 30,
+          "scoring-pt-g": 3
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 712,
+          "total-off-pass": 0,
+          "total-off-play": 144,
+          "total-off-yard": 712,
+          "total-off-yard-play": 4.94,
+          "total-off-yard-g": 71.2
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 712,
+          "all-purpose-recv": 119,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 157,
+          "all-purpose-total-yard": 831,
+          "all-purpose-yard-play": 5.3,
+          "all-purpose-yard-g": 83.1
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 712,
+          "yards-from-scrimmage-recv": 119,
+          "yards-from-scrimmage-td": 5,
+          "yards-from-scrimmage-play": 157,
+          "yards-from-scrimmage-total-yard": 831,
+          "yards-from-scrimmage-yard-play": 5.3,
+          "yards-from-scrimmage-yard-g": 83.1
+        }
+      },
+      "games": 10
+    },
+    "shadre-hurst": {
+      "team": "houston",
+      "roster_name": "Shadre Hurst",
+      "number": "56",
+      "pos": "OL",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "304",
+      "hometown": "Cartersville, GA",
+      "url": "https://cfbstats.com/2026/team/288/roster.html",
+      "stats": null,
+      "games": null
+    },
+    "ej-lightsey": {
+      "team": "georgia tech",
+      "roster_name": "E.J. Lightsey",
+      "number": "2",
+      "pos": "LB",
+      "yr": "SR",
+      "ht": "6-2",
+      "wt": "230",
+      "hometown": "Fitzgerald, GA",
+      "url": "https://cfbstats.com/2026/player/255/1177454/index.html",
+      "stats": {
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 23,
+          "tackle-assist": 19,
+          "tackle-total": 42,
+          "tackle-total-g": 4.2
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 1.5,
+          "tfl-yard": 3,
+          "tfl-g": 0.15
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 1,
+          "qb-hurry": 1,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "byrum-brown": {
+      "team": "auburn",
+      "roster_name": "Byrum Brown",
+      "number": "17",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-3",
+      "wt": "235",
+      "hometown": "Raleigh, NC",
+      "url": "https://cfbstats.com/2026/player/37/1175254/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 307,
+          "pass-comp": 201,
+          "pass-pct": 65.5,
+          "pass-yard": 1972,
+          "pass-yard-att": 6.4,
+          "pass-td": 14,
+          "pass-int": 8,
+          "pass-rating": 129.26,
+          "pass-att-g": 30.7,
+          "pass-yard-g": 197.2
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 177,
+          "rush-yard": 644,
+          "rush-avg": 3.64,
+          "rush-td": 9,
+          "rush-att-g": 17.7,
+          "rush-yard-g": 64.4
+        },
+        "receiving": {
+          "g": 10,
+          "rec": 1,
+          "rec-yard": 5,
+          "rec-avg": 5,
+          "rec-td": 1,
+          "rec-g": 0.1,
+          "rec-yard-g": 0.5
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 10,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 1,
+          "scoring-safety": 0,
+          "scoring-pt": 62,
+          "scoring-pt-g": 6.2
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 644,
+          "total-off-pass": 1972,
+          "total-off-play": 484,
+          "total-off-yard": 2616,
+          "total-off-yard-play": 5.4,
+          "total-off-yard-g": 261.6
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 644,
+          "all-purpose-recv": 5,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 178,
+          "all-purpose-total-yard": 649,
+          "all-purpose-yard-play": 3.6,
+          "all-purpose-yard-g": 64.9
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 644,
+          "yards-from-scrimmage-recv": 5,
+          "yards-from-scrimmage-td": 10,
+          "yards-from-scrimmage-play": 178,
+          "yards-from-scrimmage-total-yard": 649,
+          "yards-from-scrimmage-yard-play": 3.6,
+          "yards-from-scrimmage-yard-g": 64.9
+        }
+      },
+      "games": 10
+    },
+    "devon-dampier": {
+      "team": "utah",
+      "roster_name": "Devon Dampier",
+      "number": "4",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "5-11",
+      "wt": "210",
+      "hometown": "Phoenix, AZ",
+      "url": "https://cfbstats.com/2026/player/732/2001675/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 278,
+          "pass-comp": 185,
+          "pass-pct": 66.5,
+          "pass-yard": 2257,
+          "pass-yard-att": 8.1,
+          "pass-td": 22,
+          "pass-int": 8,
+          "pass-rating": 155.11,
+          "pass-att-g": 27.8,
+          "pass-yard-g": 225.7
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 117,
+          "rush-yard": 582,
+          "rush-avg": 4.97,
+          "rush-td": 9,
+          "rush-att-g": 11.7,
+          "rush-yard-g": 58.2
+        },
+        "receiving": {
+          "g": 10,
+          "rec": 1,
+          "rec-yard": 29,
+          "rec-avg": 29,
+          "rec-td": 0,
+          "rec-g": 0.1,
+          "rec-yard-g": 2.9
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 9,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 54,
+          "scoring-pt-g": 5.4
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 582,
+          "total-off-pass": 2257,
+          "total-off-play": 395,
+          "total-off-yard": 2839,
+          "total-off-yard-play": 7.19,
+          "total-off-yard-g": 283.9
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 582,
+          "all-purpose-recv": 29,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 118,
+          "all-purpose-total-yard": 611,
+          "all-purpose-yard-play": 5.2,
+          "all-purpose-yard-g": 61.1
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 582,
+          "yards-from-scrimmage-recv": 29,
+          "yards-from-scrimmage-td": 9,
+          "yards-from-scrimmage-play": 118,
+          "yards-from-scrimmage-total-yard": 611,
+          "yards-from-scrimmage-yard-play": 5.2,
+          "yards-from-scrimmage-yard-g": 61.1
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 2,
+          "tackle-assist": 0,
+          "tackle-total": 2,
+          "tackle-total-g": 0.2
+        }
+      },
+      "games": 10
+    },
+    "braden-pegan": {
+      "team": "utah",
+      "roster_name": "Braden Pegan",
+      "number": "7",
+      "pos": "WR",
+      "yr": "SR",
+      "ht": "6-3",
+      "wt": "210",
+      "hometown": "San Juan Capistrano, CA",
+      "url": "https://cfbstats.com/2026/player/732/1179712/index.html",
+      "stats": {
+        "receiving": {
+          "g": 10,
+          "rec": 47,
+          "rec-yard": 643,
+          "rec-avg": 13.68,
+          "rec-td": 8,
+          "rec-g": 4.7,
+          "rec-yard-g": 64.3
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 2,
+          "rush-yard": 12,
+          "rush-avg": 6,
+          "rush-td": 1,
+          "rush-att-g": 0.2,
+          "rush-yard-g": 1.2
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 9,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 54,
+          "scoring-pt-g": 5.4
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 12,
+          "total-off-pass": 0,
+          "total-off-play": 2,
+          "total-off-yard": 12,
+          "total-off-yard-play": 6,
+          "total-off-yard-g": 1.2
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 12,
+          "all-purpose-recv": 643,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 35,
+          "all-purpose-plays": 51,
+          "all-purpose-total-yard": 690,
+          "all-purpose-yard-play": 13.5,
+          "all-purpose-yard-g": 69
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 12,
+          "yards-from-scrimmage-recv": 643,
+          "yards-from-scrimmage-td": 9,
+          "yards-from-scrimmage-play": 49,
+          "yards-from-scrimmage-total-yard": 655,
+          "yards-from-scrimmage-yard-play": 13.4,
+          "yards-from-scrimmage-yard-g": 65.5
+        },
+        "interceptions": {
+          "g": 10,
+          "int-ret": 2,
+          "int-ret-yard": 35,
+          "int-ret-td": 0,
+          "int-ret-g": 0.2
+        }
+      },
+      "games": 10
+    },
+    "jonah-burton": {
+      "team": "duke",
+      "roster_name": "Jonah Burton",
+      "number": "6",
+      "pos": "WR",
+      "yr": "SR",
+      "ht": "5-11",
+      "wt": "210",
+      "hometown": "Simi Valley, CA",
+      "url": "https://cfbstats.com/2026/player/193/1127903/index.html",
+      "stats": {
+        "receiving": {
+          "g": 10,
+          "rec": 31,
+          "rec-yard": 406,
+          "rec-avg": 13.1,
+          "rec-td": 1,
+          "rec-g": 3.1,
+          "rec-yard-g": 40.6
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 1,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 6,
+          "scoring-pt-g": 0.6
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 406,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 31,
+          "all-purpose-total-yard": 406,
+          "all-purpose-yard-play": 13.1,
+          "all-purpose-yard-g": 40.6
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 0,
+          "yards-from-scrimmage-recv": 406,
+          "yards-from-scrimmage-td": 1,
+          "yards-from-scrimmage-play": 31,
+          "yards-from-scrimmage-total-yard": 406,
+          "yards-from-scrimmage-yard-play": 13.1,
+          "yards-from-scrimmage-yard-g": 40.6
+        }
+      },
+      "games": 10
+    },
+    "chris-johnson-jr": {
+      "team": "clemson",
+      "roster_name": "Chris Johnson Jr.",
+      "number": "16",
+      "pos": "RB",
+      "yr": "SR",
+      "ht": "6-0",
+      "wt": "190",
+      "hometown": "Fort Lauderdale, FL",
+      "url": "https://cfbstats.com/2026/player/147/2000586/index.html",
+      "stats": {
+        "rushing": {
+          "g": 10,
+          "rush-att": 39,
+          "rush-yard": 138,
+          "rush-avg": 3.54,
+          "rush-td": 2,
+          "rush-att-g": 3.9,
+          "rush-yard-g": 13.8
+        },
+        "receiving": {
+          "g": 10,
+          "rec": 4,
+          "rec-yard": 16,
+          "rec-avg": 4,
+          "rec-td": 0,
+          "rec-g": 0.4,
+          "rec-yard-g": 1.6
+        },
+        "kickoff returns": {
+          "g": 10,
+          "kick-ret": 16,
+          "kick-ret-yard": 386,
+          "kick-ret-avg": 24.13,
+          "kick-ret-td": 0,
+          "kick-ret-g": 1.6,
+          "kick-ret-yard-g": 38.6
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 2,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 12,
+          "scoring-pt-g": 1.2
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 138,
+          "total-off-pass": 0,
+          "total-off-play": 39,
+          "total-off-yard": 138,
+          "total-off-yard-play": 3.54,
+          "total-off-yard-g": 13.8
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 138,
+          "all-purpose-recv": 16,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 386,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 59,
+          "all-purpose-total-yard": 540,
+          "all-purpose-yard-play": 9.2,
+          "all-purpose-yard-g": 54
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 138,
+          "yards-from-scrimmage-recv": 16,
+          "yards-from-scrimmage-td": 2,
+          "yards-from-scrimmage-play": 43,
+          "yards-from-scrimmage-total-yard": 154,
+          "yards-from-scrimmage-yard-play": 3.6,
+          "yards-from-scrimmage-yard-g": 15.4
+        }
+      },
+      "games": 10
+    },
+    "michael-bennett-iii": {
+      "team": "oregon",
+      "roster_name": "Michael Bennett III",
+      "number": "75",
+      "pos": "OL",
+      "yr": "SR",
+      "ht": "6-5",
+      "wt": "320",
+      "hometown": "Atlanta, GA",
+      "url": "https://cfbstats.com/2026/team/529/roster.html",
+      "stats": null,
+      "games": null
+    },
+    "jaden-craig": {
+      "team": "tcu",
+      "roster_name": "Jaden Craig",
+      "number": "1",
+      "pos": "QB",
+      "yr": "SR",
+      "ht": "6-3",
+      "wt": "225",
+      "hometown": "Montclair, NJ",
+      "url": "https://cfbstats.com/2026/player/698/1176123/index.html",
+      "stats": {
+        "passing": {
+          "g": 10,
+          "pass-att": 344,
+          "pass-comp": 223,
+          "pass-pct": 64.8,
+          "pass-yard": 2664,
+          "pass-yard-att": 7.7,
+          "pass-td": 13,
+          "pass-int": 7,
+          "pass-rating": 138.28,
+          "pass-att-g": 34.4,
+          "pass-yard-g": 266.4
+        },
+        "rushing": {
+          "g": 10,
+          "rush-att": 83,
+          "rush-yard": 117,
+          "rush-avg": 1.41,
+          "rush-td": 4,
+          "rush-att-g": 8.3,
+          "rush-yard-g": 11.7
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 4,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 1,
+          "scoring-safety": 0,
+          "scoring-pt": 26,
+          "scoring-pt-g": 2.6
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 117,
+          "total-off-pass": 2664,
+          "total-off-play": 427,
+          "total-off-yard": 2781,
+          "total-off-yard-play": 6.51,
+          "total-off-yard-g": 278.1
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 117,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 83,
+          "all-purpose-total-yard": 117,
+          "all-purpose-yard-play": 1.4,
+          "all-purpose-yard-g": 11.7
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 117,
+          "yards-from-scrimmage-recv": 0,
+          "yards-from-scrimmage-td": 4,
+          "yards-from-scrimmage-play": 83,
+          "yards-from-scrimmage-total-yard": 117,
+          "yards-from-scrimmage-yard-play": 1.4,
+          "yards-from-scrimmage-yard-g": 11.7
+        }
+      },
+      "games": 10
+    },
+    "prophet-brown": {
+      "team": "usc",
+      "roster_name": "Prophet Brown",
+      "number": "16",
+      "pos": "S",
+      "yr": "SR",
+      "ht": "5-11",
+      "wt": "190",
+      "hometown": "Sacramento, CA",
+      "url": "https://cfbstats.com/2026/player/657/1126474/index.html",
+      "stats": {
+        "scoring": {
+          "g": 10,
+          "scoring-td": 1,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 6,
+          "scoring-pt-g": 0.6
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 0,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 0,
+          "all-purpose-int-ret": 99,
+          "all-purpose-plays": 2,
+          "all-purpose-total-yard": 99,
+          "all-purpose-yard-play": 49.5,
+          "all-purpose-yard-g": 9.9
+        },
+        "interceptions": {
+          "g": 10,
+          "int-ret": 2,
+          "int-ret-yard": 99,
+          "int-ret-td": 1,
+          "int-ret-g": 0.2
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 15,
+          "tackle-assist": 8,
+          "tackle-total": 23,
+          "tackle-total-g": 2.3
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 1,
+          "tfl-yard": 3,
+          "tfl-g": 0.1
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 4,
+          "qb-hurry": 0,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "sahir-west": {
+      "team": "ucla",
+      "roster_name": "Sahir West",
+      "number": "15",
+      "pos": "DL",
+      "yr": "JR",
+      "ht": "6-3",
+      "wt": "279",
+      "hometown": "Baltimore, MD",
+      "url": "https://cfbstats.com/2026/player/110/50215467/index.html",
+      "stats": {
+        "fumble returns": {
+          "g": 10,
+          "fum-ret": 1,
+          "fum-ret-yard": 5,
+          "fum-ret-td": 0
+        },
+        "tackles": {
+          "g": 10,
+          "tackle-solo": 23,
+          "tackle-assist": 17,
+          "tackle-total": 40,
+          "tackle-total-g": 4
+        },
+        "tackles for loss": {
+          "g": 10,
+          "tfl": 8.5,
+          "tfl-yard": 42,
+          "tfl-g": 0.85
+        },
+        "sacks": {
+          "g": 10,
+          "sack": 4.5,
+          "sack-yard": 33,
+          "sack-g": 0.45
+        },
+        "misc. defense": {
+          "g": 10,
+          "pass-broken-up": 0,
+          "qb-hurry": 7,
+          "fumble-forced": 0,
+          "blocked": 0
+        }
+      },
+      "games": 10
+    },
+    "evan-link": {
+      "team": "michigan",
+      "roster_name": "Evan Link",
+      "number": "71",
+      "pos": "OL",
+      "yr": "SR",
+      "ht": "6-6",
+      "wt": "313",
+      "hometown": "Burke, VA",
+      "url": "https://cfbstats.com/2026/team/418/roster.html",
+      "stats": null,
+      "games": null
+    },
+    "wayne-knight": {
+      "team": "ucla",
+      "roster_name": "Wayne Knight",
+      "number": "3",
+      "pos": "RB",
+      "yr": "SR",
+      "ht": "5-7",
+      "wt": "193",
+      "hometown": "Smyrna, DE",
+      "url": "https://cfbstats.com/2026/player/110/1174594/index.html",
+      "stats": {
+        "rushing": {
+          "g": 10,
+          "rush-att": 146,
+          "rush-yard": 845,
+          "rush-avg": 5.79,
+          "rush-td": 13,
+          "rush-att-g": 14.6,
+          "rush-yard-g": 84.5
+        },
+        "receiving": {
+          "g": 10,
+          "rec": 18,
+          "rec-yard": 157,
+          "rec-avg": 8.72,
+          "rec-td": 2,
+          "rec-g": 1.8,
+          "rec-yard-g": 15.7
+        },
+        "kickoff returns": {
+          "g": 10,
+          "kick-ret": 10,
+          "kick-ret-yard": 204,
+          "kick-ret-avg": 20.4,
+          "kick-ret-td": 0,
+          "kick-ret-g": 1,
+          "kick-ret-yard-g": 20.4
+        },
+        "scoring": {
+          "g": 10,
+          "scoring-td": 15,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 90,
+          "scoring-pt-g": 9
+        },
+        "total offense": {
+          "g": 10,
+          "total-off-rush": 845,
+          "total-off-pass": 0,
+          "total-off-play": 146,
+          "total-off-yard": 845,
+          "total-off-yard-play": 5.79,
+          "total-off-yard-g": 84.5
+        },
+        "all-purpose running": {
+          "g": 10,
+          "all-purpose-rush": 845,
+          "all-purpose-recv": 157,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 204,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 174,
+          "all-purpose-total-yard": 1206,
+          "all-purpose-yard-play": 6.9,
+          "all-purpose-yard-g": 120.6
+        },
+        "yards from scrimmage": {
+          "g": 10,
+          "yards-from-scrimmage-rush": 845,
+          "yards-from-scrimmage-recv": 157,
+          "yards-from-scrimmage-td": 15,
+          "yards-from-scrimmage-play": 164,
+          "yards-from-scrimmage-total-yard": 1002,
+          "yards-from-scrimmage-yard-play": 6.1,
+          "yards-from-scrimmage-yard-g": 100.2
         }
       },
       "games": 10
