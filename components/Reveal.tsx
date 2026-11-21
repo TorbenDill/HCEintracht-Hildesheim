@@ -22,7 +22,9 @@ export default function Reveal({
       className={className}
       initial={reduce ? false : { opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
+      // "some" statt 0.2: lange Blöcke (z. B. Mock-Draft-Liste, ~4.600 px) würden sonst
+      // auf normalen Bildschirmen nie zu 20 % sichtbar und blieben unsichtbar.
+      viewport={{ once: true, amount: "some" }}
       transition={{ duration: 0.7, delay, ease: [0.16, 1, 0.3, 1] }}
     >
       {children}
