@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-15",
+ "stand": "2026-11-21",
  "notes": {
   "aj-holmes-jr": [
    {
@@ -23,7 +23,29 @@
     "begruendung": "Konkreter Kaderbezug, Fanseite."
    }
   ],
+  "amare-ferrell": [
+   {
+    "writer": "no-parker",
+    "team": "NO",
+    "url": "https://www.canalstreetchronicles.com/new-orleans-saints-draft/117946/college-players-to-watch-week-10",
+    "titel": "College Players to Watch: Week 10",
+    "datum": "2026-11-13",
+    "text": "Parker sieht bei den Saints Bedarf auf Safety und nennt Ferrell als Kandidaten: dreijähriger Starter bei Indiana, ballsicher mit elf Interceptions in seiner Karriere und solider Tackler. Hinter einer besseren Pass-Rush-Front wäre er aus seiner Sicht die ideale Ergänzung.",
+    "wert": "mittel",
+    "begruendung": "Teamfit mit Bedarfsbegründung, Fanseite."
+   }
+  ],
   "amauri-washington": [
+   {
+    "writer": "kc-chabot",
+    "team": "KC",
+    "url": "https://arrowheadaddict.com/chiefs-2027-mock-draft-lands-patrick-mahomes-new-protector-weapon",
+    "titel": "Chiefs 2027 mock draft lands Patrick Mahomes a new protector and weapon",
+    "datum": "2026-11-20",
+    "text": "Chabot lässt Washington im Chiefs-Mock erst in Runde 3 fallen: Vor der Saison war er sein bester Defensive Tackle mit Top-10-Note, eine sehr schwache Saison bei Oregon habe den Draftwert aber stark gedrückt. Athletisch sieht er ihn weiter als Ausnahmespieler, Kansas City würde auf die Aufnahmen der Vorsaison setzen.",
+    "wert": "mittel",
+    "begruendung": "Begründete Einordnung mit Rundenprojektion, Fanseite."
+   },
    {
     "writer": "dal-sanchez",
     "team": "DAL",
@@ -81,6 +103,18 @@
     "begruendung": "Spielbeobachtung mit Einordnung."
    }
   ],
+  "ashton-hampton": [
+   {
+    "writer": "car-belton",
+    "team": "CAR",
+    "url": "https://www.catscratchreader.com/carolina-panthers-draft/62357/carolina-panthers-2027-nfl-draft-prospect-profile-ashton-hampton",
+    "titel": "Carolina Panthers 2027 NFL Draft Prospect Profile: Ashton Hampton",
+    "datum": "2026-11-16",
+    "text": "Belton sieht Hampton als modernen Cornerback mit Größe, Länge und Tempo, der in der Coverage zugelegt hat: Er bleibt bei tiefen Routen dran, nutzt die Länge am Catchpoint und liest Zonen disziplinierter. Schwäche sind fünf verpasste Tackles, viele davon gegen Miami. Für Carolina passe er als Boundary-Corner und könne je nach Free Agency von Mike Jackson sofort starten.",
+    "wert": "hoch",
+    "begruendung": "Vollständiges eigenes Profil mit Stärken, Schwächen und Kaderbezug (Fanseite)."
+   }
+  ],
   "austin-siereveld": [
    {
     "writer": "phi-kempski",
@@ -91,6 +125,18 @@
     "text": "Siereveld hat bei Ohio State vier verschiedene Positionen der Offensive Line gespielt. Laut Kempski passt genau diese Vielseitigkeit ins Profil, das die Eagles bei Linemen suchen.",
     "wert": "mittel",
     "begruendung": "Konkreter Bezug zur Draftphilosophie des Teams."
+   }
+  ],
+  "benjamin-brahmer": [
+   {
+    "writer": "kc-chabot",
+    "team": "KC",
+    "url": "https://arrowheadaddict.com/chiefs-2027-mock-draft-lands-patrick-mahomes-new-protector-weapon",
+    "titel": "Chiefs 2027 mock draft lands Patrick Mahomes a new protector and weapon",
+    "datum": "2026-11-20",
+    "text": "Brahmer steht bei Chabot konstant mit einer Note für Runde 4 oder 5 auf dem Board, im Mock nehmen ihn die Chiefs in Runde 4. Begründung ist der Tight-End-Bedarf nach einem wahrscheinlichen Karriereende von Travis Kelce; er habe alle Anlagen, brauche aber Anlaufzeit in der NFL.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Kaderbezug, Fanseite."
    }
   ],
   "cayden-green": [
@@ -118,6 +164,16 @@
    }
   ],
   "chris-cole": [
+   {
+    "writer": "det-rogers",
+    "team": "DET",
+    "url": "https://www.detroitfootball.net/p/detroit-lions-2027-draft-watch-3-101",
+    "titel": "Detroit Lions 2027 Draft Watch: 3 prospects to watch Week 11 of the college football season",
+    "datum": "2026-11-14",
+    "text": "Beim 42:7 gegen Ole Miss führte Cole Georgia laut Rogers mit neun Tackles und 1,5 Sacks an. In 18 Coverage-Snaps wurde er einmal angespielt und ließ keinen Catch zu.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung mit Coverage-Daten."
+   },
    {
     "writer": "no-parker",
     "team": "NO",
@@ -211,12 +267,44 @@
    {
     "writer": "mia-poupart",
     "team": "MIA",
+    "url": "https://www.si.com/nfl/dolphins/onsi/examining-the-potential-looming-dolphins-draft-dilemma-deal-or-drew-01m7tsvcf2mz",
+    "titel": "Examining the Potential Looming Dolphins Draft Dilemma: Deal or Drew",
+    "datum": "2026-11-19",
+    "text": "Poupart gibt die Einschätzung von ESPN-Reporter Adam Schefter wieder, der Mestemaker als sicheren ersten Pick sieht und um diesen Pick eine Art Bieterwettbewerb erwartet. Für Miami beschreibt er die Optionen Quarterback, anderer Topspieler oder Trade nach unten.",
+    "wert": "gering",
+    "begruendung": "Wiedergabe einer fremden Einschätzung."
+   },
+   {
+    "writer": "cle-mueller",
+    "team": "CLE",
+    "url": "https://www.dawgsbynature.com/cleveland-browns-nfl-draft/137931/2027-nfl-draft-top-qb-prospects-browns-mestemaker-carr-simmons-mensah-moore-sellers",
+    "titel": "2027 NFL draft: Top talent evaluator has 8 premium-level QB prospects",
+    "datum": "2026-11-13",
+    "text": "Mueller gibt das Ranking von Dane Brugler wieder, in dem Mestemaker als Gesamt-Zweiter der bestplatzierte von acht Quarterbacks in den Top 50 ist.",
+    "wert": "gering",
+    "begruendung": "Wiedergabe eines fremden Rankings."
+   },
+   {
+    "writer": "mia-poupart",
+    "team": "MIA",
     "url": "https://www.si.com/nfl/dolphins/onsi/dolphins-saturday-mailbag-grant-willis-stopping-the-detroit-offense-and-more-01m6vp6114dp",
     "titel": "Dolphins Saturday Mailbag",
     "datum": "2026-11-07",
     "text": "Müssten die Dolphins früh einen Quarterback nehmen, wäre Mestemaker für Poupart derzeit die Wahl, weil er unter den QBs das höchste Potenzial sieht.",
     "wert": "mittel",
     "begruendung": "Begründete Präferenz mit Teambezug."
+   }
+  ],
+  "dylan-raiola": [
+   {
+    "writer": "sea-nelson",
+    "team": "SEA",
+    "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-11",
+    "titel": "Six Players the Seahawks Should Note from College Football Week 11",
+    "datum": "2026-11-19",
+    "text": "Nelson erwähnt Raiolas Spiel mit 341 Yards und vier Touchdowns für Oregon, rechnet ihn aber nicht zur Draftklasse 2027, sondern sieht ihn als Top-Prospect der Folgesaison.",
+    "wert": "gering",
+    "begruendung": "Kurze Erwähnung, Autor sieht ihn nicht in diesem Jahrgang."
    }
   ],
   "dylan-stewart": [
@@ -232,6 +320,16 @@
    }
   ],
   "elijah-paige": [
+   {
+    "writer": "lar-grisak",
+    "team": "LAR",
+    "url": "https://www.si.com/nfl/rams/onsi/rams-2027-mock-draft-potential-targets",
+    "titel": "Rams 2027 Mock Draft: A Way-Too-Early Look at Potential Draft Targets",
+    "datum": "2026-11-18",
+    "text": "Grisak gibt den Rams Paige mit Pick 49 in Runde 2. Er begründet das mit der Tackle-Position: Alaric Jackson ist 2027 teuer und könnte mit großer Ersparnis entlassen werden, Keagen Trost sieht er eher als Swing-Tackle. Paige bringe Erfahrung und Größe mit und könne sich zum Starter entwickeln.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit konkretem Kader- und Vertragsbezug."
+   },
    {
     "writer": "atl-mixson",
     "team": "ATL",
@@ -269,6 +367,16 @@
   ],
   "isaac-brown": [
    {
+    "writer": "nyg-dabate",
+    "team": "NYG",
+    "url": "https://www.si.com/nfl/giants/onsi/giants-2027-nfl-draft-watch-four-college-prospects-to-track-01m7bjb5ethf",
+    "titel": "Giants 2027 NFL Draft Watch: Four College Prospects to Track This Weekend",
+    "datum": "2026-11-14",
+    "text": "Mit 1,75 Metern und rund 86 Kilogramm hält D'Abate Brown für zu leicht als Lead-Back in der NFL, sieht ihn für die Giants aber als Change-of-Pace-Option und Passempfänger aus dem Backfield.",
+    "wert": "mittel",
+    "begruendung": "Einordnung mit Rollen- und Teamfit."
+   },
+   {
     "writer": "sea-nelson",
     "team": "SEA",
     "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-9",
@@ -277,6 +385,18 @@
     "text": "Nach einem explosiven Spiel mit vier Touchdowns sieht Nelson Brown nicht als Spieler, um den man eine Offense baut, aber als wertvollen Teil einer Rotation.",
     "wert": "mittel",
     "begruendung": "Differenzierte Rolleneinschätzung."
+   }
+  ],
+  "jayden-maiava": [
+   {
+    "writer": "sea-nelson",
+    "team": "SEA",
+    "url": "https://www.si.com/nfl/seahawks/onsi/seahawks-mailbag-4-questions-leading-into-the-raiders-game",
+    "titel": "Seahawks Mailbag: 4 Questions Leading Into The Raiders Game",
+    "datum": "2026-11-14",
+    "text": "Im Mailbag tippt Nelson bei der Quarterback-Frage auf einen Rookie aus dem Draft mit Drew Lock als Übergangslösung und nennt dabei Maiava, weil die Klasse viele interessante Quarterbacks biete.",
+    "wert": "gering",
+    "begruendung": "Tipp ohne Spieleranalyse."
    }
   ],
   "jaylen-mcclain": [
@@ -295,6 +415,16 @@
    {
     "writer": "sea-nelson",
     "team": "SEA",
+    "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-11",
+    "titel": "Six Players the Seahawks Should Note from College Football Week 11",
+    "datum": "2026-11-19",
+    "text": "Nelson macht McDonald zu seinem Spieler der Woche: drei Interceptions, elf Tackles und ein weiterer abgewehrter Pass im knappen Sieg von Texas gegen LSU. Er sieht ihn als guten Safety für Tag 2 des Drafts.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung mit Rundeneinordnung."
+   },
+   {
+    "writer": "sea-nelson",
+    "team": "SEA",
     "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-9",
     "titel": "Six Players the Seahawks Should Note from College Football Week 9",
     "datum": "2026-11-06",
@@ -304,6 +434,16 @@
    }
   ],
   "jeremiah-smith": [
+   {
+    "writer": "mia-poupart",
+    "team": "MIA",
+    "url": "https://www.si.com/nfl/dolphins/onsi/dolphins-sunday-mailbag-grant-uche-jonah-and-more-01m7fwejaqm8",
+    "titel": "Dolphins Sunday Mailbag: Grant, Uche, Jonah, and More",
+    "datum": "2026-11-15",
+    "text": "Im Mailbag erklärt Poupart, warum viele Fans Smith in Miami sehen: Neben Caleb Douglas und Malik Washington sei im Receiver-Korps für 2027 vieles nur Potenzial.",
+    "wert": "gering",
+    "begruendung": "Fanwunsch, keine eigene Spielerbewertung."
+   },
    {
     "writer": "pit-saunders",
     "team": "PIT",
@@ -323,6 +463,18 @@
     "text": "Poupart würde Smith trotz seiner Klasse nicht an Position eins ziehen. Sein Argument ist der Positionswert: Pass Rusher, Tackles und Cornerbacks prägen ein Spiel öfter als ein Receiver.",
     "wert": "mittel",
     "begruendung": "Klare, nachvollziehbare Gegenposition zum Consensus."
+   }
+  ],
+  "justice-haynes": [
+   {
+    "writer": "sea-nelson",
+    "team": "SEA",
+    "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-11",
+    "titel": "Six Players the Seahawks Should Note from College Football Week 11",
+    "datum": "2026-11-19",
+    "text": "Nach einer ruhigen Saison bei Georgia Tech trug Haynes laut Nelson den Überraschungssieg gegen Clemson mit 116 Rushing-Yards, einem Touchdown und einem Catch. Nelson glaubt weiterhin, dass sein Laufstil zur Offense der Seahawks passt.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung mit Teamfit."
    }
   ],
   "kelley-jones": [
@@ -349,7 +501,39 @@
     "begruendung": "Positionsranking mit Spielbeleg."
    }
   ],
+  "lance-heard": [
+   {
+    "writer": "kc-chabot",
+    "team": "KC",
+    "url": "https://arrowheadaddict.com/chiefs-2027-mock-draft-lands-patrick-mahomes-new-protector-weapon",
+    "titel": "Chiefs 2027 mock draft lands Patrick Mahomes a new protector and weapon",
+    "datum": "2026-11-20",
+    "text": "Chabot gibt den Chiefs Heard in seinem Mock in Runde 1 und nennt ihn seinen besten Tackle-Prospect, obwohl viele Modelle ihn später sehen. Er lobt das harte Run-Blocking, die Beweglichkeit in der Passverteidigung sowie Statur und Armlänge und sieht ihn als langfristige Lösung auf Left Tackle.",
+    "wert": "mittel",
+    "begruendung": "Eigener Mock-Pick mit Begründung und Kaderbezug, Fanseite."
+   },
+   {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98390/falcons-draft-2027-eight-prospects-to-watch-for-week-11-of-college-football",
+    "titel": "Falcons Draft 2027: Eight Prospects to Watch for Week 11 of College Football",
+    "datum": "2026-11-14",
+    "text": "Mixson führt Heard in seiner Falcons-Beobachtungsliste und hebt vor allem seine harte, aggressive Spielweise als Offensive Tackle hervor, die er gegen Floridas Edge Rusher Emmanuel Oyebadejo brauche.",
+    "wert": "gering",
+    "begruendung": "Kurze Einordnung ohne Analyse, Fanseite."
+   }
+  ],
   "leonard-moore": [
+   {
+    "writer": "det-rogers",
+    "team": "DET",
+    "url": "https://www.detroitfootball.net/p/detroit-lions-2027-draft-watch-3-101",
+    "titel": "Detroit Lions 2027 Draft Watch: 3 prospects to watch Week 11 of the college football season",
+    "datum": "2026-11-14",
+    "text": "Laut Rogers mied Miami Moore weitgehend und warf nur zweimal in seine Richtung. Er ließ einen Catch zu, verpasste dabei aber den Tackle, was zu einem Raumgewinn von 41 Yards führte.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung eines akkreditierten Beatreporters, ohne weitere Einordnung."
+   },
    {
     "writer": "mia-poupart",
     "team": "MIA",
@@ -359,6 +543,18 @@
     "text": "Hätten die Dolphins den ersten Pick, würde Poupart am liebsten nach unten traden. Ohne Trade wäre Moore sein bevorzugter Nicht-Quarterback, weil ein Cornerback in jedem Spielzug mehr Einfluss hat als ein Receiver.",
     "wert": "mittel",
     "begruendung": "Begründete Einordnung eines akkreditierten Beatwriters mit konkretem Teamkontext."
+   }
+  ],
+  "lj-martin": [
+   {
+    "writer": "phi-kempski",
+    "team": "PHI",
+    "url": "https://www.phillyvoice.com/five-college-prospects-eagles-2027-nfl-draft-arch-manning-zereoue-williams-lj-martin-matayo-uiagalelei-samson-okunlola/",
+    "titel": "Five college prospects who could interest the Eagles in the 2027 NFL Draft",
+    "datum": "2026-11-14",
+    "text": "Kempski sieht Martin als großen, physischen Back mit guter Übersicht und etwas Ausweichvermögen, der kein schneller 40-Yard-Läufer sein wird, sich aber als Passempfänger und in der Pass-Protection solide zeigt. Er projiziert ihn auf Tag 3; die Eagles bräuchten wegen Saquon Barkleys Alter und auslaufender Verträge einen Running Back.",
+    "wert": "mittel",
+    "begruendung": "Eigene Einordnung mit Rundenprojektion und Kaderbezug."
    }
   ],
   "matayo-uiagalelei": [
@@ -385,7 +581,29 @@
     "begruendung": "Teambedarf und Spielbeleg."
    }
   ],
+  "princewill-umanmielen": [
+   {
+    "writer": "sea-nelson",
+    "team": "SEA",
+    "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-11",
+    "titel": "Six Players the Seahawks Should Note from College Football Week 11",
+    "datum": "2026-11-19",
+    "text": "Gegen Texas kam Umanmielen laut Nelson auf sieben Tackles, einen Sack, einen abgewehrten Pass und fünf Pressures. Er sieht viel Talent, das aber noch Arbeit brauche, um es voll abzurufen, und traut ihm am Ende ähnlich viel Aufmerksamkeit zu wie seinem älteren Bruder.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung mit Einordnung."
+   }
+  ],
   "rasheem-biles": [
+   {
+    "writer": "sea-nelson",
+    "team": "SEA",
+    "url": "https://www.si.com/nfl/seahawks/onsi/six-players-the-seahawks-should-note-from-college-football-week-11",
+    "titel": "Six Players the Seahawks Should Note from College Football Week 11",
+    "datum": "2026-11-19",
+    "text": "Nelson hebt Biles erneut hervor: elf Tackles, davon zwei für Raumverlust, ein Sack und vier Pressures beim knappen Sieg gegen LSU. In einer Linebacker-Klasse, die er für stark hält, liefere Biles konstant große Spiele.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung mit Klasseneinordnung."
+   },
    {
     "writer": "sea-nelson",
     "team": "SEA",
@@ -395,6 +613,28 @@
     "text": "Nelson macht sich weiter für Biles stark: Mit drei Sacks, mehreren Tackles for Loss und solider Deckung war er ein Hauptgrund für Texas' starke Defensivleistung.",
     "wert": "mittel",
     "begruendung": "Spielbeobachtung, wiederholte Empfehlung."
+   }
+  ],
+  "ryan-wingo": [
+   {
+    "writer": "kc-chabot",
+    "team": "KC",
+    "url": "https://arrowheadaddict.com/chiefs-2027-mock-draft-lands-patrick-mahomes-new-protector-weapon",
+    "titel": "Chiefs 2027 mock draft lands Patrick Mahomes a new protector and weapon",
+    "datum": "2026-11-20",
+    "text": "Im Chiefs-Mock von Chabot geht Wingo in Runde 2. Er hält ihn für ein Talent der ersten Runde, dessen Schwachpunkt Drops sind; zuletzt habe sich das gebessert, und bekomme Kansas City das in den Griff, traut er ihm eine Karriere auf Pro-Bowl-Niveau zu.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Stärken und Schwäche, Fanseite."
+   },
+   {
+    "writer": "lar-grisak",
+    "team": "LAR",
+    "url": "https://www.si.com/nfl/rams/onsi/rams-2027-mock-draft-potential-targets",
+    "titel": "Rams 2027 Mock Draft: A Way-Too-Early Look at Potential Draft Targets",
+    "datum": "2026-11-18",
+    "text": "Im Rams-Mock von Grisak kommt Wingo erst mit Pick 118 in Runde 4. Er nennt ihn athletisch einen Erstrundenspieler mit Baustellen im Spiel, der auch an die Uni zurückkehren könnte; für die Rams, die Davante Adams ersetzen müssen und bei Puka Nacua vor einer Vertragsfrage stehen, wäre er ein guter Fit.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Kaderbezug."
    }
   ],
   "samson-okunlola": [
@@ -489,6 +729,16 @@
     "text": "Gegen Kentucky tauchte Gilliam kaum im Statistikbogen auf, störte laut Rogers aber aus verschiedenen Positionen im Innern und kam auf drei Hurries. Bereits zum sechsten Mal in dieser Saison setzte er den Quarterback drei- oder mehrmals unter Druck.",
     "wert": "mittel",
     "begruendung": "Beobachtung über die Box Score hinaus, Lions-Kontext."
+   },
+   {
+    "writer": "nyg-dabate",
+    "team": "NYG",
+    "url": "https://www.si.com/nfl/giants/onsi/giants-2027-nfl-draft-watch-four-college-prospects-to-track-01m7bjb5ethf",
+    "titel": "Giants 2027 NFL Draft Watch: Four College Prospects to Track This Weekend",
+    "datum": "2026-11-14",
+    "text": "D'Abate lobt bei Gilliam die Standfestigkeit gegen den Lauf und den ersten Schritt im Pass Rush. Weil er am besten als Three-Technique in einer 4-3-Front passe, sei er eher nicht der große Two-Gap-Tackle, den die Giants suchen, wohl aber eine Waffe in Nickel-Fronten mit vier Linemen.",
+    "wert": "mittel",
+    "begruendung": "Begründeter Schema- und Teamfit."
    }
   ],
   "yhonzae-pierre": [
