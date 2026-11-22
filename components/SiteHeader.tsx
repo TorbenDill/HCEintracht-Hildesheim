@@ -150,16 +150,17 @@ export default function SiteHeader() {
         Zum Inhalt springen
       </a>
       <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
-        {/* Kein flex-shrink-0: Mit fixer Breite sprengte die lange Stand-Zeile
-            den Header auf schmalen Geraeten um rund 8 px und liess damit JEDE
-            Seite horizontal scrollen. Schrumpffaehig plus truncate kuerzt die
-            Zeile stattdessen mit Auslassungspunkten. */}
-        <Link href="/" className="min-w-0" title="Zur Startseite">
-          <span className="block truncate font-display text-base font-semibold uppercase leading-tight tracking-wide text-foreground sm:text-lg">
+        {/* Das Logo schrumpft nie (sonst wurde es neben der Navigation gekuerzt).
+            Damit der Header auf schmalen Geraeten nicht ueber den Rand ragt,
+            zeigt die Unterzeile das Datum nur dort, wo Platz ist: ab sm, und
+            nicht neben der vollen Navigation (xl+). */}
+        <Link href="/" className="shrink-0" title="Zur Startseite">
+          <span className="block whitespace-nowrap font-display text-base font-semibold uppercase leading-tight tracking-wide text-foreground sm:text-lg">
             NFL Draft <span className="text-primary">Board {boardMeta.draftYear}</span>
           </span>
-          <span className="block truncate text-[9px] uppercase tracking-[0.25em] text-muted">
-            Forstner Scouting · Stand {germanDate(boardMeta.updated)}
+          <span className="block whitespace-nowrap text-[9px] uppercase tracking-[0.25em] text-muted">
+            Forstner Scouting
+            <span className="hidden sm:inline xl:hidden"> · Stand {germanDate(boardMeta.updated)}</span>
           </span>
         </Link>
 
@@ -170,7 +171,7 @@ export default function SiteHeader() {
               href={n.href}
               aria-current={isActive(pathname, n.href) ? "page" : undefined}
               className={cn(
-                "whitespace-nowrap rounded-full px-2.5 py-1.5 text-[11px] font-bold uppercase tracking-wider transition-colors",
+                "whitespace-nowrap rounded-full px-2 py-1.5 text-[11px] font-bold uppercase tracking-wider transition-colors",
                 isActive(pathname, n.href)
                   ? "bg-primary text-background"
                   : "text-muted hover:bg-surface hover:text-primary"
