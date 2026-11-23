@@ -2,7 +2,7 @@
   "draftYear": 2027,
   "siteUrl": "https://www.nfldraft-scouting.de",
   "siteName": "NFL Draft Board 2027 – Forstner Scouting",
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "updateCycle": "Laufende Aktualisierung während der College-Saison",
   "sources": [
     {
@@ -10,8 +10,8 @@
       "url": "https://www.nflmockdraftdatabase.com/big-boards/2027/consensus-big-board-2027"
     },
     {
-      "name": "NFL Mock Draft Database – Consensus Mock Draft 2027 (Stand 15.11.2026)",
-      "url": "https://www.nflmockdraftdatabase.com/mock-drafts/2027/consensus-mock-draft-2027"
+      "name": "NFL Mock Draft Database – Consensus Mock Draft 2027 (91 Mocks der letzten zwei Wochen, Stand 23.11.2026)",
+      "url": "https://www.nflmockdraftdatabase.com/mock-drafts/2027/consensus-mock-draft-2027?period=2_weeks"
     },
     {
       "name": "ESPN – Mel Kipers Big Board Top 25 (Stand 19.11.2026)",
@@ -34,7 +34,7 @@
       "url": "https://cfbstats.com/"
     },
     {
-      "name": "Tankathon – NFL Draft Order 2027 (Stand 15.11.2026)",
+      "name": "Tankathon – NFL Draft Order 2027 (Stand 23.11.2026, nach Woche 11)",
       "url": "https://www.tankathon.com/nfl/full-draft"
     }
   ],

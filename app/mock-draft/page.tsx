@@ -58,11 +58,12 @@ export default function MockDraftPage() {
           <p className="max-w-3xl text-sm leading-relaxed text-foreground/85">
             Runde 1 nach dem aktuellen NFL-Tabellenstand (nach Woche {standings.week}),
             inklusive aller getauschten Picks – die Jets halten derzeit gleich drei
-            Erstrundenpicks, die Colts, Rams und Packers keinen. Pro Pick steht der
-            Spieler, den die meisten Mock Drafts der letzten Woche an genau dieser
-            Stelle sehen (Consensus der NFL Mock Draft Database); der Prozentwert
-            zeigt, wie einig sich die Mocks sind. Ist die meistgenannte Wahl schon
-            vergeben, setzen wir den bestplatzierten verfügbaren Spieler unseres
+            Erstrundenpicks, die Colts, Rams, Packers, Jaguars und Bears keinen. Pro
+            Pick steht der Spieler, den die meisten Mock Drafts der letzten zwei
+            Wochen an genau dieser Stelle sehen (Consensus der NFL Mock Draft
+            Database); der Prozentwert zeigt, wie einig sich die Mocks sind. Ist die
+            meistgenannte Wahl schon vergeben oder hat sie noch kein Profil in
+            unserem Board, setzen wir den bestplatzierten verfügbaren Spieler unseres
             Boards auf einer Bedarfsposition des Teams.
           </p>
           <p className="mt-3 text-xs text-muted">
@@ -153,7 +154,7 @@ function PickRow({ pick }: { pick: Pick }) {
         {pick.consensus_pct != null ? (
           <span
             className="col-span-3 justify-self-start rounded-full border border-border bg-background px-2.5 py-1 text-[10px] font-bold text-muted sm:col-span-1 sm:justify-self-end"
-            title="Anteil der Mock Drafts der letzten Woche mit genau diesem Spieler an diesem Pick"
+            title="Anteil der Mock Drafts der letzten zwei Wochen mit genau diesem Spieler an diesem Pick"
           >
             {pick.consensus_pct} % der Mocks
           </span>

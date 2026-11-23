@@ -1,23 +1,23 @@
 [
   {
     "pick": 1,
-    "team": "Los Angeles Chargers",
-    "teamAbbr": "LAC",
+    "team": "Tennessee Titans",
+    "teamAbbr": "TEN",
     "player": "Jeremiah Smith",
     "position": "WR",
     "college": "Ohio State",
-    "consensus_pct": 100,
-    "reason_de": "Die Chargers sind nach acht Spielen noch sieglos und hätten damit den ersten Pick. Smith ist der unstrittige Spieler Nummer eins: 69 Catches, 1.200 Yards und 14 Touchdowns nach neun Spielen, dazu der neue Big-Ten-Rekord für Receiving-Yards. Jeder der aktuell erfassten Consensus-Mocks setzt ihn an die Spitze."
+    "consensus_pct": 66,
+    "reason_de": "Tennessee steht nach zehn Spielen bei 1-9 und hat unter den drei Teams mit dieser Bilanz die schwächste Strength of Schedule, damit den ersten Pick. Smith ist der unstrittige Spieler Nummer eins: 69 Catches, 1.200 Yards und 14 Touchdowns nach neun Spielen (Stand 13.11.), dazu der Big-Ten-Rekord für Receiving-Yards. Zwei Drittel der Mocks der letzten zwei Wochen setzen ihn an die Spitze."
   },
   {
     "pick": 2,
-    "team": "Tennessee Titans",
-    "teamAbbr": "TEN",
+    "team": "Los Angeles Chargers",
+    "teamAbbr": "LAC",
     "player": "Colin Simmons",
     "position": "EDGE",
     "college": "Texas",
-    "consensus_pct": 50,
-    "reason_de": "Tennessee braucht laut Bedarfsliste vor allem einen Edge-Rusher. Simmons führt Texas trotz zweier verpasster Spiele mit 10,5 Sacks und 16 Tackles for Loss nach sieben Einsätzen an und ist Halbfinalist für den Walter Camp Player of the Year."
+    "consensus_pct": 47,
+    "reason_de": "Die Chargers stehen ebenfalls bei 1-9. Ein Edge-Rusher steht nicht ganz oben auf ihrer Bedarfsliste, aber Simmons ist für die Mocks der klar zweitbeste Spieler der Klasse: 10,5 Sacks und 16 Tackles for Loss nach acht Einsätzen, dazu Halbfinalist für den Walter Camp Player of the Year (Stand 15.11.)."
   },
   {
     "pick": 3,
@@ -26,8 +26,8 @@
     "player": "Drew Mestemaker",
     "position": "QB",
     "college": "Oklahoma State",
-    "consensus_pct": 69,
-    "reason_de": "Miami hätte nach 1-7 den dritten Pick und könnte hier seinen Quarterback der Zukunft holen. Mestemaker führte 2025 die FBS mit 4.379 Passing-Yards an und schrieb beim 66:28 bei Kansas State mit vier Touchdown-Pässen sowie je einem Lauf- und Fang-Touchdown Geschichte. Gut zwei Drittel der Mocks sehen ihn genau hier."
+    "consensus_pct": 65,
+    "reason_de": "Miami hat nach 1-9 den dritten Pick und könnte hier seinen Quarterback der Zukunft holen. Mestemaker steht nach zehn Spielen bei 3.239 Passing-Yards, 30 Touchdowns und zehn Interceptions (Stand 15.11.). Beim 66:28 bei Kansas State warf er vier Touchdowns und erzielte je einen Lauf- und einen Fang-Touchdown."
   },
   {
     "pick": 4,
@@ -36,287 +36,287 @@
     "player": "Leonard Moore",
     "position": "CB",
     "college": "Notre Dame",
-    "consensus_pct": 40,
-    "reason_de": "Den Pick der Colts halten nach einem Trade die Jets. Moore ist für ESPN der klare Cornerback Nummer eins der Klasse: beste PFF-Coverage-Note aller FBS-Corner 2025 und nur 45,1 Passer-Rating gegen sich. Für eine Defense, die Big Plays verhindern muss, der sicherste Baustein."
+    "consensus_pct": 30,
+    "reason_de": "Den Pick der Colts (3-8) halten nach einem Trade die Jets. Moore ist für ESPN der klare Cornerback Nummer eins der Klasse: beste PFF-Coverage-Note aller FBS-Corner 2025 und nur 45,1 Passer-Rating gegen sich."
   },
   {
     "pick": 5,
-    "team": "Philadelphia Eagles",
-    "teamAbbr": "PHI",
-    "player": "Dylan Stewart",
-    "position": "EDGE",
-    "college": "South Carolina",
-    "consensus_pct": 25,
-    "reason_de": "Philadelphia sucht laut Bedarfsliste unter anderem Druck von außen. Stewart bringt seltene Explosivität im ersten Schritt mit und ist nach seiner Rückkehr am 10. Oktober wieder Teil der Rotation in South Carolina. Ein Viertel der Mocks setzt ihn auf diesen Platz."
-  },
-  {
-    "pick": 6,
     "team": "New York Jets",
     "teamAbbr": "NYJ",
     "player": "CJ Carr",
     "position": "QB",
     "college": "Notre Dame",
-    "consensus_pct": 19,
-    "reason_de": "Mit dem eigenen Pick holen die Jets ihren Quarterback. Carr steht nach neun Spielen bei 2.168 Passing-Yards, 21 Touchdowns und nur einer Interception bei 67,6 Prozent angekommenen Pässen. Präzision und Antizipation sind seine größten Stärken."
+    "consensus_pct": null,
+    "reason_de": "Mit dem eigenen Pick holen die Jets ihren Quarterback. Der Consensus-Mock nennt hier Ryan Baer (OT, Pittsburgh), der in unserem Board noch kein Profil hat; wir setzen deshalb den bestplatzierten Spieler auf einer Bedarfsposition. Carr steht nach zehn Spielen bei 2.385 Passing-Yards, 23 Touchdowns und nur zwei Interceptions (Stand 15.11.)."
+  },
+  {
+    "pick": 6,
+    "team": "Arizona Cardinals",
+    "teamAbbr": "ARI",
+    "player": "Arch Manning",
+    "position": "QB",
+    "college": "Texas",
+    "consensus_pct": 50,
+    "reason_de": "Arizona braucht laut Bedarfsliste einen Quarterback. Manning ist auf den Boards kein Top-10-Spieler mehr, in den Mocks der letzten zwei Wochen aber an dieser Stelle der häufigste Name. Nach zehn Spielen stehen 64,7 Prozent angekommene Pässe, 2.198 Yards, 19 Touchdowns und zehn Interceptions (Stand 15.11.)."
   },
   {
     "pick": 7,
     "team": "Tampa Bay Buccaneers",
     "teamAbbr": "TB",
-    "player": "Charlie Becker",
-    "position": "WR",
-    "college": "Indiana",
-    "consensus_pct": 40,
-    "reason_de": "Tampa Bay nimmt den Receiver, der in dieser Saison am stärksten gestiegen ist. Becker steht nach neun Spielen bei 50 Catches für 875 Yards und neun Touchdowns, 17,5 Yards pro Fang. Im Consensus-Mock ist er der häufigste Pick an dieser Stelle."
-  },
-  {
-    "pick": 8,
-    "team": "Arizona Cardinals",
-    "teamAbbr": "ARI",
-    "player": "Jordan Seaton",
-    "position": "OT",
-    "college": "LSU",
-    "consensus_pct": 16,
-    "reason_de": "Arizona braucht laut Bedarfsliste einen Tackle. Seaton ist für die meisten Analysten OT1 der Klasse, mit 22 Starts in Folge auf Left Tackle schon vor seinem Wechsel zu LSU. Die Mocks sind hier gespalten, Seaton ist die häufigste Wahl."
-  },
-  {
-    "pick": 9,
-    "team": "Atlanta Falcons",
-    "teamAbbr": "ATL",
     "player": "Chris Cole",
     "position": "LB",
     "college": "Georgia",
-    "consensus_pct": 28,
-    "reason_de": "Atlanta setzt auf den Linebacker mit dem größten Sprung der Saison. Cole wurde nach acht Tackles, 2,5 Tackles for Loss und einem Sack bei Alabama zum Bednarik Defensive Player of the Week ernannt und trug gegen Florida einen Fumble 66 Yards zum Touchdown."
-  },
-  {
-    "pick": 10,
-    "team": "Houston Texans",
-    "teamAbbr": "HOU",
-    "player": "Will Echoles",
-    "position": "DT",
-    "college": "Ole Miss",
     "consensus_pct": 33,
-    "reason_de": "Houston verstärkt die Defensive Line mit dem produktivsten Interior-Rusher der Power-Four-Konferenzen 2025: Echoles kam auf 39 Pressures und 35 Defensive Stops. Ein Drittel der Mocks setzt ihn auf Platz zehn."
+    "reason_de": "Tampa Bay holt den Linebacker mit dem größten Sprung der Saison. Cole steht nach zehn Spielen bei 64 Tackles, 12 Tackles for Loss, fünf Sacks und zwei Touchdowns nach Fumble-Returns (Stand 15.11.) und wurde nach dem Sieg bei Alabama Bednarik Defensive Player of the Week."
   },
   {
-    "pick": 11,
+    "pick": 8,
     "team": "New Orleans Saints",
     "teamAbbr": "NO",
     "player": "Ashton Hampton",
     "position": "CB",
     "college": "Clemson",
-    "consensus_pct": 40,
-    "reason_de": "New Orleans braucht laut Bedarfsliste einen Cornerback. Hampton gehört zu ESPNs Top-5-Cornern und überzeugt mit Instinkt in der Zone und Ballproduktion. 40 Prozent der Mocks sehen ihn genau hier."
+    "consensus_pct": 100,
+    "reason_de": "New Orleans braucht laut Bedarfsliste einen Cornerback. Hampton gehört zu ESPNs Top-5-Cornern und steht nach zehn Spielen bei 42 Tackles, zwei Interceptions und zwölf abgewehrten Pässen (Stand 15.11.)."
+  },
+  {
+    "pick": 9,
+    "team": "Philadelphia Eagles",
+    "teamAbbr": "PHI",
+    "player": "Jordan Seaton",
+    "position": "OT",
+    "college": "LSU",
+    "consensus_pct": 100,
+    "reason_de": "Philadelphia nimmt den besten verfügbaren Tackle, obwohl die Bedarfsliste eher die Defense nennt. Seaton ist für die meisten Analysten OT1 der Klasse: 22 Starts in Folge auf Left Tackle in Colorado und 2025 nur sieben Pressures bei über 300 Pass-Block-Snaps."
+  },
+  {
+    "pick": 10,
+    "team": "Atlanta Falcons",
+    "teamAbbr": "ATL",
+    "player": "Zereoue Williams",
+    "position": "OT",
+    "college": "Utah",
+    "consensus_pct": 38,
+    "reason_de": "Atlanta braucht laut Bedarfsliste einen Tackle. Williams ist der Aufsteiger der Saison: im Oktober-Consensus noch auf Rang 66, in unserem Board seit dem 20.11. auf Rang 29. Der frühere Basketballer startet als Sixth-Year-Senior auf Left Tackle."
+  },
+  {
+    "pick": 11,
+    "team": "Baltimore Ravens",
+    "teamAbbr": "BAL",
+    "player": "Charlie Becker",
+    "position": "WR",
+    "college": "Indiana",
+    "consensus_pct": 50,
+    "reason_de": "Baltimore nimmt den Receiver, der in dieser Saison am stärksten gestiegen ist. Becker steht nach neun Spielen bei 50 Catches für 875 Yards und neun Touchdowns, 17,5 Yards pro Fang (Stand 13.11.). Die Hälfte der Mocks setzt ihn hierhin."
   },
   {
     "pick": 12,
+    "team": "Las Vegas Raiders",
+    "teamAbbr": "LV",
+    "player": "Will Echoles",
+    "position": "DT",
+    "college": "Ole Miss",
+    "consensus_pct": 100,
+    "reason_de": "Las Vegas verstärkt die Defensive Line mit dem produktivsten Interior-Rusher der Power-Four-Konferenzen 2025 (39 Pressures, 35 Defensive Stops). 2026 stehen nach zehn Spielen 5,5 Tackles for Loss und 2,5 Sacks (Stand 15.11.)."
+  },
+  {
+    "pick": 13,
     "team": "Washington Commanders",
     "teamAbbr": "WAS",
     "player": "Ellis Robinson IV",
     "position": "CB",
     "college": "Georgia",
-    "consensus_pct": 33,
-    "reason_de": "Washington sucht Verstärkung für die Secondary. Robinson, früher Recruit Nummer eins auf seiner Position, kommt nach neun Spielen auf zwei Interceptions und sechs abgewehrte Pässe und gilt als zweitbester Corner hinter Leonard Moore."
+    "consensus_pct": 100,
+    "reason_de": "Washington sucht Verstärkung für die Secondary. Robinson, früher Recruit Nummer eins auf seiner Position, kommt nach neun Spielen auf zwei Interceptions und sechs abgewehrte Pässe (Stand 13.11.)."
   },
   {
-    "pick": 13,
+    "pick": 14,
+    "team": "Houston Texans",
+    "teamAbbr": "HOU",
+    "player": "Greg Johnson",
+    "position": "IOL",
+    "college": "Minnesota",
+    "consensus_pct": 100,
+    "reason_de": "Houston baut die Offensive Line aus. Johnson war 2025 Minnesotas bestbewerteter Offensive Lineman (PFF 75,6) und ließ in 406 Pass-Block-Snaps nur einen Sack zu."
+  },
+  {
+    "pick": 15,
     "team": "New York Jets",
     "teamAbbr": "NYJ",
     "player": "Xavier Gilliam",
     "position": "DT",
     "college": "Tennessee",
-    "consensus_pct": 21,
-    "reason_de": "Den Pick der Cowboys besitzen nach einem Trade die Jets, die damit zum dritten Mal in Runde eins ziehen. Gilliam ist einer der produktivsten Interior-Spieler des Landes: 11,5 Tackles for Loss und sechs Sacks nach neun Spielen, dazu die Halbfinalnominierung für die Lott IMPACT Trophy."
-  },
-  {
-    "pick": 14,
-    "team": "Baltimore Ravens",
-    "teamAbbr": "BAL",
-    "player": "Greg Johnson",
-    "position": "IOL",
-    "college": "Minnesota",
-    "consensus_pct": 22,
-    "reason_de": "Baltimore holt den sichersten Interior-Blocker der Klasse. Johnson war 2025 Minnesotas bestbewerteter Offensive Lineman und ließ in 406 Pass-Block-Snaps nur einen Sack zu."
-  },
-  {
-    "pick": 15,
-    "team": "Las Vegas Raiders",
-    "teamAbbr": "LV",
-    "player": "Cam Coleman",
-    "position": "WR",
-    "college": "Texas",
-    "consensus_pct": 27,
-    "reason_de": "Las Vegas braucht laut Bedarfsliste einen Receiver. Coleman bringt bei Texas 17,8 Yards pro Fang und sieben Touchdowns nach acht Einsätzen mit, allerdings mit weniger Volumen als bei Auburn. Talent und Big-Play-Fähigkeit geben hier den Ausschlag."
+    "consensus_pct": 100,
+    "reason_de": "Den Pick der Cowboys (5-6) besitzen nach einem Trade die Jets, die damit zum dritten Mal in Runde eins ziehen. Gilliam steht nach zehn Spielen bei 11,5 Tackles for Loss, sechs Sacks und elf QB-Hurries und ist Halbfinalist der Lott IMPACT Trophy (Stand 15.11.)."
   },
   {
     "pick": 16,
-    "team": "Cleveland Browns",
-    "teamAbbr": "CLE",
-    "player": "Dante Moore",
-    "position": "QB",
-    "college": "Oregon",
-    "consensus_pct": 20,
-    "reason_de": "Cleveland sucht laut Bedarfsliste einen Quarterback. Moore fällt nach Angaben seines Head Coaches für den Rest der Saison 2026 aus, bleibt für einige Analysten wegen seines Arm-Talents aber ein Erstrunden-Quarterback. Ein Pick mit erkennbarem Risiko."
+    "team": "New England Patriots",
+    "teamAbbr": "NE",
+    "player": "Cam Coleman",
+    "position": "WR",
+    "college": "Texas",
+    "consensus_pct": 29,
+    "reason_de": "New England braucht laut Bedarfsliste einen Receiver. Coleman bringt bei Texas 17,8 Yards pro Fang und sieben Touchdowns nach neun Einsätzen mit, allerdings mit weniger Volumen als bei Auburn (Stand 15.11.)."
   },
   {
     "pick": 17,
-    "team": "Seattle Seahawks",
-    "teamAbbr": "SEA",
-    "player": "Nick Marsh",
-    "position": "WR",
-    "college": "Indiana",
-    "consensus_pct": 25,
-    "reason_de": "Seattle holt einen vertikalen X-Receiver. Marsh verbindet bei Indiana großes Catch Radius mit physischem Spiel nach dem Fang. Ein Viertel der Mocks setzt ihn auf diesen Platz."
+    "team": "Cleveland Browns",
+    "teamAbbr": "CLE",
+    "player": "LaNorris Sellers",
+    "position": "QB",
+    "college": "South Carolina",
+    "consensus_pct": 50,
+    "reason_de": "Mit dem Pick der Rams holt Cleveland seinen Quarterback. Sellers ist das physisch aufregendste Paket der Klasse: 2.100 Passing-Yards, 17 Touchdowns und 637 Rushing-Yards nach neun Spielen (Stand 13.11.). Offen ist die Knöchelverletzung, wegen der er am 14. November nicht startete."
   },
   {
     "pick": 18,
-    "team": "Cleveland Browns",
-    "teamAbbr": "CLE",
-    "player": "Yhonzae Pierre",
-    "position": "EDGE",
+    "team": "Seattle Seahawks",
+    "teamAbbr": "SEA",
+    "player": "Devan Thompkins",
+    "position": "DT",
     "college": "Alabama",
-    "consensus_pct": 30,
-    "reason_de": "Mit dem Pick der Rams zieht Cleveland ein zweites Mal und nimmt einen Edge-Rusher. Pierre steht nach neun Spielen bei 4,5 Sacks, 5,5 Tackles for Loss und einer zum Touchdown zurückgetragenen Interception. Für Alabama ist er erstmals Vollzeit-Starter."
+    "consensus_pct": 50,
+    "reason_de": "Seattle verstärkt die Front. Thompkins steht nach zehn Spielen bei 34 Tackles, 6,5 Tackles for Loss und fünf Sacks (Stand 15.11.)."
   },
   {
     "pick": 19,
     "team": "Carolina Panthers",
     "teamAbbr": "CAR",
-    "player": "Kyngstonn Viliamu-Asa",
-    "position": "LB",
-    "college": "Notre Dame",
-    "consensus_pct": 17,
-    "reason_de": "Carolina verstärkt das Zentrum der Defense. Viliamu-Asa ist für ESPN Linebacker Nummer drei der Klasse und kam nach sechs Einsätzen auf 22 Tackles, 3,5 Tackles for Loss, einen Sack und eine Interception."
-  },
-  {
-    "pick": 20,
-    "team": "New England Patriots",
-    "teamAbbr": "NE",
-    "player": "KJ Bolden",
-    "position": "S",
-    "college": "Georgia",
-    "consensus_pct": 36,
-    "reason_de": "New England nimmt einen vielseitigen Safety. Bolden spielt tief, im Slot und in der Box, ist Halbfinalist für den Bednarik Award sowie die Lott IMPACT Trophy und steht nach acht Einsätzen bei zwei Interceptions."
-  },
-  {
-    "pick": 21,
-    "team": "New York Giants",
-    "teamAbbr": "NYG",
-    "player": "Trevor Goosby",
-    "position": "OT",
-    "college": "Texas",
-    "consensus_pct": 33,
-    "reason_de": "Die Giants nehmen einen Tackle mit großem Rahmen. Goosby fällt laut übereinstimmenden Berichten für den Rest der Saison 2026 aus, galt bis dahin aber als zweitbester Tackle der Klasse. Ein Drittel der Mocks bleibt trotzdem bei ihm."
-  },
-  {
-    "pick": 22,
-    "team": "Dallas Cowboys",
-    "teamAbbr": "DAL",
-    "player": "KJ Duff",
-    "position": "WR",
-    "college": "Rutgers",
-    "consensus_pct": 66,
-    "reason_de": "Dallas zieht mit dem Pick der Packers. Duff führte 2025 die FBS mit 22 Contested Catches an und kam 2026 auf 774 Yards und neun Touchdowns in acht Spielen, bevor er nach einer Knöcheloperation für den Rest der Saison ausfällt. Zwei Drittel der Mocks setzen ihn trotzdem hierhin."
-  },
-  {
-    "pick": 23,
-    "team": "Cincinnati Bengals",
-    "teamAbbr": "CIN",
-    "player": "Jadan Baugh",
-    "position": "RB",
-    "college": "Florida",
-    "consensus_pct": 10,
-    "reason_de": "Cincinnati holt einen Three-Down-Back. Baugh kommt nach neun Spielen auf 836 Rushing-Yards bei 5,2 Yards pro Lauf und 14 Touchdowns. An dieser Stelle sind die Mocks besonders uneinig."
-  },
-  {
-    "pick": 24,
-    "team": "Kansas City Chiefs",
-    "teamAbbr": "KC",
-    "player": "Trey'Dez Green",
-    "position": "TE",
-    "college": "LSU",
-    "consensus_pct": 30,
-    "reason_de": "Kansas City nimmt ein Red-Zone-Mismatch. Green kehrte nach einer Knieverletzung Ende Oktober zurück und kam gegen Alabama auf zehn Catches für 85 Yards. Als früherer Basketballspieler bringt er seltene Größe und Fangradius mit."
-  },
-  {
-    "pick": 25,
-    "team": "Philadelphia Eagles",
-    "teamAbbr": "PHI",
     "player": "Trevor Lauck",
     "position": "OT",
     "college": "Iowa",
     "consensus_pct": 12,
-    "reason_de": "Philadelphia zieht mit dem Pick der Jaguars ein zweites Mal und holt einen Left Tackle. Lauck ist Halbfinalist für den Lombardi Award und bildet mit Kade Pieper seit Beginn der Saison 2025 eine der konstantesten Lines des Landes."
+    "reason_de": "Carolina sichert die Offensive Line ab. Lauck ist Halbfinalist für den Lombardi Award und bildet mit Kade Pieper seit Beginn der Saison 2025 eine Konstante: 21 gemeinsame Starts in Folge. Die Mocks sind an dieser Stelle weit gestreut."
   },
   {
-    "pick": 26,
+    "pick": 20,
+    "team": "Cleveland Browns",
+    "teamAbbr": "CLE",
+    "player": "Boubacar Traore",
+    "position": "EDGE",
+    "college": "Notre Dame",
+    "consensus_pct": 23,
+    "reason_de": "Mit dem eigenen Pick nimmt Cleveland einen Edge-Rusher. Traore steht nach zehn Spielen bei acht Tackles for Loss, fünf Sacks, zwölf QB-Hurries und drei Forced Fumbles (Stand 15.11.)."
+  },
+  {
+    "pick": 21,
     "team": "Pittsburgh Steelers",
     "teamAbbr": "PIT",
     "player": "Trinidad Chambliss",
     "position": "QB",
     "college": "Ole Miss",
+    "consensus_pct": 100,
+    "reason_de": "Pittsburgh sucht laut Bedarfsliste einen Quarterback. Chambliss steht nach zehn Spielen bei 2.486 Passing-Yards, 19 Touchdowns und neun Interceptions sowie sieben eigenen Rushing-Touchdowns (Stand 15.11.) und führte Ole Miss 2025 ins CFP-Halbfinale."
+  },
+  {
+    "pick": 22,
+    "team": "Dallas Cowboys",
+    "teamAbbr": "DAL",
+    "player": "KJ Bolden",
+    "position": "S",
+    "college": "Georgia",
     "consensus_pct": 33,
-    "reason_de": "Pittsburgh sucht laut Bedarfsliste einen Quarterback. Chambliss steht nach neun Spielen bei 2.359 Passing-Yards, 18 Touchdowns und sieben eigenen Rushing-Touchdowns und führte Ole Miss 2025 ins CFP-Halbfinale."
+    "reason_de": "Dallas zieht mit dem Pick der Packers und nimmt einen vielseitigen Safety. Bolden ist Halbfinalist für den Jim Thorpe Award, den Bednarik Award und die Lott IMPACT Trophy und steht nach neun Einsätzen bei zwei Interceptions (Stand 15.11.)."
+  },
+  {
+    "pick": 23,
+    "team": "New York Giants",
+    "teamAbbr": "NYG",
+    "player": "KJ Duff",
+    "position": "WR",
+    "college": "Rutgers",
+    "consensus_pct": 100,
+    "reason_de": "Die Giants gehen ein Verletzungsrisiko ein. Duff führte 2025 die FBS mit 22 Contested Catches an und kam 2026 in acht Spielen auf 774 Yards und neun Touchdowns, bevor er nach einer Knöcheloperation für den Rest der Saison ausfiel."
+  },
+  {
+    "pick": 24,
+    "team": "Philadelphia Eagles",
+    "teamAbbr": "PHI",
+    "player": "Dylan Stewart",
+    "position": "EDGE",
+    "college": "South Carolina",
+    "consensus_pct": null,
+    "reason_de": "Philadelphia zieht mit dem Pick der Jaguars ein zweites Mal. Im Consensus-Mock sind an dieser Stelle alle meistgenannten Spieler schon vergeben; wir setzen den bestplatzierten verfügbaren Spieler auf einer Bedarfsposition. Stewart steht in unserem Board auf Rang 5, ist in den Mocks nach Suspendierung und Rückenproblemen aber gefallen: 5 Tackles for Loss, 2 Sacks und 3 Forced Fumbles in sieben Spielen (Stand 15.11.)."
+  },
+  {
+    "pick": 25,
+    "team": "Minnesota Vikings",
+    "teamAbbr": "MIN",
+    "player": "Jadan Baugh",
+    "position": "RB",
+    "college": "Florida",
+    "consensus_pct": 100,
+    "reason_de": "Minnesota holt einen Three-Down-Back. Baugh kommt nach zehn Spielen auf 905 Rushing-Yards bei 5,1 Yards pro Lauf und 15 Touchdowns (Stand 15.11.)."
+  },
+  {
+    "pick": 26,
+    "team": "Cincinnati Bengals",
+    "teamAbbr": "CIN",
+    "player": "Cayden Green",
+    "position": "OT",
+    "college": "Missouri",
+    "consensus_pct": null,
+    "reason_de": "Cincinnati braucht laut Bedarfsliste einen Tackle. Auch hier sind im Consensus-Mock alle meistgenannten Spieler vergeben, wir setzen den bestplatzierten verfügbaren Tackle unseres Boards. Green ließ 2025 auf rund 750 Blocking-Snaps nur zwei Sacks zu und wurde von den SEC-Trainern ins Second Team gewählt."
   },
   {
     "pick": 27,
-    "team": "Detroit Lions",
-    "teamAbbr": "DET",
-    "player": "Kelley Jones",
-    "position": "CB",
-    "college": "Mississippi State",
-    "consensus_pct": 27,
-    "reason_de": "Detroit braucht laut Bedarfsliste einen Cornerback. Jones ist für ESPN ein Top-5-Corner der Klasse, ein langer Press-Corner, der 2025 gegen SEC-Receiver überzeugte."
+    "team": "Kansas City Chiefs",
+    "teamAbbr": "KC",
+    "player": "Trevor Goosby",
+    "position": "OT",
+    "college": "Texas",
+    "consensus_pct": 100,
+    "reason_de": "Kansas City nimmt einen Tackle mit großem Rahmen. Goosby fällt seit dem 24. Oktober für den Rest der Saison aus, hatte bis dahin aber alle 396 Saison-Snaps als Left Tackle gespielt."
   },
   {
     "pick": 28,
-    "team": "Minnesota Vikings",
-    "teamAbbr": "MIN",
-    "player": "LaNorris Sellers",
-    "position": "QB",
-    "college": "South Carolina",
-    "consensus_pct": 9,
-    "reason_de": "Minnesota geht beim Quarterback ein kalkuliertes Risiko ein. Sellers ist das physisch aufregendste Paket der Klasse und steht nach neun Spielen bei 2.100 Passing-Yards, 17 Touchdowns und 637 Rushing-Yards, klar besser als 2025. Die Mocks sind an dieser Stelle weit gestreut."
-  },
-  {
-    "pick": 29,
-    "team": "Denver Broncos",
-    "teamAbbr": "DEN",
-    "player": "Jamari Johnson",
-    "position": "TE",
-    "college": "Oregon",
-    "consensus_pct": 25,
-    "reason_de": "Denver braucht laut Bedarfsliste einen Tight End. Johnson ist ESPNs TE1, Semifinalist für den John Mackey Award und kommt nach sieben Einsätzen auf 29 Catches für 370 Yards."
-  },
-  {
-    "pick": 30,
     "team": "Tennessee Titans",
     "teamAbbr": "TEN",
     "player": "Lance Heard",
     "position": "OT",
     "college": "Kentucky",
-    "consensus_pct": 25,
-    "reason_de": "Mit dem Pick der Bears holt Tennessee den zweiten Erstrundenspieler, diesmal für die Offensive Line. Heard ist ein früherer Top-Recruit mit 24 Karriere-Starts bei drei SEC-Programmen."
+    "consensus_pct": 17,
+    "reason_de": "Mit dem Pick der Bears holt Tennessee den zweiten Erstrundenspieler, diesmal für die Offensive Line. Heard ist ein früherer Top-Recruit mit 24 Karriere-Starts bei drei SEC-Programmen; ESPN nennt ihn einen Elite-Laufblocker mit Fragezeichen in der Pass-Protection."
+  },
+  {
+    "pick": 29,
+    "team": "Detroit Lions",
+    "teamAbbr": "DET",
+    "player": "Kade Pieper",
+    "position": "IOL",
+    "college": "Iowa",
+    "consensus_pct": 100,
+    "reason_de": "Detroit braucht laut Bedarfsliste einen Interior-Lineman. Pieper ist Halbfinalist für den Lombardi Award, startet als Right Guard in Iowas Line, die zu den Semifinalisten der Joe Moore Award gehört, und war 2025 First-Team All-America."
+  },
+  {
+    "pick": 30,
+    "team": "Denver Broncos",
+    "teamAbbr": "DEN",
+    "player": "Jamari Johnson",
+    "position": "TE",
+    "college": "Oregon",
+    "consensus_pct": 50,
+    "reason_de": "Denver braucht laut Bedarfsliste einen Tight End. Johnson ist ESPNs TE1 und Semifinalist für den John Mackey Award und kommt nach acht Einsätzen auf 32 Catches für 405 Yards und drei Touchdowns (Stand 15.11.)."
   },
   {
     "pick": 31,
     "team": "San Francisco 49ers",
     "teamAbbr": "SF",
-    "player": "Kade Pieper",
-    "position": "IOL",
-    "college": "Iowa",
-    "consensus_pct": 15,
-    "reason_de": "San Francisco nimmt einen Interior-Lineman. Pieper ist Lombardi-Halbfinalist, Iowas Offensive Line gehört zu den Semifinalisten der Joe Moore Award, und 2025 war er als Guard First-Team All-America."
+    "player": "Jackson Harris",
+    "position": "WR",
+    "college": "LSU",
+    "consensus_pct": 7,
+    "reason_de": "San Francisco nimmt den Aufsteiger des Herbstes. Harris kam über Stanford und Hawaii zu LSU und steht nach zehn Spielen bei 55 Catches, 864 Yards und neun Touchdowns (Stand 18.11.). Die Mocks sind an dieser Stelle besonders uneinig."
   },
   {
     "pick": 32,
     "team": "Buffalo Bills",
     "teamAbbr": "BUF",
-    "player": "Ryan Coleman-Williams",
-    "position": "WR",
-    "college": "Alabama",
-    "consensus_pct": 23,
-    "reason_de": "Buffalo schließt die erste Runde mit einem Receiver ab. Coleman-Williams kehrte nach zwei verpassten Spielen gegen LSU zurück und steht nach sieben Einsätzen bei 25 Catches, 429 Yards und fünf Touchdowns."
+    "player": "Kyngstonn Viliamu-Asa",
+    "position": "LB",
+    "college": "Notre Dame",
+    "consensus_pct": 22,
+    "reason_de": "Buffalo schließt die erste Runde mit einem Linebacker ab. Viliamu-Asa ist für ESPN Linebacker Nummer drei der Klasse und kommt nach sieben Einsätzen auf 29 Tackles, 3,5 Tackles for Loss, einen Sack und eine Interception (Stand 15.11.)."
   }
 ]

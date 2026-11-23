@@ -6168,7 +6168,7 @@
     "position": "DT",
     "college": "Texas",
     "height": "6'5\"",
-    "weight": "321 lbs",
+    "weight": "309 lbs",
     "ranking_pos": 12,
     "ranking_overall": 119,
     "forstner_statement": "Kanu ist für mich der deutsche Name, den ihr euch für 2027 merken müsst: ein Torwart, der heute 321 Pfund an der Line bewegt, das gibt es einfach nicht oft. Legt er als Pass-Rusher nach, reden wir über den zweiten, vielleicht sogar den ersten Tag.",
@@ -6177,8 +6177,8 @@
       "Backup",
       "Developmental"
     ],
-    "scouting_report_de": "Kaum eine Geschichte im College-Football klingt so unwahrscheinlich wie die von Hero Kanu. Der gebürtige Geltendorfer stand in Bayern als Fußball-Torwart im Tor, ehe er 2020 nach Kalifornien zog und dort zum ersten Mal Football spielte. Heute ist er ein 6'4\" großer, 321 Pfund schwerer Defensive Tackle, der nach drei Jahren und einem National Championship in Ohio State zu Texas wechselte und dort seine letzte College-Saison bestreitet. Auf dem Feld verbindet er für seine Masse eine seltene Beweglichkeit mit der Kraft, Doppelteams zu behaupten und die Pocket über die Mitte zu stauchen. Ein NFL-Scout brachte es zuletzt auf den Punkt: Legt er so weiter zu wie zum Ende der Saison 2025, hört er 2027 seinen Namen früh. Die Aufgabe für 2026 heißt Konstanz über eine ganze Saison und mehr Produktion als Pass-Rusher. Gelingt das, ist er der höchstgedraftete deutsche Defensivspieler seit Langem.",
-    "kurzprofil": "Der spannendste deutsche Prospect der Klasse: ein 321-Pfund-Interior-Verteidiger mit Torwart-Vergangenheit, der bei Texas nach drei Jahren in Ohio State zum Anführer der D-Line-Rotation geworden ist. NFL-Scouts sehen bei anhaltender Steigerung sogar Night-One-Potenzial.",
+    "scouting_report_de": "Kaum eine Geschichte im College-Football klingt so unwahrscheinlich wie die von Hero Kanu. Der gebürtige Geltendorfer stand in Bayern als Fußball-Torwart im Tor, ehe er 2020 nach Kalifornien zog und dort zum ersten Mal Football spielte. Heute ist er ein 6'5\" großer, 309 Pfund schwerer Defensive Tackle, der nach drei Jahren und einem National Championship in Ohio State zu Texas wechselte und dort seine letzte College-Saison bestreitet. Auf dem Feld verbindet er für seine Masse eine seltene Beweglichkeit mit der Kraft, Doppelteams zu behaupten und die Pocket über die Mitte zu stauchen. Ein NFL-Scout brachte es zuletzt auf den Punkt: Legt er so weiter zu wie zum Ende der Saison 2025, hört er 2027 seinen Namen früh. Die Aufgabe für 2026 heißt Konstanz über eine ganze Saison und mehr Produktion als Pass-Rusher. Gelingt das, ist er der höchstgedraftete deutsche Defensivspieler seit Langem.",
+    "kurzprofil": "Der spannendste deutsche Prospect der Klasse: ein 309-Pfund-Interior-Verteidiger mit Torwart-Vergangenheit, der bei Texas nach drei Jahren in Ohio State zum Anführer der D-Line-Rotation geworden ist. NFL-Scouts sehen bei anhaltender Steigerung sogar Night-One-Potenzial.",
     "best_case_nfl": "Sheldon Rankins (Peak) – beweglicher Interior-Disruptor, der aus dem 3-Technique heraus Druck über die Mitte erzeugt.",
     "worst_case_nfl": "Folorunso Fatukasi (a.D.) – kräftiger Run-Stopper, dessen begrenzter Pass-Rush ihn auf eine Zwei-Down-Rolle festlegt.",
     "class_year": "Senior",
@@ -6221,25 +6221,26 @@
   },
   {
     "name": "Brandon Baker",
-    "position": "OT",
+    "position": "IOL",
     "college": "Texas",
     "height": "6'4\"",
     "weight": "315 lbs",
-    "ranking_pos": 14,
+    "ranking_pos": 7,
     "ranking_overall": 120,
     "forstner_statement": "Baker ist technisch schon jetzt sauberer als viele Senioren - der Junge weiß, was er tut. Die einzige offene Frage steht auf dem Maßband beim Combine; fällt die Armlänge, bleibt er Tackle, und dann ist er ein Erstrunden-Kandidat.",
     "piktogramme": [
-      "Swing-Tackle",
-      "Developmental",
-      "Motor"
+      "Toughness",
+      "IQ",
+      "Depth"
     ],
-    "scouting_report_de": "Texas könnte mit Goosby und Baker gleich zwei Erstrunden-Bookends stellen - Baker ist der zweite Teil dieses Duos und für PFF der Nr.-3-Tackle der Klasse. Aus der Fünf-Sterne-Klasse 2024 kommend, ist er ein polierter Techniker, dessen Handarbeit und Fußwerk weiter sind als bei den meisten Gleichaltrigen. Bei 6'4\" und 315 Pfund gibt es nur eine Variable, die genau beobachtet wird: die Armlänge, die beim Combine akribisch vermessen wird und über den Verbleib auf Tackle oder einen Move nach innen mitentscheidet. Die Technik ist da, jetzt zählt die Anthropometrie.",
-    "kurzprofil": "PFFs Nr.-3-Tackle der Klasse – Texas stellt mit Goosby und Baker potenziell zwei Erstrunden-Bookends. Polierter Techniker aus der Fünf-Sterne-Klasse 2024; die Armlänge wird beim Combine genau vermessen werden.",
+    "scouting_report_de": "Baker kam aus der Fünf-Sterne-Klasse 2024 nach Texas und startete 2025 alle 13 Spiele auf Right Tackle; PFF führte ihn danach als Nr.-3-Tackle der Klasse. Nach dem Abgang von DJ Campbell rückte er 2026 auf Right Guard und hat dort laut offiziellem Texas-Kader alle zehn Spiele begonnen. Er ist ein polierter Techniker, dessen Handarbeit und Fußwerk weiter sind als bei den meisten Gleichaltrigen. Bei 6'4\" und 315 Pfund wird die Armlänge beim Combine genau vermessen: Sie entscheidet mit, ob NFL-Teams ihn fest als Guard einplanen oder ihm draußen eine zweite Chance geben. Die Starts auf beiden Positionen machen ihn für die NFL flexibel einsetzbar.",
+    "kurzprofil": "2025 Right Tackle, 2026 Right Guard: Baker startete bei Texas alle zehn Spiele innen, nachdem PFF ihn zuvor als Nr.-3-Tackle der Klasse geführt hatte. Polierter Techniker aus der Fünf-Sterne-Klasse 2024; die Armlänge beim Combine entscheidet mit, ob NFL-Teams ihn innen einplanen oder draußen noch einmal testen.",
     "best_case_nfl": "Tyler Smith (Cowboys) – polierter, physischer Techniker, der als Tackle oder Guard auf Pro-Bowl-Niveau blockt.",
-    "worst_case_nfl": "Isaiah Wynn (Dolphins) – kurzarmiger Tweener, der wegen der Armlänge nach innen wandert und ein durchschnittlicher, verletzungsanfälliger Starter bleibt.",
+    "worst_case_nfl": "Isaiah Wynn (Dolphins) – kurzarmiger Tweener, der als Guard ein durchschnittlicher, verletzungsanfälliger Starter bleibt.",
     "class_year": "Junior",
     "projection": "Runde 3-4",
     "sources": [
+      "texaslonghorns.com",
       "pff.com",
       "sportsgamingrosters.com",
       "sports.yahoo.com",
@@ -6251,16 +6252,18 @@
       "sports.yahoo.com": "https://sports.yahoo.com/articles/brandon-baker-move-aimed-help-220816573.html",
       "cfbstats.com": "https://cfbstats.com/2026/team/703/roster.html",
       "si.com": "https://www.si.com/college/texas/football/steve-sarkisian-confirms-key-position-change-for-texas-longhorns",
-      "kxan.com": "https://www.kxan.com/sports-general/horns-report/texas-football-brandon-baker-guard-offensive-line-run-game/amp/"
+      "kxan.com": "https://www.kxan.com/sports-general/horns-report/texas-football-brandon-baker-guard-offensive-line-run-game/amp/",
+      "texaslonghorns.com": "https://texaslonghorns.com/sports/football/roster/brandon-baker/17014"
     },
-    "quellen_anzahl": 6,
+    "quellen_anzahl": 7,
     "qualitaet": "geprueft",
     "deutsch": false,
     "herkunft": "",
     "naechste_generation": false,
-    "update_de": "Head Coach Steve Sarkisian bestätigte im März 2026 den Wechsel von Baker von Tackle auf Guard; nach dem Abgang von DJ Campbell soll er die rechte Seite verstärken, Melvin Siani rückt auf Right Tackle. Ein Spielbericht zur aktuellen Position liegt uns nicht vor.",
-    "update_stand": "2026-11-18",
+    "update_de": "Baker hat 2026 laut offiziellem Texas-Kader alle zehn Spiele als Right Guard begonnen, zuletzt bei LSU am 14. November. Den Wechsel von Right Tackle nach innen hatte Head Coach Steve Sarkisian im März bestätigt; nach dem Abgang von DJ Campbell spielt Melvin Siani Right Tackle.",
+    "update_stand": "2026-11-23",
     "update_sources": {
+      "texaslonghorns.com": "https://texaslonghorns.com/sports/football/roster/brandon-baker/17014",
       "si.com": "https://www.si.com/college/texas/football/steve-sarkisian-confirms-key-position-change-for-texas-longhorns",
       "kxan.com": "https://www.kxan.com/sports-general/horns-report/texas-football-brandon-baker-guard-offensive-line-run-game/amp/"
     },
@@ -6567,7 +6570,7 @@
     "college": "Nebraska",
     "height": "6'2\"",
     "weight": "315 lbs",
-    "ranking_pos": 7,
+    "ranking_pos": 8,
     "ranking_overall": 127,
     "forstner_statement": "1.900 Snaps und zwei Positionen – das ist die Art von Erfahrung, die ein Draft-Gremium beruhigt, auch wenn die Länge fehlt. Evans-Jenkins ist der Center, den ich mir für ein Zone-Team vorstelle.",
     "piktogramme": [
@@ -7571,7 +7574,7 @@
     "college": "James Madison",
     "height": "6'5\"",
     "weight": "300 lbs",
-    "ranking_pos": 8,
+    "ranking_pos": 9,
     "ranking_overall": 148,
     "forstner_statement": "Von den Unicorns in Schwäbisch Hall über Florida nach James Madison - Portnjagin geht den langen Weg, und den Wechsel finde ich goldrichtig. Für einen Guard in seinem Stadium zählt jeder Snap mehr als jeder Name auf dem Trikot. Ich führe ihn als Entwicklungsprofil, nicht als Draft-Pick.",
     "piktogramme": [
@@ -7613,7 +7616,7 @@
     "college": "Michigan",
     "height": "6'5\"",
     "weight": "312 lbs",
-    "ranking_pos": 9,
+    "ranking_pos": 10,
     "ranking_overall": 149,
     "forstner_statement": "Ein Frankfurter auf Bruce Feldmans Freaks List – das allein zeigt, welche Athletik in Beigel steckt. Der Wechsel von der Defensive auf die Offensive Line ist ein großer Schritt, aber genau solches Rohmaterial suchen NFL-Teams am dritten Draft-Tag. Ich bin gespannt, wie schnell er die neue Position verinnerlicht.",
     "piktogramme": [
@@ -7712,7 +7715,7 @@
     "college": "SMU",
     "height": "6'5\"",
     "weight": "306 lbs",
-    "ranking_pos": 15,
+    "ranking_pos": 14,
     "ranking_overall": 151,
     "forstner_statement": "Williams bringt körperlich fast alles mit, was ich von einem Tackle erwarte, aber technisch ist er noch nicht ganz fertig. Ich sehe ihn eher rechts als links, und ein Day-2-Talent ist er für mich schon. Mit sauberer Hand-Arbeit kann er zu einem interessanten Tackle-Prospect werden.",
     "piktogramme": [
@@ -9022,7 +9025,7 @@
     "college": "Kentucky",
     "height": "6'3\"",
     "weight": "308 lbs",
-    "ranking_pos": 10,
+    "ranking_pos": 11,
     "ranking_overall": 175,
     "forstner_statement": "Price ist für mich ein Center durch und durch, mit der Statur und der Armlänge für die Position, nicht für den Tackle. Dass er schon über 30 Spiele von Anfang an auf dem Feld stand, merkt man in der Pass-Protection. Er ist ein physischer Center, und das passt zu dem, was NFL-Teams nach den leichten Centern der letzten Jahre wieder suchen.",
     "piktogramme": [
@@ -9187,7 +9190,7 @@
     "college": "Houston",
     "height": "6'2\"",
     "weight": "304 lbs",
-    "ranking_pos": 11,
+    "ranking_pos": 12,
     "ranking_overall": 178,
     "forstner_statement": "Hurst hat in Tulane über mehrere Jahre bewiesen, dass er in Zone-Schemes funktioniert. Seine Füße sind sein Verkaufsargument, die 6-2 sind die Hürde. Ich sehe ihn als Day-3-Pick mit Backup-Etikett, der sich mit guten Wochen in Richtung Day 2 bewegen kann.",
     "piktogramme": [
@@ -9560,7 +9563,7 @@
     "college": "Oregon",
     "height": "6'5\"",
     "weight": "320 lbs",
-    "ranking_pos": 16,
+    "ranking_pos": 15,
     "ranking_overall": 185,
     "forstner_statement": "Bennett hat in Yale zwei Jahre lang gezeigt, dass er seine Gegner kontrollieren kann, das reicht mir aber nicht für ein Urteil. Wie hoch er am Ende gehandelt wird, hängt für mich an der zweiten Saisonhälfte gegen echtes Big-Ten-Niveau. Tackles bleiben begehrt, deshalb ist er ein Name, den ich im Winter weiter beobachte.",
     "piktogramme": [
@@ -9782,7 +9785,7 @@
     "college": "Michigan",
     "height": "6'6\"",
     "weight": "313 lbs",
-    "ranking_pos": 17,
+    "ranking_pos": 16,
     "ranking_overall": 189,
     "forstner_statement": "Link hatte ich vor der Saison ehrlich gesagt nicht auf dem Zettel, und lange war unklar, ob er eher Guard oder Tackle ist. Er hat aber regelmäßig auf beiden Tackle-Positionen gestartet und ist dort eine sichere Bank: groß, schwer, gute Beinarbeit und viel Spielerfahrung. Das Duell mit Sahir West von UCLA ist für mich ein echter Gradmesser.",
     "piktogramme": [
