@@ -8696,13 +8696,60 @@
     ]
   },
   {
+    "name": "Ryan Baer",
+    "position": "OT",
+    "college": "Pittsburgh",
+    "height": "6'7\"",
+    "weight": "325 lbs",
+    "ranking_pos": 15,
+    "ranking_overall": 169,
+    "forstner_statement": null,
+    "piktogramme": [
+      "Depth",
+      "Power",
+      "Versatility"
+    ],
+    "scouting_report_de": "Ryan Baer kam im Januar 2022 als Frühabsolvent der North High School in Eastlake (Ohio) nach Pittsburgh; ESPN hatte ihn als Nummer 11 der Talente aus Ohio geführt. Nach einem Redshirt-Jahr rückte er im September 2023 nach der Verletzung von Matt Goncalves in die Startformation und hat seitdem 35 Spiele als Tackle begonnen: 2023 neun (acht rechts, eines links gegen Notre Dame), 2024 alle 13 (acht rechts, die letzten fünf links) und 2025 alle 13 auf Right Tackle, belohnt mit der Honorable Mention im All-ACC-Team. Auch 2026 spielt er laut WalterFootball Right Tackle. Mit 6'7\" und 325 Pfund (offizieller Pitt-Kader) bringt er die Maße eines NFL-Right-Tackles mit. Bruce Feldman setzte ihn auf Platz 70 seiner Freaks-Liste: über 18 mph Höchstgeschwindigkeit, 28,5 Zoll Vertical, 9 Fuß Broad Jump und 435 Pfund im Bankdrücken bei 15 Prozent Körperfett; Head Coach Pat Narduzzi nennt ihn einen seltenen Athleten. Bei der Einordnung sind sich die Boards uneinig: Rob Rang (Fox Sports) hatte ihn im Frühjahr in einem frühen Mock auf Pick 25, im NFLMDD-Consensus steht er Ende November nur auf Rang 185 mit Projektion Runde 6, WalterFootball sieht ihn in Runde 4 bis 6 und als möglichen Swing-Backup für beide Seiten. Eigene Pass-Block-Werte für 2026 liegen uns nicht vor. Als Redshirt-Senior spielt er seine letzte College-Saison und ist für den Draft 2027 berechtigt.",
+    "kurzprofil": "Riese mit 35 Starts als Tackle (29 rechts, 6 links) und Honorable Mention All-ACC 2025. 6'7\" und 325 Pfund laut offiziellem Pitt-Kader, dazu Athletikwerte, mit denen ihn Bruce Feldman auf Platz 70 seiner Freaks-Liste 2026 setzte. Im NFLMDD-Consensus auf Rang 185 mit Projektion Runde 6 (Stand 23.11.2026), WalterFootball sieht ihn in Runde 4 bis 6.",
+    "best_case_nfl": "Ein langer, athletischer Right Tackle, der die Erfahrung aus 35 College-Starts in eine feste Starterrolle auf der rechten Seite übersetzt.",
+    "worst_case_nfl": "Ein Swing-Backup für beide Tackle-Seiten, dessen Athletik sich nicht in konstante Technik gegen NFL-Edge-Rusher übersetzt.",
+    "class_year": "RS Senior",
+    "projection": "Day 3",
+    "sources": [
+      "pittsburghpanthers.com",
+      "on3.com",
+      "walterfootball.com",
+      "nflmockdraftdatabase.com",
+      "atozsports.com"
+    ],
+    "source_urls": {
+      "pittsburghpanthers.com": "https://pittsburghpanthers.com/sports/football/roster/ryan-baer/15126",
+      "on3.com": "https://www.on3.com/sites/pitt-sports-news/news/pitt-lands-new-representative-on-college-football-freaks-list/",
+      "walterfootball.com": "https://walterfootball.com/OTRankings2027.php",
+      "nflmockdraftdatabase.com": "https://www.nflmockdraftdatabase.com/players/2027/ryan-baer",
+      "atozsports.com": "https://atozsports.com/nfl-draft/2027-nfl-draft-offensive-tackle-rankings-jordan-seaton-trevor-goosby-melvin-siani-trevor-lauck/"
+    },
+    "quellen_anzahl": 5,
+    "qualitaet": "geprueft",
+    "deutsch": false,
+    "herkunft": "",
+    "naechste_generation": false,
+    "update_de": "Baer startet 2026 laut WalterFootball (Stand 11.11.2026) auf Right Tackle. Im Consensus Big Board der NFL Mock Draft Database steht er auf Rang 185 mit Projektion Runde 6 (Stand 23.11.2026).",
+    "update_stand": "2026-11-23",
+    "update_sources": {
+      "walterfootball.com": "https://walterfootball.com/OTRankings2027.php",
+      "nflmockdraftdatabase.com": "https://www.nflmockdraftdatabase.com/players/2027/ryan-baer"
+    },
+    "podcast_stimmen": []
+  },
+  {
     "name": "Noah Fifita",
     "position": "QB",
     "college": "Arizona",
     "height": "5'10\"",
     "weight": "190 lbs",
     "ranking_pos": 19,
-    "ranking_overall": 169,
+    "ranking_overall": 170,
     "forstner_statement": "Fifita ist unheimlich flink und konvertiert viele Third Downs, und er hat in Arizona Großes geleistet. Mit seiner Größe fällt er für mich am Ende wahrscheinlich im Draft durchs Raster. Für den europäischen Football wäre er dagegen ein richtig interessanter Name.",
     "piktogramme": [
       "Toughness",
@@ -8761,7 +8808,7 @@
     "height": "6'2\"",
     "weight": "215 lbs",
     "ranking_pos": 20,
-    "ranking_overall": 170,
+    "ranking_overall": 171,
     "forstner_statement": "Pribula passt in ein Spielsystem, das Quarterback-Läufe einbaut, und seine Interception-Quote 2026 ist stark. Mit nur 18 Starts ist die Datenbasis aber dünn. Ich sehe ihn heute als Randfigur im Draft, aber nicht als Verlierer.",
     "piktogramme": [
       "Toughness",
@@ -8810,7 +8857,7 @@
     "height": "6'1\"",
     "weight": "218 lbs",
     "ranking_pos": 21,
-    "ranking_overall": 171,
+    "ranking_overall": 172,
     "forstner_statement": "Mateer hat den Mut und die Anlagen eines Quarterbacks, dem ich in der NFL einiges zutraue. Dass er 2025 und im laufenden Jahr nicht an seine Zahlen von Washington State anknüpft, ist ein Warnsignal. Ich sehe ihn aktuell als Spieler, der sich über die Entscheidungsfindung seinen Platz zurückholen muss.",
     "piktogramme": [
       "Toughness",
@@ -8869,7 +8916,7 @@
     "height": "6'1\"",
     "weight": "210 lbs",
     "ranking_pos": 22,
-    "ranking_overall": 172,
+    "ranking_overall": 173,
     "forstner_statement": "Becht bringt viel Erfahrung mit, und Penn State hat auf der Position einen echten Fund gemacht. Die Erfahrung ist sein Pluspunkt, die Frage ist, ob das Armtalent für mehr als eine Backup-Rolle reicht. Für mich ist er ein Spieler, den man genau beobachten sollte.",
     "piktogramme": [
       "Toughness",
@@ -8920,7 +8967,7 @@
     "height": "6'1\"",
     "weight": "215 lbs",
     "ranking_pos": 23,
-    "ranking_overall": 173,
+    "ranking_overall": 174,
     "forstner_statement": "Stockton ist für mich ein Quarterback, der in Georgias System sauber funktioniert und viele Pässe sicher anbringt. Die Zahlen sind gut, aber ein Teil davon kommt aus dem Laufspiel und aus der Struktur um ihn herum. Für die NFL sehe ich ihn als Backup mit Day-3-Aussichten, nicht als Franchise-Quarterback.",
     "piktogramme": [
       "Toughness",
@@ -8973,7 +9020,7 @@
     "height": "6'4\"",
     "weight": "225 lbs",
     "ranking_pos": 24,
-    "ranking_overall": 174,
+    "ranking_overall": 175,
     "forstner_statement": "Bei Chiles sehe ich vor allem das Decision Making: Mit nur einer Interception und einer Completion Rate um 70 Prozent hat er sich in diesem Jahr verbessert. Seine Vita mit drei Schulen in drei Jahren spielt trotzdem mit. Er hat sich noch nicht ganz nach vorne gespielt, bleibt aber ein Name bei den hinteren Quarterbacks.",
     "piktogramme": [
       "Toughness",
@@ -9026,7 +9073,7 @@
     "height": "6'3\"",
     "weight": "308 lbs",
     "ranking_pos": 11,
-    "ranking_overall": 175,
+    "ranking_overall": 176,
     "forstner_statement": "Price ist für mich ein Center durch und durch, mit der Statur und der Armlänge für die Position, nicht für den Tackle. Dass er schon über 30 Spiele von Anfang an auf dem Feld stand, merkt man in der Pass-Protection. Er ist ein physischer Center, und das passt zu dem, was NFL-Teams nach den leichten Centern der letzten Jahre wieder suchen.",
     "piktogramme": [
       "Spec. Scheme",
@@ -9079,7 +9126,7 @@
     "height": "6'1\"",
     "weight": "215 lbs",
     "ranking_pos": 24,
-    "ranking_overall": 176,
+    "ranking_overall": 177,
     "forstner_statement": "Dixon ist der Typ Receiver, der in den Boards leicht untergeht. Die Produktion in dieser Saison ist aber da, und mit körperlichen Qualitäten und sicheren Händen passt er in die Rolle, die Leinweber beschrieben hat. Ich würde ihn für eine Day-3-Rolle oder einen Camp-Platz auf dem Zettel behalten, vor allem, wenn er bei einem All-Star-Game überzeugt.",
     "piktogramme": [
       "Deep Threat",
@@ -9132,7 +9179,7 @@
     "height": "6'0\"",
     "weight": "210 lbs",
     "ranking_pos": 12,
-    "ranking_overall": 177,
+    "ranking_overall": 178,
     "forstner_statement": "Hughes hat Contact Balance, wie sie nicht jeder Back mitbringt, und er fällt beim ersten Kontakt kaum. Seine Produktion lag früher höher, und im Passspiel hat er bisher wenig gezeigt. Er ist für mich ein Rotationsspieler, der sich über Zwischenraum-Läufe empfehlen kann.",
     "piktogramme": [
       "Physikalität",
@@ -9191,7 +9238,7 @@
     "height": "6'2\"",
     "weight": "304 lbs",
     "ranking_pos": 12,
-    "ranking_overall": 178,
+    "ranking_overall": 179,
     "forstner_statement": "Hurst hat in Tulane über mehrere Jahre bewiesen, dass er in Zone-Schemes funktioniert. Seine Füße sind sein Verkaufsargument, die 6-2 sind die Hürde. Ich sehe ihn als Day-3-Pick mit Backup-Etikett, der sich mit guten Wochen in Richtung Day 2 bewegen kann.",
     "piktogramme": [
       "Spec. Scheme",
@@ -9240,7 +9287,7 @@
     "height": "6'2\"",
     "weight": "230 lbs",
     "ranking_pos": 15,
-    "ranking_overall": 179,
+    "ranking_overall": 180,
     "forstner_statement": "Lightsey ist ein instinktiver Run Defender und ein Leader seiner Defense, das sieht man. In der Coverage sehe ich bei ihm aber Probleme, und das begrenzt ihn in der heutigen NFL. Ich ordne ihn als Run-Stopper für zwei Downs und Special-Teams-Spieler ein.",
     "piktogramme": [
       "Backup",
@@ -9289,7 +9336,7 @@
     "height": "6'3\"",
     "weight": "235 lbs",
     "ranking_pos": 25,
-    "ranking_overall": 180,
+    "ranking_overall": 181,
     "forstner_statement": "Brown nenne ich seit drei Jahren im Podcast, und das Georgia-Spiel hat gezeigt, warum: groß, robust, mit Arm und Beinen. Jetzt, wo er im SEC-Fokus steht, wird sich zeigen, ob die Boards mitziehen. Die Wurfmechanik und die Ballsicherheit sind die Fragen, an denen sich sein Stock entscheidet.",
     "piktogramme": [
       "Toughness",
@@ -9344,7 +9391,7 @@
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 26,
-    "ranking_overall": 181,
+    "ranking_overall": 182,
     "forstner_statement": "Dampier ist ein Spieler, der der Offense permanent einen Funken gibt, vor allem mit den Beinen. Dass er jetzt auch als Werfer 68 Prozent seiner Pässe anbringt, macht seine Saison für mich noch interessanter. Die 5-11 und die Frage, wie weit er als Passer geht, entscheiden aber, wie hoch ihn NFL-Teams überhaupt nehmen.",
     "piktogramme": [
       "Toughness",
@@ -9399,7 +9446,7 @@
     "height": "6'3\"",
     "weight": "210 lbs",
     "ranking_pos": 25,
-    "ranking_overall": 182,
+    "ranking_overall": 183,
     "forstner_statement": "Pegan ist ein Spieler, den die Boards noch nicht auf dem Radar haben, obwohl die Produktion stimmt. Er hat Größe, Hände und gewinnt Duelle am Ball. Ohne Speed bleibt er für mich ein Thema für den dritten Tag.",
     "piktogramme": [
       "Deep Threat",
@@ -9454,7 +9501,7 @@
     "height": "5'11\"",
     "weight": "210 lbs",
     "ranking_pos": 26,
-    "ranking_overall": 183,
+    "ranking_overall": 184,
     "forstner_statement": "Burton ist für mich noch kein relevantes Draft-Prospect, das sage ich ganz offen. Er ist ein verlässlicher Slot-Receiver, der seine Catches macht, mehr nicht. Ich behalte ihn im Auge, würde ihn aber nicht überhöhen.",
     "piktogramme": [
       "Deep Threat",
@@ -9507,7 +9554,7 @@
     "height": "6'0\"",
     "weight": "190 lbs",
     "ranking_pos": 13,
-    "ranking_overall": 184,
+    "ranking_overall": 185,
     "forstner_statement": "Johnson ist für mich ein klassischer Change-of-Pace-Back mit Speed, der bei Clemson noch nicht zum Starter geworden ist. Seine Zahlen bei SMU waren effizient, aber bei kleinem Volumen. Für die NFL sehe ich ihn vor allem über Special Teams und eine dritte Back-Rolle, Day 3 ist die Obergrenze.",
     "piktogramme": [
       "Physikalität",
@@ -9563,8 +9610,8 @@
     "college": "Oregon",
     "height": "6'5\"",
     "weight": "320 lbs",
-    "ranking_pos": 15,
-    "ranking_overall": 185,
+    "ranking_pos": 16,
+    "ranking_overall": 186,
     "forstner_statement": "Bennett hat in Yale zwei Jahre lang gezeigt, dass er seine Gegner kontrollieren kann, das reicht mir aber nicht für ein Urteil. Wie hoch er am Ende gehandelt wird, hängt für mich an der zweiten Saisonhälfte gegen echtes Big-Ten-Niveau. Tackles bleiben begehrt, deshalb ist er ein Name, den ich im Winter weiter beobachte.",
     "piktogramme": [
       "Depth",
@@ -9617,7 +9664,7 @@
     "height": "6'3\"",
     "weight": "230 lbs",
     "ranking_pos": 27,
-    "ranking_overall": 186,
+    "ranking_overall": 187,
     "forstner_statement": "Die Ivy-League-Zahlen sind außergewöhnlich, und ich verstehe den Hype um Craig. Seine Zahlen bei TCU sind solide, aber nicht dominant, und die Interceptions liegen höher als in Harvard. Für mich bleibt er ein spannender Transfer-Quarterback mit Day-3-Profil, der im Winter bei den All-Star-Games zeigen muss, ob er das Tempo der Big 12 wirklich im Griff hat.",
     "piktogramme": [
       "Toughness",
@@ -9674,7 +9721,7 @@
     "height": "5'11\"",
     "weight": "190 lbs",
     "ranking_pos": 18,
-    "ranking_overall": 187,
+    "ranking_overall": 188,
     "forstner_statement": "Brown ist für mich ein später Entwickler, der nach sechs Jahren im Programm endlich seine Chance bekommt, und er hat sie mit zwei Interceptions und dem Pick-Six genutzt. Die Boards kennen ihn noch kaum. Ich sehe ihn als Day-3-Kandidaten, der über Special Teams und Nickel-Einsätze in die NFL kommen kann.",
     "piktogramme": [
       "Backup",
@@ -9731,7 +9778,7 @@
     "height": "6'3\"",
     "weight": "279 lbs",
     "ranking_pos": 22,
-    "ranking_overall": 188,
+    "ranking_overall": 189,
     "forstner_statement": "West ist für mich wahnsinnig produktiv, er ist über zwei Jahre ständig hinter der Line of Scrimmage. Wenn das so weitergeht, kommt man an einer Diskussion über die frühen Runden nicht vorbei, auch wenn seine Statur schwer einzuordnen ist und ich keinen passenden NFL-Vergleich finde. Das Duell mit Evan Link von Michigan ist für mich der Gradmesser.",
     "piktogramme": [
       "Depth",
@@ -9785,8 +9832,8 @@
     "college": "Michigan",
     "height": "6'6\"",
     "weight": "313 lbs",
-    "ranking_pos": 16,
-    "ranking_overall": 189,
+    "ranking_pos": 17,
+    "ranking_overall": 190,
     "forstner_statement": "Link hatte ich vor der Saison ehrlich gesagt nicht auf dem Zettel, und lange war unklar, ob er eher Guard oder Tackle ist. Er hat aber regelmäßig auf beiden Tackle-Positionen gestartet und ist dort eine sichere Bank: groß, schwer, gute Beinarbeit und viel Spielerfahrung. Das Duell mit Sahir West von UCLA ist für mich ein echter Gradmesser.",
     "piktogramme": [
       "Swing-Tackle",
@@ -9835,7 +9882,7 @@
     "height": "5'7\"",
     "weight": "193 lbs",
     "ranking_pos": 14,
-    "ranking_overall": 190,
+    "ranking_overall": 191,
     "forstner_statement": "Knight holt für mich unglaublich viel aus seinen Anlagen heraus, die Produktion bei JMU und jetzt bei UCLA spricht für sich. Mit seinen Maßen und ohne echten Top-Speed wird er in der NFL kein Lead Back, aber als Receiver aus dem Backfield und Returner sehe ich einen klaren Day-3-Weg.",
     "piktogramme": [
       "Physikalität",
