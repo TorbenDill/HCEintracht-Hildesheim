@@ -23,6 +23,12 @@ import HomeBoard from "@/components/HomeBoard";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 import { pageMetadata } from "@/lib/seo";
 
+// Offizieller Termin: NFL-Mitteilung vom 25.06.2026,
+// https://www.nfl.com/news/nfl-announces-dates-for-2027-draft-in-washington-d-c
+const DRAFT_TERMINE: Record<number, string> = {
+  2027: "Der NFL Draft 2027 findet von Donnerstag, 29. April, bis Samstag, 1. Mai 2027 in Washington, D.C. statt: Runde 1 am Donnerstag, Runden 2 und 3 am Freitag, Runden 4 bis 7 am Samstag.",
+};
+
 function germanDate(iso: string): string {
   const [y, m, d] = iso.split("-");
   return d ? `${d}.${m}.${y}` : iso;
@@ -77,8 +83,12 @@ export default function Home() {
       a: `Grundlage ist das Consensus Big Board der NFL Mock Draft Database, das ${meta.consensus.boards} Big Boards und ${meta.consensus.mocks} Mock Drafts bündelt. Jede Woche gleichen wir es mit weiteren datierten Einzel-Boards ab; einen Rang ändern wir nur, wenn mehrere dieser Boards deutlich abweichen. Spieler außerhalb des Consensus ordnen wir über die Einzel-Boards ein. Jedes Profil ist mit mindestens drei unabhängigen Quellen belegt.`,
     },
     {
-      q: `Wann findet der NFL Draft ${meta.draftYear} statt?`,
-      a: `Der NFL Draft ${meta.draftYear} findet traditionell Ende April statt. Die Draft-Reihenfolge ergibt sich aus der laufenden NFL-Saison ${meta.draftYear - 1}; unser Mock Draft nutzt den Tabellenstand nach Woche ${standings.week} inklusive aller getauschten Picks.`,
+      q: `Wann ist der NFL Draft ${meta.draftYear} und wer hat den ersten Pick?`,
+      a: `${
+        DRAFT_TERMINE[meta.draftYear] ?? `Der NFL Draft ${meta.draftYear} findet traditionell Ende April statt.`
+      } Die Draft-Reihenfolge ergibt sich aus der laufenden NFL-Saison ${meta.draftYear - 1} und steht noch nicht fest.${
+        mock[0] ? ` Nach dem Tabellenstand von Woche ${standings.week}, den unser Mock Draft inklusive aller getauschten Picks nutzt, hätten die ${mock[0].team} den ersten Pick.` : ""
+      }`,
     },
     {
       q: `Gibt es deutsche Spieler im NFL Draft ${meta.draftYear}?`,
