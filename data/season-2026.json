@@ -2,8 +2,8 @@
   "meta": {
     "source": "cfbstats.com",
     "season": 2026,
-    "through": "11/18/2026",
-    "generated": "2026-11-20"
+    "through": "11/24/2026",
+    "generated": "2026-11-26"
   },
   "board": {
     "jeremiah-smith": {
@@ -8770,6 +8770,19 @@
       },
       "games": 7
     },
+    "ryan-baer": {
+      "team": "pittsburgh",
+      "roster_name": "Ryan Baer",
+      "number": "70",
+      "pos": "OL",
+      "yr": "SR",
+      "ht": "6-7",
+      "wt": "325",
+      "hometown": "Eastlake, OH",
+      "url": "https://cfbstats.com/2026/team/545/roster.html",
+      "stats": null,
+      "games": null
+    },
     "noah-fifita": {
       "team": "arizona",
       "roster_name": "Noah Fifita",
@@ -10148,6 +10161,92 @@
         }
       },
       "games": 10
+    },
+    "jackson-harris": {
+      "team": "lsu",
+      "roster_name": "Jackson Harris",
+      "number": "4",
+      "pos": "WR",
+      "yr": "JR",
+      "ht": "6-2",
+      "wt": "205",
+      "hometown": "Berkeley, CA",
+      "url": "https://cfbstats.com/2026/player/365/2000690/index.html",
+      "stats": {
+        "receiving": {
+          "g": 11,
+          "rec": 57,
+          "rec-yard": 871,
+          "rec-avg": 15.28,
+          "rec-td": 9,
+          "rec-g": 5.2,
+          "rec-yard-g": 79.2
+        },
+        "passing": {
+          "g": 11,
+          "pass-att": 1,
+          "pass-comp": 1,
+          "pass-pct": 100,
+          "pass-yard": 41,
+          "pass-yard-att": 41,
+          "pass-td": 1,
+          "pass-int": 0,
+          "pass-rating": 774.4,
+          "pass-att-g": 0.1,
+          "pass-yard-g": 3.7
+        },
+        "kickoff returns": {
+          "g": 11,
+          "kick-ret": 0,
+          "kick-ret-yard": 9,
+          "kick-ret-avg": "-",
+          "kick-ret-td": 0,
+          "kick-ret-g": 0,
+          "kick-ret-yard-g": 0.8
+        },
+        "scoring": {
+          "g": 11,
+          "scoring-td": 9,
+          "scoring-fg": 0,
+          "scoring-one-pt": 0,
+          "scoring-two-pt": 0,
+          "scoring-safety": 0,
+          "scoring-pt": 54,
+          "scoring-pt-g": 4.9
+        },
+        "total offense": {
+          "g": 11,
+          "total-off-rush": 0,
+          "total-off-pass": 41,
+          "total-off-play": 1,
+          "total-off-yard": 41,
+          "total-off-yard-play": 41,
+          "total-off-yard-g": 3.7
+        },
+        "all-purpose running": {
+          "g": 11,
+          "all-purpose-rush": 0,
+          "all-purpose-recv": 871,
+          "all-purpose-punt-ret": 0,
+          "all-purpose-kick-ret": 9,
+          "all-purpose-int-ret": 0,
+          "all-purpose-plays": 57,
+          "all-purpose-total-yard": 880,
+          "all-purpose-yard-play": 15.4,
+          "all-purpose-yard-g": 80
+        },
+        "yards from scrimmage": {
+          "g": 11,
+          "yards-from-scrimmage-rush": 0,
+          "yards-from-scrimmage-recv": 871,
+          "yards-from-scrimmage-td": 9,
+          "yards-from-scrimmage-play": 57,
+          "yards-from-scrimmage-total-yard": 871,
+          "yards-from-scrimmage-yard-play": 15.3,
+          "yards-from-scrimmage-yard-g": 79.2
+        }
+      },
+      "games": 11
     }
   },
   "extra": {}
