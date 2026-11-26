@@ -35,6 +35,9 @@ export async function generateStaticParams() {
   return players.map((p) => ({ slug: getPlayerSlug(p.name) }));
 }
 
+/** Profile im Snippet-Test (siehe generateMetadata). */
+const SNIPPET_TEST = new Set(["drew-mestemaker"]);
+
 export async function generateMetadata({
   params,
 }: {
@@ -67,6 +70,57 @@ export async function generateMetadata({
     158
   );
   const path = `/player/${getPlayerSlug(player.name)}`;
+
+  // Snippet-Test (SEO-Wochenreport KW 48): Profile mit vielen Impressionen,
+  // aber kaum Klicks bekommen einen Title mit Suchabsicht und eine
+  // Description, die mit Rang und Prognose beginnt statt den Title zu
+  // wiederholen. Weiterhin rein datengetrieben, damit Rang/Zahlen aktuell
+  // bleiben. Prüfung 23.12.2026, danach ggf. auf alle Profile übertragen.
+  if (SNIPPET_TEST.has(getPlayerSlug(player.name))) {
+    const testTitle = `${player.name}: Draft-Prognose ${draftJahr}, Stats & Scouting-Report`;
+    const rang = [
+      player.ranking_pos != null && !player.naechste_generation
+        ? `Nr. ${player.ranking_pos} der ${player.position}s`
+        : "",
+      player.ranking_overall != null ? `Gesamtrang ${player.ranking_overall}` : "",
+      player.projection ? `Draft-Prognose ${player.projection}` : "",
+    ].filter(Boolean);
+    const first =
+      `${player.name} (${player.position}, ${player.college})` +
+      (rang.length ? `: ${rang.join(", ")}.` : ".");
+    const parts = [first, seasonLine(season), "Mit Scouting-Report und NFL-Vergleich."]
+      .filter(Boolean) as string[];
+    // Nur ganze Sätze, solange sie in 158 Zeichen passen.
+    let testDescription = parts[0];
+    for (const part of parts.slice(1)) {
+      if (`${testDescription} ${part}`.length <= 158) testDescription += ` ${part}`;
+    }
+    return {
+      title: { absolute: testTitle },
+      description: testDescription,
+      alternates: { canonical: path },
+      openGraph: {
+        type: "profile",
+        title: testTitle,
+        description: testDescription,
+        url: absoluteUrl(path),
+        images: [
+          {
+            url: absoluteUrl(`/og/player/${getPlayerSlug(player.name)}`),
+            width: 1200,
+            height: 630,
+            alt: player.name,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: testTitle,
+        description: testDescription,
+        images: [absoluteUrl(`/og/player/${getPlayerSlug(player.name)}`)],
+      },
+    };
+  }
 
   return {
     title,

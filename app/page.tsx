@@ -23,10 +23,11 @@ import HomeBoard from "@/components/HomeBoard";
 import { safeJsonLd, safeExternalUrl } from "@/lib/security";
 import { pageMetadata } from "@/lib/seo";
 
-// Offizieller Termin: NFL-Mitteilung vom 25.06.2026,
+// Offizieller Termin und Ort: NFL-Mitteilung (geprüft 26.11.2026); die
+// Rundenverteilung je Tag nennt die Mitteilung nicht, daher bewusst weggelassen.
 // https://www.nfl.com/news/nfl-announces-dates-for-2027-draft-in-washington-d-c
 const DRAFT_TERMINE: Record<number, string> = {
-  2027: "Der NFL Draft 2027 findet von Donnerstag, 29. April, bis Samstag, 1. Mai 2027 in Washington, D.C. statt: Runde 1 am Donnerstag, Runden 2 und 3 am Freitag, Runden 4 bis 7 am Samstag.",
+  2027: "Der NFL Draft 2027 findet von Donnerstag, 29. April, bis Samstag, 1. Mai 2027 in Washington, D.C. statt, auf der National Mall vor dem Kapitol.",
 };
 
 function germanDate(iso: string): string {

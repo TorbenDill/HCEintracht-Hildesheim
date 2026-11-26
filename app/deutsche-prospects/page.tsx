@@ -11,6 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import PlayerAvatar from "@/components/PlayerAvatar";
 import { safeJsonLd } from "@/lib/security";
 import { pageMetadata } from "@/lib/seo";
+import { formatDateDe } from "@/lib/experts";
 
 export const metadata = pageMetadata({
   title: "Deutsche NFL-Draft-Prospects 2027",
@@ -58,6 +59,12 @@ export default function DeutscheProspectsPage() {
           <h1 className="mb-3 font-display text-4xl font-semibold uppercase tracking-tight text-foreground lg:text-5xl">
             Deutsche <span className="text-primary">Prospects</span> 2027
           </h1>
+          <p className="mb-4 max-w-2xl text-base font-semibold leading-relaxed text-foreground">
+            {prospects.length} deutsche Spieler stehen im Big Board für den NFL
+            Draft {meta.draftYear}, Stand {formatDateDe(meta.updated)}.
+            {nextGen.length > 0 &&
+              ` Daneben führen wir ${nextGen.length} deutsche D1-Talente, die erst ab ${meta.draftYear + 1} draft-berechtigt sind.`}
+          </p>
           <p className="max-w-2xl text-sm leading-relaxed text-muted">
             So viele deutsche Spieler wie nie stehen in den Rostern der NCAA
             Division 1. Diese Kategorie bündelt die deutschen Talente mit dem
