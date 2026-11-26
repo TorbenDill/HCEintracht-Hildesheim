@@ -630,8 +630,8 @@ export default function BoardEditor() {
               {Icon.plus} Spieler
             </button>
             <span className="mx-1 hidden w-px self-stretch bg-border sm:block" aria-hidden="true" />
-            <button type="button" onClick={copyShare} className={btnGhost}>Link teilen</button>
-            <button type="button" onClick={exportText} className={btnGhost}>Als Text</button>
+            <button type="button" onClick={copyShare} className={btnGhost} data-ga-event="board_export" data-ga-label="link">Link teilen</button>
+            <button type="button" onClick={exportText} className={btnGhost} data-ga-event="board_export" data-ga-label="text">Als Text</button>
             <span className="mx-1 hidden w-px self-stretch bg-border sm:block" aria-hidden="true" />
             <button type="button" onClick={sortByConsensus} className={btnGhost}>Nach Consensus</button>
             <button type="button" onClick={() => setConfirmReset((c) => !c)} aria-expanded={confirmReset} className={btnGhost}>
@@ -642,13 +642,13 @@ export default function BoardEditor() {
 
         <div className="mt-3 flex flex-wrap items-center gap-2 rounded-xl bg-surface-light/60 p-2">
           <span className="px-1 text-[11px] font-bold uppercase tracking-wider text-muted">Download</span>
-          <button type="button" onClick={() => exportPng("feed")} disabled={Boolean(busy)} className={btnPrimary}>
+          <button type="button" onClick={() => exportPng("feed")} disabled={Boolean(busy)} className={btnPrimary} data-ga-event="board_export" data-ga-label="png_feed">
             {busy === "feed" ? "Erzeuge …" : "PNG Feed 4:5"}
           </button>
-          <button type="button" onClick={() => exportPng("story")} disabled={Boolean(busy)} className={btnPrimary}>
+          <button type="button" onClick={() => exportPng("story")} disabled={Boolean(busy)} className={btnPrimary} data-ga-event="board_export" data-ga-label="png_story">
             {busy === "story" ? "Erzeuge …" : "PNG Story 9:16"}
           </button>
-          <button type="button" onClick={exportPdf} disabled={Boolean(busy)} className={btnPrimary}>
+          <button type="button" onClick={exportPdf} disabled={Boolean(busy)} className={btnPrimary} data-ga-event="board_export" data-ga-label="pdf">
             {busy === "pdf" ? "Erzeuge …" : "PDF für den Draft"}
           </button>
           <span className="px-1 text-[10px] text-muted">PNG: deine Top 32 · PDF: ganzes Board mit Notizen</span>

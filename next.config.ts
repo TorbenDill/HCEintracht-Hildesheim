@@ -10,17 +10,18 @@ const CANONICAL = "https://www.nfldraft-scouting.de";
 // Inline-Scripts (RSC-Payload) und JSON-LD-Bloecke ins HTML; Nonces wuerden
 // dynamisches Rendering erzwingen. Deshalb script-src mit 'unsafe-inline',
 // aber ohne fremde Script-Hosts – das blockiert nachgeladene Fremd-Skripte,
-// fremde Verbindungen (connect-src), Plugins, <base>-Hijacking und Framing.
+// fremde Verbindungen (connect-src) – Ausnahme: Google Analytics, das erst nach
+// Einwilligung geladen wird (components/Einwilligung.tsx) –, Plugins, <base>-Hijacking und Framing.
 // Bilder kommen teils von externen https-Quellen (Wikimedia, Pexels).
 // Im Dev-Modus braucht React 'unsafe-eval' + HMR-WebSocket, daher nur in Prod.
 const isProd = process.env.NODE_ENV === "production";
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'",
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https:",
   "font-src 'self' data:",
-  "connect-src 'self'",
+  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com",
   "frame-src 'none'",
   "object-src 'none'",
   "base-uri 'self'",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import SiteHeader from "@/components/SiteHeader";
+import Einwilligung, { EinwilligungOeffnen } from "@/components/Einwilligung";
 import "@fontsource-variable/archivo";
 import "@fontsource-variable/oswald";
 import "@fontsource-variable/jetbrains-mono";
@@ -109,9 +110,11 @@ export default function RootLayout({
               <Link href="/datenschutz" className="hover:text-primary">
                 Datenschutz
               </Link>
+              <EinwilligungOeffnen className="hover:text-primary" />
             </nav>
           </div>
         </footer>
+        <Einwilligung />
       </body>
     </html>
   );

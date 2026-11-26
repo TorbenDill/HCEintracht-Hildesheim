@@ -601,12 +601,16 @@ export default function MockSimulator() {
           <div className="flex flex-wrap gap-3">
             <button
               onClick={() => drawAndDownload("4:5")}
+              data-ga-event="simulator_export"
+              data-ga-label="png_feed"
               className="rounded-full bg-primary px-6 py-3 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
             >
               PNG 4:5 (Feed)
             </button>
             <button
               onClick={() => drawAndDownload("9:16")}
+              data-ga-event="simulator_export"
+              data-ga-label="png_story"
               className="rounded-full bg-primary px-6 py-3 text-xs font-bold uppercase tracking-wider text-background glow-primary hover:brightness-110"
             >
               PNG 9:16 (Story)

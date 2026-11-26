@@ -35,7 +35,7 @@ export default function MeinBoardPage() {
           <p className="text-sm leading-relaxed text-muted">
             Sortiere die {meta.draftYear}er-Prospects so, wie du sie siehst. Grundlage ist unser
             Consensus-Board (Stand {germanDate(meta.updated)}); neben jedem Spieler siehst du, wie weit
-            du davon abweichst. Alles bleibt in deinem Browser gespeichert – ohne Konto, ohne Tracking.
+            du davon abweichst. Alles bleibt in deinem Browser gespeichert – ohne Konto, dein Board und deine Notizen werden nie übertragen.
             Mehr zum Consensus erfährst du <Link href="/ueber-uns" className="font-bold text-primary hover:underline">in unserer Methodik</Link>.
           </p>
         </header>
@@ -65,7 +65,7 @@ export default function MeinBoardPage() {
             },
             {
               q: "Wo wird mein Board gespeichert?",
-              a: "Nur lokal in deinem Browser, ohne Konto und ohne Tracking. Ein Teilen-Link enthält Reihenfolge, Tiers und Namen, aber nie deine Notizen.",
+              a: "Nur lokal in deinem Browser, ohne Konto. Board-Inhalte und Notizen werden nie an uns oder Dritte übertragen. Ein Teilen-Link enthält Reihenfolge, Tiers und Namen, aber nie deine Notizen.",
             },
           ]}
         />

@@ -1,9 +1,10 @@
 import { pageMetadata } from "@/lib/seo";
+import { EinwilligungWiderrufen } from "@/components/Einwilligung";
 
 export const metadata = pageMetadata({
   title: "Datenschutzerklärung",
   description:
-    "Datenschutz bei nfldraft-scouting.de: keine Cookies, kein Tracking. Hosting, Server-Logfiles, lokale Merkliste und eigenes Board – alles nach DSGVO erklärt.",
+    "Datenschutz bei nfldraft-scouting.de: Hosting, Server-Logfiles, lokale Merkliste und eigenes Board sowie Google Analytics nur mit Einwilligung – nach DSGVO erklärt.",
   path: "/datenschutz",
 });
 
@@ -92,8 +93,11 @@ export default function DatenschutzPage() {
           <section>
             <H2>5. Cookies &amp; lokale Speicherung</H2>
             <p>
-              Diese Website setzt keine Cookies und bindet keine Werbe-,
-              Analyse- oder Tracking-Dienste ein. Wenn Sie Spieler auf Ihre
+              Ohne Ihre Einwilligung setzt diese Website keine Cookies und lädt
+              keine Analyse- oder Werbedienste. Werbedienste setzen wir nicht
+              ein. Ihre Entscheidung zur Reichweitenmessung (Abschnitt 6)
+              speichern wir unter dem Schlüssel „nds-einwilligung“ im
+              localStorage Ihres Browsers. Wenn Sie Spieler auf Ihre
               Merkliste setzen oder unter „Mein Board“ ein eigenes Big Board
               mit Notizen anlegen, wird das ausschließlich lokal im Speicher
               Ihres Browsers (localStorage) abgelegt und nicht an uns oder
@@ -108,8 +112,66 @@ export default function DatenschutzPage() {
             </p>
           </section>
 
+          <section id="analytics" className="scroll-mt-24">
+            <H2>6. Reichweitenmessung mit Google Analytics 4</H2>
+            <p>
+              Nur wenn Sie in der Abfrage „Zustimmen“ gewählt haben, setzen wir
+              Google Analytics 4 ein, einen Dienst der Google Ireland Limited,
+              Gordon House, Barrow Street, Dublin 4, Irland. Zweck ist
+              auszuwerten, welche Rankings, Spielerprofile und Werkzeuge
+              genutzt werden und über welche Wege Besuche entstehen, um die
+              Inhalte zu verbessern.
+            </p>
+            <p className="mt-3">
+              Verarbeitet werden insbesondere: eine zufällig vergebene Kennung
+              Ihres Browsers (Cookies „_ga“ und „_ga_…“, Laufzeit bis zu 2
+              Jahre), aufgerufene Seiten und Zeitpunkte, Verweildauer,
+              Scrolltiefe, Klicks auf ausgehende Links, die Nutzung von
+              Merkliste, Board-Export und Simulator-Export (ohne Board-Inhalte
+              oder Notizen), Herkunft des Zugriffs (Referrer, Suchmaschine),
+              Angaben zu Gerät, Browser und Sprache sowie ein ungefährer
+              Standort auf Ebene von Land, Region und Stadt. Google speichert
+              IP-Adressen in Analytics 4 nicht. Google Signals und
+              personalisierte Werbung sind abgeschaltet; die Ereignisdaten
+              werden nach 14 Monaten gelöscht.
+            </p>
+            <p className="mt-3">
+              Rechtsgrundlage für das Speichern und Auslesen der Kennung ist §
+              25 Abs. 1 TDDDG in Verbindung mit Ihrer Einwilligung, für die
+              weitere Verarbeitung Art. 6 Abs. 1 lit. a DSGVO.{" "}
+              <strong>
+                Ohne Einwilligung wird kein Google-Skript geladen und es
+                werden auch keine anonymen Messsignale gesendet.
+              </strong>
+            </p>
+            <p className="mt-3">
+              Drittlandtransfer: Eine Verarbeitung durch die Google LLC in den
+              USA ist möglich. Google LLC ist unter dem EU-US Data Privacy
+              Framework zertifiziert (Angemessenheitsbeschluss der
+              EU-Kommission); ergänzend gelten Standardvertragsklauseln.
+              Weitere Informationen:{" "}
+              <a
+                href="https://policies.google.com/privacy?hl=de"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="text-primary hover:underline"
+              >
+                policies.google.com/privacy
+              </a>
+              .
+            </p>
+            <p className="mt-3">
+              Sie können Ihre Einwilligung jederzeit mit Wirkung für die
+              Zukunft widerrufen – über „Cookie-Einstellungen“ in der
+              Fußzeile oder hier:
+            </p>
+            <div className="mt-3">
+              <EinwilligungWiderrufen />
+            </div>
+          </section>
+
           <section>
-            <H2>6. Spielerdarstellungen</H2>
+            <H2>7. Spielerdarstellungen</H2>
             <p>
               Wo verfügbar, zeigen wir frei lizenzierte Spielerfotos (z. B.
               Creative-Commons- oder Public-Domain-Bilder) von Wikimedia Commons
@@ -126,7 +188,7 @@ export default function DatenschutzPage() {
           </section>
 
           <section>
-            <H2>7. SSL-/TLS-Verschlüsselung</H2>
+            <H2>8. SSL-/TLS-Verschlüsselung</H2>
             <p>
               Diese Seite nutzt aus Sicherheitsgründen eine SSL-/TLS-
               Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an
@@ -135,7 +197,7 @@ export default function DatenschutzPage() {
           </section>
 
           <section>
-            <H2>8. Aktualität</H2>
+            <H2>9. Aktualität</H2>
             <p>
               Diese Datenschutzerklärung wird bei Bedarf angepasst, um sie stets
               aktuellen rechtlichen Anforderungen anzupassen oder Änderungen der

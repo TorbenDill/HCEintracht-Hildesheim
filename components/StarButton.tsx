@@ -2,6 +2,7 @@
 
 import { useWatchlist } from "@/lib/useWatchlist";
 import { cn } from "@/lib/utils";
+import { track } from "@/lib/analytics";
 
 /**
  * Stern zum Hinzufügen/Entfernen eines Spielers zur Merkliste. Einzelnes,
@@ -30,6 +31,7 @@ export default function StarButton({
         e.preventDefault();
         e.stopPropagation();
         toggle(slug);
+        track("merkliste", { aktion: active ? "entfernt" : "hinzugefuegt", spieler: slug });
       }}
       aria-pressed={active}
       aria-label={withLabel ? undefined : active ? "Von Merkliste entfernen" : "Zur Merkliste hinzufügen"}
