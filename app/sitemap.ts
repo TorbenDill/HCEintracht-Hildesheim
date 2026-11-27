@@ -3,6 +3,7 @@ import { getPlayers, getPlayerSlug, getBoardMeta } from "@/lib/player-service";
 import lexikon from "@/data/lexikon.json";
 import { getAllPositionKeys } from "@/lib/positions";
 import { absoluteUrl } from "@/lib/site";
+import { getTeams, teamSlug } from "@/lib/teams";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const meta = getBoardMeta();
@@ -107,9 +108,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  // Nur die Hub-Uebersichten aufnehmen. Die einzelnen College- und
-  // Team-Detailseiten sind aggregierte Linklisten (noindex) und gehoeren
-  // daher nicht in die Sitemap.
+  // College-Detailseiten sind aggregierte Linklisten (noindex) und gehoeren
+  // nicht in die Sitemap. Team-Seiten tragen seit dem Oktober-Umbau eigenen
+  // Inhalt (Pick-Situation, Bilanz, Bedarf, Mock-Pick mit Begruendung,
+  // passende Prospects) und werden seit 27.11.2026 indexiert.
   const collegeRoutes: MetadataRoute.Sitemap = [
     {
       url: absoluteUrl("/colleges"),
@@ -126,6 +128,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.7,
     },
+    ...getTeams().map((t) => ({
+      url: absoluteUrl(`/team/${teamSlug(t.teamAbbr)}`),
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
   ];
 
   return [

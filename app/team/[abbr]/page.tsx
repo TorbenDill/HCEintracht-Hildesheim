@@ -52,8 +52,6 @@ export async function generateMetadata({
     path: `/team/${teamSlug(team.teamAbbr)}`,
     type: "article",
     kicker: "Team-Needs",
-    // Aggregierte Team-Seite; bis zur inhaltlichen Aufwertung nicht indexiert.
-    robots: { index: false, follow: true },
   });
 
 }
