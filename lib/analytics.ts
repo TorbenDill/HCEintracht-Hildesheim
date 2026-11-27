@@ -4,14 +4,18 @@
 // 1. „Consent Mode basic“: Vor einer aktiven Zustimmung wird NICHTS geladen und
 //    nichts an Google gesendet (auch keine cookielosen Pings). Die Consent-Signale
 //    werden nach der Zustimmung trotzdem gesetzt (erst default, dann update).
-// 2. Kein Google Tag Manager: alle Ereignisse stehen hier im Quelltext.
+// 2. Google Tag Manager (Container GTM-TQML353L, Konto „Petersilien Marketing“)
+//    wird erst nach der Zustimmung geladen. Der Container enthält nur den
+//    Google-Tag für GA4 und einen Ereignis-Tag; Inhalt versioniert in
+//    docs/gtm/GTM-TQML353L_import.json. Ereignisse gehen als dataLayer-Push raus.
 // 3. Keine personenbezogenen Daten in Ereignissen (keine Notizen, keine
 //    URL-Fragmente geteilter Boards), keine Werbefunktionen.
 //
 // Seitenaufrufe bei Client-Navigation (App Router) erfasst GA4 selbst über die
 // „Optimierte Analyse“ (Browserverlauf-Änderungen) – deshalb kein manueller page_view.
 
-export const GA4_ID = "G-KN2EWX85MB"; // Property 565934397, Stream 16424034373
+export const GA4_ID = "G-KN2EWX85MB"; // Property 565934397, Stream 16424034373 (Konfiguration im GTM-Container)
+export const GTM_ID = "GTM-TQML353L";
 
 /** Fassung der Einwilligungsabfrage. Erhöhen, wenn sich Zweck oder Empfänger ändern. */
 export const EINWILLIGUNG_FASSUNG = 1;
@@ -66,7 +70,7 @@ export function widerrufeEinwilligung() {
   window.dispatchEvent(new CustomEvent("nds-einwilligung", { detail: null }));
 }
 
-/** Lädt gtag.js genau einmal – nur nach Zustimmung aufrufen. */
+/** Lädt den GTM-Container genau einmal – nur nach Zustimmung aufrufen. */
 export function starteAnalytics() {
   if (typeof window === "undefined" || window.__ndsAnalytics) return;
   window.__ndsAnalytics = true;
@@ -86,16 +90,19 @@ export function starteAnalytics() {
     security_storage: "granted",
   });
   gtag("consent", "update", { analytics_storage: "granted" });
+  window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
   const s = document.createElement("script");
   s.async = true;
-  s.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`;
+  s.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
   document.head.appendChild(s);
-  gtag("js", new Date());
-  gtag("config", GA4_ID, { allow_google_signals: false, allow_ad_personalization_signals: false });
 }
+
+/** Alle Ereignisparameter; je Push zurückgesetzt, damit nichts zum nächsten Ereignis „mitwandert“. */
+const PARAMETER = ["aktion", "spieler", "ziel", "label"] as const;
 
 /** Ereignis senden – ohne Einwilligung passiert nichts. */
 export function track(name: string, parameter: Record<string, string | number | boolean> = {}) {
-  if (typeof window === "undefined" || !window.__ndsAnalytics || typeof window.gtag !== "function") return;
-  window.gtag("event", name, parameter);
+  if (typeof window === "undefined" || !window.__ndsAnalytics || !window.dataLayer) return;
+  const leer = Object.fromEntries(PARAMETER.map((k) => [k, undefined]));
+  window.dataLayer.push({ ...leer, ...parameter, event: name });
 }

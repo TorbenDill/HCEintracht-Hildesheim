@@ -117,7 +117,12 @@ export default function DatenschutzPage() {
             <p>
               Nur wenn Sie in der Abfrage „Zustimmen“ gewählt haben, setzen wir
               Google Analytics 4 ein, einen Dienst der Google Ireland Limited,
-              Gordon House, Barrow Street, Dublin 4, Irland. Zweck ist
+              Gordon House, Barrow Street, Dublin 4, Irland. Eingebunden wird
+              Google Analytics über den Google Tag Manager desselben Anbieters;
+              der Tag Manager selbst setzt keine Cookies und verarbeitet nur
+              die für die Auslieferung nötigen technischen Daten (u. a.
+              IP-Adresse). Er wird ebenfalls erst nach Ihrer Zustimmung
+              geladen. Zweck ist
               auszuwerten, welche Rankings, Spielerprofile und Werkzeuge
               genutzt werden und über welche Wege Besuche entstehen, um die
               Inhalte zu verbessern.
