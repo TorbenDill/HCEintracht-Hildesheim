@@ -35,7 +35,15 @@ const BLOCKED_FILES = {
   // Kategorie sagt Jeremiah Smith, die Beschreibung aber "Image of gio hird,
   // florida gators WR" - widerspruechlich, deshalb gesperrt.
   "jeremiah-smith": ["File:Jeremiah Smith 2024.jpg"],
+  // Namensgleiche Wikipedia-Artikel ueber andere Personen (27.11.2026):
+  // Schauspieler Wayne Knight bzw. Ex-CFL-Linebacker Sammy Brown (geb. 1990).
+  "wayne-knight": ["File:Wayne Knight Photo Op GalaxyCon Raleigh 2025.jpg"],
+  "sammy-brown": ["File:Sammybrownprofilepic2013.jpg"],
 };
+
+// Juengster Geburtsjahrgang, der fuer einen 2027er-Prospect noch plausibel
+// ist. Wikipedia-Artikel ueber aeltere Namensvettern ("born 1990") fallen raus.
+const MIN_BIRTH_YEAR = 1999;
 
 function slug(name) {
   // Muss identisch zu getPlayerSlug (lib/player-service.ts) und slugify
@@ -65,7 +73,25 @@ function nameTokens(name) {
     .filter((t) => t && !SUFFIX.test(t));
 }
 
-async function findImage(name) {
+/**
+ * Passt der Wikipedia-Artikel zu genau diesem Spieler? Der Namensabgleich
+ * allein reicht nicht (fuer "Wayne Knight" kam der Schauspieler, fuer
+ * "Sammy Brown" ein Ex-CFL-Profi). Der Einleitungstext muss deshalb
+ * College Football bzw. das College nennen und darf keinen Geburtsjahrgang
+ * vor MIN_BIRTH_YEAR enthalten.
+ */
+function articleMatches(extract, player) {
+  const e = plain(extract);
+  if (!e.includes("football")) return false;
+  const school = plain(player.college).replace(/\(.*\)/, "").trim();
+  if (!(school && e.includes(school)) && !e.includes("college football")) return false;
+  const born = e.match(/born[^)]{0,40}?((?:19|20)\d{2})/);
+  if (born && Number(born[1]) < MIN_BIRTH_YEAR) return false;
+  return true;
+}
+
+async function findImage(player) {
+  const name = player.name;
   // 1) Wikipedia-Seite über die Suche finden (Football-qualifiziert)
   const search = await api({
     action: "query",
@@ -86,15 +112,19 @@ async function findImage(name) {
     action: "query",
     titles: title,
     redirects: "1",
-    prop: "pageimages|pageprops",
+    prop: "pageimages|pageprops|extracts",
     piprop: "thumbnail|name",
     pithumbsize: "640",
+    exintro: "1",
+    explaintext: "1",
   });
   const p = Object.values(page?.query?.pages || {})[0];
   if (!p || p.pageprops?.disambiguation !== undefined) return null;
+  if (!articleMatches(p.extract || "", player)) return null;
   const file = p.pageimage;
   const thumb = p.thumbnail?.source;
   if (!file || !thumb) return null;
+  if ((BLOCKED_FILES[slug(name)] || []).includes(`File:${file.replace(/_/g, " ")}`)) return null;
 
   // 3) Lizenz + Urheber über die File-Seite prüfen
   const info = await api({
@@ -218,6 +248,13 @@ async function main() {
   let checked = 0;
   for (const pl of players) {
     const key = slug(pl.name);
+    const cachedFile = out[key]?.sourceUrl
+      ? `File:${decodeURIComponent(out[key].sourceUrl.split("File:").pop() || "").replace(/_/g, " ")}`
+      : null;
+    if (cachedFile && (BLOCKED_FILES[key] || []).includes(cachedFile)) {
+      delete out[key]; // gesperrter Fehltreffer aus dem Cache entfernen
+      console.log(`[player-images] ${pl.name}: gesperrtes Foto entfernt (${cachedFile})`);
+    }
     if (out[key]?.url) continue; // bereits im Cache -> nicht erneut abfragen
     checked++;
     try {
@@ -225,7 +262,7 @@ async function main() {
       // Treffer brauchen eine Sichtung von Hand (siehe BLOCKED_FILES) und
       // duerfen deshalb nicht ungeprueft beim Deploy (prebuild) live gehen.
       const img =
-        (await findImage(pl.name)) ||
+        (await findImage(pl)) ||
         (process.argv.includes("--commons") ? await findCommonsImage(pl) : null);
       if (img) {
         out[key] = img;
