@@ -4,11 +4,6 @@
     "primary": "#ba0c2f",
     "secondary": "#a8adb4"
   },
-  "arch-manning": {
-    "number": "16",
-    "primary": "#af5c37",
-    "secondary": "#ffffff"
-  },
   "colin-simmons": {
     "number": "1",
     "primary": "#af5c37",
@@ -24,24 +19,9 @@
     "primary": "#fe5c00",
     "secondary": "#000000"
   },
-  "dante-moore": {
-    "number": "5",
-    "primary": "#00934b",
-    "secondary": "#fff41b"
-  },
   "dylan-stewart": {
     "number": "6",
     "primary": "#73000a",
-    "secondary": "#ffffff"
-  },
-  "darian-mensah": {
-    "number": "10",
-    "primary": "#f47423",
-    "secondary": "#111111"
-  },
-  "trevor-goosby": {
-    "number": "74",
-    "primary": "#af5c37",
     "secondary": "#ffffff"
   },
   "charlie-becker": {
@@ -49,29 +29,59 @@
     "primary": "#970310",
     "secondary": "#ffffff"
   },
+  "chris-cole": {
+    "number": "9",
+    "primary": "#ba0c2f",
+    "secondary": "#ffffff"
+  },
   "jordan-seaton": {
     "number": "77",
     "primary": "#461d76",
     "secondary": "#fdd023"
+  },
+  "ashton-hampton": {
+    "number": "2",
+    "primary": "#f56600",
+    "secondary": "#ffffff"
   },
   "cj-carr": {
     "number": "13",
     "primary": "#062340",
     "secondary": "#c99700"
   },
-  "cam-coleman": {
-    "number": "8",
-    "primary": "#af5c37",
-    "secondary": "#ffffff"
-  },
   "will-echoles": {
     "number": "52",
     "primary": "#13294b",
     "secondary": "#ffffff"
   },
-  "trinidad-chambliss": {
-    "number": "6",
-    "primary": "#13294b",
+  "darian-mensah": {
+    "number": "10",
+    "primary": "#f47423",
+    "secondary": "#111111"
+  },
+  "xavier-gilliam": {
+    "number": "2",
+    "primary": "#ff8200",
+    "secondary": "#ffffff"
+  },
+  "greg-johnson": {
+    "number": "65",
+    "primary": "#5e0a2f",
+    "secondary": "#fab41c"
+  },
+  "jadan-baugh": {
+    "number": "13",
+    "primary": "#0021a5",
+    "secondary": "#ffffff"
+  },
+  "nick-marsh": {
+    "number": "11",
+    "primary": "#970310",
+    "secondary": "#ffffff"
+  },
+  "cam-coleman": {
+    "number": "8",
+    "primary": "#af5c37",
     "secondary": "#ffffff"
   },
   "ellis-robinson-iv": {
@@ -79,29 +89,44 @@
     "primary": "#ba0c2f",
     "secondary": "#ffffff"
   },
-  "ashton-hampton": {
-    "number": "2",
-    "primary": "#f56600",
+  "trinidad-chambliss": {
+    "number": "6",
+    "primary": "#13294b",
     "secondary": "#ffffff"
+  },
+  "trevor-lauck": {
+    "number": "59",
+    "primary": "#231f20",
+    "secondary": "#fcd116"
+  },
+  "trevor-goosby": {
+    "number": "74",
+    "primary": "#af5c37",
+    "secondary": "#ffffff"
+  },
+  "dante-moore": {
+    "number": "5",
+    "primary": "#00934b",
+    "secondary": "#fff41b"
+  },
+  "kade-pieper": {
+    "number": "58",
+    "primary": "#231f20",
+    "secondary": "#fcd116"
   },
   "yhonzae-pierre": {
     "number": "0",
     "primary": "#9e1b32",
     "secondary": "#ffffff"
   },
-  "jadan-baugh": {
-    "number": "13",
-    "primary": "#0021a5",
-    "secondary": "#ffffff"
-  },
-  "chris-cole": {
-    "number": "9",
-    "primary": "#ba0c2f",
-    "secondary": "#ffffff"
-  },
   "kj-bolden": {
     "number": "4",
     "primary": "#ba0c2f",
+    "secondary": "#ffffff"
+  },
+  "arch-manning": {
+    "number": "16",
+    "primary": "#af5c37",
     "secondary": "#ffffff"
   },
   "jamari-johnson": {
@@ -114,10 +139,10 @@
     "primary": "#5d1725",
     "secondary": "#c1c6c8"
   },
-  "greg-johnson": {
-    "number": "65",
-    "primary": "#5e0a2f",
-    "secondary": "#fab41c"
+  "zereoue-williams": {
+    "number": "76",
+    "primary": "#be0000",
+    "secondary": "#ffffff"
   },
   "david-stone": {
     "number": "0",
@@ -134,25 +159,15 @@
     "primary": "#00934b",
     "secondary": "#fff41b"
   },
-  "kade-pieper": {
-    "number": "58",
-    "primary": "#231f20",
-    "secondary": "#fcd116"
-  },
-  "nick-marsh": {
-    "number": "11",
-    "primary": "#970310",
-    "secondary": "#ffffff"
-  },
-  "trevor-lauck": {
-    "number": "59",
-    "primary": "#231f20",
-    "secondary": "#fcd116"
-  },
   "tae-johnson": {
     "number": "9",
     "primary": "#062340",
     "secondary": "#c99700"
+  },
+  "reed-harris": {
+    "number": "3",
+    "primary": "#ffc627",
+    "secondary": "#8c1d40"
   },
   "austin-simmons": {
     "number": "13",
@@ -164,19 +179,24 @@
     "primary": "#9e1b32",
     "secondary": "#ffffff"
   },
+  "carter-smith": {
+    "number": "65",
+    "primary": "#970310",
+    "secondary": "#ffffff"
+  },
+  "boubacar-traore": {
+    "number": "5",
+    "primary": "#062340",
+    "secondary": "#c99700"
+  },
   "kyngstonn-viliamu-asa": {
     "number": "27",
     "primary": "#062340",
     "secondary": "#c99700"
   },
-  "justin-scott": {
-    "number": "5",
-    "primary": "#f47423",
-    "secondary": "#111111"
-  },
-  "carter-smith": {
-    "number": "65",
-    "primary": "#970310",
+  "devan-thompkins": {
+    "number": "1",
+    "primary": "#9e1b32",
     "secondary": "#ffffff"
   },
   "kj-duff": {
@@ -184,14 +204,14 @@
     "primary": "#ce0e2d",
     "secondary": "#ffffff"
   },
-  "sammy-brown": {
-    "number": "47",
-    "primary": "#f56600",
+  "lance-heard": {
+    "number": "53",
+    "primary": "#0033a0",
     "secondary": "#ffffff"
   },
-  "zabien-brown": {
-    "number": "2",
-    "primary": "#9e1b32",
+  "kewan-lacy": {
+    "number": "5",
+    "primary": "#13294b",
     "secondary": "#ffffff"
   },
   "cayden-green": {
@@ -204,9 +224,64 @@
     "primary": "#041e42",
     "secondary": "#ffc72c"
   },
+  "jackson-harris": {
+    "number": "4",
+    "primary": "#461d76",
+    "secondary": "#fdd023"
+  },
   "will-heldt": {
     "number": "13",
     "primary": "#f56600",
+    "secondary": "#ffffff"
+  },
+  "ahmad-moten-sr": {
+    "number": "99",
+    "primary": "#f47423",
+    "secondary": "#111111"
+  },
+  "lanorris-sellers": {
+    "number": "16",
+    "primary": "#73000a",
+    "secondary": "#ffffff"
+  },
+  "sammy-brown": {
+    "number": "47",
+    "primary": "#f56600",
+    "secondary": "#ffffff"
+  },
+  "jelani-mcdonald": {
+    "number": "4",
+    "primary": "#af5c37",
+    "secondary": "#ffffff"
+  },
+  "aj-holmes-jr": {
+    "number": "10",
+    "primary": "#da291c",
+    "secondary": "#000000"
+  },
+  "justin-scott": {
+    "number": "5",
+    "primary": "#f47423",
+    "secondary": "#111111"
+  },
+  "julian-sayin": {
+    "number": "10",
+    "primary": "#ba0c2f",
+    "secondary": "#a8adb4"
+  },
+  "zabien-brown": {
+    "number": "2",
+    "primary": "#9e1b32",
+    "secondary": "#ffffff"
+  },
+  "jordan-ross": {
+    "number": "29",
+    "primary": "#461d76",
+    "secondary": "#fdd023"
+  },
+  "melvin-siani": {
+    "number": "71",
+    "primary": "#af5c37",
     "secondary": "#ffffff"
   },
   "matayo-uiagalelei": {
@@ -214,59 +289,14 @@
     "primary": "#00934b",
     "secondary": "#fff41b"
   },
-  "ahmad-moten-sr": {
-    "number": "99",
-    "primary": "#f47423",
-    "secondary": "#111111"
-  },
-  "boubacar-traore": {
-    "number": "5",
-    "primary": "#062340",
-    "secondary": "#c99700"
-  },
-  "kenyatta-jackson-jr": {
-    "number": "2",
-    "primary": "#ba0c2f",
-    "secondary": "#a8adb4"
-  },
-  "devan-thompkins": {
-    "number": "1",
-    "primary": "#9e1b32",
-    "secondary": "#ffffff"
-  },
-  "julian-sayin": {
-    "number": "10",
-    "primary": "#ba0c2f",
-    "secondary": "#a8adb4"
-  },
-  "melvin-siani": {
-    "number": "71",
-    "primary": "#af5c37",
-    "secondary": "#ffffff"
-  },
-  "reed-harris": {
-    "number": "3",
-    "primary": "#ffc627",
-    "secondary": "#8c1d40"
-  },
-  "xavier-gilliam": {
-    "number": "2",
-    "primary": "#ff8200",
-    "secondary": "#ffffff"
-  },
   "anthonie-knapp": {
     "number": "54",
     "primary": "#062340",
     "secondary": "#c99700"
   },
-  "kewan-lacy": {
-    "number": "5",
-    "primary": "#13294b",
-    "secondary": "#ffffff"
-  },
-  "lance-heard": {
-    "number": "53",
-    "primary": "#0033a0",
+  "luke-reynolds": {
+    "number": "85",
+    "primary": "#6a2c3e",
     "secondary": "#ffffff"
   },
   "deuce-alexander": {
@@ -274,15 +304,10 @@
     "primary": "#13294b",
     "secondary": "#ffffff"
   },
-  "samson-okunlola": {
-    "number": "63",
-    "primary": "#f47423",
-    "secondary": "#111111"
-  },
-  "omarion-miller": {
-    "number": "4",
-    "primary": "#ffc627",
-    "secondary": "#8c1d40"
+  "jaylen-mcclain": {
+    "number": "8",
+    "primary": "#ba0c2f",
+    "secondary": "#a8adb4"
   },
   "jayden-maiava": {
     "number": "14",
@@ -294,84 +319,54 @@
     "primary": "#c9001f",
     "secondary": "#ffffff"
   },
-  "zach-lutmer": {
-    "number": "6",
-    "primary": "#231f20",
-    "secondary": "#fcd116"
-  },
   "princewill-umanmielen": {
     "number": "1",
     "primary": "#461d76",
     "secondary": "#fdd023"
   },
-  "quincy-rhodes-jr": {
-    "number": "97",
-    "primary": "#a32136",
-    "secondary": "#ffffff"
-  },
-  "mario-craver": {
-    "number": "1",
-    "primary": "#500000",
-    "secondary": "#ffffff"
-  },
-  "tavion-gadson": {
-    "number": "94",
-    "primary": "#0033a0",
-    "secondary": "#ffffff"
-  },
-  "luke-reynolds": {
-    "number": "85",
-    "primary": "#6a2c3e",
-    "secondary": "#ffffff"
-  },
-  "zereoue-williams": {
-    "number": "76",
-    "primary": "#be0000",
-    "secondary": "#ffffff"
-  },
-  "damon-wilson-ii": {
-    "number": "10",
-    "primary": "#f47423",
-    "secondary": "#111111"
-  },
-  "austin-siereveld": {
-    "number": "67",
+  "kenyatta-jackson-jr": {
+    "number": "2",
     "primary": "#ba0c2f",
     "secondary": "#a8adb4"
-  },
-  "ryan-wingo": {
-    "number": "1",
-    "primary": "#af5c37",
-    "secondary": "#ffffff"
-  },
-  "lanorris-sellers": {
-    "number": "16",
-    "primary": "#73000a",
-    "secondary": "#ffffff"
-  },
-  "ahmad-hardy": {
-    "number": "29",
-    "primary": "#f1b82d",
-    "secondary": "#000000"
-  },
-  "duce-robinson": {
-    "number": "0",
-    "primary": "#782f40",
-    "secondary": "#ceb888"
   },
   "ty-benefield": {
     "number": "2",
     "primary": "#461d76",
     "secondary": "#fdd023"
   },
-  "koi-perich": {
-    "number": "3",
-    "primary": "#00934b",
-    "secondary": "#fff41b"
+  "tavion-gadson": {
+    "number": "94",
+    "primary": "#0033a0",
+    "secondary": "#ffffff"
   },
-  "rasheem-biles": {
-    "number": "3",
-    "primary": "#af5c37",
+  "elijah-paige": {
+    "number": "72",
+    "primary": "#9d2235",
+    "secondary": "#ffc72c"
+  },
+  "wyatt-young": {
+    "number": "10",
+    "primary": "#fe5c00",
+    "secondary": "#000000"
+  },
+  "damon-wilson-ii": {
+    "number": "10",
+    "primary": "#f47423",
+    "secondary": "#111111"
+  },
+  "audavion-collins": {
+    "number": "2",
+    "primary": "#061440",
+    "secondary": "#ffffff"
+  },
+  "austin-siereveld": {
+    "number": "67",
+    "primary": "#ba0c2f",
+    "secondary": "#a8adb4"
+  },
+  "sammy-omosigho": {
+    "number": "10",
+    "primary": "#2774ae",
     "secondary": "#ffffff"
   },
   "vicari-swain": {
@@ -379,49 +374,89 @@
     "primary": "#73000a",
     "secondary": "#ffffff"
   },
-  "jyaire-hill": {
-    "number": "0",
-    "primary": "#00274c",
-    "secondary": "#ffcb05"
+  "ryan-wingo": {
+    "number": "1",
+    "primary": "#af5c37",
+    "secondary": "#ffffff"
   },
-  "elijah-paige": {
-    "number": "72",
-    "primary": "#9d2235",
-    "secondary": "#ffc72c"
-  },
-  "romanas-frederique-jr": {
+  "ahmad-hardy": {
     "number": "29",
+    "primary": "#f1b82d",
+    "secondary": "#000000"
+  },
+  "samson-okunlola": {
+    "number": "63",
     "primary": "#f47423",
     "secondary": "#111111"
-  },
-  "bear-alexander": {
-    "number": "1",
-    "primary": "#00934b",
-    "secondary": "#fff41b"
-  },
-  "jaylen-mcclain": {
-    "number": "8",
-    "primary": "#ba0c2f",
-    "secondary": "#a8adb4"
-  },
-  "bryant-wesco-jr": {
-    "number": "12",
-    "primary": "#f56600",
-    "secondary": "#ffffff"
   },
   "john-henry-daley": {
     "number": "90",
     "primary": "#00274c",
     "secondary": "#ffcb05"
   },
+  "quincy-rhodes-jr": {
+    "number": "97",
+    "primary": "#a32136",
+    "secondary": "#ffffff"
+  },
+  "duce-robinson": {
+    "number": "0",
+    "primary": "#782f40",
+    "secondary": "#ceb888"
+  },
+  "koi-perich": {
+    "number": "3",
+    "primary": "#00934b",
+    "secondary": "#fff41b"
+  },
+  "amare-thomas": {
+    "number": "0",
+    "primary": "#c8102e",
+    "secondary": "#ffffff"
+  },
+  "rasheem-biles": {
+    "number": "3",
+    "primary": "#af5c37",
+    "secondary": "#ffffff"
+  },
+  "jyaire-hill": {
+    "number": "0",
+    "primary": "#00274c",
+    "secondary": "#ffcb05"
+  },
+  "romanas-frederique-jr": {
+    "number": "29",
+    "primary": "#f47423",
+    "secondary": "#111111"
+  },
+  "teitum-tuioti": {
+    "number": "44",
+    "primary": "#00934b",
+    "secondary": "#fff41b"
+  },
+  "bear-alexander": {
+    "number": "1",
+    "primary": "#00934b",
+    "secondary": "#fff41b"
+  },
+  "bryant-wesco-jr": {
+    "number": "12",
+    "primary": "#f56600",
+    "secondary": "#ffffff"
+  },
   "dom-nichols": {
     "number": "8",
     "primary": "#00274c",
     "secondary": "#ffcb05"
   },
-  "jelani-mcdonald": {
-    "number": "4",
-    "primary": "#af5c37",
+  "tony-rojas": {
+    "number": "13",
+    "primary": "#061440",
+    "secondary": "#ffffff"
+  },
+  "evan-tengesdahl": {
+    "number": "50",
+    "primary": "#000000",
     "secondary": "#ffffff"
   },
   "anthony-boswell": {
@@ -434,20 +469,50 @@
     "primary": "#062340",
     "secondary": "#c99700"
   },
+  "bray-hubbard": {
+    "number": "18",
+    "primary": "#9e1b32",
+    "secondary": "#ffffff"
+  },
+  "wayshawn-parker": {
+    "number": "1",
+    "primary": "#be0000",
+    "secondary": "#ffffff"
+  },
+  "jalen-mayo": {
+    "number": "2",
+    "primary": "#c8102e",
+    "secondary": "#ffffff"
+  },
+  "junior-sherrill": {
+    "number": "0",
+    "primary": "#000000",
+    "secondary": "#cfae70"
+  },
+  "mario-craver": {
+    "number": "1",
+    "primary": "#500000",
+    "secondary": "#ffffff"
+  },
+  "isaac-brown": {
+    "number": "1",
+    "primary": "#c9001f",
+    "secondary": "#ffffff"
+  },
+  "zach-lutmer": {
+    "number": "6",
+    "primary": "#231f20",
+    "secondary": "#fcd116"
+  },
   "jacarrius-peak": {
     "number": "65",
     "primary": "#73000a",
     "secondary": "#ffffff"
   },
-  "aj-holmes-jr": {
-    "number": "10",
-    "primary": "#da291c",
-    "secondary": "#000000"
-  },
-  "jordan-ross": {
-    "number": "29",
-    "primary": "#461d76",
-    "secondary": "#fdd023"
+  "omarion-miller": {
+    "number": "4",
+    "primary": "#ffc627",
+    "secondary": "#8c1d40"
   },
   "brice-pollock": {
     "number": "14",
@@ -464,11 +529,6 @@
     "primary": "#0021a5",
     "secondary": "#ffffff"
   },
-  "audavion-collins": {
-    "number": "2",
-    "primary": "#061440",
-    "secondary": "#ffffff"
-  },
   "niki-prongos": {
     "number": "66",
     "primary": "#8c1515",
@@ -479,24 +539,9 @@
     "primary": "#ba0c2f",
     "secondary": "#ffffff"
   },
-  "wyatt-young": {
-    "number": "10",
-    "primary": "#fe5c00",
-    "secondary": "#000000"
-  },
-  "bray-hubbard": {
-    "number": "18",
-    "primary": "#9e1b32",
-    "secondary": "#ffffff"
-  },
   "suntarine-perkins": {
     "number": "4",
     "primary": "#13294b",
-    "secondary": "#ffffff"
-  },
-  "tony-rojas": {
-    "number": "13",
-    "primary": "#061440",
     "secondary": "#ffffff"
   },
   "lawson-luckie": {
@@ -544,11 +589,6 @@
     "primary": "#0047ba",
     "secondary": "#ffffff"
   },
-  "evan-tengesdahl": {
-    "number": "50",
-    "primary": "#000000",
-    "secondary": "#ffffff"
-  },
   "justin-okoronkwo": {
     "number": "17",
     "primary": "#73000a",
@@ -558,11 +598,6 @@
     "number": "93",
     "primary": "#af5c37",
     "secondary": "#ffffff"
-  },
-  "teitum-tuioti": {
-    "number": "44",
-    "primary": "#00934b",
-    "secondary": "#fff41b"
   },
   "brandon-baker": {
     "number": "73",
@@ -714,6 +749,221 @@
     "primary": "#00274c",
     "secondary": "#ffcb05"
   },
+  "jamari-sharpe": {
+    "number": "22",
+    "primary": "#970310",
+    "secondary": "#ffffff"
+  },
+  "pj-williams": {
+    "number": "59",
+    "primary": "#a80000",
+    "secondary": "#ffffff"
+  },
+  "lj-martin": {
+    "number": "4",
+    "primary": "#0047ba",
+    "secondary": "#ffffff"
+  },
+  "anto-saka": {
+    "number": "14",
+    "primary": "#500000",
+    "secondary": "#ffffff"
+  },
+  "faletau-satuala": {
+    "number": "11",
+    "primary": "#0047ba",
+    "secondary": "#ffffff"
+  },
+  "amare-ferrell": {
+    "number": "1",
+    "primary": "#970310",
+    "secondary": "#ffffff"
+  },
+  "francis-brewu": {
+    "number": "7",
+    "primary": "#062340",
+    "secondary": "#c99700"
+  },
+  "mike-matthews": {
+    "number": "4",
+    "primary": "#ff8200",
+    "secondary": "#ffffff"
+  },
+  "jermaine-mathews-jr": {
+    "number": "7",
+    "primary": "#ba0c2f",
+    "secondary": "#a8adb4"
+  },
+  "cade-uluave": {
+    "number": "4",
+    "primary": "#0047ba",
+    "secondary": "#ffffff"
+  },
+  "drake-lindsey": {
+    "number": "5",
+    "primary": "#5e0a2f",
+    "secondary": "#fab41c"
+  },
+  "cayden-lee": {
+    "number": "19",
+    "primary": "#f1b82d",
+    "secondary": "#000000"
+  },
+  "cj-bailey": {
+    "number": "11",
+    "primary": "#cc0000",
+    "secondary": "#ffffff"
+  },
+  "kemari-copeland": {
+    "number": "13",
+    "primary": "#6a2c3e",
+    "secondary": "#ffffff"
+  },
+  "jayden-bellamy": {
+    "number": "1",
+    "primary": "#000000",
+    "secondary": "#b4a169"
+  },
+  "xavier-scott": {
+    "number": "1",
+    "primary": "#ff5f05",
+    "secondary": "#13294b"
+  },
+  "evan-stewart": {
+    "number": "7",
+    "primary": "#00934b",
+    "secondary": "#fff41b"
+  },
+  "robert-fitzgerald": {
+    "number": "6",
+    "primary": "#492f92",
+    "secondary": "#ffffff"
+  },
+  "ryan-baer": {
+    "number": "70",
+    "primary": "#003594",
+    "secondary": "#ffb81c"
+  },
+  "noah-fifita": {
+    "number": "1",
+    "primary": "#cc0033",
+    "secondary": "#ffffff"
+  },
+  "beau-pribula": {
+    "number": "7",
+    "primary": "#232d4b",
+    "secondary": "#ffffff"
+  },
+  "john-mateer": {
+    "number": "10",
+    "primary": "#990000",
+    "secondary": "#ffffff"
+  },
+  "rocco-becht": {
+    "number": "3",
+    "primary": "#061440",
+    "secondary": "#ffffff"
+  },
+  "gunner-stockton": {
+    "number": "14",
+    "primary": "#ba0c2f",
+    "secondary": "#ffffff"
+  },
+  "aidan-chiles": {
+    "number": "0",
+    "primary": "#492f92",
+    "secondary": "#ffffff"
+  },
+  "coleton-price": {
+    "number": "72",
+    "primary": "#0033a0",
+    "secondary": "#ffffff"
+  },
+  "collin-dixon": {
+    "number": "17",
+    "primary": "#ff5f05",
+    "secondary": "#13294b"
+  },
+  "makhi-hughes": {
+    "number": "21",
+    "primary": "#c8102e",
+    "secondary": "#ffffff"
+  },
+  "shadre-hurst": {
+    "number": "56",
+    "primary": "#c8102e",
+    "secondary": "#ffffff"
+  },
+  "ej-lightsey": {
+    "number": "2",
+    "primary": "#b3a369",
+    "secondary": "#ffffff"
+  },
+  "byrum-brown": {
+    "number": "17",
+    "primary": "#002b5c",
+    "secondary": "#f26522"
+  },
+  "devon-dampier": {
+    "number": "4",
+    "primary": "#be0000",
+    "secondary": "#ffffff"
+  },
+  "braden-pegan": {
+    "number": "7",
+    "primary": "#be0000",
+    "secondary": "#ffffff"
+  },
+  "jonah-burton": {
+    "number": "6",
+    "primary": "#00539b",
+    "secondary": "#ffffff"
+  },
+  "chris-johnson-jr": {
+    "number": "16",
+    "primary": "#f56600",
+    "secondary": "#ffffff"
+  },
+  "michael-bennett-iii": {
+    "number": "75",
+    "primary": "#00934b",
+    "secondary": "#fff41b"
+  },
+  "jaden-craig": {
+    "number": "1",
+    "primary": "#4d1979",
+    "secondary": "#ffffff"
+  },
+  "prophet-brown": {
+    "number": "16",
+    "primary": "#9d2235",
+    "secondary": "#ffc72c"
+  },
+  "sahir-west": {
+    "number": "15",
+    "primary": "#2774ae",
+    "secondary": "#ffffff"
+  },
+  "evan-link": {
+    "number": "71",
+    "primary": "#00274c",
+    "secondary": "#ffcb05"
+  },
+  "wayne-knight": {
+    "number": "3",
+    "primary": "#2774ae",
+    "secondary": "#ffffff"
+  },
+  "david-hoeffken": {
+    "number": "53",
+    "primary": "#e31937",
+    "secondary": "#ffffff"
+  },
+  "fabian-rogosch": {
+    "number": null,
+    "primary": "#862633",
+    "secondary": "#b1b1b1"
+  },
   "justin-hasenhuetl": {
     "number": "65",
     "primary": "#041e42",
@@ -724,11 +974,6 @@
     "primary": "#ba0c2f",
     "secondary": "#ffffff"
   },
-  "david-hoeffken": {
-    "number": "53",
-    "primary": "#e31937",
-    "secondary": "#ffffff"
-  },
   "konstantin-paschos": {
     "number": "99",
     "primary": "#000000",
@@ -737,6 +982,16 @@
   "matti-krueger": {
     "number": "90",
     "primary": "#000060",
+    "secondary": "#ffffff"
+  },
+  "wilson-zierer": {
+    "number": null,
+    "primary": "#002b5c",
+    "secondary": "#f26522"
+  },
+  "joel-queisser": {
+    "number": null,
+    "primary": "#005328",
     "secondary": "#ffffff"
   }
 }

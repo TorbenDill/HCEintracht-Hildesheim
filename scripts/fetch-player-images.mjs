@@ -34,11 +34,33 @@ const COMMONS = "https://commons.wikimedia.org/w/api.php";
 const BLOCKED_FILES = {
   // Kategorie sagt Jeremiah Smith, die Beschreibung aber "Image of gio hird,
   // florida gators WR" - widerspruechlich, deshalb gesperrt.
-  "jeremiah-smith": ["File:Jeremiah Smith 2024.jpg"],
+  // Mandrake-Datei: Identitaet/Urheberschaft ungeprueft (Vorsorge fuer --commons).
+  "jeremiah-smith": ["File:Jeremiah Smith 2024.jpg", "File:Jeremiah Smith Mandrake.png"],
   // Namensgleiche Wikipedia-Artikel ueber andere Personen (27.11.2026):
   // Schauspieler Wayne Knight bzw. Ex-CFL-Linebacker Sammy Brown (geb. 1990).
   "wayne-knight": ["File:Wayne Knight Photo Op GalaxyCon Raleigh 2025.jpg"],
   "sammy-brown": ["File:Sammybrownprofilepic2013.jpg"],
+  // Gesamtpruefung 28.11.2026: CC0-"Eigenwerke" von User:TarheelBornBred
+  // (zahlreiche Copyvio-Loeschhinweise auf der Diskussionsseite), ohne EXIF.
+  "ellis-robinson-iv": ["File:Ellis Robinson IV.jpg"],
+  "kj-bolden": ["File:KJ Bolden.jpg", "File:Ryan Williams Game Winning TD vs Georgia (cropped) KJ Bolden.png"],
+  "nate-frazier": ["File:Nate Frazier (front).jpg", "File:Nate Frazier.jpg", "File:Gunner Stockton and Nate Frazier.jpg"],
+  "lawson-luckie": ["File:Lawson Luckie.jpg"],
+  "gunner-stockton": ["File:Gunner Stockton.jpg", "File:Gunner Stockton and Nate Frazier.jpg"],
+  // CC0-"Eigenwerk" eines Profi-Spielfeldfotos (EXIF "Software: Google").
+  "justice-haynes": ["File:JusticeHaynes2025.jpg"],
+  // PNG ohne EXIF, Hochlader mit Loeschwarnung fuer gleichartige Datei.
+  "jadan-baugh": ["File:Photograph of Jadan Baugh.png"],
+  // Gruppenszene, Gesicht abgewandt, Nummer nur angeschnitten - nicht eindeutig.
+  "yhonzae-pierre": ["File:Yhonzae Pierre.jpg"],
+  // YouTube-Standbild eines Aggregators, Lizenz unklar; 2024er-Datei vom
+  // Hochlader des falsch beschrifteten "Jeremiah Smith 2024.jpg".
+  "julian-sayin": ["File:Julian Sayin Aug 2025.png", "File:Julian Sayin 2024.jpg"],
+  // White-House-Gruppenausschnitt; ersetzt durch Bobak-Foto (manuell in JSON).
+  "charlie-becker": ["File:CharlieBeckerWH.jpg"],
+  // Ohne Nummer/Gesicht bzw. Eigenwerk ohne EXIF; ersetzt durch
+  // LSellers2025SCSU (cropped).jpg (manuell in JSON).
+  "lanorris-sellers": ["File:LaNorris Sellers 2024 (cropped).jpg", "File:LaNorris Sellers Nov 2026.jpg"],
 };
 
 // Juengster Geburtsjahrgang, der fuer einen 2027er-Prospect noch plausibel
