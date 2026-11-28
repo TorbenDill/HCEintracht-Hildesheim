@@ -72,6 +72,10 @@ export type EuropeRadarPlayer = {
   stats_2025?: string | null;
   /** Host der Quelle, die die Zahlen belegt. */
   stats_source?: string | null;
+  /** Belegte Zwischenzahlen der laufenden Saison 2026. */
+  stats_2026?: string | null;
+  /** Sonstiger Status ohne Vertrag (z. B. Trainer, CFL-Verhandlungsliste, Tryout). */
+  pro_note?: string | null;
   /** Erläutert, wie lange ein gebundener Spieler noch College spielt. */
   eligibility_note?: string | null;
   /** Spieler hat oben auf der Seite zusätzlich ein ausführliches Detailprofil. */

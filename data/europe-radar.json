@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-11-28",
   "note": "Alle All-America-Auswahlen der Saison 2025 aus NCAA Division II, Division III und NAIA, die sich mit mindestens zwei unabhängigen Quellen belegen lassen – ausgewertet wurden die Teams von Associated Press, AFCA und D3football.com sowie die Einzelauszeichnungen Harlon Hill Trophy, Gene Upshaw Award, Gagliardi Trophy und Cliff Harris Award. Europlayers- und Hudl-Links erscheinen nur, wenn dort wirklich ein Profil existiert und eindeutig diesem Spieler zugeordnet werden konnte.",
   "players": [
     {
@@ -38,7 +38,7 @@
     {
       "name": "Jack Strand",
       "position": "QB",
-      "college": "MSU Moorhead",
+      "college": "Minnesota State Moorhead",
       "division": "NCAA Division II",
       "class_year": "Senior",
       "height": "6'5\"",
@@ -61,7 +61,7 @@
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/17761606/jack-strand",
       "instagram": null,
-      "nfl_note": "Unter Vertrag bei den Atlanta Falcons (Stand 08/2026) – kein Europa-Kandidat.",
+      "nfl_note": "Unter Vertrag bei den Atlanta Falcons (ESPN-Status aktiv, Stand 28.11.2026) – kein Europa-Kandidat.",
       "europe_note": null,
       "transfer_note": null,
       "availability": "verfuegbar",
@@ -80,6 +80,7 @@
       "weight": null,
       "hometown": "Manheim, Pa",
       "honors": [
+        "Harlon-Hill-Nominee 2026",
         "Harlon-Hill-Finalist 2025",
         "D2CCA Second Team All-America"
       ],
@@ -95,11 +96,12 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Kutztown (5th-Year Senior) – ab 2027 verfügbar.",
       "has_detail": false,
       "stats_2025": "215 von 328 Pässen für 3.070 Yards, 31 Touchdowns bei nur 1 Interception, dazu 547 Rushing-Yards (6,9 pro Lauf) und 7 Lauf-Touchdowns; führte Kutztown zu Vereinsrekorden von 14 Siegen und 645 Punkten",
-      "stats_source": "kubears.com"
+      "stats_source": "kubears.com",
+      "stats_2026": "12 Spiele, 180/285 Pässe, 2.567 Yards, 28 TD, 7 INT, Rating 166,3; 59 Läufe, 360 Yards, 4 TD"
     },
     {
       "name": "Reed Charpia",
@@ -128,7 +130,8 @@
       "eligibility_note": null,
       "has_detail": false,
       "stats_2025": "3.978 Passing-Yards, 326 Completions und 30 Touchdown-Pässe – alle drei Vereinsrekorde; 284,1 Yards pro Spiel, in vier Playoff-Spielen 1.296 Yards. Sechster in der Harlon-Hill-Wahl, bestes Ergebnis der Newberry-Geschichte",
-      "stats_source": "newberrywolves.com"
+      "stats_source": "newberrywolves.com",
+      "pro_note": "2026 Graduate Assistant (QB-Coach) bei Newberry – College-Laufbahn beendet, als Spieler frei."
     },
     {
       "name": "Andrew Miller",
@@ -140,6 +143,7 @@
       "weight": "225 lbs",
       "hometown": "Searcy, Arkansas",
       "honors": [
+        "Harlon-Hill-Nominee 2026",
         "Harlon-Hill-Finalist 2025",
         "AP First Team All-America",
         "AFCA Coaches All-America",
@@ -160,11 +164,12 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Harding (Fifth Year) – ab 2027 verfügbar.",
       "has_detail": false,
       "stats_2025": "2.048 Rushing-Yards, 28 Touchdowns, 7,2 Yards pro Lauf; 14 Spiele mit 100+ Yards, drei mit 200+, Vereinsrekord von 298 Yards und 4 Touchdowns gegen Henderson State. Zweiter in der Harlon-Hill-Wahl",
-      "stats_source": "hardingsports.com"
+      "stats_source": "hardingsports.com",
+      "stats_2026": "12 Spiele, 232 Läufe, 1.288 Yards, 23 TD"
     },
     {
       "name": "Curtis Allen",
@@ -199,7 +204,8 @@
       "eligibility_note": null,
       "has_detail": true,
       "stats_2025": "2.409 Rushing-Yards, 30 Touchdowns, 8,1 Yards pro Lauf; 100+ Yards in allen 12 Spielen, Saisonbestleistung 369 Yards und 5 Touchdowns gegen Bluefield State",
-      "stats_source": "theciaa.com"
+      "stats_source": "theciaa.com",
+      "pro_note": "Kein Profivertrag belegt; NFL-Rookie-Minicamp-Einladungen von Seahawks und Falcons (April 2026)."
     },
     {
       "name": "Jeffrey Jones",
@@ -227,7 +233,7 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Freshman – noch 3 Jahre College-Eligibility, frühestens 2029 verfügbar.",
+      "eligibility_note": "Nicht im Kader 2026 von New Mexico Highlands – Verbleib offen (Transfer oder Karriereende nicht belegt).",
       "has_detail": false
     },
     {
@@ -313,7 +319,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Southern Miss (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Freshman – noch 3 Jahre College-Eligibility, frühestens 2029 verfügbar.",
       "has_detail": false
@@ -373,7 +379,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an North Texas (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Redshirt Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -430,7 +436,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Northwestern (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Redshirt Freshman – noch 3 Jahre College-Eligibility, frühestens 2029 verfügbar.",
       "has_detail": false
@@ -564,7 +570,7 @@
     {
       "name": "Ryan Buttz",
       "position": "OL",
-      "college": "UIndy",
+      "college": "Indianapolis",
       "division": "NCAA Division II",
       "class_year": "Senior",
       "height": "6'4\"",
@@ -713,8 +719,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Redshirt Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Wingate (Graduate Student) – ab 2027 verfügbar.",
       "has_detail": false
     },
     {
@@ -769,7 +775,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Illinois (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -920,7 +926,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Montana (FCS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
       "has_detail": false
@@ -1006,7 +1012,7 @@
       "europlayers_url": null,
       "hudl_url": null,
       "instagram": null,
-      "nfl_note": null,
+      "nfl_note": "CFL: Saskatchewan Roughriders (Practice Roster, erneut verpflichtet am 05.11.2026); zuvor ab Mai 2026 Winnipeg Blue Bombers (am 30.05. entlassen) – kein Europa-Kandidat, solange der CFL-Vertrag läuft.",
       "europe_note": null,
       "transfer_note": null,
       "availability": "verfuegbar",
@@ -1023,6 +1029,7 @@
       "weight": "230 lbs",
       "hometown": "Osage City, Kansas",
       "honors": [
+        "Harlon-Hill-Nominee 2026",
         "AP First Team All-America",
         "AFCA Coaches All-America",
         "D2CCA First Team All-America"
@@ -1039,9 +1046,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Emporia State (Senior) – ab 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "10 Spiele, 85 Tackles, 18,5 TFL, 5,5 Sacks, 2 INT, 3 FF, 3 FR, 3 TD"
     },
     {
       "name": "Tristan Exline",
@@ -1068,7 +1076,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Iowa State (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -1126,7 +1134,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Texas Tech (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "verfuegbar",
       "eligibility_note": null,
       "has_detail": true
@@ -1151,8 +1159,7 @@
         "afca.com": "https://www.afca.com/virginia-unions-curtis-allen-and-livingstones-kenyon-garner-headline-the-2025-afca-division-ii-coaches-all-america-teams/",
         "esuhornets.com": "https://esuhornets.com/documents/2025/12/17/2025-D2CCA-All-America-Team_.pdf",
         "en.wikipedia.org": "https://en.wikipedia.org/wiki/2025_Little_All-America_college_football_team",
-        "gliac.org": "https://gliac.org/news/2026/1/22/ferris-state-footballs-justin-payoute-wins-cliff-harris-award-as-nations-top-defensive-player.aspx",
-        "waltercamp.org": "https://waltercamp.org/2025-walter-camp-division-ii-all-america-team/"
+        "gliac.org": "https://gliac.org/news/2026/1/22/ferris-state-footballs-justin-payoute-wins-cliff-harris-award-as-nations-top-defensive-player.aspx"
       },
       "europlayers_url": null,
       "hudl_url": null,
@@ -1217,9 +1224,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Northeastern State (Senior) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "10 Spiele, 35 Tackles, 3 INT, 10 abgewehrte Pässe, 1 FF, 2 TD"
     },
     {
       "name": "Rance Conner",
@@ -1272,7 +1280,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an UTSA (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -1300,9 +1308,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Redshirt Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei West Alabama (Redshirt Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, FG 7/13, PAT 24/28, längstes FG 44 Yards"
     },
     {
       "name": "Manaki Watanabe",
@@ -1329,7 +1338,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Fresno State (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Redshirt Freshman – noch 3 Jahre College-Eligibility, frühestens 2029 verfügbar.",
       "has_detail": false
@@ -1388,7 +1397,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Delaware State (FCS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
       "has_detail": false
@@ -1417,13 +1426,14 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Lenoir-Rhyne (Redshirt Senior) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "11 Spiele, 20 Kickoff-Returns für 495 Yards, 7 Punt-Returns für 71 Yards, 1 Receiving-TD"
     },
     {
       "name": "Drew Nash",
-      "position": "APB",
+      "position": "QB",
       "college": "Western Colorado",
       "division": "NCAA Division II",
       "class_year": "Redshirt Senior",
@@ -1447,11 +1457,12 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "pro_note": "2026 Assistant Coach (Tight Ends) bei Western Colorado; seit 09/2025 auf der CFL-Verhandlungsliste der Toronto Argonauts. Als Spieler frei."
     },
     {
       "name": "JayJay Jordan",
-      "position": "APB",
+      "position": "RB",
       "college": "Slippery Rock",
       "division": "NCAA Division II",
       "class_year": "Junior",
@@ -1459,6 +1470,7 @@
       "weight": "180 lbs",
       "hometown": "Reading, Pennsylvania",
       "honors": [
+        "Harlon-Hill-Nominee 2026",
         "AP First Team All-America",
         "AFCA Coaches All-America"
       ],
@@ -1473,13 +1485,14 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Slippery Rock (Senior) – ab 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "12 Spiele, 216 Läufe, 1.579 Yards, 28 TD; 34 Receptions, 351 Yards, 2 TD; 14 Punt-Returns, 313 Yards, 3 TD"
     },
     {
       "name": "Shea Ruddy",
-      "position": "APB",
+      "position": "WR",
       "college": "Hillsdale",
       "division": "NCAA Division II",
       "class_year": "Junior",
@@ -1487,6 +1500,7 @@
       "weight": "185 lbs",
       "hometown": "Temperance, Michigan",
       "honors": [
+        "Harlon-Hill-Nominee 2026",
         "AP Second Team All-America",
         "D2CCA First Team All-America"
       ],
@@ -1500,9 +1514,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Hillsdale (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "11 Spiele, 57 Receptions, 923 Yards, 8 TD; 42 Läufe, 213 Yards, 3 TD; 15 Kickoff-Returns, 544 Yards, 3 TD"
     },
     {
       "name": "Bay Harvey",
@@ -1561,8 +1576,9 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
-      "has_detail": false
+      "eligibility_note": "Spielt 2026 als Junior bei North Central (Ill.) – weiter gebunden, frühestens 2028 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, 181/271 Pässe, 2.377 Yards, 21 TD, 6 INT; 286 Rushing-Yards"
     },
     {
       "name": "Jack Curtis",
@@ -1596,7 +1612,7 @@
     {
       "name": "Kaleb Blaha",
       "position": "QB",
-      "college": "Wisconsin-River Falls",
+      "college": "UW-River Falls",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'2\"",
@@ -1625,7 +1641,8 @@
       "eligibility_note": null,
       "has_detail": true,
       "stats_2025": "4.680 Passing-Yards (Division-III-Rekord) und 5.770 Offense-Yards in der Abschlusssaison; Karriere: 11.004 Passing-Yards und 92 Touchdowns",
-      "stats_source": "d3football.com"
+      "stats_source": "d3football.com",
+      "pro_note": "Kein Profivertrag belegt. CFL-Verhandlungsliste Winnipeg Blue Bombers (12.02.2026), Tryout beim Rookie-Minicamp der New Orleans Saints (April 2026)."
     },
     {
       "name": "Eddie Williams",
@@ -1681,7 +1698,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Marist (FCS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -1776,11 +1793,12 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Bethel (MN) (Senior) – ab 2027 verfügbar.",
       "has_detail": true,
       "stats_2025": "122 Fänge für 1.587 Yards und 22 Touchdowns – die meisten Receiving-Yards aller College-Ebenen 2025; MIAC-Rekord von 21 Receptions in einem Spiel",
-      "stats_source": "athletics.bethel.edu"
+      "stats_source": "athletics.bethel.edu",
+      "stats_2026": "8 Spiele, 68 Receptions, 599 Yards, 4 TD (2025: 122 / 1.587 / 22)"
     },
     {
       "name": "Cole Crotty",
@@ -1805,9 +1823,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Johns Hopkins (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "nur 1 Spiel in der Statistik (5 Receptions, 101 Yards, 2 TD) – Ausfallgrund nicht belegt"
     },
     {
       "name": "Dylan Wheeler",
@@ -1862,8 +1881,9 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
-      "has_detail": false
+      "eligibility_note": "Spielt 2026 als Redshirt Junior bei Mount St. Joseph – weiter gebunden, frühestens 2028 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "11 Spiele, 58 Receptions, 1.400 Yards (24,1 Schnitt), 18 TD; je ein Punt- und Kickoff-Return-TD"
     },
     {
       "name": "Gary Lewis",
@@ -1974,7 +1994,7 @@
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/23012499/tyren-montgomery",
       "instagram": null,
-      "nfl_note": null,
+      "nfl_note": "Seit April 2026 bei den Tennessee Titans (Undrafted Free Agent, seit 31.08.2026 Practice Squad) – kein Europa-Kandidat.",
       "europe_note": null,
       "transfer_note": null,
       "availability": "verfuegbar",
@@ -2033,9 +2053,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Utica (Graduate Student) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "10 Spiele, 70 Receptions, 731 Yards, 8 TD"
     },
     {
       "name": "Reed Breckheimer",
@@ -2146,8 +2167,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei North Central (Ill.) (Senior) – ab 2027 verfügbar.",
       "has_detail": false
     },
     {
@@ -2344,8 +2365,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Ohio Northern (Senior) – ab 2027 verfügbar.",
       "has_detail": false
     },
     {
@@ -2399,7 +2420,7 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "eligibility_note": "Nicht im Kader 2026 von Berry – Verbleib offen (Transfer oder Karriereende nicht belegt).",
       "has_detail": false
     },
     {
@@ -2459,7 +2480,7 @@
     {
       "name": "John Sullivan",
       "position": "DL",
-      "college": "North Central (IL)",
+      "college": "North Central (Ill.)",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'2\"",
@@ -2494,8 +2515,8 @@
       "college": "Aurora",
       "division": "NCAA Division III",
       "class_year": "Junior",
-      "height": null,
-      "weight": null,
+      "height": "6'1\"",
+      "weight": "225 lbs",
       "hometown": "Batavia, Illinois",
       "honors": [
         "AP Second Team All-America",
@@ -2511,9 +2532,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Aurora (Senior) – ab 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "11 Spiele, 56 Tackles, 23 TFL, 12,5 Sacks (NCAA-Statistik: 11,5), 5 FF, 5 FR, 2 TD"
     },
     {
       "name": "Kaleb Brown",
@@ -2565,7 +2587,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Wisconsin (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "verfuegbar",
       "eligibility_note": null,
       "has_detail": true
@@ -2630,7 +2652,7 @@
     {
       "name": "Phil Conant",
       "position": "DL",
-      "college": "Bethel",
+      "college": "Bethel (MN)",
       "division": "NCAA Division III",
       "class_year": "Junior",
       "height": null,
@@ -2650,9 +2672,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Bethel (MN) (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, 29 Tackles, 8 TFL, 1,5 Sacks"
     },
     {
       "name": "Tyler Sordillo",
@@ -2677,9 +2700,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Springfield (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, 43 Tackles, 9 TFL, 6 Sacks, 8 QB-Hurries"
     },
     {
       "name": "Zach Frank",
@@ -2765,8 +2789,9 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
-      "has_detail": false
+      "eligibility_note": "Spielt 2026 als Junior bei Hanover – weiter gebunden, frühestens 2028 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "11 Spiele, 56 Tackles, 9 abgewehrte Pässe"
     },
     {
       "name": "Caleb Brubaker",
@@ -2851,7 +2876,8 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "pro_note": "2026 Linebackers Coach bei UW-River Falls – College-Laufbahn beendet, als Spieler frei."
     },
     {
       "name": "Kaiden Roden",
@@ -2876,9 +2902,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Hardin-Simmons (Graduate Student) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, 83 Tackles, 12 TFL, 6,5 Sacks, 2 FF"
     },
     {
       "name": "Keenan Tyler",
@@ -2995,7 +3022,7 @@
     {
       "name": "Devin Williams",
       "position": "DB",
-      "college": "Bethel",
+      "college": "Bethel (MN)",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'1\"",
@@ -3075,16 +3102,17 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false,
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Adrian (Senior) – ab 2027 verfügbar.",
+      "has_detail": true,
       "stats_2025": "8 Interceptions – 0,80 pro Spiel und damit Bestwert der Division III –, 46 Tackles (31 solo), 6,5 Tackles for Loss, fünf abgewehrte Pässe",
-      "stats_source": "afca.com"
+      "stats_source": "afca.com",
+      "stats_2026": "10 Spiele, 55 Tackles, 4 INT, 5 abgewehrte Pässe"
     },
     {
       "name": "Gavin Smith",
       "position": "DB",
-      "college": "Central",
+      "college": "Central (Iowa)",
       "division": "NCAA Division III",
       "class_year": "Senior",
       "height": "6'0\"",
@@ -3133,8 +3161,9 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
-      "has_detail": false
+      "eligibility_note": "Spielt 2026 als Junior bei Ithaca – weiter gebunden, frühestens 2028 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, 78 Tackles, 3 TFL, 1 Sack"
     },
     {
       "name": "Kosta Thrasivoulou",
@@ -3186,9 +3215,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Cortland (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "10 Spiele, 23 Tackles, 3 INT, 7 abgewehrte Pässe, 1 TD"
     },
     {
       "name": "Rahmareon Roby",
@@ -3272,7 +3302,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Middle Tennessee (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -3307,7 +3337,7 @@
     {
       "name": "Chase Lanham",
       "position": "P",
-      "college": "Southwestern",
+      "college": "Southwestern (Texas)",
       "division": "NCAA Division III",
       "class_year": "Freshman",
       "height": null,
@@ -3325,7 +3355,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Tennessee Tech (FCS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Freshman – noch 3 Jahre College-Eligibility, frühestens 2029 verfügbar.",
       "has_detail": false
@@ -3352,7 +3382,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Iowa (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
       "has_detail": false
@@ -3380,9 +3410,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Hobart (Graduate Student) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "25 Punts, 41,2 Yards Schnitt, 11 innerhalb der 20"
     },
     {
       "name": "PJ Pollock",
@@ -3436,9 +3467,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Mary Hardin-Baylor (Senior (Kader schreibt BJ Stewart)) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "10 Spiele, 48 Receptions, 672 Yards, 10 TD; 12 Kickoff-Returns für 418 Yards (2 TD), 15 Punt-Returns für 192 Yards (1 TD)"
     },
     {
       "name": "Jackson Waring",
@@ -3519,9 +3551,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Lindsey Wilson (Ky.) (Senior) – ab 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "11 Spiele, 185 Läufe, 1.566 Yards (8,5 Schnitt), 26 TD; 17 Receptions, 168 Yards, 3 TD"
     },
     {
       "name": "Destynd Loring",
@@ -3605,8 +3638,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Morningside (Iowa) (im Kader 2026) – ab 2027 verfügbar.",
       "has_detail": false
     },
     {
@@ -3632,9 +3665,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Montana Western (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "9 Spiele, 71 Receptions, 1.060 Yards, 10 TD"
     },
     {
       "name": "Isaac Smith",
@@ -3669,7 +3703,7 @@
       "position": "WR",
       "college": "Culver-Stockton (Mo.)",
       "division": "NAIA",
-      "class_year": "Junior",
+      "class_year": "Senior",
       "height": "6'4\"",
       "weight": "215 lbs",
       "hometown": "Carlinville, Illinois",
@@ -3684,11 +3718,11 @@
       "europlayers_url": null,
       "hudl_url": "https://www.hudl.com/profile/21580726/kyle-dixon",
       "instagram": null,
-      "nfl_note": null,
+      "nfl_note": "Seit Mai 2026 bei den New England Patriots (Undrafted Free Agent, Practice Squad) – kein Europa-Kandidat.",
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "eligibility_note": null,
       "has_detail": false
     },
     {
@@ -3879,7 +3913,8 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "pro_note": "2026 Graduate Assistant (Tight Ends) bei Grand View – College-Laufbahn beendet, als Spieler frei."
     },
     {
       "name": "Kyree Watkins",
@@ -3888,7 +3923,7 @@
       "division": "NAIA",
       "class_year": "Senior",
       "height": "6'0\"",
-      "weight": "250 lbs",
+      "weight": "295 lbs",
       "hometown": "Atlanta",
       "honors": [
         "AP First Team All-America",
@@ -3905,8 +3940,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Friends (Kan.) (Senior) – frühestens 2027 verfügbar.",
       "has_detail": true
     },
     {
@@ -3933,8 +3968,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Indiana Wesleyan (Graduate Student) – frühestens 2027 verfügbar.",
       "has_detail": true
     },
     {
@@ -3970,7 +4005,7 @@
       "position": "OL",
       "college": "Marian (Ind.)",
       "division": "NAIA",
-      "class_year": "Senior",
+      "class_year": "Redshirt Junior",
       "height": "6'3\"",
       "weight": "285 lbs",
       "hometown": "Franklin, Indiana",
@@ -3988,8 +4023,8 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 als Redshirt Junior für Marian – voraussichtlich noch ein College-Jahr 2027, frühestens 2028 verfügbar.",
       "has_detail": true
     },
     {
@@ -4015,7 +4050,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an McNeese (FCS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
       "has_detail": false
@@ -4267,7 +4302,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Central Michigan (FBS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
       "has_detail": false
@@ -4324,7 +4359,8 @@
       "transfer_note": null,
       "availability": "verfuegbar",
       "eligibility_note": null,
-      "has_detail": true
+      "has_detail": true,
+      "pro_note": "2026 Student Linebackers Coach bei Saint Xavier – College-Laufbahn beendet, als Spieler frei."
     },
     {
       "name": "Braeden Orlandi",
@@ -4349,7 +4385,7 @@
       "instagram": null,
       "nfl_note": null,
       "europe_note": null,
-      "transfer_note": null,
+      "transfer_note": "Zur Saison 2026 an Montana (FCS) gewechselt – kein Europa-Kandidat, solange er dort spielt.",
       "availability": "gebunden",
       "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
       "has_detail": false
@@ -4377,9 +4413,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
-      "has_detail": false
+      "availability": "verfuegbar",
+      "eligibility_note": "Abschlusssaison 2026 bei Cumberland (Tenn.) (Senior) – ab 2027 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "11 Spiele, 48 Tackles, 7,5 TFL, 3 INT, 5 abgewehrte Pässe"
     },
     {
       "name": "Isaiah Hasten",
@@ -4406,8 +4443,9 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Sophomore – noch 2 Jahre College-Eligibility, frühestens 2028 verfügbar.",
-      "has_detail": false
+      "eligibility_note": "Spielt 2026 als Junior bei Benedictine (Kan.) – weiter gebunden, frühestens 2028 verfügbar.",
+      "has_detail": false,
+      "stats_2026": "11 Spiele, 28 Tackles, 5 INT; 12 Receptions, 196 Yards, 3 TD"
     },
     {
       "name": "Jaiden Jones",
@@ -4433,7 +4471,7 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "eligibility_note": "Nicht im Kader 2026 von Texas Wesleyan – Verbleib offen (Transfer oder Karriereende nicht belegt).",
       "has_detail": false
     },
     {
@@ -4541,7 +4579,7 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Freshman – noch 3 Jahre College-Eligibility, frühestens 2029 verfügbar.",
+      "eligibility_note": "Nicht im Kader 2026 von Friends – Verbleib offen (Transfer oder Karriereende nicht belegt).",
       "has_detail": false
     },
     {
@@ -4595,9 +4633,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Eastern Oregon (Redshirt Senior) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "38 Punts, 37,6 Yards Schnitt; zusätzlich Kicker: FG 4/7, PAT 20/22"
     },
     {
       "name": "A.J. King",
@@ -4623,7 +4662,7 @@
       "europe_note": null,
       "transfer_note": null,
       "availability": "gebunden",
-      "eligibility_note": "War 2025 Junior – noch 1 Jahr College-Eligibility, frühestens 2027 verfügbar.",
+      "eligibility_note": "Nicht im Kader 2026 von Tabor – Verbleib offen (Transfer oder Karriereende nicht belegt).",
       "has_detail": false
     },
     {
@@ -4650,9 +4689,10 @@
       "nfl_note": null,
       "europe_note": null,
       "transfer_note": null,
-      "availability": "verfuegbar",
-      "eligibility_note": null,
-      "has_detail": true
+      "availability": "gebunden",
+      "eligibility_note": "Spielt 2026 noch für Montana Tech (Senior) – frühestens 2027 verfügbar.",
+      "has_detail": true,
+      "stats_2026": "11 Spiele, 88 Receptions, 937 Yards, 9 TD; 19 Punt-Returns für 292 Yards"
     }
   ]
 }
