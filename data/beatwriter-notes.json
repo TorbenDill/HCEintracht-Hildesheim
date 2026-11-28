@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-28",
  "notes": {
   "aj-holmes-jr": [
    {
@@ -105,6 +105,16 @@
   ],
   "ashton-hampton": [
    {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98780/falcons-draft-2027-way-too-early-nfl-mock-draft-3-0-trinidad-chambliss-melvin-siani",
+    "titel": "Falcons Draft 2027: Way-Too-Early NFL Mock Draft 3.0",
+    "datum": "2026-11-27",
+    "text": "In Mixsons eigenem Mock gehen die Falcons an Position 10 auf Hampton. Weil Atlantas Außen-Cornerbacks in dieser Saison oft körperlich dominiert wurden, brächte Hampton Physis; zugleich sei er schnell und wendig genug für kleinere Receiver.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick des Autors mit Begründung und Kaderbezug, Fanseite."
+   },
+   {
     "writer": "car-belton",
     "team": "CAR",
     "url": "https://www.catscratchreader.com/carolina-panthers-draft/62357/carolina-panthers-2027-nfl-draft-prospect-profile-ashton-hampton",
@@ -113,6 +123,18 @@
     "text": "Belton sieht Hampton als modernen Cornerback mit Größe, Länge und Tempo, der in der Coverage zugelegt hat: Er bleibt bei tiefen Routen dran, nutzt die Länge am Catchpoint und liest Zonen disziplinierter. Schwäche sind fünf verpasste Tackles, viele davon gegen Miami. Für Carolina passe er als Boundary-Corner und könne je nach Free Agency von Mike Jackson sofort starten.",
     "wert": "hoch",
     "begruendung": "Vollständiges eigenes Profil mit Stärken, Schwächen und Kaderbezug (Fanseite)."
+   }
+  ],
+  "audavion-collins": [
+   {
+    "writer": "det-rogers",
+    "team": "DET",
+    "url": "https://www.detroitfootball.net/p/detroit-lions-2027-draft-watch-a-9c5",
+    "titel": "Detroit Lions 2027 Draft Watch: A versatile, productive Iowa DB and a physical Notre Dame LB top Week 12's list",
+    "datum": "2026-11-21",
+    "text": "Rogers vermerkt für den Sieg gegen Minnesota fünf Targets gegen Collins, davon drei Catches für 37 Yards.",
+    "wert": "gering",
+    "begruendung": "Reine Statistikbilanz."
    }
   ],
   "austin-siereveld": [
@@ -221,6 +243,16 @@
   ],
   "darian-mensah": [
    {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98589/falcons-draft-2027-five-prospects-for-falcons-fans-to-watch-for-week-12-of-college-football-chris-marshall-drew-azzopardi",
+    "titel": "Falcons Draft 2027: Five Prospects for Falcons Fans to Watch for Week 12 of College Football",
+    "datum": "2026-11-21",
+    "text": "Mixson beschreibt Mensah als sehr präzisen Passer, der in einem enttäuschenden Quarterback-Jahrgang in die QB1-Diskussion kommen könne. Offen sei, ob er sein Niveau auch gegen stärkere Gegner außerhalb der ACC hält.",
+    "wert": "mittel",
+    "begruendung": "Begründete Einordnung mit Stärke und offener Frage, Fanseite."
+   },
+   {
     "writer": "pit-saunders",
     "team": "PIT",
     "url": "https://steelersnow.com/steelers-scout-top-qb-matchup-no-1-wr-week-10-2027-nfl-draft-scout/",
@@ -264,6 +296,26 @@
    }
   ],
   "drew-mestemaker": [
+   {
+    "writer": "mia-poupart",
+    "team": "MIA",
+    "url": "https://www.si.com/nfl/dolphins/onsi/dolphins-sunday-mailbag-douglas-uche-brewer-and-more-01m81ysx1grp",
+    "titel": "Dolphins Sunday Mailbag: Douglas, Uche, Brewer, and More",
+    "datum": "2026-11-22",
+    "text": "Sollten die Dolphins den ersten Pick bekommen, rät Poupart zu Mestemaker – vorausgesetzt, Miami ist überzeugt, dass er ein Elite-Quarterback werden kann; andernfalls solle das Team nach unten traden.",
+    "wert": "mittel",
+    "begruendung": "Eigene Empfehlung mit Begründung und Teambezug."
+   },
+   {
+    "writer": "ari-druin",
+    "team": "ARI",
+    "url": "https://www.si.com/nfl/cardinals/onsi/insider-arizona-cardinals-potential-team-blockbuster-no-1-pick-trade",
+    "titel": "Insider: Cardinals Are Potential Team for Blockbuster No. 1 Pick Trade",
+    "datum": "2026-11-21",
+    "text": "Druin gibt die Einschätzung von Adam Schefter wieder, wonach es um den ersten Pick und damit um Mestemaker eine Art Versteigerung geben könnte, an der sich auch die Cardinals beteiligen könnten.",
+    "wert": "gering",
+    "begruendung": "Wiedergabe einer fremden Insider-Einschätzung."
+   },
    {
     "writer": "mia-poupart",
     "team": "MIA",
@@ -341,6 +393,18 @@
     "begruendung": "Einordnung mit Szenario, Fanseite."
    }
   ],
+  "ellis-robinson-iv": [
+   {
+    "writer": "dal-sanchez",
+    "team": "DAL",
+    "url": "https://www.si.com/nfl/cowboys/onsi/dallas-cowboys-2027-nfl-mock-draft-premium-cornerback-daron-bland-expendable",
+    "titel": "Dallas Cowboys 2027 NFL Mock Draft Lands Premium CB To Make DaRon Bland Expendable",
+    "datum": "2026-11-24",
+    "text": "Sanchez gibt den Mock von Justin Melo (NFL Draft on SI) wieder, in dem Dallas an Position 22 Robinson nimmt, und sieht ihn wegen DaRon Blands Formverlust als möglichen Nachfolger.",
+    "wert": "gering",
+    "begruendung": "Wiedergabe eines fremden Mocks."
+   }
+  ],
   "emmanuel-oyebadejo": [
    {
     "writer": "car-belton",
@@ -385,6 +449,18 @@
     "text": "Nach einem explosiven Spiel mit vier Touchdowns sieht Nelson Brown nicht als Spieler, um den man eine Offense baut, aber als wertvollen Teil einer Rotation.",
     "wert": "mittel",
     "begruendung": "Differenzierte Rolleneinschätzung."
+   }
+  ],
+  "jacarrius-peak": [
+   {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98589/falcons-draft-2027-five-prospects-for-falcons-fans-to-watch-for-week-12-of-college-football-chris-marshall-drew-azzopardi",
+    "titel": "Falcons Draft 2027: Five Prospects for Falcons Fans to Watch for Week 12 of College Football",
+    "datum": "2026-11-21",
+    "text": "Mixson sieht Peak trotz einer wechselhaften Saison als möglichen Tag-2-Tackle für Atlanta: beweglich im Laufspiel und mit guten Füßen in der Pass Protection, technisch aber noch sehr roh.",
+    "wert": "mittel",
+    "begruendung": "Einordnung mit Stärken, Schwäche und Rundenprojektion, Fanseite."
    }
   ],
   "jayden-maiava": [
@@ -434,6 +510,26 @@
    }
   ],
   "jeremiah-smith": [
+   {
+    "writer": "lac-peterson",
+    "team": "LAC",
+    "url": "https://www.boltsfromtheblue.com/los-angeles-chargers-news/67146/los-angeles-chargers-news-2027-mocok-draft-jeremiah-smith",
+    "titel": "Los Angeles Chargers news: Bolts land OSU's Smith in new as QBs take priority in top 2",
+    "datum": "2026-11-24",
+    "text": "Peterson gibt den Mock von Nick Baumgardner (The Athletic) wieder, in dem die Chargers Smith an Position 3 bekommen, weil vor ihnen zwei Quarterbacks gehen.",
+    "wert": "gering",
+    "begruendung": "Wiedergabe eines fremden Mocks."
+   },
+   {
+    "writer": "mia-poupart",
+    "team": "MIA",
+    "url": "https://www.si.com/nfl/dolphins/onsi/dolphins-sunday-mailbag-douglas-uche-brewer-and-more-01m81ysx1grp",
+    "titel": "Dolphins Sunday Mailbag: Douglas, Uche, Brewer, and More",
+    "datum": "2026-11-22",
+    "text": "Poupart würde Smith trotz seiner Klasse nicht mit dem ersten Pick nehmen: Der Abstand zum restlichen Jahrgang sei dafür nicht groß genug, und Quarterback, Pass Rusher oder Cornerback hätten mehr Positionswert als ein Receiver.",
+    "wert": "mittel",
+    "begruendung": "Begründete Einordnung (Positionswert) des Autors mit Bezug auf den möglichen Dolphins-Pick."
+   },
    {
     "writer": "mia-poupart",
     "team": "MIA",
@@ -525,6 +621,26 @@
   ],
   "leonard-moore": [
    {
+    "writer": "ten-melo",
+    "team": "TEN",
+    "url": "https://www.musiccitymiracles.com/tennessee-titans-news/68070/do-the-titans-need-to-sign-another-big-money-cb-this-offseason",
+    "titel": "Do the Titans need to sign another big-money CB this offseason?",
+    "datum": "2026-11-24",
+    "text": "Nach dem Fehlgriff mit Alontae Taylor fehlt den Titans laut Melo ein Starter auf Cornerback. Nur Moore wäre als Top-5-Pick ein Kandidat, der sofort in Salehs komplexer Defense starten kann; von einem späteren Cornerback dürfe man das kaum erwarten.",
+    "wert": "mittel",
+    "begruendung": "Bedarf mit konkretem Kaderbezug (Williams, Robinson, Taylor) und Rundenbezug."
+   },
+   {
+    "writer": "ten-melo",
+    "team": "TEN",
+    "url": "https://www.musiccitymiracles.com/tennessee-titans-analysis/68037/the-titans-3-worst-starters-on-defense-need-2027-replacing",
+    "titel": "The Titans' 3 worst starters on defense need 2027 replacing",
+    "datum": "2026-11-23",
+    "text": "Melo zählt Joshua Williams auf der Boundary-Position zu den schwächsten Startern der Titans-Defense und sieht dort dringenden Bedarf an einem Shutdown-Cornerback wie Moore.",
+    "wert": "mittel",
+    "begruendung": "Bedarfseinordnung mit Kaderbezug, kurz."
+   },
+   {
     "writer": "det-rogers",
     "team": "DET",
     "url": "https://www.detroitfootball.net/p/detroit-lions-2027-draft-watch-3-101",
@@ -557,6 +673,40 @@
     "begruendung": "Eigene Einordnung mit Rundenprojektion und Kaderbezug."
    }
   ],
+  "luke-reynolds": [
+   {
+    "writer": "nyg-dabate",
+    "team": "NYG",
+    "url": "https://www.si.com/nfl/giants/onsi/giants-2027-nfl-draft-watchlist-four-college-prospects-to-observe-this-weekend-01m7xk00v7ms",
+    "titel": "Giants 2027 NFL Draft Watchlist: Four College Prospects to Observe This Weekend",
+    "datum": "2026-11-21",
+    "text": "D'Abate beschreibt Reynolds als Tight End mit guter Mischung aus Tempo und Wendigkeit, der auch nach dem Catch Yards macht. Da die Tiefe hinter Isaiah Likely unklar ist, sieht er ihn als passenden Baustein für Matt Nagys Offense.",
+    "wert": "mittel",
+    "begruendung": "Teamfit mit Kaderbezug und kurzer Profileinordnung."
+   },
+   {
+    "writer": "det-rogers",
+    "team": "DET",
+    "url": "https://www.detroitfootball.net/p/detroit-lions-2027-draft-watch-a-9c5",
+    "titel": "Detroit Lions 2027 Draft Watch: A versatile, productive Iowa DB and a physical Notre Dame LB top Week 12's list",
+    "datum": "2026-11-21",
+    "text": "Rogers bilanziert für die 22:40-Niederlage gegen Stanford ein schwaches Spiel von Reynolds: nur ein Catch bei vier Targets trotz 27 Routen, und auch als Run-Blocker sei er nicht wirksam gewesen.",
+    "wert": "mittel",
+    "begruendung": "Spielbeobachtung mit Einordnung."
+   }
+  ],
+  "mark-fletcher-jr": [
+   {
+    "writer": "nyg-dabate",
+    "team": "NYG",
+    "url": "https://www.si.com/nfl/giants/onsi/giants-2027-nfl-draft-watchlist-four-college-prospects-to-observe-this-weekend-01m7xk00v7ms",
+    "titel": "Giants 2027 NFL Draft Watchlist: Four College Prospects to Observe This Weekend",
+    "datum": "2026-11-21",
+    "text": "D'Abate sieht Fletcher als physischen Downhill-Runner, der in Nagys System Lead Back sein könnte, und als Ergänzung zu Cam Skattebo. Mit 36 Rushing-Touchdowns hält er den Karriererekord der Miami Hurricanes.",
+    "wert": "mittel",
+    "begruendung": "Teamfit mit Kaderbezug."
+   }
+  ],
   "matayo-uiagalelei": [
    {
     "writer": "phi-kempski",
@@ -569,6 +719,18 @@
     "begruendung": "Produktionsverlauf als Einordnung, ohne eigene Filmanalyse."
    }
   ],
+  "melvin-siani": [
+   {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98780/falcons-draft-2027-way-too-early-nfl-mock-draft-3-0-trinidad-chambliss-melvin-siani",
+    "titel": "Falcons Draft 2027: Way-Too-Early NFL Mock Draft 3.0",
+    "datum": "2026-11-27",
+    "text": "Mixson hebt hervor, dass Siani nach Goosbys Ausfall stark eingesprungen sei. Weil er beide Tackle-Seiten spielen kann und die Zukunft von Jake Matthews und Jawaan Taylor offen ist, passe er an Position 58 zu den Falcons.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Kaderbezug, Fanseite."
+   }
+  ],
   "nate-frazier": [
    {
     "writer": "sea-nelson",
@@ -579,6 +741,18 @@
     "text": "Nach Verletzungspause meldete sich Frazier mit über 100 Rushing Yards zurück. Nelson wünscht sich für Seattles Backfield genau diese Geradeaus-Geschwindigkeit.",
     "wert": "mittel",
     "begruendung": "Teambedarf und Spielbeleg."
+   }
+  ],
+  "omarion-miller": [
+   {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98780/falcons-draft-2027-way-too-early-nfl-mock-draft-3-0-trinidad-chambliss-melvin-siani",
+    "titel": "Falcons Draft 2027: Way-Too-Early NFL Mock Draft 3.0",
+    "datum": "2026-11-27",
+    "text": "Nach einer enttäuschenden Saison dürfte Millers Stock laut Mixson fallen. Als echter X-Receiver, der außen Eins-gegen-eins gewinnt, würde er an Position 108 Drake London und Kyle Pitts mehr Freiheiten im Slot verschaffen.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Kaderbezug und Rundenargument, Fanseite."
    }
   ],
   "princewill-umanmielen": [
@@ -594,6 +768,16 @@
    }
   ],
   "rasheem-biles": [
+   {
+    "writer": "det-rogers",
+    "team": "DET",
+    "url": "https://www.detroitfootball.net/p/detroit-lions-2027-draft-watch-a-9c5",
+    "titel": "Detroit Lions 2027 Draft Watch: A versatile, productive Iowa DB and a physical Notre Dame LB top Week 12's list",
+    "datum": "2026-11-21",
+    "text": "Rogers nennt für den Sieg gegen LSU elf Tackles, einen Sack und vier Pressures von Biles; in Coverage ließ er vier von fünf Pässen zu, allerdings nur für 37 Yards.",
+    "wert": "gering",
+    "begruendung": "Reine Statistikbilanz ohne Einordnung."
+   },
    {
     "writer": "sea-nelson",
     "team": "SEA",
@@ -635,6 +819,18 @@
     "text": "Im Rams-Mock von Grisak kommt Wingo erst mit Pick 118 in Runde 4. Er nennt ihn athletisch einen Erstrundenspieler mit Baustellen im Spiel, der auch an die Uni zurückkehren könnte; für die Rams, die Davante Adams ersetzen müssen und bei Puka Nacua vor einer Vertragsfrage stehen, wäre er ein guter Fit.",
     "wert": "mittel",
     "begruendung": "Mock-Pick mit Kaderbezug."
+   }
+  ],
+  "sammy-omosigho": [
+   {
+    "writer": "den-hart",
+    "team": "DEN",
+    "url": "https://www.milehighreport.com/denver-broncos-draft/192557/future-broncos-3-prospects-to-watch-in-week-12-of-ncaa-football-season",
+    "titel": "Future Broncos: 3 Prospects to Watch in Week 12 of NCAA Football Season",
+    "datum": "2026-11-21",
+    "text": "Nach dem geplatzten Henley-Trade sucht Denver laut Hart langfristig einen Linebacker. Der UCLA-Transfer Omosigho überzeuge gegen den Lauf, als Pass Rusher und in Coverage; hält er sein Niveau, sei er ein klarer Day-2-Kandidat.",
+    "wert": "mittel",
+    "begruendung": "Bedarf mit Kaderbezug und Rundenprojektion, Fanseite."
    }
   ],
   "samson-okunlola": [
@@ -683,7 +879,39 @@
     "begruendung": "Eigene Stärken-Schwächen-Analyse mit klarer NFL-Projektion."
    }
   ],
+  "trinidad-chambliss": [
+   {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98780/falcons-draft-2027-way-too-early-nfl-mock-draft-3-0-trinidad-chambliss-melvin-siani",
+    "titel": "Falcons Draft 2027: Way-Too-Early NFL Mock Draft 3.0",
+    "datum": "2026-11-27",
+    "text": "Mixson schickt Chambliss in seinem Mock an Position 41 nach Atlanta. Athletik und Ruhe hätten Erstrunden-Niveau, die geringe Größe spreche aber dagegen – daher sei er eine sinnvolle Wette an Tag 2.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Stärken, Schwäche und Rundenargument, Fanseite."
+   }
+  ],
   "ty-benefield": [
+   {
+    "writer": "atl-mixson",
+    "team": "ATL",
+    "url": "https://www.thefalcoholic.com/atlanta-falcons-draft/98780/falcons-draft-2027-way-too-early-nfl-mock-draft-3-0-trinidad-chambliss-melvin-siani",
+    "titel": "Falcons Draft 2027: Way-Too-Early NFL Mock Draft 3.0",
+    "datum": "2026-11-27",
+    "text": "Im Mock von Mixson landet Benefield an Position 72 in Atlanta. Als vielseitiger Safety könne er nach dem Verlust von Jessie Bates ein Fundament der Defense werden; zum Draft erwartet Mixson ihn allerdings früher vom Board.",
+    "wert": "mittel",
+    "begruendung": "Mock-Pick mit Kaderbezug, Fanseite."
+   },
+   {
+    "writer": "den-hart",
+    "team": "DEN",
+    "url": "https://www.milehighreport.com/denver-broncos-draft/192557/future-broncos-3-prospects-to-watch-in-week-12-of-ncaa-football-season",
+    "titel": "Future Broncos: 3 Prospects to Watch in Week 12 of NCAA Football Season",
+    "datum": "2026-11-21",
+    "text": "Hart zählt Benefield zu den besten Defensive Backs des Landes; bei LSU spielte er Safety und Nickel. Weil Brandon Jones vor der Free Agency steht und Hufangas Vertrag nach der Saison 2027 endet, sieht er in ihm einen Fit für Vance Josephs aggressive Defense und hält einen Pick in den Top 50 für möglich.",
+    "wert": "mittel",
+    "begruendung": "Eigene Einordnung mit Kaderbezug und Rundenprojektion, keine Schwächen genannt, Fanseite."
+   },
    {
     "writer": "atl-mixson",
     "team": "ATL",
@@ -705,6 +933,18 @@
     "text": "Die Falcons brauchen dringend Cornerbacks, schreibt Mixson. Swain sei ihm eigentlich etwas zu klein, Speed und Beschleunigung seien aber zu gut, um ihn zu ignorieren – zusätzlich als Returner wertvoll.",
     "wert": "mittel",
     "begruendung": "Abwägung von Maßen und Fähigkeiten, Fanseite."
+   }
+  ],
+  "wayshawn-parker": [
+   {
+    "writer": "den-hart",
+    "team": "DEN",
+    "url": "https://www.milehighreport.com/denver-broncos-draft/192557/future-broncos-3-prospects-to-watch-in-week-12-of-ncaa-football-season",
+    "titel": "Future Broncos: 3 Prospects to Watch in Week 12 of NCAA Football Season",
+    "datum": "2026-11-21",
+    "text": "Hart hebt Parker als einen der besten Backs des Jahrgangs beim Erzwingen verpasster Tackles und bei Yards nach Kontakt hervor; auch seine Pass Protection sei für einen Junior gut. Ob Parker sich zum Draft anmeldet, sei offen.",
+    "wert": "mittel",
+    "begruendung": "Eigene Spielbeobachtung mit Teambezug, Fanseite."
    }
   ],
   "will-echoles": [
