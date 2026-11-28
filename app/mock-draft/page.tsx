@@ -56,7 +56,7 @@ export default function MockDraftPage() {
             Mock Draft <span className="text-primary">{meta.draftYear}</span>
           </h1>
           <p className="max-w-3xl text-sm leading-relaxed text-foreground/85">
-            Runde 1 nach dem aktuellen NFL-Tabellenstand (nach Woche {standings.week}),
+            Runde 1 nach dem aktuellen NFL-Tabellenstand (nach {standings.label}),
             inklusive aller getauschten Picks – die Jets halten derzeit gleich drei
             Erstrundenpicks, die Colts, Rams, Packers, Jaguars und Bears keinen. Pro
             Pick steht der Spieler, den die meisten Mock Drafts der letzten zwei
@@ -147,9 +147,11 @@ function PickRow({ pick }: { pick: Pick }) {
             className="block truncate text-sm font-black uppercase tracking-wide text-foreground hover:text-primary sm:text-base"
           >
             {pick.player}
-            <span className="ml-2 text-xs font-bold text-primary">{pick.position}</span>
-            <span className="ml-2 text-xs font-medium normal-case text-muted">{pick.college}</span>
           </Link>
+          <p className="truncate text-xs">
+            <span className="font-bold text-primary">{pick.position}</span>
+            <span className="ml-2 font-medium text-muted">{pick.college}</span>
+          </p>
         </div>
         {pick.consensus_pct != null ? (
           <span

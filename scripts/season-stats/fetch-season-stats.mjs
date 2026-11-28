@@ -42,7 +42,7 @@ const SCHOOL_ALIAS = {
   "Boise St": "Boise State",
   "Southern California": "USC",
   "Central Florida": "UCF",
-  "NC State": "North Carolina State",
+  // cfbstats fuehrt NC State unter genau diesem Namen (28.11.2026 geprueft).
 };
 
 // Namensvarianten (unser Name -> cfbstats-Name), z. B. Spitznamen.

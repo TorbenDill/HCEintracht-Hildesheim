@@ -1018,7 +1018,7 @@
     "name": "Bruno Dall",
     "position": "EDGE",
     "college": "UCF",
-    "projection": "Day 2-3 (Aufsteiger)",
+    "projection": "Day 3 / Priority UDFA",
     "ranking_overall": 146
   },
   "issa-ouattara": {
@@ -1336,6 +1336,20 @@
     "projection": "Day 3 / Priority UDFA",
     "ranking_overall": 191
   },
+  "david-hoeffken": {
+    "name": "David Höffken",
+    "position": "DT",
+    "college": "Nebraska",
+    "projection": "Watchlist (Rotationsspieler, Rest-Eligibility)",
+    "ranking_overall": 192
+  },
+  "fabian-rogosch": {
+    "name": "Fabian Rogosch",
+    "position": "TE",
+    "college": "Troy",
+    "projection": "Priority UDFA / Rookie-Camp-Kandidat",
+    "ranking_overall": 193
+  },
   "justin-hasenhuetl": {
     "name": "Justin Hasenhuetl",
     "position": "IOL",
@@ -1350,13 +1364,6 @@
     "projection": "Draft 2028 – Rotationsspieler bei Georgia",
     "ranking_overall": null
   },
-  "david-hoeffken": {
-    "name": "David Höffken",
-    "position": "DT",
-    "college": "Nebraska",
-    "projection": "Draft 2028 – fester Rotationsspieler",
-    "ranking_overall": null
-  },
   "konstantin-paschos": {
     "name": "Konstantin Paschos",
     "position": "EDGE",
@@ -1369,6 +1376,20 @@
     "position": "EDGE",
     "college": "Bucknell",
     "projection": "Draft 2028 – NFL-Academy-Absolvent",
+    "ranking_overall": null
+  },
+  "wilson-zierer": {
+    "name": "Wilson Zierer",
+    "position": "OT",
+    "college": "Auburn",
+    "projection": "Draft 2029 – SEC-Starter als True Freshman",
+    "ranking_overall": null
+  },
+  "joel-queisser": {
+    "name": "Joel Queisser",
+    "position": "LB",
+    "college": "Mississippi Valley State",
+    "projection": "Draft 2029 – Starter als Freshman (FCS)",
     "ranking_overall": null
   }
 }

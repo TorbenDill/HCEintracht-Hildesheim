@@ -110,7 +110,7 @@ export default async function TeamPage({
         />
         <div className="mb-8">
           <p className="mb-2 font-mono text-xs font-bold uppercase tracking-widest text-muted">
-            {team.teamAbbr} · Bilanz {team.record} · Stand nach Woche {standings.week}
+            {team.teamAbbr} · Bilanz {team.record} · Stand nach {standings.label}
           </p>
           <h1 className="mb-4 font-display text-3xl font-semibold uppercase leading-tight tracking-tight text-foreground sm:text-4xl lg:text-5xl">
             {team.team}

@@ -27,7 +27,13 @@ export type DraftTeam = TeamRow & {
   order: number;
 };
 
-const source = teamsData as { stand: string; recordAfterWeek: number; teams: TeamRow[] };
+const source = teamsData as {
+  stand: string;
+  recordAfterWeek: number;
+  /** Optional genauer Stand, z. B. "Woche 11 und den Thanksgiving-Spielen der Woche 12". */
+  weekLabel?: string;
+  teams: TeamRow[];
+};
 
 const teams: DraftTeam[] = source.teams
   .map((t) => {
@@ -60,9 +66,13 @@ export function teamSlug(abbr: string): string {
   return abbr.toLowerCase();
 }
 
-/** Stand der Bilanzen, z. B. { stand: "2026-10-18", week: 5 }. */
-export function getStandingsMeta(): { stand: string; week: number } {
-  return { stand: source.stand, week: source.recordAfterWeek };
+/** Stand der Bilanzen, z. B. { stand: "2026-10-18", week: 5, label: "Woche 5" }. */
+export function getStandingsMeta(): { stand: string; week: number; label: string } {
+  return {
+    stand: source.stand,
+    week: source.recordAfterWeek,
+    label: source.weekLabel ?? `Woche ${source.recordAfterWeek}`,
+  };
 }
 
 export function getTeams(): DraftTeam[] {

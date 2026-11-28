@@ -88,7 +88,7 @@ export default function Home() {
       a: `${
         DRAFT_TERMINE[meta.draftYear] ?? `Der NFL Draft ${meta.draftYear} findet traditionell Ende April statt.`
       } Die Draft-Reihenfolge ergibt sich aus der laufenden NFL-Saison ${meta.draftYear - 1} und steht noch nicht fest.${
-        mock[0] ? ` Nach dem Tabellenstand von Woche ${standings.week}, den unser Mock Draft inklusive aller getauschten Picks nutzt, hätten die ${mock[0].team} den ersten Pick.` : ""
+        mock[0] ? ` Nach dem Tabellenstand von ${standings.label}, den unser Mock Draft inklusive aller getauschten Picks nutzt, hätten die ${mock[0].team} den ersten Pick.` : ""
       }`,
     },
     {

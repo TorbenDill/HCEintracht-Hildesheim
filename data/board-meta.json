@@ -2,15 +2,15 @@
   "draftYear": 2027,
   "siteUrl": "https://www.nfldraft-scouting.de",
   "siteName": "NFL Draft Board 2027 – Forstner Scouting",
-  "updated": "2026-11-26",
+  "updated": "2026-11-28",
   "updateCycle": "Laufende Aktualisierung während der College-Saison",
   "sources": [
     {
-      "name": "NFL Mock Draft Database – Consensus Big Board 2027 (Stand 25.11.2026)",
+      "name": "NFL Mock Draft Database – Consensus Big Board 2027 (Stand 28.11.2026)",
       "url": "https://www.nflmockdraftdatabase.com/big-boards/2027/consensus-big-board-2027"
     },
     {
-      "name": "NFL Mock Draft Database – Consensus Mock Draft 2027 (91 Mocks der letzten zwei Wochen, Stand 23.11.2026)",
+      "name": "NFL Mock Draft Database – Consensus Mock Draft 2027 (74 Mocks der letzten zwei Wochen, Stand 28.11.2026)",
       "url": "https://www.nflmockdraftdatabase.com/mock-drafts/2027/consensus-mock-draft-2027?period=2_weeks"
     },
     {
@@ -30,11 +30,11 @@
       "url": "https://www.draftcountdown.com/rankings/2027-nfl-draft-big-board-top-100-prospect-rankings-updated-brian-lamb/"
     },
     {
-      "name": "cfbstats.com – Saisonstatistiken und Roster 2026 (Stand 24.11.2026)",
+      "name": "cfbstats.com – Saisonstatistiken und Roster 2026 (Stand 27.11.2026)",
       "url": "https://cfbstats.com/"
     },
     {
-      "name": "Tankathon – NFL Draft Order 2027 (Stand 23.11.2026, nach Woche 11)",
+      "name": "Tankathon – NFL Draft Order 2027 (Stand 28.11.2026, nach Woche 11 plus fünf Spielen der Woche 12 vom 26./27.11.)",
       "url": "https://www.tankathon.com/nfl/full-draft"
     }
   ],
@@ -43,9 +43,9 @@
     "url": "https://commons.wikimedia.org"
   },
   "consensus": {
-    "boards": 73,
-    "mocks": 319,
+    "boards": 75,
+    "mocks": 329,
     "source": "NFL Mock Draft Database",
-    "stand": "2026-11-25"
+    "stand": "2026-11-28"
   }
 }
